@@ -1,0 +1,64 @@
+documentType: Tutorial
+title: Aan de slag
+metadata:
+  title: Aan de slag | Microsoft PowerApps
+  description: "Begrijpen wat PowerApps is en wat de bijbehorende software-elementen en verwante technologieën zijn."
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: create-app-sharepoint
+  nextTutorialTitle: Een app maken vanuit SharePoint
+  displayType: one-column
+  author: mgblythe
+  manager: anneta
+  ms.service: powerapps
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: mblythe
+items:
+- durationInMinutes: 1
+  content: "Begrijpen wat PowerApps is en wat de bijbehorende software-elementen en verwante technologieën zijn. De verschillende manieren bekijken waarop u apps kunt maken en een app genereren op basis van een SharePoint-lijst.\n"
+  ms.openlocfilehash: 7e100c074c273d34c4adcaad4f291cc35949d05c
+  ms.sourcegitcommit: fb1a20690729f1958a27bd553774a6047a2cd54e
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 11/12/2017
+- title: Inleiding tot PowerApps
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/n9fkvkekINE?rel=0]
+
+
+    [!INCLUDE [](includes/learning-introducing-powerapps.md)]
+- title: De onderdelen van PowerApps
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/r6mowYePq1Q?rel=0]
+
+
+    [!INCLUDE [](includes/learning-powerapps-parts.md)]
+- title: "Verwante technologieën"
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/C81IfqIn9LI?rel=0]
+
+
+    [!INCLUDE [](includes/learning-related-technologies.md)]
+- title: 'Apps maken: een beknopt overzicht'
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/NOv3kacXqho?rel=0]
+
+
+    [!INCLUDE [](includes/learning-quick-look-powerapps.md)]
+- title: Uw eerste app maken
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/ixRpT48Z6IQ?rel=0]
+
+
+    [!INCLUDE [](includes/learning-create-first-app-powerapps.md)]
+- title: Terugblikken op deze sectie
+  durationInMinutes: 2
+  content: >
+    [!INCLUDE [](includes/learning-review-section-one.md)]
+- content: "U hebt de sectie **Aan de slag** van Microsoft PowerApps - begeleide training voltooid.\0"

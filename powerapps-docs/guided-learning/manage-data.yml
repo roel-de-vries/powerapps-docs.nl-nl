@@ -1,0 +1,58 @@
+documentType: Tutorial
+title: Gegevens beheren
+metadata:
+  title: Gegevens beheren | Microsoft PowerApps
+  description: Begrijpen hoe u gegevens kunt opslaan, modelleren, uitbreiden en beveiligen in Common Data Service.
+  audience: Business User
+  level: Beginner
+  displayType: one-column
+  author: mgblythe
+  manager: anneta
+  ms.service: powerapps
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: mblythe
+items:
+- durationInMinutes: 1
+  content: "Begrijpen hoe u gegevens kunt opslaan en modelleren in Common Data Service. Entiteiten definiëren en gebruiken die aan uw zakelijke gegevens en processen zijn toegewezen, en Common Data Model uitbreiden met aangepaste entiteiten. Op rollen gebaseerde beveiliging gebruiken om toegang tot entiteiten te beheren. Rechtstreeks in de service (en in Excel) met gegevens werken.\n"
+  ms.openlocfilehash: 78638bd391ae00e2305b5be8b37a078296d98401
+  ms.sourcegitcommit: fb1a20690729f1958a27bd553774a6047a2cd54e
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 11/12/2017
+- title: Common Data Service
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/os33pHQ9jSU?rel=0]
+
+
+    [!INCLUDE [](includes/learning-common-data-service.md)]
+- title: Common Data Service-entiteiten begrijpen
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/JJa6n_YaD-w?rel=0]
+
+
+    [!INCLUDE [](includes/learning-common-data-service-entities.md)]
+- title: Aangepaste entiteiten maken
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/qg25q3MjFBo?rel=0]
+
+
+    [!INCLUDE [](includes/learning-common-data-service-custom-entities.md)]
+- title: Entiteitgegevens beheren
+  durationInMinutes: 7
+  content: >
+    > [!Video https://www.youtube.com/embed/n6RizzixvxM?rel=0]
+
+
+    [!INCLUDE [](includes/learning-common-data-service-manage.md)]
+- title: Common Data Service-beveiliging
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/uwm8ghMUCeI?rel=0]
+
+
+    [!INCLUDE [](includes/learning-common-data-service-security.md)]
+- content: "U hebt de sectie **Gegevens beheren** van Microsoft PowerApps - begeleide training voltooid.\0"

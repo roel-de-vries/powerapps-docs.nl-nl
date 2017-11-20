@@ -1,0 +1,127 @@
+### YamlMime:YamlDocument
+documentType: LandingData
+title: Documentatie voor Microsoft PowerApps
+metadata:
+  title: 'Documenten, video''s, referentiemateriaal en meer voor Microsoft PowerApps'
+  description: 'Gebruik de resources in deze sectie om aan de slag te gaan met het maken, aanpassen en delen van apps in PowerApps.'
+  author: SKjerland
+  manager: anneta
+  layout: LandingPage
+  ms.assetid: null
+  ms.service: powerapps
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  ms.topic: landing-page
+  ms.date: 11/05/2017
+  ms.author: sharik
+sections:
+  - items:
+      - type: markdown
+        text: |
+          Gebruik de resources in deze sectie om aan de slag te gaan met het maken, aanpassen en delen van apps. U kunt beginnen door automatisch een app te genereren en deze vervolgens aan te passen, maar u kunt ook zelf een volledig nieuwe app bouwen.
+  - items:
+      - type: list
+        style: cards
+        className: cardsM
+        columns: 2
+        items:
+          - href: guided-learning
+            html: '<p>Begeleide training: rondleiding</p>'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_overview.svg'
+            title: Rondleiding
+          - href: getting-started
+            html: <p>Overzicht van PowerApps</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
+            title: Aan de slag
+          - href: webinars-listing
+            html: <p>Live- en on-demand webinars bekijken</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_video.svg'
+            title: Leren van experts
+          - href: 'https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1'
+            html: <p>Deelnemen aan de PowerApps-community</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_configure-teams.svg'
+            title: Communiceren met anderen
+          - href: 'https://powerapps.microsoft.com/blog/'
+            html: <p>De PowerApps-blog bekijken</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_blog.svg'
+            title: Op de hoogte blijven
+          - href: 'https://powerapps.microsoft.com/support/'
+            html: <p>Hulp en ondersteuning krijgen</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_support.svg'
+            title: We helpen u graag
+  - title: Zelfstudies met stapsgewijze instructies
+    items:
+      - type: paragraph
+        text: Informatie over de basisbeginselen van het bouwen van een app.
+      - type: list
+        style: cards
+        className: cardsM
+        columns: 3
+        items:
+          - href: app-from-sharepoint
+            title: Een app genereren voor het beheren van gegevens in een SharePoint-lijst
+            image:
+              src: media/index/i_sharepoint-list.svg
+          - href: get-started-create-from-data
+            title: Een app genereren op basis van Excel-gegevens
+            image:
+              src: media/index/i_excel-data.svg
+          - href: get-started-test-drive
+            title: Een app maken op basis van een sjabloon en deze uitvoeren
+            image:
+              src: media/index/i_template.svg
+          - href: get-started-create-from-blank
+            title: Een volledig nieuwe app maken
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_build.svg'
+          - href: connections-list
+            title: Overzicht van connectors
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_multi-connect.svg'
+          - href: working-with-formulas
+            title: Aan de slag met formules
+            image:
+              src: media/index/i_formula.svg
+  - title: Video-overzicht van PowerApps
+    items:
+      - type: markdown
+        text: '<iframe width="560" height="315" src="https://www.youtube.com/embed/sEHsnVIx31E" frameborder="0" allowfullscreen></iframe>'
+  - title: Geavanceerde zelfstudies
+    items:
+      - type: paragraph
+        text: Informatie over geavanceerdere concepten.
+      - type: list
+        style: cards
+        className: cardsM
+        columns: 3
+        items:
+          - href: working-with-data-sources
+            title: Gegevensbronnen begrijpen
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_generic-database.svg'
+          - href: working-with-tables
+            title: Tabellen en records begrijpen
+            image:
+              src: media/index/i_table.svg
+          - href: working-with-forms
+            title: Gegevensformulieren begrijpen
+            image:
+              src: media/index/i_form.svg
+          - href: working-with-variables
+            title: Variabelen begrijpen
+            image:
+              src: media/index/i_variable.svg
+          - href: gateway-reference
+            title: On-premises gegevensgateways begrijpen
+            image:
+              src: media/index/i_data-gateway.svg
+          - href: data-platform-intro
+            title: Wat zijn entiteiten in Common Data Service?
+            image:
+              src: media/index/i_common-data-service.svg

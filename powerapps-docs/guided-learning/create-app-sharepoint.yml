@@ -1,0 +1,54 @@
+documentType: Tutorial
+title: Een app maken vanuit SharePoint
+metadata:
+  title: Een app maken vanuit SharePoint | Microsoft PowerApps
+  description: Een app met drie schermen maken vanuit een SharePoint-lijst en de app vervolgens verkennen en bijwerken.
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: create-app-cds
+  nextTutorialTitle: Een app maken vanuit Common Data Service
+  displayType: one-column
+  author: mgblythe
+  manager: anneta
+  ms.service: powerapps
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: mblythe
+items:
+- durationInMinutes: 1
+  content: >
+    Een app met drie schermen maken vanuit een SharePoint-lijst en vervolgens de schermen en besturingselementen van de app verkennen. Schermen, besturingselementen en velden van de app bijwerken en formules gebruiken om het app-gedrag verder aan te passen.
+  ms.openlocfilehash: b18bd904adbe96d473e170443945c6464c02d6ea
+  ms.sourcegitcommit: fb1a20690729f1958a27bd553774a6047a2cd54e
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 11/12/2017
+- title: Een app genereren
+  durationInMinutes: 3
+  content: >
+    > [!Video https://www.youtube.com/embed/m6KfAwEdtYU?rel=0]
+
+
+    [!INCLUDE [](includes/learning-spo-app-generate.md)]
+- title: Een gegenereerde app verkennen
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/OJ8a9VINeKU?rel=0]
+
+
+    [!INCLUDE [](includes/learning-spo-app-explore-controls.md)]
+- title: De app aanpassen
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/KydeusvKndQ?rel=0]
+
+
+    [!INCLUDE [](includes/learning-spo-app-customize.md)]
+- title: App-formules verkennen
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/9TBA19YU7EA?rel=0]
+
+
+    [!INCLUDE [](includes/learning-spo-app-explore-formulas.md)]
+- content: "U hebt de sectie **Een app maken vanuit SharePoint** van Microsoft PowerApps: begeleide training voltooid.\0"

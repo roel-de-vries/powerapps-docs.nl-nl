@@ -1,0 +1,44 @@
+documentType: Tutorial
+title: Apps beheren
+metadata:
+  title: Apps delen | Microsoft PowerApps
+  description: Apps delen, bepalen welke versie van een app wordt gebruikt en gedeeld, en werken met containers.
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: manage-data
+  nextTutorialTitle: Gegevens beheren
+  displayType: one-column
+  author: mgblythe
+  manager: anneta
+  ms.service: powerapps
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: mblythe
+items:
+- durationInMinutes: 1
+  content: >
+    Apps delen met collega's en anderen, en bepalen welke versie van een app wordt gebruikt en gedeeld. Werken met containers voor apps, verbindingen en andere resources.
+  ms.openlocfilehash: 706c686d84b520e2366e1fe8152ad9021949b0fe
+  ms.sourcegitcommit: fb1a20690729f1958a27bd553774a6047a2cd54e
+  ms.translationtype: HT
+  ms.contentlocale: nl-NL
+  ms.lasthandoff: 11/12/2017
+- title: Uw apps delen
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/_nUU7oOy4oU?rel=0]
+
+
+    [!INCLUDE [](includes/learning-manage-share-apps.md)]
+- title: Werken met de versies van uw apps
+  durationInMinutes: 1
+  content: >
+    [!INCLUDE [](includes/learning-manage-version-apps.md)]
+- title: Omgevingen
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/32olG9uCmBU?rel=0]
+
+
+    [!INCLUDE [](includes/learning-manage-environments.md)]
+- content: "U hebt de sectie **Apps beheren** van Microsoft PowerApps - begeleide training voltooid.\0"
