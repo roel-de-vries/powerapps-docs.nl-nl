@@ -32,27 +32,31 @@
       href: open-and-run-a-sample-app.md
     - name: Een sjabloon gebruiken
       href: get-started-test-drive.md
-- name: Een app maken vanuit SharePoint
+- name: Beginnen met een SharePoint-lijst
   items:
-    - name: Beginnen vanuit SharePoint
+    - name: Een app maken vanuit SharePoint
       href: generate-app-from-sharepoint-list-interface.md
-    - name: Starten vanuit PowerApps
+    - name: Een app maken vanuit PowerApps
       href: app-from-sharepoint.md
+    - name: Een lijstformulier aanpassen met PowerApps
+      href: customize-list-form.md
+    - name: Integratie met SharePoint-formulieren begrijpen
+      href: sharepoint-form-integration.md
     - name: Een verbinding maken
       href: connect-to-sharepoint.md
-    - name: Een indeling aanpassen
+    - name: Een galerie-indeling aanpassen
       href: customize-layout-sharepoint.md
-    - name: Formulieren aanpassen
+    - name: Een PowerApps-formulier aanpassen
       href: customize-forms-sharepoint.md
     - name: Een kaart aanpassen
       href: customize-card.md
-    - name: Een opzoekveld toevoegen
+    - name: Verbinding maken met lijsten via zoekopdrachten
       href: sharepoint-lookup-fields.md
-- name: Een app maken op basis van een andere gegevensbron
+- name: Beginnen met een andere gegevensbron
   items:
-    - name: Van een entiteit
+    - name: Een app maken op basis van een entiteit
       href: data-platform-create-app.md
-    - name: Op basis van Excel-gegevens
+    - name: Een app maken met Excel-gegevens
       href: get-started-create-from-data.md
     - name: Aan de slag met formules
       href: working-with-formulas.md
