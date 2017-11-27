@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/13/2017
 ms.author: sharik
-ms.openlocfilehash: 162314b1bb94e8358e5ddb290adf9db9f43950a0
-ms.sourcegitcommit: ce66ba8eadc41d5f260217d164f8317b90ae1504
+ms.openlocfilehash: dbcafbc8d77aa427e5d129cb1d5760e10b1a106c
+ms.sourcegitcommit: e1572ad0f9e1f1e6149551e91a9bc1fed45e3132
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="customize-a-sharepoint-list-form-using-powerapps"></a>Een SharePoint-lijstformulier aanpassen met PowerApps
 
@@ -47,9 +47,16 @@ Als u op een willekeurig moment wilt teruggaan naar uw SharePoint-lijst, klikt o
 
 ## <a name="customize-the-list-form"></a>Het lijstformulier aanpassen
 
-PowerApps biedt verschillende manieren voor het aanpassen van formulieren. U kunt bijvoorbeeld de lay-out wijzigen, de tekst opmaken, afbeeldingen of grafieken toevoegen, aangepaste gegevensvalidatie toevoegen, regels toevoegen of aanvullende weergaven maken.
+PowerApps biedt verschillende manieren voor het aanpassen van formulieren. Hieronder ziet u een aantal voorbeelden:
 
-Stel dat uw formulier het veld **AccountID** bevat. U wilt het veld niet weergeven in het formulier.
+* [De grootte en richting wijzigen](set-aspect-ratio-portrait-landscape.md)
+* [De tekst opmaken](controls/properties-text.md)
+* [Afbeeldingen](add-images-pictures-audio-video.md) of [grafieken toevoegen](use-line-pie-bar-chart.md)
+* [Aangepaste gegevensvalidatie toevoegen](functions/function-validate.md)
+* [Regels toevoegen](working-with-rules.md)
+* [Aanvullende weergaven maken](https://powerapps.microsoft.com/blog/separate-custom-forms/)
+
+Stel bijvoorbeeld dat uw formulier het veld **AccountID** bevat. U wilt dit veld niet weergeven in het formulier.
 
 ![Het veld AccountID selecteren](./media/customize-list-form/select-card.png)
 
@@ -57,7 +64,7 @@ Het is in PowerApps zeer eenvoudig om dit veld te verbergen. Hiervoor gaat u naa
 
 ![Het selectievakje AccountID uitschakelen](./media/customize-list-form/checkbox.png)
 
-Zie [Formulieren aanpassen in PowerApps](customize-forms-sharepoint.md) voor stapsgewijze instructies voor het verbergen van velden en het aanbrengen van andere formulierwijzigingen.
+Zie [Formulieren aanpassen in PowerApps](customize-forms-sharepoint.md) voor stapsgewijze instructies voor het verbergen van velden en het aanbrengen van andere formulierwijzigingen. Zie [Documentatie voor Microsoft PowerApps](https://docs.microsoft.com/powerapps/) voor een volledige lijst resources.
 
 ## <a name="save-and-publish-the-list-form-back-to-sharepoint"></a>Het lijstformulier weer publiceren naar SharePoint
 

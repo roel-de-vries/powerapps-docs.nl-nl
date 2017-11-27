@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/11/2017
 ms.author: ankitsar
-ms.openlocfilehash: 2bb6aae9ab460e4fc03f6c7e3243f47da0ffe455
-ms.sourcegitcommit: ce66ba8eadc41d5f260217d164f8317b90ae1504
+ms.openlocfilehash: 2a5fd3cb6805f5e22fe6d4bc7fba0de64df8afd2
+ms.sourcegitcommit: e1572ad0f9e1f1e6149551e91a9bc1fed45e3132
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="understand-sharepoint-forms-integration"></a>Integratie met SharePoint-formulieren begrijpen
 U kunt nu eenvoudig [een SharePoint-lijstformulier aanpassen](customize-list-form.md) in PowerApps. In dit artikel vindt u meer informatie over de werking van de formulieren en de manier waarop u deze verder kunt aanpassen.
@@ -54,23 +54,23 @@ Het formulier dat standaard wordt gegenereerd, bestaat uit de volgende besturing
 
         **NewForm(SharePointForm1)**
 
-    * **OnView**: hiermee activeert u de weergavemodus voor **SharePointForm1**.
+    * **OnView**: hiermee activeert u de modus Weergeven voor **SharePointForm1**.
 
         **ViewForm(SharePointForm1)**
 
-    * **OnEdit**: hiermee activeert u de bewerkingsmodus voor **SharePointForm1**.
+    * **OnEdit**: hiermee activeert u de modus Bewerken voor **SharePointForm1**.
 
         **EditForm(SharePointForm1)**
 
-    * **OnSave**: Hiermee worden de wijzigingen opgeslagen in **SharePointForm1**. Wanneer het formulier wordt verzonden, wordt de formule **SharePointForm1.OnSuccess** uitgevoerd.
+    * **OnSave**: hiermee worden de wijzigingen opgeslagen in **SharePointForm1**. Wanneer het formulier wordt verzonden, wordt de formule **SharePointForm1.OnSuccess** uitgevoerd.
 
         **SubmitForm(SharePointForm1)**
 
-    * **OnCancel**: Hiermee maakt u de wijzigingen in **SharePointForm1** ongedaan. Het formulier wordt in SharePoint altijd verborgen wanneer de gebruiker in SharePoint op **Annuleren** klikt of tikt.
+    * **OnCancel**: Hiermee maakt u de wijzigingen in **SharePointForm1** ongedaan. Het formulier wordt in SharePoint altijd verborgen wanneer een gebruiker in SharePoint op **Annuleren** klikt of tikt.
 
         **SubmitForm(SharePointForm1)**
 
-Met deze standaardinstellingen zorgt u ervoor dat het formulier werkt wanneer dit in SharePoint wordt uitgevoerd. Met de instellingen wordt de PowerApps-formuliermodus gewijzigd wanneer de gebruiker het formulier gebruikt in SharePoint. Daarnaast zorgen deze instellingen ervoor dat de wijzigingen naar SharePoint worden verzonden.
+Deze standaardinstellingen zorgen ervoor dat het formulier werkt wanneer dit in SharePoint wordt uitgevoerd. Met de instellingen wordt de PowerApps-formuliermodus gewijzigd wanneer de gebruiker het formulier gebruikt in SharePoint. Daarnaast zorgen deze instellingen ervoor dat de wijzigingen naar SharePoint worden verzonden.
 
 ## <a name="understand-the-sharepointintegration-control"></a>Het besturingselement SharePointIntegration begrijpen
 Het besturingselement **SharePointIntegration** is verantwoordelijk voor de communicatie van gebruikersacties tussen SharePoint en PowerApps.
@@ -90,25 +90,24 @@ Het besturingselement **SharePointIntegration** bevat de volgende eigenschappen:
 
 **OnEdit**: de manier waarop een app reageert wanneer een gebruiker klikt of tikt op de knop **Alles bewerken**, of het formulier **Item bewerken** in SharePoint opent.
 
-**OnSave**: de manier waarop een app reageert wanneer de gebruiker op de knop **Opslaan** in SharePoint klikt of tikt.
+**OnSave**: de manier waarop een app reageert wanneer een gebruiker op de knop **Opslaan** in SharePoint klikt of tikt.
 
-**OnCancel**: de manier waarop een app reageert wanneer de gebruiker op de knop **Annuleren** in SharePoint klikt of tikt.
+**OnCancel**: de manier waarop een app reageert wanneer een gebruiker op de knop **Annuleren** in SharePoint klikt of tikt.
 
 **SelectedListItemID**: de item-ID voor het geselecteerde item in een SharePoint-lijst.
 
 **DataSource**: De lijst die de record bevat die via het formulier wordt weergegeven, bewerkt of gemaakt. Houd er rekening mee dat als u deze eigenschap wijzigt, de eigenschappen **Selected** en **SelectedItemID** mogelijk niet meer werken.
 
 ## <a name="customize-the-default-form"></a>Het standaardformulier aanpassen
-
 Nu u een beter inzicht hebt in het formulier dat standaard wordt gegenereerd en het besturingselement **SharePointIntegration**, kunt u de formules wijzigen om de formulieren verder aan te passen. Hier volgt een aantal zaken waarmee u rekening moet houden wanneer u formulieren aanpast:
 
 * Als u afzonderlijke aangepaste ervaringen voor het maken, weergeven of bewerken van een item wilt maken, geeft u voor de formules **OnNew**, **OnView** of **OnEdit** van het besturingselement **SharePointIntegration** op dat variabelen moeten worden ingesteld of dat naar verschillende schermen moet worden genavigeerd.
 
-* Gebruik de formule **OnSave** van het besturingselement **SharePointIntegration** om aan te passen wat er gebeurt wanneer de gebruiker in SharePoint op **Opslaan** klikt of tikt. Als u meerdere formulieren hebt, moet u ervoor zorgen dat u alleen de wijzigingen verzendt voor het formulier dat momenteel wordt gebruikt.
+* Gebruik de formule **OnSave** van het besturingselement **SharePointIntegration** om aan te passen wat er gebeurt wanneer een gebruiker in SharePoint op **Opslaan** klikt of tikt. Als u meerdere formulieren hebt, moet u ervoor zorgen dat u alleen de wijzigingen verzendt voor het formulier dat momenteel wordt gebruikt.
 
     >[!TIP]
      Stel verschillende waarden in voor een variabele in de formules **OnNew**, **OnView** en **OnEdit**. U kunt deze variabele in de formule **OnSave** gebruiken om te bepalen welk formulier wordt gebruikt.
 
-* Zorg dat u voor alle formulieren **RequestHide()** opneemt in **OnSuccess**. Als u dit vergeet, kan het formulier niet worden verborgen met SharePoint.
+* Zorg dat u voor alle formulieren **RequestHide()** opneemt in de formule **OnSuccess**. Als u dit vergeet, kan het formulier niet worden verborgen met SharePoint.
 
 * U kunt niet bepalen of een formulier wordt verborgen wanneer een gebruiker in SharePoint op **Annuleren** klikt of tikt, dus zorg ervoor dat u uw formulieren opnieuw instelt in de formule **OnCancel** van het besturingselement **SharePointIntegration**.
