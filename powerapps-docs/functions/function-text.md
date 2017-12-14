@@ -115,7 +115,7 @@ Geef de taal als volgt in de aangepaste notatie op:
 
 | Tijdelijke aanduiding | Beschrijving |
 | --- | --- |
-| **[$-*Taalcode*] ** |*Taalcode* is een taalcode die door de functie **Taal** wordt geretourneerd.  Deze code kan de vorm hebben van alleen de taal, zoals **[$en]** voor Engels, maar ook de regio kan erin worden opgenomen, zoals **[$-en-GB]** als u bijvoorbeeld Brits-Engels wilt opgeven. |
+| **[$-*Taalcode*]** |*Taalcode* is een taalcode die door de functie **Taal** wordt geretourneerd.  Deze code kan de vorm hebben van alleen de taal, zoals **[$en]** voor Engels, maar ook de regio kan erin worden opgenomen, zoals **[$-en-GB]** als u bijvoorbeeld Brits-Engels wilt opgeven. |
 
 De tijdelijke aanduiding voor de taal kan overal in de aangepaste notatie voorkomen, maar wel slechts één keer.
 

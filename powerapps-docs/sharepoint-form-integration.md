@@ -48,7 +48,7 @@ Het formulier dat standaard wordt gegenereerd, bestaat uit de volgende besturing
 
     * **Data Source**: de lijst waarvoor het formulier is aangepast.
 
-        **'*NaamVanUwLijst*' **
+        **'*NaamVanUwLijst*'**
 
     * **OnNew**: hiermee activeert u de modus Nieuw voor **SharePointForm1**.
 
