@@ -9,8 +9,8 @@ De eenvoudigste manier om met PowerApps te beginnen is de voorbeelden uit te voe
 ## <a name="whats-next"></a>Hoe nu verder?
 Gefeliciteerd! U hebt de eerste sectie van PowerApps: Gestuurd leren voltooid. Ongeacht met hoeveel ervaring u bent begonnen, we hopen dat u een helder beeld hebt gekregen van wat PowerApps is en hoe u apps kunt gaan maken. We hebben hieronder enkele nuttige bronnen en downloads opgenomen, maar u moet zeker ook eens naar andere onderwerpen van Gestuurd leren kijken. Op dit punt aangekomen kunt u kiezen wat u vervolgens wilt doen:
 
-* [Een app maken en aanpassen op basis van een SharePoint-lijst](learning-spo-app-generate.md)
-* [Een app maken en aanpassen vanuit de Common Data Service](learning-case-app-generate.md) 
+* [Een app maken en aanpassen op basis van een SharePoint-lijst](../create-app-sharepoint#step-1)
+* [Een app maken en aanpassen vanuit de Common Data Service](../create-app-cds#step-1) 
 
 Beide secties laten zien hoe een app wordt gegenereerd en aangepast. De SharePoint-sectie biedt wat meer informatie over de gegenereerde app en in de sectie Common Data Service zijn complexere aanpassingen opgenomen. Natuurlijk kunt u beide secties doornemen. Kies er gewoon een om te beginnen. 
 
