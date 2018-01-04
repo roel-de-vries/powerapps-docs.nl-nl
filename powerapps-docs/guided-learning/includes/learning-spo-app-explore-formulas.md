@@ -48,8 +48,8 @@ Voordat we verdergaan naar de volgende sectie, keren we even terug naar SharePoi
 
 Nu u de app-sectie van SharePoint hebt doorlopen, kunt u voor het vervolg kiezen uit twee mogelijkheden:
 
-* [Apps beheren](../manage-apps#step-1)
-* [Een app maken en aanpassen vanuit de Common Data Service](../create-app-cds#step-1)
+* [Apps beheren](https://docs.microsoft.com/powerapps/guided-learning/manage-apps#step-1)
+* [Een app maken en aanpassen vanuit de Common Data Service](https://docs.microsoft.com/powerapps/guided-learning/create-app-cds#step-1)
 
 In de sectie over beheren ziet u hoe u apps kunt delen en het versiebeleid kunt bepalen. Bovendien hebben we het over omgevingen, die kunnen worden gedefinieerd als containers voor apps, gegevens en andere bronnen. Het is voor iedereen raadzeem om de beheersectie op een bepaald moment door te nemen, maar ook de sectie over de Common Data Service bevat nuttige informatie, met meer app-aanpassingen. 
 
