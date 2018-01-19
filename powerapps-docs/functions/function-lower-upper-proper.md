@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: 2ed6a9f1d52da1818eaaec50194740fb55a09f8e
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="lower-upper-and-proper-functions-in-powerapps"></a>Functies Kleine letters, Hoofdletters en Juiste in PowerApps
 Converteert letters in een tekenreeks met tekst naar allemaal kleine letters, allemaal hoofdletters of een beginhoofdletter, gevolgd door allemaal kleine letters.
@@ -33,7 +33,7 @@ De functies **Kleine letters**, **Hoofdletters** en **Juiste** zetten de weergav
 
 Alle drie de functies negeren tekens die geen letters zijn.
 
-Als u één tekenreeks doorgeeft, is de resulterende waarde de omgezette versie van die tekenreeks.  Als u een [tabel](../working-with-tables.md) met één kolom doorgeeft die tekenreeksen bevat, is de geretourneerde waarde een tabel met één kolom met geconverteerde tekenreeksen. Als u een tabel met meerdere kolommen hebt, kunt u deze omvormen tot een tabel met één kolom, zoals in [working with tables (werken met tabellen)](../working-with-tables.md) is beschreven.
+Als u één tekenreeks doorgeeft, is de resulterende waarde de omgezette versie van die tekenreeks.  Als u een [tabel](../working-with-tables.md) met één kolom doorgeeft die tekenreeksen bevat, is de geretourneerde waarde een tabel met één kolom met geconverteerde tekenreeksen. Als u een tabel met meerdere kolommen hebt, kunt u deze omvormen tot een tabel met één kolom, zoals wordt beschreven in [werken met tabellen](../working-with-tables.md).
 
 ## <a name="syntax"></a>Syntaxis
 **Lower**( *String* )<br>**Upper**( *String* )<br>**Proper**( *String* )

@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/28/2016
 ms.author: litran
 ms.openlocfilehash: 1d32873009c337a835a047df38b9ef18d5bf2064
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="share-an-app-in-powerapps"></a>Een app delen in PowerApps
 Het is fantastisch om apps te ontwikkelen die voldoen aan uw eigen zakelijke behoeften, maar de werkelijke kracht van PowerApps schuilt in het delen van die apps met anderen. In dit onderwerp wordt uitgelegd hoe u apps kunt delen met specifieke gebruikers of beveiligingsgroepen, of zelfs met uw hele organisatie.
@@ -54,7 +54,7 @@ Hier kunt u een app delen aan de hand van de volgende stappen.
    * **Inzender**: gebruikers of groepen kunnen de app uitvoeren, aanpassen en de aangepaste versie delen.
      
        ![App delen - portal](./media/share-app/portal-permissions.png)
-3. Klik of tik op **Save**.
+3. Klik of tik op **Opslaan**.
 
 Als u de machtigingen voor een gebruiker of groep wilt wijzigen, herhaalt u stap 1 van deze procedure en geeft u een andere optie op in de lijst met machtigingen voor die gebruiker of groep. Als u alle machtigingen voor een gebruiker of groep wilt verwijderen, klikt of tikt u op het pictogram **x** voor de gebruiker of groep.
 

@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 07/12/2017
 ms.author: matp
 ms.openlocfilehash: 59ca97b77d7024aee797ddd54472ce7c276cd4b8
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="connect-to-dynamics-365-from-powerapps"></a>Verbinding maken met Dynamics 365 vanuit PowerApps
 Met PowerApps kunt u snel mobiele apps genereren, aanpassen, delen en uitvoeren, waarbij u slechts weinig of geen code hoeft te gebruiken. Met de Dynamics 365-connector maakt u in slechts enkele minuten handige mobiele apps om te delen met uw hele organisatie.

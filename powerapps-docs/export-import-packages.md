@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 07/28/2017
 ms.author: kfend
 ms.openlocfilehash: 9567fb3e7d4dc6c9e53c786adcf74060586db164
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="export-and-import-resources"></a>Resources exporteren en importeren
 Als u meerdere omgevingen hebt gemaakt om de ontwikkeling van uw database en apps te ondersteunen, moet u wijzigingen uitwisselen tussen omgevingen. U kunt **Resources exporteren** en **Resources importeren** gebruiken om resources te verplaatsen tussen omgevingen.

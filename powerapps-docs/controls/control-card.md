@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
 ms.openlocfilehash: e85b7ce4c51e693d566fb50b51be48f9ab3edadd
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="card-control-in-powerapps"></a>Besturingselement voor kaart in PowerApps
 Gebruik dit besturingselement voor het weergeven en bewerken van één veld van een besturingselement **[Formulier weergeven](control-form-detail.md)** of **[Formulier bewerken](control-form-detail.md)**.

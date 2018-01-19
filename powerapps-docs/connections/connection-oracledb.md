@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/14/2017
 ms.author: archanan
 ms.openlocfilehash: dd55314461b2ba4769e50275837dc6fd897fedcc
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="connect-to-an-oracle-database-from-powerapps"></a>Verbinding maken met een Oracle-database vanuit PowerApps
 U kunt tabellen weergeven en tabelrijen maken, lezen, bijwerken en verwijderen in een Oracle-database nadat u een verbinding en een app hebt gemaakt in PowerApps. De Oracle Database-verbinding ondersteunt volledige delegering voor filteren, sorteren en andere functies, maar geen triggers of opgeslagen procedures.

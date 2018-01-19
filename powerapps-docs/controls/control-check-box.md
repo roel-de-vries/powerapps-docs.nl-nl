@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 3784e90bbf6ed45d2b67b6211efaab279e37feca
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="check-box-control-in-powerapps"></a>Besturingselement voor selectievakje in PowerApps
 Een besturingselement dat de gebruiker kan in- of uitschakelen om de waarde ervan in te stellen op **true** of **false**.

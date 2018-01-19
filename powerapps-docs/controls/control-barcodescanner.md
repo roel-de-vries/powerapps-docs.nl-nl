@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: c27a2319d74db9a50acff84e40ea7df83dc1c126
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="barcode-scanner-control-in-powerapps"></a>Besturingselement voor streepjescodescanner in PowerApps
 Een besturingselement waarmee de gebruiker foto's kan maken met behulp van de streepjescodescanner van het apparaat.

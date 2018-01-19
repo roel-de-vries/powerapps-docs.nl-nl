@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/06/2017
 ms.author: astay
 ms.openlocfilehash: 74bac3b0f5bad2b95ab9b6b312fc5209bf5da3a2
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="api-connector-overview-powerapps"></a>Overzicht API-connectors (PowerApps)
 Een **API-connector** is een op OpenAPI (Swagger) gebaseerde wrapper rond een REST API, waardoor de onderliggende service kan communiceren met [Microsoft Flow](https://flow.microsoft.com), [PowerApps](https://powerapps.microsoft.com) en [Logic Apps](https://docs.microsoft.com/azure/logic-apps/). Deze stelt gebruikers in staat hun accounts te verbinden en gebruik te maken van een reeks vooraf gebouwde **triggers** en **acties**, waarmee ze hun apps en werkstromen kunnen ontwikkelen.

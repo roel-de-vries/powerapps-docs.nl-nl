@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: bed2bc9b13b4d167d6852b7029e4e69d54d50413
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="date-and-time-functions-in-powerapps"></a>De functies Date en Time in PowerApps
 Hiermee worden datum- en tijdonderdelen omgezet naar een datum/tijd-waarde.
@@ -51,7 +51,7 @@ Zie ook [Werken met datums en tijden](../show-text-dates-times.md) voor meer inf
 * *Second* - vereist. Een getal van 0 t/m 59.
 
 ## <a name="examples"></a>Voorbeelden
-### <a name="date"></a>Datum
+### <a name="date"></a>Date
 Als een gebruiker **1979** heeft getypt in een besturingselement voor tekstinvoer met de naam **Beginjaar**, **3** in een besturingselement voor tekstinvoer met de naam **Beginmaand** en **17** in een besturingselement voor tekstinvoer met de naam **Begindag**, retourneert deze functie **17-3-1979**:
 
 **Date(Value(Beginjaar.Text), Value(Beginmaand.Text), Value(Begindag.Text))**

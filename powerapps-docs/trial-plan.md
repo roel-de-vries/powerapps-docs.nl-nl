@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/18/2017
 ms.author: manasma
 ms.openlocfilehash: 40fb29976ddc89296b4e7911481c09b9ccf6fb9e
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="plan-2-trial-for-powerapps"></a>Proefversie van PowerApps-abonnement 2
 Registreer u voor de proefversie van PowerApps-abonnement 2 en u krijgt alle functionaliteit 90 dagen gratis. Naast de PowerApps-functionaliteit die u krijgt bij talloze [Office 365- en Dynamics 365-abonnementen](pricing-billing-skus.md), biedt deze proefversie meer capaciteit en premium-functies. De premium-functies zijn onder meer:

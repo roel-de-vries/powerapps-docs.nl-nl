@@ -16,16 +16,16 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: 06f8e7a80adc7a2175f2da7ab98fb1966d8cf015
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="len-function-in-powerapps"></a>De functie Len in PowerApps
 Retourneert de lengte van een teksttekenreeks.
 
 ## <a name="description"></a>Beschrijving
-Als u één tekenreeks als argument opgeeft, vormt de geretourneerde waarde de lengte als een getal.  Als u een [tabel](../working-with-tables.md) met één kolom opgeeft die tekenreeksen bevat, is de geretourneerde waarde een tabel met één kolom die de lengte van elke tekenreeks bevat. Als u een tabel met meerdere kolommen hebt, kunt u deze omvormen tot een tabel met één kolom, zoals in [working with tables (werken met tabellen)](../working-with-tables.md) is beschreven.
+Als u één tekenreeks als argument opgeeft, vormt de geretourneerde waarde de lengte als een getal.  Als u een [tabel](../working-with-tables.md) met één kolom opgeeft die tekenreeksen bevat, is de geretourneerde waarde een tabel met één kolom die de lengte van elke tekenreeks bevat. Als u een tabel met meerdere kolommen hebt, kunt u deze omvormen tot een tabel met één kolom, zoals wordt beschreven in [werken met tabellen](../working-with-tables.md).
 
 Als u een [lege](function-isblank-isempty.md) tekenreeks opgeeft, retourneert **Len** 0.
 

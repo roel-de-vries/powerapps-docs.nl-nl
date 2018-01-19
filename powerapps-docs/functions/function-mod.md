@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/01/2015
 ms.author: gregli
 ms.openlocfilehash: dca811dbc08bf967abb8cf285270a9ce0b87a2a8
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="mod-function-in-powerapps"></a>De functie Mod in PowerApps
 Retourneert de rest van een deling.
@@ -32,6 +32,6 @@ Het resultaat heeft hetzelfde teken als de deler.
 ## <a name="syntax"></a>Syntaxis
 **Mod**( *Number*, *Divisor* )
 
-* *Getal* - vereist. Het te delen getal.
+* *Getal* is vereist. Het te delen getal.
 * *Divisor* - vereist.  Het getal waardoor moet worden gedeeld.
 

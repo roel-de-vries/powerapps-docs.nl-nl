@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 12/06/2016
 ms.author: kfend
 ms.openlocfilehash: a2224d97c9cfc1261e43f7d30c8d8bdd2dd6e86b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="create-a-common-data-service-database"></a>Een Common Data Service-database maken
 U kunt een database maken en apps bouwen door Common Data Service als een gegevensarchief te gebruiken. U kunt uw eigen aangepaste entiteiten maken of de vooraf gedefinieerde entiteiten gebruiken. Als u een database wilt maken, moet u eerst een omgeving maken of als beheerder aan een bestaande omgeving worden toegewezen. Daarnaast moet u aan de juiste licentie zijn toegewezen. Zie [Prijzen](pricing-billing-skus.md) voor informatie over het aanschaffen van een abonnement voor het gebruik van Common Data Service.
@@ -52,7 +52,7 @@ Er zijn drie manieren om een database te maken:
 5. Klik op **Maken**.
 
 ## <a name="create-a-database-in-the-entities-pane-of-powerappscom"></a>Maak een database in het deelvenster Entiteiten op powerapps.com
-1. Ga naar [powerapps.com](https://web.powerapps.com) en vouw de sectie **Common Data Service** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
+1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Common Data Service** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
 2. Klik op **Aan de slag**. De database wordt gemaakt in de open-toegangsmodus.
 
 ## <a name="open-and-restricted-databases"></a>Open en beperkte databases
