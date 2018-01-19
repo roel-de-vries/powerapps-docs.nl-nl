@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 6a7c60755f5623803d20bec4ec9881108b1116c6
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="add-picture-control-in-powerapps"></a>Besturingselement voor toevoegen van afbeeldingen in PowerApps
 Hiermee wordt een foto gemaakt of worden afbeeldingen geladen van het lokale apparaat.
@@ -113,7 +113,7 @@ Deze eigenschappen zijn van toepassing op het binnenste besturingselement voor e
     Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
 2. Klik of tik in het dialoogvenster **Openen** op een afbeeldingsbestand en klik of tik vervolgens op **Openen**.
 3. Voeg een besturingselement **[Knop](control-button.md)** toe, plaats deze onder het besturingselement **Afbeelding toevoegen** en stel vervolgens de eigenschap **[OnSelect](properties-core.md)** van het besturingselement **[Knop](control-button.md)** in op deze formule:<br>
-   **Collect(MijnAfbeeldingen, AddMediaButton1.Media)**
+   **Collect(MyPix, AddMediaButton1.Media)**
    
     Wilt u meer informatie over de functie **[Collect](../functions/function-clear-collect-clearcollect.md)** of [andere functies](../formula-reference.md)?
 4. Voeg een besturingselement **Afbeeldingengalerie** toe en stel de eigenschap **[Items](properties-core.md)** van de galerie in op **MijnAfbeeldingen**.
