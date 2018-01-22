@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 1388eac45e5086f677cb83c8db9593fe01a9819f
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="pie-chart-control-in-powerapps"></a>Besturingselement voor cirkeldiagram in PowerApps
 Een besturingselement waarin relatieve waarden ten opzichte van elkaar worden vergeleken.
@@ -80,7 +80,7 @@ Voeg een besturingselement **Cirkeldiagram** toe als u relatieve gegevens wilt w
 
 ## <a name="example"></a>Voorbeeld
 1. Voeg een besturingselement van het type **[Button](control-button.md)** toe en stel de bijbehorende eigenschap **[OnSelect](properties-core.md)** in op deze formule:<br>
-   **Collect(Omzet2015, {Product:"Europa", Omzet:27000}, {Product:"Ganymede", Omzet:26300}, {Product:"Callisto", Omzet:29200})**
+   **Collect(Revenue2015, {Product:"Europa", Revenue:27000}, {Product:"Ganymede", Revenue:26300}, {Product:"Callisto", Revenue:29200})**
    
     Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
    

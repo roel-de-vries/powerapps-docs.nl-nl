@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: a3a724ad42082962ec8aea4e616f1d75aa7299ec
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="camera-control-in-powerapps"></a>Besturingselement voor camera in PowerApps
 Een besturingselement waarmee de gebruiker foto's kan maken met behulp van de camera van het apparaat.
@@ -73,7 +73,7 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 ## <a name="example"></a>Voorbeeld
 ### <a name="add-photos-to-an-image-gallery-control"></a>Foto's toevoegen aan een besturingselement Afbeeldingengalerie
 1. Voeg een besturingselement **Camera** toe, geef het besturingselement de naam **MijnCamera** en stel de eigenschap **[OnSelect](properties-core.md)** in op deze formule:<br>
-   **Collect(MijnAfbeeldingen, MijnCamera.Photo)**
+   **Collect(MyPix, MyCamera.Photo)**
    
     Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
    

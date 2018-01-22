@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 039b267394ef6be5e3038fa0b07149f69fee6a51
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="column-chart-and-line-chart-controls-in-powerapps"></a>Besturingselementen Kolomdiagram en Lijndiagram in PowerApps
 Besturingselementen die gegevens weergeven als grafieken met x- en y-assen.
@@ -116,7 +116,7 @@ Een besturingselement **Kolomdiagram** of **Lijndiagram** bestaat standaard uit 
 
 ## <a name="example"></a>Voorbeeld
 1. Voeg een besturingselement van het type **[Button](control-button.md)** toe en stel de bijbehorende eigenschap **[OnSelect](properties-core.md)** in op deze formule:<br>
-   **Collect(Omzet, {Jaar:"2013", Europa:24000, Ganymede:22300, Callisto:21200}, {Jaar:"2014", Europa:26500, Ganymede:25700, Callisto:24700},{Jaar:"2014", Europa:27900, Ganymede:28300, Callisto:25600})**
+   **Collect(Revenue, {Year:"2013", Europa:24000, Ganymede:22300, Callisto:21200}, {Year:"2014", Europa:26500, Ganymede:25700, Callisto:24700},{Year:"2014", Europa:27900, Ganymede:28300, Callisto:25600})**
    
     Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
    

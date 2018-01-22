@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: bb652f3ba6decad7cb6f93007eaec6340f230ca1
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="html-text-control-in-powerapps"></a>Besturingselement voor HTML-tekst in PowerApps
 Een vak waarin tekst wordt weergegeven en HTML-codes worden geconverteerd naar opmaak.
@@ -86,7 +86,7 @@ Een besturingselement **HTML-tekst** bevat niet alleen gewone tekst en getallen,
 Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
 
 1. Voeg een besturingselement **HTML-tekst** toe en stel de eigenschap **HTMLText** in op deze waarde:<br>
-   **Bron.Text**
+   **Source.Text**
    
      Het besturingselement **HTML-tekst** bevat dezelfde tekst als het besturingselement **[Label](control-text-box.md)**, maar de codes zijn geconverteerd naar de juiste tekens.
 

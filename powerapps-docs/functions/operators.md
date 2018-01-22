@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 07/24/2017
 ms.author: gregli
 ms.openlocfilehash: 3250251e02170d2dd7bab441bc3c94705216ec00
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="operators-and-data-types-in-powerapps"></a>Operators en gegevenstypen in PowerApps
 Sommige van deze operators zijn afhankelijk van de taal van de auteur.  Zie [Global apps](../global-apps.md) voor meer informatie.
@@ -86,7 +86,7 @@ Bij de besturingselementen op dit scherm is er nog een andere optie. Zij kunnen 
 ## <a name="disambiguation-operator"></a>Ondubbelzinnigheidsoperator
 Sommige functies maken [recordbereiken](../working-with-tables.md#record-scope) voor toegang tot de velden van een tabel tijdens het verwerken van elke record, zoals **Filter**, **AddColumns** en **Sum**.  Veldnamen waarbij het recordbereik is toegevoegd, overschrijven dezelfde namen elders in de app.  Als dit gebeurt, kunt u nog steeds toegang krijgen tot waarden buiten het recordbereik met de operator voor ondubbelzinnigheid **@**:
 
-* Als u toegang wilt krijgen tot waarden van geneste recordbereiken, gebruikt u de operator **@** met de naam van de tabel die wordt bewerkt met behulp van het patroon ***Tabel*[@*Veldnaam*]**.  
+* Als u toegang wilt krijgen tot waarden van geneste recordbereiken, gebruikt u de operator **@** met de naam van de tabel die wordt bewerkt met behulp van het patroon **Tabel*[@*Veldnaam*]**.  
 * Als u toegang wilt krijgen tot globale waarden, zoals gegevensbronnen, verzamelingen en contextvariabelen, gebruikt u het patroon **[@*Objectnaam*]** (zonder een tabelaanduiding).
 
 Zie het gesprek over [recordbereik](../working-with-tables.md#record-scope) voor meer informatie en voorbeelden.

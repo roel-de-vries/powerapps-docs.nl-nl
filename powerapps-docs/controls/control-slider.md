@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: dc10ac44c1c14f182c39176a6b0216f3ede3816d
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="slider-control-in-powerapps"></a>Besturingselement voor schuifregelaar in PowerApps
 Een besturingselement waarmee de gebruiker een waarde kan opgeven door een schuifknop te slepen.
@@ -107,7 +107,7 @@ De gebruiker kan een waarde kiezen, tussen een minimum- en maximumwaarde die u o
 3. Voeg een schuifregelaar toe, plaats deze onder de knop en geef het besturingselement de naam **MinsteAantalInwoners**.
 4. Stel de eigenschap **Max** van de schuifregelaar in op **5000000** en de eigenschap **Min** op **1000000**.
 5. Voeg een tekstgalerie toe met de richting verticaal/staand, plaats deze onder de schuifregelaar en stel de eigenschap **[Items](properties-core.md)** van de galerie in op deze formule:<br>
-   **Filter(Inwonersaantallen, Inwonersaantal > MinsteAantalInwoners)**
+   **Filter(CityPopulations, Population > MinPopulation)**
 6. Stel in het eerste item van de galerie de eigenschap **[Text](properties-core.md)** van het bovenste label in op **ThisItem.Stad** en de eigenschap **[Text](properties-core.md)** van het onderste label in op deze formule:<br> **Text(ThisItem.Inwonersaantal, "##,###")**
 7. Druk op F5 en pas vervolgens **MinsteAantalInwoners** aan om alleen die steden weer te geven met meer inwoners dan de waarde die u opgeeft.
 8. Druk op Esc om terug te gaan naar de standaardwerkruimte.

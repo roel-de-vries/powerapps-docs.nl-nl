@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/11/2017
 ms.author: ankitsar
 ms.openlocfilehash: 2a5fd3cb6805f5e22fe6d4bc7fba0de64df8afd2
-ms.sourcegitcommit: e1572ad0f9e1f1e6149551e91a9bc1fed45e3132
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="understand-sharepoint-forms-integration"></a>Integratie met SharePoint-formulieren begrijpen
 U kunt nu eenvoudig [een SharePoint-lijstformulier aanpassen](customize-list-form.md) in PowerApps. In dit artikel vindt u meer informatie over de werking van de formulieren en de manier waarop u deze verder kunt aanpassen.
@@ -38,7 +38,7 @@ Het formulier dat standaard wordt gegenereerd, bestaat uit de volgende besturing
 
     * **Item**: het geselecteerde item in de lijst. Wanneer u in PowerApps Studio werkt, wordt deze waarde voor uw gemak ingesteld op het eerste item in de lijst, First().
 
-        **If(IsBlank(SharePointIntegration.Selected) || IsEmpty(SharePointIntegration.Selected),First('*NaamVanUwLijst*'),SharePointIntegration.Selected)**
+        **If(IsBlank(SharePointIntegration.Selected) || IsEmpty(SharePointIntegration.Selected),First('*YourListName*'),SharePointIntegration.Selected)**
 
     * **OnSuccess**: nadat het item is gemaakt of is opgeslagen, wordt het formulier opnieuw ingesteld en wordt het formulier in SharePoint verborgen.
 
@@ -48,7 +48,7 @@ Het formulier dat standaard wordt gegenereerd, bestaat uit de volgende besturing
 
     * **Data Source**: de lijst waarvoor het formulier is aangepast.
 
-        **'*NaamVanUwLijst*'**
+        **'*YourListName*'**
 
     * **OnNew**: hiermee activeert u de modus Nieuw voor **SharePointForm1**.
 

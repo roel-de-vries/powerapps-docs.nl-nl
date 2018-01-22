@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: 2f543a75019bfe5d665aedb2e6171200e8321690
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="table-function-in-powerapps"></a>De functie Table in PowerApps
 Hiermee maakt u een tijdelijke [tabel](../working-with-tables.md).
@@ -44,7 +44,7 @@ U kunt ook een tabel met één kolom maken met de syntaxis **[ waarde1, waarde2,
   
     In de keuzelijst wordt elke kleur weergegeven als een optie.
 * Voeg een tekstgalerie toe en stel de eigenschap **[Items](../controls/properties-core.md)** ervan in op deze functie:<br>
-  **Table({Item:"Viool123", Locatie:"Frankrijk", Eigenaar:"Fabrikam"}, {Item:"Viool456", Locatie:"Chili"})**
+  **Table({Item:"Violin123", Location:"France", Owner:"Fabrikam"}, {Item:"Violin456", Location:"Chile"})**
   
     De galerie bevat twee records die beide de naam en de locatie van een item bevatten. Slechts één record bevat de naam van de eigenaar.
 

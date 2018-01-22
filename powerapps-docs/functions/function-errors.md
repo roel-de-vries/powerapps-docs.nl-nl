@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/11/2015
 ms.author: gregli
 ms.openlocfilehash: 92eb12ccff46fcce5aed1c7a3e39bf02c2c07b4b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="errors-function-in-powerapps"></a>De functie Errors in PowerApps
 Biedt foutinformatie voor eerdere wijzigingen in een [gegevensbron](../working-with-data-sources.md).
@@ -96,7 +96,7 @@ Deze retourneert **false**, omdat de functie **Errors** de volgende tabel heeft 
 U kunt een label op het formulier plaatsen om de gebruiker deze fout te tonen.
 
 * Om de fout te tonen, stelt u de eigenschap **[Text](../controls/properties-core.md)** van het label in op deze formule:<br>
-  **Label.Text = First(Errors( IJs, RecordBewerken )).Message**
+  **Label.Text = First(Errors( IceCream, EditRecord )).Message**
 
 U kunt ook een knop **Opnieuw laden** aan het formulier toevoegen, zodat de gebruiker efficiënt het conflict kan oplossen.
 

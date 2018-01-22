@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 7e5be9b68b501279329c23f9afe5d451487fa8d1
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="pen-input-control-in-powerapps"></a>Besturingselement voor peninvoer in PowerApps
 Een besturingselement waarin de gebruiker kan tekenen, wissen en gebieden van een afbeelding kan markeren.
@@ -77,7 +77,7 @@ De gebruiker kan dit besturingselement gebruiken als een whiteboard, en om grafi
     Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
 2. Voeg een besturingselement **[Knop](control-button.md)** toe, plaats de knop onder **MijnKrabbels** en stel de eigenschap **[Text](properties-core.md)** van het besturingselement **[Knop](control-button.md)** in op **Toevoegen**.
 3. Stel de eigenschap **[OnSelect](properties-core.md)** van het besturingselement **[Knop](control-button.md)** in op deze formule:<br>
-   **Collect(Doodles, {Sketch:MijnKrabbels.Image})**
+   **Collect(Doodles, {Sketch:MyDoodles.Image})**
 4. Voeg een besturingselement **Afbeeldingengalerie** toe, plaats de galerie onder het besturingselement **[Knop](control-button.md)** maak het besturingselement **Afbeeldingengalerie** zo smal totdat er drie items worden weergegeven.
 5. Stel de eigenschap **[Items](properties-core.md)** van het besturingselement **Afbeeldingengalerie** in op **Doodles** en druk op F5.
 6. Teken een afbeelding in **MijnKrabbels** en klik of tik op het besturingselement **[Knop](control-button.md)**.

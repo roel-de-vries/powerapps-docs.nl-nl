@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 3ffede0018a371b3c3a4cf4a3a1f9fc8115140de
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="microphone-control-in-powerapps"></a>Besturingselement voor microfoon in PowerApps
 Een besturingselement waarmee de gebruiker geluiden kan opnemen.
@@ -91,7 +91,7 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 ## <a name="example"></a>Voorbeeld
 ### <a name="add-sounds-to-a-custom-gallery-control"></a>Geluiden toevoegen aan een besturingselement Aangepaste galerie
 1. Voeg een besturingselement **Microfoon** toe, geef het de naam **MijnMicrofoon** en stel de eigenschap **OnStop** in op deze formule:<br>
-   **Collect(MijnGeluiden, MijnMicrofoon.Audio)**
+   **Collect(MySounds, MyMic.Audio)**
    
     Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
    

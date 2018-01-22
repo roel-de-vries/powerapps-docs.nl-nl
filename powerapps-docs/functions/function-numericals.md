@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 09/13/2016
 ms.author: gregli
 ms.openlocfilehash: 25d9b49c7f527d7510e31dd937e1d8a580bb31cf
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="abs-exp-ln-power-and-sqrt-functions-in-powerapps"></a>De functies Abs, Exp Ln, Macht en Wortel in PowerApps
 Berekent absolute waarden, natuurlijke logaritmen, vierkantswortels en het resultaat van het machtsverheffen van *e* of een willekeurig getal tot opgegeven machten.
@@ -35,14 +35,14 @@ Met de functie **Macht** wordt een getal geretourneerd dat tot een macht is verh
 
 De functie **Wortel** retourneert het getal dat, wanneer vermenigvuldigd met zichzelf, gelijk is aan het argument.
 
-Als u één getal doorgeeft, is de resulterende waarde één resultaat op basis van de aangeroepen functie.  Als u een [tabel](../working-with-tables.md) met één kolom doorgeeft die getallen bevat, is de geretourneerde waarde een tabel met één kolom met resultaten (één resultaat voor elke record in de tabel voor het argument). Als u een tabel met meerdere kolommen hebt, kunt u deze omvormen tot een tabel met één kolom, zoals in [working with tables (werken met tabellen)](../working-with-tables.md) is beschreven.  
+Als u één getal doorgeeft, is de resulterende waarde één resultaat op basis van de aangeroepen functie.  Als u een [tabel](../working-with-tables.md) met één kolom doorgeeft die getallen bevat, is de geretourneerde waarde een tabel met één kolom met resultaten (één resultaat voor elke record in de tabel voor het argument). Als u een tabel met meerdere kolommen hebt, kunt u deze omvormen tot een tabel met één kolom, zoals wordt beschreven in [werken met tabellen](../working-with-tables.md).  
 
 Als een argument tot een niet-gedefinieerde waarde zou leiden, is het resultaat *leeg*.  Dit kan bijvoorbeeld gebeuren met vierkantswortels en logaritmen van negatieve getallen.
 
 ## <a name="syntax"></a>Syntaxis
 **Abs**( *getal* )<br>**Exp**( *getal* )<br>**Ln**( *getal* )<br>**Wortel**( *getal* )
 
-* *Getal* - vereist. Getal om bewerking op uit te voeren.
+* *Getal* is vereist. Getal om bewerking op uit te voeren.
 
 **Macht**( *Grondtal*, *Exponent* )
 
@@ -79,6 +79,6 @@ In de voorbeelden in deze sectie wordt een [gegevensbron](../working-with-data-s
 1. Voeg een besturingselement **[Tekstinvoer](../controls/control-text-input.md)** toe en geef het de naam **Bron**.
 2. Voeg een besturingselement van het type **Label** toe en stel de eigenschap **[Text](../controls/properties-core.md)** in op deze formule:
    <br>
-   **Wortel( Waarde( Bron.Tekst ) )**
+   **Sqrt( Value( Source.Text ) )**
 3. Typ een getal in **Bron** en bevestig dat het besturingselement **Label** de vierkantswortel bevat van het getal dat u hebt getypt.
 

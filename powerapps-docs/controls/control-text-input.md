@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 4082034d843765025bb6e40cab83705582417d51
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="text-input-control-in-powerapps"></a>Besturingselement voor tekstinvoer in PowerApps
 Een vak waarin de gebruiker tekst, cijfers en andere gegevens kan typen.
@@ -149,7 +149,7 @@ De gebruiker kan gegevens opgeven door te typen in een besturingselement voor te
 ### <a name="prompt-for-a-password"></a>Vragen om een wachtwoord
 1. Voeg een besturingselement voor tekstinvoer toe, geef het de naam **inputPassword** en stel de eigenschap **Mode** in op **Wachtwoord**.
 2. Voeg een label toe en stel de eigenschap **[Text](properties-core.md)** in op deze formule:<br>
-   **If(inputPassword.Text = "P@ssw0rd", "Toegang verleend", "Toegang geweigerd")**
+   **If(inputPassword.Text = "P@ssw0rd", "Access granted", "Access denied")**
    
     Wilt u meer informatie over de functie **[If](../functions/function-if.md)** of [andere functies](../formula-reference.md)?
 3. Druk op F5 en typ vervolgens **P@ssw0rd** bij **inputPassword**.
