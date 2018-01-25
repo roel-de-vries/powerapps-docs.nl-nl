@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: c8eab64efa3ad4487c129cec9be7f12147d3ca8d
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: f0413cfab990e6452e97b9f60c4d5d88e4fb5f7a
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="radio-control-in-powerapps"></a>Besturingselement voor keuzerondje in PowerApps
 Een lijst met alle beschikbare opties, maar de gebruiker kan maar één optie selecteren.
@@ -32,7 +32,7 @@ Een besturingselement **Keuzerondje**, inmiddels al tientallen jaren bekend bij 
 
 **[Items](properties-core.md)**: de gegevensbron die wordt weergegeven in een besturingselement zoals een galerie, een lijst of een grafiek.
 
-[!INCLUDE [long-items](../../includes/long-items.md)]
+[!INCLUDE [long-items](../includes/long-items.md)]
 
 **[Value](properties-core.md)**: de waarde van een besturingselement voor invoer.
 

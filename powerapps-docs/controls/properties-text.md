@@ -15,14 +15,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 1f3d05d98755e8f0eff8af5e3dde5921d0de0301
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 6d79f5a93fd89de1c3994f43c285e9d96cb00af6
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="text-properties-in-powerapps"></a>Teksteigenschappen in PowerApps
-## <a name="overview"></a>Overzicht
 Configureer de tekst die wordt weergegeven op een besturingselement, in de knopinfo of als een hint wanneer de gebruiker gegevens typt, en geef andere tekstgerelateerde kenmerken op.
 
 ## <a name="text-appearance"></a>Tekenopmaak

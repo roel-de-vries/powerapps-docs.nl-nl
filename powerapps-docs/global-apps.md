@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 11eb01c2476d06f11299bd91e34f353f5b1075d2
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 57f2b9a23207c2c866738ac40f46a37747fcd54d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="global-support"></a>Wereldwijde ondersteuning
 PowerApps is een wereldwijd product.  Hiermee kunt u apps in verschillende talen en voor verschillende regio's maken en gebruiken.
@@ -79,11 +79,11 @@ De wijziging van het PowerApps-lijstscheidingsteken komt overeen met de wijzigin
 
 Zie het volgende voorbeeld van een formule in 'en-US':
 
-* **If( Slider1.Value > 12.59, UpdateContext( { Validation: true, MovingOn: 1 } ); Navigate( "NextScreen", "" ), UpdateContext( { Validation: false } ) )**
+**If( Slider1.Value > 12.59, UpdateContext( { Validation: true, MovingOn: 1 } ); Navigate( "NextScreen", "" ), UpdateContext( { Validation: false } ) )**
 
 Als in een taal ',' wordt gebruikt als decimaalteken, ziet dit er in de ontwerpomgeving als volgt uit:
 
-* **If( Slider1.Value > 12,59; UpdateContext( { Validation: true; MovingOn: 1 } );; Navigate( "NextScreen", "" ); UpdateContext( { Validation: false } ) )**
+**If( Slider1.Value > 12,59; UpdateContext( { Validation: true; MovingOn: 1 } );; Navigate( "NextScreen", "" ); UpdateContext( { Validation: false } ) )**
 
 U ziet dat de eigenschapselectieoperator **.** in **Slider1.Value** altijd hetzelfde is, ongeacht het decimaalteken.
 
@@ -101,7 +101,7 @@ U kunt **Language** onder andere gebruiken om vertaalde tekst aan uw gebruikers 
 
 Vervolgens haalt u de vertaalde strings op uit de tabel met een formule, zoals die hieronder:
 
-* **LookUp( Table1, TextID = "Hello" && (LanguageTag = Left( Language(), 2 ) || IsBlank( LanguageTag ))).LocalizedText**  
+**LookUp( Table1, TextID = "Hello" && (LanguageTag = Left( Language(), 2 ) || IsBlank( LanguageTag ))).LocalizedText**  
 
 Wees u ervan bewust dat vertaalde tekenreeksen in andere talen aanzienlijk langer kunnen zijn dan in uw eigen taal.  De labels en andere elementen waarin de tekenreeksen in uw gebruikersinterface worden weergegeven, moeten daarom in veel gevallen breder zijn, zodat er ruimte is voor langere teksten.
 
@@ -153,4 +153,3 @@ Met de functies **[Calendar](functions/function-clock-calendar.md)** en **[Clock
 Hiermee kunt u onder andere een besturingselement **Vervolgkeuzelijst** opgeven met een lijst van opties.  
 
 Zie voor meer informatie de documentatie voor de functies **[Calendar](functions/function-clock-calendar.md)** en **[Clock](functions/function-clock-calendar.md)**.
-

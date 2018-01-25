@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: lonu
-ms.openlocfilehash: c5d4780908ebd20989649df14dec51d70e8eecde
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ce4d0db7a82e87d25df950c99da718bf8c84b9bd
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="show-information-about-a-powerapps-user"></a>Gegevens over een PowerApps-gebruiker weergeven
 De functie Gebruiker kan de volledige naam, het e-mailadres en de afbeelding die gekoppeld zijn aan de aangemelde gebruiker weergeven. U kunt deze informatie gebruiken om automatisch formulieren in te vullen.
@@ -30,8 +30,6 @@ U kunt deze functie bijvoorbeeld gebruiken voor:
 * Automatisch een e-mailadres invoeren wanneer contact wordt opgenomen met uw helpdesk.
 
 U kunt deze functie eigenlijk overal gebruiken waar gebruikers er baat bij hebben dat formulieren of labels automatisch worden ingevuld.
-
-&nbsp;
 
 [!INCLUDE [app-customization-requirements](includes/app-customization-requirements.md)]
 

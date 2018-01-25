@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/18/2017
 ms.author: millopis
-ms.openlocfilehash: 230ad9f61185caff93fb3a5f56c62176b4f78c16
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: b534400317e39dffec30f185c180de34098a378f
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="troubleshooting---unable-to-create-or-retrieve-a-mashup-for-this-database"></a>Probleemoplossing - kan geen mashup maken of ophalen voor deze database
 Wanneer u de functie **Nieuwe entiteiten op basis van gegevens (Technical Preview)** gebruikt, kan er een fout optreden die er als volgt uitziet:
@@ -31,7 +31,6 @@ Dit kan gebeuren wanneer u de functie gebruikt om *Aangepaste entiteiten* te mak
 * Een tenantbeheerder van **Azure Active Directory** (AAD) staat niet toe dat gebruikers apps toestemming geven om namens hen bedrijfsgegevens te benaderen.
 * Er wordt gebruik gemaakt van een niet-beheerde Active Directory-tenant. Een niet-beheerde tenant is een directory zonder globale beheerder, die is gemaakt om een selfservice-aanbod tot inschrijving te doorlopen. Om dit scenario op te lossen, dienen gebruikers *eerst* omgezet te worden naar een beheerde tenant, om vervolgens een van de twee oplossingen voor dit probleem te volgen die in de volgende sectie worden beschreven.
 
-## <a name="how-to-fix-the-issue"></a>Het probleem oplossen
 Er zijn twee manieren om het hierboven beschreven probleem op te lossen:
 
 * Laat de AAD-beheerder de stappen volgen die nodig zijn om gebruikers apps toegang te laten geven tot bedrijfsgegevens
@@ -39,7 +38,8 @@ Er zijn twee manieren om het hierboven beschreven probleem op te lossen:
 
 Alle vereiste stappen voor deze oplossingen worden hierna beschreven.
 
-### <a name="allowing-users-to-give-apps-consent-to-access-company-data"></a>Gebruikers toestaan apps toegang tot bedrijfsgegevens te geven
+## <a name="allowing-users-to-give-apps-consent-to-access-company-data"></a>Gebruikers toestaan apps toegang tot bedrijfsgegevens te geven
+
 U kunt contact opnemen met de AAD-tenantbeheerder en hem of haar de volgende stappen uit laten voeren, waardoor gebruikers toestemming krijgen om een app toegang te geven tot bedrijfsgegevens:
 
 1. Ga naar [https://portal.azure.com](https://portal.azure.com)
@@ -50,7 +50,7 @@ U kunt contact opnemen met de AAD-tenantbeheerder en hem of haar de volgende sta
 
 Dit is mogelijk de eenvoudigste oplossing, maar geeft ruimere machtigingen dan de volgende optie.
 
-### <a name="allowing-power-query-to-access-company-data"></a>Power Query toegang tot bedrijfsgegevens geven
+## <a name="allowing-power-query-to-access-company-data"></a>Power Query toegang tot bedrijfsgegevens geven
 Een andere oplossing is dat de tenantbeheerder **Power Query** toestemming geeft, zonder de machtigingen voor de hele tenant te wijzigen. Laat hiervoor de tenantbeheerder de volgende stappen uitvoeren:
 
 1. Installeer [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-azurerm-ps)

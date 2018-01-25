@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/12/2017
+ms.date: 12/19/2017
 ms.author: mblythe
-ms.openlocfilehash: 98998b30eb4c407c6c2dcaa61c04c75d5b92e4f9
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 58f05d42968394283c7d2fc78bfd8a2aa7baf571
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="integrate-powerapps-microsoft-flow-and-power-bi-with-sharepoint-online"></a>PowerApps, Microsoft Flow en Power BI integreren met SharePoint Online
 Hebt u SharePoint Online en wilt u uw bedrijfsprocessen beter automatiseren en stroomlijnen? Hebt u gewerkt met PowerApps, Microsoft Flow of Power BI, maar u weet niet hoe u deze met SharePoint Online kunt gebruiken? Dan bent u hier op de juiste plaats. In deze reeks zelfstudies wordt uitgelegd hoe u een app voor eenvoudig projectbeheer ontwikkelt op basis van SharePoint-lijsten en drie primaire technologieën die integreren met SharePoint Online: PowerApps, Microsoft Flow en Power BI. Deze technologieën werken met elkaar samen, waardoor u uw bedrijfsresultaten eenvoudig kunt *meten*, op de resultaten *reageren* en uw werkstromen *automatiseren*. Als u deze reeks hebt voltooid, dan beschikt u over een prima scenario. Bijvoorbeeld het volgende:
@@ -33,8 +33,8 @@ In deze reeks zelfstudies heeft het bedrijf Contoso een SharePoint Online-site w
 Het scenario dat in deze reeks zelfstudies wordt gepresenteerd, is eenvoudig in vergelijking met een app voor een volwaardig projectbeheer en bijbehorende analyse, maar het kost toch nog tijd om alle taken te voltooien. Als u slechts een snelle inleiding zoekt voor het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint, lees dan de volgende artikelen:
 
 * **PowerApps**: [Een app genereren vanuit SharePoint met behulp van PowerApps](generate-app-from-sharepoint-list-interface.md) en [Een app genereren voor het beheren van gegevens in een SharePoint-lijst](app-from-sharepoint.md)
-* **Microsoft Flow**: [Wachten op goedkeuring in Microsoft Flow](https://flow.microsoft.com/documentation/wait-for-approvals)
-* **Power BI**: [Embed with report web part in SharePoint Online](https://powerbi.microsoft.com/documentation/powerbi-service-embed-report-spo) (Power BI: insluiten met webonderdeel Rapporteren in SharePoint Online)
+* **Microsoft Flow**: [Wachten op goedkeuring in Microsoft Flow](https://docs.microsoft.com/flow/wait-for-approvals)
+* **Power BI**: [Embed with report web part in SharePoint Online](https://docs.microsoft.com/power-bi/service-embed-report-spo) (Power BI: insluiten met webonderdeel Rapporteren in SharePoint Online)
 
 Als u daarmee klaar bent, komt u hopelijk terug om het volledige scenario te bekijken.
 
@@ -46,16 +46,15 @@ Als u het scenario wilt voltooien, hebt u de volgende abonnementen en bureaublad
 | **Abonnement of programma** | **Koppeling** |
 | --- | --- |
 | Office 365 Business Premium-abonnement |[Proefabonnement](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1) |
-| PowerApps Studio |PowerApps Studio voor internet (downloaden niet nodig) of [PowerApps Studio voor Windows](https://aka.ms/powerappswin) gebruiken |
 | Power BI Pro-abonnement |[Trial subscription](https://powerbi.microsoft.com/get-started/) (proefabonnement) (klik op **TRY FREE**) |
 | Power BI Desktop |[Free download](https://powerbi.microsoft.com/get-started/) (gratis download) (klik op **DOWNLOAD FREE**) |
 
 Het zou mooi zijn als u bekend bent met elke technologie, maar u kunt het scenario ook voltooien als u sommige niet kent. Gebruik de volgende inhoud om u voor te bereiden:
 
 * [Aan de slag met SharePoint](https://support.office.com/article/Get-started-with-SharePoint-909ec2f0-05c8-4e92-8ad3-3f8b0b6cf261)
-* [PowerApps: Gestuurd leren](https://powerapps.microsoft.com/guided-learning/)
-* [Microsoft Flow: Gestuurd leren](https://flow.microsoft.com/guided-learning/)
-* [Power BI Guided Learning](https://powerbi.microsoft.com/guided-learning/) (Power BI: Gestuurd leren)
+* [PowerApps: Gestuurd leren](guided-learning/index.md)
+* [Microsoft Flow: Gestuurd leren](https://docs.microsoft.com/flow/guided-learning/)
+* [Power BI Guided Learning](https://docs.microsoft.com/power-bi/guided-learning/) (Power BI: Gestuurd leren)
 
 ## <a name="next-steps"></a>Volgende stappen
 De volgende stap in deze reeks zelfstudies bestaat uit het [instellen van de SharePoint Online-lijsten](sharepoint-scenario-setup.md) die in de reeks worden gebruikt.

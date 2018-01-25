@@ -15,16 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/28/2017
 ms.author: gregli
-ms.openlocfilehash: 9a3aade41bd375a937d68e7da5881d4475693727
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: dac61ab9ce4195f6336fe1625cea12f728eb3e41
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="formula-reference-for-powerapps"></a>Formuleverwijzingen voor PowerApps
 Formules combineren veel elementen.  Hieronder worden vermeld:
 
-* **Functies** hebben parameters, voeren bewerkingen uit en retourneren een waarde. Bijvoorbeeld: **Sqrt(25)** retourneert **5**. Functies zijn gemodelleerd naar Microsoft Excel-functies.  Sommige functies hebben neveneffecten, zoals **Formulier verzenden**, die alleen geschikt zijn bij [gedragsformules](working-with-formulas-in-depth.md#behavior-formulas) zoals **Button.OnSelect**.
+* **Functies** hebben parameters, voeren bewerkingen uit en retourneren een waarde. Bijvoorbeeld: **Sqrt(25)** retourneert **5**. Functies zijn gemodelleerd naar Microsoft Excel-functies.  Sommige functies hebben neveneffecten, zoals **Formulier verzenden**, die alleen geschikt zijn bij [gedragsformules](working-with-formulas-in-depth.md) zoals **Button.OnSelect**.
 * **Signalen** retourneren informatie over de omgeving. Bijvoorbeeld: **[Locatie](functions/signals.md)** retourneert de huidige GPS-coördinaten van het apparaat. Signalen hebben geen parameters of neveneffecten.
 * **Opsommingen** retourneren een vooraf gedefinieerde constante waarde. Bijvoorbeeld: **[Kleur](functions/function-colors.md)** is een opsomming met vooraf gedefinieerde waarden voor **Color.Red**, **Color.Blue**, enzovoort.  Algemene opsommingen zijn hier opgenomen. Functiespecifieke opsommingen worden beschreven bij de functie zelf.
 * **Operators met een naam**, zoals **[ThisItem](functions/operators.md#thisitem-operator)** en **[Parent](functions/operators.md#parent-operator)**, bieden toegang tot de gegevens in een container.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/01/2015
 ms.author: gregli
-ms.openlocfilehash: 532b30b2a8740dc3f4adf879029608c6f764c6e2
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: cc12241861a1dd6a0242810bb1a6faab70a2de27
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="collect-clear-and-clearcollect-functions-in-powerapps"></a>De functies Collect, Clear en ClearCollect in PowerApps
 Maakt en wist [verzamelingen](../working-with-data-sources.md#collections) en voegt [records](../working-with-tables.md#records) toe aan elke [gegevensbron](../working-with-data-sources.md).
@@ -40,7 +40,7 @@ Verzamelingen worden soms gebruikt om globale variabelen te bewaren of een tijde
 
 U kunt ook de functie **[Patch](function-patch.md)** gebruiken om records in een gegevensbron te maken.
 
-**Collect** retourneert de gewijzigde gegevensbron als een tabel.  **Collect** kan alleen worden gebruikt in een [gedragsformule](../working-with-formulas-in-depth.md#behavior-formulas).
+**Collect** retourneert de gewijzigde gegevensbron als een tabel.  **Collect** kan alleen worden gebruikt in een [gedragsformule](../working-with-formulas-in-depth.md).
 
 ### <a name="clear"></a>Clear
 De functie **Clear** verwijdert alle records van een verzameling.  De kolommen van de verzameling worden behouden.

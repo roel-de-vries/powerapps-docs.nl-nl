@@ -15,16 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/29/2017
 ms.author: jamesol
-ms.openlocfilehash: e64f345adb40147eec98f091023ae6a5a7e6a5a3
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: e66978f6134919b18f4cfba913f1bb34394d8832
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="view-analytics-reports-for-your-app"></a>Analyserapporten voor uw app weergeven
 Hebt u een app gebouwd en deze gedeeld in uw organisatie?  Bent u benieuwd hoeveel collega’s deze dagelijks gebruiken?
 
-Maak kennis met het eerste PowerApps-analyserapport dat nu als preview beschikbaar is op [web.powerapps.com](1.md): het **gebruiksrapport voor apps**.
+Maak kennis met het eerste PowerApps-analyserapport dat nu beschikbaar is op [web.powerapps.com](https://web.powerapps.com): het **gebruiksrapport voor apps**.
 
 Het gebruiksrapport voor apps biedt u de mogelijkheid om bij te houden hoeveel gebruikers uw app in de achterliggende 30 dagen gebruikten, opgedeeld per dag, apparaatplatform en locatie.
 
@@ -33,12 +33,10 @@ Het gebruiksrapport voor apps biedt u de mogelijkheid om bij te houden hoeveel g
 ## <a name="how-do-i-get-access-to-my-apps-reports"></a>Hoe kan ik de rapporten over mijn app openen?
 Alle rapporten zijn beschikbaar voor alle gebruikers met 'Kan bewerken’-machtigingen voor de app. De gebruiker moet echter over een licentie of proeflicentie voor PowerApps-abonnement 2 beschikken om het rapport te kunnen openen.
 
-*Opmerking: De analyserapporten zijn beschikbaar in preview, maar elke gebruiker met een geldige PowerApps-licentie kan het rapport openen en proberen*
-
 ## <a name="where-do-i-find-my-apps-reports"></a>Waar kan ik de rapporten voor mijn app vinden?
 U kunt de rapporten voor uw app bekijken door de volgende stappen te volgen:
 
-1. Ga naar [web.powerapps.com](1.md)
+1. Ga naar [web.powerapps.com](https://web.powerapps.com).
 2. Selecteer **Apps** in de linkernavigatiebalk
    
     ![Linkernavigatiebalk](./media/app-analytics/left-nav.png)
@@ -57,7 +55,5 @@ Ja, u kunt een .csv-bestand met de gegevens voor elke grafiek in een rapport dow
 ## <a name="are-there-going-to-be-any-other-reports"></a>Komen er nog andere rapporten?
 Ja. We zijn van plan om soortgelijke rapporten met betrekking tot app-prestaties en foutrapportages te maken.
 
-Als u specifieke feedback, vragen of verzoeken hebt, horen we ze graag via ons [ideeënforum voor PowerApps](2.md).
+Als u specifieke feedback, vragen of verzoeken hebt, horen we ze graag via ons [ideeënforum voor PowerApps](https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas).
 
-[1]: https://web.powerapps.com
-[2]: https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas

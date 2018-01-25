@@ -14,18 +14,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/06/2016
 ms.author: kfend
-ms.openlocfilehash: f3cc5a8116f84d61576d75b22a8e3197d6ec7e42
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 214b11c4f23db29d097b2d97052473d8f436d533
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="create-an-app-from-scratch-using-a-common-data-service-database"></a>Een volledig nieuwe app maken met een Common Data Service-database
 Een app bouwen voor het beheren van gegevens die zijn opgeslagen in de Common Data Service, met (ingebouwde) standaardentiteiten, (door uw organisatie gemaakte) aangepaste entiteiten, of beide.
 
 Wanneer u een app bouwt op basis van de Common Data Service, hoeft u geen verbinding vanuit Microsoft PowerApps te maken, zoals u dat wel doet met gegevensbronnen als SharePoint, Dynamics 365 en Salesforce. U hoeft alleen de entiteiten op te geven die u wilt weergeven, beheren of gebruiken voor beide activiteiten in de app.
 
-[!VIDEO nb:cid:UUID:5db63c4d-6aeb-45c5-9609-8f4bbdd37bc6]
+
 
 
 1. Een Common Data Service-database maken. Zie [Create a Common Data Service database (Een Common Data Service-database maken)](create-database.md) voor meer informatie.

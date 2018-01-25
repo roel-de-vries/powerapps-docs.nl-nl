@@ -14,18 +14,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: anneta
-ms.openlocfilehash: 0fcfb90de55c0504a7a7ff5e7d75cd782b8f56e6
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 1f87b952378c64ec7c67d98b5dfc194cb62be767
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="show-text-and-format-dates-and-times-in-powerapps"></a>Tekst weergeven en de datum- en tijdnotatie instellen in PowerApps
 Voeg datums en tijden toe en pas de notatie aan aan het gewenste detailniveau of uw taalgebied. Bereken de tijd tussen twee datums of geef een bepaalde datum op en bereken wat de datum een bepaalde periode voor of na die datum is. Converteer datums van of naar afzonderlijke waarden voor dagen, maanden en jaren en converteer tijden van of naar afzonderlijke waarden voor uren, minuten en seconden.
 
 Voeg bijvoorbeeld gebruikersgegevens toe over aandelentransacties of cliëntvergaderingen of gegevens uit een andere app die in PowerApps is gemaakt. Als deze gegevens tijden bevatten die tot de milliseconde nauwkeurig zijn, kunt u deze voor het gemak afronden naar de dichtstbijzijnde minuut. Bereken het aantal dagen tot een belangrijke mijlpaal. Als u plannen iedere vijf dagen vergaderingen met klanten wilt inplannen, kunnen deze datums automatisch worden berekend. Als de datum 10 mei 1985 is opgeslagen in afzonderlijke velden voor dag, maand en jaar, kunt u deze samenbrengen tot één waarde. Of, als uw app deze waarden apart beheert, kunt u elke datum ook in aparte waarden opsplitsen.
 
-**Vereisten**
+## <a name="prerequisites"></a>Vereisten
 
 * [Registreer u](signup-for-powerapps.md) voor PowerApps, [installeer](http://aka.ms/powerappsinstall) het, open het en meld u aan met dezelfde referenties die u hebt gebruikt om u te registreren.
 * Maak een app of open een bestaande app in PowerApps.
@@ -56,7 +56,9 @@ Hieronder ziet u een aantal voorbeelden:
    * **Today**, welke de huidige dag omzet naar een waarde.
    * **DateValue**, welke een letterlijke tekenreeks, zoals wordt weergegeven tussen dubbele aanhalingstekens, converteert naar een waarde waarmee berekeningen kunnen worden uitgevoerd.
 3. Voeg een besturingselement voor **[Tekstinvoer](controls/control-text-input.md)** toe met de naam **BirthDate** en plaats deze onder **ShowText**.
+
 4. Voor **BirthDate** voert u de maand en dag van uw geboortedatum in (bijvoorbeeld **05/18**).
+
 5. Stel de eigenschap **[Text](controls/properties-core.md)** van **ShowText** in op deze formule:
    <br>**DateDiff(Today(), DateValue(BirthDate.Text))**
    
@@ -122,7 +124,9 @@ Converteer datums en tijden van tekenreeksen naar waarden, die u op verschillend
    > 
 
 ## <a name="format-a-date-by-using-datevalue"></a>Een datum opmaken met behulp van DateValue
+
 1. Voeg een besturingselement voor **[Tekstinvoer](controls/control-text-input.md)** toe met de naam **ArrivalDate** en typ hier een datum in (bijvoorbeeld **5/10/85**).
+
 2. Voeg een besturingselement **[Label](controls/control-text-box.md)** met de naam **FormatDate** toe en stel de eigenschap **[Text](controls/properties-core.md)** in op deze formule:
    <br>**DateValue(ArrivalDate.Text)**
    
@@ -141,8 +145,11 @@ Converteer datums en tijden van tekenreeksen naar waarden, die u op verschillend
     **FormatDate** toont de datum volgens de notatie die u hebt opgegeven.
 
 ## <a name="format-a-time-using-datetimevalue"></a>Een tijdsnotatie instellen met DateTimeValue
+
 1. Voeg een besturingselement voor **[Tekstinvoer](controls/control-text-input.md)** toe met de naam **ArrivalTime** en voer daar vervolgens **6:15 AM** in.
+
 2. Voeg een besturingselement **[Label](controls/control-text-box.md)** toe met de naam **ShowTime**.
+
 3. Stel de eigenschap **[Text](controls/properties-core.md)** van **ShowTime** in op deze formule, om een van de verschillende ingebouwde notaties te gebruiken:
    <br>**Text(DateTimeValue(ArrivalTime.Text), DateTimeFormat.LongTime)**
    
@@ -158,8 +165,11 @@ Converteer datums en tijden van tekenreeksen naar waarden, die u op verschillend
    > 
 
 ## <a name="show-the-time-between-dates"></a>De tijd tussen datums weergeven
+
 1. Voeg twee besturingselementen voor **[Tekstinvoer](controls/control-text-input.md)** in met de namen **Start** en **End**.
+
 2. Voer **1/4/2015** in bij **Start** en **1/1/2016** bij **End**.
+
 3. Voeg een besturingselement **[Label](controls/control-text-box.md)** met de naam **DateDiff** toe en stel de eigenschap **[Text](controls/properties-core.md)** in op deze formule:
    <br>**DateDiff(DateValue(Start.Text), DateValue(End.Text))**
    
@@ -171,7 +181,9 @@ Converteer datums en tijden van tekenreeksen naar waarden, die u op verschillend
     **DateDiff** geeft **9** weer, het aantal maanden tussen 1 april 2015 en 1 januari 2016. Vervang **Months** door **Quarters** of **Years** om de tijd in die eenheden te tonen.
 
 ## <a name="identify-a-date-before-or-after-another-date"></a>Een datum vóór of na een andere datum bepalen
+
 1. Voeg een besturingselement voor **[Tekstinvoer](controls/control-text-input.md)** toe met de naam **Start** en voer daar **5/10/1985** in.
+
 2. Voeg een besturingselement **[Label](controls/control-text-box.md)** met de naam **DateAdd** toe en stel de eigenschap **[Text](controls/properties-core.md)** in op deze formule:
    <br>**DateAdd(DateValue(Start.Text), 3)**
    
@@ -192,13 +204,18 @@ Converteer datums en tijden van tekenreeksen naar waarden, die u op verschillend
     Het label geeft **8/10/1985** weer, dat is drie maanden na de datum die is ingevuld voor **Start**. Vervang **Months** door **Quarters** of **Years** om een datum te bepalen die het opgegeven aantal kwartalen of jaren vóór of na de datum ligt die is opgegeven voor **Start**.
 
 ## <a name="calculate-dates-based-on-years-months-and-days"></a>Datums berekenen op basis van jaren, maanden en dagen
+
 1. Voeg driemaal het besturingselement **[Vervolgkeuzelijst](controls/control-drop-down.md)** toe, met de namen **Jaar**, **Maand** en **Dag**.
+
 2. Stel de eigenschap **[Items](controls/properties-core.md)** van **Jaar** in op deze formule:
    <br>**Table({Year:"2014"}, {Year:"2015"}, {Year:"2016"})**
+
 3. Stel de eigenschap **[Items](controls/properties-core.md)** van **Maand** in op deze formule:
    <br>**Table({Month:"1"}, {Month:"2"}, {Month:"3"}, {Month:"4"}, {Month:"5"}, {Month:"6"}, {Month:"7"}, {Month:"8"}, {Month:"9"}, {Month:"10"}, {Month:"11"}, {Month:"12"})**
+
 4. Stel de eigenschap **[Items](controls/properties-core.md)** van **Dag** in op deze formule:
    <br>**Table({Day:"1"}, {Day:"2"}, {Day:"3"}, {Day:"4"}, {Day:"5"}, {Day:"6"}, {Day:"7"}, {Day:"8"}, {Day:"9"}, {Day:"10"}, {Day:"11"}, {Day:"12"}, {Day:"13"}, {Day:"14"}, {Day:"15"}, {Day:"16"}, {Day:"17"}, {Day:"18"}, {Day:"19"}, {Day:"20"}, {Day:"21"}, {Day:"22"}, {Day:"23"}, {Day:"24"}, {Day:"25"}, {Day:"26"}, {Day:"27"}, {Day:"28"}, {Day:"29"}, {Day:"30"}, {Day:"31"})**
+
 5. Voeg een besturingselement van het type **[Label](controls/control-text-box.md)** toe en stel de eigenschap **[Text](controls/properties-core.md)** in op deze formule:
    <br>**Text(Date(Value(Year.Selected.Value), Value(Month.Selected.Value), Value(Day.Selected.Value)), DateTimeFormat.LongDate)**
    
@@ -215,13 +232,18 @@ U dient wellicht gegevens die u niet verwachtte te converteren. Als u het bestur
 * Als de waarde voor dagen kleiner is dan 1, trekt de functie dat aantal dagen plus 1 af van de eerste dag van de opgegeven maand.
 
 ## <a name="calculate-times-based-on-hours-minutes-and-seconds"></a>Berekenen op basis van uren, minuten en seconden
+
 1. Voeg twee **Vervolgkeuzelijsten** toe met de namen **Uur** en **Minuut**.
+
 2. Stel de eigenschap **[Items](controls/properties-core.md)** van **Uur** in op deze formule:
    <br>**Table({Hour:"9"}, {Hour:"10"}, {Hour:"11"}, {Hour:"12"}, {Hour:"13"}, {Hour:"14"}, {Hour:"15"}, {Hour:"16"}, {Hour:"17"})**
+
 3. Stel de eigenschap **[Items](controls/properties-core.md)** van **Minuut** in op deze formule:
    <br>**Table({Minute:"0"}, {Minute:"15"}, {Minute:"30"}, {Minute:"45"})**
+
 4. Voeg een besturingselement van het type **[Label](controls/control-text-box.md)** toe en stel de eigenschap **[Text](controls/properties-core.md)** in op deze formule:  
    <br>**Text(Time(Value(Hour.Selected.Value), Value(Minute.Selected.Value), 0), DateTimeFormat.ShortTime)**
+
 5. Selecteer **15** voor **Uur** en **45** voor **Minuut**.
    
     In het besturingselement **[Label](controls/control-text-box.md)** wordt **15:45 uur** weergegeven.

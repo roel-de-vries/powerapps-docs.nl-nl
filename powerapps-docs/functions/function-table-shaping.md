@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 37261f710ffd13cb9eae4aa6aa9eb551e7964fb9
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: bbd440528e3af9e199e5e37bc5c4e9f4d36dbe21
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="addcolumns-dropcolumns-renamecolumns-and-showcolumns-functions-in-powerapps"></a>De functies AddColumns, DropColumns RenameColumns en ShowColumns in PowerApps
 Hiermee geeft u een [tabel](../working-with-tables.md) vorm door [kolommen](../working-with-tables.md#columns) op te nemen, uit te sluiten, te selecteren of door de naam ervan te wijzigen.
@@ -39,7 +39,7 @@ U kunt de kolommen van een [gegevensbron](../working-with-data-sources.md) niet 
 De functie **AddColumns** voegt een kolom toe aan een tabel en een formule definieert de waarden in die kolom. Bestaande kolommen blijven ongewijzigd.
 
 De formule wordt geëvalueerd voor elke record in de tabel.
-[!INCLUDE [record-scope](../../includes/record-scope.md)]
+[!INCLUDE [record-scope](../includes/record-scope.md)]
 
 De functie **DropColumns** sluit kolommen uit van een tabel.  Alle andere kolommen blijven ongewijzigd. **DropColumns** sluit kolommen uit en **ShowColumns** neemt kolommen op.
 
@@ -49,13 +49,13 @@ De functie **ShowColumns** neemt kolommen uit een tabel op en sluit alle andere 
 
 Voor al deze functies is het resultaat een nieuwe tabel waarop de transformatie is toegepast.  De oorspronkelijke tabel wordt niet gewijzigd.
 
-[!INCLUDE [delegation-no](../../includes/delegation-no.md)]
+[!INCLUDE [delegation-no](../includes/delegation-no.md)]
 
 ## <a name="syntax"></a>Syntaxis
 **AddColumns**( *Table*, *ColumnName1*, *Formula1* [, *ColumnName2*, *Formula2*, ... ] )
 
 * *Tabel* - vereist.  De tabel waarop de bewerking wordt toegepast.
-* *Kolomnaam* - vereist. Namen van een of meer kolommen die moeten worden toegevoegd.  Voor dit argument moet u een tekenreeks opgeven (bijvoorbeeld **"Naam"**, inclusief dubbele aanhalingstekens).
+* *NaamKolom(men)* - vereist. Namen van een of meer kolommen die moeten worden toegevoegd.  Voor dit argument moet u een tekenreeks opgeven (bijvoorbeeld **"Naam"**, inclusief dubbele aanhalingstekens).
 * *Formula(s)* - vereist.  De formule(s) die moet(en) worden geëvalueerd voor elke record. Het resultaat wordt toegevoegd als de waarde van de bijbehorende nieuwe kolom. In deze formule kunt u verwijzen naar andere kolommen in de tabel.
 
 **DropColumns**( *Table*, *ColumnName1* [, *ColumnName2*, ... ] )
@@ -72,7 +72,7 @@ Voor al deze functies is het resultaat een nieuwe tabel waarop de transformatie 
 **ShowColumns**( *Table*, *ColumnName1* [, *ColumnName2*, ... ] )
 
 * *Tabel* - vereist.  De tabel waarop de bewerking wordt toegepast.
-* *Kolomnaam* - vereist. Namen van een of meer kolommen die moeten worden opgenomen. Voor dit argument moet u een tekenreeks opgeven (bijvoorbeeld **"Naam"**, inclusief dubbele aanhalingstekens).
+* *NaamKolom(men)* - vereist. Namen van een of meer kolommen die moeten worden opgenomen. Voor dit argument moet u een tekenreeks opgeven (bijvoorbeeld **"Naam"**, inclusief dubbele aanhalingstekens).
 
 ## <a name="examples"></a>Voorbeelden
 In de voorbeelden in deze sectie wordt de gegevensbron **IJsverkoop** gebruikt, die de gegevens in deze tabel bevat:

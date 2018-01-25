@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: 57c591e134eafeae422289ad47afc8952ff67110
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 631b0c8fbfc98d73cf1d944c2a0f3933f8f10c11
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="refresh-function-in-powerapps"></a>De functie Refresh in PowerApps
 Hiermee vernieuwt u de [records](../working-with-tables.md#records) van een [gegevensbron](../working-with-data-sources.md).
@@ -27,7 +27,7 @@ Hiermee vernieuwt u de [records](../working-with-tables.md#records) van een [geg
 ## <a name="description"></a>Beschrijving
 De functie **Refresh** haalt een nieuwe kopie van een gegevensbron op.  U ziet dan wijzigingen die andere gebruikers hebben aangebracht.
 
-**Refresh** heeft geen retourwaarde en u kunt deze functie alleen gebruiken in [gedragsformules](../working-with-formulas-in-depth.md#behavior-formulas).
+**Refresh** heeft geen retourwaarde en u kunt deze functie alleen gebruiken in [gedragsformules](../working-with-formulas-in-depth.md).
 
 ## <a name="syntax"></a>Syntaxis
 **Refresh**( *DataSource* )

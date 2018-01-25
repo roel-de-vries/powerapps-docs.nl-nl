@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 944d6d8bf8c02790af7fa6726c15a94587c6af24
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: c0ca5547f433aea1bee8d5d0d430c3e11a7f4caa
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="forall-function-in-powerapps"></a>De functie ForAll in PowerApps
 Berekent waarden en voert acties uit voor alle [records](../working-with-tables.md#records) van een [tabel](../working-with-tables.md).
@@ -27,7 +27,7 @@ Berekent waarden en voert acties uit voor alle [records](../working-with-tables.
 ## <a name="description"></a>Beschrijving
 De functie **ForAll** evalueert een formule voor alle records van een tabel.  De formule kan een waarde berekenen en/of acties uitvoeren, zoals het wijzigen van gegevens of het werken met een verbinding.
 
-[!INCLUDE [record-scope](../../includes/record-scope.md)]
+[!INCLUDE [record-scope](../includes/record-scope.md)]
 
 ### <a name="return-value"></a>Retourwaarde
 Het resultaat van elke formule-evaluatie wordt in een tabel geretourneerd in dezelfde volgorde als de invoertabel.
@@ -49,7 +49,7 @@ Veel functies in PowerApps kunnen meer dan een waarde tegelijk verwerken door he
 Een andere overweging is dat **ForAll** niet kan worden gedelegeerd, terwijl dat voor andere functies, zoals **Filter**, mogelijk wel kan.  
 
 ### <a name="delegation"></a>Delegering
-[!INCLUDE [delegation-no-one](../../includes/delegation-no-one.md)]
+[!INCLUDE [delegation-no-one](../includes/delegation-no-one.md)]
 
 ## <a name="syntax"></a>Syntaxis
 **ForAll**( *Tabel*, *Formule* )

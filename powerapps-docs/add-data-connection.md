@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/02/2017
 ms.author: archanan
-ms.openlocfilehash: 3fe41ceddcce1ee8d1daa9b3532b4c92a94d8eee
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: b4377bd869e2b8879fd95d0a6729664104cd1368
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="add-a-data-connection-in-powerapps"></a>Een gegevensverbinding toevoegen in PowerApps
 In PowerApps voegt u een gegevensverbinding toe met een bestaande app, of met een app die u volledig nieuw bouwt. In dit onderwerp maakt u gebruik van PowerApps Studio, maar u kunt ook [powerapps.com](https://web.powerapps.com) gebruiken, zoals in het onderwerp [Verbindingen beheren](add-manage-connections.md) wordt beschreven.
@@ -46,41 +46,48 @@ Met de besturingselementen **[Galerie](controls/control-gallery.md)**, **[Formul
 
 ## <a name="add-a-connection"></a>Een verbinding toevoegen
 1. Selecteer in het menu **File** (aan de linkerkant van het scherm) de optie **New**.
-   
-    ![Optie New in het menu File](./media/add-data-connection/file-new.png)
+
+    ![Optie Nieuw in het menu Bestand](./media/add-data-connection/file-new.png)
+
 2. Klik of tik op de tegel **Lege app** op **Telefoonindeling**.
-   
+
     ![Een volledig nieuwe app maken](./media/add-data-connection/blank-app.png)
+
 3. Klik of tik in het middelste deelvenster op **verbinding maken met gegevens**.
+
 4. Als de verbinding die u wilt gebruiken in het deelvenster **Gegevens** in de lijst wordt weergegeven, klikt of tikt u erop om deze aan de app toe te voegen. Ga anders naar de volgende stap.
-   
+
     ![Gegevensbron toevoegen](./media/add-data-connection/choose-existing-connections.png)
+
 5. Klik of tik op **Nieuwe verbinding** om een lijst connectors weer te geven.
-   
+
     ![Verbinding toevoegen](./media/add-data-connection/new-connection.png)
+
 6. Blader door de lijst connectors tot u het type verbinding dat u wilt maken, hebt gevonden (bijvoorbeeld **Office 365 Outlook**). Klik of tik er daarna op.
-   
+
     ![Verbinding kiezen](./media/add-data-connection/choose-connection.png)
+
 7. Klik of tik op **Maken** om de verbinding te maken en deze toe te voegen aan uw app.
-   
+
     Voor sommige connectors, zoals **Microsoft Translator**, zijn geen extra stappen nodig, en u kunt de gegevens daarvan direct weergeven. Voor andere connectors moet u referenties of een bepaalde set gegevens opgeven, of andere stappen uitvoeren. Voor bijvoorbeeld [SharePoint](connections/connection-sharepoint-online.md) en [SQL Server](connections/connection-azure-sqldatabase.md) zijn aanvullende gegevens vereist voordat u er gebruik van kunt maken.
 
 ## <a name="view-or-change-a-data-source"></a>Weergeven of wijzigen van een gegevensbron
 Als u een app bijwerkt, moet u mogelijk de bron van gegevens die wordt weergegeven in een galerie, een formulier of een ander besturingselement met een eigenschap **Item** identificeren of wijzigen. U werkt bijvoorbeeld aan een app die iemand anders heeft gemaakt of u wilt uzelf herinneren aan een gegevensbron die u een tijdje geleden hebt geconfigureerd.
 
 1. Selecteer het besturingselement waarvoor u de gegevensbron wilt identificeren.
-   
+
     Selecteer bijvoorbeeld een galerie (niet een besturingselement in de galerie) door er in een hiërarchische lijst van schermen en besturingselementen in de buurt van de linkerrand op te klikken of te tikken.
-   
+
     De naam van de gegevensbron wordt weergegeven op het tabblad **Eigenschappen** van het rechterdeelvenster.
-   
+
     ![Gegevensbron op het tabblad Eigenschappen](./media/add-data-connection/properties-tab.png)
+
 2. Om meer informatie over de gegevensbron weer te geven of te wijzigen, klikt of tikt u **Gegevens** in het rechterdeelvenster.
-   
+
     ![Gegevensdeelvenster](./media/add-data-connection/data-pane.png)
+
 3. Als u de gegevensbron wilt wijzigen, klikt of tikt u op de pijl-omlaag naast de gegevensbron en kiest of maakt u vervolgens een andere bron.
 
 ## <a name="next-steps"></a>Volgende stappen
 * Als u de gegevens in bronnen als Excel, SharePoint Online, SQL Server en Dynamics CRM wilt weergeven en bijwerken, [voegt u een galerie toe](add-gallery.md) en [voegt u een formulier toe](add-form.md).
 * Voor de gegevens in andere bronnen kunt u de functies gebruiken die specifiek zijn voor de betreffende connector, zoals die voor [Office 365 Outlook](connections/connection-office365-outlook.md), [Twitter](connections/connection-twitter.md) en [Microsoft Translator](connections/connection-microsoft-translator.md).
-

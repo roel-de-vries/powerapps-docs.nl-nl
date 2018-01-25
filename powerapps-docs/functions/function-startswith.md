@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: fc575ff16f190f85b50ef056430354e32d0ab907
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 2ffc183221e399ee978ac9a600b400e96a00f704
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="endswith-and-startswith-functions-in-powerapps"></a>Functies EndsWith en StartsWith in PowerApps
 Test of een tekenreeks begint of eindigt met een andere tekenreeks.
@@ -31,7 +31,7 @@ De functie **StartsWith** test of een tekenreeks begint met een andere tekenreek
 
 De tests zijn voor beide functies niet hoofdlettergevoelig.  De resulterende waarde van beide is de booleaanse waarde **true** of **false**.  
 
-Gebruik **EndsWith** en **StartsWith** met de functie **[Filter](function-filter-lookup.md)** om te zoeken naar de gegevens in uw app. U kunt ook de operator **[in](operators.md#in-and-exactin-operators)** of de functie **[Search](function-fitler-lookup.md)** gebruiken om ergens in tekenreeksen te zoeken, niet alleen aan het begin of einde.  Uw keuze van functies is afhankelijk van de behoeften van uw app en de functie die kan worden [gedelegeerd](../delegation-overview.md) voor uw specifieke gegevensbron.  Als een van deze functies kan niet worden gedelegeerd, wordt er tijdens het ontwerpen een blauwe stip weergegeven om u te waarschuwen over deze beperking.
+Gebruik **EndsWith** en **StartsWith** met de functie **[Filter](function-filter-lookup.md)** om te zoeken naar de gegevens in uw app. U kunt ook de operator **[in](operators.md#in-and-exactin-operators)** of de functie **[Search](function-filter-lookup.md)** gebruiken om ergens in tekenreeksen te zoeken, niet alleen aan het begin of einde.  Uw keuze van functies is afhankelijk van de behoeften van uw app en de functie die kan worden [gedelegeerd](../delegation-overview.md) voor uw specifieke gegevensbron.  Als een van deze functies kan niet worden gedelegeerd, wordt er tijdens het ontwerpen een blauwe stip weergegeven om u te waarschuwen over deze beperking.
 
 ## <a name="syntax"></a>Syntaxis
 **EndsWith**( *Text*, *EndText* )

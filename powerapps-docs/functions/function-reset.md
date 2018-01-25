@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: fb1154a80bc60b8d645fdeef8c40dcdb2d2b4baf
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: c08776071e694bfe1a9b4a8263ab9eead2547024
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="reset-function-in-powerapps"></a>De functie Reset in PowerApps
 Hiermee stelt u een besturingselement in op de standaardwaarde en worden gebruikerswijzigingen genegeerd.  
@@ -33,7 +33,7 @@ De functie **Reset** vormt een alternatief voor het uitschakelen van de eigensch
 
 Invoerbesturingselementen worden ook opnieuw ingesteld wanneer hun eigenschap **Default** wijzigt.
 
-**Reset** heeft geen retourwaarde en u kunt deze functie alleen gebruiken in [gedragsformules](../working-with-formulas-in-depth.md#behavior-formulas).
+**Reset** heeft geen retourwaarde en u kunt deze functie alleen gebruiken in [gedragsformules](../working-with-formulas-in-depth.md).
 
 ## <a name="syntax"></a>Syntaxis
 **Reset**( *besturingselement* )

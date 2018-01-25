@@ -15,18 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: lonu
-ms.openlocfilehash: 8441ac93c1d3f96e0316ff1f044dc58b800d4dd5
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 02e45c98aa991c14ad99d3bf3f11d02dbc0752aa
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="add-a-scrolling-screen-in-powerapps"></a>Een scrollscherm toevoegen in PowerApps
 Maak een scherm waardoor gebruikers kunnen scrollen om verschillende items te bekijken. Mogelijk wilt u bijvoorbeeld een app maken om gegevens in een kolomdiagram en lijndiagram weer te geven. Als u een scrollscherm toevoegt, kunt u meerdere besturingselementen toevoegen die gebruikers kunnen bekijken door te scrollen.
 
 Als u meerdere besturingselementen in een sectie toevoegt, behouden de besturingselementen hun relatieve positie binnen die sectie, ongeacht of het om een telefoon-app of een tablet-app gaat. Het schermformaat en de weergaverichting kunnen doorslaggevend zijn bij het bepalen hoe secties worden ingedeeld.  
-
-&nbsp;
 
 [!INCLUDE [app-customization-requirements](includes/app-customization-requirements.md)]
 

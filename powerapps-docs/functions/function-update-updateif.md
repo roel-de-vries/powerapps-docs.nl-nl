@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: 36f259989c01d295dd1e6d3894032748133483d3
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 71732f7d2785dba42ba2a6e05b70ce16d3f017a5
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="update-and-updateif-functions-in-powerapps"></a>De functies Update en UpdateIf in PowerApps
 Werken [records](../working-with-tables.md#records) in een [gegevensbron](../working-with-data-sources.md) bij.
@@ -39,10 +39,10 @@ Als u een wijziging wilt opgeven, gebruikt u een wijzigingsrecord die nieuwe eig
 
 Net als **UpdateIf** kunt u ook de functie **[Patch](function-patch.md)** gebruiken om specifieke kolommen in een record te wijzigen zonder dat dit van invloed is op andere kolommen.
 
-**Update** en **UpdateIf** retourneren de gewijzigde gegevensbron als een [tabel](../working-with-tables.md). U moet beide functies gebruiken in een [gedragsformule](../working-with-formulas-in-depth.md#behavior-formulas).
+**Update** en **UpdateIf** retourneren de gewijzigde gegevensbron als een [tabel](../working-with-tables.md). U moet beide functies gebruiken in een [gedragsformule](../working-with-formulas-in-depth.md).
 
 ### <a name="delegation"></a>Delegering
-[!INCLUDE [delegation-no](../../includes/delegation-no.md)]
+[!INCLUDE [delegation-no](../includes/delegation-no.md)]
 
 ## <a name="syntax"></a>Syntaxis
 **Update**( *DataSource*, *OldRecord*, *NewRecord* [, **All** ] )

@@ -15,17 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 25094d77809e754afbc54fe5e7b2cd644497ff3e
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: cad53141d6896ad71caaca77b7bf07fee2ac0600
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="core-properties-in-powerapps"></a>Kerneigenschappen in PowerApps
-## <a name="overview"></a>Overzicht
 Configureer of de gebruiker een besturingselement kan zien er hier invloed op heeft.
 
-## <a name="properties"></a>Eigenschappen
+### <a name="properties"></a>Eigenschappen
 **Default**: de aanvankelijke waarde van een besturingselement voordat deze door de gebruiker wordt gewijzigd.
 
 * Is van toepassing op de besturingselementen **[Kaart](control-card.md)**, **[Selectievakje](control-check-box.md)**, **[Vervolgkeuzelijst](control-drop-down.md)**, **[Galerie](control-gallery.md)**, **[Keuzelijst](control-list-box.md)**, **[Keuzerondje](control-radio.md)**, **[Waardering](control-rating.md)**, **[Schuifregelaar](control-slider.md)**, **[Tekstinvoer](control-text-input.md)** en **[Wisselknop](control-toggle.md)**.

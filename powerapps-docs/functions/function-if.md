@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/24/2017
 ms.author: gregli
-ms.openlocfilehash: 6b969ca59f28abfefe91c887c2755ee7a7d28ed4
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 9254eaf63d816fc8ac9890026f74bdeaeaa9b1a4
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="if-and-switch-functions-in-powerapps"></a>De functies If en Switch in PowerApps
 Hiermee wordt bepaald of een voorwaarde in een set true is (**If**) of dat het resultaat van een formule overeenkomt met een willekeurige waarde in een set (**Switch**). Vervolgens wordt een resultaat geretourneerd of een actie uitgevoerd.
@@ -35,7 +35,7 @@ De functie **Switch** evalueert een formule en bepaalt of het resultaat overeenk
 * Gebruik **If** om meerdere niet-gerelateerde voorwaarden te evalueren. In PowerApps (in tegenstelling tot Microsoft Excel) kunt u meerdere voorwaarden opgeven zonder **If**-formules te moeten nesten.
 * Gebruik **Switch** om één voorwaarde te evalueren ten opzichte van meerdere mogelijke overeenkomsten. U kunt in dit geval ook **If** gebruiken, maar dan moet u de formule herhalen voor elke mogelijke overeenkomst.
 
-U kunt beide functies gebruiken in [gedragformules](../working-with-formulas-in-depth.md#behavior-formulas) om vertakkingen te maken tussen twee of meer acties. Slechts één vertakking activeert een actie. Voorwaarden en overeenkomsten worden op volgorde geëvalueerd en het proces wordt gestopt als een voorwaarde **true** is of er een overeenkomst is gevonden.
+U kunt beide functies gebruiken in [gedragformules](../working-with-formulas-in-depth.md) om vertakkingen te maken tussen twee of meer acties. Slechts één vertakking activeert een actie. Voorwaarden en overeenkomsten worden op volgorde geëvalueerd en het proces wordt gestopt als een voorwaarde **true** is of er een overeenkomst is gevonden.
 
 *Blank* wordt geretourneerd als geen voorwaarden **true** zijn, er geen overeenkomsten zijn gevonden en u geen standaardresultaat opgeeft.
 
@@ -83,7 +83,7 @@ In deze voorbeelden is in een **[Tekstinvoer](../controls/control-text-input.md)
 1. Voeg een **[Tekstinvoer](../controls/control-text-input.md)**-besturingselement toe en noem het **Tekst1** als het die naam niet standaard al heeft.
 2. Typ in **Tekst1** **30**.
 3. Voeg een besturingselement van het type **Label** toe en stel de eigenschap **[Text](../controls/properties-core.md)** in op deze formule:<br>
-   **If( Value(Tekst1.Text) < 20, "Bestel VEEL meer!", Value(Tekst1.Text) < 40, "Bestel meer!", Tekst1.Text )**
+   **If( Value(Text1.Text) < 20, "Bestel VEEL meer!", Value(Text1.Text) < 40, "Bestel meer!", Text1.Text )**
    
     In het besturingselement **Label** wordt **Bestel meer!** weergegeven omdat de waarde van **Tekst1** hoger is dan 20, maar lager dan 40.
 4. Typ in **Tekst1** **15**.

@@ -15,14 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/10/2015
 ms.author: gregli
-ms.openlocfilehash: 69e2252b60b559e68191399196b4957f77e51ee4
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 7bb0d9f3db9353511e8a5ed85f016049a96f7dae
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-behavior-formulas-in-powerapps"></a>Over gedragsformules in PowerApps
-## <a name="behavior-formulas"></a>Gedragsformules
+
 Met de meeste formules wordt een waarde berekend.  Net als bij een Excel-werkblad vindt de herberekening automatisch plaats wanneer er waarden worden gewijzigd.  Stel dat u bijvoorbeeld de waarde in een besturingselement **[Label](controls/control-text-box.md)** rood wilt weergeven als de waarde lager is dan nul en zwart in andere gevallen. U kunt de eigenschap **[Color](controls/properties-color-border.md)** van dat besturingselement instellen op deze formule:
 <br>**If( Value(TextBox1.Text) >= 0, Color.Black, Color.Red )**
 

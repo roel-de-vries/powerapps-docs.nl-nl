@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/08/2015
 ms.author: gregli
-ms.openlocfilehash: 710e48f8619c44082d81907e64896b15425e4531
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 58f8c4bf55167e7c891a614a2bfb98ef20dcfd7c
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="back-and-navigate-functions-in-powerapps"></a>De functies Back en Navigate in PowerApps
 Wijzigen welk scherm wordt weergegeven.
@@ -53,7 +53,7 @@ Stel de eigenschap **[OnHidden](../controls/control-screen.md)** van het oude sc
 
 **Back** retourneert normaal **true**, maar retourneert **false** als de gebruiker op het eerste scherm is en er geen vorig scherm is.  **Navigate** retourneert normaal **true** , maar retourneert **false** als er een probleem met een van de argumenten.
 
-U kunt deze functies alleen gebruiken binnen een [gedragsformule](../working-with-formulas-in-depth.md#behavior-formulas).
+U kunt deze functies alleen gebruiken binnen een [gedragsformule](../working-with-formulas-in-depth.md).
 
 ## <a name="syntax"></a>Syntaxis
 **Back**()

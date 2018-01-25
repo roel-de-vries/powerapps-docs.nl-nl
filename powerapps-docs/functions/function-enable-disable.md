@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: b4051bdb312707cfafe63a97b5e77a2860feb60c
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 3b9801e804284cb52d389aa0c57d1247a008dd0d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="enable-and-disable-functions-in-powerapps"></a>De functies Enable en Disable in PowerApps
 Hiermee schakelt u een [signaal](signals.md) in of uit.
@@ -34,7 +34,7 @@ De functies **Enable** en **Disable** schakelen een signaal respectievelijk in e
 
 Deze functies werken op dit moment alleen voor het signaal **[Location](signals.md)**.
 
-Deze functies retourneren geen waarde. U kunt de functies alleen gebruiken in [gedragsformules](../working-with-formulas-in-depth.md#behavior-formulas).
+Deze functies retourneren geen waarde. U kunt de functies alleen gebruiken in [gedragsformules](../working-with-formulas-in-depth.md).
 
 ## <a name="syntax"></a>Syntaxis
 **Enable**( *Signal* )<br>**Disable**( *Signal* )

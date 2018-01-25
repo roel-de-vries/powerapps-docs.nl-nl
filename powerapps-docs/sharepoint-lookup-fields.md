@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/20/2017
 ms.author: sharik
-ms.openlocfilehash: b589a03f592c02547dce0e74a5c4d3ac74c436a1
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: a1966016b07a79a23880511a5cc0d6da8643adbc
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="how-to-link-sharepoint-lists-using-lookup-fields"></a>SharePoint-lijsten koppelen met behulp van opzoekvelden
 In deze zelfstudie leert hoe u twee SharePoint-lijsten kunt koppelen met opzoekvelden.
@@ -58,58 +58,77 @@ In de praktijk zou u waarschijnlijk meer velden definiëren, afhankelijk van de 
 U doet dit eerst, zodat u bij het toevoegen van gegevens aan de lijst **activa** in het opzoekveld *Assets.RepairShop* items kunt kiezen uit de lijst **RepairShop**.
 
 1. Maak op uw SharePoint-site een nieuwe lijst, **RepairShop**.
-   
+
     ![](./media/sharepoint-lookup-fields/new-list.png)
+
 2. Voeg een veld *ContactEmail* toe, van het type **Eén tekstregel**.
-   
+
     ![](./media/sharepoint-lookup-fields/add-email-field.png)
+
 3. Voeg eventueel andere velden toe.
+
 4. Klik of tik op **+ Nieuw** om voorbeeldgegevens aan de lijst toe te voegen; voeg ten minste 3 rijen toe met verschillende waarden voor *ContactEmail*. Wanneer een asset moet worden gerepareerd, kiest u een van deze reparateurs.
-   
+
     ![](./media/sharepoint-lookup-fields/add-repair-shops.png)
 
 ### <a name="define-the-assets-list"></a>De lijst met Assets definiëren
 1. Maak op uw SharePoint-site een nieuwe lijst, **Assets**.
+
 2. Klik of tik op het plusteken en kies **Meer**.
-   
+
     ![](./media/sharepoint-lookup-fields/choose-more-type.png)
+
 3. Voeg een veld *AssetType* toe, van het type **Keuze**, en voer in het tekstvak **Typ elke keuze op een nieuwe regel** de waarden in die u wilt weergeven in het keuzemenu. Klik of tik op **OK**.
-   ![](./media/sharepoint-lookup-fields/define-choice-column.png)
+
+    ![](./media/sharepoint-lookup-fields/define-choice-column.png)
+
 4. Voeg nu nog een ander veld toe, zoals u in stap 2 heeft gedaan: klik of tik op het plusteken en kies **Meer**.
+
 5. Voeg een veld *RepairShop* toe, van het type **Opzoeken**, kies in het tekstvak **Informatie ophalen van** voor **RepairShop** en kies in het tekstvak **In deze kolom** voor *ContactEmail*. Klik of tik op **OK**.
-   ![](./media/sharepoint-lookup-fields/setup-lookup-column.png)
+
+    ![](./media/sharepoint-lookup-fields/setup-lookup-column.png)
+
 6. Voeg eventueel nog andere velden toe.
 
 ## <a name="create-an-app-from-the-assets-list"></a>Een app maken op basis van de lijst Assets
 U gebruikt deze app om gegevens toe te voegen aan de lijst **Assets**.
 
 1. Open PowerApps Studio. Als u PowerApps nog niet eerder hebt gebruikt, kunt u zich [gratis aanmelden](https://powerapps.microsoft.com) met het e-mailadres van uw organisatie en daarna de instructies volgen om PowerApps Studio te downloaden vanuit de Windows Store.
+
 2. Klik of tik in het menu **Bestand** (aan de linkerkant) op **Nieuw** en klik of tik vervolgens op **SharePoint**.
 
-![](./media/sharepoint-lookup-fields/create-app.png)
+    ![](./media/sharepoint-lookup-fields/create-app.png)
 
 1. Kies uit SharePoint-site uit de lijst met **Recente sites** of voer de URL van uw site direct in het tekstvak in. Klik of tik op **Ga**.
 
-![](./media/sharepoint-lookup-fields/choose-sharepoint-site.png)
+    ![](./media/sharepoint-lookup-fields/choose-sharepoint-site.png)
 
 1. Kies de belangrijkste lijst van uw SharePoint-site. In dit voorbeeld is dit **Assets**. Klik of tik op de knop **Verbinding maken**, in de rechterbenedenhoek.
 
-![](./media/sharepoint-lookup-fields/choose-main-list.png)
+    ![](./media/sharepoint-lookup-fields/choose-main-list.png)
+
 
 ## <a name="add-data-to-the-assets-list"></a>Gegevens toevoegen aan de lijst Assets
 U kunt nu de app uitvoeren en kijken hoe het venster Details weergeven eruitziet voor de opzoekvelden.
 
 1. Druk op F5 of selecteer Voorbeeld ( ![](./media/sharepoint-lookup-fields/preview.png) ).
+
 2. Klik of tik op het pictogram  **+** , in de rechterbovenhoek, om een vermelding toe te voegen.
+
 3. Voer een **Titel** in voor deze asset.
+
 4. Klik of tik op de vervolgkeuzepijl voor **AssetType**. De weergegeven waarden zijn de waarden die u hebt opgegeven tijdens het maken van dit veld. Kies een van de items.
-   
+
     ![](./media/sharepoint-lookup-fields/fill-asset-type-3.png)
+
 5. Klik of tik op de vervolgkeuzepijl voor **Repairshop**. Kies een van de items.
-   
+
     ![](./media/sharepoint-lookup-fields/fill-repair-shop-3.png)
+
 6. Klik of tik op het vinkje in de rechterbovenhoek om het nieuwe item op te slaan.
+
 7. (optioneel) Herhaal deze stappen om zoveel items aan de lijst toe te voegen als u wilt.
+
 8. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
 ## <a name="for-more-information"></a>Voor meer informatie
@@ -117,4 +136,3 @@ U kunt nu de app uitvoeren en kijken hoe het venster Details weergeven eruitziet
 * [Performance, Refresh button, ForAll, and multiple field lookups (Prestaties, de knop Vernieuwen, ForAll en opzoekacties voor meerdere velden)](https://powerapps.microsoft.com/blog/performance-refresh-forall-multiple-field-lookups-531/)
 * [Generate an app by using a Common Data Service database (Een app genereren met behulp van een Common Data Service-database)](data-platform-create-app.md)
 * [Create an app from scratch using a Common Data Service database (Een volledig nieuwe app maken met behulp van een Common Data Service-database)](data-platform-create-app-scratch.md)
-

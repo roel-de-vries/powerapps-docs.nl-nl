@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/09/2017
 ms.author: mblythe
-ms.openlocfilehash: 95dad93f75503415f714cc36c0f9413b66223353
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 0c06b24c0ed253a6589c4eb073a6d01595ed5b59
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="develop-offline-capable-apps-with-powerapps"></a>Apps ontwikkelen die geschikt zijn voor offlinegebruik met PowerApps
 Een van de meest voorkomende scenario's waarmee u als ontwikkelaar van mobiele apps te maken hebt, is uw gebruikers productief te laten zijn wanneer er beperkte of helemaal geen connectiviteit is. PowerApps heeft een reeks functies en gedragingen waarmee u apps kunt ontwikkelen die geschikt zijn voor offlinegebruik. U kunt:
@@ -59,8 +59,11 @@ Op een hoog niveau doet de app het volgende:
     ![Lege app, telefoonindeling](media/offline-apps/blank-app.png)
 
 ### <a name="step-2-add-a-twitter-connection"></a>Stap 2: Een Twitter-verbinding toevoegen
+
 1. Klik of tik op **Inhoud** > **Gegevensbronnen** en kies vervolgens **Gegevensbron toevoegen** in het deelvenster **Gegevensbronnen**.
+
 2. Klik of tik op **Nieuwe verbinding**, selecteer **Twitter** en klik of tik op **Maken**.
+
 3. Voer uw referenties in en maak de verbinding.
    
     ![Een Twitter-verbinding toevoegen](media/offline-apps/twitter-connection.png)
@@ -96,8 +99,11 @@ Deze formule controleert of het apparaat online is:
 * Als het apparaat offline is, laadt het de lokale cache uit een bestand genaamd "Tweets", indien beschikbaar.
 
 ### <a name="step-4-add-a-gallery-and-bind-it-to-the-localtweets-collection"></a>Stap 4: Een galerie toevoegen en met de LocalTweets-verzameling verbinden
+
 1. Voeg een nieuwe galerie met flexibele hoogte in: **Invoegen** > **Galerie** > **Lege flexibele hoogte**.
+
 2. Stel de eigenschap **Items** in op **LocalTweets**.
+
 3. Voeg vier besturingselementen van het type **Label** toe om gegevens uit elke tweet weer te geven en stel de **Text**-eigenschappen in op:
    * **ThisItem.TweetText**
    * **ThisItem.UserDetails.FullName & " @" & ThisItem.UserDetails.UserName**
@@ -115,7 +121,9 @@ If (Connection.Connected, "Connected", "Offline")
 Deze formule controleert of het apparaat online is. Zo ja, dan is de tekst van het label "Connected". Zo niet, dan is de tekst "Offline".
 
 ### <a name="step-6-add-a-text-input-to-compose-new-tweets"></a>Stap 6: Tekstinvoer toevoegen om nieuwe tweets op te stellen
+
 1. Voeg een nieuw besturingselement van het type **Tekstinvoer** genaamd "NewTweetTextInput" in.
+
 2. Stel de eigenschap **Reset** van de tekstinvoer in op **resetNewTweet**.
 
 ### <a name="step-7-add-a-button-to-post-the-tweet"></a>Stap 7: Een knop toevoegen om de tweet te posten
@@ -149,7 +157,9 @@ Vervolgens stelt de formule de tekst in het tekstvak opnieuw in.
 Voeg een nieuw besturingselement van het type **Timer** toe:
 
 * Stel de eigenschap **Duration** in op 300000.
+
 * Stel de eigenschap **AutoStart** in op 'true'.
+
 * Stel de eigenschap **OnTimerEnd** in op de volgende formule:
   
     ```
@@ -176,16 +186,12 @@ Nu de app klaar is, laten we zien hoe deze eruitziet voordat we deze gaan testen
 ## <a name="testing-the-app"></a>De app testen
 Gebruik de volgende stappen om de app te testen:
 
-1. Voer PowerApps uit op een mobiel apparaat terwijl u online bent.
-   
-    U moet de app ten minste eenmaal uitvoeren terwijl u online bent, zodat u de app op het apparaat kunt downloaden.
+1. Voer PowerApps uit op een mobiel apparaat terwijl u online bent. U moet de app ten minste eenmaal uitvoeren terwijl u online bent, zodat u de app op het apparaat kunt downloaden.
 2. Start de Twitter-app.
 3. U ziet dat de tweets worden geladen en dat de status **Connected** is.
 4. Sluit PowerApps volledig.
 5. Zet het apparaat in vliegtuigmodus om te verzekeren dat het offline is.
-6. Voer PowerApps uit.
-   
-    U kunt de Twitter-app nu offline uitvoeren, en u hebt toegang tot alle andere apps die u eerder op dit apparaat hebt uitgevoerd terwijl u online was (d.w.z. PowerApps verbergt alle apps die nog niet op uw apparaat zijn gedownload).
+6. Voer PowerApps uit. U kunt de Twitter-app nu offline uitvoeren, en u hebt toegang tot alle andere apps die u eerder op dit apparaat hebt uitgevoerd terwijl u online was (d.w.z. PowerApps verbergt alle apps die nog niet op uw apparaat zijn gedownload).
 7. Voer de app nogmaals uit.
 8. Merk op hoe de app de verbindingsstatus **Offline** correct weergeeft.
 9. Stel een nieuwe tweet op. De tweet wordt lokaal opgeslagen in de **LocalTweetsToPost**-verzameling.

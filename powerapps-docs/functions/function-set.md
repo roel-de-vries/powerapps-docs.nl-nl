@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/29/2017
 ms.author: gregli
-ms.openlocfilehash: ddd772b8db016c69001d2d19f33863fe65fbd25a
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ef44d704d16892c7c37ac4fbf7c3eebc0ffcb966
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="set-function-in-powerapps"></a>De functie Set in PowerApps
 De waarde van een globale variabele instellen.
@@ -32,9 +32,9 @@ Globale variabelen zijn in uw app beschikbaar op alle schermen.  Dit zijn de mee
 PowerApps zijn gebaseerd op formules die automatisch opnieuw worden berekend terwijl de gebruiker de app gebruikt.  Globale variabelen bieden dit voordeel niet, waardoor uw app mogelijk moeilijker te ontwikkelen en te begrijpen is.  Raadpleeg [werken met variabelen](../working-with-variables.md) voordat u een variabele gebruikt.
 
 ## <a name="description"></a>Beschrijving
-Globale variabelen worden impliciet gemaakt met behulp van de functie **Set**.  Er is geen expliciete declaratie vereist.  Als u alle **Set**-functies verwijdert voor een globale variabele, gaat de globale variabele verloren.  Om een variabele te wissen, stelt u de waarde ervan in op het resultaat van de functie [**Blank**](function-blank.md). 
+Globale variabelen worden impliciet gemaakt met behulp van de functie **Set**.  Er is geen expliciete declaratie vereist.  Als u alle **Set**-functies verwijdert voor een globale variabele, gaat de globale variabele verloren.  Om een variabele te wissen, stelt u de waarde ervan in op het resultaat van de functie [**Blank**](function-isblank-isempty.md).
 
-U ziet de waarden, definities en het gebruik van uw variabelen met de weergave Variabelen onder het menu Bestand in de ontwerpomgeving. 
+U ziet de waarden, definities en het gebruik van uw variabelen met de weergave Variabelen onder het menu Bestand in de ontwerpomgeving.
 
 Zoals de voorbeelden verderop in dit onderwerp laten zien, kunnen globale variabelen verschillende soorten informatie bevatten, waaronder de volgende:
 
@@ -48,7 +48,7 @@ Een globale variabele behoudt zijn waarde totdat de app wordt gesloten.  Nadat d
 
 Globale variabelen kunnen niet dezelfde naam gebruiken als een bestaande verzameling of bestaand besturingselement.  Ze kunnen wel dezelfde naam gebruiken als een contextvariabele.  Om onderscheid te maken tussen de twee, gebruikt u de [Ondubbelzinnigheidsoperator](operators.md#disambiguation-operator).
 
-**Set** heeft geen retourwaarde en u kunt deze functie alleen gebruiken in een [gedragsformule](../working-with-formulas-in-depth.md#behavior-formulas).
+**Set** heeft geen retourwaarde en u kunt deze functie alleen gebruiken in een [gedragsformule](../working-with-formulas-in-depth.md).
 
 ## <a name="syntax"></a>Syntaxis
 **Set**( *VariableName*, *Value* )

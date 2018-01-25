@@ -14,17 +14,17 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/06/2017
-ms.author: karthikb
-ms.openlocfilehash: 3c675e84f03e008a7f478d358a99fe3fff602002
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.author: sharik
+ms.openlocfilehash: 2622fe53fe45c1b4e46a515ba89d2caee5bf1ab3
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="create-or-edit-apps-in-powerapps-studio-for-web"></a>Apps maken of bewerken in PowerApps Studio voor internet
 Maak en bewerk apps in PowerApps Studio voor internet, dat in een browser wordt geopend op Windows of andere platforms.
 
-**Vereisten**
+## <a name="prerequisites"></a>Vereisten
 
 * [Meld u aan](signup-for-powerapps.md) voor PowerApps.
 * Microsoft Edge, Google Chrome of Internet Explorer 11 op een computer met Windows of op een Mac.

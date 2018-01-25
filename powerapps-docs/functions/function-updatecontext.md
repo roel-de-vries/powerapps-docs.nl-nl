@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/08/2015
 ms.author: gregli
-ms.openlocfilehash: 16d2ed94b44b8b0e521aa5690885fcd1617dc024
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: bcade879bfad04a50f80c26638f994897d9b42c0
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="updatecontext-function-in-powerapps"></a>De functie UpdateContext in PowerApps
 Maakt [contextvariabelen](../working-with-variables.md#create-a-context-variable) voor het huidige scherm of werkt ze bij.
@@ -38,9 +38,9 @@ Als u een contextvariabele wilt maken of bijwerken, geeft u één [record](../wo
 * Als u de naam opgeeft van een variabele die nog niet bestaat, maakt **UpdateContext** een variabele met die naam en stelt de waarde van die variabele in op de opgegeven waarde.
 * Als u eerder een variabele hebt gedefinieerd, maar deze variabele niet opgeeft in deze **UpdateContext**-formule, blijft de waarde ervan ongewijzigd.
 
-Contextvariabelen worden impliciet gemaakt met behulp van de functie **UpdateContext** of [**Navigate**](function-navigate.md).  Er is geen expliciete declaratie vereist.  Als u alle **UpdateContext-** en **Navigate-**verwijzingen naar een contextvariabele verwijdert, bestaat die contextvariabele niet meer.  Om een variabele te wissen, stelt u de waarde ervan in op het resultaat van de functie [**Blank**](function-blank.md). 
+Contextvariabelen worden impliciet gemaakt met behulp van de functie **UpdateContext** of [**Navigate**](function-navigate.md).  Er is geen expliciete declaratie vereist.  Als u alle **UpdateContext-** en **Navigate-**verwijzingen naar een contextvariabele verwijdert, bestaat die contextvariabele niet meer.  Om een variabele te wissen, stelt u de waarde ervan in op het resultaat van de functie [**Blank**](function-isblank-isempty.md).
 
-U ziet de waarden, definities en het gebruik van uw variabelen met de weergave Variabelen onder het menu Bestand in de ontwerpomgeving. 
+U ziet de waarden, definities en het gebruik van uw variabelen met de weergave Variabelen onder het menu Bestand in de ontwerpomgeving.
 
 U verwijst naar een contextvariabele in een formule door de kolomnaam van de variabele te gebruiken. Zo maakt **UpdateContext( { LogoTonen: true } )** bijvoorbeeld een contextvariabele met de naam **LogoTonen**, waarvan de waarde wordt ingesteld op **true**. Vervolgens kunt u de waarde van deze contextvariabele gebruiken door de naam **LogoTonen** te gebruiken in een formule.  U kunt **LogoTonen** gebruiken als formule voor de eigenschap **Visible** van een afbeeldingsbesturingselement en dat element weergeven of verbergen, afhankelijk van het feit of de waarde van de contextvariabele **true** of **false** is.
 
@@ -56,7 +56,7 @@ Een contextvariabele behoudt zijn waarde totdat de app wordt gesloten.  Als u ee
 
 Het bereik van elke contextvariabele is een scherm. Als u een contextvariabele wilt definiëren op het ene scherm en die variabele wilt wijzigen vanaf een ander scherm, moet u een formule maken die is gebaseerd op de functie **[Navigate](function-navigate.md)**.  Of gebruik een globale variabele.
 
-**UpdateContext** heeft geen retourwaarde en u kunt deze functie alleen gebruiken in een [gedragsformule](../working-with-formulas-in-depth.md#behavior-formulas).
+**UpdateContext** heeft geen retourwaarde en u kunt deze functie alleen gebruiken in een [gedragsformule](../working-with-formulas-in-depth.md).
 
 ## <a name="syntax"></a>Syntaxis
 **UpdateContext**( *UpdateRecord* )
