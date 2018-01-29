@@ -8,11 +8,11 @@ ms.service: powerapps
 ms.topic: landing-page
 ms.date: 10/27/2017
 ms.author: mblythe
-ms.openlocfilehash: 40d2849e0ba4ed664d8099bae335717841e1eac2
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: 6da595d920e7911f6b776a628b3f8d91ccf3a0ca
+ms.sourcegitcommit: faaf9adebd72794d2988fba1b27a31d70b5268f8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/25/2018
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -37,27 +37,27 @@ ms.lasthandoff: 01/12/2018
 Aan de slag </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started#step-1">Inleiding tot PowerApps</a>
+                                <a class="barLink" href="get-started.yml#step-1">Inleiding tot PowerApps</a>
                                 <span style="margin-left: 32px; align-self: center;">5 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started#step-2">De onderdelen van PowerApps</a>
+                                <a class="barLink" href="get-started.yml#step-2">De onderdelen van PowerApps</a>
                                 <span style="margin-left: 32px; align-self: center;">6 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started#step-3">Verwante technologieën</a>
+                                <a class="barLink" href="get-started.yml#step-3">Verwante technologieën</a>
                                 <span style="margin-left: 32px; align-self: center;">6 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started#step-4">Apps maken: een beknopt overzicht</a>
+                                <a class="barLink" href="get-started.yml#step-4">Apps maken: een beknopt overzicht</a>
                                 <span style="margin-left: 32px; align-self: center;">6 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started#step-5">Uw eerste app maken</a>
+                                <a class="barLink" href="get-started.yml#step-5">Uw eerste app maken</a>
                                 <span style="margin-left: 32px; align-self: center;">5 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started#step-6">Terugblikken op deze sectie</a>
+                                <a class="barLink" href="get-started.yml#step-6">Terugblikken op deze sectie</a>
                                 <span style="margin-left: 32px; align-self: center;">2 min.</span>
                               </li>
                           </ul>
@@ -80,19 +80,19 @@ Aan de slag </h3>
 Een app maken vanuit SharePoint </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint#step-1">Een app genereren</a>
+                                <a class="barLink" href="create-app-sharepoint.yml#step-1">Een app genereren</a>
                                 <span style="margin-left: 32px; align-self: center;">3 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint#step-2">Een gegenereerde app verkennen</a>
+                                <a class="barLink" href="create-app-sharepoint.yml#step-2">Een gegenereerde app verkennen</a>
                                 <span style="margin-left: 32px; align-self: center;">5 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint#step-3">De app aanpassen</a>
+                                <a class="barLink" href="create-app-sharepoint.yml#step-3">De app aanpassen</a>
                                 <span style="margin-left: 32px; align-self: center;">5 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint#step-4">App-formules verkennen</a>
+                                <a class="barLink" href="create-app-sharepoint.yml#step-4">App-formules verkennen</a>
                                 <span style="margin-left: 32px; align-self: center;">9 min.</span>
                               </li>
                             </ul>
@@ -115,19 +115,19 @@ Een app maken vanuit SharePoint </h3>
 Een app maken vanuit de Common Data Service </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-cds#step-1">Een app genereren</a>
+                                <a class="barLink" href="create-app-cds.yml#step-1">Een app genereren</a>
                                 <span style="margin-left: 32px; align-self: center;">6 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-cds#step-2">Een gegenereerde app verkennen</a>
+                                <a class="barLink" href="create-app-cds.yml#step-2">Een gegenereerde app verkennen</a>
                                 <span style="margin-left: 32px; align-self: center;">5 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-cds#step-3">De app aanpassen</a>
+                                <a class="barLink" href="create-app-cds.yml#step-3">De app aanpassen</a>
                                 <span style="margin-left: 32px; align-self: center;">12 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-cds#step-4">Een gegevensbron en -stroom toevoegen</a>
+                                <a class="barLink" href="create-app-cds.yml#step-4">Een gegevensbron en -stroom toevoegen</a>
                                 <span style="margin-left: 32px; align-self: center;">11 min.</span>
                               </li>
                           </ul>
@@ -150,15 +150,15 @@ Een app maken vanuit de Common Data Service </h3>
 Apps beheren </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps#step-1">Uw apps delen</a>
+                                <a class="barLink" href="manage-apps.yml#step-1">Uw apps delen</a>
                                 <span style="margin-left: 32px; align-self: center;">5 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps#step-2">Werken met de versies van uw apps</a>
+                                <a class="barLink" href="manage-apps.yml#step-2">Werken met de versies van uw apps</a>
                                 <span style="margin-left: 32px; align-self: center;">1 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps#step-3">Omgevingen</a>
+                                <a class="barLink" href="manage-apps.yml#step-3">Omgevingen</a>
                                 <span style="margin-left: 32px; align-self: center;">8 min.</span>
                               </li>
                           </ul>
@@ -181,23 +181,23 @@ Apps beheren </h3>
 Gegevens beheren </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-data#step-1">Common Data Service</a>
+                                <a class="barLink" href="manage-data.yml#step-1">Common Data Service</a>
                                 <span style="margin-left: 32px; align-self: center;">5 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-data#step-2">Over Common Data Service-entiteiten</a>
+                                <a class="barLink" href="manage-data.yml#step-2">Over Common Data Service-entiteiten</a>
                                 <span style="margin-left: 32px; align-self: center;">8 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-data#step-3">Aangepaste entiteiten maken</a>
+                                <a class="barLink" href="manage-data.yml#step-3">Aangepaste entiteiten maken</a>
                                 <span style="margin-left: 32px; align-self: center;">6 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-data#step-4">Entiteitgegevens beheren</a>
+                                <a class="barLink" href="manage-data.yml#step-4">Entiteitgegevens beheren</a>
                                 <span style="margin-left: 32px; align-self: center;">7 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-data#step-5">Common Data Service-beveiliging</a>
+                                <a class="barLink" href="manage-data.yml#step-5">Common Data Service-beveiliging</a>
                                 <span style="margin-left: 32px; align-self: center;">8 min.</span>
                               </li>
                           </ul>
