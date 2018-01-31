@@ -176,34 +176,16 @@
           href: sharepoint-scenario-summary.md
     - name: Integreren met Cognitive Services
       href: cognitive-services-api.md
-- name: 'Ontwikkelen: bedrijfsontwikkelaars'
+- name: Ontwikkelen voor PowerApps
   items:
-    - name: PowerApps voor bedrijfsontwikkelaars
+    - name: 'PowerApps voor bedrijfsontwikkelaars, partners en ISV''s'
       href: dev-enterprise-intro.md
-    - name: Aangepaste connectoren registreren en gebruiken
+    - name: Aangepaste connectors bouwen en certificeren
       href: register-custom-api.md
-    - name: Een aangepaste connector beschrijven met Postman
-      href: postman-collection.md
-    - name: Azure Active Directory gebruiken met een aangepaste connector
-      href: customapi-azure-resource-manager-tutorial.md
-    - name: Een aangepaste connector bouwen voor een Web-API
-      href: customapi-web-api-tutorial.md
     - name: Integreren met websites en andere technologieën
       href: embed-apps-dev.md
     - name: Apps ontwikkelen die geschikt zijn voor offlinegebruik
       href: offline-apps.md
-- name: 'Ontwikkelen: partners en ISV’s'
-  items:
-    - name: PowerApps voor Microsoft-partners en ISV's
-      href: dev-isv-partner-intro.md
-    - name: Overzicht van het certificeren van API-connectoren
-      href: api-connector-overview.md
-    - name: API-connectoren ontwikkelen voor certificering
-      href: api-connector-dev.md
-    - name: API-connectoren indienen voor certificering
-      href: api-connector-submission.md
-    - name: Veelgestelde vragen over het certificeren van API-connectoren
-      href: api-connector-faq.md
     - name: Klanten uw apps laten uitproberen
       href: dev-appsource-test-drive.md
 - name: Beheer en ALM

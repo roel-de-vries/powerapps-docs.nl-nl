@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/20/2017
 ms.author: mblythe
-ms.openlocfilehash: 0bf7675248a8b5734b86dbfb79ca9272d72e93b9
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: a5c0e2c69ccf5e7359318794e4c39bb66bba9dac
+ms.sourcegitcommit: faaf9adebd72794d2988fba1b27a31d70b5268f8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="integrate-powerapps-into-websites-and-other-services"></a>PowerApps integreren in websites en andere services
 De apps die u bouwt zijn vaak het best te gebruiken als ze beschikbaar zijn op de plek waar het werk wordt uitgevoerd. Met PowerApps kunt u apps insluiten in een iframe, zodat u deze apps kunt integreren in websites en andere services, zoals Power BI of SharePoint.
@@ -65,16 +65,14 @@ De app-id is beschikbaar op powerapps.com. Ga voor de app die u wilt insluiten a
 3. Vervang de `[AppID]`-waarde in de URI. De URI ziet er voor de app Voorraad bestellen als volgt uit:
    
     ```
-    https://web.powerapps.com/webplayer/iframeapp?hideNavBar=true&
-    source=iframe&appId=/providers/Microsoft.PowerApps/apps/76897698-91a8-b2de-756e-fe2774f114f2
+    https://web.powerapps.com/webplayer/iframeapp?source=iframe&appId=/providers/Microsoft.PowerApps/apps/76897698-91a8-b2de-756e-fe2774f114f2
     ```
 
 ## <a name="embed-your-app-in-a-website"></a>De app insluiten in een website
 Voor het insluiten van de app hoeft u nu alleen nog maar de iframe toe te voegen aan de HTML-code voor uw site (of aan elke andere service die iframes ondersteunt, zoals Power BI of SharePoint):
 
 ```
-<iframe width="[W]" height="[H]" src="https://web.powerapps.com/webplayer/iframeapp?hideNavBar=true&
-source=website&screenColor=rgba(165,34,55,1)&appId=/providers/Microsoft.PowerApps/apps/[AppID]"/>
+<iframe width="[W]" height="[H]" src="https://web.powerapps.com/webplayer/iframeapp?source=website&screenColor=rgba(165,34,55,1)&appId=/providers/Microsoft.PowerApps/apps/[AppID]"/>
 ```
 
 Geef waarden op voor de hoogte en breedte van de iframe en vervang `[AppID]` door de id van de app.
