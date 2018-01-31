@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/11/2017
 ms.author: aneesa
-ms.openlocfilehash: 023282c31ea90cd391d425faaf036603b5521d08
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: d791d04965873c133be85013feb181dc5a1e1bad
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="use-field-groups"></a>Veldgroepen gebruiken
 Veldgroepen bieden een manier om een of meer velden van een entiteit te groeperen. Met veldgroepen wordt het maken en onderhouden van apps sneller en eenvoudiger. Een veldgroep bevat een of meer velden, en een veld kan in een willekeurig aantal veldgroepen worden weergegeven. Een veld kan niet meer dan één keer voorkomen in een veldgroep.
@@ -50,7 +50,8 @@ Common Data Service omvat verschillende standaardveldgroepen op entiteiten. Deze
 3. Klik in de lijst  **Velden van de veldgroep** op de **X** naast een veldnaam om een veldgroep te verwijderen.
 4. Klik of tik op de knop **Opslaan**.
 
-*Opmerking: het wijzigen van veldgroepen voor [standaardentiteiten](guided-learning/learning-common-data-service-entities.md) wordt momenteel niet ondersteund, maar u kunt veldgroepen wijzigen voor aangepaste entiteiten.*
+> [!NOTE]
+> Het wijzigen van veldgroepen voor [standaardentiteiten](guided-learning/manage-data.yml#step-2) wordt momenteel niet ondersteund, maar u kunt veldgroepen wijzigen voor aangepaste entiteiten.*
 
 ## <a name="creating-a-field-group"></a>Een veldgroep maken
 Standaardveldgroepen worden automatisch gemaakt als u een entiteit maakt. Het maken van extra veldgroepen wordt momenteel niet ondersteund.

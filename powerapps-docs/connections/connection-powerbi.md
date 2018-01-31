@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/12/2016
 ms.author: sirsu
-ms.openlocfilehash: 59b19a81a7c3bfca059adb00e2b3140c122f53eb
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 62dbb11d167155d7f0c47b889674a61b1b1047f3
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-to-power-bi-from-powerapps"></a>Verbinding maken met Power BI vanuit PowerApps
 ![Power BI](./media/connection-powerbi/powerbiicon.png)
@@ -28,7 +28,7 @@ Power BI is een pakket business analytics-hulpprogramma's waarmee u gegevens kun
 
 In dit onderwerp ziet u hoe u de Power BI-verbinding in een app kunt gebruiken en vindt u een overzicht van de beschikbare functies.
 
-## <a name="what-you-need-to-get-started"></a>Wat u nodig hebt om te beginnen
+## <a name="prerequisites"></a>Vereisten
 * Toegang tot [powerapps.com](https://powerapps.com) of [PowerApps](http://aka.ms/powerappsinstall) moet zijn geïnstalleerd
 * De Power BI-[verbinding](https://powerapps.microsoft.com/tutorials/add-manage-connections/) moet zijn toegevoegd
 * U hebt een app gemaakt op basis van een [sjabloon](https://powerapps.microsoft.com/tutorials/get-started-test-drive/), op basis van [gegevens](https://powerapps.microsoft.com/tutorials/get-started-create-from-data/) of u hebt een [volledig nieuwe](https://powerapps.microsoft.com/tutorials/get-started-create-from-blank/) app gemaakt
@@ -78,7 +78,8 @@ Geen.
 ## <a name="checkalertstatus"></a>CheckAlertStatus
 De status van een waarschuwing weergeven.
 
-**Opmerking:** aanvragen naar dit eindpunt worden per waarschuwing beperkt bij te veel aanroepen.
+> [!NOTE]
+> Aanvragen naar dit eindpunt worden per waarschuwing beperkt bij te veel aanroepen.
 
 #### <a name="input-properties"></a>Invoereigenschappen
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |

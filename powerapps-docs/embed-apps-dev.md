@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/12/2017
+ms.date: 10/20/2017
 ms.author: mblythe
-ms.openlocfilehash: 541de1bcea9b76262d4f2d1cbe79c76b1c117245
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 0bf7675248a8b5734b86dbfb79ca9272d72e93b9
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="integrate-powerapps-into-websites-and-other-services"></a>PowerApps integreren in websites en andere services
 De apps die u bouwt zijn vaak het best te gebruiken als ze beschikbaar zijn op de plek waar het werk wordt uitgevoerd. Met PowerApps kunt u apps insluiten in een iframe, zodat u deze apps kunt integreren in websites en andere services, zoals Power BI of SharePoint.
@@ -31,7 +31,7 @@ In dit onderwerp leert u hoe u parameters instelt om de app in te kunnen sluiten
 Houd rekening met de volgende beperkingen:
 
 * Alleen PowerApps-gebruikers in dezelfde tenant hebben toegang tot de ingesloten app.
-* PowerApps biedt alleen ondersteuning voor Internet Explorer 11 als Compatibiliteitsweergave is uitgeschakeld.
+* Voor toegang tot PowerApps met behulp van Internet Explorer 11, moet u de Compatibiliteitsweergave uitschakelen.
 
 U kunt ook PowerApps integreren in SharePoint Online (zonder iframe). Zie [Een app genereren vanuit SharePoint met behulp van PowerApps](generate-app-from-sharepoint-list-interface.md) voor meer informatie.
 
@@ -43,7 +43,8 @@ https://web.powerapps.com/webplayer/iframeapp?source=iframe
 &appId=/providers/Microsoft.PowerApps/apps/[AppID]
 ```
 
-**Opmerking**: er is een regeleinde toegevoegd, zodat de URI beter op de pagina wordt weergegeven.
+> [!NOTE]
+> Er is een regeleinde toegevoegd, zodat de URI beter op de pagina wordt weergegeven.
 
 Het enige wat u moet doen, is [AppID] in de URI (inclusief '[' en ']') vervangen door de ID van uw app. U leert verderop hoe u aan die waarde komt. Eerst worden hier alle parameters getoond die in de URI beschikbaar zijn:
 

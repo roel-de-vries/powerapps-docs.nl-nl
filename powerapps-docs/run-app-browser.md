@@ -13,30 +13,31 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/12/2017
+ms.date: 01/16/2018
 ms.author: litran
-ms.openlocfilehash: 1cdd7fbf5b5940550e6e7c98ecaf2262940baa1c
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 0aff680aa5b8840330ee3a1758a895785f05da6f
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="use-powerapps-in-a-web-browser"></a>PowerApps gebruiken in een webbrowser
 Als u een app maakt in PowerApps, kunt u die app in een browser uitvoeren door [Dynamics 365](https://home.dynamics.com) te openen en op de startpagina op de tegel voor de app te tikken of te klikken.
 
-**Opmerking**: u kunt de algemene informatie over [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/) raadplegen of [contact opnemen met ondersteuning](https://www.microsoft.com/en-us/dynamics365/contact-us) als u een vraag hebt over een Dynamics 365-app, zoals Sales.
+> [!NOTE]
+> U kunt de algemene informatie over [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/) raadplegen of [contact opnemen met ondersteuning](https://www.microsoft.com/en-us/dynamics365/contact-us) als u een vraag hebt over een Dynamics 365-app, zoals Sales.
 
 De volgende browsers en besturingssystemen worden ondersteund:
 
 | **Browser** | **Besturingssysteem** |
 | --- | --- |
-| Google Chrome (meest recente versie) |Windows 7 SP1, 8.1 en 10 <br>macOS <br>iOS 8 of hoger<br>Android |
-| Microsoft Edge |Windows 10 |
+| Google Chrome (meest recente versie)<br>(aanbevolen) |Windows 7 SP1, 8.1 en 10 <br>macOS <br>iOS 8 of hoger<br>Android |
+| Microsoft Edge (meest recente versie)<br>(aanbevolen) |Windows 10 |
 | Microsoft Internet Explorer 11 (Compatibiliteitsweergave moet uitgeschakeld zijn) |Windows 7 SP1, 8.1 en 10 |
 | Mozilla Firefox (meest recente versie) |Windows 7 SP1, 8.1 en 10 <br> Android <br>macOS |
 | Apple Safari (meest recente versie) |macOS <br> iOS 8 of hoger |
 
-Als uw browser niet alle besturingselementen ondersteunt die in de app worden gebruikt, gebruik de app dan op een mobiel apparaat (zoals een telefoon) door PowerApps Mobile voor iOS, Android of Windows te downloaden.
+Als uw browser niet alle besturingselementen ondersteunt die in de app worden gebruikt, gebruik de app dan op een mobiel apparaat (zoals een telefoon) door PowerApps voor iOS of Android te downloaden.
 
 ## <a name="find-an-app-on-the-home-page"></a>Een app op de startpagina zoeken
 Op de startpagina worden vaak diverse typen zakelijke apps weergegeven, maar u kunt een specifieke app vinden door een gedeelte van de naam in het zoekvak in te voeren. U kunt de lijst ook filteren om alleen die apps weer te geven die in PowerApps zijn gemaakt.
@@ -68,4 +69,3 @@ Doorgaans wordt die vraag alleen de eerste keer gesteld.
 
 ## <a name="close-an-app"></a>Een app sluiten
 Sluit de app, meld u af bij de startpagina van Dynamics 365 of open een andere app.
-

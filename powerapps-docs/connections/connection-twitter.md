@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/12/2017
 ms.author: archanan
-ms.openlocfilehash: f99c293184a33ea204f21462badb5e6eb498ee40
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 0d46a203c6381285c281e745dae8554896aee95a
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-to-twitter-from-powerapps"></a>Verbinding maken met Twitter vanuit PowerApps
 ![Twitter](./media/connection-twitter/twittericon.png)
@@ -30,9 +30,7 @@ U kunt deze gegevens in een label in uw app weergeven. U kunt bijvoorbeeld een i
 
 In dit onderwerp wordt uitgelegd hoe u de Twitter-verbinding maakt en hoe u de Twitter-verbinding gebruikt in een app en worden de beschikbare functies toegelicht.
 
-&nbsp;
-
-[!INCLUDE [connection-requirements](../../includes/connection-requirements.md)]
+[!INCLUDE [connection-requirements](../includes/connection-requirements.md)]
 
 ## <a name="connect-to-twitter"></a>Verbinding maken met Twitter
 1. Open PowerApps, selecteer **Nieuw** en maak vervolgens een **lege app**. Kies de telefoon- of tabletindeling. De tabletindeling biedt meer werkruimte:  
@@ -72,7 +70,8 @@ De Twitter-verbinding is gemaakt en aan uw app toegevoegd. U kunt de verbinding 
      
        De tweets van de ingevoerde Twitter-handle worden automatisch weergegeven in het galeriebesturingselement.
      
-     **TIP** Sommige van deze formules gebruiken het argument **maxResults** om de *x* meest recente tweets in een tijdlijn weer te geven.
+     > [!TIP]
+> Sommige van deze formules gebruiken het argument **maxResults** om de *x* meest recente tweets in een tijdlijn weer te geven.
 3. Stel de eigenschap **Items** van de galerie in op `Twitter.HomeTimeline()`.
    
     Als u de galerie selecteert, ziet u in het deelvenster aan de rechterkant de opties voor de galerie.
@@ -100,7 +99,8 @@ De Twitter-verbinding is gemaakt en aan uw app toegevoegd. U kunt de verbinding 
      
        In het galeriebesturingselement wordt automatisch weergegeven wie de ingevoerde Twitter-handle volgen.
      
-     **TIP** Sommige van deze formules gebruiken het argument **maxResults** om de *x* meest recente tweets in een tijdlijn weer te geven.
+     > [!TIP]
+> Sommige van deze formules gebruiken het argument **maxResults** om de *x* meest recente tweets in een tijdlijn weer te geven.
 2. Stel de eigenschap **Items** van de galerie in op `Twitter.MyFollowers()`.
    
     Als u de galerie selecteert, ziet u in het deelvenster aan de rechterkant de opties voor de galerie.
@@ -158,7 +158,8 @@ U kunt ook een besturingselement voor tekstinvoer gebruiken om een Twitter-handl
    
     U kunt ook een besturingselement voor **tekstinvoer** gebruiken om een zoekterm op te geven zoals we in dit onderwerp hebben gedaan.
    
-    **TIP** Geef de eerste vijf resultaten weer met behulp van maxResults:  
+    > [!TIP]
+> Geef de eerste vijf resultaten weer met behulp van maxResults:  
    
     `Twitter.SearchTweet(SearchTerm.Text, {maxResults:5}).TweetText`
 2. Stel de eigenschap **Items** van de galerie in op `Twitter.SearchTweet(SearchTerm.Text, {maxResults:5})`.

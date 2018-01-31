@@ -12,37 +12,51 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/06/2016
+ms.date: 10/20/2017
 ms.author: kfend
-ms.openlocfilehash: 8255f597a1c9261c55bef465a8340fea49c69aa4
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 87be6f571688fd040c5f2578015e1a3393ca9ea1
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="manage-custom-fields"></a>Aangepaste velden beheren
 U kunt een of meer aangepaste velden in een entiteit maken en bijwerken. Als u een aangepast veld maakt, geeft u een aantal eigenschappen op, bijvoorbeeld de naam en de weergavenaam van het veld, en het type gegevens dat het kan bevatten. Zie [Entity field data types](https://docs.microsoft.com/en-us/common-data-service/entity-reference/field-data-types) (Gegevenstypen voor entiteitsvelden) en [Entity field properties](https://docs.microsoft.com/en-us/common-data-service/entity-reference/field-properties) (Eigenschappen van entiteitsvelden) voor meer informatie.
 
-**Opmerking:** Elke entiteit heeft [systeemvelden](data-platform-create-entity.md#system-and-record-title-fields), zoals velden die aangeven wanneer een record voor het laatst is bijgewerkt en wie dat heeft gedaan. Daarnaast hebben [standaardentiteiten](data-platform-intro.md#standard-entities) standaardvelden. U kunt systeemvelden en standaardvelden niet wijzigen of verwijderen. Als u een aangepast veld maakt, moet dit naast deze ingebouwde velden extra functionaliteit bieden.
+> [!NOTE]
+> Elke entiteit heeft [systeemvelden](data-platform-create-entity.md#system-fields-and-the-record-title-field), zoals velden die aangeven wanneer een record voor het laatst is bijgewerkt en wie dat heeft gedaan. Daarnaast hebben [standaardentiteiten](data-platform-intro.md#standard-entities) standaardvelden. U kunt systeemvelden en standaardvelden niet wijzigen of verwijderen. Als u een aangepast veld maakt, moet dit naast deze ingebouwde velden extra functionaliteit bieden.
 
 ## <a name="create-a-field"></a>Een veld maken
+
 1. Ga naar [powerapps.com](https://web.powerapps.com) en vouw de sectie **Common Data Service** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster. Er wordt een lijst met entiteiten weergegeven. Klik of tik op de kolomkop **Type** om aangepaste entiteiten bovenaan de lijst weer te geven. U kunt de lijst ook filteren door een of meer tekens in het zoekvak te tikken.
+
 2. Klik of tik op een entiteit en vervolgens bovenaan het scherm op **Add field**.
+
 3. Geef onder **Weergavenaam** de regel tekst op waarmee het veld voor gebruikers wordt geïdentificeerd. Zie [Een app maken](data-platform-create-app.md) voor meer informatie.
+
 4. Geef onder **Naam** de regel tekst op waarmee naar het veld wordt verwezen, bijvoorbeeld in een formule als u een app aan het maken bent.
    
-    **Belangrijk**: geef een naam op die uniek, duidelijk en zinvol is omdat u de naam niet meer kunt wijzigen als het veld is gemaakt.
+    > [!IMPORTANT]
+    > Geef een naam op die uniek, duidelijk en zinvol is omdat u de naam niet meer kunt wijzigen als het veld is gemaakt.
+
 5. Geef onder **Type** het type gegevens in het veld op, bijvoorbeeld **Tekst** of **Getal**.
    
-    **Belangrijk**: denk hier goed over na, omdat u deze eigenschap niet meer kunt wijzigen als het veld gegevens bevat. Zie [(Wat zijn entiteiten?)](data-platform-intro.md#custom-fields) voor informatie over de gegevenstypen die u kunt opgeven.
+    > [!IMPORTANT]
+    > Denk hier goed over na, omdat u deze eigenschap niet meer kunt wijzigen als het veld gegevens bevat. Zie [(Wat zijn entiteiten?)](data-platform-intro.md#custom-fields) voor informatie over de gegevenstypen die u kunt opgeven.
+
 6. Wanneer u daarom wordt gevraagd, geeft u aanvullende informatie op over het opgegeven gegevenstype.
+
 7. Schakel onder **Uniek** het selectievakje in als elke record een unieke waarde in dit veld moet bevatten.
+
 8. Schakel onder **Vereist** het selectievakje in als elke record een waarde in dit veld moet bevatten.
    
-    **Belangrijk**: van een aangepast veld in een standaardentiteit kan niet worden vereist dat het gegevens bevat. Deze beperking voorkomt dat u grote problemen krijgt met apps die van die entiteit afhankelijk zijn.
+    > [!IMPORTANT]
+    > Van een aangepast veld in een standaardentiteit kan niet worden vereist dat het gegevens bevat. Deze beperking voorkomt dat u grote problemen krijgt met apps die van die entiteit afhankelijk zijn.
+
 9. Klik of tik op **Opslaan** om uw wijzigingen in te dienen.
    
-    **Belangrijk**: de wijzigingen gaan verloren als u ze niet opslaat voordat u een andere pagina in de browser opent of de browser sluit.
+    > [!IMPORTANT]
+    > De wijzigingen gaan verloren als u ze niet opslaat voordat u een andere pagina in de browser opent of de browser sluit.
 
 Er wordt een bericht weergegeven wanneer de bewerking is voltooid. Als de bewerking is mislukt, wordt een foutbericht weergegeven met de problemen die zijn opgetreden, zodat u die kunt corrigeren.
 
@@ -56,7 +70,8 @@ Er wordt een bericht weergegeven wanneer de bewerking is voltooid. Als de bewerk
    * Verwijder het veld door op het bijbehorende beletselteken (…) aan de rechterkant van het veld te klikken of tikken en vervolgens op **Verwijderen** te klikken of tikken.
 3. Klik of tik op **Opslaan** om uw wijzigingen in te dienen.
    
-    **Belangrijk**: de wijzigingen gaan verloren als u ze niet opslaat voordat u een andere pagina in de browser opent of de browser sluit.
+    > [!IMPORTANT]
+    > De wijzigingen gaan verloren als u ze niet opslaat voordat u een andere pagina in de browser opent of de browser sluit.
 
 Er wordt een bericht weergegeven wanneer de bewerking is voltooid. Als de bewerking is mislukt, wordt een foutbericht weergegeven met de problemen die zijn opgetreden, zodat u die kunt corrigeren.
 

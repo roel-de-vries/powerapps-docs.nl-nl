@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 99fc1a29604c15cc473e0d4442a32a8b5d915f48
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: f3f4cf53e8db612004619017304f222d3863430b
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="get-started-with-formulas"></a>Aan de slag met formules
 Configureer de app met formules die niet alleen waarden kunnen berekenen en andere taken uitvoeren (zoals in Excel), maar ook reageren op invoer van gebruikers (zoals van een app vereist).
@@ -33,7 +33,7 @@ U kunt formules maken voor een groot aantal scenario's. U kunt bijvoorbeeld de G
 
 Dit onderwerp geeft slechts een overzicht van het werken met formules. Blader door de [naslag met formules](formula-reference.md) voor meer details en een volledige lijst met functies, operatoren en andere bouwstenen die u kunt gebruiken.
 
-**Vereisten**
+## <a name="prerequisites"></a>Vereisten
 
 * [Registreer u](signup-for-powerapps.md) voor PowerApps, [installeer](http://aka.ms/powerappsinstall) het, open het en meld u aan met dezelfde referenties die u hebt gebruikt om u te registreren.
 * Lees hoe u [een besturingselement kunt configureren](add-configure-controls.md) in PowerApps.
@@ -71,7 +71,8 @@ In Excel kunt u bepaalde gegevens, zoals het getal **42** of de woorden **Hello 
    
     In Excel kunt u een getal weergeven, bijvoorbeeld **42**, door het in een cel te typen of door een formule te typen die dat getal als resultaat geeft, bijvoorbeeld **=SOM(30;12)**. In PowerApps kunt u hetzelfde resultaat bereiken door de eigenschap **Text** van een besturingselement, zoals een label, in te stellen op **42** of **Sum(30,12)**. In de cel en het label wordt dit getal altijd weergegeven, ongeacht overige wijzigingen aan het werkblad of de app.
    
-    **Opmerking:** in PowerApps wordt een formule niet voorafgegaan door een gelijkteken of een plusteken, zoals in Excel wel het geval is. De formulebalk beschouwt alles wat u erin typt standaard als een formule. Een formule wordt ook niet ingesloten tussen dubbele aanhalingstekens (") zoals u gewend bent bij het invoeren van een tekenreeks of tekst.
+    > [!NOTE]
+> In PowerApps wordt een formule niet voorafgegaan door een gelijkteken of een plusteken, zoals in Excel wel het geval is. De formulebalk beschouwt alles wat u erin typt standaard als een formule. Een formule wordt ook niet ingesloten tussen dubbele aanhalingstekens (") zoals u gewend bent bij het invoeren van een tekenreeks of tekst.
 5. Vervang in de eigenschap **[Text](controls/properties-core.md)** van het label **Hello World** door **Sum(1,2,3)**.
    
     ![Het gedeeltelijke Som(1;2;3 typen zonder haakje sluiten, veroorzaakt een fout](./media/working-with-formulas/label-sum-partial.png)
@@ -98,7 +99,8 @@ In Excel kunt u voorwaardelijke opmaak gebruiken om bijvoorbeeld negatieve waard
 
 1. Stel de eigenschap **[Color](controls/properties-color-border.md)** van het label in op deze formule:<br>**Als( Waarde(Tekstvak1.Tekst) < 0, Rood, Zwart )**
    
-    **Opmerking:** geef in een formule de eigenschap van een besturingselement op door de naam van het besturingselement op te geven, gevolgd door een punt, gevolgd door de naam van de eigenschap. Voorbeeld: geef de eigenschap **[Tekst](controls/properties-core.md)** van **Tekstvak1** op door **Tekstvak1.Tekst** te typen.
+    > [!NOTE]
+> Geef in een formule de eigenschap van een besturingselement op door de naam van het besturingselement op te geven, gevolgd door een punt, gevolgd door de naam van de eigenschap. Voorbeeld: geef de eigenschap **[Tekst](controls/properties-core.md)** van **Tekstvak1** op door **Tekstvak1.Tekst** te typen.
    
     ![Voorbeeld van een herberekening in PowerApps waarbij de kleur van een label wordt gewijzigd op basis van de waarde](./media/working-with-formulas/recalc-color1.png)
 2. Geef in **Tekstinvoer1** en **Tekstinvoer2** twee getallen op die opgeteld tot een negatieve waarde leiden.

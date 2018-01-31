@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/28/2017
 ms.author: gregli
-ms.openlocfilehash: a30d66dd62750ca0f606ea529fffa4d681bd6870
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 2277d7f9252f8ce4df7552b6eb5f7bf4ac94ff63
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="concat-and-concatenate-functions-in-powerapps"></a>De functies Concat en Concatenate in PowerApps
 Voegt afzonderlijke tekenreeksen of tekst en tekenreeksen samen in [tabellen](../working-with-tables.md).
@@ -27,7 +27,7 @@ Voegt afzonderlijke tekenreeksen of tekst en tekenreeksen samen in [tabellen](..
 ## <a name="description"></a>Beschrijving
 De functie **Concat** voegt de resultaten samen van een formule die is toegepast op alle [records](../working-with-tables.md#records) van een tabel, wat resulteert in een enkele tekenreeks. Gebruik deze functie om een overzicht van de tekenreeksen van een tabel te maken, zoals de functie **[Sum](function-aggregates.md)** doet voor getallen.
 
-[!INCLUDE [record-scope](../../includes/record-scope.md)]
+[!INCLUDE [record-scope](../includes/record-scope.md)]
 
 Gebruik de functie **[Split](function-split.md)** om een tekenreeks te splitsen in een tabel met subtekenreeksen.
 
@@ -58,7 +58,7 @@ De functie **Concatenate** voegt afzonderlijke tekenreeksen en een tabel met Ã©Ã
 #### <a name="concatenate"></a>Samenvoegen
 1. Voeg een besturingselement van het type **[Tekstinvoer](../controls/control-text-input.md)** toe en geef het de naam **Auteurnaam**.
 2. Voeg een besturingselement van het type **[Label](../controls/control-text-box.md)** toe en stel de eigenschap **[Text](../controls/properties-core.md)** in op deze formule:<br>
-   **Concatenate("Door ", Auteurnaam.Tekst)**
+   **Concatenate ("Door ", Auteurnaam.Tekst)**
 3. Typ uw naam in **Auteurnaam**.
    
     Het label toont **Door** gevolgd door uw naam.

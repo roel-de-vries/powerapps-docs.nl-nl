@@ -12,17 +12,15 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/24/2017
+ms.date: 10/20/2017
 ms.author: kfend
-ms.openlocfilehash: 9078daccfd3d72ab5cbf3b26a67ffc2a27af1332
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: bbc501542e634fab925654734cf709fe87248883
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-entities-in-the-common-data-service"></a>Wat zijn entiteiten in de Common Data Service?
-[!VIDEO nb:cid:UUID:beec68e8-1541-41fb-8fc6-28714ccaca68]
-
 
 Met de Common Data Service kunt u gegevens veilig opslaan en beheren in een set aangepaste en standaardentiteiten. Een entiteit is een set velden waarin gegevens worden opgeslagen, vergelijkbaar met een tabel in een database. Nadat uw gegevens zijn opgeslagen, kunt u Microsoft PowerApps gebruiken om uitgebreide toepassingen te bouwen die gebruikmaken van uw gegevens:
 
@@ -50,20 +48,20 @@ Zowel aangepaste als standaardentiteiten binnen de Common Data Service bieden ee
 * **Selectielijsten**: maak een selectie uit een groot aantal standaardselectielijsten om handige vervolgkeuzelijsten op te nemen in uw entiteiten en apps.
 
 ## <a name="standard-and-custom-entities"></a>Standaard- en aangepaste entiteiten
-Als u een app ontwikkelt, kunt u standaardentiteiten en aangepaste entiteiten gebruiken, of beide. Als u met een standaardentiteit in uw app een bepaald doel kunt bereiken, dan kunt u beter deze gebruiken in plaats van dat u een aangepaste entiteit maakt die hetzelfde doet. Als u het doel bereikt door enkele wijzigingen aan de standaardentiteit aan te brengen, dan kunt u aan uw behoeften voldoen door velden toe te voegen. 
+Als u een app ontwikkelt, kunt u standaardentiteiten en aangepaste entiteiten gebruiken, of beide. Als u met een standaardentiteit in uw app een bepaald doel kunt bereiken, dan kunt u beter deze gebruiken in plaats van dat u een aangepaste entiteit maakt die hetzelfde doet. Als u het doel bereikt door enkele wijzigingen aan de standaardentiteit aan te brengen, dan kunt u aan uw behoeften voldoen door velden toe te voegen.
 
 * Standaardentiteiten zijn standaard opgenomen in de Common Data Service. Deze zijn, overeenkomstig de aanbevolen procedures, ontworpen om de meest algemene concepten voor een organisatie te ondervangen, zoals contactpersonen, accounts en producten. Zie [Standaardentiteiten](data-platform-intro.md#standard-entities) voor een volledige lijst van entiteiten.
 * U kunt de functionaliteit van de standaardentiteiten uitbreiden door een of meer aangepaste entiteiten te maken voor het opslaan van informatie die uniek is voor uw organisatie. Zie [How to create a custom entity](data-platform-create-entity.md) (Een aangepaste entiteit maken) voor meer informatie.
 
-> **Opmerking:** Gebruik zoveel mogelijk standaardentiteiten (eventueel met aangepaste velden). Dit zorgt ervoor dat u in de toekomst kunt profiteren van nieuwe functies of apps die gebruikmaken van deze entiteiten.
-> 
-> 
+> [!NOTE]
+> Gebruik zoveel mogelijk standaardentiteiten (eventueel met aangepaste velden). Dit zorgt ervoor dat u in de toekomst kunt profiteren van nieuwe functies of apps die gebruikmaken van deze entiteiten.
+
 
 ## <a name="fields"></a>Velden
 Elk veld heeft een naam, een weergavenaam, een gegevenstype en wat eenvoudige validatie. Gegevenstypen zijn onder andere **tekst**, **datum** of **getal**. Validatie garandeert dat verplichte velden gegevens en records bevatten die uniek zijn als dit volgens de entiteit vereist is. Elk veld behoort tot een van de volgende drie categorieën: systeemvelden, standaardvelden of aangepaste velden.
 
 ### <a name="system-fields"></a>Systeemvelden
-Alle entiteiten, of ze nu standaard of aangepast zijn, worden gemaakt met een set kant-en-klare velden die u niet kunt wijzigen, verwijderen of op een bepaalde waarde kunt instellen. Zie [System and record title fields](data-platform-create-entity.md#system-and-record-title-fields) (Systeem- en recordtitelvelden) voor meer informatie. Dit zijn de belangrijkste systeemvelden:
+Alle entiteiten, of ze nu standaard of aangepast zijn, worden gemaakt met een set kant-en-klare velden die u niet kunt wijzigen, verwijderen of op een bepaalde waarde kunt instellen. Zie [System and record title fields](data-platform-create-entity.md#system-fields-and-the-record-title-field) (Systeem- en recordtitelvelden) voor meer informatie. Dit zijn de belangrijkste systeemvelden:
 
 * **Created Record Date**: de datum en tijd waarop een record is gemaakt.
 * **Created By**: de gebruiker die de record heeft gemaakt.

@@ -15,14 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/21/2017
 ms.author: sharik
-ms.openlocfilehash: 62f46339e2136494225bf218d372f539c389e1ad
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 8ac8fb34f9cdeb0c9e0ce6172938cef33ecccbc5
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="generate-an-app-from-within-sharepoint-using-powerapps"></a>Een app genereren vanuit SharePoint met behulp van PowerApps
-[!VIDEO nb:cid:UUID:639d7eaf-bae5-447c-a34b-ec539a01a15c]
+
 
 
 Genereer in PowerApps automatisch een app waarin gebruikers items in een aangepaste SharePoint Online-lijst kunnen beheren. De app heeft drie schermen waarmee gebruikers het volgende kunnen doen:
@@ -33,7 +33,8 @@ Genereer in PowerApps automatisch een app waarin gebruikers items in een aangepa
 
 Als u een app maakt van een aangepaste lijst via de opdrachtbalk in SharePoint Online, wordt de app weergegeven als een weergave van die lijst. U kunt de app niet alleen in een webbrowser uitvoeren, maar ook op een Windows Phone-, iOS- of Android-apparaat.
 
-**Belangrijk**: PowerApps biedt geen ondersteuning voor alle soorten SharePoint-gegevens. Zie [Bekende problemen](connections/connection-sharepoint-online.md#known-issues) voor meer informatie.
+> [!IMPORTANT]
+> PowerApps biedt geen ondersteuning voor alle soorten SharePoint-gegevens. Zie [Bekende problemen](connections/connection-sharepoint-online.md#known-issues) voor meer informatie.
 
 ## <a name="generate-an-app"></a>Een app genereren
 1. Open een aangepaste lijst in SharePoint Online, klik of tik op **PowerApps** op de opdrachtbalk en klik op of tik vervolgens op **Een app maken**.
@@ -48,7 +49,8 @@ Als u een app maakt van een aangepaste lijst via de opdrachtbalk in SharePoint O
     ![](./media/generate-app-from-sharepoint-list-interface/powerapp-studio-for-web.png)  
 3. Klik of tik op het browsertabblad voor uw SharePoint-lijst en klik of tik daarna op **Openen**.
    
-    **Opmerking**: Mogelijk moet u het browservenster vernieuwen (bijvoorbeeld door op F5 te drukken) voordat de app wordt geopend.
+    > [!NOTE]
+> Mogelijk moet u het browservenster vernieuwen (bijvoorbeeld door op F5 te drukken) voordat de app wordt geopend.
    
     ![](./media/generate-app-from-sharepoint-list-interface/open-app-in-browser.png)
    
@@ -65,7 +67,7 @@ Als u een app maakt van een aangepaste lijst via de opdrachtbalk in SharePoint O
 
 ## <a name="next-steps"></a>Volgende stappen
 * Zie de sectie De lijst beheren met de app in [Open app from a SharePoint Online list](open-app-embedded-in-sharepoint.md) (Een app openen via een SharePoint Online-lijst) als u items aan de lijst wilt toevoegen of deze wilt bijwerken.
-* Zie [Een indeling aanpassen](customize-layout-sharepoint.md) voor het aanpassen van het bladerscherm (dat standaard wordt weergegeven).
+* Zie [Customize a layout](customize-layout-sharepoint.md) (Een indeling aanpassen) voor het aanpassen van het bladerscherm (dat standaard wordt weergegeven).
 * Zie [Een formulier aanpassen](customize-forms-sharepoint.md) voor het aanpassen van de detail- of bewerkingsschermen.
 * Als u de app wilt verwijderen, verwijdert u de weergave uit SharePoint en [verwijdert u de app](delete-app.md) uit PowerApps.
 

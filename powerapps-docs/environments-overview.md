@@ -15,19 +15,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/01/2016
 ms.author: jamesol
-ms.openlocfilehash: 425376f218b01a9edab4dae90555b33cd1d26a80
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: f8af05b00888891663da975be379211fad79c8a3
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="environments-overview"></a>Overzicht van omgevingen
 Omgevingen zijn een nieuw concept in PowerApps. Eenvoudig gezegd is een omgeving een ruimte waarin u de zakelijke gegevens, apps en stromen van uw organisatie kunt opslaan, beheren en delen. Een omgeving doet ook dienst als container voor het scheiden van apps met verschillende rollen, beveiligingsvereisten of doelgroepen. Hoe u voordeel haalt uit omgevingen, is afhankelijk van uw organisatie en de apps die u probeert te maken. Bijvoorbeeld:
 
-1. U kunt ervoor kiezen om alleen apps te maken in één omgeving.
-2. U kunt afzonderlijke omgevingen maken waarin de test- en productieversies van uw apps worden gegroepeerd.
-3. U kunt afzonderlijke omgevingen maken die overeenkomen met de specifieke teams of afdelingen in uw bedrijf, en die elk de relevante gegevens en apps voor elke doelgroep bevatten.
-4. U kunt ook afzonderlijke omgevingen maken voor de verschillende algemene vertakkingen van uw bedrijf.  
+* U kunt ervoor kiezen om alleen apps te maken in één omgeving.
+* U kunt afzonderlijke omgevingen maken waarin de test- en productieversies van uw apps worden gegroepeerd.
+* U kunt afzonderlijke omgevingen maken die overeenkomen met de specifieke teams of afdelingen in uw bedrijf, en die elk de relevante gegevens en apps voor elke doelgroep bevatten.
+* U kunt ook afzonderlijke omgevingen maken voor de verschillende algemene vertakkingen van uw bedrijf.  
 
 ## <a name="environment-scope"></a>Bereik van omgeving
 Elke omgeving wordt gemaakt onder een Azure AD-tenant en alleen gebruikers binnen die tenant hebben toegang tot de bronnen in die omgeving. Een omgeving is ook gebonden aan een geografische locatie, zoals de Verenigde Staten. Wanneer u een app in een omgeving maakt, wordt deze app rondgestuurd naar alleen datacenters in die geografische locatie. De items die u in die omgeving maakt (inclusief verbindingen, gateways, stromen met behulp van Microsoft Flow en nog veel meer) zijn ook gebonden aan de locatie van de omgeving.
@@ -45,13 +45,14 @@ Omgevingen hebben twee ingebouwde rollen die toegang bieden tot machtigingen in 
 
 * Personen met de rol Environment Admin (omgevingsbeheerder) kunnen in een omgeving alle beheerderstaken uitvoeren, met inbegrip van:
   
-  o    Een gebruiker of groep toevoegen aan of verwijderen uit de rol Environment Admin of Environment Maker
+    * Een gebruiker of groep toevoegen aan of verwijderen uit de rol Environment Admin of Environment Maker
   
-  o    Een Common Data Service-database voor de omgeving inrichten
+    * Een Common Data Service-database voor de omgeving inrichten
   
-  o    Alle resources die in een omgeving zijn gemaakt, weergeven en beheren
+    * Alle resources die in een omgeving zijn gemaakt, weergeven en beheren
   
-  o    Beleid instellen ter preventie van gegevensverlies. Zie [Data loss prevention policies (Beleid ter preventie van gegevensverlies)](prevent-data-loss.md) voor meer informatie.
+    * Beleid instellen ter preventie van gegevensverlies. Zie [Data loss prevention policies (Beleid ter preventie van gegevensverlies)](prevent-data-loss.md) voor meer informatie.
+
 * Personen met de rol Environment Maker kunnen in een omgeving resources maken, met inbegrip van apps, verbindingen, aangepaste connectors, gateways en stromen met behulp van Microsoft Flow.
 
 Environment Makers die apps in een omgeving maken, kunnen deze apps ook distribueren naar andere gebruikers in uw organisatie door de app te delen met individuele gebruikers of beveiligingsgroepen, of naar alle gebruikers in de organisatie. Zie [Een app delen in PowerApps](share-app.md) voor meer informatie.
@@ -79,9 +80,9 @@ Door de introductie van omgevingen ziet u een nieuwe ervaring wanneer u naar [ht
 
 In de kiezer worden omgevingen weergegeven als u aan een van de volgende voorwaarden voldoet:
 
-1. U bent lid van de rol Environment Admin voor de omgeving.
-2. U bent lid van de rol Environment Maker voor de omgeving.
-3. U bent geen Environment Admin of Environment Maker van de omgeving, maar u hebt tot ten minste één app in de omgeving toegang gekregen als 'Medewerker'. Zie [Een app delen](share-app.md) voor meer informatie. **Opmerking**: in dit geval kunt u geen apps maken in deze omgeving. U kunt alleen de bestaande apps wijzigen die met u zijn gedeeld.
+* U bent lid van de rol Environment Admin voor de omgeving.
+* U bent lid van de rol Environment Maker voor de omgeving.
+* U bent geen Environment Admin of Environment Maker van de omgeving, maar u hebt tot ten minste één app in de omgeving toegang gekregen als 'Medewerker'. Zie [Een app delen](share-app.md) voor meer informatie. In dit geval kunt u geen apps maken in deze omgeving. U kunt alleen de bestaande apps wijzigen die met u zijn gedeeld.
 
 ![](./media/environments-overview/EnvironmentPicker.png)
 
@@ -111,7 +112,7 @@ Gebruikers die aan de PowerApps-preview hebben deelgenomen, zullen enkele wijzig
 
 | User | Wat gebeurt er |
 | --- | --- |
-| Preview-gebruiker die een Common Data Service-database heeft gemaakt |U ziet een omgeving met de naam "Omgeving van {uw eigen naam}" die uw Common Data Service-previewdatabase bevat en alle apps die u ervoor hebt ontwikkeld.  U wordt toegevoegd aan de rollen Environment Maker en Environment Admin van deze omgeving en als een database-eigenaar van de database. Wanneer PowerApps algemeen beschikbaar komt, zullen we de metagegevens van de Common Data Service bijwerken. Deze wijziging heeft als gevolg dat u nog steeds de entiteiten en apps kunt gebruiken die u al hebt gebouwd voor uw Common Data Service-previewdatabase. U zult in die database echter geen velden of entiteiten kunnen maken. Binnenkort zullen wij richtlijnen publiceren voor het maken van een omgeving met een database die de bijgewerkte metagegevens bevat en voor het migreren van uw apps naar die omgeving.<br>**Opmerking**: als uw apps die voor uw Common Data Service-previewdatabase zijn gebouwd, ook een aangepaste connector als gegevensbron gebruiken, zullen ze in deze omgeving tijdelijk niet werken omdat alle aangepaste connectors naar de standaardomgeving worden gemigreerd. U moet de aangepaste connector in deze omgeving opnieuw maken om alle betrokken apps te herstellen. |
+| Preview-gebruiker die een Common Data Service-database heeft gemaakt |U ziet een omgeving met de naam "Omgeving van {uw eigen naam}" die uw Common Data Service-previewdatabase bevat en alle apps die u ervoor hebt ontwikkeld.  U wordt toegevoegd aan de rollen Environment Maker en Environment Admin van deze omgeving en als een database-eigenaar van de database. Wanneer PowerApps algemeen beschikbaar komt, zullen we de metagegevens van de Common Data Service bijwerken. Deze wijziging heeft als gevolg dat u nog steeds de entiteiten en apps kunt gebruiken die u al hebt gebouwd voor uw Common Data Service-previewdatabase. U zult in die database echter geen velden of entiteiten kunnen maken. Binnenkort zullen wij richtlijnen publiceren voor het maken van een omgeving met een database die de bijgewerkte metagegevens bevat en voor het migreren van uw apps naar die omgeving. <br> Als uw apps die voor uw Common Data Service-previewdatabase zijn gebouwd, ook een aangepaste connector als gegevensbron gebruiken, zullen ze in deze omgeving tijdelijk niet werken omdat alle aangepaste connectors naar de standaardomgeving worden gemigreerd. U moet de aangepaste connector in deze omgeving opnieuw maken om alle betrokken apps te herstellen. |
 | Preview-gebruiker in de Verenigde Staten |De volgende resources die u tijdens de preview-periode van PowerApps hebt gemaakt, komen beschikbaar in de standaardomgeving van uw tenant:<br>- Alle apps die u hebt gemaakt (met uitzondering van apps die verbinding maakten met een Common Data Service-previewdatabase)<br>- Alle verbindingen en aangepaste connectors die u hebt gemaakt<br>- Alle on-premises gegevensgateways die u hebt geïnstalleerd |
 | Preview-gebruiker buiten de Verenigde Staten |Naast de standaardomgeving ziet u ook een omgeving met de naam "{Azure AD-tenant} (van preview)" die de volgende resources bevat die u tijdens de preview-periode van PowerApps hebt gemaakt:<br>- Alle apps die u hebt gemaakt (met uitzondering van apps die verbinding maakten met een Common Data Service-previewdatabase)<br>- Alle verbindingen en aangepaste connectors die u hebt gemaakt<br>- Alle on-premises gegevensgateways die u hebt geïnstalleerd.<br>U wordt toegevoegd aan de rol Environment Maker van deze omgeving. |
 

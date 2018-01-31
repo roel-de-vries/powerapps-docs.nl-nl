@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 4121593bb34fe135262d925ae6c9f381d0fcd9f7
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: e8234526c73f6d55494334a386e8dbd7442c8d62
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>Besturingselementen Formulier weergeven en Formulier bewerken in PowerApps
 Een record weergeven, bewerken en maken in een gegevensbron.
@@ -60,7 +60,8 @@ Als de gegevens geldig zijn, worden ze met **[SubmitForm](../functions/function-
 
 Sommige gegevensbronnen kunnen vaststellen wanneer twee personen tegelijk dezelfde record proberen bij te werken. In dit geval wordt de eigenschap **ErrorKind** ingesteld op **ErrorKind.Conflict**. Het probleem kan worden opgelost door de gegevensbron te vernieuwen met de wijzigingen van de andere gebruiker en de wijziging van deze gebruiker opnieuw toe te passen.
 
-**Tip:** Als u een knop **Annuleren** opneemt op het formulier zodat de gebruiker wijzigingen kan afbreken,moet u ook de functie **[ResetForm](../functions/function-form.md)** toevoegen aan de eigenschap **[OnSelect](properties-core.md)** van de knop, zelfs als die eigenschap een functie  **[Navigate](../functions/function-navigate.md)** bevat om van scherm te veranderen. Als u dat niet doet, blijven de wijzigingen van de gebruiker aanwezig in het formulier.
+> [!TIP]
+> Als u een knop **Annuleren** opneemt op het formulier zodat de gebruiker wijzigingen kan afbreken,moet u ook de functie **[ResetForm](../functions/function-form.md)** toevoegen aan de eigenschap **[OnSelect](properties-core.md)** van de knop, zelfs als die eigenschap een functie **[Navigate](../functions/function-navigate.md)** bevat om van scherm te veranderen. Als u dat niet doet, blijven de wijzigingen van de gebruiker aanwezig in het formulier.
 
 ### <a name="layout"></a>Indeling
 De standaardinstelling is dat kaarten in één kolom worden ingedeeld voor telefoon-apps en in drie kolommen voor tablet-apps. U kunt bij het configureren van het formulier opgeven hoeveel kolommen een formulier heeft en of kaarten moeten worden uitgelijnd op kolommen. Deze instellingen worden niet weergegeven als eigenschappen omdat ze alleen worden gebruikt om de eigenschappen **X**, **Y** en **Width** van de kaarten in te stellen.

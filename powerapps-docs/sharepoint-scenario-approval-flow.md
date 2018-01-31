@@ -13,16 +13,17 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/12/2017
+ms.date: 01/09/18
 ms.author: mblythe
-ms.openlocfilehash: 5fd4448eba2429dc7bd5027327b132c1b0ff5dd8
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 4af1571bb72c713c6186f5237d6b3791eb95808b
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="create-a-flow-to-manage-project-approvals"></a>Een stroom maken om projectgoedkeuringen te beheren
-**Opmerking:** dit artikel maakt deel uit van een reeks zelfstudies over het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint Online. Lees de [inleiding tot de reeks](sharepoint-scenario-intro.md) zodat u een idee van het geheel krijgt en van de betreffende downloads.
+> [!NOTE]
+> Dit artikel maakt deel uit van een reeks zelfstudies over het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint Online. Lees de [inleiding tot de reeks](sharepoint-scenario-intro.md) zodat u een idee van het geheel krijgt en van de betreffende downloads.
 
 In deze taak maken we een stroom die het goedkeuringsproces voor projecten aanstuurt. Microsoft Flow is geïntegreerd met SharePoint. U kunt dus makkelijk rechtstreeks vanuit een lijst een stroom maken. De stroom die we maken wordt geactiveerd als een item wordt toegevoegd aan de lijst **Projectaanvragen**. De stroom verzendt een e-mailbericht naar de fiatteur van het project, die de aanvraag rechtstreeks via e-mail goedkeurt of afkeurt. Vervolgens verzendt de stroom een e-mail met een goedkeuring of afkeuring naar de projectaanvrager en werkt de SharePoint-lijsten dienovereenkomstig bij.
 
@@ -123,25 +124,33 @@ De standaardinstelling is dat met deze vertakking per e-mail wordt gemeld dat de
 8. Voer 'Nee' in in het vak **Goedgekeurd**. Dit deel van de stroom moet er nu uitzien als in de volgende afbeelding.
    
     ![Update van lijst](./media/sharepoint-scenario-approval-flow/03-01-08-no-update-complete.png)
-9. Klik of tik rechtsboven in het scherm op **Stroom maken** en vervolgens op **Gereed**.
-   
-    ![Knop Gereed](./media/sharepoint-scenario-approval-flow/03-01-15a-done-button.png)
+9. Klik of tik rechtsboven in het scherm op **Stroom maken**.
    
     De stroom is nu klaar en moet, als u de vakken samenvouwt, eruitzien als in de volgende afbeelding.
    
     ![Voltooide stroom](./media/sharepoint-scenario-approval-flow/03-01-16-flow-complete.png)
 
+10. Klik of tik rechtsboven in het scherm op **Gereed**.
+   
+    ![Knop Gereed](./media/sharepoint-scenario-approval-flow/03-01-15a-done-button.png)
+
 ## <a name="step-4-run-the-approval-flow"></a>Stap 4: Goedkeuringsstroom uitvoeren
 1. Klik in de lijst **Projectaanvragen** op **Snel bewerken** en voeg een item toe, bijvoorbeeld:
    
    * **Title** = "Nieuw monitor voor Ilene"
-   * **Approved** = "In wachtrij"
+
    * **Description** = "Ilene heeft een 24-inch monitor nodig"
-   * **EstimatedDays** = "1"
+
    * **ProjectType** = "Nieuwe hardware"
+
    * **RequestDate** = "03-02-2017"
+
    * **Requestor** = "Ilene de Crom"
-     
+
+   * **EstimatedDays** = "1"
+
+   * **Approved** = "In wachtrij"
+
      ![Item aan lijst toegevoegd](./media/sharepoint-scenario-approval-flow/03-02-01-list-add.png)
 2. Klik bovenaan de pagina op **Gereed** als u klaar bent.
    

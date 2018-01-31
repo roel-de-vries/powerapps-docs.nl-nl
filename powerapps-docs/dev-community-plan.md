@@ -1,5 +1,5 @@
 ---
-title: '# <a name="powerapps-community-plan-a-free-development-environment-for-individual-use--microsoft-docs"></a>PowerApps Community-abonnement: een gratis ontwikkelingsomgeving voor individueel gebruik | Microsoft Docs'
+title: '# PowerApps Community-abonnement: een gratis ontwikkelingsomgeving voor individueel gebruik | Microsoft Docs'
 description: Registreer u om vaardigheden op te doen en meer informatie te krijgen over PowerApps, Microsoft Flow en Common Data Service.
 services: 
 suite: powerapps
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/01/2016
 ms.author: mblythe
-ms.openlocfilehash: 4fea217638bdcff52f626694f5b43662f89dbe9b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: bbde4b033afcd530128f330432f262257f5d771c
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>PowerApps Community-abonnement: een gratis ontwikkelingsomgeving voor individueel gebruik
 Als u vaardigheden wilt opdoen en meer informatie wilt over PowerApps, Microsoft Flow en Common Data Service, is het PowerApps Community-abonnement het juiste abonnement voor u. Het PowerApps Community-abonnement geeft u een gratis ontwikkelingsomgeving voor individueel gebruik, waarin u het volgende kunt doen:
@@ -85,43 +85,49 @@ Met de individuele omgeving krijgt u de volgende functionaliteit:
 
 U kunt geen invoegtoepassingen op de inbegrepen aantallen toepassen. Als u de capaciteitslimieten bereikt, raden we aan PowerApps-abonnement 2 te kopen. Meer informatie vindt u op de [PowerApps-pagina met prijzen](https://powerapps.microsoft.com/pricing/).
 
-**Opmerking**: De capaciteit van de individuele omgeving, ongeacht of deze wordt gebruikt, draagt niet bij aan het algehele quotum van uw bedrijf.
+> [!NOTE]
+> De capaciteit van de individuele omgeving, ongeacht of deze wordt gebruikt, draagt niet bij aan het algehele quotum van uw bedrijf.
 
 ## <a name="publishing-to-appsource"></a>Publiceren op AppSource
 Hebt u een app die u met klanten wilt delen? We ondersteunen nu een PowerApps Test Drive-oplossing op [AppSource.com](https://appsource.microsoft.com), zodat u apps en stromen met klanten kunt delen en leads voor uw bedrijf kunt genereren. Zie [Klanten uw apps laten uitproberen op AppSource](dev-appsource-test-drive.md) voor meer informatie.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
-1. **V:** Wat moet ik doen als ik de capaciteitslimieten van de omgeving heb bereikt?
-   
-    **A:** Er wordt maar beperkte capaciteit geboden, omdat deze omgeving bedoeld is voor individueel gebruik en niet voor team- of productiegebruik. De geboden capaciteit is:
-   
-   | **Capaciteit** |  |
-   | --- | --- |
-   | Stroomuitvoeringen/maand |750 |
-   | Databasegrootte |200 MB |
-   | File-opslag |2 GB |
-   
-    Als u een of meer capaciteitslimieten hebt bereikt, raden we aan dat u een abonnement koopt dat productiegebruik ondersteunt. Meer informatie over onze abonnementen en hun limieten vindt u op de [PowerApps-pagina met prijzen](https://powerapps.microsoft.com/pricing/).
-2. **V:** Kan ik de apps, stromen en andere resources die in de individuele omgeving zijn gemaakt, overdragen naar een andere omgeving?
-   
-    **A:** Ja, u moet de resources uit deze omgeving naar andere omgevingen kunnen exporteren. Zie [Apps migreren tussen omgevingen en tenants](environment-and-tenant-migration.md) voor meer informatie.
-3. **V:** Zal mijn PowerApps Community-abonnement ooit verlopen?
-   
-    **A:** U kunt uw PowerApps Community-abonnement altijd gratis blijven gebruiken. Als u een individuele omgeving actief gebruikt, zult u de toegang tot alle resources en functionaliteit in die omgeving niet verliezen. Er kan echter een vertraging zijn wanneer u uw Common Data Service-database na een lange periode van inactiviteit voor het eerst weer gebruikt.  Deze vertraging heeft geen invloed op de gegevens of entiteiten die in Common Data Service zijn opgeslagen.
-4. **V:** Kan ik meerdere individuele omgevingen krijgen of maken?
-   
-    **A:** Nee, u mag slechts één individuele omgeving hebben, die PowerApps voor u maakt wanneer u zich registreert voor het Community-abonnement.
-5. **V:** Wat is het verschil tussen de proefversie van PowerApps-abonnement 2 en het PowerApps Community-abonnement, en voor welke moet ik me aanmelden?
-   
-    **A:** Zowel de proefversie van PowerApps-abonnement 2 als het PowerApps Community-abonnement is gratis, maar ze zijn voor verschillende doeleinden gemaakt:
-   
-    Met de **proefversie van PowerApps-abonnement 2** krijgt u 90 dagen lang PowerApps-abonnement 2. Het is bedoeld om PowerApps, Common Data Service en Microsoft Flow uit te proberen. Wanneer uw proefversie is verlopen, kunt u een abonnement kopen. Als u PowerApps al gebruikt met Office 365 of Dynamics 365, is dit het juiste abonnement om de premium-functies van PowerApps uit te proberen, die beschikbaar zijn met PowerApps-abonnement 2.
-   
-    Met het **PowerApps Community-abonnement** krijgt u toegang tot de premium-functies van PowerApps, Common Data Service en Microsoft Flow voor individueel gebruik. Dit abonnement is voornamelijk bedoeld voor leerdoeleinden of het maken van zakelijke oplossingen om te distribueren voor [AppSource Test Drive](dev-appsource-test-drive.md). Dit abonnement is altijd beschikbaar, maar alleen voor het aanleren en ontwikkelen van uw vaardigheden in PowerApps, Common Data Services en Microsoft Flow.
-6. **V:** Kan ik me aanmelden met mijn persoonlijke account?
-   
-    **A:** Nee, u kunt zich alleen aanmelden met uw [werk- of schoolaccount](signup-for-powerapps.md#what-email-addresses-can-you-use). We bieden momenteel geen ondersteuning voor aanmelding met een persoonlijk account.
-7. **V:** Kan ik mijn individuele omgeving verwijderen?
-   
-    **A:** U kunt deze omgeving niet zelf verwijderen. Uw tenantbeheerder heeft machtigingen om de omgeving te verwijderen.
+**V:** Wat moet ik doen als ik de capaciteitslimieten van de omgeving heb bereikt?
 
+**A:** Er wordt maar beperkte capaciteit geboden, omdat deze omgeving bedoeld is voor individueel gebruik en niet voor team- of productiegebruik. De geboden capaciteit is:
+
+| **Capaciteit** |  |
+| --- | --- |
+| Stroomuitvoeringen/maand |750 |
+| Databasegrootte |200 MB |
+| File-opslag |2 GB |
+
+Als u een of meer capaciteitslimieten hebt bereikt, raden we aan dat u een abonnement koopt dat productiegebruik ondersteunt. Meer informatie over onze abonnementen en hun limieten vindt u op de [PowerApps-pagina met prijzen](https://powerapps.microsoft.com/pricing/).
+
+**V:** Kan ik de apps, stromen en andere resources die in de individuele omgeving zijn gemaakt, overdragen naar een andere omgeving?
+
+**A:** Ja, u moet de resources uit deze omgeving naar andere omgevingen kunnen exporteren. Zie [Apps migreren tussen omgevingen en tenants](environment-and-tenant-migration.md) voor meer informatie.
+
+**V:** Zal mijn PowerApps Community-abonnement ooit verlopen?
+
+**A:** U kunt uw PowerApps Community-abonnement altijd gratis blijven gebruiken. Als u een individuele omgeving actief gebruikt, zult u de toegang tot alle resources en functionaliteit in die omgeving niet verliezen. Er kan echter een vertraging zijn wanneer u uw Common Data Service-database na een lange periode van inactiviteit voor het eerst weer gebruikt.  Deze vertraging heeft geen invloed op de gegevens of entiteiten die in Common Data Service zijn opgeslagen.
+
+**V:** Kan ik meerdere individuele omgevingen krijgen of maken?
+
+**A:** Nee, u mag slechts één individuele omgeving hebben, die PowerApps voor u maakt wanneer u zich registreert voor het Community-abonnement.
+
+**V:** Wat is het verschil tussen de proefversie van PowerApps-abonnement 2 en het PowerApps Community-abonnement, en voor welke moet ik me aanmelden?
+
+**A:** Zowel de proefversie van PowerApps-abonnement 2 als het PowerApps Community-abonnement is gratis, maar ze zijn voor verschillende doeleinden gemaakt:
+
+Met de **proefversie van PowerApps-abonnement 2** krijgt u 90 dagen lang PowerApps-abonnement 2. Het is bedoeld om PowerApps, Common Data Service en Microsoft Flow uit te proberen. Wanneer uw proefversie is verlopen, kunt u een abonnement kopen. Als u PowerApps al gebruikt met Office 365 of Dynamics 365, is dit het juiste abonnement om de premium-functies van PowerApps uit te proberen, die beschikbaar zijn met PowerApps-abonnement 2.
+
+Met het **PowerApps Community-abonnement** krijgt u toegang tot de premium-functies van PowerApps, Common Data Service en Microsoft Flow voor individueel gebruik. Dit abonnement is voornamelijk bedoeld voor leerdoeleinden of het maken van zakelijke oplossingen om te distribueren voor [AppSource Test Drive](dev-appsource-test-drive.md). Dit abonnement is altijd beschikbaar, maar alleen voor het aanleren en ontwikkelen van uw vaardigheden in PowerApps, Common Data Services en Microsoft Flow.
+
+**V:** Kan ik me aanmelden met mijn persoonlijke account?
+
+**A:** Nee, u kunt zich alleen aanmelden met uw [werk- of schoolaccount](signup-for-powerapps.md#what-email-addresses-can-you-use). We bieden momenteel geen ondersteuning voor aanmelding met een persoonlijk account.
+
+**V:** Kan ik mijn individuele omgeving verwijderen?
+
+**A:** U kunt deze omgeving niet zelf verwijderen. Uw tenantbeheerder heeft machtigingen om de omgeving te verwijderen.

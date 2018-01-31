@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/11/2015
 ms.author: gregli
-ms.openlocfilehash: 51608399a03716972a02d414d47dad46a8676bef
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 2c45649938ad769203cbcab25c8b81689c633657
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="datasourceinfo-function-in-powerapps"></a>De functie DataSourceInfo in PowerApps
 Biedt informatie over een [gegevensbron](../working-with-data-sources.md).
@@ -65,7 +65,8 @@ U kunt ook **DataSourceInfo** gebruiken om informatie over een gegevensbron als 
 * *Information* - vereist. Het type informatie dat u wilt ophalen.
 * *ColumnName* - optioneel. Voor informatie op kolomniveau, de naam van de kolom als een tekenreeks. De kolom **Telefoonnummer** wordt doorgegeven als **"Telefoonnummer"**, inclusief de dubbele aanhalingstekens. Het argument *ColumnName* kan niet worden gebruikt voor informatie op het niveau van de gegevensbron.
   
-    **Opmerking:** Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **'\_x0020\_'**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
+    > [!NOTE]
+> Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
 
 ## <a name="examples"></a>Voorbeelden
 Voor de voorbeelden in dit gedeelte wordt de gegevensbron **IJs** gebruikt:

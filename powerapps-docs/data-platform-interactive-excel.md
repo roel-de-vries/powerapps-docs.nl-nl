@@ -14,19 +14,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/06/2016
 ms.author: kfend
-ms.openlocfilehash: 2a72bfa21c8d4cb7eab0a3cb2292a61d5c036696
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: d559774c65ee2db99f891e41472f6110e330bfc1
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="open-entity-data-in-excel"></a>Entiteitsgegevens openen in Excel
 Als u entiteitsgegevens opent in Microsoft Excel, kunt u snel en eenvoudig gegevens weergeven en bewerken met behulp van de Excel-invoegtoepassing van Microsoft PowerApps. Voor de Excel-invoegtoepassing van PowerApps is Microsoft Excel 2016 vereist.
 
-**Opmerking**: als uw AAD-tenant (Microsoft Azure Active Directory) is geconfigureerd voor het gebruik van ADFS (Active Directory Federation Services), controleer dan of de update van mei 2016 is toegepast, zodat u zich met de Excel-invoegtoepassing op de juiste wijze kunt aanmelden.
+> [!NOTE]
+> Als uw AAD-tenant (Microsoft Azure Active Directory) is geconfigureerd voor het gebruik van ADFS (Active Directory Federation Services), controleer dan of de update van mei 2016 is toegepast, zodat u zich met de Excel-invoegtoepassing op de juiste wijze kunt aanmelden.
 
 ## <a name="open-entity-data-in-excel"></a>Entiteitsgegevens openen in Excel
-1. Ga naar [powerapps.com](https://web.powerapps.com) en vouw de sectie **Common Data Service** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster. Alle entiteiten worden weergegeven.
+1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Common Data Service** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster. Alle entiteiten worden weergegeven.
 2. Klik op de drie puntjes (...) aan de rechterkant van de entiteit waarin u geïnteresseerd bent.
 3. Klik op **Openen in Excel** en open de werkmap die is gegenereerd. De werkmap bevat bindende informatie voor de entiteit, een verwijzing naar de omgeving en een verwijzing naar de Excel-invoegtoepassing van PowerApps.  
 4. Klik in Excel op **Bewerken inschakelen** om de Excel-invoegtoepassing van PowerApps uit te kunnen voeren. De Excel-invoegtoepassing wordt uitgevoerd in een deelvenster aan de rechterkant van het Excel-venster.

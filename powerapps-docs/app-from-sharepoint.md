@@ -15,14 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/05/2017
 ms.author: sharik
-ms.openlocfilehash: 5d47366fafa137d8e5b0311f8820b11ff60f648a
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 36a9188615c14262de0bfdea21d58010a053e01f
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="generate-an-app-to-manage-data-in-a-sharepoint-list"></a>Een app genereren voor het beheren van gegevens in een SharePoint-lijst
-[!VIDEO nb:cid:UUID:34ccfd46-7826-49ce-90d8-cf6a144b6968]
+
 
 
 Genereer in PowerApps automatisch een app met drie schermen om gegevens in een SharePoint-lijst te beheren. Deze site kan on-premises zijn of in de cloud.
@@ -31,9 +31,10 @@ Standaard bevat elke gegenereerde app een scherm om in records te bladeren, een 
 
 Zie [Introduction to PowerApps](getting-started.md) (Inleiding tot PowerApps) als u onbekend bent met PowerApps.
 
-Op het moment van schrijven ondersteunt PowerApps aangepaste lijsten, maar geen bibliotheken. Daarnaast kunt u gegevens weergeven in sommige typen kolommen, bijvoorbeeld **Keuze** en **Afbeelding**. U kunt de gegevens echter niet bijwerken. Zie [Known issues](connections/connection-sharepoint-online.md#known-issues) (Bekende problemen) voor meer informatie.
+Op het moment van schrijven ondersteunt PowerApps aangepaste lijsten, maar geen bibliotheken. Daarnaast kunt u gegevens weergeven in sommige typen kolommen, bijvoorbeeld **Keuze** en **Afbeelding**. U kunt de gegevens echter niet bijwerken. Zie [Bekende problemen](connections/connection-sharepoint-online.md#known-issues) voor meer informatie.
 
-**Opmerking:** Als een kolomnaam een spatie bevat, wordt deze in PowerApps weergegeven als **'\_x0020\_'**. **'Kolomnaam'** wordt bijvoorbeeld weergegeven als **'Kolom_x0020_naam'**.
+> [!NOTE]
+> Als een kolomnaam een spatie bevat, wordt deze in PowerApps weergegeven als **‘\_x0020\_’**. **'Kolomnaam'** wordt bijvoorbeeld weergegeven als **'Kolom_x0020_naam'**.
 
 ## <a name="specify-a-sharepoint-app"></a>Een SharePoint-app opgeven
 1. Maak [verbinding met SharePoint](connect-to-sharepoint.md) als u dat nog niet hebt gedaan.
@@ -52,7 +53,8 @@ Op het moment van schrijven ondersteunt PowerApps aangepaste lijsten, maar geen 
 ## <a name="specify-a-site-and-a-list"></a>Een site en een lijst opgeven
 1. Typ of plak onder **Connect to a SharePoint site** de URL naar de site die de lijst bevat die u wilt gebruiken en klik of tik vervolgens op **Go**.
    
-    **Opmerking**: neem geen specifieke lijst in de URL op.
+    > [!NOTE]
+> Neem geen specifieke lijst in de URL op.
    
     ![](./media/app-from-sharepoint/specify-site.png)
 2. Klik of tik onder **Choose a list** de naam van de lijst die u wilt gebruiken.

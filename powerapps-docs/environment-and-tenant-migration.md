@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/28/2017
 ms.author: jamesol
-ms.openlocfilehash: 2d25e6ddbaf15991655ffa94bbf9578946504f0e
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 8c2745a47b742ccc5f21f3302c39546edd361242
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="environment-and-tenant-app-migration-through-packaging"></a>Apps migreren tussen omgevingen en tenants via pakketten
 Lees hoe u resources van de ene omgeving naar de andere migreert met pakketten. Deze omgevingen kunnen zich in dezelfde tenant bevinden of in andere tenants.
@@ -35,7 +35,7 @@ Als u een app exporteert, worden ook de afhankelijke resources voor uw app in he
 | Resourcetype | Ondersteund | Opties voor importeren |
 | --- | --- | --- |
 | App |Ja |Er zijn twee opties om een app in een omgeving te importeren: <ol><li><b>Nieuwe maken</b> – De app wordt als nieuwe app gemaakt in de omgeving waarin het pakket wordt geïmporteerd.</li> <li><b>Bijwerken</b> – De app bestaat al in de omgeving en wordt bijgewerkt als dit pakket wordt geïmporteerd.</li></ol> |
-| Stroom |Ja |Er zijn twee opties om een stroom in een omgeving te importeren: <ol><li><b>Nieuwe maken</b> – De stroom wordt als een nieuwe stroom gemaakt in de omgeving waarin het pakket wordt geïmporteerd.</li> <li><b>Bijwerken</b> – De stroom bestaat al in de omgeving en wordt bijgewerkt als dit pakket wordt geïmporteerd.</li></ol> <div> <i> OPMERKING: Ook alle resources waarvan de stroom afhankelijk is, worden opgenomen in het app-pakket dat wordt geëxporteerd. Ze moeten worden geconfigureerd wanneer het pakket wordt geïmporteerd. </i> |
+| Stroom |Ja |Er zijn twee opties om een stroom in een omgeving te importeren: <ol><li><b>Nieuwe maken</b> – De stroom wordt als een nieuwe stroom gemaakt in de omgeving waarin het pakket wordt geïmporteerd.</li> <li><b>Bijwerken</b> – De stroom bestaat al in de omgeving en wordt bijgewerkt als dit pakket wordt geïmporteerd.</li></ol> <b>Opmerking: ook alle resources waarvan de stroom afhankelijk is, worden opgenomen in het app-pakket dat wordt geëxporteerd. Ze moeten worden geconfigureerd wanneer het pakket wordt geïmporteerd. </b> |
 | CDS-entiteitsaanpassingen en selectielijsten |Ja |Er zijn twee opties voor het importeren van CDS-entiteiten of -selectielijsten in een omgeving: <ol><li><b>Overschrijven</b> – Als er een resource met dezelfde naam is, zal deze importactie die vervangen. Als er geen overeenkomende resource is, wordt er een nieuwe resource gemaakt. <li><b>Samenvoegen</b> – Als er een entiteit of selectielijst met dezelfde naam is, worden er nieuwe velden of items toegevoegd. Ontbrekende velden of items worden echter niet verwijderd.</li></ol> |
 | Aangepaste connectors |Nee |We ondersteunen op dit moment <b>geen</b> aangepaste connector als onderdeel van het pakket als een app daarvan afhankelijk is. <p></p> Als u een app hebt die afhankelijk is van een aangepaste connector, kunt u de connector op dit moment alleen handmatig opnieuw maken of bijwerken in uw doelomgeving en die connector selecteren als u het pakket importeert. |
 | Verbindingen |Nee |Als een app afhankelijk is van een verbinding (zoals een SQL-verbinding met referenties), ondersteunen we op dit moment de verbinding of referenties niet als onderdeel van het pakket. <p></p> Als u een app hebt die afhankelijk is van een gedeelde verbinding (zoals SQL), kunt u op dit moment alleen die verbinding handmatig opnieuw maken in uw doelomgeving met de juiste referenties en die connector selecteren als u het pakket importeert. |
@@ -50,7 +50,8 @@ De mogelijkheid om een app te importeren, is beschikbaar voor elke gebruiker met
 
 Een gebruiker moet een licentie of proeflicentie voor PowerApps-abonnement 2 hebben om een app te kunnen exporteren of importeren.
 
-*Opmerking: Het maken van pakketten is nog in preview, maar elke gebruiker met een geldige PowerApps-licentie kan pakketten voor zijn apps en omgevingen proberen.*
+> [!NOTE]
+> Het maken van pakketten is nog in preview, maar elke gebruiker met een geldige PowerApps-licentie kan pakketten voor zijn apps en omgevingen proberen.
 
 ## <a name="exporting-an-app"></a>Een app exporteren
 1. Klik of tik op http://web.powerapps.com op **Apps**, selecteer het beletselteken voor de app die u wilt migreren en selecteer vervolgens **Exporteren (preview)**.
@@ -62,6 +63,7 @@ Een gebruiker moet een licentie of proeflicentie voor PowerApps-abonnement 2 heb
 3. U kunt onder 'Pakketinhoud controleren' eventueel opmerkingen of notities toevoegen of wijzigen hoe elke afzonderlijke resource tijdens het importeren van het pakket in de doelomgeving wordt geïmporteerd.
    
     ![Pakketinhoud configureren](./media/environment-and-tenant-migration/export-package-content.png)
+
 4. Selecteer **Exporteren** als u klaar bent. Er wordt binnen een paar seconden begonnen met het downloaden van het pakketbestand.
 
 ## <a name="importing-an-app"></a>Een app importeren
@@ -81,7 +83,8 @@ Een gebruiker moet een licentie of proeflicentie voor PowerApps-abonnement 2 heb
    
     ![Resultaten van de importbewerking controleren](./media/environment-and-tenant-migration/import-results.png)
 
-> **OPMERKING** Als u een app importeert en ervoor kiest om een bestaande app **bij te werken**, worden de nieuwe wijzigingen opgeslagen als een concept van de applicaties.  U moet deze wijzigingen [publiceren](http://powerapps.microsoft.com/tutorials/save-publish-app/#publish-an-app) voordat ze beschikbaar zijn voor alle andere gebruikers van de applicaties.
+> [!NOTE]
+>  Als u een app importeert en ervoor kiest om een bestaande app **bij te werken**, worden de nieuwe wijzigingen opgeslagen als een concept van de applicaties.  U moet deze wijzigingen [publiceren](http://powerapps.microsoft.com/tutorials/save-publish-app/#publish-an-app) voordat ze beschikbaar zijn voor alle andere gebruikers van de applicaties.
 > 
 > 
 

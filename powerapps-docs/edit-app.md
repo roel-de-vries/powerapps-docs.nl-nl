@@ -14,12 +14,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/19/2017
-ms.author: karthikb
-ms.openlocfilehash: 7015a224d2ed914f84d4b56c58addd5f0fd88f8b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.author: sharik
+ms.openlocfilehash: daa1aa994f13c9e79171b4c34101e397aaf5eff7
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="edit-an-app-in-powerapps"></a>Een app bewerken in PowerApps
 U kunt elke app bewerken die u hebt ontwikkeld, waarvan u de eigenaar bent of waarvoor u de machtiging **Kan bewerken** hebt. U kunt een app bewerken in PowerApps Studio voor internet of PowerApps Studio voor Windows. Als u probeert een app te bewerken die ergens anders is geopend voor bewerken, ziet u een bericht met de mededeling dat de app al door uzelf of door iemand anders is geopend.
@@ -34,7 +34,8 @@ U kunt elke app bewerken die u hebt ontwikkeld, waarvan u de eigenaar bent of wa
    
     U kunt elke app bewerken die in de lijst wordt vermeld. U kunt ook zoeken naar een app door een of meer tekens te typen in het zoekvak in de rechterbovenhoek.
    
-    **Opmerking**: als u de app die u wilt bewerken nog steeds niet ziet, controleert u of u rechtsboven wel de juiste omgeving hebt geselecteerd.
+    > [!NOTE]
+> Als u de app die u wilt bewerken nog steeds niet ziet, controleert u of u rechtsboven wel de juiste omgeving hebt geselecteerd.
    
     ![Lijst met omgevingen](./media/edit-app/environment-list.png)
 

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/28/2016
 ms.author: archanan
-ms.openlocfilehash: 75cd4137babde948ea70d8ee48a938c9acc092cc
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: fbd108d1a089072a89f8e6cb06ded07c8493bb4d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="share-app-resources"></a>App-resources delen
 Voordat u [een app deelt](share-app.md), moet u de typen resources in acht nemen waarvan de app gebruikmaakt, zoals:
@@ -47,7 +47,8 @@ Als u een app met gegevens uit een on-premises bron maakt en deelt, worden de [o
 1. Open [powerapps.com](https://web.powerapps.com), klik of tik in de linkernavigatiebalk op **Manage** en klik of tik op **Gateways**.
 2. Klik of tik op een gateway en klik of tik vervolgens op het tabblad **Connections**.
 
-**Opmerking**: als u een of meer verbindingen handmatig deelt, kan het zijn dat u ze in de volgende situaties opnieuw moet delen:
+> [!NOTE]
+> Als u een of meer verbindingen handmatig deelt, kan het zijn dat u ze in de volgende situaties opnieuw moet delen:
 
 * U voegt een on-premises gegevensgateway toe aan een app die u al hebt gedeeld.
 * U wijzigt de set met personen of groepen met wie u een app hebt gedeeld die een on-premises gegevensgateway bevat.

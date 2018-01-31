@@ -15,18 +15,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 2131e964626bee5b90062002619b7f46f7910ae0
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: eb7bb74362a810487e88efb1177b3c1dfa7a694d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-variables-in-powerapps"></a>Over variabelen in PowerApps
 Als u andere programmeerprogramma's zoals Visual Basic of JavaScript hebt gebruikt, vraagt u zich misschien het volgende af: **waar zijn de variabelen?** PowerApps is iets anders, en er is ook een andere benadering voor nodig. In plaats van dat u een variabele gebruikt, moet u zich afvragen: **wat zou ik doen in Excel?**
 
 In andere hulpprogramma's hebt u mogelijk expliciet een berekening uitgevoerd en het resultaat opgeslagen in een variabele. In PowerApps en Excel worden formules echter automatisch opnieuw berekend wanneer de invoergegevens worden gewijzigd, dus is het doorgaans niet nodig om variabelen te maken en bij te werken. Als u deze benadering zo vaak mogelijk gebruikt, wordt het eenvoudiger om uw app te maken, begrijpen en onderhouden.
 
-In sommige gevallen moet u variabelen gebruiken in PowerApps. Hiermee wordt het Excel-model uitgebreid door [gedragsformules](working-with-formulas-in-depth.md#behavior-formulas) toe te voegen. Deze formules worden uitgevoerd wanneer een gebruiker bijvoorbeeld een knop selecteert. Binnen een gedragsformule is het vaak nuttig om een variabele in te stellen voor gebruik in andere formules.
+In sommige gevallen moet u variabelen gebruiken in PowerApps. Hiermee wordt het Excel-model uitgebreid door [gedragsformules](working-with-formulas-in-depth.md) toe te voegen. Deze formules worden uitgevoerd wanneer een gebruiker bijvoorbeeld een knop selecteert. Binnen een gedragsformule is het vaak nuttig om een variabele in te stellen voor gebruik in andere formules.
 
 Over het algemeen is het beter om het gebruik van variabelen te vermijden. Toch is het gewenste resultaat soms alleen mogelijk met een variabele.
 
@@ -94,13 +94,15 @@ Om onze optelsom te maken, hebben we een variabele nodig voor het voorlopige tot
 De werking van globale variabelen:
 
 * U stelt de waarde van de globale variabele in met de functie **[Instellen](functions/function-set.md)**.  **Set( MijnVar, 1 )** stelt de globale variabele **MijnVar** in op de waarde **1**.
-* U gebruikt de globale variabele door te verwijzen naar de naam die is gebruikt in de functie **Set**.  In dit geval retourneert **MijnVar** **1**. 
+* U gebruikt de globale variabele door te verwijzen naar de naam die is gebruikt in de functie **Set**.  In dit geval retourneert **MijnVar** **1**.
 * Globale variabelen kunnen uit een willekeurige waarde bestaan, waaronder tekenreeksen, getallen, records en [tabellen](working-with-tables.md).
 
 Laten we onze optelsom opnieuw bouwen met een globale variabele:
 
 1. Voeg een tekstinvoerbesturingselement met de naam **Tekstinvoer1** en twee knoppen met de naam **Knop1** en **Knop2** toe.
+
 2. Stel de **[tekst](controls/properties-core.md)**eigenschap van **Knop1** in op **"Toevoegen"** en stel de **tekst**eigenschap van **Knop2** in op **"Wissen"**.
+
 3. Als het voorlopige totaal moet worden bijgewerkt wanneer een gebruiker de knop **Toevoegen** selecteert, stelt u de eigenschap **[OnSelect](controls/properties-core.md)** in op deze formule:
    
     **Set( RunningTotal, RunningTotal + Text1 )**
@@ -135,7 +137,7 @@ Er zijn drie soorten variabelen in PowerApps:
 | --- | --- | --- | --- |
 | Globale variabelen |App |Zijn het eenvoudigst te gebruiken.  Bevatten een getal, tekststring, Boolean, record, tabel, enz. waarnaar kan worden verwezen vanuit een willekeurige plaats in de app. |[**Set**](functions/function-set.md) |
 | Contextvariabelen |Scherm |Ideaal voor het doorgeven van waarden aan een scherm, zoals in andere talen parameters dat aan procedures doen.  Er kan alleen naar worden verwezen vanuit één scherm. |[**UpdateContext**](functions/function-updatecontext.md)<br>[**Navigate**](functions/function-navigate.md) |
-| Verzamelingen |App |Bevatten een tabel waarnaar kan worden verwezen vanuit een willekeurige plaats in de app.  Hiermee kan de inhoud van de tabel worden gewijzigd in plaats van deze als geheel in te stellen. Kan worden opgeslagen op het lokale apparaat voor later gebruik. |[**Collect**](functions/function-clear-collect-clearcollect.md)<br>[**ClearCollect**](functions/function-clear-collect-clearcollect.md)<br>[**Patch**](functions/function-patch.md)<br>[**Update**](functions/function-update.md)<br>[**Remove**](functions/function-remove.md)<br>[**SaveData**](functions/function-savedata-loaddata.md)<br>[**LoadData**](functions/function-savedata-loaddata.md)<br>enz. |
+| Verzamelingen |App |Bevatten een tabel waarnaar kan worden verwezen vanuit een willekeurige plaats in de app.  Hiermee kan de inhoud van de tabel worden gewijzigd in plaats van deze als geheel in te stellen. Kan worden opgeslagen op het lokale apparaat voor later gebruik. |[**Collect**](functions/function-clear-collect-clearcollect.md)<br>[**ClearCollect**](functions/function-clear-collect-clearcollect.md)<br>[**Patch**](functions/function-patch.md)<br>[**Update**](functions/function-update-updateif.md)<br>[**Remove**](functions/function-remove-removeif.md)<br>[**SaveData**](functions/function-savedata-loaddata.md)<br>[**LoadData**](functions/function-savedata-loaddata.md)<br>enz. |
 
 Alle variabelen worden impliciet gemaakt bij gebruik in de functies **Set**, **UpdateContext**, **Navigate** of **Collect**.  Er is geen expliciete declaratie van variabelen, zoals in andere programmeertalen.  De typen van de variabelen worden ook impliciet afgeleid van de waarden die erin worden geplaatst.
 
@@ -157,7 +159,9 @@ Hoe contextvariabelen werken:
 Laten we onze optelsom opnieuw bouwen met een contextvariabele:
 
 1. Voeg een tekstinvoerbesturingselement met de naam **Tekstinvoer1** en twee knoppen met de naam **Knop1** en **Knop2** toe.
+
 2. Stel de **[tekst](controls/properties-core.md)**eigenschap van **Knop1** in op **"Toevoegen"** en stel de **tekst**eigenschap van **Knop2** in op **"Wissen"**.
+
 3. Als het voorlopige totaal moet worden bijgewerkt wanneer een gebruiker de knop **Toevoegen** selecteert, stelt u de eigenschap **[OnSelect](controls/properties-core.md)** in op deze formule:
    
     **UpdateContext( { RunningTotal: RunningTotal + Text1 } )**
@@ -182,7 +186,7 @@ Laten we onze optelsom opnieuw bouwen met een contextvariabele:
     ![](media/working-with-variables/context-variable-4.png)
 7. U kunt de waarde van een contextvariabele instellen tijdens het navigeren naar een scherm.  Dit is handig voor het doorgeven van 'context' of 'parameters' van het ene scherm naar de andere.  Voeg een nieuw scherm in en voeg een knop in met de eigenschap **OnSelect** ingesteld op:
    
-    **Navigate( Screen1, None, { RunningTotal: -1000 } )** 
+    **Navigate( Screen1, None, { RunningTotal: -1000 } )**
    
     ![](media/working-with-variables/context-variable-5.png)
    
@@ -207,7 +211,9 @@ Hoe verzamelingen werken:
 Laten we onze optelsom opnieuw maken met behulp van een verzameling:
 
 1. Voeg een **[tekstinvoer](controls/control-text-input.md)**besturingselement met de naam **Tekstinvoer1** en twee knoppen met de naam **Knop1** en **Knop2** toe.
+
 2. Stel de **[tekst](controls/properties-core.md)**eigenschap van **Knop1** in op **"Optellen"** en stel de **tekst**eigenschap van **Knop2** in op **"Wissen"**.
+
 3. Als het voorlopige totaal moet worden bijgewerkt wanneer een gebruiker de knop **Optellen** selecteert, stelt u de eigenschap **[OnSelect](controls/properties-core.md)** in op deze formule:
    
     **Collect( PaperTape, TextInput1.Text )**
@@ -253,5 +259,6 @@ Laten we onze optelsom opnieuw maken met behulp van een verzameling:
      ![](media/working-with-variables/papertape-6.png)
 12. Bekijk het opnieuw door op de toets F5 te drukken, getallen in het tekstinvoerbesturingselement in te voeren en knoppen te selecteren.  Selecteer de knop **Opslaan**.  Sluit uw app, start deze opnieuw en selecteer de knop **Laden** om uw verzameling opnieuw te laden.  
     
-     Opmerking: **SaveData** en **LoadData** werken niet bij uitvoering in een webbrowser. U moet de studio die is geïnstalleerd in Windows gebruiken, of een van de spelers voor mobiele apparaten.  
+    > [!NOTE]
+    > **SaveData** en **LoadData** werken niet bij uitvoering in een webbrowser. U moet de studio gebruiken die op Windows of een van de spelers voor mobiele apparaten is geïnstalleerd.  
 

@@ -1,6 +1,6 @@
 ---
 title: Inleiding | Microsoft Docs
-description: Snelle manieren om aan de slag te gaan met het maken en gebruiken van aangepaste zakelijke apps met Microsoft PowerApps
+description: Informatie over het maken en gebruiken van aangepaste zakelijke apps met Microsoft PowerApps
 services: 
 suite: powerapps
 documentationcenter: na
@@ -13,63 +13,72 @@ ms.devlang: na
 ms.topic: hero-article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/28/2017
+ms.date: 01/16/2018
 ms.author: sharik
-ms.openlocfilehash: 43f912885a70d2b86713c5b4ffc5043d1401a1fa
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: cd82a842dd7c24d56095c0ddd275da25b038b41c
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="introduction-to-powerapps"></a>Inleiding tot PowerApps
-Welkom In PowerApps kunt u organisatiegegevens beheren door een app uit te voeren die u hebt gemaakt of die iemand anders heeft gemaakt en met u heeft gedeeld. Apps worden uitgevoerd op **[mobiele apparaten, zoals telefoons](run-app-client.md)**, of u kunt ze uitvoeren **[in een browser](run-app-browser.md)** door Dynamics 365 te openen. U kunt een oneindig aantal uiteenlopende apps maken, zonder dat u daarvoor een programmeertaal zoals C# hoeft te leren.
+Welkom bij PowerApps. PowerApps is een service waarmee u zakelijke apps kunt bouwen die in een browser of op een telefoon of tablet worden uitgevoerd. U hebt geen ervaring met codering nodig. In PowerApps worden het visuele concept van slepen-en-neerzetten uit PowerPoint gecombineerd met Excel-expressies voor logica en het verwerken van gegevens.
 
-Als u geen ervaring hebt met het ontwikkelen van apps, kunt u zien hoe een eenvoudige app wordt gebouwd door een app automatisch te genereren op basis van één gegevensbron en de app vervolgens aan uw eigen behoeften aan te passen. In deze video ziet u in vijf minuten hoe dit in zijn werk gaat:
-
-[!VIDEO nb:cid:UUID:34ccfd46-7826-49ce-90d8-cf6a144b6968]
-
-
-Nadat u **[automatisch een app hebt gegenereerd](app-from-sharepoint.md)**, op basis van bijvoorbeeld een aangepaste SharePoint-lijst, kunt u wijzigen hoe de app **[alle items](customize-layout-sharepoint.md)**, **[gegevens van elk item](customize-forms-sharepoint.md)** en **[opties voor het maken of bewerken van een item](customize-forms-sharepoint.md)** weergeeft. U kunt ook een **[voorbeeldapp](open-and-run-a-sample-app.md)** of een **[sjabloon](get-started-test-drive.md)** openen om te ontdekken wat er mogelijk is met PowerApps, en om beter inzicht te krijgen in hoe u meer complexe apps kunt bouwen.
-
-Met enige ervaring en creativiteit kunt u **[uw eigen nieuwe apps ontwikkelen](get-started-create-from-blank.md)**. U kunt verbinding maken met **[gegevensbronnen](connections-list.md)**, **[UI-elementen (oftewel besturingselementen) toevoegen](reference-properties.md)** en gedrag van apps bepalen door **[formules samen te stellen](working-with-formulas.md)**. Door klein te beginnen en uw vaardigheden in uw eigen tempo te vergroten, kunt u apps bouwen en delen die de manier waarop uw organisatie gegevens beheert totaal veranderen. Bent u klaar voor de eerste stap?
+Als u geen ervaring hebt met het bouwen van apps, kunt u de sjablonen en voorbeeldgegevens in PowerApps gebruiken om snel een app te bouwen. Vervolgens kunt u de app aan uw eigen behoeften aanpassen. Met enige ervaring en creativiteit kunt u al snel uw eigen nieuwe apps ontwikkelen. Als u een doorgewinterde ontwikkelaar bent, kunt u profiteren van de geavanceerde functionaliteit en echt innoveren. Als u het voor u kunt zien, kunt u ook bouwen!
 
 ## <a name="generate-an-app-automatically"></a>Automatisch een app genereren
-Als u een app automatisch wilt genereren, moet u een gegevensbron opgeven, zoals deze:
+In PowerApps is het heel eenvoudig om automatisch een app te genereren. U hoeft alleen op te geven waar uw gegevens afkomstig van zijn. Gegevens worden opgeslagen in een [gegevensbron](connections-list.md) en u kunt gegevens uit een groot aantal gegevensbronnen gebruiken. Hier volgen enkele algemene die gegevensbronnen:
 
-* de **[Common Data Service](data-platform-intro.md)**
-* een SQL Server-database
-* Salesforce
-* Dynamics 365
-* Excel-werkmap (in een cloudopslagaccount)
+* Common Data Service (meegeleverd bij PowerApps): een krachtige manier voor het opslaan van uw zakelijke gegevens
+* SharePoint
+* Excel
 
-Zie **[Create an app to manage data in SharePoint](app-from-sharepoint.md)** (Een app maken voor het beheer van gegevens in SharePoint) voor stapsgewijze instructies. Hoewel dit onderwerp uitgaat van SharePoint, gelden dezelfde uitgangspunten voor andere soorten gegevensbronnen.
+U kunt ook apps bovendien automatisch genereren via een sjabloon. Elke sjabloon is gebaseerd op fictieve gegevens in een cloudopslagaccount, zoals Dropbox. Verken de specifieke schermen en elementen van de gebruikersinterface ([besturingselementen](reference-properties.md) genoemd) om te begrijpen hoe die zijn geconfigureerd, en experimenteer met aanpassingen om te zien hoe u die kunt gebruiken voor uw eigen apps.
+
+Lees de volgende onderwerpen voor meer informatie:
+
+* [Een app genereren op basis van SharePoint](generate-app-from-sharepoint-list-interface.md)
+* [Een app genereren in PowerApps voor het beheren van gegevens in een SharePoint-lijst](app-from-sharepoint.md)
+* [Een app genereren op basis van Excel](get-started-create-from-data.md)
+* [Een app genereren op basis van SQL Server](connections/connection-azure-sqldatabase.md)
+* [Een app genereren op basis van Salesforce](add-manage-connections.md)
+* [Een app genereren op basis van SharePoint](connections/connection-dynamics-crmonline.md)
+* [Een app genereren op basis van de Common Data Service](data-platform-create-app.md)
+* [Een app genereren op basis van een sjabloon](get-started-test-drive.md)
 
 ## <a name="customize-an-app"></a>Een app aanpassen
-Als de gegenereerde app niet voldoet aan uw behoeften, kunt u de app **[aanpassen](customize-layout-sharepoint.md)**. Mogelijk wilt u andere gegevens weergeven, of dezelfde gegevens weergeven in een ander besturingselement.
+Als de gegenereerde standaardapp niet voldoet aan uw behoeften, kunt u de app aanpassen. U wilt bijvoorbeeld de weergave of het gedrag van bepaalde besturingselementen wijzigen, of misschien een afbeelding of video toevoegen. Voor meer informatie over aanpassingen klikt of tikt u in het navigatievenster aan de linkerkant op **Een app aanpassen**. Hier ziet u een lijst met onderwerpen die betrekking hebben op de verschillende dingen die u kunt aanpassen. Klik of tik op een van de onderwerpen voor stapsgewijze instructies.
 
-Om een idee te krijgen van de manieren waarop u uw app kunt aanpassen en wat u allemaal kunt doen met wat creativiteit en ervaring, kunt u **[een voorbeeldapp openen](open-and-run-a-sample-app.md)**.
+Om een idee te krijgen van de manieren waarop u uw app kunt aanpassen en wat u allemaal kunt doen met wat creativiteit en ervaring, kunt u een voorbeeldapp openen. Zie [Een voorbeeldapp gebruiken](open-and-run-a-sample-app.md) voor meer informatie.
 
-![Voorbeeldapps](./media/getting-started/portal-home.png)
-
-U kunt ook **[een app bouwen met een sjabloon](get-started-test-drive.md)**. Elke sjabloon is gebaseerd op fictieve gegevens in een cloudopslagaccount, zoals Dropbox. Verken de specifieke schermen en besturingselementen om te begrijpen hoe die zijn geconfigureerd, en experimenteer met aanpassingen om te zien hoe u die kunt gebruiken voor uw eigen apps.
+![Voorbeeldapps](./media/getting-started/sample-apps.png)
 
 ## <a name="create-an-app-from-scratch"></a>Een volledig nieuwe app maken
-Nadat u een paar apps automatisch hebt gegenereerd en enige ervaring hebt opgedaan met het maken van aanpassingen, kunt u **[een volledig nieuwe app maken](get-started-create-from-blank.md)**. Door bij het begin te beginnen, hebt u veel meer controle over het ontwerp en de besturingselementen van apps, en kunt u werken met meer verschillende **[gegevensbronnen](connections-list.md)**.
+Nadat u een paar apps automatisch hebt gegenereerd en enige ervaring hebt opgedaan met het maken van aanpassingen, kunt u een volledig nieuwe app maken. Door bij het begin te beginnen, hebt u veel meer controle over het ontwerp en de besturingselementen van apps, en kunt u werken met meer verschillende gegevensbronnen.
 
-Zie voor een uitgebreidere uitleg over een aantal basisconcepten de volgende onderwerpen:
-
-* formules (**[zelfstudie](working-with-formulas.md)** of **[naslag](formula-reference.md)**)
-* galerieën (**[zelfstudie](add-gallery.md)** of **[naslag](reference-properties.md)**)
-* formulieren (**[zelfstudie](add-form.md)** of **[naslag](working-with-forms.md)**)
-* **[tabellen en records](working-with-tables.md)**
-* **[besturingselementen en hun eigenschappen](reference-properties.md)**
+Zie [Een volledig nieuwe app maken](get-started-create-from-blank.md) voor meer informatie.
 
 ## <a name="share-and-run-an-app"></a>Een app delen en uitvoeren
-Wanneer uw app klaar is, kunt u die **[delen](share-app.md)** met anderen in uw organisatie, en u kunt uw eigen apps of gedeelde apps uitvoeren **[in een browser](run-app-browser.md)** of **[op een telefoon](run-app-client.md)**.
+Wanneer u klaar bent met uw app en deze opslaat in de cloud, kunt u deze delen met anderen in uw organisatie. U regelt het machtigingsniveau voor uw app: u bepaalt zelf welke gebruikers of groepen de app mogen uitvoeren en of zij deze ook mogen aanpassen of delen met andere mensen in de organisatie.
 
-## <a name="more-information"></a>Meer informatie
-In dit onderwerp wordt een kort overzicht gegeven van wat voor soort dingen u met PowerApps kunt doen, maar de mogelijkheden zijn eindeloos. U vindt stapsgewijze procedures en naslaginformatie in de onderwerpen aan de linkerkant van deze pagina. Als u een gedetailleerde vraag hebt die niet in de onderwerpen wordt behandeld, kunt u:
+U kunt uw eigen apps uitvoeren (en alle andere apps die met u worden gedeeld) in Windows, iOS, Android of in een webbrowser.
 
-* **[Word lid van onze community](https://aka.ms/powerapps-community)** om vragen te stellen en ideeën te delen met andere gebruikers van PowerApps.
-* **[Neem contact op met de ondersteuning](https://aka.ms/pasupport)**.
+Lees de volgende onderwerpen voor meer informatie:
 
+* [Een app delen in PowerApps](share-app.md)
+* [PowerApps gebruiken in een webbrowser](run-app-browser.md)
+* [PowerApps gebruiken op een telefoon of tablet](run-app-client.md)
+
+## <a name="get-help-and-support"></a>Hulp en ondersteuning krijgen
+Als u een vraag over PowerApps hebt, zijn er verschillende manieren om hulp te krijgen:
+
+* Gebruik de stapsgewijze en verwijzende onderwerpen in het navigatievenster aan de linkerkant.
+* Werk in eigen tempo aan de [begeleide trainingen](https://docs.microsoft.com/powerapps/guided-learning/).
+* Lees en plaats berichten in de [PowerApps-community](https://aka.ms/powerapps-community). Dit is een plek waar iedereen die PowerApps gebruikt vragen kan stellen en beantwoorden. Voordat u een vraag plaatst, zoekt u in de community om te zien of uw vraag al is gesteld en beantwoord.
+* Bekijk de [aankomende webinars](webinars-listing.md#upcoming-webinars); deze zijn handig om de onderdelen en functies van PowerApps te leren kennen. U kunt ook op elk gewenst [afgelopen webinars](webinars-listing.md#past-webinars) terugkijken.
+* Maak een [ondersteuningsticket](https://powerapps.microsoft.com/support/pro/) aan om technische hulp te krijgen. Als u een PowerApps-beheerder voor uw organisatie bent, kunt u ook een ondersteuningsticket in de [beheerdersportal](https://portal.office.com/Support/Support.aspx) openen.
+
+Daarnaast hebben we uw hulp nodig om PowerApps geweldig te maken.
+
+* Als u een idee wilt indienen om PowerApps nog beter te maken, gaat u naar [PowerApps Ideas](https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas) en vertelt u ons over uw idee.
+* Als u een probleem met PowerApps wilt melden, gaat u naar het [PowerApps-forum](https://powerusers.microsoft.com/t5/General-Discussion/bd-p/PowerAppsForum1). Hier kunt u details opgeven, zodat wij ernaar kunnen kijken.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/09/2017
 ms.author: archanan
-ms.openlocfilehash: 9336df54dab2f95114367267408aec6b500a131f
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 7739607b103d98b934805e62cb9a2bfdf1cc14e6
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="manage-your-connections-in-powerapps"></a>Uw verbindingen beheren in PowerApps
 Via [powerapps.com](https://web.powerapps.com) maakt u een verbinding tussen PowerApps en één of meer gegevensbronnen, verwijdert u een verbinding of werkt u de referenties bij.
@@ -54,7 +54,8 @@ Naast het maken en beheren van verbindingen op [powerapps.com](https://web.power
 * Een bestaande app bijwerken of een volledig nieuwe app maken zoals beschreven in [Een verbinding toevoegen](add-data-connection.md).
 * Een app openen die een andere gebruiker heeft gemaakt en [met u gedeeld](share-app.md).
 
-**Opmerking**: als u in plaats daarvan PowerApps Studio wilt gebruiken, opent u het menu **Bestand** en klikt of tikt u op **Verbindingen**. [powerapps.com](https://web.powerapps.com) wordt dan geopend zodat u hier verbindingen kunt maken en beheren.
+> [!NOTE]
+> Als u in plaats daarvan PowerApps Studio wilt gebruiken, opent u het menu **Bestand** en klikt of tikt u op **Verbindingen**. [powerapps.com](https://web.powerapps.com) wordt dan geopend zodat u hier verbindingen kunt maken en beheren.
 
 ## <a name="create-a-new-connection"></a>Een nieuwe verbinding maken
 1. Als u dit nog niet hebt gedaan, meld u zich aan op [powerapps.com](https://web.powerapps.com).

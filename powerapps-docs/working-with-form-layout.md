@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/17/2017
 ms.author: gregli
-ms.openlocfilehash: fc64817566f30f0370538c6e5d1619a1d54c0be3
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: f75eeddf5a3a7b693e81f561ffd227f95e41cc5f
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-data-form-layout-in-microsoft-powerapps"></a>De indeling van een gegevensformulier begrijpen in Microsoft PowerApps
 Met PowerApps kunt u gemakkelijk formulieren maken die er mooi uitzien en efficiënt te gebruiken zijn. Neem bijvoorbeeld dit eenvoudige verkooporderformulier:
@@ -59,12 +59,17 @@ Als u niet vertrouwd bent met PowerApps (of apps alleen automatisch hebt gegener
     Het label toont het ordernummer van het record dat u hebt geselecteerd in de galerie.
 3. (optioneel) Maakt het label als volgt op:
    
-   1. Stel de eigenschap **Align** in op **Center**.
-   2. Stel de eigenschap **Size** in op **20**.
-   3. Stel de eigenschap **Fill** in op **Navy**.
-   4. Stel de eigenschap **Color** in op **White**.
-   5. Stel de eigenschap **Width** in op **Parent.Width**.
-   6. Stel de eigenschappen **X** en **Y**in op **0**.
+    1. Stel de eigenschap **Align** in op **Center**.
+   
+    2. Stel de eigenschap **Size** in op **20**.
+   
+    3. Stel de eigenschap **Fill** in op **Navy**.
+   
+    4. Stel de eigenschap **Color** in op **White**.
+   
+    5. Stel de eigenschap **Width** in op **Parent.Width**.
+   
+    6. Stel de eigenschappen **X** en **Y**in op **0**.
       
       ![Titelbalk](media/working-with-form-layout/title-bar.png)
 
@@ -97,7 +102,8 @@ U kunt ook rechtstreeks op het formulier kaarten selecteren. Als u een kaart sel
 
 ![Geselecteerde gegevenskaart](media/working-with-form-layout/sales-order-data-card-selection.png)
 
-**Opmerking**: om een kaart te verwijderen (niet alleen te verbergen), selecteert u deze en drukt u vervolgens op Delete.
+> [!NOTE]
+> Om een kaart te verwijderen (niet alleen te verbergen), selecteert u deze en drukt u vervolgens op Delete.
 
 ## <a name="arrange-cards-in-columns"></a>Kaarten in kolommen rangschikken
 Standaard hebben formulieren in tablet-apps drie kolommen, en die in telefoonapps hebben er één. U kunt niet alleen het aantal kolommen in een formulier opgeven, maar ook of alle kaarten binnen de kolomgrenzen moeten passen.
@@ -124,7 +130,9 @@ Als u ervoor wilt zorgen dat uw ontwerp flexibeler is, maar een bepaalde structu
 3. Herhaal de vorige stap met de kaarten **Bestelstatus** en **Klantorderreferentie**.
    
     ![Drie kaarten in de eerste rij](media/working-with-form-layout/card-resize-2.png)
+
 4. Pas het formaat van de kaarten **Naam** en **Beschrijving** aan, zodat er zes kolommen (of 1/2) van het formulier worden bedekt.
+
 5. We laten de eerste twee regels van het bezorgadres over de hele breedte van het formulier lopen:
 
 Dat is alles. Ons formulier is klaar, met een combinatie van rijen met verschillende aantallen kolommen:

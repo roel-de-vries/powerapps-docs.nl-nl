@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/08/2017
 ms.author: litran
-ms.openlocfilehash: 39cf496539a1db041a0ba025bd46a9f858200aee
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ff2c45b1d15bdb6d937756b5e7ed00e5c9e9fdfa
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="let-customers-test-drive-your-apps-on-appsource"></a>Klanten uw apps laten uitproberen op AppSource
 Houdt u van het bouwen van apps in PowerApps? Hebt u een app die u met klanten wilt delen? We ondersteunen nu PowerApps Test Drive-oplossingen op [AppSource.com](https://appsource.microsoft.com), zodat u apps met klanten kunt delen en leads voor uw bedrijf kunt genereren.
@@ -93,7 +93,8 @@ UpdateIf(SiteInspectorCollect,ID=record.ID,
 RemoveIf(SiteInspectorCollect,ID=record.ID)
 ```
 
-**Opmerking**: verzamelingen houden de gegevens alleen vast als de app wordt uitgevoerd; eventuele wijzigingen worden genegeerd als de app wordt gesloten.
+> [!NOTE]
+> Verzamelingen houden de gegevens alleen vast als de app wordt uitgevoerd; eventuele wijzigingen worden genegeerd als de app wordt gesloten.
 
 In het kort komt het er op neer dat u een versie van uw app kunt maken met ingesloten gegevens. Deze simuleren het verbinden van de app aan externe gegevens. Als de gegevens zijn ingesloten, kunt u de app publiceren als een Test Drive-oplossing op AppSource.com.
 

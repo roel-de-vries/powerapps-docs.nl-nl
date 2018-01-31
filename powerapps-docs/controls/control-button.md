@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 86329003ee2f5e6e4ffbe91714be290eacd04ad7
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: dfb50597af4012fe6145664fb645439a54686825
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="button-control-in-powerapps"></a>Besturingselement voor knop in PowerApps
 Een besturingselement waarop de gebruiker kan klikken of tikken om interactie te hebben met de app.
@@ -124,7 +124,7 @@ Configureer de eigenschap **[OnSelect](properties-core.md)** van een besturingse
    
     Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
 2. Voeg een besturingselement **Knop** toe en stel de eigenschap **[Text](properties-core.md)** van de knop in op 'Toevoegen' en de eigenschap **[OnSelect](properties-core.md)** op deze formule:<br>
-   **UpdateContext({Totaal:Total + Value(Bron.Text)})**
+   **UpdateContext({Total:Total + Value(Source.Text)})**
    
     Wilt u meer informatie over de functie **[UpdateContext](../functions/function-updatecontext.md)** of een [andere functie](../formula-reference.md)?
 3. Voeg een besturingselement **[Label](control-text-box.md)** toe, stel de eigenschap **[Text](properties-core.md)** in op **Totaal** en druk vervolgens op **F5**.
@@ -145,7 +145,8 @@ Voeg een formule toe die het besturingselement **Tekstinvoer** tussen vermelding
    
     **UpdateContext({Total:Total + Value(Source.Text)});<br>UpdateContext({ClearInput: ""})**
    
-    **Opmerking:** Scheid meerdere formules met puntkomma's '**;**'.
+    > [!NOTE]
+> Scheid meerdere formules met puntkomma's '**;**'.
 3. Stel de eigenschap **[Default](properties-core.md)** van **Bron** in op **ClearInput**.
 4. Druk op **F5** en test de app vervolgens door verschillende cijfers tegelijkertijd toe te voegen.
 
@@ -161,7 +162,8 @@ Voeg een tweede knop toe om het totaal tussen de berekeningen te wissen.
 #### <a name="change-a-buttons-shape"></a>De vorm van een knop wijzigen
 Het besturingselement **Knop** is in PowerApps standaard rechthoekig met afgeronde hoeken. U kunt eenvoudige wijzigingen aanbrengen aan de vorm van het besturingselement **Knop** door de eigenschappen **[Height](properties-size-location.md)**, **[Width](properties-size-location.md)** en **[Radius](properties-size-location.md)** in te stellen.
 
-**Opmerking: [pictogrammen en vormen](control-shapes-icons.md)** bieden een groot aantal verschillende ontwerpen kunnen een aantal basisfuncties van het besturingselement **Knop** uitvoeren. **[Pictogrammen en vormen](control-shapes-icons.md)** hebben de eigenschap **[Text](properties-core.md)** echter niet.
+> [!NOTE]
+> [Pictogrammen en vormen](control-shapes-icons.md) bieden een groot aantal verschillende ontwerpen en kunnen een aantal basisfuncties van het besturingselement **Knop** uitvoeren. **[Pictogrammen en vormen](control-shapes-icons.md)** hebben de eigenschap **[Text](properties-core.md)** echter niet.
 
 1. Voeg het besturingselement **Knop** toe en stel de eigenschappen **[Height](properties-size-location.md)** en **[Width](properties-size-location.md)** in op **300** om een grote vierkante knop te maken.
 2. Wijzig de eigenschappen **[RadiusTopLeft](properties-size-location.md)**, **[RadiusTopRight](properties-size-location.md)**, **[RadiusBottomLeft](properties-size-location.md)** en **[RadiusBottomRight](properties-size-location.md)** om de ronding van elke hoek aan te passen. Hier volgen enkele voorbeelden van verschillende vormen, die allemaal beginnen als een vierkante knop van 300 x 300:
@@ -177,7 +179,8 @@ Standaard wordt de opvulkleur van het besturingselement **Knop** met 20% gedimd 
 
 U kunt ook de kleur van een besturingselement **Knop** opgeven door de eigenschap **[HoverFill](properties-color-border.md)** in te stellen in een formule met de functie **[ColorValue](../functions/function-colors.md)** in plaats van de functie **[ColorFade](../functions/function-colors.md)**, bijvoorbeeld **ColorValue("Red")**.
 
-**Opmerking:** De kleurwaarde moet een CSS-kleurdefinitie zijn. Dit kan een naam of hexadecimale waarde zijn.
+> [!NOTE]
+> De kleurwaarde moet een CSS-kleurdefinitie zijn. Dit kan een naam of hexadecimale waarde zijn.
 
 * Vervang de functie **[ColorFade](../functions/function-colors.md)** door de functie **[ColorValue](../functions/function-colors.md)** in een van de knoppen die u hebt gemaakt en bekijk wat het effect is.
 

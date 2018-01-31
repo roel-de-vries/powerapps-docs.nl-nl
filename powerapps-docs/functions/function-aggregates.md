@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/15/2017
 ms.author: gregli
-ms.openlocfilehash: e3eac64ddfc7c4e029c970367b81331722985861
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 40cc6703b2f3467365b6fab36e390fa9ff0f1659
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="average-max-min-stdevp-sum-and-varp-functions-in-powerapps"></a>De functies Average, Max, Min, StdevP, Sum en VarP in PowerApps
 Statistische functies die een groep getallen samenvatten.
@@ -42,7 +42,7 @@ U kunt de waarden voor deze functies als volgt opgeven:
 * Afzonderlijke argumenten. **Sum( 1, 2, 3 )** retourneert bijvoorbeeld 6.
 * Een [tabel](../working-with-tables.md) en een formule om toe te passen op die tabel.  De statistische waarde wordt berekend op basis van de waarden van de formule voor elke [record](../working-with-tables.md#records).  
 
-[!INCLUDE [record-scope](../../includes/record-scope.md)]
+[!INCLUDE [record-scope](../includes/record-scope.md)]
 
 Deze functies worden alleen op numerieke waarden toegepast. Andere typen waarden, zoals tekenreeksen of records, worden genegeerd. Gebruik de functie **[Value](function-value.md)** om een tekenreeks naar een getal te converteren.
 
@@ -66,7 +66,7 @@ Stel dat u een [gegevensbron](../working-with-data-sources.md) met de naam **Ver
 Het label toont de totale verkoop door de waarden in die kolommen voor elke record te vermenigvuldigen en vervolgens de resultaten van alle records op te tellen:<br>![Totale verkoop berekenen met aantal verkochte eenheden en kosten per eenheid](./media/function-aggregates/total-sales.png)
 
 Een ander voorbeeld: stel dat u schuifregelaars hebt met de naam **Schuifregelaar1**, **Schuifregelaar2** en **Schuifregelaar3** en een label waarvan de eigenschap **[Text](../controls/properties-core.md)** is ingesteld op deze formule:<br>
-**Sum(Schuifregelaar1.Value, Schuifregelaar2.Value, Schuifregelaar3.Value)**
+**Sum(Slider1.Value, Slider2.Value, Slider3.Value)**
 
 Het label toont de som van alle waarden waarop de schuifregelaars zijn ingesteld.
 

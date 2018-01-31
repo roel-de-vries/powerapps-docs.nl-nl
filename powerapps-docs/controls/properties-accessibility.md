@@ -14,19 +14,18 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/26/2017
-ms.author: anneta
-ms.openlocfilehash: d8cc9d6c8586856dcaa27f67d3ea1fdc17fa0433
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.author: fikaradz
+ms.openlocfilehash: d35b4bc7a6e479ce47ad0a0b841a6ed9ccfd1a52
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="accessibility-properties-in-powerapps"></a>Eigenschappen voor toegankelijkheid in PowerApps
-## <a name="overview"></a>Overzicht
-Eigenschappen configureren om alternatieve manieren van communicatie mogelijk maken met besturingselementen zodat gebruikers met een visuele handicap ook aan de slag kunnen.
+Eigenschappen configureren om alternatieve manieren van communicatie mogelijk maken met besturingselementen voor gebruikers met een handicap.
 
-## <a name="properties"></a>Eigenschappen
-**Tooltip**: beschrijvende tekst die wordt weergegeven wanneer de gebruiker een besturingselement aanwijst.  Tekst wordt door Aria-labels gebruikt ter ondersteuning van schermlezers.
+### <a name="properties"></a>Eigenschappen
+**AccessiblityLabel**: beschrijving van het besturingselement dat moet worden gelezen door schermlezers.   Door een lege waarde voor de bedieningselementen afbeelding, pictogram en vorm worden de besturingselementen onzichtbaar gemaakt voor de schermlezer en als sierelementen behandeld.
 
 * Is van toepassing op de besturingselementen **[Audio](control-audio-video.md)**, **[Knop](control-button.md)**, **[Camera](control-camera.md)**, **[Selectievakje](control-check-box.md)**, **[Vervolgkeuzelijst](control-drop-down.md)**, **[HTML-tekst](control-html-text.md)**, **[Afbeelding](control-image.md)**, **[Label](control-text-box.md)**, **[Keuzelijst](control-list-box.md)**, **[Microfoon](control-microphone.md)**, **[PDF-viewer](control-pdf-viewer.md)**, **[Peninvoer](control-pen-input.md)**, **[Keuzerondje](control-radio.md)**, **[Waardering](control-rating.md)**, **[Schuifregelaar](control-slider.md)**, **[Tekstinvoer](control-text-input.md)**, **[Timer](control-timer.md)**, **[Wisselknop](control-toggle.md)** en **[Video](control-audio-video.md)**.
 
@@ -36,7 +35,6 @@ De waarde is standaard nul, wat betekent dat de tabbladvolgorde standaard is, op
 
 Bij containers met de besturingselementen Formulier en Galerie wordt altijd door alle elementen van de container gebladerd voordat wordt doorgegaan met de besturingselementen buiten de container.  De tabbladvolgorde van de container komt overeen met die van de laagste TabIndex-waarde van een onderliggend besturingselement.
 
-Als TabIndex op -1 wordt ingesteld, wordt de toegang tot de tab via het besturingselement uitgeschakeld. Afbeeldingen, pictogrammen en vormen zullen ook onzichtbaar zijn voor de schermlezer.
+Als TabIndex op -1 wordt ingesteld, wordt de toegang tot de tab via het besturingselement uitgeschakeld. Van afbeeldingen, pictogrammen en vormen worden ook niet-interactieve elementen gemaakt.
 
 * Is van toepassing op de besturingselementen **[Knop](control-button.md)**, **[Datumkiezer](control-date-picker.md)**, **[Vervolgkeuzelijst](control-drop-down.md)**, **[Afbeelding](control-image.md)**, **[Importeren](control-export-import.md)**, **[Keuzelijst](control-list-box.md)**, **[Keuzerondje](control-radio.md)**, **[Waardering](control-rating.md)**, **[Schuifregelaar](control-slider.md)**, **[Tekstinvoer](control-text-input.md)** en **[Wisselknop](control-toggle.md)**.
-

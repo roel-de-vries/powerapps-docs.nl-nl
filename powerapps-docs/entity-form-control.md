@@ -14,24 +14,26 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/11/2017
 ms.author: aneesa
-ms.openlocfilehash: f8962ea7ea89892b834541aba25653759212a652
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 33c113441bd9842ec267cc658ffd955decde86c0
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="use-the-entity-form-control"></a>Besturingselement Formulier voor entiteit gebruiken
-Maak sneller apps met behulp van het besturingselement **Formulier voor entiteit** om formulieren met opmaak toe te voegen voor een [Common Data Service-entiteit](guided-learning/learning-common-data-service-entities.md).
+Maak sneller apps met behulp van het besturingselement **Formulier voor entiteit** om formulieren met opmaak toe te voegen voor een [Common Data Service-entiteit](guided-learning/manage-data.yml#step-2).
 
 Zie het blogbericht [Nieuw besturingselement Formulier voor entiteit (experimentele functie) voor Common Data Service](https://powerapps.microsoft.com/blog/new-entity-form-control-experimental-feature-for-common-data-service/) voor een inleiding tot het besturingselement **Formulier voor entiteit**.
 
-**Let op**: zoals uiteengezet in het blogbericht bevindt het besturingselement **Formulier voor entiteit** zich nog in de experimentele fase. Wees voorlopig voorzichtig met het gebruiken het besturingselement **Formulier voor entiteit** in productie-apps.
+> [!IMPORTANT]
+> Zoals uiteengezet in het blogbericht bevindt het besturingselement **Formulier voor entiteit** zich nog in de experimentele fase. Wees voorlopig voorzichtig met het gebruiken het besturingselement **Formulier voor entiteit** in productie-apps.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
 Dit zijn de belangrijkste eigenschappen van een besturingselement **Formulier voor entiteit**.
 
 **Gegevensbron**: de gegevensbron die de record(s) bevat die u wilt weergeven.   
-**Opmerking**: momenteel worden alleen entiteiten in de Common Data Service ondersteund als gegevensbronnen voor het besturingselement **Formulier voor entiteit**.  
+> [!NOTE]
+> Momenteel worden alleen entiteiten in de Common Data Service ondersteund als gegevensbronnen voor het besturingselement **Formulier voor entiteit**.  
 
 **Patroon**: de stijl van het formulier dat u wilt weergeven in het besturingselement **Formulier voor entiteit**. Stel deze eigenschap in met behulp van de opsomming **FormPattern**.
 
@@ -82,7 +84,8 @@ U kunt deze gedeelde functies gebruiken met het besturingselement **Formulier vo
 
 Nu u een overzicht hebt van de verschillende eigenschappen en functies, gaan we kijken wat ze doen.
 
-**Opmerking**: als u geen toegang hebt tot een Common Data Service-database, [maakt u er een](guided-learning/learning-common-data-service.md) voordat u begint met de volgende stappen.
+> [!NOTE]
+> Als u geen toegang hebt tot een Common Data Service-database, [maakt u er een](guided-learning/manage-data.yml#step-1) voordat u begint met de volgende stappen.
 
 ## <a name="display-a-list-of-records"></a>Een lijst met records weergeven
 De volgende vijf procedures bieden één end-to-end-voorbeeld van het gebruik van besturingselementen **Formulier voor entiteit**. In deze procedure voegt u een formulier toe waarop een lijst met verkooporders wordt weergegeven.  
@@ -125,7 +128,7 @@ De volgende vijf procedures bieden één end-to-end-voorbeeld van het gebruik va
       
       ![](media/entity-form-control/entityform-tutorial-01-08.png)   
       
-      In **Common Data Service** kunt u [veldgroepen wijzigen](field-groups.md) voor aangepaste entiteiten (maar niet voor [standaardentiteiten](guided-learning/learning-common-data-service-entities.md)) om te wijzigen welke velden worden weergegeven op de bijbehorende formulieren in het besturingselement **Formulier voor entiteit**. Bovendien ziet u alle wijzigingen in de veldgroep automatisch terug in alle apps die gebruikmaken van een besturingselement **Formulier voor entiteit** om het bijbehorende formulier weer te geven.
+      In **Common Data Service** kunt u [veldgroepen wijzigen](field-groups.md) voor aangepaste entiteiten (maar niet voor [standaardentiteiten](guided-learning/manage-data.yml#step-2)) om te wijzigen welke velden worden weergegeven op de bijbehorende formulieren in het besturingselement **Formulier voor entiteit**. Bovendien ziet u alle wijzigingen in de veldgroep automatisch terug in alle apps die gebruikmaken van een besturingselement **Formulier voor entiteit** om het bijbehorende formulier weer te geven.
 
 ## <a name="display-the-details-of-a-record"></a>Details van een record weergeven
 Laten we nog een besturingselement **Formulier voor entiteit** toevoegen om de details van de verkooporder weer te geven die is geselecteerd in de lijst die u eerder hebt gemaakt.  
@@ -206,7 +209,8 @@ Daarom wordt, als de gebruiker op een veld Verkooporder-id klikt of tikt, de fun
 
 ![](media/entity-form-control/entityform-tutorial-01-21.png)  
 
-**Opmerking**: als u het deelvenster voor het aanpassen van formulieren gebruikt, wordt **NavigationContext** op slimme wijze voor u bepaald. Wanneer de gebruiker klikt of tikt op **SalesOrderId**, wordt **NavigationContext** ingesteld op **SalesOrderListForm.Selected**, zoals eerder weergegeven in de formule. Als we in plaats hiervan het veld **Account** hadden ingesteld voor navigatie, was **NavigationContext** ingesteld op **SalesOrderListForm.Selected.Account** om ervoor te zorgen dat de juiste context wordt doorgegeven. U hebt echter een besturingselement **Formulier voor entiteit** nodig dat is gekoppeld aan de entiteit **Account** in Common Data Service om deze context te kunnen gebruiken.
+> [!NOTE]
+> Als u het deelvenster voor het aanpassen van formulieren gebruikt, wordt **NavigationContext** op slimme wijze voor u bepaald. Wanneer de gebruiker klikt of tikt op **SalesOrderId**, wordt **NavigationContext** ingesteld op **SalesOrderListForm.Selected**, zoals eerder weergegeven in de formule. Als we in plaats hiervan het veld **Account** hadden ingesteld voor navigatie, was **NavigationContext** ingesteld op **SalesOrderListForm.Selected.Account** om ervoor te zorgen dat de juiste context wordt doorgegeven. U hebt echter een besturingselement **Formulier voor entiteit** nodig dat is gekoppeld aan de entiteit **Account** in Common Data Service om deze context te kunnen gebruiken.
 
 ## <a name="edit-and-save-a-record"></a>Een record bewerken en opslaan
 Ten slotte gaan we bekijken hoe we een record in een besturingselement **Formulier voor entiteit** kunnen bewerken en opslaan.  

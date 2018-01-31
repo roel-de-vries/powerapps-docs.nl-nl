@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/19/2017
 ms.author: jamesol
-ms.openlocfilehash: ebe54d21ffc55024e1af7ab81fb2835835f39e6f
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: f3b53905bb335cf61eae3e184d4984d56907fe4c
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="licensing-overview"></a>Licentieoverzicht
 PowerApps wordt gelicentieerd op gebruikersbasis. Elke gebruiker die toegang heeft tot de service voor het maken en uitvoeren van apps, heeft een licentie nodig. Office 365- en Dynamics 365-klanten kunnen onmiddellijk profiteren van de mogelijkheden van PowerApps en Microsoft Flow die deze aanbiedingen omvatten. Klanten die apps en stromen willen maken die toegang nodig hebben tot gegevensbronnen buiten Office 365 en Dynamics 365, of die aanvullende functionaliteit nodig hebben, kunnen een zelfstandig abonnement voor PowerApps en Flow Microsoft aanschaffen. Er zijn belangrijke verschillen in de functionaliteit tussen deze groepen met licenties.
@@ -80,7 +80,8 @@ Wanneer de evaluatieperiode is verlopen, hebben gebruikers de volgende opties:
 * Gebruikers die PowerApps of Microsoft Flow gebruiken via Office 365 of Dynamics 365, kunnen PowerApps of Microsoft Flow blijven gebruiken.  Deze gebruikers hebben echter geen toegang meer tot alle functies die uitsluitend behoren tot Plan 2, zoals is beschreven op de pagina met [PowerApps-prijzen][2].
 * Gebruikers die PowerApps niet gebruiken via Office 365 of Dynamics 365, kunnen een verlenging van de evaluatieperiode aanvragen of ze kunnen een zelfstandig abonnement aanschaffen. Voor meer informatie raadpleegt u [PowerApps aanschaffen voor uw organisatie][4].
 
-> **OPMERKING** Als u PowerApps wilt aanschaffen voor een organisatie, moet u een Office 365 Global-beheerder of factureringsbeheerder van een tenant zijn, of moet u een tenant maken.
+> [!NOTE]
+>   Als u PowerApps wilt aanschaffen voor een organisatie, moet u een Office 365 Global-beheerder of factureringsbeheerder van een tenant zijn, of moet u een tenant maken.
 > 
 > 
 

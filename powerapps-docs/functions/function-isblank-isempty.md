@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: b9d93fe540d32bc547cec3254b5aa3968b460660
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 1c5972d35f98d15f1cad45e74763320011ab98c6
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="blank-coalesce-isblank-and-isempty-functions-in-powerapps"></a>Functies Blank, Samenvoegen, IsBlank en IsEmpty in PowerApps
 Hiermee wordt getest of een waarde leeg is of een [tabel](../working-with-tables.md) geen [records](../working-with-tables.md#records) bevat. Dit biedt een manier om *lege* waarden te maken.
@@ -27,7 +27,8 @@ Hiermee wordt getest of een waarde leeg is of een [tabel](../working-with-tables
 ## <a name="overview"></a>Overzicht
 *Blank* (leeg) is een tijdelijke aanduiding voor "geen waarde" of "onbekende waarde". Een besturingselement van het type **[Tekstinvoer](../controls/control-text-input.md)** is *leeg* als de gebruiker er geen tekens in heeft getypt. Hetzelfde besturingselement is niet langer *leeg* zodra de gebruiker er een teken in typt.  Sommige gegevensbronnen kunnen NULL-waarden opslaan en retourneren. Deze worden in PowerApps weergegeven als *leeg*.
 
-**Opmerking**: het opslaan van *lege* waarden wordt op dit moment alleen ondersteund voor lokale verzamelingen. We weten dat veel gegevensbronnen *lege* waarden (NULL) ondersteunen. Deze beperking wordt zo snel mogelijk opgelost.
+> [!NOTE]
+> Het opslaan van *lege* waarden wordt op dit moment alleen ondersteund voor lokale verzamelingen. We weten dat veel gegevensbronnen *lege* waarden (NULL) ondersteunen. Deze beperking wordt zo snel mogelijk opgelost.
 
 Elke eigenschap of berekende waarde kan *leeg* zijn.  Een booleaanse waarde heeft bijvoorbeeld normaal een van de twee waarden: **true** of **false**.  Naast deze twee waarden kan hij echter ook *leeg* zijn.  Dit is vergelijkbaar met Microsoft Excel, waar een werkbladcel in eerste instantie leeg is, maar onder andere de waarden **true** of **false** kan bevatten. De inhoud van de cel kan op elk gewenst moment worden verwijderd, waarna hij terugkeert naar een *lege* staat.
 
@@ -70,7 +71,8 @@ De resulterende waarde voor zowel **IsBlank** als **IsEmpty** is de booleaanse w
 
 ## <a name="examples"></a>Voorbeelden
 ### <a name="blank"></a>Blank
-OPMERKING: op dit moment is het volgende voorbeeld alleen van toepassing op lokale verzamelingen.  We weten dat veel gegevensbronnen *lege* waarden (NULL) ondersteunen. Deze beperking wordt zo snel mogelijk opgelost.
+> [!NOTE]
+> Op dit moment is het volgende voorbeeld alleen van toepassing op lokale verzamelingen.  We weten dat veel gegevensbronnen *lege* waarden (NULL) ondersteunen. Deze beperking wordt zo snel mogelijk opgelost.
 
 1. Maak een volledig nieuwe app en voeg een besturingselement van het type **Knop** toe.
 2. Stel de eigenschap **[OnSelect](../controls/properties-core.md)** van de knop in op deze formule:

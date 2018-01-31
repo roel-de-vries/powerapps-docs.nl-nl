@@ -15,14 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/28/2016
 ms.author: litran
-ms.openlocfilehash: 0d580471b5dc70852468f6571d356dddd5ca172c
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: a6ec814d057f85b39f794bd7c0c100c5a28f652f
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="introduction-to-powerappscom"></a>Inleiding tot powerapps.com
-Begin november introduceert het team van PowerApps [powerapps.com](http://web.powerapps.com) opnieuw als het nieuwe platform voor app-ontwikkelaars. We hebben de pagina opnieuw ingericht als de primaire site waarop ontwikkelaars aan de slag kunnen met hun apps, toegang hebben tot Microsoft Common Data Service en hun apps op één plek kunnen beheren. In dit artikel bespreken we de volgende aspecten:
+Het team van PowerApps introduceert [powerapps.com](http://web.powerapps.com) opnieuw als het nieuwe platform voor app-ontwikkelaars. We hebben de pagina opnieuw ingericht als de primaire site waarop ontwikkelaars aan de slag kunnen met hun apps, toegang hebben tot Microsoft Common Data Service en hun apps op één plek kunnen beheren. In dit artikel bespreken we de volgende aspecten:
 
 * De kop
 * De startpagina
@@ -111,7 +111,7 @@ Op de pagina **Apps** kon u voorheen schakelen tussen de tegel- en lijstweergave
 
 In de lijstweergave ziet u alleen de apps in de geselecteerde omgeving. Als u apps in een andere omgeving wilt weergeven, schakelt u over naar de gewenste omgeving via de vervolgkeuzelijst in de kop. [Meer informatie over schakelen tussen omgevingen](working-with-environments.md).
 
-Wat is er nieuw?
+## <a name="whats-new"></a>Wat is er nieuw?
 
 * Als u op een app klikt of tikt, wordt deze nu in een nieuw tabblad geopend in PowerApps Studio voor internet.
 * De pagina **Apps** geeft standaard alle apps weer waarvoor u een bewerkingsmachtiging hebt. Selecteer **Alle apps** in het filter om **alle apps** (inclusief apps die u alleen kunt gebruiken) weer te geven.

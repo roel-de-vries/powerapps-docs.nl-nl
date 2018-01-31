@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/09/2016
 ms.author: kfend
-ms.openlocfilehash: 1aff4df6e314f50a67aff6a08298d3d7aa4a9cfa
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 21f33f8810b545b11f611b86261227c9443be5de
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="build-a-relationship-between-entities"></a>Relatie tussen entiteiten maken
 Gegevens in de ene entiteit zijn vaak gekoppeld aan gegevens in een andere entiteit. Als u bijvoorbeeld een entiteit **Klanten** en een entiteit **Orders** hebt, kan de entiteit **Orders** een opzoekrelatie met de entiteit **Klanten** hebben om te laten zien welke klant de bestelling heeft geplaatst. U kunt een opzoekveld gebruiken om gegevens uit de entiteit **Klanten** weer te geven voor de klant die de bestelling heeft geplaatst. Zie het Engelstalige artikel [Entity relationships and lookup fields](https://docs.microsoft.com/en-us/common-data-service/entity-reference/relationships) (Entiteitsrelaties en opzoekvelden) voor meer informatie.
@@ -35,7 +35,7 @@ U kunt verschillende typen relaties vanuit de ene entiteit naar de andere (of tu
 ## <a name="add-a-lookup-relation"></a>Een opzoekrelatie toevoegen
 Als u een opzoekrelatie wilt toevoegen aan een entiteit, maakt u een relatie op het tabblad **Relaties** tabblad en geeft u de entiteit op waarmee u een relatie wilt maken.
 
-1. Ga naar [powerapps.com](https://web.powerapps.com) en vouw de sectie **Common Data Service** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
+1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Common Data Service** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
 2. Klik of tik in de lijst met entiteiten op een entiteit om de velden ervan weer te geven. U kunt de lijst filteren door een of meer tekens in het zoekvak boven de lijst te typen.
 3. Klik of tik boven in het scherm op **Relaties**. Op dit tabblad ziet u alle relaties voor de entiteit. Klik op **Nieuwe relatie**.
 4. Geef op de pagina **Relatie maken** de gerelateerde entiteit op waarmee u een relatie wilt maken, en geef vervolgens de naam en de weergavenaam van de relatie op.
@@ -50,11 +50,12 @@ Als entiteit A een opzoekveld naar entiteit B heeft:
 * U kunt elke record in entiteit A zonder enige beperking verwijderen.
 * Als een record in entiteit B overeenkomt met een of meer records in entiteit A, moet u alle overeenkomende records in entiteit A verwijderen voordat u de record in entiteit B kunt verwijderen.
 
-**Opmerking**: als entiteit B een standaardentiteit is met een bovenliggende relatie met entiteit A en u een record verwijdert uit entiteit A, worden ook alle overeenkomende records uit entiteit B verwijderd.
+> [!NOTE]
+> Als entiteit B een standaardentiteit is met een bovenliggende relatie met entiteit A en u een record verwijdert uit entiteit A, worden ook alle overeenkomende records uit entiteit B verwijderd.
 
 Zie [Velden beheren](data-platform-manage-fields.md) voor informatie over het verwijderen van een veld.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Een app genereren met behulp van een Common Data Service-database](data-platform-create-app.md)
+* [Generate an app by using a Common Data Service database (Een app genereren met behulp van een Common Data Service-database)](data-platform-create-app.md)
 * [Create an app from scratch using a Common Data Service database (Een volledig nieuwe app maken met behulp van een Common Data Service-database)](data-platform-create-app-scratch.md)
 

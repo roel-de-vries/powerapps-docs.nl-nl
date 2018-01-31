@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 7de7d1e208dffa47dbe8580321f93023d5111389
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 37c4eebc80f363088bd637fbcd41d37cbafb245d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="text-function-in-powerapps"></a>De functie Tekst in PowerApps
 Maakt een numerieke of datum/tijd-waarde op voor weergave als een teksttekenreeks.
@@ -72,8 +72,10 @@ Als in een getal rechts van het decimaalteken meer cijfers voorkomen dan er tijd
 | **jjjj** |Geeft het jaar weer als een getal van vier cijfers. |
 | **h** |Geeft het uur weer als een getal zonder voorloopnul. |
 | **hh** |Geeft het uur weer als een getal met een voorloopnul wanneer dat nodig is. Als de notatie **AM** of **PM** bevat, wordt het uur weergegeven op basis van de 12-uurs notatie. Anders wordt het weergegeven uur gebaseerd op de 24-uurs notatie. |
-| **m** |Geeft de minuut weer als een getal zonder voorloopnul.  Opmerking: De code **m** of **mm** moet direct na de code **h** of **hh** worden weergegeven of direct voor de code **ss**. Anders retourneert **Tekst** de maand in plaats van minuten. |
-| **mm** |Geeft de minuut weer als een getal met een voorloopnul wanneer dat nodig is. Opmerking: de tijdelijke aanduiding **m** of **mm** moet direct na de tijdelijke aanduiding **h** of **hh** verschijnen of direct voor de tijdelijke aanduiding **ss**. Anders retourneert **Tekst** de maand in plaats van minuten. |
+| **m** |Geeft de minuut weer als een getal zonder voorloopnul.  > [!NOTE]
+> De code **m** of **mm** moet direct na de code **h** of **hh** worden weergegeven of direct voor de code **ss**. Anders retourneert **Tekst** de maand in plaats van minuten. |
+| **mm** |Geeft de minuut weer als een getal met een voorloopnul wanneer dat nodig is. > [!NOTE]
+> De tijdelijke aanduiding **m** of **mm** moet direct na de tijdelijke aanduiding **h** of **hh** verschijnen of direct voor de tijdelijke aanduiding **ss**. Anders retourneert **Tekst** de maand in plaats van minuten. |
 | **s** |Geeft de seconde weer als een getal zonder voorloopnul. |
 | **ss** |Geeft de seconde weer als een getal met een voorloopnul wanneer dat nodig is. |
 | **f** |Geeft de fracties van seconden weer. |
@@ -123,7 +125,8 @@ Als u bij het schrijven van een formule geen tijdelijke aanduiding voor een taal
 
 Er wordt bijvoorbeeld uitgegaan van **[$-en-US]** als deze tijdelijke aanduiding niet aanwezig is wanneer uw app wordt uitgevoerd. 
 
-**OPMERKING:** in een toekomstige versie zal de syntaxis van deze tijdelijke aanduiding mogelijk worden gewijzigd om verwarring te voorkomen met een vergelijkbare, maar andere, tijdelijke aanduiding die door Excel wordt ondersteund.
+> [!NOTE]
+> In een toekomstige versie zal de syntaxis van deze tijdelijke aanduiding mogelijk worden gewijzigd om verwarring te voorkomen met een vergelijkbare, maar andere, tijdelijke aanduiding die door Excel wordt ondersteund.
 
 #### <a name="result-language-tag"></a>Taalcode resultaat
 In het resultaat van **Tekst** verschijnen vertaalde tekenreeksen voor maand, weekdag, AM/PM-aanwijzingen, evenals de juiste groeperings- en decimaalscheidingstekens.
@@ -133,13 +136,13 @@ Standaard gebruikt **Tekst** de taal van de gebruiker die de app uitvoert.  De f
 ## <a name="syntax"></a>Syntaxis
 **Tekst**( *Getal*, *DatumTijdNotatieOpsomming* [, *ResultaatTaalcode* ] )
 
-* *Getal* - vereist. Het getal of de datum/tijd-waarde die moet worden opgemaakt.
+* *Getal* is vereist. Het getal of de datum/tijd-waarde die moet worden opgemaakt.
 * *DatumTijdNotatie* - vereist.  Een lid van de opsomming **DatumTijdNotatie**.
 * *ResultaatTaalcode* - optioneel.  De te gebruiken taalcode voor de resultaattekst.  Standaard wordt de taal van de huidige gebruiker gebruikt.
 
 **Tekst**( *Getal*, *AangepasteNotatie* [, *ResultaatTaalcode* ] )
 
-* *Getal* - vereist. Het getal of de datum/tijd-waarde die moet worden opgemaakt.
+* *Getal* is vereist. Het getal of de datum/tijd-waarde die moet worden opgemaakt.
 * *AangepasteNotatie* - vereist. Een of meer tijdelijke aanduidingen tussen dubbele aanhalingstekens.
 * *ResultaatTaalcode* - optioneel.  De te gebruiken taalcode voor de resultaattekst.  Standaard wordt de taal van de huidige gebruiker gebruikt.
 

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/08/2017
 ms.author: jamesol
-ms.openlocfilehash: f588a6fa9952f3d40d51fbedbd672031b9c837f5
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 1e51ca684129c538ced47863c73269284cc13719
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="send-a-push-notification-in-powerapps"></a>Een pushmelding verzenden in PowerApps
 Pushmeldingen worden gebruikt in mobiele apps voor zakelijk en consumentengebruik, voornamelijk om app-gebruikers te benaderen en hun aandacht te trekken naar belangrijke taken. Het verzenden van meldingen in PowerApps vindt plaats via de PowerApps-meldingsconnector. U kunt native pushmeldingen verzenden naar alle apps die u in PowerApps maakt. We zullen in de toekomst meer meldingstypen toevoegen.
@@ -32,13 +32,15 @@ Voeg een pushmelding aan uw app toe als:
 * uw gebruikers uw app moeten gebruiken om belangrijke taken uit te voeren, wanneer deze app vooraf is geladen;
 * u uw gebruikers regelmatig wilt benaderen of uw gebruikers de app in een specifieke situatie moeten openen.
 
-**Opmerking**: om pushmeldingen te ontvangen, dient iedere gebruiker de app in ieder geval eenmaal in PowerApps Mobile te hebben geopend of de app te hebben verkregen via AppSource in [Dynamics 365](https://home.dynamics.com/).
+> [!NOTE]
+> Om pushmeldingen te ontvangen, dient iedere gebruiker de app in ieder geval eenmaal in PowerApps Mobile te hebben geopend of de app te hebben verkregen via AppSource in [Dynamics 365](https://home.dynamics.com/).
 
 ## <a name="before-you-start"></a>Voordat u begint
 Voeg de PowerApps-meldingsconnector toe aan een app waarvoor u rechten als **Inzender** hebt. Als u nog geen app hebt, kunt u snel [een app maken op basis van een sjabloon](get-started-test-drive.md). U hebt de vereiste rechten dan standaard. Die zelfstudie en deze gebruiken allebei een app op basis van het sjabloon Case Management.
 
 ## <a name="send-a-notification-from-a-flow"></a>Een pushmelding versturen vanuit een stroom
-**Opmerking**: als u een pushmelding activeert vanuit een stroom, kunt u de melding op dit moment enkel naar één gebruiker of beveiligingsgroep tegelijk verzenden.
+> [!NOTE]
+> Als u een pushmelding activeert vanuit een stroom, kunt u de melding op dit moment enkel naar één gebruiker of beveiligingsgroep tegelijk verzenden.
 
 1. Maak in [Microsoft Flow](https://flow.microsoft.com) een trigger die aangeeft wanneer de pushmelding wordt verzonden.
    
@@ -89,10 +91,11 @@ U kunt uw app bijvoorbeeld instellen om na het openen direct naar de pagina **Ca
 2. (optioneel) Verberg het **Timer**-besturingselement door de eigenschap **Visible** in te stellen op **false**.
 3. Stel de eigenschap **OnVisible** van het scherm in op **Timer.Start()**.
 
-**Tip**: het is een goed idee om een unieke eerste pagina in de app te maken voor de melding:
+> [!TIP]
+> Het is een goed idee om een unieke eerste pagina in de app te maken voor de melding:
 
-1. Maak een lege pagina die uw app niet standaard opent, voeg een besturingselement van het type **Text Input** in en stel de waarde **timer.Duration** in.
-2. Wanneer u de app maakt, moet u de timer instellen op een andere waarde dan nul. Wanneer u klaar bent om de app te publiceren, stelt u de waarde in op **0** om de timer direct te activeren.
+>1. Maak een lege pagina die uw app niet standaard opent, voeg een besturingselement van het type **Text Input** in en stel de waarde **timer.Duration** in.
+>2. Wanneer u de app maakt, moet u de timer instellen op een andere waarde dan nul. Wanneer u klaar bent om de app te publiceren, stelt u de waarde in op **0** om de timer direct te activeren.
 
 ## <a name="syntax"></a>Syntaxis
 | Naam | Beschrijving |

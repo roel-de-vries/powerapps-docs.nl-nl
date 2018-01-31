@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/06/2017
 ms.author: sharik
-ms.openlocfilehash: 337f3fc00fe52e0008190e2144f21f40d1632f52
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 4012439f121a212f6117aa18c1d906cab893248f
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-powerapps"></a>Limieten en configuratie in Microsoft PowerApps
 Dit onderwerp bevat informatie over de huidige limieten en configuratiegegevens voor PowerApps.
@@ -32,7 +32,8 @@ Deze limieten gelden voor elke uitgaande aanvraag:
 | Time-out |180 seconden |
 | Nieuwe pogingen |4 |
 
-**Opmerking**: de waarde van nieuwe pogingen kan variëren. Bij bepaalde fouten is het niet logisch om het opnieuw te proberen.
+> [!NOTE]
+> De waarde van nieuwe pogingen kan variëren. Bij bepaalde fouten is het niet logisch om het opnieuw te proberen.
 
 ## <a name="ip-addresses"></a>IP-adressen
 Voor aan vragen van PowerApps wordt gebruikgemaakt van IP-adressen die afhankelijk zijn van de regio van de [omgeving](environments-overview.md) waarin de app zich bevindt. Er worden geen volledig gekwalificeerde domeinnamen gepubliceerd voor PowerApps-scenario's.

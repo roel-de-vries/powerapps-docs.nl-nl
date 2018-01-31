@@ -15,17 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/02/2017
 ms.author: sharik
-ms.openlocfilehash: c581abad70012eb66413a31bd765437df69b7a70
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ce0f0693298977ca991636d0a9bf18e238e8368e
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="customize-a-gallery-layout-in-powerapps"></a>Een galerie-indeling aanpassen in PowerApps
 Nadat u automatisch een app hebt gegenereerd in PowerApps, kunt u het bladerscherm aanpassen dat standaard wordt weergegeven. U kunt opgeven welke indeling moet worden gebruikt, welke kolommen moeten worden weergegeven en welke kolommen moeten worden gebruikt voor het sorteren en filteren van records.
 
 * Zie [Een app genereren voor het beheren van gegevens in een SharePoint-lijst](app-from-sharepoint.md) voor informatie over het automatisch genereren van een app.
-* Zie [Inleiding tot PowerApps](getting-started.md) als u onbekend bent met PowerApps.
+* Zie [Introduction to PowerApps](getting-started.md) (Inleiding tot PowerApps) als u onbekend bent met PowerApps.
 
 ## <a name="prerequisites"></a>Vereisten
 In deze zelfstudie kunt u alleen de algemene concepten doorlezen, of u kunt de zelfstudie precies volgen door de stappen te voltooien.
@@ -97,7 +97,8 @@ Zie [Een lijst met items weergeven in PowerApps](add-gallery.md) voor meer infor
     De formulebalk moet nu een formule bevatten die er ongeveer zo uitziet:<br>
     **SortByColumns(Filter(AppGen, StartsWith(Title, TextSearchBox1.Text)), "Title", If(SortDescending1, Descending, Ascending))**
    
-    **Opmerking**: het getal achter **TextSearchBox** kan hoger zijn, afhankelijk van acties die u eerder hebt uitgevoerd. Desondanks moet de formule werken zoals verwacht.
+    > [!NOTE]
+> Het getal achter **TextSearchBox** kan hoger zijn, afhankelijk van acties die u eerder hebt uitgevoerd. Desondanks moet de formule werken zoals verwacht.
 
 ## <a name="test-sorting-and-searching"></a>Sorteren en zoeken testen
 1. Open de Preview-modus door op F5 te drukken (of klik of tik op het afspeelpictogram rechtsboven).

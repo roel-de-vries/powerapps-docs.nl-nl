@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: c6da4216a4ce2c95f20db322a3ec529299410deb
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 4fd0b50796bc8c1ba9574d1c401042e3d10c863c
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="label-control-in-powerapps"></a>Besturingselement voor label in PowerApps
 Een vak waarin gegevens zoals tekst, getallen, datums of valuta worden weergegeven.
@@ -124,7 +124,8 @@ Een label bevat gegevens die u opgeeft als een letterlijke tekenreeks (deze gege
 * Voeg een label toe en stel de eigenschap **[Text](properties-core.md)** van de label in op een formule zoals deze:<br>
   **Today()**
   
-    **Opmerking:** Wanneer u een formule opgeeft, gebruikt u alleen aanhalingstekens als een argument van de formule bestaat uit een letterlijke tekenreeks. In dat geval zet u het argument, niet de formule, tussen dubbele aanhalingstekens.
+    > [!NOTE]
+> Wanneer u een formule opgeeft, gebruikt u alleen aanhalingstekens als een argument van de formule bestaat uit een letterlijke tekenreeks. In dat geval zet u het argument, niet de formule, tussen dubbele aanhalingstekens.
   
     Wilt u meer weten over de functie **[Today](../functions/function-now-today-istoday.md)** of [andere functies](../formula-reference.md)?
 

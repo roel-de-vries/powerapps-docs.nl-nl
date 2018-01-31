@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/27/2016
 ms.author: gregli
-ms.openlocfilehash: f9a4a274146373acd22fd4fdcebf9a83b252958c
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: d9664b490970f7eada757b83d6c9934753af3ad5
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-data-forms-in-microsoft-powerapps"></a>Gegevensformulieren begrijpen in Microsoft PowerApps
 Voer drie typen besturingselementen toe zodat de gebruiker naar een record kan bladeren, details over deze record kan weergeven, en een record kan bewerken of maken:
@@ -36,7 +36,7 @@ Zet elk besturingselement in een ander scherm zodat ze gemakkelijker te ondersch
 
 Zoals in dit onderwerp wordt beschreven, kunt u deze besturingselementen combineren met formules voor het maken van de algehele gebruikerservaring.
 
-**Vereisten**
+## <a name="prerequisites"></a>Vereisten
 
 * [Registreer u](signup-for-powerapps.md) voor PowerApps, [installeer](http://aka.ms/powerappsinstall) het, open het en meld u aan met dezelfde referenties die u hebt gebruikt om u te registreren.
 * Lees hoe u [een besturingselement kunt configureren](add-configure-controls.md) in PowerApps.
@@ -59,7 +59,8 @@ Het primaire besturingselement in het scherm **BrowseGallery1** beslaat het groo
 
 Stel de eigenschap **[Items](controls/properties-core.md)** van een galerie in voor weergave van records van een gegevensbron die erin zit. Stel bijvoorbeeld die eigenschap in op **Assets** om records uit een gegevensbron met die naam weer te geven.
 
-**Opmerking**: in een gegenereerde app is **[Items](controls/properties-core.md)** standaard ingesteld op een aanzienlijk gecompliceerdere formule zodat de gebruiker records kan sorteren en ernaar zoeken. Verderop in dit onderwerp leert u die formule te bouwen. De eenvoudigere versie is voorlopig voldoende.
+> [!NOTE]
+> In een gegenereerde app is **[Items](controls/properties-core.md)** standaard ingesteld op een aanzienlijk gecompliceerdere formule zodat de gebruiker records kan sorteren en ernaar zoeken. Verderop in dit onderwerp leert u die formule te bouwen. De eenvoudigere versie is voorlopig voldoende.
 
 In plaats van een record te zoeken om weer te geven of te bewerken, kan de gebruiker een record maken door het symbool '+' boven de galerie te selecteren. U kunt dit effect creëren door een besturingselement voor **[Afbeelding](controls/control-image.md)** toe te voegen, er een '+'-symbool in weer te geven, en de eigenschap **[OnSelect](controls/properties-core.md)** ervan op deze formule in te stellen:
 <br>**NewForm (EditForm1); Navigeren (EditScreen1, Geen)**
@@ -148,7 +149,8 @@ Door te begrijpen hoe PowerApps een app genereert, kunt u er zelf eentje bouwen 
 ## <a name="identify-test-data"></a>Testgegevens identificeren
 Begin met een gegevensbron die u kunt gebruiken om te experimenteren om het meeste uit dit onderwerp te halen. De gegevensbron moet testgegevens bevatten die u zonder consequenties kunt lezen en bijwerken.
 
-**Opmerking:** Als u een gegevensbron gebruikt die bestaat uit een SharePoint-lijst of een Excel-tabel met kolomnamen met spaties, worden de spaties in PowerApps vervangen door **'\_x0020\_'**. **'Kolom twaalf'** in SharePoint of Excel wordt bijvoorbeeld weergegeven als **'Kolom_x0020_twaalf'** in PowerApps wanneer de naam wordt weergegeven in de gegevensindeling of wordt gebruikt in een formule.
+> [!NOTE]
+> Als u een gegevensbron gebruikt die bestaat uit een SharePoint-lijst of een Excel-tabel met kolomnamen met spaties, worden de spaties in PowerApps vervangen door **‘\_x0020\_’**. **'Kolom twaalf'** in SharePoint of Excel wordt bijvoorbeeld weergegeven als **'Kolom_x0020_twaalf'** in PowerApps wanneer de naam wordt weergegeven in de gegevensindeling of wordt gebruikt in een formule.
 
 Om de rest van dit onderwerp exact te kunnen volgen, maakt u een SharePoint-lijst met de naam "Ice Cream" met deze gegevens:
 
@@ -156,7 +158,8 @@ Om de rest van dit onderwerp exact te kunnen volgen, maakt u een SharePoint-lijs
 
 * Maak een volledig nieuwe app, voor telefoons, en [verbind deze met uw gegevensbron](add-data-connection.md).
   
-    **Opmerking:** tablet-apps zijn vergelijkbaar, maar u wilt wellicht een andere [indeling van het startscherm](#screen-design) om de extra ruimte te benutten.
+    > [!NOTE]
+> Tablet-apps zijn vergelijkbaar, maar u wilt wellicht een andere [indeling van het startscherm](#screen-design) om de extra ruimte te benutten.
   
     De voorbeelden in de rest van het onderwerp zijn gebaseerd op een gegevensbron met de naam **Ice Cream**.
 
@@ -201,7 +204,7 @@ U kunt in het rechterdeelvenster de velden selecteren die u op uw scherm wilt we
 
 Ten slotte moet we het besturingselement **[Formulier weergeven](controls/control-form-detail.md)** verbinden met het besturingselement **[Galerie](controls/control-gallery.md)** zodat we details voor een bepaalde record kunnen bekijken.  Als we klaar zijn met het instellen van de eigenschap **[Item](controls/control-form-detail.md)** wordt de eerste record uit de galerie weergegeven in het formulier.
 
-1. Stel de eigenschap **[Item](controls/control-form-detail.md)** van het besturingselement **[Formulier weergeven](controls/control-form-detail.md)** in op **Gallery1.Selected**.
+* Stel de eigenschap **[Item](controls/control-form-detail.md)** van het besturingselement **[Formulier weergeven](controls/control-form-detail.md)** in op **Gallery1.Selected**.
    
     De details voor het geselecteerde item worden in het formulier weergegeven.
    
@@ -209,20 +212,23 @@ Ten slotte moet we het besturingselement **[Formulier weergeven](controls/contro
 
 Geweldig!  We gaan nu naar navigatie: hoe een gebruiker het detailscherm vanaf het galeriescherm opent en andersom.
 
-1. Voeg een **[knop](controls/control-button.md)**besturingselement toe aan het scherm, stel de eigenschap **[Tekst](controls/properties-core.md)** in op de weergave van **[Terug](functions/function-navigate.md)** en stel de bijbehorende eigenschap **[OnSelect](controls/properties-core.md)** in op **Terug()**.
+* Voeg een **[knop](controls/control-button.md)**besturingselement toe aan het scherm, stel de eigenschap **[Tekst](controls/properties-core.md)** in op de weergave van **[Terug](functions/function-navigate.md)** en stel de bijbehorende eigenschap **[OnSelect](controls/properties-core.md)** in op **Terug()**.
    
     Met deze formule gaat de gebruiker terug naar de galerie wanneer hij de details heeft bekeken.
 
-![Formulier weergeven voor gegevensbron Ice Cream met knop Terug](./media/working-with-forms/viewform-icecream-back.png)
+    ![Formulier weergeven voor gegevensbron Ice Cream met knop Terug](./media/working-with-forms/viewform-icecream-back.png)
 
 Nu gaan we terug naar het besturingselement **[Galerie](controls/control-gallery.md)** en voegen navigatie toe aan ons detailscherm.
 
 1. Schakel naar het eerste scherm, dat als host fungeert voor ons besturingselement **[Galerie](controls/control-gallery.md)** en selecteer de pijl in het eerste item in de galerie.
+
 2. Stel de eigenschap **[OnSelect](controls/properties-core.md)** van de vorm in op deze formule:
    <br>**Navigeren (Screen2, Geen)**
    
     ![Formulier weergeven voor gegevensbron Ice Cream met knop Terug](./media/working-with-forms/gallery-icecream-nav-new.png)
+
 3. Druk op F5 en selecteer vervolgens een pijl in de galerie om de details van het item weer te geven.
+
 4. Selecteer de knop **[Terug](functions/function-navigate.md)** om terug te keren naar de galerie met producten en druk op Esc.
 
 ## <a name="editing-details"></a>Details bewerken
@@ -302,12 +308,11 @@ In deze app treedt een fout op wanneer de waarde van een veld niet geldig is, ee
 
 Als **[SubmitForm](functions/function-form.md)** om een bepaalde reden mislukt, bevat de eigenschap **Fout** van het besturingselement **[Formulier bewerken](controls/control-form-detail.md)** een foutbericht dat aan de gebruiker wordt getoond. Met deze informatie moet de gebruiker het probleem kunnen oplossen en de wijziging opnieuw verzenden. De gebruiker kan ook de update annuleren.
 
-1. Voeg op het scherm Bewerken en maken een besturingselement **[Label](controls/control-text-box.md)** toe en verplaatst dit naar vlak onder de knop **Opslaan**.
-   
-    Eventuele foutmeldingen zijn duidelijk zichtbaar nadat de gebruiker dit besturingselement selecteert voor het opslaan van wijzigingen.
+1. Voeg op het scherm Bewerken en maken een besturingselement **[Label](controls/control-text-box.md)** toe en verplaatst dit naar vlak onder de knop **Opslaan**. Eventuele foutmeldingen zijn duidelijk zichtbaar nadat de gebruiker dit besturingselement selecteert voor het opslaan van wijzigingen.
+
 2. Stel de eigenschap **[Text](controls/properties-core.md)** van het besturingselement **[Label](controls/control-text-box.md)** in voor weergave van **Form1.Error**.
 
-![Formulier weergeven met toegevoegde knop 'Bewerken'](./media/working-with-forms/edit-icecream-error.png)
+    ![Formulier weergeven met toegevoegde knop 'Bewerken'](./media/working-with-forms/edit-icecream-error.png)
 
 In een app die PowerApps genereert op basis van gegevens, wordt de eigenschap **[AutoHeight](controls/control-text-box.md)** voor dit besturingselement ingesteld op *true* zodat er geen ruimte wordt gebruikt als er geen fout optreedt. De eigenschappen **[Hoogte](controls/properties-size-location.md)** en **[Y](controls/properties-size-location.md)** van het besturingselement **[Formulier bewerken](controls/control-form-detail.md)** worden ook dynamisch aangepast zodat dit besturingselement kan groeien wanneer er een fout optreedt. Genereer voor meer informatie een app uit de bestaande gegevens en inspecteer deze eigenschappen. Het tekstvakbesturingselement voor fouten is zeer kort wanneer er geen fout is opgetreden. U moet mogelijk de weergave **Geavanceerd** openen (beschikbaar op het tabblad **Weergave**) om dit besturingselement te selecteren.
 
@@ -319,9 +324,10 @@ In een app die PowerApps genereert op basis van gegevens, wordt de eigenschap **
 De gegevensbron wordt vernieuwd wanneer de gebruiker de app opent, maar de gebruiker wil mogelijk de records in de galerie vernieuwen zonder de app te sluiten. Voeg een knop **Vernieuwen** toe waarmee de gebruiker de gegevens handmatig kan vernieuwen:
 
 1. Voeg op het scherm met het besturingselement **[Galerie](controls/control-gallery.md)** een **[Knop](controls/control-button.md)**-besturingselement toe en stel de eigenschap **[Tekst](controls/properties-core.md)** in zodat **Vernieuwen** wordt weergegeven.
+
 2. Stel de eigenschap **[OnSelect](controls/properties-core.md)** van dit besturingselement in op deze formule:<br> **Vernieuwen ('Ice Cream')**
 
-![De gegevensbron vernieuwen](./media/working-with-forms/browse-icecream-refresh.png)
+    ![De gegevensbron vernieuwen](./media/working-with-forms/browse-icecream-refresh.png)
 
 ## <a name="search-and-sort-the-gallery"></a>De galerie sorteren en doorzoeken
 In de app die PowerApps heeft gegenereerd op basis van gegevens, zijn we vergeten twee besturingselementen te bespreken die boven aan het scherm Bladeren staan. Met deze besturingselementen kan de gebruiker een of meer records zoeken, de lijst met records sorteren in oplopende of aflopende volgorde of allebei.

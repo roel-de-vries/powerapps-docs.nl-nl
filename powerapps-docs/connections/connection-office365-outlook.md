@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/25/2017
+ms.date: 10/20/2017
 ms.author: archanan
-ms.openlocfilehash: 45b43f8d1518c09ffcd584f055391e442899dfa3
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 637cccf5a5a88d012657172a9e312e232915a615
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-to-office-365-outlook-from-powerapps"></a>Verbinding maken met Office 365 Outlook vanuit PowerApps
 ![Office 365 Outlook](./media/connection-office365-outlook/office365icon.png)
@@ -30,11 +30,10 @@ U kunt besturingselementen toevoegen om deze functies in uw app uit te voeren. U
 
 In dit onderwerp wordt beschreven hoe u Office 365 Outlook als verbinding kunt toevoegen, Office 365 Outlook als gegevensbron aan uw app kunt toevoegen en deze gegevens in verschillende besturingselementen kunt gebruiken.
 
-**Belangrijk**: ten tijde van dit schrijven ondersteunt de agendabewerking geen terugkerende gebeurtenissen.
+> [!IMPORTANT]
+> Ten tijde van dit schrijven ondersteunt de agendabewerking geen terugkerende gebeurtenissen.
 
-&nbsp;
-
-[!INCLUDE [connection-requirements](../../includes/connection-requirements.md)]
+[!INCLUDE [connection-requirements](../includes/connection-requirements.md)]
 
 ## <a name="connect-to-office-365-outlook"></a>Verbinding maken met Office 365 Outlook
 1. [Voeg een gegevensverbinding toe](../add-data-connection.md) en selecteer **Office 365 Outlook**:  
@@ -66,7 +65,7 @@ De verbinding met Office 365 Outlook is gemaakt en aan uw app toegevoegd. U kunt
 1. Selecteer **Text** in het menu **Insert** en selecteer vervolgens **Text input**.
 2. Herhaal de vorige stap nog twee keer zodat u drie vakken hebt, en rangschik ze vervolgens in een kolom:  
    
-    ![](./media/connection-office365-outlook/threetextinput.png)
+    ![Drie vakken in een kolom](./media/connection-office365-outlook/threetextinput.png)
 3. Wijzig de naam van de besturingselementen in:  
    
    * **inputTo**
@@ -76,7 +75,7 @@ De verbinding met Office 365 Outlook is gemaakt en aan uw app toegevoegd. U kunt
    
     `Office365.SendEmail(inputTo.Text, inputSubject.Text, inputBody.Text)`
 5. Verplaats de knop, zodat deze onder de overige besturingselementen wordt weergegeven en stel de eigenschap **[Tekst](../controls/properties-core.md)** in op **E-mail verzenden**.
-6. Druk op F5 of selecteer de knop Voorbeeld (![](./media/connection-office365-outlook/preview.png)). Typ een geldig e-mailadres in **inputTo** en typ de door u gewenste tekst in de andere twee besturingselementen voor **Tekstinvoer**.
+6. Druk op F5 of selecteer de knop Voorbeeld (![Knop Voorbeeld](./media/connection-office365-outlook/preview.png)). Typ een geldig e-mailadres in **inputTo** en typ de door u gewenste tekst in de andere twee besturingselementen voor **Tekstinvoer**.
 7. Selecteer **E-mail verzenden** om de e-mail te verzenden. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
 ## <a name="send-a-message-with-an-attachment"></a>Een bericht met een bijlage verzenden
@@ -88,7 +87,8 @@ Volg de stappen in de vorige sectie om een bijlage toe te voegen aan een bericht
 * ContentBytes
 * @odata.type
 
-**Opmerking**: u kunt de eigenschap @odata.type voor slechts één bijlage opgeven en instellen op een lege tekenreeks.
+> [!NOTE]
+> U kunt de eigenschap @odata.type voor slechts één bijlage opgeven en instellen op een lege tekenreeks.
 
 In dit voorbeeld wordt een foto verzonden als **file1.jpg**:
 
@@ -108,20 +108,23 @@ In dit voorbeeld wordt naast de foto ook een audiobestand verzonden:
 3. Stel in de galerie de eigenschap **Text** van het eerste label in op `ThisItem.Id`. Stel het tweede label in op `ThisItem.Subject`. Stel het derde label in op `ThisItem.Body`.
 4. Selecteer het eerste label in de galerie en wijzig de naam ervan in **EmailID**:
    
-    ![Het deelvenster Opties sluiten](./media/connection-office365-outlook/renameheading.png)
+    ![Naam eerste label wijzigen](./media/connection-office365-outlook/renameheading.png)
 5. Selecteer het derde label in de galerie en voeg een **knop** toe (menu **Invoegen**). Stel de eigenschap **OnSelect** van de knop in op de volgende formule:  
    
     `Office365.DeleteEmail(EmailID.Text)`
-6. Druk op F5 of selecteer de knop Voorbeeld (![](./media/connection-office365-outlook/preview.png)). Selecteer een van de e-mails in de galerie en klik op de knop. <br/><br/> **OPMERKING**: hiermee wordt de geselecteerde e-mail uit uw Postvak IN verwijderd. Let dus goed op wat u selecteert.
+6. Druk op F5 of selecteer de knop Voorbeeld (![Knop Voorbeeld](./media/connection-office365-outlook/preview.png)). Selecteer een van de e-mails in de galerie en klik op de knop. 
+    
+    > [!NOTE]
+    > Hiermee wordt de geselecteerde e-mail uit uw Postvak IN verwijderd. Let dus goed op wat u selecteert.
 7. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
 ## <a name="mark-a-message-as-read"></a>Een bericht markeren als gelezen
-In deze sectie wordt gebruikgemaakt van dezelfde besturingselementen als in [E-mail verwijderen](connection-office365-outlook.md#delete-email).
+In deze sectie wordt gebruikgemaakt van dezelfde besturingselementen als in [Bericht verwijderen](connection-office365-outlook.md#delete-a-message).
 
 1. Stel de eigenschap **OnSelect** van de knop in op de volgende formule:  
    
     `Office365.MarkAsRead(EmailID.Text)`
-2. Druk op F5 of selecteer de knop Voorbeeld (![](./media/connection-office365-outlook/preview.png)). Selecteer een van de ongelezen e-mails en klik op de knop.
+2. Druk op F5 of selecteer de knop Voorbeeld (![Knop Voorbeeld](./media/connection-office365-outlook/preview.png)). Selecteer een van de ongelezen e-mails en klik op de knop.
 3. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
 ## <a name="helpful-links"></a>Nuttige koppelingen

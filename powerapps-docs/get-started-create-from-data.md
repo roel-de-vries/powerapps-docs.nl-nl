@@ -14,12 +14,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
-ms.author: karthikb
-ms.openlocfilehash: e6ad4896beb28b5b38b22706838fec5f6a6840ec
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.author: sharik
+ms.openlocfilehash: cf90156292985e58e2d68d2828d7c943b45facdf
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="generate-an-app-from-excel-data"></a>Een app genereren van Excel-gegevens
 Maak automatisch een app op basis van gegevens in een Excel-bestand dat u uploadt naar een opslagaccount in de cloud, zoals OneDrive. Nadat u de app hebt gegenereerd, past u deze aan uw behoeften aan en voert u de app uit om te zien of deze naar behoren werkt.
@@ -30,7 +30,8 @@ Gegenereerde apps hebben standaard drie schermen:
 * **DetailsScreen1**: dit geeft meer velden of alle velden voor een bepaalde record weer.
 * **EditScreen1**: dit bevat UI-elementen waarmee gebruikers een record kunnen maken of bijwerken en hun wijzigingen kunnen opslaan.
 
-**Opmerking**: u kunt net zo makkelijk een app genereren op basis van een [aangepaste SharePoint-lijst](app-from-sharepoint.md).
+> [!NOTE]
+> U kunt net zo makkelijk een app genereren op basis van een [aangepaste SharePoint-lijst](app-from-sharepoint.md).
 
 ## <a name="prerequisites"></a>Vereisten
 * [Meld u aan](signup-for-powerapps.md) voor PowerApps en voer een van de volgende stappen uit:
@@ -39,13 +40,14 @@ Gegenereerde apps hebben standaard drie schermen:
 * Meld u aan bij PowerApps met dezelfde referenties die u hebt gebruikt om u te registreren.
 * Als u deze zelfstudie exact wilt volgen, kunt u dit [Excel-bestand](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) downloaden.
   
-    **Belangrijk**: u kunt uw eigen Excel-bestand gebruiken als de gegevens als een tabel zijn opgemaakt. Zie [Een Excel-tabel maken in een werkblad](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664) voor meer informatie.
+    > [!IMPORTANT]
+> U kunt uw eigen Excel-bestand gebruiken als de gegevens als een tabel zijn opgemaakt. Zie [Een Excel-tabel maken in een werkblad](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664) voor meer informatie.
 * Upload het Excel-bestand naar OneDrive of een ander [cloudopslagaccount](connections/cloud-storage-blob-connections.md).
 
 ## <a name="create-an-app"></a>Een app maken
 1. Klik of tik in PowerApps Studio op **Nieuw** in het menu **Bestand** (aan de linkerkant).
    
-    ![Optie New in het menu File](./media/get-started-create-from-data/file-new.png)
+    ![Optie Nieuw in het menu Bestand](./media/get-started-create-from-data/file-new.png)
 2. Volg deze stappen:
    
    * Als uw cloudopslagaccount wordt weergegeven onder **Beginnen met uw gegevens**, klikt of tikt u op **Telefoonindeling**.
@@ -66,7 +68,8 @@ Gegenereerde apps hebben standaard drie schermen:
    
     ![Kies Volgende voor de rondleiding](./media/get-started-create-from-data/quick-tour.png)
    
-    **Opmerking**: u kunt de rondleiding altijd later nog volgen door eerst op het vraagtekenpictogram in de rechterbovenhoek en vervolgens op **Take the intro tour** te klikken of tikken.
+    > [!NOTE]
+> U kunt de rondleiding altijd later volgen door op het vraagtekenpictogram in de rechterbovenhoek te klikken of tikken en vervolgens op **Take the intro tour**.
 
 ## <a name="change-the-gallery-layout"></a>De galerie-indeling wijzigen
 Als een app wordt gemaakt, heeft deze een standaardindeling die is gebaseerd op uw gegevens, maar u kunt de galerie-indeling naar wens aanpassen.
@@ -103,7 +106,8 @@ Als een app wordt gemaakt, heeft deze een standaardindeling die is gebaseerd op 
    
     ![BrowseScreen1 met nieuwe inhoud](./media/get-started-create-from-data/browse-content.png)
    
-    **Opmerking**: standaard is ingesteld dat u door de lijst (een galerie genoemd) kunt schuiven met een muiswiel of, op een touchscreen, omhoog of omlaag te swipen. Als u een trackpad of een muis zonder schuifwieltje wilt gebruiken, selecteert u de galerie, klikt of tikt u op **ShowScrollbar** in de lijst met eigenschappen en vervangt u **onwaar** door **waar** in de formulebalk.
+    > [!NOTE]
+> Standaard is ingesteld dat u door de lijst (een galerie genoemd) kunt schuiven met een muiswiel of, op een touchscreen, omhoog of omlaag te swipen. Als u een trackpad of een muis zonder schuifwieltje wilt gebruiken, selecteert u de galerie, klikt of tikt u op **ShowScrollbar** in de lijst met eigenschappen en vervangt u **onwaar** door **waar** in de formulebalk.
 
 ## <a name="change-the-order-of-fields-in-a-form"></a>De volgorde van velden op een formulier wijzigen
 1. Klik of tik in de linkernavigatiebalk op de middelste miniatuur om het detailvenster (**DetailsScreen1**) te openen.
@@ -155,7 +159,7 @@ Tijdens het aanpassen van de app kunt u uw wijzigingen testen door de app uit te
    
     ![Preview-modus sluiten](./media/get-started-create-from-data/close-preview.png)
 
-## <a name="known-limitations"></a>Bekende beperkingen
+### <a name="known-limitations"></a>Bekende beperkingen
 [Lees deze beperkingen door](connections/cloud-storage-blob-connections.md#sharing-excel-tables) voor informatie over het delen van Excel-gegevens binnen uw organisatie.
 
 ## <a name="next-steps"></a>Volgende stappen

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/14/2016
 ms.author: litran
-ms.openlocfilehash: e7252415f6f5839a7531f1264615dc5ed39dca10
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ea9bd30ea9007800511e0f194c6f9f460773305e
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="working-with-environments-and-microsoft-powerapps"></a>Werken met omgevingen en Microsoft PowerApps
 U kunt met PowerApps in verschillende omgevingen werken en eenvoudig schakelen tussen omgevingen. Zie [Overzicht van omgevingen](environments-overview.md) voor een overzicht van omgevingen. Daarin wordt in detail uitgelegd waarom u omgevingen gebruikt en hoe u omgevingen kunt maken en beheren. In dit artikel komen de volgende onderwerpen over omgevingen aan bod:
@@ -43,20 +43,26 @@ Als u overschakelt naar een andere omgeving (zoals Omgeving 1), ziet u alle apps
 U kunt apps maken in bestaande omgevingen waartoe u toegang hebt of in een nieuwe omgeving. Het maken van uw eigen omgeving vereist echter een bepaald plan. Zie [dit onderwerp](pricing-billing-skus.md) voor meer informatie. Voordat u een app maakt, moet u altijd **de gewenste omgeving voor de app selecteren**. Anders moet u de app later weer overzetten naar een andere omgeving.
 
 1. Meld u aan bij [powerapps.com](http://web.powerapps.com) en selecteer de omgeving waarin u de app wilt maken. Als u *PowerApps Studio* of *de webversie van PowerApps Studio* gebruikt, gaat u naar stap 4.
-2. Selecteer **+ Nieuwe app**
-3. Selecteer **PowerApps Studio openen** of **de webversie van PowerApps Studio** 
+
+2. Selecteer **+ Nieuwe app**.
+
+3. Selecteer **PowerApps Studio openen** of **de webversie van PowerApps Studio** .
+
 4. Als *PowerApps Studio* of de webversie van *PowerApps Studio* is geopend, selecteert u de omgeving opnieuw in de rechterbovenhoek. Deze ervaring wordt in de toekomst verbeterd, maar in de huidige versie moet u dit telkens selecteren als u een app in een nieuwe omgeving wilt maken.
-   
-   ![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/studio-switch-env.PNG)
+
+    ![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/studio-switch-env.PNG)
+
 5. Op de pagina **Account** selecteert u **Wijzigen** naast de naam van de huidige omgeving.
-   
-   ![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/studio-env-dropdown.PNG)
+
+    ![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/studio-env-dropdown.PNG)
+
 6. Selecteer de omgeving waarin u de app wilt maken.
-   
-   ![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/studio-env-dropdown2.PNG)
+
+    ![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/studio-env-dropdown2.PNG)
+
 7. Selecteer **Nieuw** om te beginnen met het maken van een app. Uw app bevindt zich nu in de omgeving die u hebt geselecteerd in stap 6.
-   
-   ![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/new-app.PNG)
+
+    ![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/new-app.PNG)
 
 ## <a name="view-apps-in-the-right-environment"></a>Apps weergeven in de juiste omgeving
 Of u nu werkt in [powerapps.com](http://web.powerapps.com), PowerApps Studio voor Windows of de webversie van PowerApps Studio, de lijst met apps, verbindingen, enzovoort die u ziet, wordt altijd gefilterd op basis van de omgeving die in de vervolgkeuzelijst is geselecteerd. Controleer altijd of de juiste omgeving is geselecteerd als u de gewenste app(s) niet ziet.
@@ -67,7 +73,6 @@ Nogmaals, ga als volgt te werk als u wilt overschakelen naar een andere omgeving
 
 Ga als volgt te werk als u wilt overschakelen naar een andere omgeving in PowerApps Studio voor Windows of de webversie van PowerApps Studio:
 
-  ![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/studio-switch-env.PNG)
+![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/studio-switch-env.PNG)
 
 Zie [dit overzicht](environments-overview.md) voor meer informatie over omgevingen.
-

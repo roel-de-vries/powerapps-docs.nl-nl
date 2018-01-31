@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/20/2017
 ms.author: ankitsar
-ms.openlocfilehash: 64c14c7e3a6ab599aa14d2200679134cc3fcc7d2
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 19d6a2718a39e3426fc0fcb4aca3223825f29a07
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="add-and-open-an-app-in-microsoft-teams"></a>Een app toevoegen en openen in Microsoft Teams
 U kunt een app toevoegen aan een Microsoft-Teams-kanaal, zodat iedereen met wie de app is gedeeld de app via dat kanaal kan openen. U kunt elke app toevoegen die u zelf hebt gemaakt of waarvoor u de machtiging **Kan gebruiken** of **Kan bewerken** hebt. U kunt de app vanuit een browser of de bureaublad-app voor Microsoft-Teams toevoegen en openen.
@@ -37,7 +37,8 @@ U kunt een app toevoegen aan een Microsoft-Teams-kanaal, zodat iedereen met wie 
     ![](./media/open-app-embedded-in-teams/add-a-tab.png)
 5. Klik of tik op de app die u wilt toevoegen.
    
-    **Opmerking**: u kunt op naam, auteur of omgeving zoeken naar een app.
+    > [!NOTE]
+> U kunt op naam, auteur of omgeving zoeken naar een app.
    
     ![](./media/open-app-embedded-in-teams/select-an-app.png)
 6. Klik of tik op de knop **Opslaan**.

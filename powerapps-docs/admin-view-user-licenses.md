@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/02/2017
 ms.author: manasma
-ms.openlocfilehash: ba60c227b287532f6abe2e2b2e88f6cbe7dd0cd3
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: bc3d1c94deec6cf5e7c0ba5b73e65cab67d3ee25
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="identify-powerapps-users-in-your-organization"></a>Gebruikers van PowerApps in uw organisatie identificeren
 Als u een globale beheerder voor Office 365 of een tenantbeheerder voor Azure Active Directory bent, kunt u een lijst downloaden van gebruikers in uw organisatie die niet alleen een licentie hebben om PowerApps en/of Microsoft Flow te gebruiken, maar ook daadwerkelijk een van deze producten hebben gebruikt. De lijst bevat de naam, het e-mailadres, het type licentie en andere gegevens van elke gebruiker. Een gebruiker kan bijvoorbeeld het volgende hebben:
@@ -29,10 +29,11 @@ Als u een globale beheerder voor Office 365 of een tenantbeheerder voor Azure Ac
 * toegang tot beide producten via een Dynamics 365-licentie
 * toegang via PowerApps- en Microsoft Flow-abonnementen
 
-## <a name="download-the-list-of-users"></a>De lijst met gebruikers downloaden
+### <a name="download-the-list-of-users"></a>De lijst met gebruikers downloaden
 1. Klik of tik in het beheercentrum van PowerApps op **Gebruikerslicenties** aan de linkerkant.
    
-    **Belangrijk**: deze optie is alleen beschikbaar voor globale beheerders van Office 365 en tenantbeheerders van Azure Active Directory.
+    > [!IMPORTANT]
+> Deze optie is alleen beschikbaar voor globale beheerders van Office 365 en tenantbeheerders van Azure Active Directory.
    
     ![Bestand en Delen](./media/admin-view-user-licenses/leftnav.png)
 2. Klik of tik op **Een lijst met actieve gebruikerslicenties downloaden**.
@@ -41,7 +42,8 @@ Als u een globale beheerder voor Office 365 of een tenantbeheerder voor Azure Ac
    
     Het downloaden van het bestand kan een paar minuten duren. Wacht enkele minuten totdat het CSV-bestand is gedownload en open dit vervolgens in Excel.
    
-    **Opmerking**: als u het venster sluit voordat het downloaden van het bestand is voltooid, moet u het proces wellicht opnieuw opstarten.
+    > [!NOTE]
+> Als u het venster sluit voordat het downloaden van het bestand is voltooid, moet u het proces wellicht opnieuw opstarten.
 
 In dit voorbeeld ziet u twee gebruikers die op verschillende manieren licenties hebben verkregen voor zowel PowerApps als Microsoft Flow. Maria Beukema heeft toegang via een abonnement op Office 365 en Arnoud Wolthuis heeft voor elk product een proeflicentie gekregen.
 

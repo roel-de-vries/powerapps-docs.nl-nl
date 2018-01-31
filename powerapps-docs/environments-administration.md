@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/11/2017
 ms.author: jamesol
-ms.openlocfilehash: 1eeb79d0c109181ae75b86a78cecdb4babe058ab
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: f26c97681a4af40e042d1c943e108a424861f810
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="environments-administration-in-powerapps"></a>Omgevingen beheren in PowerApps
 In het [PowerApps-beheercentrum][1] kunt u omgevingen beheren die u hebt gemaakt en waarvoor u bent toegevoegd aan de rol Omgevingsbeheerder. Vanuit het beheercentrum kunt u de volgende beheeracties uitvoeren:
@@ -35,19 +35,22 @@ In het [PowerApps-beheercentrum][1] kunt u omgevingen beheren die u hebt gemaakt
 ## <a name="access-the-powerapps-admin-center"></a>Toegang tot het PowerApps-beheercentrum
 U opent als volgt het PowerApps-beheercentrum:
 
-* Ga rechtstreeks naar [admin.powerapps.com][1] of
+* Ga rechtstreeks naar [admin.powerapps.com][1] OF
+
 * Ga naar [powerapps.com][2] en selecteer het tandwielpictogram in de navigatiebalk.
   
     ![](./media/environment-admin/powerapps-gear-dropdown.png)
 
 Voor het beheren van een omgeving in het PowerApps-beheercentrum, moet u een van deze rollen hebben:
 
-* De rol Omgevingsbeheerder voor de omgeving of
+* De rol Omgevingsbeheerder voor de omgeving OF
+
 * De rol Algemeen beheerder voor uw Azure AD- of Office 365-tenant.
 
 U hebt ook PowerApps-abonnement 2 of Flow-abonnement 2 nodig voor toegang tot het beheercentrum. Zie voor meer informatie de [PowerApps-pagina met prijzen][3].
 
-**Belangrijk**: alle wijzigingen die u in het PowerApps-beheercentrum aanbrengt, hebben invloed op het [Flow-beheercentrum][4] en vice versa.
+> [!IMPORTANT]
+> Alle wijzigingen die u in het PowerApps-beheercentrum aanbrengt, hebben invloed op het [Flow-beheercentrum][4] en vice versa.
 
 ## <a name="create-an-environment"></a>Een omgeving maken
 Klik eerst op **+ Nieuwe omgeving** om een dialoogvenster te openen en een omgeving te maken.
@@ -120,18 +123,20 @@ Als een omgeving nog geen database heeft, kan een omgevingsbeheerder er een make
 Nadat u een database hebt gemaakt, kiest u een beveiligingsmodel. Zie [Configure database security (Databasebeveiliging configureren)](database-security.md) voor meer informatie.
 
 ## <a name="manage-security-for-your-environments"></a>Beveiliging van uw omgevingen beheren
+
 ### <a name="environment-permissions"></a>Omgevingsmachtigingen
 Alle gebruikers in de Azure AD-tenant van een omgeving zijn ook gebruikers van deze omgeving. Maar als ze meer bevoegdheden willen, moet hun een specifieke omgevingsrol worden toegewezen. Omgevingen hebben twee ingebouwde rollen die toegang bieden tot machtigingen in een omgeving:
 
 * Personen met de rol **Omgevingsbeheerder** kunnen in een omgeving alle beheerderstaken uitvoeren, met inbegrip van:
   
-  o    Een gebruiker of groep toevoegen aan of verwijderen uit de rol Omgevingsbeheerder of Omgevingsmaker
+    * Een gebruiker of groep toevoegen aan of verwijderen uit de rol Environment Admin of Environment Maker.
   
-  o    Een Common Data Service-database voor de omgeving inrichten
+    * Een Common Data Service-database voor de omgeving inrichten.
   
-  o    Alle resources die in een omgeving zijn gemaakt, weergeven en beheren
+    * Alle resources die in een omgeving zijn gemaakt, weergeven en beheren.
   
-  o    Beleid instellen ter preventie van gegevensverlies. Zie [Data loss prevention policies (Beleid ter preventie van gegevensverlies)](prevent-data-loss.md) voor meer informatie.
+    * Beleid instellen ter preventie van gegevensverlies. Zie [Data loss prevention policies (Beleid ter preventie van gegevensverlies)](prevent-data-loss.md) voor meer informatie.
+
 * Personen met de rol **Environment Maker** kunnen in een omgeving resources maken, met inbegrip van apps, verbindingen, aangepaste connectors, gateways en stromen met behulp van Microsoft Flow. Omgevingsmakers kunnen ook de apps die ze in een omgeving hebben gemaakt, distribueren naar andere gebruikers in uw organisatie. Ze kunnen de app delen met individuele gebruikers, beveiligingsgroepen of alle gebruikers in de organisatie. Zie [Een app delen in PowerApps](share-app.md) voor meer informatie.
 
 Een omgevingsbeheerder kan als volgt via het [PowerApps-beheercentrum][1] een omgevingsrol toewijzen aan een gebruiker of beveiligingsgroep:

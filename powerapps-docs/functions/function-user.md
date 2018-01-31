@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/07/2016
 ms.author: gregli
-ms.openlocfilehash: 6fee690b849a305d1dd97361cd76b74889f258d9
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 2a2adaf10a9d78bb2a899e68d5c33948aae88d1b
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="user-function-in-powerapps"></a>De functie Gebruiker in PowerApps
 Retourneert informatie over de huidige gebruiker.
@@ -33,7 +33,8 @@ De functie **Gebruiker** retourneert een [record](../working-with-tables.md#reco
 | **Gebruiker().VolledigeNaam** |Volledige naam van de huidige gebruiker, met voor- en achternaam. |
 | **Gebruiker().Afbeelding** |Afbeelding van de huidige gebruiker. Dit is een afbeeldings-URL in de vorm "blob:*id*". Stel de eigenschap **[Afbeelding](../controls/properties-visual.md)** van het besturingselement **[Afbeelding](../controls/control-image.md)** in op deze waarde om de afbeelding in de app weer te geven. |
 
-**Opmerking:** de informatie die wordt geretourneerd, is de informatie over de huidige PowerApps-gebruiker.  Dit komt overeen met de 'Account'-informatie die wordt weergegeven in de PowerApps-spelers en -studio, die buiten alle opgestelde apps kan worden gevonden.  Mogelijk komt dit niet overeen met de informatie van de huidige gebruiker in Office 365 of andere services.
+> [!NOTE]
+> De informatie die wordt geretourneerd, is de informatie over de huidige PowerApps-gebruiker.  Dit komt overeen met de 'Account'-informatie die wordt weergegeven in de PowerApps-spelers en -studio, die buiten alle opgestelde apps kan worden gevonden.  Mogelijk komt dit niet overeen met de informatie van de huidige gebruiker in Office 365 of andere services.
 
 ## <a name="syntax"></a>Syntaxis
 **Gebruiker**()

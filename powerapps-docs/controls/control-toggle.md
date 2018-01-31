@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 978ea17732a2c91b8ef48b996c637194cd7540e8
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: dac1f8ea99746f04d2d3305e279a4bc5faf67903
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="toggle-control-in-powerapps"></a>Besturingselement voor wisselknop in PowerApps
 Een besturingselement dat de gebruiker in- of uit kan schakelen door het verplaatsen van een greep.
@@ -45,6 +45,12 @@ Een wisselknop is een besturingselement dat is ontworpen voor recente gebruikers
 
 **[DisabledBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement als de eigenschap **[DisplayMode](properties-core.md)** is ingesteld op **Uitgeschakeld**.
 
+**FalseFill**: de opvulkleur bij wisselen wanneer de wisselknop is uitgeschakeld.
+
+**FalseHoverFill**: de opvulkleur van de muisaanwijzer bij wisselen wanneer de wisselknop is uitgeschakeld.
+
+**FalseTekst**: de tekst die wordt weergegeven wanneer de wisselknop is uitgeschakeld.
+
 **[Fill](properties-color-border.md)**: de achtergrondkleur van een besturingselement.
 
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
@@ -67,9 +73,19 @@ Een wisselknop is een besturingselement dat is ontworpen voor recente gebruikers
 
 **[Reset](properties-core.md)**: of een besturingselement wordt teruggezet op de standaardwaarde.
 
+**ShowLabel**: geeft aan of een tekstlabel moet worden weergegeven naast het besturingselement van de wisselknop.
+
 **[TabIndex](properties-accessibility.md)**: past de tabvolgorde van besturingselementen tijdens runtime aan wanneer hier een andere waarde dan nul is ingesteld.
 
+**TextPosition**: geeft aan of het label links of rechts moet worden weergegeven naast het besturingselement van de wisselknop.
+
 **[Tooltip](properties-core.md)**: beschrijvende tekst die wordt weergegeven wanneer de gebruiker een besturingselement aanwijst.
+
+**TrueFill**: de opvulkleur bij wisselen wanneer de wisselknop is ingeschakeld.
+
+**TrueHoverFill**: de opvulkleur van de muisaanwijzer bij wisselen wanneer de wisselknop is ingeschakeld.
+
+**TrueTekst**: de tekst die wordt weergegeven wanneer de wisselknop is ingeschakeld.
 
 **ValueFill**: de achtergrondkleur van de rechthoek in een wisselknop als de waarde daarvan **true** is, of de kleur van de lijn, links van de schuifknop van een schuifregelaar.
 
@@ -88,14 +104,13 @@ Een wisselknop is een besturingselement dat is ontworpen voor recente gebruikers
 
 ## <a name="example"></a>Voorbeeld
 1. Voeg een wisselknop toe en geef deze de naam **Ledenkorting**.
-   
+
     Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
 2. Voeg een label toe en stel de eigenschap **[Text](properties-core.md)** in op deze formule:
    <br>**If(Ledenkorting.Value = true, "Prijs: € 75", "Prijs: € 100")**
-   
+
     Wilt u meer informatie over de functie **[If](../functions/function-if.md)** of [andere functies](../formula-reference.md)?
 3. Druk op F5 en wijzig de waarde van **Ledenkorting**.
-   
+
     In het label ziet u een andere prijs, afhankelijk van of **Ledenkorting** is in- of uitgeschakeld.
 4. Druk op Esc om terug te gaan naar de standaardwerkruimte.
-

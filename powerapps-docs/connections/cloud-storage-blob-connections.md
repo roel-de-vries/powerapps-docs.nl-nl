@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/12/2016
 ms.author: archanan
-ms.openlocfilehash: 379b9773033245ba5e2a88486a7738f51f000e6b
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 1f437b91ef20412dab3238bea7f5488e148c7c29
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-to-cloud-storage-from-powerapps"></a>Verbinding maken met cloudopslag vanuit PowerApps
 PowerApps biedt diverse verbindingen met cloudopslag. Bij elk van deze verbindingen kunt u een Excel-bestand opslaan en de gegevens erin overal in uw app gebruiken. Deze verbindingen zijn onder andere:  
@@ -28,7 +28,7 @@ PowerApps biedt diverse verbindingen met cloudopslag. Bij elk van deze verbindin
 | --- | --- | --- | --- | --- | --- |
 | ![Pictogram](./media/cloud-storage-blob-connections/blobicon.png) |![API-pictogram][boxicon] |![API-pictogram][dropboxicon] |![API-pictogram][googledriveicon] |![API-pictogram][onedriveicon] |![API-pictogram][onedriveforbusinessicon] |
 
-[!INCLUDE [connection-requirements](../../includes/connection-requirements.md)]
+[!INCLUDE [connection-requirements](../includes/connection-requirements.md)]
 
 * Een Excel-bestand met gegevens die zijn [opgemaakt als een tabel](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664):
   
@@ -53,7 +53,8 @@ PowerApps biedt diverse verbindingen met cloudopslag. Bij elk van deze verbindin
    
     ![Selecteer de Excel-tabel](./media/cloud-storage-blob-connections/selecttable.png)
    
-    **OPMERKING** Denk eraan dat Excel-gegevens moeten zijn opgemaakt als tabel.
+    > [!NOTE]
+> Denk eraan dat Excel-gegevens moeten zijn opgemaakt als tabel.
 
 ## <a name="using-the-excel-data-in-your-app"></a>De Excel-gegevens in uw app gebruiken
 1. Selecteer op het tabblad **Invoegen** de optie **Galerie** en selecteer vervolgens het galeriebesturingselement **Met tekst**.
@@ -73,7 +74,8 @@ PowerApps biedt diverse verbindingen met cloudopslag. Bij elk van deze verbindin
     Voorbeelduitvoer:  
     ![Tweede en derde label](./media/cloud-storage-blob-connections/secondthirdtextboxes.png)
    
-    <br/>**Opmerking**: Het eerste vak is eigenlijk een afbeeldingsbesturingselement. Als u geen afbeelding in uw Excel-tabel hebt, kunt u het afbeeldingsbesturingselement verwijderen en in plaats daarvan een label toevoegen. [Een besturingselement toevoegen en configureren](../add-configure-controls.md) is een goede informatiebron.
+> [!NOTE]
+> Het eerste vak is eigenlijk een afbeeldingsbesturingselement. Als u geen afbeelding in uw Excel-tabel hebt, kunt u het afbeeldingsbesturingselement verwijderen en in plaats daarvan een label toevoegen. [Een besturingselement toevoegen en configureren](../add-configure-controls.md) is een goede informatiebron.
 
 [Tabellen en records begrijpen](../working-with-tables.md) biedt meer informatie en enkele voorbeelden.  
 

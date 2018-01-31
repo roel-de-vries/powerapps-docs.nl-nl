@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: e6bae4500d3c3ac81c12da3c5b509dc1ea9e711e
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: b413bd52e9bbdd328ca5197ff5d5a76348298fe9
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="share-excel-data-used-by-your-app"></a>Excel-gegevens delen die worden gebruikt door uw app
 U kunt Excel-gegevens delen met uw app-gebruikers via een [cloud-account](connections/cloud-storage-blob-connections.md), zoals OneDrive.
@@ -49,7 +49,8 @@ Zie voor meer informatie [Sharing folders on Dropbox (mappen delen op Dropbox)](
    
     ![Opdracht Delen](./media/share-app-data/onedrive-share.png)
    
-    **Opmerking:** in OneDrive voor Bedrijven deelt u het bestand zelf, niet de map met het bestand.
+    > [!NOTE]
+> In OneDrive voor Bedrijven deelt u het bestand zelf, niet de map met het bestand.
 3. Selecteer in het dialoogvenster **E-mail**.
    
     ![Delen via e-mail](./media/share-app-data/onedrive-email.png)
@@ -72,6 +73,6 @@ Zie voor meer informatie [Bestanden en mappen in OneDrive delen](https://support
 
 Zie voor meer informatie [Bestanden uit Google Drive delen](https://support.google.com/drive/answer/2494822).
 
-## <a name="known-limitations"></a>Bekende beperkingen
+### <a name="known-limitations"></a>Bekende beperkingen
 [Lees deze beperkingen door](connections/cloud-storage-blob-connections.md#sharing-excel-tables) voor informatie over het delen van Excel-gegevens binnen uw organisatie.
 

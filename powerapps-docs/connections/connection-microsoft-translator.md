@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/12/2017
 ms.author: archanan
-ms.openlocfilehash: 9d5ccfd11399188e739353e2994f779347377de4
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 104afc3d2a5b243b7315b1638f23b7778d049370
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-to-microsoft-translator-from-powerapps"></a>Verbinding maken met Microsoft Translator vanuit PowerApps
 ![Microsoft Translator](./media/connection-microsoft-translator/translatoricon.png)
@@ -28,11 +28,10 @@ Voeg de Microsoft Translator-connector toe om vertaalde tekst in een besturingse
 
 In dit onderwerp wordt uitgelegd hoe u de Microsoft Translator-verbinding maakt en hoe u de Microsoft Translator-verbinding gebruikt in een app en worden de beschikbare functies toegelicht.
 
-**Opmerking**: deze connector is beperkt tot 150 aanroepen per gebruiker per dag.
+> [!NOTE]
+> Deze connector is beperkt tot 150 aanroepen per gebruiker per dag.
 
-&nbsp;
-
-[!INCLUDE [connection-requirements](../../includes/connection-requirements.md)]
+[!INCLUDE [connection-requirements](../includes/connection-requirements.md)]
 
 ## <a name="connect-to-microsoft-translator"></a>Verbinden met Microsoft Translator
 1. Open PowerApps, selecteer **Nieuw** en maak vervolgens een **lege app**. Kies de telefoon- of tabletindeling. De tabletindeling biedt meer werkruimte:  

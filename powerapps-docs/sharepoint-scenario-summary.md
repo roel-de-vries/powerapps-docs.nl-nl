@@ -15,14 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 064ff0778cbc02a81fb64214dbed64f32c04aa15
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 4e5c34c557e165625c23e78f86e5cbb1c0faacba
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="walk-end-to-end-through-the-completed-sharepoint-online-integration-scenario"></a>Het voltooide SharePoint Online-integratiescenario van begin tot eind doorlopen
-**Opmerking:** dit artikel maakt deel uit van een reeks zelfstudies over het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint Online. Lees de [inleiding tot de reeks](sharepoint-scenario-intro.md) zodat u een idee van het geheel krijgt en van de betreffende downloads.
+> [!NOTE]
+> Dit artikel maakt deel uit van een reeks zelfstudies over het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint Online. Lees de [inleiding tot de reeks](sharepoint-scenario-intro.md) zodat u een idee van het geheel krijgt en van de betreffende downloads.
 
 In deze reeks zelfstudies hebben we heel veel stof behandeld, van het bouwen van apps en stromen tot het maken van rapporten en het insluiten ervan in SharePoint. Hopelijk hebt u veel geleerd en genoeg ervaring opgedaan om deze technologieën te kunnen integreren, zodat u apps, stromen en rapporten in SharePoint kunt integreren op basis van uw eigen behoeften. Voordat we de reeks besluiten, willen we het scenario nog eens van begin tot eind doorlopen en zien hoe alle onderdelen met elkaar samenwerken.
 
@@ -37,11 +38,17 @@ In deze reeks zelfstudies hebben we heel veel stof behandeld, van het bouwen van
 4. Vul het formulier in met de volgende waarden:
    
    * **Title** = "Mobiele apparaten voor ontwerpteam"
+
    * **Approved** = "In wachtrij"
+
    * **Description** = "Het ontwerpteam gebruikt nu apparaten die door Contoso worden geleverd"
+
    * **EstimatedDays** = "30"
+
    * **ProjectType** = "Nieuwe hardware"
+
    * **RequestDate** = "01-03-2017"
+
    * **Requestor** = "Elsje Quint"
      
      ![Bewerkingsformulier Projectaanvragen](./media/sharepoint-scenario-summary/09-01-01-app-new.png)
@@ -100,8 +107,11 @@ In deze reeks zelfstudies hebben we heel veel stof behandeld, van het bouwen van
 4. Stel in het scherm **Details bijwerken** de volgende waarden in:
    
    * Het veld **Status** = "Not started"
+
    * Het veld **ProjectedStartDate** = "3/6/2017"
+
    * Het veld **ProjectedEndDate** = "3/24/2017"
+
    * Het veld **ProjectedDays** = "15"
      
      ![Projectdetails bijwerken](./media/sharepoint-scenario-summary/09-04-03-update.png)

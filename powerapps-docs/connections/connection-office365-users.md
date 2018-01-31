@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/07/2016
 ms.author: archanan
-ms.openlocfilehash: c6f4d61728d41df880e595e74e91ff6012bc29aa
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: ca6a91359f04aa54dfb9db146dc08b098763cc2d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="connect-to-office-365-users-connection-from-powerapps"></a>Verbinding maken met een Office 365-gebruikersverbinding vanuit PowerApps
 ![Office 365-gebruikers](./media/connection-office365-users/office365icon.png)
@@ -30,9 +30,7 @@ U kunt deze gegevens in een label in uw app weergeven. U kunt één functie weer
 
 In dit onderwerp wordt beschreven hoe u Office 365-gebruikers als verbinding kunt toevoegen, Office 365-gebruikers als gegevensbron aan uw app kunt toevoegen en tabelgegevens in een galeriebesturingselement kunt gebruiken.
 
-&nbsp;
-
-[!INCLUDE [connection-requirements](../../includes/connection-requirements.md)]
+[!INCLUDE [connection-requirements](../includes/connection-requirements.md)]
 
 ## <a name="add-a-connection"></a>Een verbinding toevoegen
 1. [Voeg een gegevensverbinding toe](../add-data-connection.md) en selecteer **Office 365-gebruikers**:  
@@ -97,7 +95,8 @@ In het label worden de gegevens weergegeven die u over de huidige gebruiker hebt
 
 In het label worden de gegevens weergegeven die u hebt ingevoerd over de opgegeven gebruiker of over de manager van die gebruiker.
 
-**Opmerking**: Als u een app op basis van een entiteit in Common Data Service ontwikkelt, kunt u een gebruiker opgeven op basis van de id in plaats van het e-mailadres.
+> [!NOTE]
+> Als u een app op basis van een entiteit in Common Data Service ontwikkelt, kunt u een gebruiker opgeven op basis van de id in plaats van het e-mailadres.
 
 U kunt bijvoorbeeld [automatisch een app maken](../data-platform-create-app.md), een scherm toevoegen met een besturingselement van het type **Label** en de eigenschap **Text** van het besturingselement instellen op deze formule:
 <br>**Office365Users.UserProfile(BrowseGallery1.Selected.CreatedByUser).DisplayName**
@@ -116,7 +115,8 @@ Als u een contactpersoon maakt en deze contactpersoon in het zoekscherm van de a
     Als u de galerie selecteert, ziet u in het deelvenster aan de rechterkant de opties voor de galerie.
 4. Selecteer **JobTitle** in de tweede lijst. Selecteer **DisplayName** in de derde lijst. De galerie wordt bijgewerkt met deze waarden.  
    
-    <br/>**Opmerking**: Het eerste vak is eigenlijk een afbeeldingsbesturingselement. Als u geen afbeelding hebt, kunt u het afbeeldingsbesturingselement verwijderen en in plaats daarvan een label toevoegen. [Een besturingselement toevoegen en configureren](../add-configure-controls.md) is een goede informatiebron.
+> [!NOTE]
+> Het eerste vak is eigenlijk een afbeeldingsbesturingselement. Als u geen afbeelding hebt, kunt u het afbeeldingsbesturingselement verwijderen en in plaats daarvan een label toevoegen. [Een besturingselement toevoegen en configureren](../add-configure-controls.md) is een goede informatiebron.
 
 ### <a name="search-for-users"></a>Gebruikers zoeken
 1. Voeg een besturingselement van het type **Text input** toe (via het menu **Insert** > **Text**) en wijzig de naam in **SearchTerm**. Voer de naam in die u wilt zoeken. Voer bijvoorbeeld uw voornaam in.

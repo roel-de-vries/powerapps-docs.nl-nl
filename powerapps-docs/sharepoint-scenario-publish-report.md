@@ -15,14 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 5e229e8767d4fdc16d37a69d82766af48a414686
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: cb300617fbf08f7b9ed5ff87ed5633d7714d51e0
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="publish-the-power-bi-project-report-and-create-a-dashboard"></a>Het Power BI-projectrapport publiceren en een dashboard maken
-**Opmerking:** dit artikel maakt deel uit van een reeks zelfstudies over het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint Online. Lees de [inleiding tot de reeks](sharepoint-scenario-intro.md) zodat u een idee van het geheel krijgt en van de betreffende downloads.
+> [!NOTE]
+> Dit artikel maakt deel uit van een reeks zelfstudies over het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint Online. Lees de [inleiding tot de reeks](sharepoint-scenario-intro.md) zodat u een idee van het geheel krijgt en van de betreffende downloads.
 
 In deze taak wordt de gegevensset gepubliceerd en aan de Power BI-service gerapporteerd. Vervolgens wordt een dashboard gemaakt op basis van het rapport. In veel gevallen bevat een rapport een groot aantal visualisaties; slechts een subset wordt in een dashboard gebruikt. In dit geval voegen we vier visualisaties aan het dashboard toe.
 
@@ -48,7 +49,8 @@ In deze taak wordt de gegevensset gepubliceerd en aan de Power BI-service gerapp
    
     U ziet dat er tijdens het publiceren een gegevensset **(d)** en een rapport **(c)** zijn geüpload. Dashboards worden in de service gemaakt, niet in Power BI Desktop. Deze werkruimte bevat nog geen dashboards **(b)**. Die gaan we nu maken.
    
-    **Opmerking:** voor Power BI wordt een nieuw type navigatie uitgebracht die in uw site kan worden ingeschakeld. Zie [The new Power BI navigation experience](https://powerbi.microsoft.com/documentation/powerbi-service-the-new-power-bi-experience) (Het nieuwe navigeren in Power BI) als het linker navigatiedeelvenster er anders uitziet dan in de bovenstaande afbeelding.
+    > [!NOTE]
+> Voor Power BI wordt een nieuw type navigatie uitgebracht die in uw site kan worden ingeschakeld. Zie [The new Power BI navigation experience](https://powerbi.microsoft.com/documentation/powerbi-service-the-new-power-bi-experience) (Het nieuwe navigeren in Power BI) als het linker navigatiedeelvenster er anders uitziet dan in de bovenstaande afbeelding.
 
 ## <a name="step-2-configure-credentials-for-refresh"></a>Stap 2: Referenties voor vernieuwen configureren
 1. Klik of tik in de service op ![tandwielpictogram](./media/sharepoint-scenario-publish-report/icon-gear.png) rechtsboven en vervolgens op **Instellingen**.
@@ -82,10 +84,13 @@ In deze taak wordt de gegevensset gepubliceerd en aan de Power BI-service gerapp
 4. Selecteer het bestaande dashboard en klik of tik op **Vastmaken**.
    
     ![Grafiek vastmaken aan bestaand dashboard](./media/sharepoint-scenario-publish-report/06-01-15-pin-existing.png)
+
 5. Herhaal deze vastmaakprocedure voor de andere twee visualisaties.
+
 6. Klik of tik in het linker navigatiedeelvenster op de naam van het dashboard.
    
     ![Nieuw dashboard in sitenavigatie](./media/sharepoint-scenario-publish-report/06-01-16-dashboard-menu.png)
+
 7. Bekijk het dashboard. Als u op een tegel klikt, gaat u terug naar het rapport.
    
     ![Voltooid dashboard](./media/sharepoint-scenario-publish-report/06-01-17-dashboard-completed.png)

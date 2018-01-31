@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 6af28020810394c90c86f87fc40e3cbe9c75a877
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 794263448bc067ef8bf44ae46480865c56fdbdf8
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-tables-and-records-in-powerapps"></a>Over tabellen en records in PowerApps
 U kunt een app maken die toegang heeft tot informatie in Microsoft Excel, SharePoint, SQL Server en enkele andere bronnen die gegevens opslaan in records en tabellen. Om zo efficiënt mogelijk met dit soort gegevens te werken, moet u de concepten doornemen die ten grondslag liggen aan deze structuren.
@@ -63,7 +63,8 @@ Alle waarden in een kolom zijn van hetzelfde gegevenstype. In het bovenstaande v
 
 In andere hulpprogramma's hebt u kolommen mogelijk 'velden' genoemd.
 
-**Opmerking:** Kolomnamen met spaties in gegevensbronnen van Excel of SharePoint worden in PowerApps vervangen door **'\_x0020\_'**. **'Kolom twaalf'** in SharePoint of Excel wordt bijvoorbeeld weergegeven als **'Kolom_x0020_twaalf'** in PowerApps wanneer de naam wordt weergegeven in de gegevensindeling of wordt gebruikt in een formule.
+> [!NOTE]
+> Kolomnamen met spaties in gegevensbronnen van Excel of SharePoint worden in PowerApps vervangen door **‘\_x0020\_’**. **'Kolom twaalf'** in SharePoint of Excel wordt bijvoorbeeld weergegeven als **'Kolom_x0020_twaalf'** in PowerApps wanneer de naam wordt weergegeven in de gegevensindeling of wordt gebruikt in een formule.
 
 ### <a name="table"></a>Tabel
 Een tabel bestaat uit een of meer records, elk met meerdere velden met consistente namen tussen de records.
@@ -96,7 +97,8 @@ Hieronder volgen een aantal eenvoudige voorbeelden.
    
     Standaard toont de galerie tekst van een tijdelijke aanduiding uit een tabel met de naam **TextualGallerySample**. De eigenschap **[Items](controls/properties-core.md)** van de galerie wordt automatisch ingesteld op die tabel.
    
-    **Opmerking:** sommige besturingselementen zijn anders gerangschikt en vergroot voor illustratiedoeleinden.
+    > [!NOTE]
+> Sommige besturingselementen zijn anders gerangschikt en vergroot voor illustratiedoeleinden.
    
     ![](media/working-with-tables/gallery-items.png)
 2. In plaats van de eigenschap **[Items](controls/properties-core.md)** in te stellen op de naam van een tabel, stelt u deze in op een formule met de naam van de tabel als een argument, zoals in het volgende voorbeeld:<br>
@@ -149,7 +151,9 @@ U kunt ook een formule maken die gegevens voor een afzonderlijke record berekent
 
 1. Voeg een knop toe en stel de eigenschap **[BijSelecteren](controls/properties-core.md)** ervan in op deze formule:<br>
     **Verzamelen( SelectedRecord, Gallery1.Selected)**
+
 2. Als de knop niet is geselecteerd, klikt u hierop om deze te selecteren. Klik hier opnieuw op om de formule uit te voeren.
+
 3. Selecteer **Verzamelingen** in het menu **Bestand**.
 
 ![](media/working-with-tables/selected-collection.png)
@@ -159,6 +163,7 @@ Deze formule retourneert een record met de gegevens van de record die momenteel 
 Nu u de geselecteerde record hebt, kunt u hieruit afzonderlijke velden halen met de **.** .
 
 1. Druk op Esc om terug te keren naar de standaardwerkruimte en voeg vervolgens een label toe onder de galerie.
+
 2. Stel de eigenschap **[Text](controls/properties-core.md)** van het label in op deze formule:<br>
     **Gallery.Selected.Heading**
    
@@ -232,7 +237,7 @@ Houd er rekening mee dat we in het bovenstaande voorbeeld op sommige plekken dub
 ### <a name="disambiguation"></a>Ondubbelzinnigheid
 Veldnamen waarbij het recordbereik is toegevoegd, overschrijven dezelfde namen elders in de app.  Als dit gebeurt, kunt u nog steeds toegang krijgen tot waarden buiten het recordbereik met de operator voor ondubbelzinnigheid [**@**](functions/operators.md):
 
-* Als u toegang wilt krijgen tot waarden van geneste recordbereiken, gebruikt u de operator **@** met de naam van de tabel die wordt bewerkt met behulp van het patroon ***Tabel*[@*Veldnaam*]**.  
+* Als u toegang wilt krijgen tot waarden van geneste recordbereiken, gebruikt u de operator **@** met de naam van de tabel die wordt bewerkt met behulp van het patroon **Tabel*[@*Veldnaam*]**.  
 * Als u toegang wilt krijgen tot globale waarden, zoals gegevensbronnen, verzamelingen en contextvariabelen, gebruikt u het patroon **[@*Objectnaam*]** (zonder een tabelaanduiding).
 
 Als de tabel die wordt bewerkt een expressie is, zoals een **Filter( *tabel*, ... )**, kan de operator voor ondubbelzinnigheid niet worden gebruikt.  Alleen het binnenste recordbereik kan velden openen vanuit deze tabelexpressie door de operator voor ondubbelzinnigheid niet te gebruiken.

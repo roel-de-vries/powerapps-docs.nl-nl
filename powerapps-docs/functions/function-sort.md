@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 780c72323e4b0d406d89ba35201c78456bb0dbca
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 72bbbc882250d25ddabc8086e81bfc7779e26b60
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="sort-and-sortbycolumns-functions-in-powerapps"></a>Functies Sorteren en SorterenOpKolommen in PowerApps
 Sorteert een [tabel](../working-with-tables.md).
@@ -29,7 +29,7 @@ De functie **Sorteren** sorteert een tabel op basis van een formule.
 
 De formule wordt geëvalueerd voor elke [record](../working-with-tables.md#records) van de tabel en de resultaten worden gebruikt om de tabel te sorteren.  De formule moet resulteren in een getal, tekenreeks of booleaanse waarde. De formule kan niet resulteren in een tabel of record.
 
-[!INCLUDE [record-scope](../../includes/record-scope.md)]
+[!INCLUDE [record-scope](../includes/record-scope.md)]
 
 Als u eerst op één kolom wilt sorteren en vervolgens op een andere, sluit u een **Sorteren**-formule in een andere formule in. U kunt bijvoorbeeld deze formule gebruiken om een tabel **Contactpersonen** eerst te sorteren op de kolom **Achternaam** en vervolgens op de kolom **Voornaam**:  **Sorteren( Sorteren( Contactpersonen, Achternaam ), Voornaam )**.
 
@@ -43,7 +43,7 @@ Naast sorteren in oplopende of aflopende volgorde, kan **SorterenOpKolommen** so
 
 [Tabellen](../working-with-tables.md) vormen een waarde in PowerApps, net als een tekenreeks of getal.  Ze kunnen worden doorgegeven aan en geretourneerd uit functies.  **Sorteren** en **SorterenOpKolommen** wijzigen een tabel niet. In plaats daarvan gebruiken ze een tabel als argument en retourneren ze een nieuwe tabel die is gesorteerd.  Zie [working with tables (werken met tabellen)](../working-with-tables.md) voor meer informatie.
 
-[!INCLUDE [delegation](../../includes/delegation.md)]
+[!INCLUDE [delegation](../includes/delegation.md)]
 
 ## <a name="syntax"></a>Syntaxis
 **Sorteren**( *Tabel*, *Formule* [, *Sorteervolgorde* ] )
@@ -58,7 +58,8 @@ Naast sorteren in oplopende of aflopende volgorde, kan **SorterenOpKolommen** so
 * *NaamKolom(men)* - vereist. De namen van de kolommen waarop moet worden gesorteerd, als tekenreeksen.
 * *Sorteervolgorde(n)* - optioneel.  **Sorteervolgorde.Oplopend** of **Sorteervolgorde.Aflopend**.  **Sorteervolgorde.Oplopend** is de standaardinstelling.  Als meerdere *Kolomnamen* worden opgegeven, moeten alle kolommen behalve de laatste een *Sorteervolgorde* bevatten.
   
-    **Opmerking:** Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **'\_x0020\_'**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
+    > [!NOTE]
+> Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
 
 **SorterenOpKolommen**( *Tabel*, *NaamKolom*, *SorteervolgordeTabel* )
 
@@ -66,7 +67,8 @@ Naast sorteren in oplopende of aflopende volgorde, kan **SorterenOpKolommen** so
 * *NaamKolom* - vereist. De naam van de kolom waarop moet worden gesorteerd, als tekenreeksen.
 * *SorteervolgordeTabel* - vereist.  Eén kolomtabel met waarden om op te sorteren.
   
-    **Opmerking:** Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **'\_x0020\_'**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
+    > [!NOTE]
+> Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
 
 ## <a name="examples"></a>Voorbeelden
 Voor de volgende voorbeelden gebruiken we de [gegevensbron](../working-with-data-sources.md) **IJsjes**, die de gegevens in deze tabel bevat:
@@ -91,7 +93,7 @@ Als u deze voorbeelden zelf wilt uitvoeren, maakt u de gegevensbron **IJsjes** a
 
 #### <a name="sort"></a>Sorteren
 1. Voeg een andere knop toe en stel de eigenschap **[BijSelecteren](../controls/properties-core.md)** ervan in op deze formule:<br>
-   **ClearCollect( SorterenOpSmaak, Sorteren ( IJsjes, Smaak ) )**
+   **ClearCollect (SorterenOpSmaak, Sorteren (IJsjes, Smaak))**
    
      De vorige formule maakt een tweede verzameling, met de naam **SorterenOpSmaak**, die dezelfde gegevens als **IJsjes** bevat. De nieuwe verzameling bevat echter de gegevens, die alfabetisch in oplopende volgorde gesorteerd zijn op de kolom **Smaak**.
 2. Druk op F5, selecteer de nieuwe knop en druk op Esc.
@@ -100,7 +102,7 @@ Als u deze voorbeelden zelf wilt uitvoeren, maakt u de gegevensbron **IJsjes** a
 
 #### <a name="sortbycolumns"></a>SorterenOpKolommen
 1. Voeg een andere knop toe en stel de eigenschap **[BijSelecteren](../controls/properties-core.md)** ervan in op deze formule:<br>
-   **ClearCollect( SorterenOpAantal, SorterenOpKolommen( IJsjes, "Aantal", Oplopend, "Smaak", Aflopend ) )**
+   **ClearCollect (SorterenOpAantal, SorterenOpKolommen (IJsjes, "Aantal", Oplopend, "Smaak", Aflopend))**
    
      De vorige formule maakt een derde verzameling, met de naam **SorterenOpAantal**, die dezelfde gegevens als **IJsjes** bevat. De nieuwe verzameling bevat echter de gegevens, numeriek gesorteerd op de kolom **Aantal** in oplopende volgorde en vervolgens op de kolom **Smaak** in aflopende volgorde.
 2. Druk op F5, selecteer de nieuwe knop en druk op Esc.

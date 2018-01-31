@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: b3eafd9f37537a083212e9ecbb92c6928ae0f773
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 7aa3c2e2e6b0e6baaaec9666fc7b4e56c9568317
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="audio-and-video-controls-in-powerapps"></a>Besturingselementen voor audio en video in PowerApps
 Een besturingselement voor het afspelen van een geluidsbestand, een videobestand of een video op YouTube.
@@ -93,7 +93,8 @@ Een besturingselement **Audio** is bedoeld voor het afspelen van een geluidsfrag
     Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
 4. Druk op F5 en speel het fragment vervolgens af door op de afspeelknop te klikken of te tikken van het besturingselement dat u hebt toegevoegd.
    
-    **Tip:** de afspeelknop van het besturingselement **Video** wordt weergegeven wanneer u het besturingselement aanwijst.
+    > [!TIP]
+> De afspeelknop van het besturingselement **Video** wordt weergegeven wanneer u het besturingselement aanwijst.
 5. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
 ### <a name="play-a-youtube-video"></a>Een YouTube-video afspelen

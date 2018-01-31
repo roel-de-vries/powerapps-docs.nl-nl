@@ -15,17 +15,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/17/2016
 ms.author: gregli
-ms.openlocfilehash: 0565bba26f9ab78437dd4b5a7729ff518a89e6e8
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 8aa5fb671878af21fa483dde348460bf7c05fc70
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="controls-and-properties-in-powerapps"></a>Besturingselementen en eigenschappen in PowerApps
 Configureer de weergave en het gedrag van een besturingselement door een van de eigenschappen in te stellen. Elk type besturingselement heeft een andere reeks eigenschappen. Sommige eigenschappen, zoals **Height** en **Width**, gelden voor vrijwel elk type besturingselement; andere eigenschappen, zoals **CheckboxSize**, zijn specifiek voor een bepaald type besturingselement.
 
 ## <a name="controls"></a>Besturingselementen
 **[Afbeelding toevoegen](controls/control-add-picture.md)** : afbeeldingen laden van een lokaal apparaat om naar een gegevensbron te uploaden.
+
+**[Bijlagen](controls/control-attachments.md)** : download en upload bestanden vanuit het lokale apparaat naar een gegevensbron.
 
 **[Audio](controls/control-audio-video.md)**: een audioclip of het audiogedeelte van een videoclip afspelen.
 
@@ -507,12 +509,11 @@ Configureer de weergave en het gedrag van een besturingselement door een van de 
 ### <a name="y"></a>Y
 **[Y](controls/properties-size-location.md)**: de afstand tussen de bovenrand van een besturingselement en de bovenrand van de bovenliggende container (het scherm als er geen bovenliggende container is). Is van toepassing op vele besturingselementen. Als u een besturingselement **[Kaart](controls/control-card.md)** hebt in een container met meerdere rijen, bepaalt deze eigenschap de rij waarin de kaart wordt weergegeven.
 
-**[YAxisMax](controls/control-column-line-chart.md)**: de maximumwaarde van de y-as voor een lijndiagram.  Is van toepassing op het besturingselement **[Kolomdiagram](controls/control-column-line-chart.md)**.
+**[YAxisMax](controls/control-column-line-chart.md)**: de maximumwaarde van de y-as voor een lijndiagram.  Is van toepassing op het besturingselement **[Lijndiagram](controls/control-column-line-chart.md)**.
 
-**[YAxisMin](controls/control-column-line-chart.md)**: de minimumwaarde van de y-as voor een lijndiagram.  Is van toepassing op het besturingselement **[Kolomdiagram](controls/control-column-line-chart.md)**.
+**[YAxisMin](controls/control-column-line-chart.md)**: de minimumwaarde van de y-as voor een lijndiagram.  Is van toepassing op het besturingselement **[Lijndiagram](controls/control-column-line-chart.md)**.
 
 **[YLabelAngle](controls/control-column-line-chart.md)**: de hoek van de labels naast de y-as van een lijn- of kolomdiagram.  Is van toepassing op de besturingselementen **[Kolomdiagram](controls/control-column-line-chart.md)** en **[Lijndiagram](controls/control-column-line-chart.md)**.
 
 ### <a name="z"></a>Z
 **Zoom**: het percentage waarmee een foto van een camera wordt vergroot of de weergave van een bestand in een PDF-viewer.  Is van toepassing op de besturingselementen **[Camera](controls/control-camera.md)** en **[PDF-viewer](controls/control-pdf-viewer.md)**.
-

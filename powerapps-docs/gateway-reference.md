@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/01/2016
+ms.date: 10/20/2017
 ms.author: sharik
-ms.openlocfilehash: 5ca84afd86144bec23c66825e72ef72694428df1
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 3d5ae546d10c0713fe346db1fbe49a6f6701f7a1
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-powerapps"></a>Informatie over on-premises gegevensgateways voor Microsoft PowerApps
 ## <a name="installation-and-configuration"></a>Installatie en configuratie
@@ -44,27 +44,33 @@ Bijkomstige overwegingen:
 **Een gateway installeren**
 
 1. [Download het installatieprogramma](http://go.microsoft.com/fwlink/?LinkID=820931) en voer het uit.
-   
+
     ![Het installatieprogramma uitvoeren](./media/gateway-reference/run-installer.png)
+
 2. Klik of tik op het eerste scherm van de installatiewizard op **Volgende** om de herinnering over de installatie van een gateway op een laptop te bevestigen.
-   
+
     ![Scherm met herinnering](./media/gateway-reference/laptop-reminder.png)
+
 3. Geef de locatie op waar u de gateway wilt installeren, schakel het selectievakje in om akkoord te gaan met de gebruiksvoorwaarden en de privacyverklaring en klik of tik op **Installeren**.
+
 4. Klik of tik in de dialoogvensters van **Gebruikersaccountbeheer** op **Ja** om door te gaan.
+
 5. Klik of tik op het volgende scherm van de wizard **Aanmelden**.
-   
+
     ![Aanmelden](./media/gateway-reference/sign-in.png)
+
 6. Klik of tik op de optie om een nieuwe gateway te registreren of om een bestaande gateway te migreren, te herstellen of over te nemen en klik of tik daarna op **Volgende**.
-   
+
     ![Nieuwe of bestaande gateway kiezen](./media/gateway-reference/new-existing.png)
-   
+
    * Configureer de gateway door een **naam** en een **herstelsleutel** te typen, op **Configureren** te klikken of te tikken en op **Sluiten** te klikken of te tikken.
-     
+
        ![Een nieuwe gateway configureren](./media/gateway-reference/configure-new.png)
-     
+
        Geef een herstelsleutel op van ten minste acht tekens en bewaar deze op een veilige plaats. U hebt deze sleutel nodig als u de gateway wilt migreren, herstellen of overnemen.
+
    * Als u een bestaande gateway wilt migreren, herstellen of overnemen, geeft u de naam van de gateway en de herstelsleutel op, klikt of tikt u op **Configureren** en volgt u de aanwijzingen.
-     
+
        ![Een bestaande gateway herstellen](./media/gateway-reference/recover-existing.png)
 
 **De gateway opnieuw starten**
@@ -73,6 +79,7 @@ De gateway wordt uitgevoerd als een Windows-service, zodat u deze op verschillen
 
 * Als u de service wilt stoppen, voert u deze opdracht uit:<br>
   **net stop PBIEgwService**
+
 * Als u de service wilt starten, voert u deze opdracht uit:<br>
   **net start PBIEgwService**
 
@@ -82,7 +89,7 @@ Voor informatie over het doorgeven van proxy-informatie voor uw gateway raadplee
 
 U kunt controleren of uw firewall, of proxy, verbindingen mogelijk blokkeert door de volgende opdracht uit te voeren in een PowerShell-prompt. Deze opdracht test de verbinding met Azure Service Bus. Hiermee wordt alleen de netwerkverbinding getest en dit heeft niets te maken met de cloudserverservice of de gateway. Zo kunt u controleren of uw computer daadwerkelijk verbinding kan maken met internet.
 
-    Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
+**Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350**
 
 De resultaten moeten er ongeveer uitzien als in het volgende voorbeeld. Als **TcpTestSucceeded** niet **waar** is, wordt u mogelijk geblokkeerd door een firewall.
 
@@ -107,7 +114,8 @@ Meer informatie over [hybride oplossingen](https://azure.microsoft.com/documenta
 
 Het wordt aanbevolen de IP-adressen voor uw gegevensregio op de goedgekeurde lijst voor de firewall te plaatsen. Hiervoor kunt u de [lijst met IP-adressen van Microsoft Azure-datacenters](https://www.microsoft.com/download/details.aspx?id=41653) downloaden. Deze lijst wordt wekelijks bijgewerkt.
 
-**Opmerking:** De adressen in de lijst met IP-adressen van Azure-datacenters worden vermeld in de [CIDR-notatie](http://whatismyipaddress.com/cidr). 10.0.0.0/24 betekent bijvoorbeeld niet 10.0.0.0 tot en met 10.0.0.24.
+> [!NOTE]
+> De adressen in de lijst met IP-adressen van Azure-datacenters worden vermeld in de [CIDR-notatie](http://whatismyipaddress.com/cidr). 10.0.0.0/24 betekent bijvoorbeeld niet 10.0.0.0 tot en met 10.0.0.24.
 
 Hier volgt een lijst met de volledige domeinnamen die worden gebruikt door de gateway.
 
@@ -156,7 +164,7 @@ Als u problemen ondervindt met uw proxyserver vanwege de verificatie, kunt u het
 **Antwoord:** Nee. De gateway gebruikt uitgaande verbindingen naar Azure Service Bus.
 
 **Vraag:** Wat gebeurt er als ik uitgaande verbindingen blokkeer? Wat moet ik openen?  
-**Antwoord:** Bekijk welke [poorten](gateway-reference.md#ports) en hosts de gateway gebruikt.
+**Antwoord:** raadpleeg de bovenstaande lijst met poorten en hosts die de gateway gebruikt.
 
 **Vraag:** Moet de gateway worden geïnstalleerd op dezelfde computer als de gegevensbron?  
 **Antwoord:** Nee. De gateway maakt verbinding met de gegevensbron met behulp van de opgegeven verbindingsgegevens. U kunt de gateway in dit opzicht beschouwen als een clienttoepassing. De gateway moet enkel verbinding kunnen maken met de opgegeven servernaam.
@@ -206,10 +214,15 @@ U kunt ook kijken welke hulpmiddelen uw gegevensbron biedt om query's te tracere
 Wanneer een gebruiker een interactie uitvoert met een element dat is verbonden met een on-premises gegevensbron:  
 
 1. De cloudservice creëert een query, samen met de versleutelde referenties voor de gegevensbron, en verzendt de query naar de wachtrij, zodat de gateway de query kan verwerken.
+
 2. De gatewaycloudservice analyseert de query en stuurt de aanvraag naar [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/).
+
 3. De on-premises gegevensgateway peilt Azure Service Bus om te kijken of er aanvragen liggen te wachten.
+
 4. De gateway haalt de query op, ontsleutelt de referenties en maakt verbinding met de gegevensbron(nen) met behulp van die referenties.
+
 5. De gateway stuurt de query voor uitvoering naar de gegevensbron.
+
 6. De resultaten worden vanuit de gegevensbron teruggezonden naar de gateway en vervolgens naar de cloudservice. De service gebruikt vervolgens de resultaten.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
@@ -225,15 +238,15 @@ U kunt verschillende logboeken voor de gateway verzamelen. Begin altijd met de l
 
 **Logboeken van installatieprogramma**
 
-    %localappdata%\Temp\On-premises_data_gateway_*.log
+%localappdata%\Temp\On-premises_data_gateway_*.log
 
 **Configuratielogboeken**
 
-    %localappdata%\Microsoft\on-premises data gateway\GatewayConfigurator*.log
+%localappdata%\Microsoft\on-premises gegevensgateway\GatewayConfigurator * .log
 
 **Logboeken van de ondernemingsgatewayservice**
 
-    C:\Users\PBIEgwService\AppData\Local\Microsoft\on-premises data gateway\Gateway*.log
+C:\Users\PBIEgwService\AppData\Local\Microsoft\on-premises gegevensgateway\Gateway*.log
 
 **Gebeurtenislogboeken**
 
@@ -243,4 +256,3 @@ De gebeurtenislogboeken van de **on-premises gegevensgatewayservice** worden opg
 
 #### <a name="fiddler-trace"></a>Traceren met Fiddler
 [Fiddler](http://www.telerik.com/fiddler) is een gratis hulpprogramma van Telerik dat HTTP-verkeer bewaakt.  U kunt hiermee het verkeer tussen de Power BI-service en de clientcomputer bekijken. Het programma kan fouten en verwante informatie weergeven.
-

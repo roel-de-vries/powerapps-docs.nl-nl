@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/05/2017
 ms.author: mblythe
-ms.openlocfilehash: 80f56a849dca7488f5b38908a7ec87b3a0916187
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 2eac422675fc8741848ab90777824a10ec9e0e1e
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="register-and-use-custom-connectors-in-powerapps"></a>Aangepaste connectors registreren en gebruiken in PowerApps
 Met PowerApps kunt u complete apps maken zonder traditionele toepassingscode. Maar in bepaalde gevallen kan het nodig zijn om de mogelijkheden van PowerApps uit te breiden en webservices zijn hier uitermate geschikt voor. Met uw app kunt u verbinding maken met een service, bewerkingen uitvoeren en gegevens ophalen. Als er een webservice is waarmee u verbinding wilt maken via PowerApps, kunt u de service registreren als een aangepaste connector. Dit proces zorgt ervoor dat PowerApps op de hoogte is van de kenmerken van uw web-API, waaronder de verificatie die de web-API vereist, de bewerkingen die de web-API ondersteunt en de parameters en uitvoer voor elk van deze bewerkingen.
@@ -49,12 +49,12 @@ Het registratieproces voor de aangepaste connector bestaat uit meerdere stappen 
    * Basisverificatie
 3. **Beschrijf uw API** op een manier die voldoet aan een van de twee industrienormen, zodat PowerApps verbinding kan maken met de API.
    
-   * Een OpenAPI-bestand (ook wel 'Swagger-bestand' genoemd)
+   * Een OpenAPI-bestand (ook wel Swagger-bestand genaamd): u kunt ook in stap 4 een OpenAPI-bestand maken als onderdeel van het registratieproces.
    * Een Postman Collection
-     
-     U kunt ook in stap 4 een OpenAPI-bestand maken als onderdeel van het registratieproces.
 4. **Registreer uw aangepaste connector** met een wizard in PowerApps, waarin u een beschrijving van de API, beveiligingsdetails en andere informatie opgeeft.
+
 5. **Gebruik uw aangepaste connector** in een app. Maak een verbinding met de API in uw app en roep bewerkingen aan die de API biedt, op dezelfde manier waarop u in PowerApps systeemeigen functies aanroept.
+
 6. **Deel uw aangepaste connector**, zoals u ook andere gegevensverbindingen in PowerApps deelt. Deze stap is optioneel, maar het is vaak zinvol om aangepaste connectors met meerdere makers van apps te delen.
 
 ## <a name="describe-your-api"></a>Uw API beschrijven
@@ -70,7 +70,8 @@ OpenAPI-bestanden en Postman Collections hebben verschillende indelingen, maar z
 * Als u nog geen OpenAPI-bestand voor uw API hebt en geen bestand wilt maken, kunt u nog steeds heel eenvoudig een aangepaste connector maken met behulp van een Postman Collection. Zie [Een Postman Collection maken](postman-collection.md) voor meer informatie.
 * PowerApps gebruikt OpenAPI uiteindelijk achter de schermen, dus er wordt een Postman Collection geparseerd en vertaald naar een OpenAPI-definitiebestand.
 
-**Opmerking**: de bestandsgrootte moet minder dan 1 MB zijn.
+> [!NOTE]
+> De bestandsgrootte moet minder dan 1 MB zijn.
 
 ### <a name="getting-started-with-openapi-and-postman"></a>Aan de slag met OpenAPI en Postman
 * Als u nog geen ervaring hebt met OpenAPI, raadpleegt u [Aan de slag met OpenAPI](http://swagger.io/getting-started/) op de site swagger.io.
@@ -82,7 +83,8 @@ U gebruikt nu het OpenAPI-bestand of de Postman Collection om uw aangepaste conn
 
 1. Selecteer op [powerapps.com](https://web.powerapps.com) in het menu aan de linkerkant de optie **Verbindingen**. Selecteer het beletselteken (**...** ) en selecteer **Aangepaste connectors beheren** in de rechterbovenhoek.
    
-     **Tip**: als u de optie voor het beheren van aangepaste connectors niet kunt vinden in een mobiele browser, bevindt deze optie zich mogelijk in een menu in de linkerbovenhoek.
+     > [!TIP]
+> Als u de optie voor het beheren van aangepaste connectors niet kunt vinden in een mobiele browser, bevindt deze optie zich mogelijk in een menu in de linkerbovenhoek.
    
     ![Aangepaste connector maken](./media/register-custom-api/managecustomapi.png)  
 2. Selecteer **Aangepaste connector maken**.
@@ -91,7 +93,9 @@ U gebruikt nu het OpenAPI-bestand of de Postman Collection om uw aangepaste conn
 3. Geef op het tabblad **Algemeen** aan hoe u de aangepaste connector wilt maken.
    
    * OpenAPI-bestand uploaden
+
    * OpenAPI-URL gebruiken
+
    * Postman Collection V1 uploaden
      
      ![Een aangepaste connector maken](./media/register-custom-api/choosehowtocreate.png)
@@ -126,6 +130,7 @@ U gebruikt nu het OpenAPI-bestand of de Postman Collection om uw aangepaste conn
    2. Selecteer in de sectie **Aanvragen** in de rechterbovenhoek de optie **Importeren vanuit voorbeeld**. Plak in het formulier aan de rechterkant een voorbeeldaanvraag. Voorbeeldaanvragen zijn gewoonlijk beschikbaar in de API-documentatie, waarin u informatie kunt krijgen om de velden **Bewerking**, **Aanvraag-URL**, **Kopteksten** en **Hoofdtekst** in te vullen. Zie de [documentatie van de Tekstanalyse-API](https://westus.dev.cognitive.microsoft.com/docs/services/TextAnalytics.V2.0/operations/56f30ceeeda5650db055a3c6) voor een voorbeeld.
       
        ![Importeren vanuit voorbeeld](./media/register-custom-api/importfromsample.png)
+
    3. Selecteer **Importeren** om de aanvraagdefinitie te voltooien. Definieer de respons op een vergelijkbare manier.
 6. Zodra u al uw bewerkingen hebt gedefinieerd, selecteert u **Maken** om uw aangepaste connector te maken.
 7. Als u uw aangepaste connector eenmaal hebt gemaakt, gaat u naar het tabblad **Testen** om de bewerkingen die in de API zijn gedefinieerd, te testen. Kies een verbinding en geef invoerparameters op voor het testen van een bewerking.

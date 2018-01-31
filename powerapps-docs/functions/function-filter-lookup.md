@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/05/2017
 ms.author: gregli
-ms.openlocfilehash: f06c242d7eed3d7519af829400708362ab1a77d6
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: f55b66e615b79852b86cc5ea88ee9fbef321f8aa
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="filter-search-and-lookup-functions-in-powerapps"></a>Functies Filter, Zoeken en LookUp in PowerApps
 Zoekt een of meer [records](../working-with-tables.md#records) in een [tabel](../working-with-tables.md).
@@ -31,7 +31,7 @@ De functie **LookUp** vindt de eerste record in een tabel die aan een formule vo
 
 De formule wordt in beide gevallen geëvalueerd voor elke record in de tabel.  Records die resulteren in *true* worden in het resultaat opgenomen.  Naast de normale [operators](operators.md) van de formule kunt u de operators **[in](operators.md#in-and-exactin-operators)** en **[exactin](operators.md#in-and-exactin-operators)** gebruiken voor overeenkomsten in subtekenreeksen.
 
-[!INCLUDE [record-scope](../../includes/record-scope.md)]
+[!INCLUDE [record-scope](../includes/record-scope.md)]
 
 De functie **Search** zoekt records in een tabel met een tekenreeks in een van de kolommen. De tekenreeks kan op een willekeurige plaats in de kolom voorkomen. Zoeken naar "rob" of "bert" levert bijvoorbeeld een overeenkomst op in een kolom die "Robert" bevat. Zoeken is niet hoofdlettergevoelig. De functie **Search** gebruikt, in tegenstelling tot **Filter** en **LookUp**, een tekenreeks voor een overeenkomst in plaats van een formule.
 
@@ -39,7 +39,7 @@ De functie **Search** zoekt records in een tabel met een tekenreeks in een van d
 
 [Tabellen](../working-with-tables.md) vormen een waarde in PowerApps, net als een tekenreeks of getal. Ze kunnen worden doorgegeven aan en geretourneerd uit functies.  **Filter**, **Search** en **LookUp** wijzigen een tabel niet. In plaats daarvan nemen ze een tabel als een argument en retourneren ze een tabel of een record of enkele waarde eruit. Zie [working with tables (werken met tabellen)](../working-with-tables.md) voor meer informatie.
 
-[!INCLUDE [delegation](../../includes/delegation.md)]
+[!INCLUDE [delegation](../includes/delegation.md)]
 
 ## <a name="syntax"></a>Syntaxis
 **Filter**( *Table*, *Formula1* [, *Formula2*, ... ] )
@@ -53,7 +53,8 @@ De functie **Search** zoekt records in een tabel met een tekenreeks in een van d
 * *SearchString* - vereist. De tekenreeks waarnaar moet worden gezocht. Bij *leeg* of een lege tekenreeks worden alle records geretourneerd.
 * *Column(s)* - vereist. De namen van de kolommen in de *tabel* waarbinnen moet worden gezocht. Kolommen waarbinnen moet worden gezocht, moeten tekst bevatten. Kolomnamen moeten tekenreeksen zijn en worden omsloten door dubbele aanhalingstekens. De kolomnamen moeten echter statisch zijn en kunnen niet worden berekend met een formule. Als *SearchString* als gedeeltelijke overeenkomst binnen de gegevens van een van deze kolommen wordt gevonden, zal de volledige record worden geretourneerd.
 
-**Opmerking:** Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **'\_x0020\_'**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
+> [!NOTE]
+> Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
 
 **LookUp**( *Table*, *Formula* [, *ReductionFormula* ] )
 

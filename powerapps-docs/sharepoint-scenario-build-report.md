@@ -13,20 +13,22 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/12/2017
+ms.date: 01/10/2018
 ms.author: mblythe
-ms.openlocfilehash: c576f71532049405b879cc904c4232e297478cac
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 1b22885a6ff97b1ffcf67da291ab89d091863981
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="create-a-power-bi-report-to-analyze-projects"></a>Een Power BI-rapport maken voor projectanalyse
-**Opmerking:** dit artikel maakt deel uit van een reeks zelfstudies over het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint Online. Lees de [inleiding tot de reeks](sharepoint-scenario-intro.md) zodat u een idee van het geheel krijgt en van de betreffende downloads.
+> [!NOTE]
+> Dit artikel maakt deel uit van een reeks zelfstudies over het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint Online. Lees de [inleiding tot de reeks](sharepoint-scenario-intro.md) zodat u een idee van het geheel krijgt en van de betreffende downloads.
 
 In deze taak wordt een Power BI-rapport gemaakt op basis van de twee SharePoint-lijsten. We brengen de lijstgegevens over naar Power BI Desktop en schonen de lijst enigszins op, voeren wat eenvoudige gegevensmodellering uit en maken een set visualisaties die ons iets over de gegevens duidelijk maken.
 
-**Tip:** het [downloadpakket](https://aka.ms/o4ia0f) voor dit scenario omvat een voltooide versie van dit rapport: project-analysis.pbix.
+> [!TIP]
+> Het [downloadpakket](https://aka.ms/o4ia0f) voor dit scenario omvat een voltooide versie van dit rapport: project-analysis.pbix.
 
 ## <a name="quick-review-of-power-bi-desktop"></a>Kort overzicht van Power BI Desktop
 Voordat we beginnen met het maken van het rapport, kijken we nog een keer naar Power BI Desktop. Dit is een krachtig hulpprogramma, met talloze functies. We richten ons dus op een overzicht van de gebieden die u in deze taak zult gebruiken. Er zijn drie belangrijke werkgebieden of *weergaven* in Power BI Desktop: de weergave **Rapport**, de weergave **Gegevens** en de weergave **Relaties**. Power BI Desktop bevat ook **Query-editor**, dat in een afzonderlijk venster wordt geopend.
@@ -93,11 +95,13 @@ In deze stap gaan we eerst verbinding maken met de twee lijsten. Vervolgens scho
 2. Selecteer in het middelste deelvenster de kolom **FileSystemObjectType** en klik of tik op **Kolommen verwijderen**.
    
     ![Kolommen verwijderen](./media/sharepoint-scenario-build-report/05-01-07-remove-column.png)
-3. Verwijder de twee kolommen na de kolom **Id**: **ServerRedirectedEmbedURL** en **ContentTypeId**. Tip: gebruik de Shift-toets om beide kolommen te selecteren. Klik vervolgens op **Kolommen verwijderen**.
+3. Verwijder de twee kolommen na de kolom **Id**: **ServerRedirectedEmbedURL** en **ContentTypeId**. 
+> [!TIP]
+> Gebruik de Shift-toets om beide kolommen te selecteren. Klik vervolgens op **Kolommen verwijderen**.
 4. Verwijder alle kolommen rechts van de kolom **PMAssigned** (totaal 22 kolommen). De tabel moet met de volgende afbeelding overeenkomen:
    
     ![Tabel Projectdetails in Query-editor](./media/sharepoint-scenario-build-report/05-01-08-table-details.png)
-5. Herhaal de procedure die u voor **Projectdetails** hebt uitgevoerd en verwijder alle kolommen rechts van de kolom **Approved** (totaal 22 kolommen). De tabel moet met de volgende afbeelding overeenkomen:
+5. Herhaal het proces dat u zojuist hebt doorlopen, nu voor **Project aanvragen**: verwijder **FileSystemObjectType**, **ServerRedirectedEmbedURL**,  **ContentTypeId** en alle kolommen aan de rechterkant van de kolom **Goedgekeurd** (in totaal 22 kolommen). De tabel moet met de volgende afbeelding overeenkomen:
    
     ![ Tabel Projectaanvragen in Query-editor](./media/sharepoint-scenario-build-report/05-01-09-table-requests.png)
 
@@ -109,16 +113,21 @@ In deze stap gaan we eerst verbinding maken met de twee lijsten. Vervolgens scho
 3. Selecteer de kolom **ApprovedDate**, klik of tik op **Gegevenstype: willekeurig** en vervolgens op **Datum**.
    
     ![ Gegevenstype wijzigen in datum](./media/sharepoint-scenario-build-report/05-01-11-datatype-date.png)
+
 4. Herhaal de vorige stap voor de kolommen **ProjectedStartDate** en **ProjectedEndDate**.
 
 ### <a name="change-the-data-type-on-project-requests-columns"></a>Het gegevenstype wijzigen in kolommen met projectaanvragen
+
 1. Selecteer de kolom **EstimatedDays**, klik of tik op **Gegevenstype: willekeurig** en vervolgens op **Geheel getal**.
+
 2. Selecteer de kolom **RequestDate**, klik of tik op **Gegevenstype: willekeurig** en vervolgens op **Datum**.
 
 ### <a name="apply-and-save-changes"></a>Wijzigingen toepassen en opslaan
+
 1. Klik op het tabblad **Start** op **Sluiten en toepassen** om Query-editor te sluiten en terug te gaan naar het hoofdvenster van Power BI Desktop.
    
     ![Sluiten en wijzigingen toepassen](./media/sharepoint-scenario-build-report/05-01-12-close-apply.png)
+
 2. Klik of tik op **Bestand** en vervolgens op **Opslaan**. Sla het bestand op onder de naam project-analysis.pbix.
 
 ## <a name="step-2-improve-the-data-model"></a>Stap 2: Het gegevensmodel verbeteren
@@ -137,18 +146,24 @@ Bij het laden van de lijsten in Power BI Desktop is er een relatie tussen de lij
 1. Klik of tik op het pictogram **Gegevensweergave**.
    
     ![Gegevensweergave](./media/sharepoint-scenario-build-report/05-02-01-data-view.png)
+
 2. Klik of tik op het tabblad **Modelleren** op **Relaties beheren**. Voor alle stappen met betrekking tot gegevensmodellering blijven we op dit tabblad in de weergave **Gegevens**.
    
     ![Relaties beheren](./media/sharepoint-scenario-build-report/05-02-02-manage-relationships.png)
+
 3. Controleer of de bestaande relatie is geselecteerd, klik of tik op **Verwijderen** en vervolgens opnieuw op **Verwijderen** om te bevestigen.
    
     ![Relatie verwijderen](./media/sharepoint-scenario-build-report/05-02-03-delete-relationship.png)
+
 4. Klik op **Nieuw** om een andere relatie te maken.
+
 5. Voer de volgende handelingen uit in het dialoogvenster **Relatie maken**:
    
    1. Selecteer **Projectaanvragen** en de kolom **Id** voor de eerste tabel.
+   
    2. Selecteer **Projectdetails** en de kolom **RequestId** voor de tweede tabel.
-   3. Het scherm moet lijken op de volgende afbeelding. Klik of tik op **OK** als u klaar bent.
+   
+   3. Het scherm moet lijken op de volgende afbeelding. Klik of tik op **OK** als u klaar bent en vervolgens op **Sluiten**.
       
        ![Relatie maken](./media/sharepoint-scenario-build-report/05-02-04-create-relationship.png)
 
@@ -160,7 +175,7 @@ Bij het laden van de lijsten in Power BI Desktop is er een relatie tussen de lij
    
     ![Formulebalk met Dates = CALENDARAUTO()](./media/sharepoint-scenario-build-report/05-02-06-formula-bar.png)
    
-    Met deze formule wordt een tabel met de naam **Dates** gemaakt. Deze bevat één datumkolom. De tabel omvat alle datums uit de andere tabellen en wordt automatisch bijgewerkt als er extra datums worden toegevoegd (dat wil zeggen als er gegevens worden vernieuwd).
+    Met deze formule wordt een tabel met de naam **Dates** gemaakt. Deze bevat één datumkolom. De tabel omvat alle datums uit de andere tabel en wordt automatisch bijgewerkt als er extra datums worden toegevoegd (dat wil zeggen als er gegevens worden vernieuwd).
    
     Deze formule (en de andere in deze sectie) maakt gebruik van DAX (Data Analysis Expressions), een formuletaal voor Power BI en andere technologieën. Zie [DAX basics in Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-quickstart-learn-dax-basics/) (Basisbeginselen van DAX in Power BI Desktop) voor meer informatie.
 3. Druk op Enter om de tabel **Dates** te maken.
@@ -363,16 +378,16 @@ Nadat we deze rapportvisualisaties in Power BI Desktop hebben gemaakt, publicere
 4. Sleep **ProjectedStartDate** vanuit **Projectdetails** in het deelvenster **Velden** naar het gebied **Filters** van het deelvenster **Visualisaties**. Selecteer vervolgens alle datums, behalve voor **(Leeg)**.
    
     ![Filter op ProjectedStartDate](./media/sharepoint-scenario-build-report/05-03-17-filters-diff.png)
-5. Wijzig de grootte van de kolommen van de tabel zodat u alle gegevens kunt zien. De visualisatie moet er nu uitzien als in de volgende afbeelding.
+5. Wijzig de grootte van de kolommen van de tabel zodat u alle gegevens kunt zien en sorteer op **ApprovedStartDiff**, aflopend. De visualisatie moet er nu uitzien als in de volgende afbeelding.
    
     ![Tabel met ApprovedStartDiff-waarden](./media/sharepoint-scenario-build-report/05-03-18-chart-diff.png)
-6. Klik of tik op de pijl-omlaag voor **ApprovedStartDiff** en vervolgens op **Gemiddeld**, zodat we de gemiddelde tijdsduur kunnen zien tussen de goedkeuring en de verwachte begindatum van een project.
+6. Klik of tik in het gebied **Waarden** op de pijl-omlaag voor **ApprovedStartDiff** en klik of tik vervolgens op **Gemiddelde**. Nu zien we de gemiddelde duur tussen de goedkeuring van een project en de beoogde begindatum.
    
     ![Gemiddelde berekenen](./media/sharepoint-scenario-build-report/05-03-20a-average-menu.png)
-7. Klik of tik opnieuw op de pijl-omlaag voor **ApprovedStartDiff** en vervolgens op **Voorwaardelijke opmaak**.
+7. Klik of tik opnieuw op de pijl-omlaag voor **ApprovedStartDiff**, klik of tik op **Voorwaardelijke opmaak** en vervolgens op **Achtergrondkleurschalen**.
    
    ![Voorwaardelijke opmaak](./media/sharepoint-scenario-build-report/05-03-20b-conditional-menu.png)
-8. Gebruik de standaardinstellingen en klik op **OK**.
+8. Stel kleuren in voor de velden **Minimum** en **Maximum** zoals hieronder aangegeven en klik of tik vervolgens op **OK**.
    
    ![Opties voor voorwaardelijke opmaak](./media/sharepoint-scenario-build-report/05-03-21-conditional-dialog.png)
    

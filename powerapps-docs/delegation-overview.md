@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/15/2017
 ms.author: gregli
-ms.openlocfilehash: d4305884c14a4b85b2ed992a5df13a7d3bb2baa7
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: b6410a6b392f074c5e5a240e471fa2591e1e135d
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-delegation"></a>Delegering
 PowerApps bevat een krachtige set functies voor het filteren, sorteren en structureren van gegevenstabellen: **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)** en **[AddColumns](functions/function-table-shaping.md)** om er maar een paar te noemen.  Met behulp van deze functies kunt u uw gebruikers gerichte toegang bieden tot de informatie die zij nodig hebben.  Voor lezers met een databaseachtergrond is het gebruiken van deze functies vergelijkbare met het schrijven van een databasequery.  
@@ -95,7 +95,7 @@ Alle andere functies bieden geen ondersteuning voor delegeringen, waaronder deze
 
 Een veelgebruikte methode is om **AddColumns** en **LookUp** te gebruiken om gegevens uit de ene tabel samen te voegen in een andere tabel, iets wat in databasejargon een 'join' wordt genoemd.  Bijvoorbeeld:
 
-* **AddColumns( Producten, "Naam leverancier", LookUp( Leveranciers, Suppliers.ID = Product.SupplierID ).Name )**
+**AddColumns( Producten, "Naam leverancier", LookUp( Leveranciers, Suppliers.ID = Product.SupplierID ).Name )**
 
 Hoewel **Producten** en **Leveranciers** delegeerbare gegevensbronnen kunnen zijn en **LookUp** een delegeerbare functie is, geldt dat niet voor de functie **AddColumns**.  Het resultaat van de gehele formule wordt dan ook beperkt tot het eerste deel van de gegevensbron **Producten**.  
 
@@ -118,27 +118,26 @@ Blauwe stippen worden alleen weergegeven in formules die worden toegepast op del
 ## <a name="examples"></a>Voorbeelden
 In dit voorbeeld gebruiken we een SQL Server-tabel met producten, met name fruit, met de naam **[dbo].[Products]**.  In het scherm Nieuw kunt u met PowerApps een eenvoudige app met drie schermen maken die is verbonden met deze gegevensbron:
 
-![](media/delegation-overview/products-afd.png)
+![App met drie schermen](media/delegation-overview/products-afd.png)
 
 Kijk eens goed naar de formule voor de eigenschap **Items** van de galerie.  Hierin worden de functies **SortByColumns** en **Search** gebruikt, die beide kunnen worden gedelegeerd.
 
 We typen **'Apple'** in het besturingselement voor het invoeren van zoektekst.  Als u heel goed oplet, ziet u boven aan het scherm bewegende stippen terwijl het nieuwe item in de nieuwe zoekopdracht wordt verwerkt.  De stippen geven aan dat er communicatie is met SQL Server:
 
-![](media/delegation-overview/products-apple.png)
+![Besturingselement voor invoer van zoektekst](media/delegation-overview/products-apple.png)
 
 Aangezien alles hier delegeerbaar is, zelfs als de tabel **[dbo].[Products]** miljoenen records bevat, worden alle overeenkomende records gevonden en worden er pagina's uit de galerie weergegeven terwijl de gebruiker door de resultaten bladert.
 
 U ziet dat er overeenkomsten zijn gevonden voor zowel 'Apple' als 'Pineapple'.  U kunt de functie **Search** gebruiken om een zoekterm overal in een tekstkolom te vinden.  Het is ook mogelijk om een zoekterm alleen te vinden als die aan het begin van de naam van de vrucht staat.  We gebruiken dan een andere delegeerbare functie, **Filter**, met een complexere zoekterm (voor het overzicht hebben we de aanroep naar **SortByColumns** weggelaten):
 
-![](media/delegation-overview/products-apple-bluedot.png)
+![De aanroep SortByColumns verwijderen](media/delegation-overview/products-apple-bluedot.png)
 
 Dit lijkt te werken, want nu wordt alleen **'Apples'** weergegeven en **'Pineapple'** niet meer.  Er wordt nu echter een blauwe stip weergegeven naast de galerie en een blauwe golflijn onder een gedeelte van de formule.  De blauwe stip wordt zelfs weergegeven in de miniatuur van het scherm.  Als we de blauwe stip naast de galerie aanwijzen, zien we het volgende:
 
-![](media/delegation-overview/products-apple-bluepopup.png)
+![Muisaanwijzer over blauwe stip bewegen](media/delegation-overview/products-apple-bluepopup.png)
 
 Hoewel we een delegeerbare functie, **Filter**, gebruiken met een delegeerbare gegevensbron, SQL Server, is de formule die we hebben gebruikt in **Filter** niet delegeerbaar.  **Mid** en **Len** kunnen namelijk aan geen enkele gegevensbron worden gedelegeerd.
 
 Maar het heeft wel gewerkt, toch?  In zekere zin wel.  En om die reden zien we een blauwe stip en niet een geel gevaarpictogram en een rode golflijn om een fout aan te geven.  Als de tabel **[dbo].[Products]** minder dan 500 records bevat, dan heeft de formule perfect gewerkt.   Alle records zijn dan overgebracht naar het apparaat en de functie **Filter** is lokaal toegepast.  
 
 Als de tabel echter meer dan 500 records bevat, worden in de galerie alleen vruchten weergegeven waarvan de naam begint met **'Apple'** *uit de eerste 500 records van de tabel*.  Als **'Apple, Fuji'** wordt weergegeven als een naam in record 501 of 500.001, wordt deze overeenkomst niet gevonden.
-

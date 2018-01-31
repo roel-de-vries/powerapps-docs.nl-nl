@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: 934a3627d902db6dcb853fddae06b3f1f229d2b6
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: fbbf976b7c0fe4699e9c967b3ecac541efc2c223
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="delete-an-app-from-powerapps"></a>Een app verwijderen uit PowerApps
 In dit artikel wordt beschreven hoe u een app verwijdert uit uw PowerApps-account en uit de accounts van iedereen met wie de app is gedeeld.
@@ -32,7 +32,8 @@ In dit artikel wordt beschreven hoe u een app verwijdert uit uw PowerApps-accoun
    
     ![](./media/delete-app/filter-list.png)
    
-    **Opmerking**: Als de app die u wilt verwijderen niet wordt weergegeven, controleer dan of u zich in de juiste omgeving bevindt.
+    > [!NOTE]
+> Als de app die u wilt verwijderen niet wordt weergegeven, controleer dan of u zich in de juiste omgeving bevindt.
 3. Klik of tik aan de rechterkant op het pictogram Details voor de app die u wilt verwijderen.
    
     ![](./media/delete-app/app-options.png)
@@ -40,10 +41,12 @@ In dit artikel wordt beschreven hoe u een app verwijdert uit uw PowerApps-accoun
    
     ![](./media/delete-app/delete-icon.png)
    
-    **Opmerking**: U kunt een app alleen verwijderen als u de machtiging **Inzender** hebt voor de app.
+    > [!NOTE]
+> U kunt een app alleen verwijderen als u de machtiging **Inzender** hebt voor de app.
 5. Klik of tik in het dialoogvenster dat verschijnt op **Uit de cloud verwijderen**.  
    
-    **Belangrijk**: Met deze actie wordt deze app niet alleen permanent verwijderd uit uw account, maar ook uit de accounts van alle gebruikers met wie deze app is gedeeld.
+    > [!IMPORTANT]
+> Met deze actie wordt deze app niet alleen permanent verwijderd uit uw account, maar ook uit de accounts van alle gebruikers met wie deze app is gedeeld.
    
     ![](./media/delete-app/delete-button.png)
 

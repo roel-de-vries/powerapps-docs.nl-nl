@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: 4a0b39a9b247a6d410ac1a705234f90833ec707a
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: e61566077ccdf9f3b2913ec0293868c1863c26fa
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="revert-function-in-powerapps"></a>De functie Revert in PowerApps
 Herstelt de [records](../working-with-tables.md#records) in een [gegevensbron](../working-with-data-sources.md) en wist fouten.
@@ -31,7 +31,7 @@ Voor de herstelde records wist **Revert** ook eventuele fouten in de [tabel](../
 
 Als de functie **[Errors](function-errors.md)** een conflict meldt nadat **[Patch](function-patch.md)** of een andere gegevensbewerking is uitgevoerd, kunt u **Revert** gebruiken om de conflicterende versie van de record te herstellen en de wijziging opnieuw toepassen.
 
-**Revert** heeft geen retourwaarde. U kunt deze functie alleen gebruiken in een [gedragsformule](../working-with-formulas-in-depth.md#behavior-formulas).
+**Revert** heeft geen retourwaarde. U kunt deze functie alleen gebruiken in een [gedragsformule](../working-with-formulas-in-depth.md).
 
 ## <a name="syntax"></a>Syntaxis
 **Revert**( *DataSource* [, *Record* ] )

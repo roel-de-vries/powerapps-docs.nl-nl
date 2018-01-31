@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: a3f2698eb0df8861bccf3221f53f5458f6e1b307
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 7f7a3f1add6f91d920ed38308e577d14386f81ec
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="groupby-and-ungroup-functions-in-powerapps"></a>Functies GroupBy en Groep opheffen in PowerApps
 Groepeert [records](../working-with-tables.md#records) van een [tabel](../working-with-tables.md) en heft deze groep op.
@@ -52,14 +52,16 @@ Een tabel is een waarde in PowerApps, net zoals een tekenreeks of getal. U kunt 
 * *NaamKolom(men)* - vereist.  De kolomnamen in *Table* waarop records moeten worden gegroepeerd.  Deze kolommen worden kolommen in de resulterende tabel.
 * *GroupColumnName* - vereist.  De kolomnaam voor de opslag van recordgegevens die niet in de *ColumnName(s)* zijn.
   
-    **Opmerking:** Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **'\_x0020\_'**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
+    > [!NOTE]
+> Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
 
 **Ungroup**( *Table*, *GroupColumnName* )
 
 * *Tabel* - vereist. Tabel waarvan de groep moet worden opgeheven.
 * *GroupColumnName* - vereist. De kolom die de recordgegevensconfiguratie met de functie **GroupBy** bevat.
   
-    **Opmerking:** Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **'\_x0020\_'**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
+    > [!NOTE]
+> Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
 
 ## <a name="examples"></a>Voorbeelden
 ### <a name="create-a-collection"></a>Een verzameling maken

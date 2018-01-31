@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 95def246100aa58d62bcc174d3b1822e5bcc2227
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 9c4bbdaa6cc218a1e635289c097f7900c9e83c81
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="understand-data-cards"></a>Gegevenskaarten begrijpen
 Besturingselementen van **[kaarten](controls/control-card.md)** zijn de bouwstenen van de besturingselementen voor de formulieren **[Bewerken](controls/control-form-detail.md)** en  **[Weergeven](controls/control-form-detail.md)**. Het formulier vertegenwoordigt de volledige record en elke kaart één veld van dat record.
@@ -81,7 +81,8 @@ We wijzigen nu de **[DisplayName](controls/control-card.md)** zodat er een spati
 
 We hebben nu de controle over deze kaart en kunnen deze verder aanpassen aan wat we nodig hebben. Maar we kunnen de kaart niet meer van de ene weergave in de andere veranderen (bijvoorbeeld tekst met één regel naar tekst met meerdere regels), zoals we eerder hebben gedaan. We hebben de vooraf gedefinieerde kaart omgezet in een 'aangepaste kaart' die we nu zelf bepalen.  
 
-**Waarschuwing**: u kunt een eenmaal ontgrendelde kaart niet meer vergrendelen. U kunt de vergrendelde status herstellen door de kaart te verwijderen en opnieuw in het rechterdeelvenster te plaatsen.
+> [!IMPORTANT]
+> U kunt een eenmaal ontgrendelde kaart niet meer vergrendelen. U kunt de vergrendelde status herstellen door de kaart te verwijderen en opnieuw in het rechterdeelvenster te plaatsen.
 
 U kunt het uiterlijk en gedrag van een niet-vergrendelde-kaart op verschillende manieren wijzigen, zoals het toevoegen en verwijderen van besturingselementen in de kaart. U kunt bijvoorbeeld een stervorm uit het menu **Pictogrammen** in het tabblad **Invoegen** toevoegen.
 
@@ -95,7 +96,8 @@ Ontgrendel als ander voorbeeld de kaart **AfbeeldingsURL** en voeg vervolgens ee
 
 Stel in de formulebalk de eigenschap **Image** van dit besturingselement in op *Tekstvak*.**Tekst**. Hierin is *Tekstvak* de naam van het besturingselement **Tekstinvoer** dat de URL bevat:
 
-**Tip**: druk op de Alt-toets om de naam van elk besturingselement weer te geven.
+> [!TIP]
+> Druk op de Alt-toets om de naam van elk besturingselement weer te geven.
 
 ![](./media/working-with-cards/show-image.png)
 

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/07/2016
 ms.author: jamesol
-ms.openlocfilehash: 661483b6d240785f2945011005b4e552e04ac075
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 3ea0d8a3f10a1b9dad7641c1291bae3aef40000a
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="powerapps-in-your-organization-qa"></a>Veelgestelde vragen over PowerApps in uw organisatie
 Dit onderwerp beschrijft hoe gebruikers in uw organisatie PowerApps kunnen gebruiken en hoe u de PowerApps-service kunt beheren.
@@ -65,9 +65,13 @@ Bekijk het volgende hoofdstuk als u de PowerApps-tegel standaard wilt verwijdere
 Als er een licentie voor PowerApps-abonnement 1 of 2 is toegewezen aan een gebruiker, kunt u met behulp van de volgende stappen de PowerApps-licentie voor die gebruiker verwijderen:
 
 1. Ga naar het [Office 365-beheerportal](https://portal.microsoftonline.com/).
+
 2. Selecteer in de navigatiebalk **Gebruikers** en selecteer vervolgens **Actieve gebruikers**.
+
 3. Zoek de gebruiker waarvoor u de licentie wilt verwijderen en selecteer vervolgens de naam.
+
 4. Ga naar het blad met gebruikersgegevens en selecteer in de sectie **Productlicenties** de optie **Bewerken**.
+
 5. Zoek de licentie **Microsoft PowerApps-abonnement 1** of **Microsoft PowerApps-abonnement 2**, stel de wisselknop in op **Uit** en selecteer vervolgens **Opslaan**.
    
     ![](./media/signup-question-and-answer/remove-license.png)
@@ -75,9 +79,13 @@ Als er een licentie voor PowerApps-abonnement 1 of 2 is toegewezen aan een gebru
 Als een gebruiker toegang heeft tot PowerApps als onderdeel van een Office 365- en/of Dynamics 365-abonnement, kunt u aan de hand van de volgende stappen hun toegang tot de PowerApps-service uitschakelen:
 
 1. Ga naar het [Office 365-beheerportal](https://portal.microsoftonline.com/).
+
 2. Selecteer in de navigatiebalk **Gebruikers** en selecteer vervolgens **Actieve gebruikers**.
+
 3. Zoek de gebruiker waarvoor u de toegang wilt uitschakelen en selecteer vervolgens de naam.
+
 4. Ga naar het blad met gebruikersgegevens en selecteer in de sectie **Productlicenties** de optie **Bewerken**.
+
 5. Vouw de gebruikerslicentie voor Office 365 of Dynamics 365 uit, schakel toegang tot de service **PowerApps voor Office 365** of **PowerApps voor Dynamics 365** uit en selecteer vervolgens **Opslaan**.
    
     ![](./media/signup-question-and-answer/remove-service-plan.png)
@@ -93,7 +101,7 @@ Het verwijderen van de PowerApps-licentie of -service voor een gebruiker in uw o
   
     ![](./media/signup-question-and-answer/office-waffle.png)
 
-### <a name="how-can-restrict-my-users-ability-to-access-my-organizations-business-data-using-powerapps"></a>Hoe kan ik voor mijn gebruikers de toegang tot bedrijfsgegevens via PowerApps beperken?
+### <a name="how-can-i-restrict-my-users-ability-to-access-my-organizations-business-data-using-powerapps"></a>Hoe kan ik voor mijn gebruikers de toegang tot bedrijfsgegevens via PowerApps beperken?
 In PowerApps kunt u gegevenszones maken voor bedrijfsgegevens en andere gegevens, zoals hieronder weergegeven.  Wanneer deze beleidsregels ter preventie van gegevensverlies zijn geïmplementeerd, kunnen gebruikers geen PowerApps maken of uitvoeren die bedrijfsgegevens en andere gegevens combineren. Zie [Data loss prevention (DLP) policies (Beleid ter preventie van gegevensverlies)](prevent-data-loss.md) voor meer informatie.
 
 ![](./media/signup-question-and-answer/data-loss-prevention-policy.png)
@@ -129,7 +137,8 @@ Als een tenant is gemaakt door Microsoft, kunt u deze claimen en de tenant beher
 4. Selecteer het pictogram van het startprogramma voor apps in de linkerbovenhoek en kies vervolgens Beheerder.
 5. Lees de instructies op de pagina **Beheerder worden** en kies vervolgens **Ja, ik wil de beheerder worden**.  
 
-**OPMERKING**: als deze optie niet wordt weergegeven, is er al een Office 365-beheerder.
+> [!NOTE]
+> Als deze optie niet wordt weergegeven, is er al een Office 365-beheerder.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Kan ik beheren aan welke Office 365-tenant gebruikers worden toegevoegd, als ik heb meerdere domeinen heb?
 Als u niets doet, wordt er een tenant gemaakt voor elk domein en subdomein dat hoort bij de e-mailadressen van uw gebruikers.
@@ -138,5 +147,6 @@ Als u wilt dat alle gebruikers worden toegevoegd aan dezelfde tenant, ongeacht h
 
 * Maak vooraf een tenant of gebruik een bestaande tenant. Voeg alle bestaande domeinen en subdomeinen die u wilt samenvoegen toe aan deze tenant. Alle gebruikers met een e-mailadres dat eindigt op deze domeinen en subdomeinen worden dan automatisch lid van de doel-tenant wanneer ze zich aanmelden.
 
-**BELANGRIJK**: er is geen ondersteuning voor een geautomatiseerd mechanisme om gebruikers over te plaatsen naar een andere tenants als deze eenmaal zijn gemaakt. Zie voor meer informatie over het toevoegen van domeinen aan een enkele Office 365-tenant, [Add your users and domain to Office 365 (Uw gebruikers en domein toevoegen aan Office 365)](https://support.office.com/article/Add-your-users-and-domain-to-Office-365-ffdb2216-330d-4d73-832b-3e31bcb5b2a7).
+> [!IMPORTANT]
+> Er is geen ondersteuning voor een geautomatiseerd mechanisme om gebruikers over te plaatsen naar een andere tenants als deze eenmaal zijn gemaakt. Zie voor meer informatie over het toevoegen van domeinen aan een enkele Office 365-tenant, [Add your users and domain to Office 365 (Uw gebruikers en domein toevoegen aan Office 365)](https://support.office.com/article/Add-your-users-and-domain-to-Office-365-ffdb2216-330d-4d73-832b-3e31bcb5b2a7).
 

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/13/2017
 ms.author: fikaradz
-ms.openlocfilehash: 7220771d9798e6bb5481bbc86c430a357aeab7d2
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 4d298e24ea967cbf5cb47638d4296f6efbd758c7
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="combo-box-control-in-powerapps"></a>Besturingselement voor keuzelijst met invoervak in PowerApps
 Een besturingselement waarmee gebruikers selecties kunnen maken in geboden opties.  Ondersteunt zoeken en meervoudige selectie.
@@ -30,6 +30,9 @@ Met een besturingselement voor **keuzelijst met invoervak** kunt u zoeken naar i
 De modus voor enkelvoudige of meervoudige selectie wordt geconfigureerd via de eigenschap SelectMultiple.
 
 Wanneer u zoekt naar items om te selecteren, kunt u bij elk item ervoor kiezen één gegevenswaarde, twee waarden of een afbeelding en twee waarden (Persoon) weer te geven door de instelling Indeling in het deelvenster Gegevens te wijzigen.
+
+## <a name="people-picker"></a>Personen selecteren
+Als u personen wilt selecteren met behulp van een **keuzelijst met invoervak**, kiest u de sjabloon **Persoon** bij de opmaakinstellingen in het deelvenster Gegevens en configureert u de desbetreffende gegevenseigenschappen die voor de onderstaande persoon moeten worden weergegeven.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
 **[Items](properties-core.md)**: de gegevensbron waarin selecties kunnen worden gemaakt.
@@ -78,8 +81,7 @@ Wanneer u zoekt naar items om te selecteren, kunt u bij elk item ervoor kiezen �
 2. Klik op het tabblad Eigenschappen op Gegevens.  
 3. Selecteer de gegevensbron, indeling en verwante eigenschappen daaronder.
 4. Stel op het tabblad Geavanceerd de eigenschap **SelectMultiple** in.
-   
-    Er verschijnt een functionele **keuzelijst met invoervak** in uw app.
-   
-    Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
 
+    Er verschijnt een functionele **keuzelijst met invoervak** in uw app.
+
+    Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?

@@ -14,18 +14,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/15/2016
 ms.author: anneta
-ms.openlocfilehash: 13b15a29cf2f9e211328b815b8419799024e481e
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: 5ba6f02db0de796cb75c57d914abf41caa259cbf
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="how-to-save-images-in-an-excel-file-and-then-add-these-images-to-your-app"></a>Afbeeldingen in een Excel-bestand opslaan en deze afbeeldingen vervolgens toevoegen aan uw app
-&nbsp;
-
-[!INCLUDE [app-customization-requirements](includes/app-customization-requirements.md)]
-
-* Leer hoe u [een gegevensbron kunt toevoegen](add-data-connection.md)
 
 In deze zelfstudie worden de volgende punten besproken:
 
@@ -35,7 +30,11 @@ In deze zelfstudie worden de volgende punten besproken:
 * Afbeeldingen gemaakt met behulp van het besturingselement voor pen-invoer opslaan in een Excel-bestand
 * Afbeeldingen uit een Excel-bestand weergeven in uw app
 
+[!INCLUDE [app-customization-requirements](includes/app-customization-requirements.md)]
+* Leer hoe u [een gegevensbron kunt toevoegen](add-data-connection.md)
+
 ## <a name="create-the-excel-file-as-a-table"></a>Een Excel-bestand als tabel maken
+
 1. Geef een kolom in een leeg Excel-bestand de naam **Image [image]**.
 2. Volg de volgende stappen om een tabel te maken:    
    
@@ -77,7 +76,8 @@ Een ander voorbeeld: u kunt afbeeldingen opslaan in een cloudopslagaccount en ve
 
 In dit voorbeeld gebruiken we de map [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip), die ook enkele JPEG-bestanden bevat.
 
-**OPMERKING:** bij het weergeven van afbeeldingen uit een Excel-bestand, moet het pad naar deze afbeeldingen slash-tekens gebruiken. Wanneer PowerApps afbeeldingen opslaat naar een Excel-tabel (zoals in de vorige stap), worden in het pad backslash-tekens gebruikt. U kunt ook de **SavePen_images** uit het vorige voorbeeld gebruiken. Als u dit doet, dient u dus de slash-tekens in de paden in de Excel-tabel te vervangen door backslash-tekens. Anders worden de afbeeldingen niet weergegeven.  
+> [!NOTE]
+> Bij het weergeven van afbeeldingen uit een Excel-bestand, moet het pad naar deze afbeeldingen slash-tekens gebruiken. Wanneer PowerApps afbeeldingen opslaat naar een Excel-tabel (zoals in de vorige stap), worden in het pad backslash-tekens gebruikt. U kunt ook de **SavePen_images** uit het vorige voorbeeld gebruiken. Als u dit doet, dient u dus de slash-tekens in de paden in de Excel-tabel te vervangen door backslash-tekens. Anders worden de afbeeldingen niet weergegeven.  
 
 1. Download eerst [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip) en pak de map **Assets** uit naar uw cloudopslagaccount.
 2. Maak in een Excel-werkblad een tabel die er ongeveer zo uitziet:

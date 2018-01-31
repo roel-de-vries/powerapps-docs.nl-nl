@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/09/2016
 ms.author: gregli
-ms.openlocfilehash: 9f829e8c98b03bc47bc36f26273267265819f4ae
-ms.sourcegitcommit: 43be6a4e08849d522aabb6f767a81c092419babc
+ms.openlocfilehash: b40f44f8bdcb319191221d0f2cee39e15d5b3b49
+ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="trim-and-trimends-functions-in-powerapps"></a>De functies Trim en TrimEnds in PowerApps
 Hiermee verwijdert u extra spaties uit een tekenreeks.
@@ -29,7 +29,7 @@ De functie **Trim** verwijdert alle spaties uit een tekenreeks behalve enkele sp
 
 De functie **TrimEnds** verwijdert alle spaties aan het begin en einde van een tekenreeks, maar spaties tussen woorden blijven intact.
 
-Als u één tekenreeks opgeeft, is de geretourneerde waarde voor beide functies de tekenreeks waarbij eventuele extra spaties zijn verwijderd. Als u een [tabel](../working-with-tables.md) met één kolom opgeeft die tekenreeksen bevat, is de geretourneerde waarde een tabel met één kolom met tekenreeksen waaruit spaties zijn verwijderd. Als u een tabel met meerdere kolommen hebt, kunt u deze omvormen tot een tabel met één kolom, zoals in [working with tables (werken met tabellen)](../working-with-tables.md) is beschreven.
+Als u één tekenreeks opgeeft, is de geretourneerde waarde voor beide functies de tekenreeks waarbij eventuele extra spaties zijn verwijderd. Als u een [tabel](../working-with-tables.md) met één kolom opgeeft die tekenreeksen bevat, is de geretourneerde waarde een tabel met één kolom met tekenreeksen waaruit spaties zijn verwijderd. Als u een tabel met meerdere kolommen hebt, kunt u deze omvormen tot een tabel met één kolom, zoals wordt beschreven in [werken met tabellen](../working-with-tables.md).
 
 Doordat de functie **Trim** spaties tussen woorden verwijdert, werkt deze op dezelfde manier als de functie SPATIES.WISSEN in Microsoft Excel. De functie **TrimEnds** komt daarentegen overeen met programmeerfuncties die alleen spaties aan het begin en einde van elke tekenreeks wissen.
 
@@ -60,5 +60,6 @@ U maakt deze verzameling door de eigenschap **OnSelect** van een besturingseleme
 | **Trim(&nbsp;Spaties&nbsp;)** |Verwijdert alle spaties aan het begin en einde van elke tekenreeks en extra spaties in elke tekenreeks in de verzameling **Spaties**. |<style> img { max-width: none } </style> ![](media/function-trim/output-trim.png) |
 | **TrimEnds(&nbsp;Spaties&nbsp;)** |Verwijdert alle spaties aan het begin en einde van elke tekenreeks in de verzameling **Spaties**. |<style> img { max-width: none } </style> ![](media/function-trim/output-trimends.png) |
 
-**Opmerking**: Extra spaties worden niet weergegeven als u een verzameling weergeeft door te klikken of tikken op **Verzamelingen** in het menu **Bestand**. Als u de lengte van de tekenreeks wilt controleren, gebruikt u de functie  **[Len](function-len.md)** .
+> [!NOTE]
+> Extra spaties worden niet weergegeven als u een verzameling weergeeft door te klikken of tikken op **Verzamelingen** in het menu **Bestand**. Als u de lengte van de tekenreeks wilt controleren, gebruikt u de functie  **[Len](function-len.md)** .
 
