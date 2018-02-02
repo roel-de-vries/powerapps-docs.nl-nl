@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/01/2017
 ms.author: mblythe
 ms.openlocfilehash: 225f4d79cee5a960116cb29efd06a8a5d229673c
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 68eee592c351688e5d0bd458f33a70be507fa53f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="powerapps-for-microsoft-partners-and-isvs"></a>PowerApps voor Microsoft-partners en ISV's
 Als Microsoft-partner of Independent Software Vendor (ISV) kunt u de ingebruikname door klanten versnellen door uw producten uit te breiden met integratie in de gegevens en bedrijfsprocessen van uw klanten. Werk met gegevens die in Common Data Service zijn opgeslagen, en bouw connectors waarmee uw klanten verbinding kunnen maken met uw producten via de apps die ze in PowerApps bouwen. Genereer nieuwe leads voor uw bedrijf door een app te bouwen met PowerApps en deze te publiceren op AppSource zodat nieuwe klanten ze kunnen uitproberen.
