@@ -13,16 +13,20 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/08/2017
+ms.date: 01/24/2018
 ms.author: sharik
-ms.openlocfilehash: b359a4f5dcc930b344ded68d5ffcd3ae72c007c6
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: f6b91bcc8b5e4c9d0128c2cba1eb3f772c6f7451
+ms.sourcegitcommit: faaf9adebd72794d2988fba1b27a31d70b5268f8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>Veelvoorkomende problemen en oplossingen voor PowerApps
 ## <a name="recently-addedchanged"></a>Onlangs toegevoegd/gewijzigd
+1. **App werkt niet**
+
+    Als een app die u hebt gemaakt zonder waarschuwing niet meer werkt, komt dit wellicht doordat u de app in de afgelopen zes maanden niet hebt bijgewerkt of opnieuw hebt gepubliceerd. U lost dit probleem op door de app bij te werken en/of opnieuw te publiceren om de app te synchroniseren met de nieuwste versie van PowerApps. Zorg ervoor dat u de app steeds binnen zes maanden na de laatste publicatiedatum bijwerkt en/of opnieuw publiceert.
+
 1. **Besturingselement voor gegevenstabel**
 
     Als u een besturingselement voor een **gegevenstabel** kopieert en plakt waarvoor de eigenschap **Items** is ingesteld op een formule die een **filterfunctie** bevat, krijgt de formule voor de eigenschap **Items** op de nieuwe **gegevenstabel** veldnamen die het achtervoegsel **_1** bevatten. Hierdoor worden de veldnamen ongeldig en worden er geen gegevens weergegeven in de tabel. U kunt dit probleem omzeilen door voordat u het besturingselement kopieert, te controleren of de **filterfunctie** niet verwijst naar een veld in de gegevensbron met dezelfde naam als een kolom in het besturingselement voor de **gegevenstabel**. Als dit het geval is, wijzigt u de naam van de kolom in het besturingselement voor de **gegevenstabel**. U kunt het achtervoegsel **_1** ook uit de ongeldige veldnamen verwijderen, zodat ze overeenkomen met de namen in de entiteit.

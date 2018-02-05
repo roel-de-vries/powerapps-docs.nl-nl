@@ -13,22 +13,26 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/18/2018
+ms.date: 01/31/2018
 ms.author: sharik
-ms.openlocfilehash: 5f3336d4cd3ab45f35a3ce93441dd30ffccbaca5
-ms.sourcegitcommit: 7d66f33f1419751dd1c758e344cc6d55818a0fd5
+ms.openlocfilehash: f98d8f3dd19d39a31f6f8e7ca2551efb6de18e34
+ms.sourcegitcommit: 19a83f07ad11e630e6b85b3540d78a2d2428d7b9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="whats-new-in-powerapps"></a>Wat is er nieuw in PowerApps?
 Zie [Veelvoorkomende problemen en oplossingen](common-issues-and-resolutions.md) voor meer informatie over bekende beperkingen.
 
+## <a name="jan-31"></a>31 jan
+1. Voeg ondertiteling toe aan [Video](controls/control-audio-video.md)-besturingselementen.
+2. Verbeterde foutafhandeling in [PDF Viewer](controls/control-pdf-viewer.md)-besturingselementen.
+
 ## <a name="jan-18"></a>18 jan
-* PowerApps voor iOS en Android ondersteunt nu de integratie met Microsoft Authenticator.
-* Een [keuzelijst met invoervak](controls/control-combo-box.md) vervangt het [SharePoint-besturingselement voor zoeken](sharepoint-lookup-fields.md) in formulieren en een nieuwe sjabloon voor [gegevenskaarten](working-with-cards.md) voor opzoekvelden met één keuzemogelijkheid is standaard geselecteerd in PowerApps Studio.
-* Binnen een [keuzelijst met invoervak](controls/control-combo-box.md) ziet u alle items in een lange lijst met verbeterde leesmodus.
-* Stel de grootte van de limiet in voor opslag van lokale records, tot een maximum van 2000 records in [niet-delegeerbare query’s](delegation-overview.md#non-delegable-limits). (Experimentele functie)
+1. PowerApps voor iOS en Android ondersteunt nu de integratie met Microsoft Authenticator.
+2. Een [keuzelijst met invoervak](controls/control-combo-box.md) vervangt het [SharePoint-besturingselement voor zoeken](sharepoint-lookup-fields.md) in formulieren en een nieuwe sjabloon voor [gegevenskaarten](working-with-cards.md) voor opzoekvelden met één keuzemogelijkheid is standaard geselecteerd in PowerApps Studio.
+3. Binnen een [keuzelijst met invoervak](controls/control-combo-box.md) ziet u alle items in een lange lijst met verbeterde leesmodus.
+4. Stel de grootte van de limiet in voor opslag van lokale records, tot een maximum van 2000 records in [niet-delegeerbare query’s](delegation-overview.md#non-delegable-limits). (Experimentele functie)
 
 ## <a name="jan-5"></a>5 jan
 * Reageer rechtstreeks vanuit uw Power BI-rapport of -dashboard op gegevens door een [aangepaste PowerApps-visual (preview-versie)](https://powerapps.microsoft.com/blog/powerbi-powerapps-visual/) te integreren die contextuele gegevens ophaalt uit uw Power BI-rapport.
@@ -63,9 +67,3 @@ Zie [Veelvoorkomende problemen en oplossingen](common-issues-and-resolutions.md)
 ## <a name="aug-15"></a>15 augustus
 1. Download een [lijst met apps](admin-view-apps.md) die in uw organisatie worden gebruikt.
 2. Delegeer de functies **Sum**, **Average**, **Min** en **Max** voor SQL Server.
-
-## <a name="july-26"></a>26 juli
-1. Geef een [Power BI-tegel](controls/control-power-bi-tile.md) weer in een app.
-2. Gebruik de functie **[Samenvoegen](functions/function-isblank-isempty.md)** om gemakkelijker een lege waarde te vervangen maar andere waarden ongemoeid te laten.
-3. Gebruik de functie **[EndsWith](functions/function-startswith.md)** om te testen of een tekenreeks eindigt met een andere tekenreeks.
-4. Gebruik de operatoren **[And](functions/operators.md)**, **[Or](functions/operators.md)** of **[Not](functions/operators.md)** in een formule.

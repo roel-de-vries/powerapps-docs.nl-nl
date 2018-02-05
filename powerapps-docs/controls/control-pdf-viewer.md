@@ -15,17 +15,21 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 51b0045bd8b5e83f754c4d68e1dfe63566371ae1
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: 8a67a071a19bae57f022fe960a0b29296b58cf5d
+ms.sourcegitcommit: 68eee592c351688e5d0bd458f33a70be507fa53f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="pdf-viewer-control-in-powerapps"></a>Besturingselement voor PDF-viewer in PowerApps
 Een besturingselement waarin de inhoud van een PDF-bestand kan worden weergegeven.
 
 ## <a name="description"></a>Beschrijving
 U kunt tekst, afbeeldingen en andere inhoud uit een PDF-bestand weergeven door dit type besturingselement toe te voegen en de eigenschap **Document** in te stellen op de URL (tussen dubbele aanhalingstekens) van het bestand dat u wilt weergeven.
+
+## <a name="limitations"></a>Beperkingen
+Houd er rekening mee dat PDF Viewer, als gevolg van de beveiligingsarchitectuur van PowerApps, alleen ondersteuning biedt voor HTTPS-koppelingen, niet voor HTTP.  
+Als het PDF-document zich op een server met beperkende CORS-instellingen bevindt, kunt u dit mogelijk niet weergeven in uw app.  Als het document kan niet worden geopend in PowerApps, wordt de optie om het document in een externe browser te openen voor de eindgebruiker gepresenteerd.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
 **Document**: de URL, tussen dubbele aanhalingstekens, van een PDF-bestand.
@@ -94,8 +98,7 @@ U kunt tekst, afbeeldingen en andere inhoud uit een PDF-bestand weergeven door d
 ## <a name="example"></a>Voorbeeld
 * Voeg een besturingselement **PDF-viewer** toe en stel de eigenschap **Document** in op de URL (tussen dubbele aanhalingstekens) van een PDF-bestand, zoals in dit voorbeeld:<br>
   **"http://www.who.int/gho/publications/world_health_statistics/EN_WHS2015_TOC.pdf?ua=1"**
-  
-    Het PDF-bestand wordt in het besturingselement weergegeven.
-  
-    Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
 
+    Het PDF-bestand wordt in het besturingselement weergegeven.
+
+    Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?

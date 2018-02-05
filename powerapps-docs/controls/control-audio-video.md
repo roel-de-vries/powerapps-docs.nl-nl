@@ -15,17 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 7aa3c2e2e6b0e6baaaec9666fc7b4e56c9568317
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: a79ef2ff58667b5a2516056f29845330745e5936
+ms.sourcegitcommit: 68eee592c351688e5d0bd458f33a70be507fa53f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="audio-and-video-controls-in-powerapps"></a>Besturingselementen voor audio en video in PowerApps
 Een besturingselement voor het afspelen van een geluidsbestand, een videobestand of een video op YouTube.
 
 ## <a name="description"></a>Beschrijving
-Een besturingselement **Audio** is bedoeld voor het afspelen van een geluidsfragment uit een bestand, een opname van een besturingselement **[Microfoon](control-microphone.md)** of het audiospoor uit een videobestand. Een besturingselement **Video** is bedoeld voor het afspelen van een videoclip uit een bestand of van YouTube als u een URL opgeeft.
+Een besturingselement **Audio** is bedoeld voor het afspelen van een geluidsfragment uit een bestand, een opname van een besturingselement **[Microfoon](control-microphone.md)** of het audiospoor uit een videobestand. Een besturingselement **Video** is bedoeld voor het afspelen van een videoclip uit een bestand of van YouTube als u een URL opgeeft, eventueel met ondertiteling.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
 **Loop**: bepaalt of een geluidsfragment of een videoclip automatisch opnieuw wordt gestart zodra het afspelen is voltooid.
@@ -44,6 +44,8 @@ Een besturingselement **Audio** is bedoeld voor het afspelen van een geluidsfrag
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
 
 **[BorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement.
+
+**ClosedCaptionsUrl**: dit is alleen een videobesturingselement.  URL van de ondertitelingsbestand in WebVTT-indeling.  De URL’s van de video en de ondertiteling moeten in HTTPS-indeling zijn. Voor de hostserver van zowel de video als de ondertiteling moet CORS zijn ingeschakeld.
 
 **[DisplayMode](properties-core.md)**: of invoer van de gebruiker is toegestaan (**Bewerken**), alleen gegevens worden weergegeven (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
 
@@ -89,10 +91,10 @@ Een besturingselement **Audio** is bedoeld voor het afspelen van een geluidsfrag
 1. Klik of tik in het menu **Bestand** op **Media**, klik of tik op **Video's** of **Audio** en klik of tik vervolgens op **Bladeren**.
 2. Blader naar het bestand dat u wilt gebruiken, klik of tik erop, en klik of tik vervolgens op **Openen**.
 3. Druk op Esc om terug te keren naar de standaardwerkruimte, voeg een besturingselement **Audio** of **Video** toe en stel de eigenschap **Media** van het besturingselement in op het bestand dat u hebt toegevoegd.
-   
+
     Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
 4. Druk op F5 en speel het fragment vervolgens af door op de afspeelknop te klikken of te tikken van het besturingselement dat u hebt toegevoegd.
-   
+
     > [!TIP]
 > De afspeelknop van het besturingselement **Video** wordt weergegeven wanneer u het besturingselement aanwijst.
 5. Druk op Esc om terug te gaan naar de standaardwerkruimte.
@@ -101,4 +103,3 @@ Een besturingselement **Audio** is bedoeld voor het afspelen van een geluidsfrag
 1. Voeg een besturingselement **Video** toe en stel de eigenschap **Media** in op de URL van een YouTube-video. Plaats de URL tussen dubbele aanhalingstekens.
 2. Druk op F5 en speel het fragment vervolgens af door op de afspeelknop te klikken of te tikken van het besturingselement **Video**.
 3. Druk op Esc om terug te gaan naar de standaardwerkruimte.
-

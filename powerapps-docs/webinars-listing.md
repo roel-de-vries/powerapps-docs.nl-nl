@@ -13,41 +13,25 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 1/16/2018
+ms.date: 1/29/2018
 ms.author: v-malyng
-ms.openlocfilehash: 46bb36b3fd712124624e9435581379b56702e20c
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: c683d371525ec4e1554ad5f79df2c4c578c6f50d
+ms.sourcegitcommit: 68eee592c351688e5d0bd458f33a70be507fa53f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="powerapps-webinar-listing"></a>Overzicht van PowerApps-webinars #
 In deze webinars ziet u hoe u kunt gebruikmaken van de functies en voorzieningen van Microsoft PowerApps. U kunt aanvullende onderwerpen voorstellen in de opmerkingen onder dit onderwerp.
 
 ## <a name="upcoming-webinars"></a>Komende webinars ##
-**Met behulp van PowerApps en Flow Line of Business 'portals' te maken, met Vishwas Lele**
-<br>door Vishwas Lele
-<br>*18 januari, 10:00 AM PST, 1:00 PM EST*
-
-Vishwas zal een PowerApp laten zien die als het ware een ‘portal’ vormt voor bestaande zakelijke Line of Business-toepassingen (voorraad, contracten, etc.) en -services (Dynamics, Office 365, DropBox, etc.). Met behulp van PowerApps-functies zoals de gebruiksklare connectors, integratie met Flow en mobiele mogelijkheden leert u hoe eenvoudig het is om een app te bouwen voor de informatiemedewerkers, zodat die allemaal op één plek en op hun favoriete apparaat over de informatie beschikken.  
-
-[Klik hier om te kijken op 18 januari](http://www.youtube.com/watch?v=eSMAAFHK44c)
-
-**Connector-reeks | Werken met connectors: de Planner-connector gebruiken**
-<br>door Audrie Gordon
-<br>*22 januari, 10:00 AM PST, 1:00 PM EST*
-
-In deze nieuwe maandelijkse webinars over de ‘Connector-serie’ bekijken we opties voor het gebruik van onze meer dan 200 gegevens- en SaaS-connectors met PowerApps en Flow. We beginnen deze reeks met een overzicht van de 'Planner'-Connector voor Office 365. U krijgt enkele tips over het gebruik en diverse nieuwe ideeën voor zakelijke apps met PowerApps met de Planner-connector.
-
-[Klik hier om te kijken op 22 januari](https://www.youtube.com/watch?v=NBPL9Uw7qzg)
-
 **Aan de slag | Productintegraties: Tips en trucs voor Teams en PowerApps**
 <br>door Audrie Gordon
-<br>*29 januari, 10:00 AM PST, 1:00 PM EST*
+<br>*31 januari, 10:00 PST, 1:00 PM EST*
 
 Neem deel aan deze webinar om te zien hoe PowerApps en Teams samenwerken om in mum van tijd krachtige bedrijfsoplossingen te maken. We laten u zien hoe u PowerApps in uw Teams-kanalen kunt gebruiken en geven u nieuwe ideeën over de manier waarop u deze producten samen gebruikt voor betere samenwerking binnen teams.
 
-[Klik hier om te kijken op 29 januari](https://www.youtube.com/watch?v=obBQk-aSElI)
+[Klik hier om te kijken op 31 januari](https://www.youtube.com/watch?v=obBQk-aSElI)
 
 **Connector-reeks | De kracht van Office Graph met PowerApps**
 <br>door Audrie Gordon
@@ -56,6 +40,14 @@ Neem deel aan deze webinar om te zien hoe PowerApps en Teams samenwerken om in m
 Audrie Gordon, senior programmamanager van het PowerApps-team, laat zien hoe PowerApps kunt gebruiken in combinatie met Office Graph-technologieën. We gaan een van onze sjablonen aanpassen en de impact van de Office-groep maximaliseren voor een typisch bedrijfsscenario.
 
 [Klik hier om te kijken op 5 februari](https://www.youtube.com/watch?v=AOGGyoElGaQ)
+
+**Deep Dive | Patchoplossingen voor servers bouwen met PowerApps, door Brian Blanchard**
+<br>door Audrie Gordon
+<br>*19 februari, 10:00 PST, 1:00 PM EST*
+
+Brian Blanchard van Microsoft Retail Stores laat zien hoe hij apps voor zijn team maakt voor het beheren van patchschema’s voor servers. Hij deelt de desktopversie en de mobiele versie die ze momenteel gebruiken voor het uitvoeren en vereenvoudigen van het patchproces. Bonuspunten voor Brian voor het gebruiken van PowerApps en Flow, zodat zijn team tijd en geld kan besparen.
+
+[Klik hier om te kijken op 19 februari](https://www.youtube.com/watch?v=QAe0oBecowU)
 
 ## <a name="past-webinars"></a>Eerdere webinars ##
 Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor uw registratiegegevens opnieuw opgeven, waarna u per mail een koppeling naar de opname ontvangt.
@@ -124,6 +116,12 @@ Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor uw re
 
 **Nieuwe Office Graph-sjablonen (deel 2)**
 <br>door Emma Cooper [Nu bekijken](https://www.youtube.com/watch?v=9PopTeLdpmU)
+
+**PowerApps en Flow gebruiken om Line of Business-’portals’ te maken**
+<br>door Vishwas Lele[Nu bekijken](http://www.youtube.com/watch?v=eSMAAFHK44c)
+
+**Werken met connectors: de Planner-connector gebruiken**
+<br> door Audrie Gordon [Nu bekijken](https://www.youtube.com/watch?v=NBPL9Uw7qzg)
 
 ### <a name="app-designer-topics"></a>Onderwerpen voor app-ontwerpers ###
 **Een kijkje achter de schermen met een van de PowerApp-ontwikkelaars, sjablonen nader bekeken: Marie Hoeger**
