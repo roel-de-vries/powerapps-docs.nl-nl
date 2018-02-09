@@ -86,7 +86,7 @@ Bij de besturingselementen op dit scherm is er nog een andere optie. Zij kunnen 
 ## <a name="disambiguation-operator"></a>Ondubbelzinnigheidsoperator
 Sommige functies maken [recordbereiken](../working-with-tables.md#record-scope) voor toegang tot de velden van een tabel tijdens het verwerken van elke record, zoals **Filter**, **AddColumns** en **Sum**.  Veldnamen waarbij het recordbereik is toegevoegd, overschrijven dezelfde namen elders in de app.  Als dit gebeurt, kunt u nog steeds toegang krijgen tot waarden buiten het recordbereik met de operator voor ondubbelzinnigheid **@**:
 
-* Als u toegang wilt krijgen tot waarden van geneste recordbereiken, gebruikt u de operator **@** met de naam van de tabel die wordt bewerkt met behulp van het patroon **Tabel*[@*Veldnaam*]**.  
+* Als u toegang wilt krijgen tot waarden van geneste recordbereiken, gebruikt u de operator **@** met de naam van de tabel die wordt bewerkt met behulp van het patroon ***Tabel*[@*Veldnaam*]**.  
 * Als u toegang wilt krijgen tot globale waarden, zoals gegevensbronnen, verzamelingen en contextvariabelen, gebruikt u het patroon **[@*Objectnaam*]** (zonder een tabelaanduiding).
 
 Zie het gesprek over [recordbereik](../working-with-tables.md#record-scope) voor meer informatie en voorbeelden.
