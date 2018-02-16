@@ -14,14 +14,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/20/2017
 ms.author: kfend
-ms.openlocfilehash: 87be6f571688fd040c5f2578015e1a3393ca9ea1
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: f5d769459f9d10e1d0f4bab2c1cc182407865053
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="manage-custom-fields"></a>Aangepaste velden beheren
-U kunt een of meer aangepaste velden in een entiteit maken en bijwerken. Als u een aangepast veld maakt, geeft u een aantal eigenschappen op, bijvoorbeeld de naam en de weergavenaam van het veld, en het type gegevens dat het kan bevatten. Zie [Entity field data types](https://docs.microsoft.com/en-us/common-data-service/entity-reference/field-data-types) (Gegevenstypen voor entiteitsvelden) en [Entity field properties](https://docs.microsoft.com/en-us/common-data-service/entity-reference/field-properties) (Eigenschappen van entiteitsvelden) voor meer informatie.
+U kunt een of meer aangepaste velden in een entiteit maken en bijwerken. Als u een aangepast veld maakt, geeft u een aantal eigenschappen op, bijvoorbeeld de naam en de weergavenaam van het veld, en het type gegevens dat het kan bevatten. Zie [Entity field data types](https://docs.microsoft.com/common-data-service/entity-reference/field-data-types) (Gegevenstypen voor entiteitsvelden) en [Entity field properties](https://docs.microsoft.com/common-data-service/entity-reference/field-properties) (Eigenschappen van entiteitsvelden) voor meer informatie.
 
 > [!NOTE]
 > Elke entiteit heeft [systeemvelden](data-platform-create-entity.md#system-fields-and-the-record-title-field), zoals velden die aangeven wanneer een record voor het laatst is bijgewerkt en wie dat heeft gedaan. Daarnaast hebben [standaardentiteiten](data-platform-intro.md#standard-entities) standaardvelden. U kunt systeemvelden en standaardvelden niet wijzigen of verwijderen. Als u een aangepast veld maakt, moet dit naast deze ingebouwde velden extra functionaliteit bieden.

@@ -15,20 +15,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/07/2016
 ms.author: fikaradz
-ms.openlocfilehash: a2a8d7df48403a5d8d480619bd01c59510ae9899
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: 1f351877e3c05b83b4bd9cfa104a7eb22cef5028
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>Tegelbesturingselement voor Power BI in PowerApps
 Een besturingselement dat een [Power BI](https://powerbi.microsoft.com)-tegel in een app weergeeft.
 
 ## <a name="description"></a>Beschrijving
-Profiteer van uw bestaande gegevensanalyse en -rapportage door uw **[Power BI-tegels](https://powerbi.microsoft.com/documentation/powerbi-service-dashboard-tiles/)** in uw apps weer te geven.  Kies de tegel die u wilt weergeven door op het tabblad **Gegevens** in het deelvenster met opties de eigenschappen voor de **Werkruimte**, het **Dashboard** en de **Tegel** in te stellen.
+Profiteer van uw bestaande gegevensanalyse en -rapportage door uw **[Power BI-tegels](https://docs.microsoft.com/power-bi/service-dashboard-tiles)** in uw apps weer te geven.  Kies de tegel die u wilt weergeven door op het tabblad **Gegevens** in het deelvenster met opties de eigenschappen voor de **Werkruimte**, het **Dashboard** en de **Tegel** in te stellen.
 
 ## <a name="sharing-and-security"></a>Delen en beveiliging
-Als de PowerApp is gedeeld, is deze toegankelijk voor alle gebruikers die zijn gemachtigd om de app te openen.  Om de Power BI-inhoud voor deze gebruikers zichtbaar te maken, moet het dashboard waarop de tegel is gebaseerd echter met de gebruiker zijn [gedeeld](https://powerbi.microsoft.com/documentation/powerbi-service-how-should-i-share-my-dashboard/) in Power BI.  Dit zorgt ervoor dat de machtigingen voor het delen in Power BI worden gerespecteerd wanneer Power BI-inhoud in een app wordt geopend.
+Als de PowerApp is gedeeld, is deze toegankelijk voor alle gebruikers die zijn gemachtigd om de app te openen.  Om de Power BI-inhoud voor deze gebruikers zichtbaar te maken, moet het dashboard waarop de tegel is gebaseerd echter met de gebruiker zijn [gedeeld](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports) in Power BI.  Dit zorgt ervoor dat de machtigingen voor het delen in Power BI worden gerespecteerd wanneer Power BI-inhoud in een app wordt geopend.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
 **Werkruimte** – De Power BI-werkruimte waarop de tegel is gebaseerd.
@@ -66,5 +66,5 @@ Als de PowerApp is gedeeld, is deze toegankelijk voor alle gebruikers die zijn g
    
     Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
    
-   Hebt u geen Power BI? [Meld u aan](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-self-service-signup-for-power-bi/).
+   Hebt u geen Power BI? [Meld u aan](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi).
 

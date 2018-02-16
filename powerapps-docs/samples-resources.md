@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/06/2016
 ms.author: kfend
-ms.openlocfilehash: 156a213fbf2bb1d5c7d4f032331ce4ca91f2641c
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: f8fb8da441c037e47f508282e9677fdda35874a0
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="samples-and-other-resources--for-the-common-data-service"></a>Voorbeelden en andere bronnen voor de Common Data Service
 ## <a name="samples"></a>Voorbeelden
@@ -36,5 +36,5 @@ U vindt berichten over procedures in de [PowerApps-blog](https://powerapps.micro
 Veel sessies van de Microsoft Ignite-conferentie zijn opgenomen. Ze zijn beschikbaar via [Microsoft Ignite On-Demand](https://myignite.microsoft.com/videos). Zoek naar 'PowerApps' en 'common data model'.
 
 ## <a name="overview"></a>Overzicht
-In, [Common Data Service and Common Data Model overview](https://docs.microsoft.com/en-us/common-data-service/entity-reference/security-model) (Overzicht van de Common Data Service en het Common Data Model) vindt u meer informatie over de Common Data Service en het Common Data Model.
+In, [Common Data Service and Common Data Model overview](https://docs.microsoft.com/common-data-service/entity-reference/security-model) (Overzicht van de Common Data Service en het Common Data Model) vindt u meer informatie over de Common Data Service en het Common Data Model.
 

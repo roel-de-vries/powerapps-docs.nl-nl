@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/08/2017
 ms.author: kfend
-ms.openlocfilehash: a8c13158ab2c3f152aa99357684c818f48e637ae
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: ea4fc21eb98ddb4861739559062f01190fb14819
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="configure-database-security"></a>Databasebeveiliging configureren
 Common Data Service gebruikt een op rollen gebaseerd beveiligingsmodel om de toegang tot de database te beveiligen. In dit onderwerp wordt uitgelegd hoe u de beveiligingsartefacten maakt die u nodig hebt om een app te beveiligen. De gebruikersrollen bepalen de runtime-toegang tot gegevens en staan los van de omgevingsrollen voor omgevingsbeheerders en omgevingsmakers. Zie [Environments overview](environments-overview.md) (Overzicht van omgevingen) voor een overzicht van omgevingen.
@@ -32,7 +32,7 @@ Het is belangrijk dat u begrijpt op welk niveau gebruikers van de app toegang no
 
 De twee machtigingsniveaus die meestal worden gebruikt, zijn alleen-lezentoegang en volledige toegang. Common Data Service omvat machtigingensets op deze twee machtigingsniveaus voor alle entiteiten. De sets met weergavemachtigingen bieden leestoegang tot een entiteit. De sets met onderhoudsmachtigingen bieden volledige toegang tot een entiteit.
 
-Het beveiligingsmodel maakt toewijzing van elke combinatie van machtigingen aan een gebruikersrol mogelijk. Rollen beschikken over de verschillende gecombineerde machtigingen die via machtigingensets aan de rollen zijn toegewezen. Daarom hebben de leden van een rol toegang tot alle gegevens waartoe de machtigingensets die in de rol zijn opgenomen toegang geven. Zie [Beveiligingsmodel](https://docs.microsoft.com/en-us/common-data-service/entity-reference/security-model) voor meer informatie over het beveiligingsmodel van Common Data Service.
+Het beveiligingsmodel maakt toewijzing van elke combinatie van machtigingen aan een gebruikersrol mogelijk. Rollen beschikken over de verschillende gecombineerde machtigingen die via machtigingensets aan de rollen zijn toegewezen. Daarom hebben de leden van een rol toegang tot alle gegevens waartoe de machtigingensets die in de rol zijn opgenomen toegang geven. Zie [Beveiligingsmodel](https://docs.microsoft.com/common-data-service/entity-reference/security-model) voor meer informatie over het beveiligingsmodel van Common Data Service.
 
 ## <a name="identify-the-entities"></a>Entiteiten identificeren
 U kunt alleen de juiste besturingselementen voor toegang voor een app configureren als u weet welke entiteiten in de app worden gebruikt. Volg deze stappen voor een overzicht van entiteiten die in een app worden gebruikt.

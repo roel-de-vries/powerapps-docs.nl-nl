@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: sharik
-ms.openlocfilehash: 7a81e7287f2891e428062241d747ea451dff9e10
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: d530fb5f77f00cb37322383a3817e9c38533ca1d
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="create-an-app-from-scratch"></a>Een volledig nieuwe app maken
 Maak een volledig nieuwe app met een van de vele gegevensbronnen, en voeg later meer bronnen toe indien nodig. Bepaal het uiterlijk en gedrag van elk UI-element om de resultaten te optimaliseren voor uw specifieke doelstellingen en werkstroom. Deze benadering kost veel meer tijd dan [automatisch een app genereren](get-started-create-from-data.md), maar ervaren app-makers kunnen zo de beste app voor hun wensen maken.
@@ -51,7 +51,7 @@ In deze zelfstudie kunt u alleen de algemene concepten doorlezen, of u kunt de z
 
 2. Maak deze gegevens op als tabel met de naam **Schedule**, zodat de gegevens kunnen worden geparseerd door PowerApps.
 
-    Zie [Een Excel-tabel maken in een werkblad](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664) voor meer informatie.
+    Zie [Een Excel-tabel maken in een werkblad](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664) voor meer informatie.
 
 3. Sla het bestand op onder de naam **eventsignup.xls** en upload het naar een [cloudopslagaccount](connections/cloud-storage-blob-connections.md), zoals OneDrive.
 

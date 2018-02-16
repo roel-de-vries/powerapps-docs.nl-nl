@@ -15,17 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: fb750e6345c6aa576e378134ed98be92c234a86b
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 6696f03be879e1c6f764cc444aa874e0b4a73905
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="set-up-data-alerts-for-the-power-bi-dashboard"></a>Gegevensmeldingen instellen voor het Power BI-dashboard
 > [!NOTE]
 > Dit artikel maakt deel uit van een reeks zelfstudies over het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint Online. Lees de [inleiding tot de reeks](sharepoint-scenario-intro.md) zodat u een idee van het geheel krijgt en van de betreffende downloads.
 
-In deze taak voegen we een waarschuwing toe in Power BI, zodat we een melding krijgen als het te lang duurt voordat projecten die in de wacht staan, worden goedgekeurd. We voegen ook een stroom toe die reageert als er een waarschuwing optreedt. Zie [Data alerts in Power BI service](https://powerbi.microsoft.com/documentation/powerbi-service-set-data-alerts) (Gegevensmeldingen in de Power BI-service) voor meer informatie over waarschuwingen.
+In deze taak voegen we een waarschuwing toe in Power BI, zodat we een melding krijgen als het te lang duurt voordat projecten die in de wacht staan, worden goedgekeurd. We voegen ook een stroom toe die reageert als er een waarschuwing optreedt. Zie [Data alerts in Power BI service](https://docs.microsoft.com/power-bi/service-set-data-alerts) (Gegevensmeldingen in de Power BI-service) voor meer informatie over waarschuwingen.
 
 ## <a name="step-1-create-an-alert"></a>Stap 1: Een waarschuwing maken
 1. Open in de Power BI-service het dashboard dat u in de laatste taak hebt gemaakt.

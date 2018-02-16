@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/20/2017
 ms.author: archanan
-ms.openlocfilehash: 637cccf5a5a88d012657172a9e312e232915a615
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 7af7e2dc89e96501b3d8f12c71bc17112ee9d2e9
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="connect-to-office-365-outlook-from-powerapps"></a>Verbinding maken met Office 365 Outlook vanuit PowerApps
 ![Office 365 Outlook](./media/connection-office365-outlook/office365icon.png)
@@ -128,7 +128,7 @@ In deze sectie wordt gebruikgemaakt van dezelfde besturingselementen als in [Ber
 3. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
 ## <a name="helpful-links"></a>Nuttige koppelingen
-* Zie [Referentie voor Office 365 Outlook](https://docs.microsoft.com/en-us/connectors/office365connector/) voor een lijst met alle functies en de bijbehorende parameters.
+* Zie [Referentie voor Office 365 Outlook](https://docs.microsoft.com/connectors/office365connector/) voor een lijst met alle functies en de bijbehorende parameters.
 * Bekijk alle [beschikbare verbindingen](../connections-list.md).  
 * Informatie over [het beheren van uw verbindingen](../add-manage-connections.md).
 

@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/06/2016
 ms.author: kfend
-ms.openlocfilehash: a2224d97c9cfc1261e43f7d30c8d8bdd2dd6e86b
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: 892f434d54c723d8de4ad6e9a48ced05cf23b311
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="create-a-common-data-service-database"></a>Een Common Data Service-database maken
 U kunt een database maken en apps bouwen door Common Data Service als een gegevensarchief te gebruiken. U kunt uw eigen aangepaste entiteiten maken of de vooraf gedefinieerde entiteiten gebruiken. Als u een database wilt maken, moet u eerst een omgeving maken of als beheerder aan een bestaande omgeving worden toegewezen. Daarnaast moet u aan de juiste licentie zijn toegewezen. Zie [Prijzen](pricing-billing-skus.md) voor informatie over het aanschaffen van een abonnement voor het gebruik van Common Data Service.
@@ -65,7 +65,7 @@ Standaard wordt een database gemaakt in de open-toegangsmodus. In deze modus wor
    * Selecteer **Open toegang** om de beveiliging uit te schakelen.
 
 ## <a name="license-and-security-permissions"></a>Licentie en beveiligingsmachtigingen
-Om een database te maken, moet u een beheerder in de geselecteerde omgeving zijn. Ook moet de juiste licentie aan u zijn toegewezen. In de omgeving kunt u de beveiligingsmachtigingen verder configureren voor andere gebruikers via het tabblad **Beveiliging**. Zie [Databasebeveiliging configureren](database-security.md) en [Beveiligingsmodel](https://docs.microsoft.com/en-us/common-data-service/entity-reference/security-model) voor meer informatie.
+Om een database te maken, moet u een beheerder in de geselecteerde omgeving zijn. Ook moet de juiste licentie aan u zijn toegewezen. In de omgeving kunt u de beveiligingsmachtigingen verder configureren voor andere gebruikers via het tabblad **Beveiliging**. Zie [Databasebeveiliging configureren](database-security.md) en [Beveiligingsmodel](https://docs.microsoft.com/common-data-service/entity-reference/security-model) voor meer informatie.
 
 ## <a name="privacy-notice"></a>Privacyverklaring
 Met Common Data Model van Microsoft PowerApps worden aangepaste entiteits- en veldnamen in onze diagnostische systemen verzameld en bewaard.  We gebruiken die kennis om Common Data Model voor onze klanten te verbeteren. De entiteits- en veldnamen die u maakt, geven ons inzicht in veelgebruikte scenario's binnen de Microsoft PowerApps-community. Met behulp daarvan kunnen we bepalen wat er ontbreekt bij de standaardentiteiten van de service, zoals schema's voor organisaties. De gegevens in de databasetabellen die aan deze entiteiten zijn gekoppeld, zijn niet toegankelijk voor en worden niet gebruikt door Microsoft. Ook worden de gegevens niet gerepliceerd buiten de regio waarin de database is ingericht. De aangepaste entiteits- en veldnamen worden echter mogelijk wel gerepliceerd in andere regio's. Ze worden verwijderd in overeenstemming met ons bewaarbeleid voor gegevens. Microsoft hecht veel waarde aan uw privacy, zoals beschreven in ons [Vertrouwenscentrum](https://www.microsoft.com/trustcenter/Privacy/default.aspx).

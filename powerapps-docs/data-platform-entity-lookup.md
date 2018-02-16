@@ -14,14 +14,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/09/2016
 ms.author: kfend
-ms.openlocfilehash: 21f33f8810b545b11f611b86261227c9443be5de
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 51138467e93dc4ef3fd2a08163536971c3811d23
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="build-a-relationship-between-entities"></a>Relatie tussen entiteiten maken
-Gegevens in de ene entiteit zijn vaak gekoppeld aan gegevens in een andere entiteit. Als u bijvoorbeeld een entiteit **Klanten** en een entiteit **Orders** hebt, kan de entiteit **Orders** een opzoekrelatie met de entiteit **Klanten** hebben om te laten zien welke klant de bestelling heeft geplaatst. U kunt een opzoekveld gebruiken om gegevens uit de entiteit **Klanten** weer te geven voor de klant die de bestelling heeft geplaatst. Zie het Engelstalige artikel [Entity relationships and lookup fields](https://docs.microsoft.com/en-us/common-data-service/entity-reference/relationships) (Entiteitsrelaties en opzoekvelden) voor meer informatie.
+Gegevens in de ene entiteit zijn vaak gekoppeld aan gegevens in een andere entiteit. Als u bijvoorbeeld een entiteit **Klanten** en een entiteit **Orders** hebt, kan de entiteit **Orders** een opzoekrelatie met de entiteit **Klanten** hebben om te laten zien welke klant de bestelling heeft geplaatst. U kunt een opzoekveld gebruiken om gegevens uit de entiteit **Klanten** weer te geven voor de klant die de bestelling heeft geplaatst. Zie het Engelstalige artikel [Entity relationships and lookup fields](https://docs.microsoft.com/common-data-service/entity-reference/relationships) (Entiteitsrelaties en opzoekvelden) voor meer informatie.
 
 ## <a name="define-a-relationship"></a>Een relatie definiëren
 U kunt verschillende typen relaties vanuit de ene entiteit naar de andere (of tussen een entiteit en zichzelf) creëren. Elke entiteit kan een relatie met meer dan één entiteit hebben en elke entiteit kan meer dan één relatie met een andere entiteit hebben. Dit zijn enkele algemene relatietypen:

@@ -15,18 +15,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/01/2016
 ms.author: mblythe
-ms.openlocfilehash: bbde4b033afcd530128f330432f262257f5d771c
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 40feb1f2412408e732be91e649ab2b4c54e4ba98
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>PowerApps Community-abonnement: een gratis ontwikkelingsomgeving voor individueel gebruik
 Als u vaardigheden wilt opdoen en meer informatie wilt over PowerApps, Microsoft Flow en Common Data Service, is het PowerApps Community-abonnement het juiste abonnement voor u. Het PowerApps Community-abonnement geeft u een gratis ontwikkelingsomgeving voor individueel gebruik, waarin u het volgende kunt doen:
 
 * Leren hoe u zakelijke apps en werkstromen bouwt met de volledige functionaliteit van PowerApps en Microsoft Flow.
 * Verbinding maken met elke gegevensbron door onze 100+ [kant-en-klare connectors](connections-list.md) te gebruiken of door uw eigen [aangepaste connectors](register-custom-api.md) te maken.
-* Ontdekken hoe u [Common Data Service](https://docs.microsoft.com/en-us/common-data-service/entity-reference/introduction) kunt gebruiken om krachtige zakelijke apps te bouwen met het Common Data Model en [de SDK](https://aka.ms/eek20s).
+* Ontdekken hoe u [Common Data Service](https://docs.microsoft.com/common-data-service/entity-reference/introduction) kunt gebruiken om krachtige zakelijke apps te bouwen met het Common Data Model en [de SDK](https://aka.ms/eek20s).
 * De oplossingen die u in uw individuele omgeving maakt exporteren, en [deze vermelden op AppSource](dev-appsource-test-drive.md) zodat uw klanten ze kunnen uitproberen.
 
 ## <a name="who-can-sign-up-for-the-powerapps-community-plan"></a>Wie kan zich aanmelden voor het PowerApps Community-abonnement?

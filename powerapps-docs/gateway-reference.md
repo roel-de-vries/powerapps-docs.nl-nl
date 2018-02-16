@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/20/2017
 ms.author: sharik
-ms.openlocfilehash: 3d5ae546d10c0713fe346db1fbe49a6f6701f7a1
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: e5bcf28febb2d37284203a4856a8fea590637aed
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-powerapps"></a>Informatie over on-premises gegevensgateways voor Microsoft PowerApps
 ## <a name="installation-and-configuration"></a>Installatie en configuratie
@@ -85,7 +85,7 @@ De gateway wordt uitgevoerd als een Windows-service, zodat u deze op verschillen
 
 **Een firewall of proxy configureren**
 
-Voor informatie over het doorgeven van proxy-informatie voor uw gateway raadpleegt u [Proxy-instellingen configureren](https://powerbi.microsoft.com/en-us/documentation/powerbi-gateway-proxy/).
+Voor informatie over het doorgeven van proxy-informatie voor uw gateway raadpleegt u [Proxy-instellingen configureren](https://docs.microsoft.com/power-bi/service-gateway-proxy).
 
 U kunt controleren of uw firewall, of proxy, verbindingen mogelijk blokkeert door de volgende opdracht uit te voeren in een PowerShell-prompt. Deze opdracht test de verbinding met Azure Service Bus. Hiermee wordt alleen de netwerkverbinding getest en dit heeft niets te maken met de cloudserverservice of de gateway. Zo kunt u controleren of uw computer daadwerkelijk verbinding kan maken met internet.
 
@@ -140,7 +140,7 @@ De on-premises gegevensgateway is zo geconfigureerd dat *NT SERVICE\PBIEgwServic
 
 Dit is niet het account dat wordt gebruikt om verbinding te maken met on-premises gegevensbronnen of het werk- of schoolaccount waarmee u zich aanmeldt bij cloudservices.
 
-Als u problemen ondervindt met uw proxyserver vanwege de verificatie, kunt u het Windows-serviceaccount wijzigen in het account van een domeingebruiker of een beheerde service zoals in de [proxyconfiguratie](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/#changing-the-gateway-service-account-to-a-domain-user) wordt beschreven.
+Als u problemen ondervindt met uw proxyserver vanwege de verificatie, kunt u het Windows-serviceaccount wijzigen in het account van een domeingebruiker of een beheerde service zoals in de [proxyconfiguratie](https://docs.microsoft.com/power-bi/service-gateway-proxy#changing-the-gateway-service-account-to-a-domain-user) wordt beschreven.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 #### <a name="general"></a>Algemeen

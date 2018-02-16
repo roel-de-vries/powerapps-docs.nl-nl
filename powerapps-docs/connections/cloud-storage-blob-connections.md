@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/12/2016
 ms.author: archanan
-ms.openlocfilehash: 1f437b91ef20412dab3238bea7f5488e148c7c29
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 665a772807179b2a33d6d47bb09483ebed69ed45
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="connect-to-cloud-storage-from-powerapps"></a>Verbinding maken met cloudopslag vanuit PowerApps
 PowerApps biedt diverse verbindingen met cloudopslag. Bij elk van deze verbindingen kunt u een Excel-bestand opslaan en de gegevens erin overal in uw app gebruiken. Deze verbindingen zijn onder andere:  
@@ -30,7 +30,7 @@ PowerApps biedt diverse verbindingen met cloudopslag. Bij elk van deze verbindin
 
 [!INCLUDE [connection-requirements](../includes/connection-requirements.md)]
 
-* Een Excel-bestand met gegevens die zijn [opgemaakt als een tabel](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664):
+* Een Excel-bestand met gegevens die zijn [opgemaakt als een tabel](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664):
   
   1. Open het Excel-bestand en selecteer vervolgens een cel in de gegevens die u wilt gebruiken.
   2. Selecteer **Tabel** op het tabblad **Invoegen**.
@@ -87,7 +87,7 @@ Als u een map deelt in Dropbox, dan moet de gedeelde map zijn gekoppeld aan het 
 Voor connectoren met betrekking tot Excel-bestanden gelden [bepaalde beperkingen](#sharing-excel-tables).
 
 ## <a name="known-limitations"></a>Bekende beperkingen
-Als **Niet-ondersteund gegevenstype** of **Niet opgemaakt als een tabel** wordt weergegeven wanneer u een Excel-verbinding probeert te gebruiken in uw app, [maakt u de gegevens op als een tabel](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664).
+Als **Niet-ondersteund gegevenstype** of **Niet opgemaakt als een tabel** wordt weergegeven wanneer u een Excel-verbinding probeert te gebruiken in uw app, [maakt u de gegevens op als een tabel](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664).
 
 Als uw Excel-gegevens een berekende kolom bevatten, kunt u deze niet gebruiken om een app te maken en kunt u die gegevens niet toevoegen aan een bestaande app.
 

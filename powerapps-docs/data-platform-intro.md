@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/20/2017
 ms.author: kfend
-ms.openlocfilehash: bbc501542e634fab925654734cf709fe87248883
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: da01fe6e89e64e07b5ce4eb0350bc2ac1f54ff30
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="understand-entities-in-the-common-data-service"></a>Wat zijn entiteiten in de Common Data Service?
 
@@ -72,7 +72,7 @@ Alle entiteiten, of ze nu standaard of aangepast zijn, worden gemaakt met een se
 Elke standaardentiteit bevat een set standaardvelden die u niet kunt wijzigen of verwijderen. Zie [Standaardentiteiten](https://docs.microsoft.com/common-data-service/entity-reference/standard-entities) voor een lijst met alle entiteiten en de bijbehorende velden.
 
 ### <a name="custom-fields"></a>Aangepaste velden
-U kunt aangepaste velden in een standaard- of in een aangepaste entiteit maken. Voor elk aangepast moet u de naam, de weergavenaam en het gegevenstype opgeven. Zie [Entity field data types](https://docs.microsoft.com/en-us/common-data-service/entity-reference/field-data-types) (Gegevenstypen voor entiteitsvelden) voor een volledige lijst met ondersteunde typen.
+U kunt aangepaste velden in een standaard- of in een aangepaste entiteit maken. Voor elk aangepast moet u de naam, de weergavenaam en het gegevenstype opgeven. Zie [Entity field data types](https://docs.microsoft.com/common-data-service/entity-reference/field-data-types) (Gegevenstypen voor entiteitsvelden) voor een volledige lijst met ondersteunde typen.
 
 ## <a name="lookup-relationships"></a>Opzoekrelaties
 U kunt tussen records in entiteiten navigeren als deze een relatie hebben die gedefinieerd is als een veld van het gegevenstype **Opzoeken**. Als u een opzoekrelatie wilt maken, voegt u een veld van het gegevenstype **Opzoeken** aan de ene entiteit toe en verwijst u naar de entiteit waarin u informatie wilt zoeken. Zie [Entity relationships via lookup field](data-platform-entity-lookup.md) (Entiteitsrelaties via opzoekveld) voor meer informatie.

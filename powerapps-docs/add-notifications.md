@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/08/2017
 ms.author: jamesol
-ms.openlocfilehash: 1e51ca684129c538ced47863c73269284cc13719
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 6b3bab666ddd842c868dfdac752cd8897a5427b2
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="send-a-push-notification-in-powerapps"></a>Een pushmelding verzenden in PowerApps
 Pushmeldingen worden gebruikt in mobiele apps voor zakelijk en consumentengebruik, voornamelijk om app-gebruikers te benaderen en hun aandacht te trekken naar belangrijke taken. Het verzenden van meldingen in PowerApps vindt plaats via de PowerApps-meldingsconnector. U kunt native pushmeldingen verzenden naar alle apps die u in PowerApps maakt. We zullen in de toekomst meer meldingstypen toevoegen.
@@ -141,5 +141,5 @@ PowerAppsNotification.SendPushNotification(
 * Meldingen tonen het algemene PowerApps-pictogram in plaats van het pictogram van een specifieke app.
 * Wanneer u Microsoft Flow gebruikt, kunt u een pushmelding aan slechts één ontvanger tegelijk verzenden.
 
-Zie voor meer informatie [Referentie voor PowerApps-meldingen](https://docs.microsoft.com/en-us/connectors/powerappsnotification/).
+Zie voor meer informatie [Referentie voor PowerApps-meldingen](https://docs.microsoft.com/connectors/powerappsnotification/).
 

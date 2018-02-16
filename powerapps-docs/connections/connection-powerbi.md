@@ -15,16 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/12/2016
 ms.author: sirsu
-ms.openlocfilehash: 62dbb11d167155d7f0c47b889674a61b1b1047f3
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: a9d625f5c30d2619eeb6376aae6076125789cd2c
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="connect-to-power-bi-from-powerapps"></a>Verbinding maken met Power BI vanuit PowerApps
 ![Power BI](./media/connection-powerbi/powerbiicon.png)
 
-Power BI is een pakket business analytics-hulpprogramma's waarmee u gegevens kunt analyseren en inzichten kunt delen. U kunt uw bedrijf bewaken en snel antwoorden krijgen met uitgebreide dashboards die op elk apparaat beschikbaar zijn. In uw app kunt u de status controleren van de gegevenswaarschuwingen die u hebt ingesteld in de Power BI-service. Ga naar de [documentatiepagina](https://powerbi.microsoft.com/documentation/powerbi-service-set-data-alerts/) voor meer informatie over gegevenswaarschuwingen in Power BI.
+Power BI is een pakket business analytics-hulpprogramma's waarmee u gegevens kunt analyseren en inzichten kunt delen. U kunt uw bedrijf bewaken en snel antwoorden krijgen met uitgebreide dashboards die op elk apparaat beschikbaar zijn. In uw app kunt u de status controleren van de gegevenswaarschuwingen die u hebt ingesteld in de Power BI-service. Ga naar de [documentatiepagina](https://https://docs.microsoft.com/power-bi/service-set-data-alerts) voor meer informatie over gegevenswaarschuwingen in Power BI.
 
 In dit onderwerp ziet u hoe u de Power BI-verbinding in een app kunt gebruiken en vindt u een overzicht van de beschikbare functies.
 

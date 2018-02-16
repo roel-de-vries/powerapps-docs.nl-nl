@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/10/2018
 ms.author: mblythe
-ms.openlocfilehash: 1b22885a6ff97b1ffcf67da291ab89d091863981
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 6f3045a67de492866c3db7d9238a5c4c2111bcb6
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="create-a-power-bi-report-to-analyze-projects"></a>Een Power BI-rapport maken voor projectanalyse
 > [!NOTE]
@@ -177,7 +177,7 @@ Bij het laden van de lijsten in Power BI Desktop is er een relatie tussen de lij
    
     Met deze formule wordt een tabel met de naam **Dates** gemaakt. Deze bevat één datumkolom. De tabel omvat alle datums uit de andere tabel en wordt automatisch bijgewerkt als er extra datums worden toegevoegd (dat wil zeggen als er gegevens worden vernieuwd).
    
-    Deze formule (en de andere in deze sectie) maakt gebruik van DAX (Data Analysis Expressions), een formuletaal voor Power BI en andere technologieën. Zie [DAX basics in Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-quickstart-learn-dax-basics/) (Basisbeginselen van DAX in Power BI Desktop) voor meer informatie.
+    Deze formule (en de andere in deze sectie) maakt gebruik van DAX (Data Analysis Expressions), een formuletaal voor Power BI en andere technologieën. Zie [DAX basics in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics) (Basisbeginselen van DAX in Power BI Desktop) voor meer informatie.
 3. Druk op Enter om de tabel **Dates** te maken.
    
     ![Tabel Dates](./media/sharepoint-scenario-build-report/05-02-07-date-table.png)

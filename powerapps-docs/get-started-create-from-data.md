@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
 ms.author: sharik
-ms.openlocfilehash: cf90156292985e58e2d68d2828d7c943b45facdf
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 1558dba59f4b755ded709329c099feb94b55fac6
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="generate-an-app-from-excel-data"></a>Een app genereren van Excel-gegevens
 Maak automatisch een app op basis van gegevens in een Excel-bestand dat u uploadt naar een opslagaccount in de cloud, zoals OneDrive. Nadat u de app hebt gegenereerd, past u deze aan uw behoeften aan en voert u de app uit om te zien of deze naar behoren werkt.
@@ -41,7 +41,7 @@ Gegenereerde apps hebben standaard drie schermen:
 * Als u deze zelfstudie exact wilt volgen, kunt u dit [Excel-bestand](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) downloaden.
   
     > [!IMPORTANT]
-> U kunt uw eigen Excel-bestand gebruiken als de gegevens als een tabel zijn opgemaakt. Zie [Een Excel-tabel maken in een werkblad](https://support.office.com/en-us/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664) voor meer informatie.
+> U kunt uw eigen Excel-bestand gebruiken als de gegevens als een tabel zijn opgemaakt. Zie [Een Excel-tabel maken in een werkblad](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664) voor meer informatie.
 * Upload het Excel-bestand naar OneDrive of een ander [cloudopslagaccount](connections/cloud-storage-blob-connections.md).
 
 ## <a name="create-an-app"></a>Een app maken
