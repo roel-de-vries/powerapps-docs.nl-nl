@@ -13,30 +13,30 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/12/2017
+ms.date: 01/30/2018
 ms.author: mblythe
-ms.openlocfilehash: 481e6d13cce7624cf46cadbf78f877fdfb9fd481
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 94efa8b116fac1f6f15509c511fc6e15134e8540
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="embed-the-power-bi-project-report-in-sharepoint-online"></a>Het Power BI-projectrapport insluiten in SharePoint Online
 > [!NOTE]
 > Dit artikel maakt deel uit van een reeks zelfstudies over het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint Online. Lees de [inleiding tot de reeks](sharepoint-scenario-intro.md) zodat u een idee van het geheel krijgt en van de betreffende downloads.
 
-In deze laatste taak in dit scenario wordt het Power BI-rapport ingesloten in dezelfde SharePoint Online-site waarin onze twee lijsten worden gehost. Power BI ondersteunt diverse benaderingen tot insluiten en sinds kort is rechtstreekse integratie mogelijk in SharePoint-pagina's voor web- en mobiele weergaven.
+We gaan het Power BI-rapport nu insluiten in dezelfde SharePoint Online-site waarin onze twee lijsten worden gehost. Power BI ondersteunt diverse benaderingen tot insluiten, waaronder rechtstreekse integratie in SharePoint-pagina's voor web- en mobiele weergaven.
 
-Dankzij dit type insluiting sluit Power BI het rapport in als een webonderdeel, biedt het de juiste toegang voor gebruikers en kunt u van het ingesloten rapport naar het rapport op powerbi.com doorklikken. Eerst genereren we een insluitkoppeling in Power BI. Vervolgens gebruiken we die koppeling in een pagina die we maken. Zie [Embed with report web part in SharePoint Online](https://powerbi.microsoft.com/documentation/powerbi-service-embed-report-spo) (Insluiten met webonderdeel Rapport in SharePoint Online) (met name de sectie Vereisten) voor meer informatie over insluiten.
+Dankzij dit type insluiting sluit Power BI het rapport in als een webonderdeel, biedt het de juiste toegang voor gebruikers en kunt u van het ingesloten rapport naar het rapport op powerbi.com doorklikken. Eerst genereren we een insluitkoppeling in Power BI. Vervolgens gebruiken we die koppeling in een pagina die we maken. Bekijk [Insluiten met webonderdeel Rapport in SharePoint Online](https://docs.microsoft.com/power-bi/service-embed-report-spo) voor meer informatie over insluiten.
 
 ## <a name="step-1-generate-an-embed-link"></a>Stap 1: Een insluitkoppeling genereren
 1. Meld u aan bij Power BI en klik of tik vervolgens in het linker navigatiedeelvenster op de naam van het rapport.
    
     ![Naar het rapport navigeren](./media/sharepoint-scenario-embed-report/08-01-01-reports.png)
-2. Klik of tik op **Insluiten in SharePoint Online**.
+2. Klik of tik op **Bestand** en vervolgens op **Insluiten in SharePoint Online**.
    
     ![Insluiten in SharePoint Online](./media/sharepoint-scenario-embed-report/08-01-02-embed-spo.png)
-3. Kopieer de ingesloten koppeling vanuit het dialoogvenster naar een bestand en klik op **Sluiten**. We gebruiken de koppeling nadat we een SharePoint-pagina hebben gemaakt.
+3. Kopieer de insluitkoppeling vanuit het dialoogvenster naar een bestand en klik of tik op **Sluiten**. We gebruiken de koppeling nadat we een SharePoint-pagina hebben gemaakt.
    
     ![Insluitkoppeling voor SharePoint](./media/sharepoint-scenario-embed-report/08-01-03-embed-url.png)
 
@@ -62,7 +62,7 @@ Dankzij dit type insluiting sluit Power BI het rapport in als een webonderdeel, 
     ![Insluiten rapport voltooid](./media/sharepoint-scenario-embed-report/08-01-09-report-complete.png)
 
 ## <a name="step-3-grant-access-to-the-report"></a>Stap 3: Toegang verlenen tot het rapport.
-Als u, zoals aangeraden, Office 365 Groepen gebruikt, controleert u of gebruikers die toegang nodig hebben, leden zijn van de groepswerkruimte in de Power BI-service. Hiermee garandeert u dat gebruikers de inhoud van die groep kunnen bekijken. Zie [Creating groups in Power BI](https://powerbi.microsoft.com/documentation/powerbi-service-create-a-group-in-power-bi) (Groepen maken in Power BI) voor meer informatie.
+Als u, zoals aangeraden, Office 365 Groepen gebruikt, controleert u of gebruikers die toegang nodig hebben, leden zijn van de groepswerkruimte in de Power BI-service. Hiermee garandeert u dat gebruikers de inhoud van die groep kunnen bekijken. Bekijk [Samenwerken in de werkruimte van uw Power BI-app](https://docs.microsoft.com/power-bi/service-collaborate-power-bi-workspace) voor meer informatie.
 
 Hiermee hebben we een samenvatting gegeven van ons werk in Power BI voor dit scenario. U bent begonnen met het ophalen van gegevens uit de SharePoint-lijsten voor Power BI. U bent nu klaar om het Power BI-rapport weer in SharePoint in te sluiten.
 

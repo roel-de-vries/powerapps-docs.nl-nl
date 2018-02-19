@@ -13,16 +13,27 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/31/2018
+ms.date: 02/13/2018
 ms.author: sharik
-ms.openlocfilehash: f98d8f3dd19d39a31f6f8e7ca2551efb6de18e34
-ms.sourcegitcommit: 19a83f07ad11e630e6b85b3540d78a2d2428d7b9
+ms.openlocfilehash: b8d06bb8ffbe1446f4c918e6cf1c6657c1890e65
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="whats-new-in-powerapps"></a>Wat is er nieuw in PowerApps?
 Zie [Veelvoorkomende problemen en oplossingen](common-issues-and-resolutions.md) voor meer informatie over bekende beperkingen.
+
+> [!NOTE]
+> Releases worden geleidelijk uitgebracht gedurende enkele dagen. Wellicht wordt nieuwe of bijgewerkte functionaliteit niet direct weergegeven.
+
+## <a name="feb-12"></a>12 februari
+* De volumeregeling voor het afspelen van ingesloten [video-](controls/control-audio-video.md) en [audiobestanden](controls/control-audio-video.md) is nu inline. Gebruikers moeten geluid voortaan dempen via de volumeregeling in plaats van te klikken of tikken op een knop.
+
+## <a name="feb-7"></a>7 februari
+1. De eigenschappen voor in-/uitzoomen, helderheid en contrast zijn verwijderd uit de besturingselementen voor de [camera](controls/control-camera.md) en [streepjescodescanner](controls/control-barcodescanner.md).
+2. Het probleem waarbij de ruimte voor gebruikersinvoer werd beperkt door de knop Wissen op besturingselementen voor [tekstinvoer](controls/control-text-input.md), is opgelost. Als gevolg van deze oplossing wordt de eigenschap voor de knop [Wissen](controls/control-text-input.md#additional-properties) op een besturingselement voor tekstinvoer alleen ondersteund voor de webbrowsers Microsoft Edge (meest recente versie) en Internet Explorer 11.
+3. Er zijn toegankelijkheidsverbeteringen toegevoegd voor besturingselementen voor [multimedia](add-images-pictures-audio-video.md).
 
 ## <a name="jan-31"></a>31 jan
 1. Voeg ondertiteling toe aan [Video](controls/control-audio-video.md)-besturingselementen.
@@ -63,7 +74,3 @@ Zie [Veelvoorkomende problemen en oplossingen](common-issues-and-resolutions.md)
 ## <a name="sept-6"></a>6 september
 1. Voor apps die u maakt, kunt u het [gebruik bijhouden](app-analytics.md) in een ingesloten dashboard uit Power BI.
 2. Gebruik een scheidingsteken om een teksttekenreeks op te splitsen met behulp van de functie **[Split](functions/function-split.md)**.
-
-## <a name="aug-15"></a>15 augustus
-1. Download een [lijst met apps](admin-view-apps.md) die in uw organisatie worden gebruikt.
-2. Delegeer de functies **Sum**, **Average**, **Min** en **Max** voor SQL Server.

@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/12/2017
+ms.date: 01/30/2018
 ms.author: mblythe
-ms.openlocfilehash: cb300617fbf08f7b9ed5ff87ed5633d7714d51e0
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 6f54274af043964f02ef02a5ce97c261a410391d
+ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/14/2018
 ---
 # <a name="publish-the-power-bi-project-report-and-create-a-dashboard"></a>Het Power BI-projectrapport publiceren en een dashboard maken
 > [!NOTE]
@@ -37,20 +37,17 @@ In deze taak wordt de gegevensset gepubliceerd en aan de Power BI-service gerapp
 3. Voer een wachtwoord in en klik of tik op **Aanmelden**.
    
     ![Accountwachtwoord invoeren](./media/sharepoint-scenario-publish-report/06-01-03-password.png)
-4. Kies een doel voor het rapport en klik of tik op **Selecteren**. U wordt aangeraden het rapport te publiceren op een groepswerkruimte om de toegang tot het rapport in SharePoint te vereenvoudigen. Hier publiceren we het rapport op de groepswerkruimte **Projectbeheer**. Zie [Creating groups in Power BI](https://powerbi.microsoft.com/documentation/powerbi-service-create-a-group-in-power-bi) (Groepen maken in Power BI) voor meer informatie.
+4. Kies een doel voor het rapport en klik of tik op **Selecteren**. U wordt aangeraden het rapport te publiceren op een groepswerkruimte om de toegang tot het rapport in SharePoint te vereenvoudigen. Hier publiceren we het rapport op de groepswerkruimte **Projectbeheer**. Bekijk [Samenwerken in de werkruimte van uw Power BI-app](https://docs.microsoft.com/power-bi/service-collaborate-power-bi-workspace) voor meer informatie.
    
     ![Doelwerkruimte](./media/sharepoint-scenario-publish-report/06-01-04-workspace.png)
 5. Als het rapport is gepubliceerd, klikt of tikt u op **Open 'project-analysis.pbx' in Power BI**.
    
     ![Publiceren geslaagd](./media/sharepoint-scenario-publish-report/06-01-05-open-report.png)
-6. Het rapport wordt in een browser geladen. Klik of tik op het menu linksboven **(a)** om het linker navigatiedeelvenster te zien.
+6. Het rapport wordt in een browser geladen. Klik of tik op het menu linksboven **(a)** om het linker navigatiedeelvenster uit te breiden.
    
     ![Rapporteren in Power BI-service](./media/sharepoint-scenario-publish-report/06-01-06-service-report.png)
    
-    U ziet dat er tijdens het publiceren een gegevensset **(d)** en een rapport **(c)** zijn geüpload. Dashboards worden in de service gemaakt, niet in Power BI Desktop. Deze werkruimte bevat nog geen dashboards **(b)**. Die gaan we nu maken.
-   
-    > [!NOTE]
-> Voor Power BI wordt een nieuw type navigatie uitgebracht die in uw site kan worden ingeschakeld. Zie [The new Power BI navigation experience](https://powerbi.microsoft.com/documentation/powerbi-service-the-new-power-bi-experience) (Het nieuwe navigeren in Power BI) als het linker navigatiedeelvenster er anders uitziet dan in de bovenstaande afbeelding.
+    U ziet dat er tijdens het publiceren een gegevensset **(d)** en een rapport **(c)** zijn geüpload. Dashboards worden in de service gemaakt, niet in Power BI Desktop. Deze werkruimte bevat nog geen dashboards **(b)**. We gaan er zo een maken.
 
 ## <a name="step-2-configure-credentials-for-refresh"></a>Stap 2: Referenties voor vernieuwen configureren
 1. Klik of tik in de service op ![tandwielpictogram](./media/sharepoint-scenario-publish-report/icon-gear.png) rechtsboven en vervolgens op **Instellingen**.
@@ -72,13 +69,16 @@ In deze taak wordt de gegevensset gepubliceerd en aan de Power BI-service gerapp
     ![Gegevensbron bijgewerkt](./media/sharepoint-scenario-publish-report/06-01-11-updated.png)
 
 ## <a name="step-3-create-a-dashboard"></a>Stap 3: Dashboard maken
-1. Klik of tik in de service op de grafiek linksboven en vervolgens op ![Speldpictogram](./media/sharepoint-scenario-publish-report/icon-pin.png).
+
+1. Klik of tik onder **RAPPORTEN** op **project-analysis** om terug te gaan naar uw rapport.
+
+1. Klik of tik op de grafiek linksboven en klik of tik vervolgens op ![Speldpictogram](./media/sharepoint-scenario-publish-report/icon-pin.png).
    
     ![Grafiek vastmaken](./media/sharepoint-scenario-publish-report/06-01-12-pin-projected.png)
 2. Voer een naam in voor het dashboard waaraan u wilt vastmaken en klik of tik op **Vastmaken**.
    
     ![Grafiek vastmaken aan dashboard](./media/sharepoint-scenario-publish-report/06-01-13-pin-new.png)
-3. Klik of tik in de grafiek op de grafiek linksboven en vervolgens op ![Speldpictogram](./media/sharepoint-scenario-publish-report/icon-pin.png).
+3. Klik of tik op de grafiek rechtsboven en klik of tik vervolgens op ![Speldpictogram](./media/sharepoint-scenario-publish-report/icon-pin.png).
    
     ![Grafiek vastmaken](./media/sharepoint-scenario-publish-report/06-01-14-pin-variance.png)
 4. Selecteer het bestaande dashboard en klik of tik op **Vastmaken**.
