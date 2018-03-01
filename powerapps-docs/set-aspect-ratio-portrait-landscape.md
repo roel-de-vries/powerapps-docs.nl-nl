@@ -30,7 +30,7 @@ Een app aanpassen door de grootte en stand van het scherm te wijzigen.
 2. Klik of tik in het menu **File** op **App settings**.
 
 ## <a name="change-screen-size-and-orientation"></a>De grootte en richting van het scherm wijzigen
-1. Klik of tik onder **App-instellingen** op de optie  **	Schermgrootte + stand**.
+1. Klik of tik onder **App-instellingen** op de optie **Schermgrootte + stand**.
 
     ![Optie voor het wijzigen van de grootte en stand van het scherm van een app](./media/set-aspect-ratio-portrait-landscape/size-orientation.png)
 
