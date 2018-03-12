@@ -15,14 +15,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: c27a2319d74db9a50acff84e40ea7df83dc1c126
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: 264c360af0175b6a5dddd74306b32c7d1ecaef1d
+ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="barcode-scanner-control-in-powerapps"></a>Besturingselement voor streepjescodescanner in PowerApps
-Een besturingselement waarmee de gebruiker foto's kan maken met behulp van de streepjescodescanner van het apparaat.
+# <a name="barcode-scanner-control-experimental-in-powerapps"></a>Besturingselement Streepjescodescanner (experimenteel) in PowerApps
+Een experimenteel besturingselement waarmee de gebruiker foto’s kan maken met behulp van de streepjescodescanner op het apparaat.
 
 ## <a name="description"></a>Beschrijving
 Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerken met een of meer foto's, vanaf elke locatie waar de app wordt uitgevoerd.
@@ -73,9 +73,8 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 ## <a name="example"></a>Voorbeeld
 ### <a name="add-photos-to-an-image-gallery-control"></a>Foto's toevoegen aan een besturingselement Afbeeldingengalerie
 1. Voeg een besturingselement **Streepjescodescanner** toe en geef het de naam **MijnStreepjescodescanner**
-   
+
     Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
 2. Voeg een besturingselement **Label** toe en stel de uitvoer van het vak in op de waarde van de streepjescodescanner.  
 3. Scan een streepjescode van het type dat is ingesteld met de eigenschap BarcodeType.
 4. De gescande streepjescode wordt in het label weergegeven.
-

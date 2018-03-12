@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/17/2016
 ms.author: gregli
-ms.openlocfilehash: 8aa5fb671878af21fa483dde348460bf7c05fc70
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 11f3a29989057a3dc1a75c40877314596a62859d
+ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="controls-and-properties-in-powerapps"></a>Besturingselementen en eigenschappen in PowerApps
 Configureer de weergave en het gedrag van een besturingselement door een van de eigenschappen in te stellen. Elk type besturingselement heeft een andere reeks eigenschappen. Sommige eigenschappen, zoals **Height** en **Width**, gelden voor vrijwel elk type besturingselement; andere eigenschappen, zoals **CheckboxSize**, zijn specifiek voor een bepaald type besturingselement.
@@ -31,7 +31,7 @@ Configureer de weergave en het gedrag van een besturingselement door een van de 
 
 **[Audio](controls/control-audio-video.md)**: een audioclip of het audiogedeelte van een videoclip afspelen.
 
-**[Barcodescanner](controls/control-barcodescanner.md)**: een barcode scannen met behulp van een apparaat dat is uitgerust met een camera.
+**[Streepjescodescanner (experimenteel)](controls/control-barcodescanner.md)** : een barcode scannen met een apparaat dat een camera heeft.
 
 **[Knop](controls/control-button.md)**: interactie met de app door te klikken of te tikken.
 
@@ -77,7 +77,7 @@ Configureer de weergave en het gedrag van een besturingselement door een van de 
 
 **[Microfoon](controls/control-microphone.md)**: geluiden opnemen en opslaan in de app of in een gegevensbron.
 
-**[PDF-viewer](controls/control-pdf-viewer.md)**: de inhoud van een PDF-bestand op internet weergeven.
+**[PDF-viewer (experimenteel)](controls/control-pdf-viewer.md)** : de inhoud van een PDF-bestand op internet tonen.
 
 **[Peninvoer](controls/control-pen-input.md)**: een afbeelding of tekst tekenen en deze opslaan in de app of in een gegevensbron.
 

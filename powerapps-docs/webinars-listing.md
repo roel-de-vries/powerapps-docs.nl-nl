@@ -13,26 +13,52 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 2/23/2018
+ms.date: 3/1/2018
 ms.author: v-malyng
-ms.openlocfilehash: 08c2263b88d78e708b21d1912334476d693295a7
-ms.sourcegitcommit: badede93a7d250f46db176792494b522994237b0
+ms.openlocfilehash: d1f10a12a188acaf2ee4bc4590e7dba9f3587611
+ms.sourcegitcommit: 85fadbb6881e1c097970e0566b5832f733cbe9b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="powerapps-webinar-listing"></a>Overzicht van PowerApps-webinars #
 In deze webinars ziet u hoe u kunt gebruikmaken van de functies en voorzieningen van Microsoft PowerApps. U kunt aanvullende onderwerpen voorstellen in de opmerkingen onder dit onderwerp.
 
 ## <a name="upcoming-webinars"></a>Komende webinars ##
-**Deep Dive | Patchoplossingen voor servers bouwen met PowerApps, door Brian Blanchard**
+**Connector-reeks | Project Online (PWA)**
+<br>door Audrie Gordon
+<br>*12 Maart, 10:00 PST, 13.00 EST*
+
+In deze demonstratie over de connector-reeks behandelen we stapsgewijs het gebruik van de opties van de Project Online (ook wel PWA)-connector. U kunt meedoen en uw vragen stellen over het bouwen van apps die gebruikmaken van hulpprogramma's voor het beheer van de portfolio en Project Online.
+
+[Klik hier om te kijken op 12 maart](https://www.youtube.com/watch?v=oncGxlmFqy8)
+
+
+**Deep Dive | Oplossingen voor serverpatches bouwen met PowerApps door Brian Blanchard (deel 2)**
 <br>door Brian Blanchard & Audrie Gordon
-<br>*26 februari, 10:00 PST, 1:00 PM EST*
+<br>*19 maart, 10:00 PST, 13.00 EST*
 
-Brian Blanchard van Microsoft Retail Stores laat zien hoe hij apps voor zijn team maakt voor het beheren van patchschema’s voor servers. Hij deelt de desktopversie en de mobiele versie die ze momenteel gebruiken voor het uitvoeren en vereenvoudigen van het patchproces. Bonuspunten voor Brian voor het gebruiken van PowerApps en Flow, zodat zijn team tijd en geld kan besparen.
+Dit is deel twee van Brian Blanchard’s demonstratie over hoe hij een app heeft gebouwd voor zijn team om schema’s voor het toepassen van serverpatches te beheren. Hij geeft een kijkje achter de schermen van zowel de installatie van Azure Automation als geavanceerde werkstromen in Microsoft Flow. Bonuspunten voor Brian voor het gebruiken van PowerApps en Flow, zodat zijn team tijd en geld kan besparen.
 
-[Klik hier om te kijken op 26 februari](https://www.youtube.com/watch?v=QAe0oBecowU)
+[Klik hier om te kijken op 19 maart](https://www.youtube.com/watch?v=oncGxlmFqy8)
 
+**Deep Dive | Click-Through PowerApps-analyses door Vivek Bavishi**
+<br>door Vivek Bavishi & Audrie Gordon
+<br>*17 april, 10:00 PST, 13:00 EST*
+
+Vivek Bavishi van de International PowerApps Champions-groep, gaat samen met Audrie Gordon van het PowerApps-team stapsgewijs door een eenvoudige benadering om uw eigen clickthrough-analyses te maken met PowerApps en Flow. Breid uw rapportagmogelijkheden uit met statistieken waarmee u het inzichtelijker maakt hoe de consumenten van uw app door uw applicaties navigeren. Hiermee kunt gegevens gebruiken om aannames over gebruik en ontwerp van een app te valideren! Als u een serieuze maker van apps bent wilt u de presentatie van Vivek niet missen.
+
+[Klik hier om te kijken op 17 april](https://www.youtube.com/watch?v=OM-rlhKJFTA)
+
+**Connector-reeks | De voordelen van het gebruik van de Common Data Service**
+<br>door Audrie Gordon
+<br>*23 april, 10:30 PST, 13:30 EST*
+
+Bent u al begonnen met het verkennen van de Common Data Service (ook wel CDS)? Bent u bij op het gebied van de voordelen van een common data schema voor uw bedrijfstoepassingen? Hebt u gehoord wat er nieuw en spannend is op dat gebied?
+
+Dit webinar duikt in de voordelen van het gebruiken van de Common Data Service in alle Microsoft Cloud-abonnementen (voor Office 365, Azure, en activering van Dynamics 365 app). Kom naar dit live webinar om een glimp op te vangen van welke kant we op gaan met CDS en hoe krachtig het is om uw apps te vorm te geven met gebruik van dit platform. We kunnen niet wachten om u een aantal van de eindeloze mogelijkheden te laten zien!
+
+[Klik hier om te kijken op 23 april](https://www.youtube.com/watch?v=JY8r46HnHoI)
 
 ## <a name="past-webinars"></a>Eerdere webinars ##
 Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor uw registratiegegevens opnieuw opgeven, waarna u per mail een koppeling naar de opname ontvangt.
@@ -113,6 +139,10 @@ Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor uw re
 
 **Connector-reeks | De kracht van Office Graph met PowerApps**
 <br>door Audrie Gordon [Nu bekijken](https://www.youtube.com/watch?v=AOGGyoElGaQ)
+
+**Deep Dive | Patchoplossingen voor servers bouwen met PowerApps, door Brian Blanchard**
+<br>door Brian Blanchard & Audrie Gordon [Nu kijken](https://www.youtube.com/watch?v=QAe0oBecowU)
+
 
 ### <a name="app-designer-topics"></a>Onderwerpen voor app-ontwerpers ###
 **Een kijkje achter de schermen met een van de PowerApp-ontwikkelaars, sjablonen nader bekeken: Marie Hoeger**

@@ -15,22 +15,32 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2017
 ms.author: fikaradz
-ms.openlocfilehash: 2fd5db380eead5403d4cc7d927da5a24aa24abc9
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.openlocfilehash: b58e99e4775ed5c18d3498864c6e652e814ddf19
+ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="attachments-control-in-powerapps"></a>Besturingselement voor bijlagen in PowerApps
-Een besturingselement waarmee gebruikers bestanden naar hun apparaat kunnen downloaden.  De uploadfunctionaliteit is binnenkort beschikbaar.
+Een besturingselement waarmee gebruikers bestanden kunnen downloaden op hun apparaat en ook bestanden kunnen uploaden naar en verwijderen van een SharePoint-lijst.
+
+## <a name="limitations"></a>Beperkingen
+Het besturingselement voor bijlagen heeft de volgende tijdelijke beperkingen:
+1. Uploaden van bijlagen werkt alleen met gegevensbronnen van SharePoint-lijst.  Ondersteuning voor andere gegevensbronnen wordt stapsgewijs geïntroduceerd, beginnend bij CDS.
+
+1. De functies uploaden en verwijderen werken alleen binnen een formulier.  Besturingselement bijlagen lijkt uitgschakeld wanneer het zich bewerkingsmodus bevindt en niet in een formulier.   Merk op dat om het toevoegen en verwijderen van bestanden aan de backend te besparen de eindgebruiker het formulier moet opslaan.
+
+1. U kunt alleen bestanden met een maximale grootte van 10 MB uploaden.  
 
 ## <a name="description"></a>Beschrijving
-Met het besturingselement **Bijlagen** kunt u bestanden openen die in een gegevensbron zijn opgeslagen.
+Met een besturingselement **Attachments** kunt u bestanden openen die zijn opgeslagen op een gegevensbron en ook bestanden toevoegen aan en verwijderen van een SharePoint-lijst.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
 **[Items](properties-core.md)**: de bron die de bestanden beschrijft die kunnen worden gedownload.
 
 **MaxAttachments**: het maximum aantal bestanden dat voor het besturingselement is toegestaan.
+
+**MaxAttachmentSize** – de maximaal toegestane bestandsgrootte in MB van elke nieuwe bijlage.  Er is momenteel een limiet van 10 MB.
 
 **OnAttach**: de manier waarop de app reageert wanneer de gebruiker een nieuwe bestandsbijlage toevoegt.
 
@@ -39,7 +49,9 @@ Met het besturingselement **Bijlagen** kunt u bestanden openen die in een gegeve
 **[OnSelect](properties-core.md)**: de manier waarop de app reageert wanneer de gebruiker op een bijlage klikt.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
-**AddAttachmentText**: de tekst van het label voor de knop die wordt gebruikt voor het toevoegen van een nieuwe bijlage.
+**AccessibleLabel** - Het label dat wordt vermeld door schermlezers.
+
+**AddAttachmentText** - De labeltekst voor de koppeling die gebruikt wordt om een nieuwe bijlage toe te voegen.
 
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
 
@@ -47,11 +59,13 @@ Met het besturingselement **Bijlagen** kunt u bestanden openen die in een gegeve
 
 **[BorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement.
 
-**[DisplayMode](properties-core.md)**: of invoer van de gebruiker is toegestaan (**Bewerken**), alleen gegevens worden weergegeven (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
+**[DisplayMode](properties-core.md)** - Of het besturingselement het toevoegen en verwijderen van bestanden toestaat (**Bewerken**), alleen gegevens weergeeft (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
 
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
 
-**NoAttachmentsText**: instructietekst die voor de gebruiker wordt weergegeven wanneer er geen bijlagen zijn om weer te geven.
+**MaxAttachmentsText** - de tekst die de koppeling 'bestand bijvoegen' vervangt wanneer het besturingselement het maximaal aantal toegestande bestanden bevat.
+
+**NoAttachmentsText** - Informatieve tekst die wordt weergegeven voor de gebruiker wanneer er geen bestanden zijn bijgevoegd.
 
 **[Visible](properties-core.md)**: hiermee wordt aangegeven of een besturingselement zichtbaar of verborgen is.
 

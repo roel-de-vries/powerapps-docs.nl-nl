@@ -5,7 +5,7 @@ services:
 suite: powerapps
 documentationcenter: na
 author: skjerland
-manager: anneta
+manager: kfile
 editor: 
 tags: 
 ms.service: powerapps
@@ -13,16 +13,20 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/24/2018
+ms.date: 03/05/2018
 ms.author: sharik
-ms.openlocfilehash: f6b91bcc8b5e4c9d0128c2cba1eb3f772c6f7451
-ms.sourcegitcommit: faaf9adebd72794d2988fba1b27a31d70b5268f8
+ms.openlocfilehash: c2faa505e62e4460e2fe65707946e3190b5b0350
+ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>Veelvoorkomende problemen en oplossingen voor PowerApps
 ## <a name="recently-addedchanged"></a>Onlangs toegevoegd/gewijzigd
+1. **De opmaak van SharePoint-lijstformulieren wijzigen**
+
+    Wanneer u bij het aanpassen van een SharePoint-lijstformulier in bepaalde talen probeert om de pagina-instelling te wijzigen van staand (standaard) naar liggend, geeft de app mogelijk meerdere foutmeldingen weer (gele driehoeken in besturingselementen). Klik op **Ongedaan maken** om deze foutmeldingen op te lossen en de liggende opmaak te behouden.
+
 1. **App werkt niet**
 
     Als een app die u hebt gemaakt zonder waarschuwing niet meer werkt, komt dit wellicht doordat u de app in de afgelopen zes maanden niet hebt bijgewerkt of opnieuw hebt gepubliceerd. U lost dit probleem op door de app bij te werken en/of opnieuw te publiceren om de app te synchroniseren met de nieuwste versie van PowerApps. Zorg ervoor dat u de app steeds binnen zes maanden na de laatste publicatiedatum bijwerkt en/of opnieuw publiceert.

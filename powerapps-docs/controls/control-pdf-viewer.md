@@ -15,21 +15,23 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 8a67a071a19bae57f022fe960a0b29296b58cf5d
-ms.sourcegitcommit: 68eee592c351688e5d0bd458f33a70be507fa53f
+ms.openlocfilehash: c3ed17faae5963f71531b2fdc2ef9b08ee2569cc
+ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="pdf-viewer-control-in-powerapps"></a>Besturingselement voor PDF-viewer in PowerApps
-Een besturingselement waarin de inhoud van een PDF-bestand kan worden weergegeven.
+# <a name="pdf-viewer-control-experimental-in-powerapps"></a>Besturingselement voor PDF-viewer (experimenteel) in PowerApps
+Een experimenteel besturingselement dat de inhoud van een PDF-bestand toont.
 
 ## <a name="description"></a>Beschrijving
 U kunt tekst, afbeeldingen en andere inhoud uit een PDF-bestand weergeven door dit type besturingselement toe te voegen en de eigenschap **Document** in te stellen op de URL (tussen dubbele aanhalingstekens) van het bestand dat u wilt weergeven.
 
 ## <a name="limitations"></a>Beperkingen
 Houd er rekening mee dat PDF Viewer, als gevolg van de beveiligingsarchitectuur van PowerApps, alleen ondersteuning biedt voor HTTPS-koppelingen, niet voor HTTP.  
-Als het PDF-document zich op een server met beperkende CORS-instellingen bevindt, kunt u dit mogelijk niet weergeven in uw app.  Als het document kan niet worden geopend in PowerApps, wordt de optie om het document in een externe browser te openen voor de eindgebruiker gepresenteerd.
+Als het PDF-document zich op een server met beperkende CORS-instellingen bevindt, kunt u dit mogelijk niet weergeven in uw app.  Om dit probleem op te lossen moet de server die PDF-documenten host toestemming geven aan cross origin requests (CORS) die afkomstig zijn van powerapps.com.
+
+Als het document kan niet worden geopend in PowerApps, wordt de optie om het document in een externe browser te openen voor de eindgebruiker gepresenteerd.  Deze optie is ook beschikbaar in het systeemmenu voor alle externe documenten.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
 **Document**: de URL, tussen dubbele aanhalingstekens, van een PDF-bestand.

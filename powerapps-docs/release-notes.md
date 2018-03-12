@@ -13,19 +13,23 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/13/2018
+ms.date: 03/05/2018
 ms.author: sharik
-ms.openlocfilehash: b8d06bb8ffbe1446f4c918e6cf1c6657c1890e65
-ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
+ms.openlocfilehash: e259c4c235809f75c03b3ea87df580b9b17a790c
+ms.sourcegitcommit: c76ec82db5d261be1fb7fdeeec3e119cdfada57f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="whats-new-in-powerapps"></a>Wat is er nieuw in PowerApps?
 Zie [Veelvoorkomende problemen en oplossingen](common-issues-and-resolutions.md) voor meer informatie over bekende beperkingen.
 
 > [!NOTE]
 > Releases worden geleidelijk uitgebracht gedurende enkele dagen. Wellicht wordt nieuwe of bijgewerkte functionaliteit niet direct weergegeven.
+
+## <a name="mar-5"></a>5 maart
+1. [Bijlagen](controls/control-attachments.md) toevoegen (en verwijderen) aan SharePoint-lijsten.
+2. Externe [PDF](controls/control-pdf-viewer.md)-bestanden openen in een internetbrowser. (Experimentele functie)
 
 ## <a name="feb-12"></a>12 februari
 * De volumeregeling voor het afspelen van ingesloten [video-](controls/control-audio-video.md) en [audiobestanden](controls/control-audio-video.md) is nu inline. Gebruikers moeten geluid voortaan dempen via de volumeregeling in plaats van te klikken of tikken op een knop.
@@ -54,7 +58,7 @@ Zie [Veelvoorkomende problemen en oplossingen](common-issues-and-resolutions.md)
 
 ## <a name="nov-13"></a>13 nov
 1. Selecteer meerdere waarden voor hetzelfde veld in de SharePoint-lijsten.
-2. U kunt nu de [Bijlage weergeven en downloaden](controls/control-attachments.md) in SharePoint-lijsten.
+2. [Bijlagen weergeven en downloaden](controls/control-attachments.md) in SharePoint-lijsten.
 3. [Pas SharePoint-lijstformulieren aan](customize-list-form.md) met PowerApps.
 
 ## <a name="nov-10"></a>10 nov
@@ -64,13 +68,3 @@ Zie [Veelvoorkomende problemen en oplossingen](common-issues-and-resolutions.md)
 1. [Alle regels weergeven](working-with-rules.md) in een app, niet alleen die voor het geselecteerde besturingselement.
 2. Pictogrammen toegevoegd waarom veel werd gevraagd door app-makers.
 3. Verbeterde prestaties van apps op Android- en iOS-apparaten.
-
-## <a name="sept-20"></a>20 september
-1. Nadat u voor het eerst [een app hebt opgeslagen](save-publish-app.md), worden aanvullende wijzigingen standaard elke twee minuten automatisch opgeslagen.
-2. [Maak gemakkelijk regels](working-with-rules.md) voor voorwaardelijke opmaak zonder expressies te schrijven – stel gewoon uw voorwaarde in en ontwerp de resultaten vervolgens rechtstreeks op het PowerApps-canvas.
-3. Configureer formulieren, galerieën en gegevenstabellen nog gemakkelijker met een gegevensdeelvenster van volledige hoogte dat verschijnt wanneer er een besturingselement wordt toegevoegd.
-4. Krijg contextgevoelige snelle tips voor het maken van een app, of u nu vanuit een lege app, een sjabloon, een gegevensbron of SharePoint begint.
-
-## <a name="sept-6"></a>6 september
-1. Voor apps die u maakt, kunt u het [gebruik bijhouden](app-analytics.md) in een ingesloten dashboard uit Power BI.
-2. Gebruik een scheidingsteken om een teksttekenreeks op te splitsen met behulp van de functie **[Split](functions/function-split.md)**.
