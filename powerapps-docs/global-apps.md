@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/25/2016
 ms.author: gregli
 ms.openlocfilehash: 57f2b9a23207c2c866738ac40f46a37747fcd54d
-ms.sourcegitcommit: 85fadbb6881e1c097970e0566b5832f733cbe9b6
+ms.sourcegitcommit: 397a968f57ce5aaaf2b86e804dfedda8cf34f307
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 03/19/2018
 ---
 # <a name="global-support"></a>Wereldwijde ondersteuning
 PowerApps is een wereldwijd product.  Hiermee kunt u apps in verschillende talen en voor verschillende regio's maken en gebruiken.
