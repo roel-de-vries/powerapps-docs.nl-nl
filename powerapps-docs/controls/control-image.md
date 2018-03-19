@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 6266e8b59f19862e4b4a7f2364785da8e7547e73
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.openlocfilehash: 0ab25713976e9f89fa74b5f7664b13dca447841e
+ms.sourcegitcommit: 87327f99636c68c62c755c4eb48861249a5a3add
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="image-control-in-powerapps"></a>Besturingselement voor afbeeldingen in PowerApps
 Een besturingselement waarin een afbeelding wordt weergeven, bijvoorbeeld uit een lokaal bestand of een gegevensbron.
@@ -110,9 +110,9 @@ Als u een of meer besturingselementen **Afbeelding** toevoegt aan een app, kunt 
 
 ## <a name="examples"></a>Voorbeelden
 ### <a name="show-an-image-from-a-local-file"></a>Een afbeelding uit een lokaal bestand weergeven
-1. Klik of tik op het tabblad **Inhoud** op **Media** en klik of tik vervolgens op **Bladeren**.
+1. Klik of tik in het menu **Bestand** op **Media** en klik of tik vervolgens op **Bladeren**.
 2. Klik of tik op het afbeeldingsbestand dat u wilt toevoegen, klik of tik op **Openen** en druk vervolgens op Esc om terug te keren naar de standaardwerkruimte.
-3. Voeg een besturingselement **Afbeelding** toe en stel de eigenschap **[Items](properties-core.md)** van het element in op de naam van het bestand dat u hebt toegevoegd.
+3. Voeg een besturingselement**Afbeelding** toe en stel de eigenschap **Afbeelding** van het element in op de naam van het bestand dat u hebt toegevoegd.
 
     Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
 
