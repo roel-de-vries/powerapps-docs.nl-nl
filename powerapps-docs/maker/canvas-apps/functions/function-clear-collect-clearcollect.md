@@ -1,13 +1,13 @@
 ---
 title: De functies Collect, Clear en ClearCollect | Microsoft Docs
 description: Referentie-informatie, inclusief syntaxis en voorbeelden, voor de functies Collect, Clear en ClearCollect in PowerApps
-services: 
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/01/2015
 ms.author: gregli
 ms.openlocfilehash: cc12241861a1dd6a0242810bb1a6faab70a2de27
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="collect-clear-and-clearcollect-functions-in-powerapps"></a>De functies Collect, Clear en ClearCollect in PowerApps
 Maakt en wist [verzamelingen](../working-with-data-sources.md#collections) en voegt [records](../working-with-tables.md#records) toe aan elke [gegevensbron](../working-with-data-sources.md).

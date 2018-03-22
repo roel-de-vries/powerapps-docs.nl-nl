@@ -1,13 +1,13 @@
 ---
 title: De grootte en stand van het scherm wijzigen | Microsoft Docs
 description: Stapsgewijze instructies voor het wijzigen van instellingen zoals de grootte en stand van het scherm
-services: 
+services: ''
 suite: powerapps
 documentationcenter: na
 author: lonu
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/16/2016
 ms.author: lonu
 ms.openlocfilehash: be123445c1b719012dcb71c7aa93d93dace64935
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="change-screen-size-and-orientation-in-powerapps"></a>De grootte en stand van het scherm wijzigen in PowerApps
 Een app aanpassen door de grootte en stand van het scherm te wijzigen.
@@ -30,7 +30,7 @@ Een app aanpassen door de grootte en stand van het scherm te wijzigen.
 2. Klik of tik in het menu **File** op **App settings**.
 
 ## <a name="change-screen-size-and-orientation"></a>De grootte en richting van het scherm wijzigen
-1. Klik of tik onder **App-instellingen** op de optie **Schermgrootte + stand**.
+1. Klik of tik onder **App-instellingen** op de optie  **	Schermgrootte + stand**.
 
     ![Optie voor het wijzigen van de grootte en stand van het scherm van een app](./media/set-aspect-ratio-portrait-landscape/size-orientation.png)
 

@@ -1,13 +1,13 @@
 ---
 title: Lijsten instellen voor integratie van SharePoint Online met PowerApps, Microsoft Flow en Power BI | Microsoft Docs
 description: In deze taak gaan we SharePoint-lijsten instellen om te gebruiken als gegevensbron voor apps, stromen, rapporten en dashboards.
-services: 
+services: ''
 suite: powerapps
 documentationcenter: na
 author: mgblythe
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 12/19/2017
 ms.author: mblythe
 ms.openlocfilehash: ad9033b51142d1bb6b014abe0cc049a0b5c27ee5
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="set-up-lists-for-sharepoint-online-integration-with-powerapps-microsoft-flow-and-power-bi"></a>Lijsten instellen voor integratie van SharePoint Online met PowerApps, Microsoft Flow en Power BI
 > [!NOTE]

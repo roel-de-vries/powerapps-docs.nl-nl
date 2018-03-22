@@ -1,13 +1,13 @@
 ---
 title: De functies Round, RoundDown en RoundUp | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis en voorbeelden, voor de functies Round, RoundDown en RoundUp in PowerApps
-services: 
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: cfb0e8351b1e51a07962e08b2894d02203b274c7
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="round-rounddown-and-roundup-functions-in-powerapps"></a>De functies Round, RoundDown en RoundUp in PowerApps
 Deze functies ronden een getal af.

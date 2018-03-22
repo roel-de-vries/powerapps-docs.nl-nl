@@ -1,13 +1,13 @@
 ---
 title: Verbinding maken met Oracle Database | Microsoft Docs
 description: Lees hoe u verbinding maakt met Oracle Database en dit kunt gebruiken voor het maken van apps in PowerApps.
-services: 
+services: ''
 suite: powerapps
 documentationcenter: na
 author: archnair
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/14/2017
 ms.author: archanan
 ms.openlocfilehash: dd55314461b2ba4769e50275837dc6fd897fedcc
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="connect-to-an-oracle-database-from-powerapps"></a>Verbinding maken met een Oracle-database vanuit PowerApps
 U kunt tabellen weergeven en tabelrijen maken, lezen, bijwerken en verwijderen in een Oracle-database nadat u een verbinding en een app hebt gemaakt in PowerApps. De Oracle Database-verbinding ondersteunt volledige delegering voor filteren, sorteren en andere functies, maar geen triggers of opgeslagen procedures.

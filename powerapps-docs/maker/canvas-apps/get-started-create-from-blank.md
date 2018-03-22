@@ -1,13 +1,13 @@
 ---
 title: Een volledig nieuwe app maken | Microsoft Docs
 description: Een app volledig zelf maken door elk UI-element en het gedrag te configureren voor het beheren van de dagelijkse gegevens van uw bedrijf.
-services: 
+services: ''
 suite: powerapps
 documentationcenter: na
 author: karthik-1
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/16/2016
 ms.author: sharik
 ms.openlocfilehash: d530fb5f77f00cb37322383a3817e9c38533ca1d
-ms.sourcegitcommit: e827813cd898ca9a1046b5952ea5e32ce2989a65
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="create-an-app-from-scratch"></a>Een volledig nieuwe app maken
 Maak een volledig nieuwe app met een van de vele gegevensbronnen, en voeg later meer bronnen toe indien nodig. Bepaal het uiterlijk en gedrag van elk UI-element om de resultaten te optimaliseren voor uw specifieke doelstellingen en werkstroom. Deze benadering kost veel meer tijd dan [automatisch een app genereren](get-started-create-from-data.md), maar ervaren app-makers kunnen zo de beste app voor hun wensen maken.

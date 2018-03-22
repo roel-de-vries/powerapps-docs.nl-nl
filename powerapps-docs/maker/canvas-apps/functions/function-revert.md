@@ -1,13 +1,13 @@
 ---
 title: De functie Revert | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis en voorbeelden, voor de functie Revert in PowerApps
-services: 
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/21/2015
 ms.author: gregli
 ms.openlocfilehash: e61566077ccdf9f3b2913ec0293868c1863c26fa
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="revert-function-in-powerapps"></a>De functie Revert in PowerApps
 Herstelt de [records](../working-with-tables.md#records) in een [gegevensbron](../working-with-data-sources.md) en wist fouten.

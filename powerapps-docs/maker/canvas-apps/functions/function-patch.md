@@ -1,13 +1,13 @@
 ---
 title: De functie Patch | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis en voorbeelden, voor de functie Patch in PowerApps
-services: 
+services: ''
 suite: powerapps
 documentationcenter: na
 author: gregli-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/21/2015
 ms.author: gregli
 ms.openlocfilehash: 44d4c9e15b63cfbbd2f5304e6df7bd70fe748a04
-ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="patch-function-in-powerapps"></a>De functie Patch in PowerApps
 Wijzigt of maakt een of meer [records](../working-with-tables.md#records) in een [gegevensbron](../working-with-data-sources.md) of voegt records buiten een gegevensbron samen.
