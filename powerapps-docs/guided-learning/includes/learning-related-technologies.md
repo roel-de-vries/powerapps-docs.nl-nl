@@ -2,7 +2,6 @@ De volgende technologieën worden vaak gebruikt in combinatie met PowerApps om r
 
 * **Microsoft Flow**: geautomatiseerde werkstromen tussen uw favoriete apps en services maken
 * **Gegevensbronnen, verbindingen, connectors en gateways**: gegevens in de cloud en on-premises overbrengen naar uw apps
-* **Common Data Service**: bedrijfsgegevens integreren met behulp van het algemene gegevensmodel
 * **Microsoft Dynamics 365**: al uw zakelijke apps op internet uitvoeren
 * **Microsoft AppSource**: uw apps delen en opnemen in deze centrale locatie voor Microsoft en onze vele partners
 
@@ -15,11 +14,6 @@ De volgende technologieën worden vaak gebruikt in combinatie met PowerApps om r
 Er zijn veel **gegevensbronnen** die voor u van belang kunnen zijn en PowerApps maakt gebruik van **connectors** om **verbindingen** met deze gegevensbronnen te maken. Sommige van de populairste gegevensbronnen worden hieronder weergegeven. Veel daarvan zijn cloudservices, zoals Salesforce. Connectors zijn misschien niet het leukste deel bij het ontwikkelen van apps, maar ze zijn essentieel om te werken met de gegevens die u, uw collega's en uw klanten nodig hebben. Voor gegevens die niet in de cloud maar on-premises zijn opgeslagen, gebruikt u een **gateway** voor een betrouwbare verbinding tussen PowerApps en uw gegevensbron. De gateway bevindt zich op een on-premises computer en communiceert met PowerApps.
 
 ![Gegevensbronnen en connectors voor PowerApps](./media/learning-powerapps-parts/powerapps-data.png)
-
-### <a name="microsoft-common-data-service"></a>Microsoft Common Data Service
-Met de **Common Data Service** kunt u gemakkelijk zakelijke gegevens uit meerdere bronnen integreren. De service werkt met een **algemeen gegevensmodel** met veel **entiteiten** die worden gebruikt in apps en bedrijfsprocessen: entiteiten zoals Contact, Product en Sales Order. De service slaat de gegevens op een schaalbare en betrouwbare manier op en stelt de gegevens beschikbaar zodat meerdere toepassingen er gebruik van kunnen maken. De toepassingen kunnen apps zijn die u in PowerApps ontwikkelt, andere Microsoft-toepassingen of toepassingen van derden. De onderstaande afbeelding geeft een deel van de entiteit **Contact** in web.powerapps.com weer.
-
-![PowerApps - entiteit Contact](./media/learning-powerapps-parts/powerapps-contact.png)
 
 ### <a name="microsoft-dynamics-365"></a>Microsoft Dynamics 365
 **Dynamics 365** is een cloudservice met speciaal gebouwde apps voor specifieke zakelijke behoeften zoals verkoopautomatisering, bedrijfsvoering of klantenservice. In PowerApps neemt u apps op in AppSource en gebruikers met wie u deze apps deelt kunnen de apps weergeven en uitvoeren in Dynamics 365, maar ook op mobiele apparaten. Het voordeel om de apps op te nemen in Dynamics 365 is dat u zo **één locatie hebt om uw zakelijke apps uit te voeren**. Dat kunnen apps van gebruikers in uw organisatie, van Microsoft en van derden zijn.

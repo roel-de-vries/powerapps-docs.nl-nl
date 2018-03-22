@@ -45,11 +45,3 @@ Daarmee zijn we aan het eind gekomen van de verkenning van de gegenereerde app e
 Voordat we verdergaan naar de volgende sectie, keren we even terug naar SharePoint om u te laten zien hoe de app nu is geïntegreerd met de lijst. Zoals u ziet, functioneert **FlooringApp** nu als een *weergave* van de lijst en u start de app door op **Openen** te klikken. Dat biedt een eenvoudige manier om uw lijsten te beheren met een prettige en gepersonaliseerde ervaring.
 
 ![App als weergave van Sharepoint-lijst](./media/learning-spo-app-explore-formulas/list-view.png)
-
-Nu u de app-sectie van SharePoint hebt doorlopen, kunt u voor het vervolg kiezen uit twee mogelijkheden:
-
-* [Apps beheren](https://docs.microsoft.com/powerapps/guided-learning/manage-apps#step-1)
-* [Een app maken en aanpassen vanuit de Common Data Service](https://docs.microsoft.com/powerapps/guided-learning/create-app-cds#step-1)
-
-In de sectie over beheren ziet u hoe u apps kunt delen en het versiebeleid kunt bepalen. Bovendien hebben we het over omgevingen, die kunnen worden gedefinieerd als containers voor apps, gegevens en andere bronnen. Het is voor iedereen raadzeem om de beheersectie op een bepaald moment door te nemen, maar ook de sectie over de Common Data Service bevat nuttige informatie, met meer app-aanpassingen. 
-

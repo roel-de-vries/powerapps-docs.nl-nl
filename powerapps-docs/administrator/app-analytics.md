@@ -1,13 +1,13 @@
 ---
 title: App-analyses | Microsoft Docs
 description: Bekijk rapporten om het gebruik en de prestaties van uw app te controleren.
-services: 
+services: ''
 suite: powerapps
 documentationcenter: na
 author: jamesol-msft
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 08/29/2017
 ms.author: jamesol
 ms.openlocfilehash: e66978f6134919b18f4cfba913f1bb34394d8832
-ms.sourcegitcommit: 6afca7cb4234d3a60111c5950e7855106ff97e56
+ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="view-analytics-reports-for-your-app"></a>Analyserapporten voor uw app weergeven
 Hebt u een app gebouwd en deze gedeeld in uw organisatie?  Bent u benieuwd hoeveel collega’s deze dagelijks gebruiken?
