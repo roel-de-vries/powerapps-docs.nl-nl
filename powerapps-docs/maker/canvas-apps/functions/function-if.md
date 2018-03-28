@@ -71,7 +71,7 @@ In de volgende voorbeelden heeft een **schuifregelaar** met de naam **Schuifrege
 | **Switch( Schuifregelaar1.Value, 20, "Result1", 10, "Result2", 0, "Result3", "DefaultResult" )** |De waarde van de schuifregelaar komt niet overeen met een van de waarden die worden gecontroleerd.  Een *DefaultResult* is opgegeven, dus deze wordt geretourneerd. |"DefaultResult" |
 
 ### <a name="branching-in-behavior-formulas"></a>Vertakkingen in gedragsformules
-In deze voorbeelden is in een **[Tekstinvoer](../controls/control-text-input.md)**-besturingselement met de naam **FirstName** de waarde 'John' getypt.
+In deze voorbeelden is in een **[Text input](../controls/control-text-input.md)**-besturingselement met de naam **FirstName** de waarde 'John' getypt.
 
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
@@ -80,7 +80,7 @@ In deze voorbeelden is in een **[Tekstinvoer](../controls/control-text-input.md)
 | **Switch( Voornaam.Text, "Carlos", Navigate(&nbsp;Scherm1, Schermovergang.None ), "Kirstin", Navigate( Scherm2, Schermovergang.None ), "John", Navigate( Scherm3, Schermovergang.None ) )** |De waarde van **Voornaam.Text** wordt vergeleken met 'Carlos', 'Kirstin' en 'John', in die volgorde. Er is een overeenkomst gevonden met 'John', dus de app navigeert naar **Scherm3**. |**true**<br><br>De weergave wordt gewijzigd naar **Scherm3**. |
 
 ### <a name="step-by-step"></a>Stap voor stap
-1. Voeg een **[Tekstinvoer](../controls/control-text-input.md)**-besturingselement toe en noem het **Tekst1** als het die naam niet standaard al heeft.
+1. Voeg een **[Text input](../controls/control-text-input.md)**-besturingselement toe en noem het **Tekst1** als het die naam niet standaard al heeft.
 2. Typ in **Tekst1** **30**.
 3. Voeg een besturingselement van het type **Label** toe en stel de eigenschap **[Text](../controls/properties-core.md)** in op deze formule:<br>
    **If( Value(Text1.Text) < 20, "Bestel VEEL meer!", Value(Text1.Text) < 40, "Bestel meer!", Text1.Text )**
