@@ -59,11 +59,11 @@ In de volgende voorbeelden heeft een **schuifregelaar** met de naam **Schuifrege
 
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
-| **Als( Schuifregelaar1.Value&nbsp;=&nbsp;25, "Result1" )** |De voorwaarde is **true** en het bijbehorende resultaat wordt geretourneerd. |"Result1" |
-| **Als( Schuifregelaar1.Value&nbsp;=&nbsp;25, "Result1", "Result2" )** |De voorwaarde is **true** en het bijbehorende resultaat wordt geretourneerd. |"Result1" |
-| **Als( Schuifregelaar1.Value&nbsp;>&nbsp;1000, "Result1" )** |De voorwaarde is **false** en er is geen *DefaultResult* opgegeven. |*leeg* |
-| **Als( Schuifregelaar1.Waarde&nbsp;>&nbsp;1000, "Result1", "Result2" )** |De voorwaarde is **false**, er is een *DefaultResult* opgegeven en deze wordt geretourneerd. |"Result2" |
-| **Als( Schuifregelaar1.Waarde&nbsp;=&nbsp;25, "Result1", Schuifregelaar1.Value&nbsp;>&nbsp;0, "Result2" )** |De eerste voorwaarde is **true** en het bijbehorende resultaat wordt geretourneerd. De tweede voorwaarde is ook **true**, maar deze wordt niet geëvalueerd omdat deze later in de lijst met argumenten staat dan een voorwaarde die wordt geëvalueerd als **true**. |"Result1" |
+| **If( Schuifregelaar1.Value&nbsp;=&nbsp;25, "Result1" )** |De voorwaarde is **true** en het bijbehorende resultaat wordt geretourneerd. |"Result1" |
+| **If( Schuifregelaar1.Value&nbsp;=&nbsp;25, "Result1", "Result2" )** |De voorwaarde is **true** en het bijbehorende resultaat wordt geretourneerd. |"Result1" |
+| **If( Schuifregelaar1.Value&nbsp;>&nbsp;1000, "Result1" )** |De voorwaarde is **false** en er is geen *DefaultResult* opgegeven. |*leeg* |
+| **If( Schuifregelaar1.Waarde&nbsp;>&nbsp;1000, "Result1", "Result2" )** |De voorwaarde is **false**, er is een *DefaultResult* opgegeven en deze wordt geretourneerd. |"Result2" |
+| **If( Schuifregelaar1.Waarde&nbsp;=&nbsp;25, "Result1", Schuifregelaar1.Value&nbsp;>&nbsp;0, "Result2" )** |De eerste voorwaarde is **true** en het bijbehorende resultaat wordt geretourneerd. De tweede voorwaarde is ook **true**, maar deze wordt niet geëvalueerd omdat deze later in de lijst met argumenten staat dan een voorwaarde die wordt geëvalueerd als **true**. |"Result1" |
 | **If( IsBlank(&nbsp;Schuifregelaar1.Value&nbsp;), "Result1", IsNumeric(&nbsp;Schuifregelaar1.Value&nbsp;), "Result2" )** |De eerste voorwaarde is **false** omdat de schuifregelaar niet *leeg* is. De tweede voorwaarde is **true** omdat de waarde van de schuifregelaar een getal is; het bijbehorende resultaat wordt geretourneerd. |"Result2" |
 | **If( Schuifregelaar1.Value&nbsp;>&nbsp;1000, "Result1", Schuifregelaar1.Value&nbsp;>&nbsp;50, "Result2", "Result3")** |Zowel de eerste als de tweede voorwaarde is **false** en *DefaultResult* is opgegeven en geretourneerd. |"Result3" |
 | **Switch( Schuifregelaar1.Value, 25, "Result1" )** |De waarde van de schuifregelaar komt overeen met de eerste waarde die moet worden gecontroleerd en het bijbehorende resultaat wordt geretourneerd. |"Result1" |
@@ -75,8 +75,8 @@ In deze voorbeelden is in een **[Text input](../controls/control-text-input.md)*
 
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
-| **Als( ! IsBlank( Voornaam.Text ), Navigate(&nbsp;Scherm1, Schermovergang.None) )** |De voorwaarde is **true** dus de functie **[Navigate](function-navigate.md)** wordt uitgevoerd. U kunt de functie **[IsBlank](function-isblank-isempty.md)** gebruiken om te testen of een verplicht formulierveld is ingevuld.  Als **Voornaam** [leeg](function-isblank-isempty.md) was, zou deze formule geen effect hebben. |**true**<br><br>De weergave wordt gewijzigd naar **Scherm1**. |
-| **Als( IsBlank( Voornaam.Text ), Navigate(&nbsp;Scherm1, Schermovergang.None), Terug() )** |Zonder de operator **!** is de voorwaarde **false**, dus wordt de functie **[Navigate](function-navigate.md)** niet uitgevoerd. De functie **[Terug](function-navigate.md)** is opgegeven als een *DefaultResult*, dus deze wordt uitgevoerd. |**true**<br><br>De weergave gaat terug naar het scherm dat eerder werd weergegeven. |
+| **If( ! IsBlank( Voornaam.Text ), Navigate(&nbsp;Scherm1, Schermovergang.None) )** |De voorwaarde is **true** dus de functie **[Navigate](function-navigate.md)** wordt uitgevoerd. U kunt de functie **[IsBlank](function-isblank-isempty.md)** gebruiken om te testen of een verplicht formulierveld is ingevuld.  If **Voornaam** [leeg](function-isblank-isempty.md) was, zou deze formule geen effect hebben. |**true**<br><br>De weergave wordt gewijzigd naar **Scherm1**. |
+| **If( IsBlank( Voornaam.Text ), Navigate(&nbsp;Scherm1, Schermovergang.None), Terug() )** |Zonder de operator **!** is de voorwaarde **false**, dus wordt de functie **[Navigate](function-navigate.md)** niet uitgevoerd. De functie **[Terug](function-navigate.md)** is opgegeven als een *DefaultResult*, dus deze wordt uitgevoerd. |**true**<br><br>De weergave gaat terug naar het scherm dat eerder werd weergegeven. |
 | **Switch( Voornaam.Text, "Carlos", Navigate(&nbsp;Scherm1, Schermovergang.None ), "Kirstin", Navigate( Scherm2, Schermovergang.None ), "John", Navigate( Scherm3, Schermovergang.None ) )** |De waarde van **Voornaam.Text** wordt vergeleken met 'Carlos', 'Kirstin' en 'John', in die volgorde. Er is een overeenkomst gevonden met 'John', dus de app navigeert naar **Scherm3**. |**true**<br><br>De weergave wordt gewijzigd naar **Scherm3**. |
 
 ### <a name="step-by-step"></a>Stap voor stap
