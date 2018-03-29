@@ -2,26 +2,27 @@
 title: Aan de slag
 metadata:
   title: Aan de slag | Microsoft PowerApps
-  description: "Begrijpen wat PowerApps is en wat de bijbehorende software-elementen en verwante technologieën zijn."
+  description: Begrijpen wat PowerApps is en wat de bijbehorende software-elementen en verwante technologieën zijn.
   audience: Business User
   level: Beginner
   nextTutorialHref: create-app-sharepoint
   nextTutorialTitle: Een app maken vanuit SharePoint
   displayType: one-column
-  author: mgblythe
-  manager: anneta
+  author: AFTOwen
+  manager: kfile
   ms.service: powerapps
   ms.topic: get-started-article
   ms.date: 10/27/2017
-  ms.author: mblythe
-  ms.openlocfilehash: 7e4e120e7165608fc0cee43f01edfc9a4acc54d3
-  ms.sourcegitcommit: 33099e6197c0139679cd08c42e9e2a5717904c92
+  ms.author: anneta
+  ms.openlocfilehash: 7d4373c1ef89795b766033a5cc9e09288f1a4775
+  ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 01/12/2018
+  ms.lasthandoff: 03/28/2018
 items:
 - durationInMinutes: 1
-  content: "Begrijpen wat PowerApps is en wat de bijbehorende software-elementen en verwante technologieën zijn. De verschillende manieren bekijken waarop u apps kunt maken en een app genereren op basis van een SharePoint-lijst.\n"
+  content: >
+    Begrijpen wat PowerApps is en wat de bijbehorende software-elementen en verwante technologieën zijn. De verschillende manieren bekijken waarop u apps kunt maken en een app genereren op basis van een SharePoint-lijst.
 - title: Inleiding tot PowerApps
   durationInMinutes: 5
   content: >
@@ -36,7 +37,7 @@ items:
 
 
     [!INCLUDE [](includes/learning-powerapps-parts.md)]
-- title: "Verwante technologieën"
+- title: Verwante technologieën
   durationInMinutes: 6
   content: >
     > [!Video https://www.youtube.com/embed/C81IfqIn9LI?rel=0]
@@ -61,4 +62,4 @@ items:
   durationInMinutes: 2
   content: >
     [!INCLUDE [](includes/learning-review-section-one.md)]
-- content: "U hebt de sectie **Aan de slag** van Microsoft PowerApps - begeleide training voltooid.\0"
+- content: U hebt de sectie **Aan de slag** van Microsoft PowerApps - begeleide training voltooid.
