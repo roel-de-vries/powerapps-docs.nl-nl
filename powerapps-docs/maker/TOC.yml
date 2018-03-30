@@ -1,0 +1,231 @@
+- name: Apps maken
+  href: index.md
+  expanded: true
+  items:
+    - name: Aanmelden voor een proefversie van 30 dagen
+      href: signup-for-powerapps.md
+    - name: Aanmelden voor het PowerApps-communityabonnement
+      href: dev-community-plan.md
+- name: Canvas-apps
+  href: ./canvas-apps/getting-started.md
+  items:
+    - name: Snelstartgidsen
+      items:
+        - name: Een voorbeeld-app openen
+          href: ./canvas-apps/open-and-run-a-sample-app.md
+        - name: Een app genereren
+          items:
+            - name: Vanuit Common Data Service for Apps
+              href: ./canvas-apps/data-platform-create-app.md
+            - name: Vanuit SharePoint
+              href: ./canvas-apps/app-from-sharepoint.md
+            - name: Vanuit Excel
+              href: ./canvas-apps/get-started-create-from-data.md
+        - name: Een SharePoint-lijstformulier aanpassen
+          href: ./canvas-apps/customize-list-form.md
+        - name: Een app maken vanuit SharePoint
+          href: ./canvas-apps/generate-app-from-sharepoint-list-interface.md
+    - name: Zelfstudie
+      items:
+        - name: Een gegenereerde app aanpassen
+          items:
+            - name: Een bladerscherm aanpassen
+              href: ./canvas-apps/customize-layout-sharepoint.md
+            - name: Een formulier aanpassen
+              href: ./canvas-apps/customize-forms-sharepoint.md
+            - name: Een kaart aanpassen
+              href: ./canvas-apps/customize-card.md
+        - name: Een volledig nieuwe app maken
+          href: ./canvas-apps/data-platform-create-app-scratch.md
+        - name: Een app delen
+          href: ./canvas-apps/share-app.md
+        - name: Een app insluiten in Power BI
+          href: ./canvas-apps/embed-powerapps-powerbi.md
+    - name: Concepten
+      items:
+        - name: Aan de slag met formules
+          href: ./canvas-apps/working-with-formulas.md
+        - name: Tabellen en records
+          href: ./canvas-apps/working-with-tables.md
+        - name: Gegevensformulieren
+          href: ./canvas-apps/working-with-forms.md
+        - name: Indeling voor gegevensformulier
+          href: ./canvas-apps/working-with-form-layout.md
+        - name: Gegevenskaarten
+          href: ./canvas-apps/working-with-cards.md
+        - name: Variabelen
+          href: ./canvas-apps/working-with-variables.md
+        - name: formules
+          href: ./canvas-apps/working-with-formulas-in-depth.md
+        - name: Datums en tijden
+          href: ./canvas-apps/show-text-dates-times.md
+        - name: Gegevensbronnen
+          href: ./canvas-apps/working-with-data-sources.md
+        - name: Integratie met SharePoint-formulieren begrijpen
+          href: ./canvas-apps/sharepoint-form-integration.md
+        - name: Aangepast visueel PowerApps-element
+          href: ./canvas-apps/powerapps-custom-visual.md
+        - name: Ontwikkeling van canvas-apps
+          items:
+            - name: 'PowerApps voor bedrijfsontwikkelaars, partners en ISV''s'
+              href: ./canvas-apps/dev-enterprise-intro.md
+            - name: Aangepaste connectors bouwen en certificeren
+              href: ./canvas-apps/register-custom-api.md
+            - name: Integreren met websites en andere technologieën
+              href: ./canvas-apps/embed-apps-dev.md
+            - name: Apps ontwikkelen die geschikt zijn voor offlinegebruik
+              href: ./canvas-apps/offline-apps.md
+            - name: Klanten uw apps laten uitproberen
+              href: ./canvas-apps/dev-appsource-test-drive.md
+    - name: Procedures
+      items:
+        - name: Een app maken op basis van een sjabloon
+          href: ./canvas-apps/get-started-test-drive.md
+        - name: Een volledig nieuwe Excel-app bouwen
+          href: ./canvas-apps/get-started-create-from-blank.md
+        - name: Een app aanpassen
+          items:
+            - name: Een besturingselement toevoegen en configureren
+              href: ./canvas-apps/add-configure-controls.md
+            - name: Een scherm toevoegen
+              href: ./canvas-apps/add-screen-context-variables.md
+            - name: Een gegevensverbinding toevoegen
+              href: ./canvas-apps/add-data-connection.md
+            - name: Een lijst met items weergeven
+              href: ./canvas-apps/add-gallery.md
+            - name: Items met verschillende hoogtes weergeven
+              href: ./canvas-apps/gallery-dynamic-sizing.md
+            - name: Een formulier toevoegen
+              href: ./canvas-apps/add-form.md
+            - name: De huidige gebruiker weergeven
+              href: ./canvas-apps/show-current-user.md
+            - name: Een lijstbesturingselement toevoegen
+              href: ./canvas-apps/add-list-box-drop-down-list-radio-button.md
+            - name: Verbinding maken met lijsten via zoekopdrachten
+              href: ./canvas-apps/sharepoint-lookup-fields.md
+            - name: Een grafiek toevoegen
+              href: ./canvas-apps/use-line-pie-bar-chart.md
+            - name: Multimedia toevoegen
+              href: ./canvas-apps/add-images-pictures-audio-video.md
+            - name: Een streepjescode scannen
+              href: ./canvas-apps/scan-barcode.md
+            - name: Een stroom toevoegen
+              href: ./canvas-apps/using-logic-flows.md
+            - name: Een scrollscherm toevoegen
+              href: ./canvas-apps/add-scrolling-screen.md
+            - name: Een algemene app maken
+              href: ./canvas-apps/global-apps.md
+        - name: Uw app beheren
+          items:
+            - name: Inleiding tot powerapps.com
+              href: ./canvas-apps/intro-maker-portal.md
+            - name: Een app bewerken
+              href: ./canvas-apps/edit-app.md
+            - name: De grootte en richting van het scherm wijzigen
+              href: ./canvas-apps/set-aspect-ratio-portrait-landscape.md
+            - name: Naam en tegel van app wijzigen
+              href: ./canvas-apps/set-name-tile.md
+            - name: Een app opslaan en publiceren
+              href: ./canvas-apps/save-publish-app.md
+            - name: Een app verwijderen
+              href: ./canvas-apps/delete-app.md
+            - name: Een vorige versie van uw app terugzetten
+              href: ./canvas-apps/restore-an-app.md
+        - name: Verbinding maken met gegevens
+          items:
+            - name: Gegevensverbindingen beheren
+              href: ./canvas-apps/add-manage-connections.md
+            - name: Verbinding maken met SharePoint
+              href: ./canvas-apps/connect-to-sharepoint.md
+            - name: Delegering
+              href: ./canvas-apps/delegation-overview.md
+            - name: Delegeerbare gegevensbronnen
+              href: ./canvas-apps/delegation-list.md
+            - name: Gateways beheren
+              href: ./canvas-apps/gateway-management.md
+            - name: Gateways begrijpen
+              href: ./canvas-apps/gateway-reference.md
+        - name: Integreren met andere technologieën
+          items:
+            - name: SharePoint Online
+              items:
+                - name: Overzicht van SharePoint Online-integratie
+                  href: ./canvas-apps/sharepoint-scenario-intro.md
+                - name: SharePoint Online-lijsten instellen
+                  href: ./canvas-apps/sharepoint-scenario-setup.md
+                - name: Een app genereren
+                  href: ./canvas-apps/sharepoint-scenario-generate-app.md
+                - name: Een stroom maken voor goedkeuringen
+                  href: ./canvas-apps/sharepoint-scenario-approval-flow.md
+                - name: Een volledig nieuwe app maken
+                  href: ./canvas-apps/sharepoint-scenario-build-app.md
+                - name: Een Power BI-rapport maken
+                  href: ./canvas-apps/sharepoint-scenario-build-report.md
+                - name: Een Power BI-rapport publiceren
+                  href: ./canvas-apps/sharepoint-scenario-publish-report.md
+                - name: Een Power BI-rapport insluiten
+                  href: ./canvas-apps/sharepoint-scenario-embed-report.md
+                - name: Een stroom maken voor waarschuwingen
+                  href: ./canvas-apps/sharepoint-scenario-alerts-flow.md
+                - name: Het volledige scenario doorlopen
+                  href: ./canvas-apps/sharepoint-scenario-summary.md
+            - name: Cognitive Services
+              href: ./canvas-apps/cognitive-services-api.md
+    - name: Referentie
+      items:
+        - name: Referentie formule
+          href: ./canvas-apps/formula-reference.md
+        - name: Referentie besturingselementen
+          href: ./canvas-apps/reference-properties.md
+        - name: Referentie connectors
+          href: ./canvas-apps/connections-list.md
+        - name: 'Systeemvereisten, limieten en configuratie'
+          href: ./canvas-apps/limits-and-config.md
+    - name: Bronnen
+      items:
+        - name: Werken met omgevingen
+          href: ./canvas-apps/working-with-environments.md
+        - name: Wat is er nieuw
+          href: ./canvas-apps/release-notes.md
+        - name: Veelvoorkomende problemen en oplossingen
+          href: ./canvas-apps/common-issues-and-resolutions.md
+        - name: Geplande en recente webinars
+          href: ./canvas-apps/webinars-listing.md
+- name: Modelgestuurde apps
+  href: ./model-driven-apps/model-driven-app-overview.md
+  items:
+    - name: Overzicht van voorbeeld-apps
+      href: ./model-driven-apps/overview-model-driven-samples.md
+    - name: Een modelgestuurde app delen
+      href: ./model-driven-apps/share-model-driven-app.md
+    - name: Een modelgestuurde app uitvoeren op een mobiel apparaat
+      href: ./model-driven-apps/run-app-client-model-driven.md
+- name: Common Data Service for Apps
+  href: ./common-data-service/data-platform-intro.md
+  items:
+    - name: Snelstartgidsen
+      items:
+        - name: Een entiteit maken
+          href: ./common-data-service/data-platform-create-entity.md
+        - name: Een aangepaste entiteit maken op basis van gegevens
+          href: ./common-data-service/data-platform-cds-newentity-pq.md
+        - name: Velden beheren
+          href: ./common-data-service/data-platform-manage-fields.md
+        - name: Een optieset maken
+          href: ./common-data-service/custom-picklists.md
+        - name: Een relatie maken
+          href: ./common-data-service/data-platform-entity-lookup.md
+        - name: Een bedrijfsregel maken
+          href: ./common-data-service/data-platform-create-business-rule.md
+        - name: Een aangepaste entiteit verwijderen
+          href: ./common-data-service/data-platform-delete-entity.md
+    - name: Zelfstudie
+      items:
+        - name: Een aangepaste entiteit met onderdelen maken
+          href: ./common-data-service/create-custom-entity.md
+    - name: Voorbeelden en resources
+      href: ./common-data-service/samples-resources.md
+    - name: Voor ontwikkelaars
+      href: ../developer/common-data-service/TOC.yml
+- name: Common Data Model
+  href: ../common-data-model/overview.md

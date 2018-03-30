@@ -1,0 +1,19 @@
+- name: Overzicht
+  href: overview.md
+- name: Kennismaking met oplossingen
+  href: introduction-solutions.md
+- name: Common Data Service for Apps-gegevensentiteiten
+  href: entities.md
+  items:
+    - name: Metagegevens van entiteiten
+      href: entity-metadata.md
+    - name: Metagegevens van kenmerken
+      href: entity-attribute-metadata.md
+    - name: Metagegevens van relaties van entiteiten
+      href: entity-relationship-metadata.md
+    - name: Referentie entiteit
+      href: reference/entities/toc.yml
+- name: Bedrijfslogica toepassen met code
+  href: apply-business-logic-with-code.md
+- name: Common Data Service for Apps-webservices gebruiken
+  href: use-web-services.md

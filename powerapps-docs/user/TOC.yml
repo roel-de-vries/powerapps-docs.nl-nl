@@ -1,0 +1,10 @@
+- name: Apps zoeken en uitvoeren
+  href: index.md
+- name: In een browser
+  href: run-app-browser.md
+- name: Op een telefoon (canvas)
+  href: run-app-client.md
+- name: In Microsoft Teams
+  href: open-app-embedded-in-teams.md
+- name: Vanuit AppSource
+  href: app-source.md

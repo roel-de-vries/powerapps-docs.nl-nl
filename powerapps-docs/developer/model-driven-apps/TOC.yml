@@ -1,0 +1,8 @@
+- name: Overzicht
+  href: overview.md
+- name: Webresources gebruiken
+  href: web-resources.md
+- name: Clientscripts
+  href: client-scripting.md
+- name: Opdrachten aanpassen
+  href: customize-commands.md
