@@ -13,6 +13,10 @@
       items:
         - name: Een voorbeeld-app openen
           href: ./canvas-apps/open-and-run-a-sample-app.md
+        - name: Een app maken op basis van een sjabloon
+          href: ./canvas-apps/get-started-test-drive.md
+        - name: Een app maken vanuit SharePoint
+          href: ./canvas-apps/generate-app-from-sharepoint-list-interface.md
         - name: Een app genereren
           items:
             - name: Vanuit Common Data Service for Apps
@@ -21,10 +25,6 @@
               href: ./canvas-apps/app-from-sharepoint.md
             - name: Vanuit Excel
               href: ./canvas-apps/get-started-create-from-data.md
-        - name: Een SharePoint-lijstformulier aanpassen
-          href: ./canvas-apps/customize-list-form.md
-        - name: Een app maken vanuit SharePoint
-          href: ./canvas-apps/generate-app-from-sharepoint-list-interface.md
     - name: Zelfstudie
       items:
         - name: Een gegenereerde app aanpassen
@@ -79,8 +79,8 @@
               href: ./canvas-apps/dev-appsource-test-drive.md
     - name: Procedures
       items:
-        - name: Een app maken op basis van een sjabloon
-          href: ./canvas-apps/get-started-test-drive.md
+        - name: Een SharePoint-lijstformulier aanpassen
+          href: ./canvas-apps/customize-list-form.md
         - name: Een volledig nieuwe Excel-app bouwen
           href: ./canvas-apps/get-started-create-from-blank.md
         - name: Een app aanpassen
@@ -145,6 +145,8 @@
               href: ./canvas-apps/gateway-management.md
             - name: Gateways begrijpen
               href: ./canvas-apps/gateway-reference.md
+            - name: Problemen oplossen met Power Query
+              href: ./common-data-service/data-platform-cds-newentity-troubleshooting-mashup.md
         - name: Integreren met andere technologieën
           items:
             - name: SharePoint Online
@@ -198,8 +200,8 @@
       href: ./model-driven-apps/overview-model-driven-samples.md
     - name: Een modelgestuurde app delen
       href: ./model-driven-apps/share-model-driven-app.md
-    - name: Een modelgestuurde app uitvoeren op een mobiel apparaat
-      href: ./model-driven-apps/run-app-client-model-driven.md
+    - name: Voor ontwikkelaars
+      href: ../developer/model-driven-apps/TOC.yml
 - name: Common Data Service for Apps
   href: ./common-data-service/data-platform-intro.md
   items:
