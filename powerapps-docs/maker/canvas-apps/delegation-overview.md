@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/15/2017
+ms.date: 03/27/2018
 ms.author: gregli
-ms.openlocfilehash: 40c933fb46883d7fa33ffa626d8ef317d4206060
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 98cf32e1b379812e1d3175e6403b7c6fd7fb794b
+ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="understand-delegation"></a>Delegering
 PowerApps bevat een krachtige set functies voor het filteren, sorteren en structureren van gegevenstabellen: **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)** en **[AddColumns](functions/function-table-shaping.md)** om er maar een paar te noemen.  Met behulp van deze functies kunt u uw gebruikers gerichte toegang bieden tot de informatie die zij nodig hebben.  Voor lezers met een databaseachtergrond is het gebruiken van deze functies vergelijkbare met het schrijven van een databasequery.  
@@ -30,7 +30,7 @@ De sleutel voor het maken van efficiënte apps is om de hoeveelheid gegevens te 
 
 Waar het ingewikkeld wordt, en wat de bestaansreden is voor dit artikel, is dat niet alles dat kan worden uitgedrukt in een PowerApps-formule aan iedere gegevensbron kan worden gedelegeerd.  De PowerApps-taal imiteert de formuletaal van Excel, die is ontworpen op basis van volledige en directe toegang tot een complete werkmap in het geheugen, met een grote verscheidenheid aan functies voor het manipuleren van numerieke waarden en tekst.  Als gevolg hiervan is de PowerApps-taal veel uitgebreider dan de meeste gegevensbronnen aankunnen, met inbegrip van krachtige database-engines zoals SQL Server.
 
-**Het werken met grote gegevenssets vereist gegevensbronnen en formules die kunnen worden gedelegeerd.**  Dit is de enige manier om ervoor te zorgen dat uw app goed blijft presteren en gebruikers toegang hebben tot alle informatie die zij nodig hebben. Let goed op [blauwe stippen met suggesties](delegation-overview.md#blue-dot-suggestions). Deze stippen geven aan dat delegering op die plaats niet mogelijk is.  Als u werkt met kleine gegevenssets (minder dan 500 records), kunt u elke gegevensbron en formule gebruiken aangezien de verwerking lokaal kan plaatsvinden als de formule niet kan worden gedelegeerd.  
+**Het werken met grote gegevenssets vereist gegevensbronnen en formules die kunnen worden gedelegeerd.**  Dit is de enige manier om ervoor te zorgen dat uw app goed blijft presteren en gebruikers toegang hebben tot alle informatie die zij nodig hebben. Let goed op [blauwe stippen met suggesties](delegation-overview.md#blue-dot-suggestions). Deze stippen geven aan dat delegering op die plaats niet mogelijk is.  Als u werkt met kleine gegevenssets (minder dan 500 records), kunt u elke gegevensbron en formule gebruiken aangezien de verwerking lokaal kan plaatsvinden als de formule niet kan worden gedelegeerd. 
 
 ## <a name="delegable-data-sources"></a>Delegeerbare gegevensbronnen
 Zie dit [overzicht](delegation-list.md) voor een volledige lijst van de gegevensbronnen die delegering ondersteunen en in welke mate.
@@ -83,7 +83,7 @@ Optelfuncties, zoals **[CountRows](functions/function-table-counts.md)**, **[Cou
 
 Andere statistische functies, zoals **[StdevP](functions/function-aggregates.md)** en **[VarP ](functions/function-aggregates.md)**, kunnen niet worden gedelegeerd.
 
-### <a name="other-functions"></a>Andere functies
+## <a name="non-delegable-functions"></a>Niet-delegeerbare functies
 Alle andere functies bieden geen ondersteuning voor delegeringen, waaronder deze belangrijke functies:
 
 * Tabel aanpassen: **[AddColumns](functions/function-table-shaping.md)**, **[DropColumns](functions/function-table-shaping.md)**, **[ShowColumns](functions/function-table-shaping.md)**, ...
@@ -104,11 +104,19 @@ Aangezien **LookUp** en de bijbehorende gegevensbron delegeerbaar zijn, kan er o
 ## <a name="non-delegable-limits"></a>Limiet voor delegering
 Formules die kunnen niet worden gedelegeerd, worden lokaal verwerkt.  Op deze manier is het mogelijk om alle functionaliteit van de formuletaal van PowerApps te benutten.  Hier zit echter wel een nadeel aan, namelijk dat alle gegevens eerst moeten worden overgebracht naar het apparaat. Dit kan betekenen dat er een grote hoeveelheid gegevens via het netwerk moet worden opgehaald.  Dat kan even duren, waardoor het kan lijken dat uw app traag is of misschien zelfs is vastgelopen.
 
-Om dit te voorkomen, is er in PowerApps een limiet ingesteld voor de hoeveelheid gegevens die lokaal kunnen worden verwerkt: 500 records.  We hebben dit aantal gekozen omdat u dan nog steeds volledige toegang hebt tot kleine gegevenssets, terwijl u het gebruik van grote gegevenssets kunt verfijnen door deelresultaten weer te geven.
+Om dit te voorkomen, is er in PowerApps standaard een limiet ingesteld voor de hoeveelheid gegevens die lokaal kan worden verwerkt: 500 records.  We hebben dit aantal gekozen omdat u dan nog steeds volledige toegang hebt tot kleine gegevenssets, terwijl u het gebruik van grote gegevenssets kunt verfijnen door deelresultaten weer te geven.
 
 Uiteraard moet hier voorzichtig mee om worden gegaan omdat het verwarrend kan zijn voor gebruikers.  Laten we als voorbeeld de functie **Filter** nemen met een selectieformule die niet kan worden gedelegeerd, met een gegevensbron met een miljoen records.  Aangezien het filter lokaal moet worden toegepast, worden alleen de eerste 500 records van het miljoen records gescand.  Als de gewenste record 501 is, of 500.001, wordt de record niet geretourneerd door **Filter**.
 
 De ingestelde limiet kan ook verwarrend zijn als het gaat om statistische functies.  Stel dat **Average** wordt toegepast op een kolom uit diezelfde gegevensbron met een miljoen records.  Aangezien **Average** nog niet kan worden gedelegeerd, wordt alleen het gemiddelde van de eerste 500 records geretourneerd.  Voorzichtigheid is dus geboden omdat anders een deelresultaat onterecht als een volledig resultaat wordt geïnterpreteerd door een gebruiker van uw app.
+
+## <a name="changing-the-limit"></a>De limiet wijzigen
+
+500 is het standaardaantal records.  Dit aantal kan worden gewijzigd. Ga daarvoor naar het tabblad Bestand, selecteer App-instellingen in het navigatiedeelvenster links en ga naar Experimentele functies.  Hier vindt u de instelling Gegevensrijlimiet voor niet-delegeerbare query's. De waarde hiervan kan variëren van 1 tot 2000.  Deze instelling geldt voor de gehele app.
+
+In sommige gevallen weet u dat 2000 (of 1000 of 1500) voldoende is voor uw scenario.  U kunt dit aantal vergroten voor uw scenario. Doe dit wel altijd zorgvuldig.  Als u dit aantal namelijk vergroot, kunnen de prestaties van de app verslechteren, vooral bij brede tabellen met veel kolommen.  Het beste blijft om zo veel mogelijk te delegeren.
+
+Als u er zeker van wilt zijn dat uw app naar grote gegevenssets kan schalen, stelt u de instelling in op 1.  Voor alles wat niet kan worden gedelegeerd, wordt één record geretourneerd. Dit maakt detectie tijdens het testen van uw app eenvoudig.  Op die manier komt u niet voor verrassingen te staan wanneer u een concept-app in productie wilt nemen.
 
 ## <a name="blue-dot-suggestions"></a>Blauwe stippen met suggesties
 Om duidelijk te maken wat wel en wat niet kan worden gedelegeerd, worden in de interface blauwe stippen met suggesties weergegeven wanneer een formule een element bevat dat niet kan worden gedelegeerd.
