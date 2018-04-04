@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: bc8b69c482bd8266b0915d079db05aacc847be19
-ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
+ms.openlocfilehash: 3eef0259c97819de9d98af248457faa90e373323
+ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="find-and-run-apps-overview"></a>Overzicht van het zoeken en uitvoeren van apps
 Makers van apps kunnen aangepaste *canvas*-apps op basis van taken en rollen maken die werken op de manier zoals u werkt, of u nu een mobiele werknemer in het veld of een arts in een druk ziekenhuis bent. Makers van canvas-apps kunnen vrijwel elk aspect van een canvas-app aanpassen en verbinding maken met meerdere gegevensbronnen om gebruikers te helpen bepaalde taken uit te voeren.
@@ -34,10 +34,11 @@ Deze sectie biedt informatie over het zoeken en uitvoeren van apps en bevat de v
 
 * [Een app in een webbrowser uitvoeren](run-app-browser.md)
 * [Een canvas-app op een mobiel apparaat uitvoeren](run-app-client.md)
+* [Een modelgestuurde app uitvoeren op een mobiel apparaat](run-app-client-model-driven.md)
 * [Een app toevoegen en uitvoeren in Microsoft Teams](open-app-embedded-in-teams.md)
 * [Een app zoeken en uitvoeren in AppSource](app-source.md)
 
 ## <a name="next-steps"></a>Volgende stappen
 * Zorg ervoor dat u gebruikmaakt van een [apparaatplatform en browser die worden ondersteund](../maker/canvas-apps/limits-and-config.md).
 * Als u een canvas-app wilt uitvoeren, downloadt en installeert u PowerApps vanuit [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) of [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps).
-* Als u modelgestuurde apps op een telefoon wilt uitvoeren, downloadt en installeert u Dynamics 365 voor telefoons vanuit [App Store](https://itunes.apple.com/app/dynamics-crm-for-phones/id1003997947?ls=1&mt=8) of [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone). Als u modelgestuurde apps op een tablet wilt uitvoeren, downloadt u Dynamics 365 voor tablets vanuit [App Store](https://itunes.apple.com/app/microsoft-dynamics-crm/id678800460?mt=8), [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmtablet) of [Windows Store](https://www.microsoft.com/store/p/microsoft-dynamics-365/9nblggh4rfqp). Zie [Snel starten: Een modelgestuurde app uitvoeren op een mobiel apparaat](run-app-client-model-driven.md) voor meer informatie.
+* Als u modelgestuurde apps op een telefoon wilt uitvoeren, downloadt en installeert u Dynamics 365 voor telefoons vanuit [App Store](https://itunes.apple.com/app/dynamics-crm-for-phones/id1003997947?ls=1&mt=8) of [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone). Als u modelgestuurde apps op een tablet wilt uitvoeren, downloadt u Dynamics 365 voor tablets vanuit [App Store](https://itunes.apple.com/app/microsoft-dynamics-crm/id678800460?mt=8), [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmtablet) of [Windows Store](https://www.microsoft.com/store/p/microsoft-dynamics-365/9nblggh4rfqp).
