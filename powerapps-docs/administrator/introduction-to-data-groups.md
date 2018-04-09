@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 19b341d72ccc29194b2987b8489ff74ad7798f37
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 1adf0f4888d57b2d5636864e9bdd18e00848b9d8
+ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="learn-all-about-data-groups"></a>Informatie over gegevensgroepen
 Gegevensgroepen zijn een eenvoudige manier om services te categoriseren binnen een [DLP-beleid](prevent-data-loss.md). DLP staat voor Data Loss Prevention, ofwel preventie van gegevensverlies. Deze twee groepen zijn beschikbaar: **Alleen zakelijke gegevens** en **Geen zakelijke gegevens toegestaan**. Organisaties kunnen zelf bepalen welke services ze in een van deze gegevensgroepen willen plaatsen. Een goede manier om services te categoriseren is door ze in groepen te plaatsen op basis van de impact op de organisatie. Standaard worden alle services opgenomen in de groep **Geen zakelijke gegevens toegestaan**. U beheert de services in een gegevensgroep wanneer u in het beheercentrum de eigenschappen van een DLP-beleid maakt of wijzigt.
@@ -27,8 +27,10 @@ Gegevensgroepen zijn een eenvoudige manier om services te categoriseren binnen e
 ## <a name="how-data-is-shared-between-data-groups"></a>Hoe gegevens worden gedeeld tussen gegevensgroepen
 Gegevens kunnen niet worden gedeeld tussen services die zich in verschillende groepen bevinden. Als u bijvoorbeeld SharePoint en Salesforce in de groep **Alleen zakelijke gegevens** plaatst en Facebook en Twitter in de groep **Geen zakelijke gegevens toegestaan**, kunt u niet een PowerApp maken die gegevens verplaatst tussen SharePoint en Facebook. Hoewel gegevens niet kunnen worden gedeeld tussen services in verschillende groepen, kunt u gegevens wel delen tussen de services binnen een specifieke groep. Laten we even teruggaan naar het vorige voorbeeld. Aangezien SharePoint en Salesforce in dezelfde gegevensgroep zijn geplaatst, kunnen PowerApps die uw eindgebruikers maken gegevens uitwisselen tussen SharePoint en Salesforce. Samengevat komt het er dus op neer dat services in een specifieke groep gegevens kunnen delen, terwijl dit niet mogelijk is tussen services in verschillende groepen.
 
-Daarnaast moet één gegevensgroep worden aangemerkt als de *standaard* groep. In eerste instantie is de groep **Geen zakelijke gegevens toegestaan** de *standaard* groep en bevinden alle services zich in deze gegevensgroep. Een beheerder kan de gegevensgroep **Alleen zakelijke gegevens** instellen als de standaardgegevensgroep. > [!NOTE]
-> Nieuwe services die worden toegevoegd aan PowerApps, worden in de *standaard* groep geplaatst. Om die reden is het raadzaam om de groep **Geen zakelijke gegevens toegestaan** de standaardgroep te laten en services handmatig toe te voegen aan de groep **Alleen zakelijke gegevens** nadat is geanalyseerd wat de gevolgen zijn voor de organisatie als zakelijke gegevens mogen worden gedeeld met de nieuwe service.
+Daarnaast moet één gegevensgroep worden aangemerkt als de *standaard* groep. In eerste instantie is de groep **Geen zakelijke gegevens toegestaan** de *standaard* groep en bevinden alle services zich in deze gegevensgroep. Een beheerder kan de gegevensgroep **Alleen zakelijke gegevens** instellen als de standaardgegevensgroep. 
+
+> [!NOTE]
+> Nieuwe services die worden toegevoegd aan PowerApps, worden in de *standaard*groep geplaatst. Om die reden is het raadzaam om de groep **Geen zakelijke gegevens toegestaan** de standaardgroep te laten en services handmatig toe te voegen aan de groep **Alleen zakelijke gegevens** nadat is geanalyseerd wat de gevolgen zijn voor de organisatie als zakelijke gegevens mogen worden gedeeld met de nieuwe service.
 
 ## <a name="add-services-to-a-data-group"></a>Services toevoegen aan een gegevensgroep
 In dit voorbeeld worden SharePoint en Salesforce toegevoegd aan de gegevensgroep **Alleen zakelijke gegevens** van een DLP-beleid.
@@ -51,7 +53,7 @@ Aangezien alle services moeten worden ondergebracht in een van beide gegevensgro
 In dit voorbeeld wijzigen we de standaardgegevensgroep van **Geen zakelijke gegevens toegestaan** in **Alleen zakelijke gegevens**.  
 
 > [!IMPORTANT]
-> Nieuwe services die worden toegevoegd aan PowerApps, worden in de *standaard* groep geplaatst. Om die reden is het raadzaam om de groep **Geen zakelijke gegevens toegestaan** de standaardgroep te laten en services handmatig toe te voegen aan de groep **Alleen zakelijke gegevens**.
+> Nieuwe services die worden toegevoegd aan PowerApps, worden in de *standaard*groep geplaatst. Om die reden is het raadzaam om de groep **Geen zakelijke gegevens toegestaan** de standaardgroep te laten en services handmatig toe te voegen aan de groep **Alleen zakelijke gegevens**.
 
 1. Selecteer de drie puntjes **...**  in de rechterbovenhoek van de gegevensgroep die u wilt instellen als de standaardgegevensgroep:    
    ![Een andere standaardgegevensgroep instellen](./media/introduction-to-data-groups/default-data-group-0.png)  
