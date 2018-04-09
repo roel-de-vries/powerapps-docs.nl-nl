@@ -41,6 +41,12 @@
           href: ./canvas-apps/share-app.md
         - name: Een app insluiten in Power BI
           href: ./canvas-apps/embed-powerapps-powerbi.md
+    - name: Voorbeelden
+      items:
+        - name: App voor onkostenrapporten
+          href: ./canvas-apps/expense-report-install.md
+        - name: Helpdesk-app
+          href: ./canvas-apps/help-desk-install.md
     - name: Concepten
       items:
         - name: Aan de slag met formules
@@ -65,6 +71,8 @@
           href: ./canvas-apps/sharepoint-form-integration.md
         - name: Aangepast visueel PowerApps-element
           href: ./canvas-apps/powerapps-custom-visual.md
+        - name: Uw InfoPath-formulieren transformeren naar PowerApps
+          href: ./canvas-apps/transform-infopath.md
         - name: Ontwikkeling van canvas-apps
           items:
             - name: 'PowerApps voor bedrijfsontwikkelaars, partners en ISV''s'
@@ -139,6 +147,8 @@
               href: ./canvas-apps/add-manage-connections.md
             - name: Verbinding maken met SharePoint
               href: ./canvas-apps/connect-to-sharepoint.md
+            - name: Excel-gegevens voorbereiden
+              href: ./canvas-apps/how-to-excel-tips.md
             - name: Delegering
               href: ./canvas-apps/delegation-overview.md
             - name: Delegeerbare gegevensbronnen
