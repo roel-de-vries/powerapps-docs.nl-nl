@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: 089d1d66b3147271849ee904701404fdcadade99
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 555a33460109fdb1edc054cd58cb5e6f88126935
+ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="quickstart-run-a-canvas-app-on-a-mobile-device"></a>Snelstartgids: Een canvas-app op een mobiel apparaat uitvoeren
 Wanneer u een app maakt, of iemand een app met u deelt, kunt u die app uitvoeren in Windows, iOS, Android of in een webbrowser. In deze snelstartgids leert u hoe u een canvas-app kunt uitvoeren op een mobiel apparaat. Met apps die op een mobiel apparaat worden uitgevoerd, kunt u profiteren van de functionaliteit van het apparaat, zoals de locatieservices en camera.
@@ -84,4 +84,4 @@ U kunt een app sluiten door met uw vinger vanaf de linkerkant van de app naar re
 In deze snelstartgids hebt u geleerd hoe u een canvas-app kunt uitvoeren op een mobiel apparaat. U kunt ook modelgestuurde apps uitvoeren op een mobiel apparaat.
 
 > [!div class="nextstepaction"]
-> [Een modelgestuurde app uitvoeren op een mobiel apparaat](../maker/model-driven-apps/run-app-client-model-driven.md)
+> [Een modelgestuurde app uitvoeren op een mobiel apparaat](run-app-client-model-driven.md)

@@ -15,11 +15,11 @@ ms.devlang: na
 ms.topic: article
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 7917211c343e1375641ba2813810cb6723151f53
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 4f971668b506776cfd1a9cce2f61d591a4a0db5e
+ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="tutorial-share-a-model-driven-app-with-powerapps"></a>Zelfstudie: Een modelgestuurde app delen met PowerApps
 
@@ -130,7 +130,7 @@ Deze vooraf gedefinieerde rollen zijn beschikbaar met een [!INCLUDE [powerapps](
 * Deze bevoegdheid heeft een globaal bereik, tenzij anders aangegeven.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Snelstartgids: Een modelgestuurde app uitvoeren op een mobiel apparaat](run-app-client-model-driven.md)
+[Snelstartgids: Een modelgestuurde app uitvoeren op een mobiel apparaat](../../user/run-app-client-model-driven.md)
 
 
 
