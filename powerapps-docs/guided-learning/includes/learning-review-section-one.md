@@ -7,12 +7,7 @@ PowerApps maakt verbinding met de **cloudservices en gegevensbronnen** die u al 
 De eenvoudigste manier om met PowerApps te beginnen is de voorbeelden uit te voeren, de sjablonen uit te proberen en apps op basis van uw eigen gegevens te genereren. U hebt gezien hoe een app op basis van een SharePoint-lijst wordt gegeneerd. U beschikt nu over een solide basis, zodat u apps in de kortst mogelijke tijd kunt ontwikkelen en delen. 
 
 ## <a name="whats-next"></a>Hoe nu verder?
-Gefeliciteerd! U hebt de eerste sectie van PowerApps: Gestuurd leren voltooid. Ongeacht met hoeveel ervaring u bent begonnen, we hopen dat u een helder beeld hebt gekregen van wat PowerApps is en hoe u apps kunt gaan maken. We hebben hieronder enkele nuttige bronnen en downloads opgenomen, maar u moet zeker ook eens naar andere onderwerpen van Gestuurd leren kijken. Op dit punt aangekomen kunt u kiezen wat u vervolgens wilt doen:
-
-* [Een app maken en aanpassen op basis van een SharePoint-lijst](https://docs.microsoft.com/powerapps/guided-learning/create-app-sharepoint#step-1)
-* [Een app maken en aanpassen vanuit de Common Data Service](https://docs.microsoft.com/powerapps/guided-learning/create-app-cds#step-1) 
-
-Beide secties laten zien hoe een app wordt gegenereerd en aangepast. De SharePoint-sectie biedt wat meer informatie over de gegenereerde app en in de sectie Common Data Service zijn complexere aanpassingen opgenomen. Natuurlijk kunt u beide secties doornemen. Kies er gewoon een om te beginnen. 
+Gefeliciteerd! U hebt de eerste sectie van PowerApps: Gestuurd leren voltooid. Ongeacht met hoeveel ervaring u bent begonnen, we hopen dat u een helder beeld hebt gekregen van wat PowerApps is en hoe u apps kunt gaan maken. We hebben hieronder enkele nuttige bronnen en downloads opgenomen, maar u moet zeker ook eens naar andere onderwerpen van Gestuurd leren kijken. Als u meer informatie wilt, kunt u lezen hoe u [een app kunt maken en aanpassen op basis van een SharePoint-lijst](https://docs.microsoft.com/powerapps/guided-learning/create-app-sharepoint#step-1).
 
 ## <a name="powerapps-resources"></a>PowerApps-resources
 * Dieper graven met de [PowerApps-documentatie](https://docs.microsoft.com/powerapps/)

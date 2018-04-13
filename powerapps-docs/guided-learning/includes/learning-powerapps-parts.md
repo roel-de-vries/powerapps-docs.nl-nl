@@ -4,6 +4,7 @@ In het eerste onderwerp van Gestuurd leren las u over de belangrijkste onderdele
 * **PowerApps Studio**: krachtige apps ontwikkelen met eenvoudig te gebruiken visuele hulpmiddelen
 * **PowerApps Mobile**: apps uitvoeren op Windows-, iOS- en Android-apparaten
 * **PowerApps-beheercentrum**: PowerApps-omgevingen en andere onderdelen beheren
+* **Common Data Service for Apps**: bedrijfsgegevens integreren met het algemene gegevensmodel
 
 We verwachten niet van u dat u veel tijd gaat besteden om te weten te komen wat PowerApps *is*, maar we denken wel dat het handig is om wat dieper op de diverse onderdelen in te gaan.
 
@@ -33,6 +34,11 @@ Als u apps ontwikkelt, is dit waar u de meeste tijd besteedt. U leert aan de han
 Het **PowerApps-beheercentrum** is de centrale plaats om PowerApps voor een organisatie beheren. Hier definieert u verschillende **omgevingen**, die ruimte bieden aan apps, gegevensverbindingen en andere elementen. In het beheercentrum maakt u ook Common Data Service-databases en beheert u machtigingen en gegevensbeleid.
 
 ![PowerApps-beheercentrum](./media/learning-powerapps-parts/powerapps-admin-center.png)
+
+### <a name="microsoft-common-data-service-for-apps"></a>Microsoft Common Data Service for Apps
+Met **Common Data Service for Apps** kunt u gemakkelijk zakelijke gegevens uit meerdere bronnen integreren. De service werkt met een **algemeen gegevensmodel** met veel **entiteiten** die worden gebruikt in apps en bedrijfsprocessen. De service slaat de gegevens op een schaalbare en betrouwbare manier op en stelt de gegevens beschikbaar zodat meerdere toepassingen er gebruik van kunnen maken. De toepassingen kunnen apps zijn die u bouwt in PowerApps, Dynamics 365 en andere Microsoft-toepassingen, of toepassingen van derden. De onderstaande afbeelding geeft een deel van een entiteit in web.powerapps.com weer.
+
+![PowerApps - entiteit Contact](./media/learning-powerapps-parts/powerapps-contact.png)
 
 In het volgende onderwerp hebben we het over de reeks verwante technologieën waarmee PowerApps werkt om een krachtig ecosysteem te maken voor het ontwikkelen van apps.
 

@@ -1,0 +1,1 @@
+Preview-kenmerken zijn niet bedoeld voor productiegebruik en hebben mogelijk een beperkte functionaliteit. Deze kenmerken zijn beschikbaar voorafgaand aan een officiële release, zodat klanten eerder toegang krijgen en feedback kunnen geven.

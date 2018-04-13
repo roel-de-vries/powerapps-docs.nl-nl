@@ -24,7 +24,7 @@ Als u ervoor kiest om gebruikers via e-mail te informeren, ontvangt iedereen met
 We gaan niet verder in op machtigingen en licenties, maar we willen het wel hebben over enkele basisbeginselen met betrekking tot delen:
 
 * Gebruikers en medewerkers hebben machtigingen nodig voor alle gegevensverbindingen en gateways waarvan een gedeelde app gebruikmaakt. Sommige machtigingen zijn impliciet aan de app gekoppeld, maar andere moeten expliciet worden verleend.
-* Als de app gebruikmaakt van Common Data Service-entiteiten, moeten gebruikers en medewerkers toegang hebben tot de Common Data Service-database. Medewerkers hebben ook een PowerApps P2-licentie nodig als ze rechtstreeks met entiteiten werken.
+* Als de app gebruikmaakt van Common Data Service voor Apps-entiteiten, moeten gebruikers en medewerkers toegang hebben tot de Common Data Service for Apps-database. Medewerkers hebben ook een PowerApps P2-licentie nodig als ze rechtstreeks met entiteiten werken.
 
 Apps delen is eenvoudig en het is een uitstekende manier om een app die u handig vindt beschikbaar te stellen aan mensen in uw organisatie. In het volgende onderwerp leggen we uit hoe u kunt bepalen welke versie van een app actief is wanneer u de app gebruikt en deelt.
 
