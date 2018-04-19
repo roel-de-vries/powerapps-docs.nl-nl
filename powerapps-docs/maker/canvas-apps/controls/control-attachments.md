@@ -15,17 +15,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2017
 ms.author: fikaradz
-ms.openlocfilehash: b58e99e4775ed5c18d3498864c6e652e814ddf19
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 5bb7e4f27ed7ee0a30fb028d4d8dfd20a5fc250b
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="attachments-control-in-powerapps"></a>Besturingselement voor bijlagen in PowerApps
 Een besturingselement waarmee gebruikers bestanden kunnen downloaden op hun apparaat en ook bestanden kunnen uploaden naar en verwijderen van een SharePoint-lijst.
 
 ## <a name="limitations"></a>Beperkingen
 Het besturingselement voor bijlagen heeft de volgende tijdelijke beperkingen:
+1. Downloaden van bijlagen wordt niet ondersteund in Internet Explorer.
+
 1. Uploaden van bijlagen werkt alleen met gegevensbronnen van SharePoint-lijst.  Ondersteuning voor andere gegevensbronnen wordt stapsgewijs geïntroduceerd, beginnend bij CDS.
 
 1. De functies uploaden en verwijderen werken alleen binnen een formulier.  Besturingselement bijlagen lijkt uitgschakeld wanneer het zich bewerkingsmodus bevindt en niet in een formulier.   Merk op dat om het toevoegen en verwijderen van bestanden aan de backend te besparen de eindgebruiker het formulier moet opslaan.

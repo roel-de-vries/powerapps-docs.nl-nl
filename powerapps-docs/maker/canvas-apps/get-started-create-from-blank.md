@@ -4,8 +4,8 @@ description: Een app volledig zelf maken door elk UI-element en het gedrag te co
 services: ''
 suite: powerapps
 documentationcenter: na
-author: karthik-1
-manager: anneta
+author: AFTOwen
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
@@ -14,18 +14,15 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/16/2016
-ms.author: sharik
-ms.openlocfilehash: d530fb5f77f00cb37322383a3817e9c38533ca1d
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: anneta
+ms.openlocfilehash: efc965d607198ed6366f3390960ccdf44b2ea210
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="create-an-app-from-scratch"></a>Een volledig nieuwe app maken
 Maak een volledig nieuwe app met een van de vele gegevensbronnen, en voeg later meer bronnen toe indien nodig. Bepaal het uiterlijk en gedrag van elk UI-element om de resultaten te optimaliseren voor uw specifieke doelstellingen en werkstroom. Deze benadering kost veel meer tijd dan [automatisch een app genereren](get-started-create-from-data.md), maar ervaren app-makers kunnen zo de beste app voor hun wensen maken.
-
-> [!NOTE]
-> Dit onderwerp is geschreven voor PowerApps Studio voor Windows, maar de stappen zijn vergelijkbaar als u werkt met [PowerApps in een browser](create-app-browser.md).
 
 Wanneer u deze zelfstudie volgt, maakt u een app met twee schermen. In een scherm kunnen gebruikers bladeren door een set records:
 
@@ -36,7 +33,9 @@ In het andere scherm kunnen gebruikers een record maken, een of meer velden in e
 ![Scherm waarin een gebruiker gegevens kan toevoegen of bijwerken](./media/get-started-create-from-blank/changescreen-final.png)
 
 ## <a name="prerequisites"></a>Vereisten
-In deze zelfstudie kunt u alleen de algemene concepten doorlezen, of u kunt de zelfstudie precies volgen door de stappen te voltooien.
+U kunt uw eigen Excel-bestand gebruiken en deze zelfstudie raadplegen voor informatie over algemene concepten. De gegevens in het Excel-bestand moet echter zijn opgemaakt als een tabel. Zie voor meer informatie [Een tabel opmaken in Excel](how-to-excel-tips.md).
+
+Als u de onderstaande stappen precies wilt volgen, maakt u een Excel-bestand met deze voorbeeldgegevens.
 
 1. Kopieer deze gegevens en plak ze in een Excel-bestand.
 
@@ -51,7 +50,7 @@ In deze zelfstudie kunt u alleen de algemene concepten doorlezen, of u kunt de z
 
 2. Maak deze gegevens op als tabel met de naam **Schedule**, zodat de gegevens kunnen worden geparseerd door PowerApps.
 
-    Zie [Een Excel-tabel maken in een werkblad](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664) voor meer informatie.
+    Zie voor meer informatie [Een tabel opmaken in Excel](how-to-excel-tips.md).
 
 3. Sla het bestand op onder de naam **eventsignup.xls** en upload het naar een [cloudopslagaccount](connections/cloud-storage-blob-connections.md), zoals OneDrive.
 

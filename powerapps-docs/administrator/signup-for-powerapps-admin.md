@@ -4,7 +4,7 @@ description: Volg deze stappen om u aan te melden voor PowerApps als beheerder.
 services: powerapps
 suite: powerapps
 documentationcenter: na
-author: jamesol-msft
+author: manasmams
 manager: anneta
 editor: ''
 tags: ''
@@ -14,12 +14,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
-ms.author: jamesol
-ms.openlocfilehash: af0d7bad79aea3443f4813945e0cc369ca0b8640
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: manasma
+ms.openlocfilehash: 43d39abbd78723202efd756edf6d070724e3157e
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="purchase-powerapps-for-your-organization"></a>PowerApps aanschaffen voor uw organisatie
 In dit artikel wordt beschreven hoe u PowerApps voor uw organisatie kunt aanschaffen als beheerder. U kunt PowerApps rechtstreeks aanschaffen via de website van PowerApps, het Office 365-beheercentrum of uw Microsoft-vertegenwoordiger of -partner. In dit artikel vindt u ook de beschikbare opties voor een proefabonnement op PowerApps-abonnement 1 of 2 en wordt uitgelegd hoe u PowerApps-abonnement 1 of 2 kunt aanschaffen voor een organisatie. Zie voor meer informatie [Veelgestelde vragen over PowerApps in uw organisatie](signup-question-and-answer.md).
@@ -49,7 +49,7 @@ U kunt PowerApps-abonnementen voor uw organisatie aanschaffen via het [Office 36
 >
 > * Als u zich bij PowerApps aanmeldt met een Office 365-abonnement voordat deze wijziging wordt doorgevoerd, wordt u gevraagd u aan te melden voor een gratis proefabonnement 2 op PowerApps.
 > * Meld u gerust aan voor het proefabonnement als u PowerApps wilt uitproberen totdat uw Office 365-abonnement wordt bijgewerkt.  
-> * Houd er wel rekening mee dat de proeflicentie PowerApps-functies kan bevatten die niet beschikbaar zijn via uw Office 365-abonnement wanneer het proefabonnement na 90 dagen afloopt.  Raadpleeg [PowerApps-prijzen][2] om te zien welke mogelijkheden zijn opgenomen in uw Office 365-abonnement.
+> * Houd er wel rekening mee dat de proeflicentie PowerApps-functies kan bevatten die niet beschikbaar zijn via uw Office 365-abonnement wanneer het proefabonnement na 30 dagen afloopt.  Raadpleeg [PowerApps-prijzen][2] om te zien welke mogelijkheden zijn opgenomen in uw Office 365-abonnement.
 
 
 ### <a name="purchase-a-subscription-trial"></a>Een proefabonnement aanschaffen
@@ -81,15 +81,15 @@ U kunt PowerApps-abonnementen voor uw organisatie aanschaffen via het [Office 36
 5. Voer het gewenste aantal licenties in en selecteer vervolgens **Nu afrekenen** of **Toevoegen aan winkelwagen**.
 
    > [!NOTE]
-> Zo nodig kunt u later nog meer licenties toevoegen.
-   >
+   > Zo nodig kunt u later nog meer licenties toevoegen.
+
 
 6. Geef de benodigde gegevens in de stroom voor het afrekenen op.
 
     Onder **Facturering > Abonnementen** ziet u **Microsoft PowerApps-abonnement 1** of **Microsoft PowerApps-abonnement 2**. Als u later besluit dat u meer licenties wilt toevoegen, gaat u terug naar **Abonnementen toevoegen** en selecteert u vervolgens **Aantal licenties wijzigen**.
 
 ## <a name="add-ons"></a>Invoegtoepassingen
-Deze zijn binnenkort beschikbaar, maar worden nu nog niet ondersteund.
+Deze worden nog niet ondersteund.
 
 ## <a name="see-also"></a>Zie ook
 [Veelgestelde vragen over PowerApps in uw organisatie](signup-question-and-answer.md)  
