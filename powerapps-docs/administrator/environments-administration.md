@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 0a6080b7ceb14de14b7ad6ae2f851843bac0c73b
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: c11c1d2122cf4306aede621e3c98a95a6ec9a967
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="administer-environments-in-powerapps"></a>Omgevingen beheren in PowerApps
 In het [PowerApps-beheercentrum][1] kunt u omgevingen beheren die u hebt gemaakt en waarvoor u bent toegevoegd aan de rol Omgevingsbeheerder of Systeembeheerder. Vanuit het beheercentrum kunt u de volgende beheeracties uitvoeren:
@@ -47,10 +47,10 @@ Voor het beheren van een omgeving in het PowerApps-beheercentrum, moet u een van
 
 * De rol Algemeen beheerder voor uw Azure AD- of Office 365-tenant.
 
-U hebt ook PowerApps-abonnement 2 of Flow-abonnement 2 nodig voor toegang tot het beheercentrum. Zie voor meer informatie de [PowerApps-pagina met prijzen][3].
+U hebt ook een PowerApps-abonnement 2 of Microsoft Flow-abonnement 2 nodig om toegang tot het beheercentrum te krijgen. Zie voor meer informatie de [PowerApps-pagina met prijzen][3].
 
 > [!IMPORTANT]
-> Alle wijzigingen die u in het PowerApps-beheercentrum aanbrengt, hebben invloed op het [Flow-beheercentrum][4] en vice versa.
+> Alle wijzigingen die u maakt in het PowerApps-beheercentrum hebben invloed op het [Microsoft Flow-beheercentrum][4] en andersom.
 
 ## <a name="create-an-environment"></a>Een omgeving maken
 Zie [Snelstartgids: een omgeving maken](create-environment.md) voor instructies over het maken van een omgeving.
@@ -66,7 +66,7 @@ Als u lid bent van de rol Algemeen beheerder van uw Azure AD- of Office 365-tena
 1. Open het [PowerApps-beheercentrum][1], zoek de omgeving waarvan u de naam wilt wijzigen in de lijst en klik of tik erop.
 
     ![](./media/environment-admin/environment-list-updated3.png)
- 
+
 2. Klik of tik op **Details**.
 
     ![](./media/environment-admin/environment-rename-details-2.png)
@@ -175,26 +175,57 @@ Gegevens van een organisatie moeten worden beveiligd en mogen niet worden gedeel
 ![](./media/environment-admin/data-policies.png)
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
-### <a name="how-many-environments-can-i-create"></a>Hoeveel omgevingen kan ik maken?
-Elke gebruiker kan maximaal twee proefversieomgevingen en twee productieomgevingen maken, afhankelijk van de licentie.
+### <a name="how-many-environments-and-databases-can-i-create"></a>Hoeveel omgevingen en databases kan ik maken?
+U kunt maximaal twee evaluatieomgevingen en twee productieomgevingen maken, afhankelijk van hun licentie. [Lees hier](environments-overview.md#creating-an-environment) meer informatie. Elke gebruiker kan databases inrichten in twee proefversieomgevingen en twee productieomgevingen, afhankelijk van de licentie. 
 
-### <a name="how-many-databases-can-i-provision"></a>Hoeveel databases kan ik inrichten?
-Elke gebruiker kan databases inrichten in twee proefversieomgevingen en twee productieomgevingen, afhankelijk van de licentie. De gebruiker moet **Omgevingsbeheerder** in de omgeving zijn.
+### <a name="which-license-includes-common-data-service"></a>Welke licentie bevat Common Data Service?
+PowerApps-abonnement 2.  Zie de [PowerApps-pagina met prijzen][3] voor meer informatie over de abonnementen met deze licentie.
+
+### <a name="while-trying-to-create-a-new-environment-i-am-getting-an-error-how-should-i-resolve-it"></a>Bij het maken van een nieuwe omgeving krijg ik een foutmelding. Hoe moet ik deze oplossen?
+Als u de volgende foutmelding krijgt: Uw abonnement ondersteunt niet het omgevingstype dat u hebt geselecteerd of u hebt de limiet bereikt voor dat omgevingstype. , kan het één van de twee dingen betekenen
+
+1. U hebt uw quotum om een specifiek omgevingstype te maken bereikt. Stel dat u een evaluatieomgeving aan het maken was en deze foutmelding kreeg. Dat betekent dat u al twee eveluatieomgevingen hebt ingericht. U kunt alle omgevingen in [PowerApps-beheercentrum][1]bekijken.
+Als u dat wilt kun u een bestaande omgeving van dat specifieke type verwijderen en een nieuwe maken. Maar zorg er voor dat u geen gegevens, apps, stromen of andere bronnen die u wilt behouden kwijtraakt.
+
+2. U hebt geen quotum voor het maken van dat specifieke omgevingstype. Bekijk [hier](environments-overview.md#creating-an-environment) welk omgevingstype u kunt maken.
+
+Neem [hier][5] contact met ons op indien u een andere foutmelding krijgt of meer vragen hebt.
+
+### <a name="while-trying-to-create-a-database-in-an-environment-i-am-getting-an-error-how-should-i-resolve-it"></a>Bij het proberen een database in een omgeving te maken krijg ik een foutmelding. Hoe moet ik deze oplossen?
+In de volgende scenario’s kunt u een foutmelding krijgen terwijl u probeert een database te maken:
+
+1. **Standaardomgeving**: Het maken van een database wordt momenteel niet ondersteund in de standaardomgeving van de tenant. 
+
+2. **Omgeving voor individueel gebruik**: U krijgt een omgeving voor individueel gebruik door u aan te melden voor het PowerApps Community-abonnement. Als u de database nog niet hebt gemaakt kunt u momenteel geen database inrichten in de omgeving voor individueel gebruik. 
+
+3. **Omgeving in een andere regio dan de basisregio van uw AAD-tenant**: Momenteel kunt u alleen een database inrichten in de omgevingen die zijn gemaakt in uw basisregio van de Azure Active Directory-tenant. De mogelijkheid om een database in te richten in de andere regio’s komt binnenkort. Zorg er dus voor dat u de regio hetzelfde houdt als de standaardlocatie van de tenant als u er een database in wilt maken.
+
+4. **Databases maken niet ondersteund in bepaalde regio’s**: Er zijn bepaalde regio’s waar het maken van databasis nog steeds niet beschikbaar is. bijv. landen in Zuid-Amerika. Dus als de basislocatie van uw tenant Zuid-Amerika is kunt u momenteel in geen enkele omgeving een database inrichten. 
+    
+We werken er aan om alle bovenstaande scenario’s mogelijk te maken.
+Neem [hier][5] contact met ons op indien u een andere foutmelding krijgt of meer vragen hebt
+
+### <a name="when-will-my-trial-environment-expire"></a>Wanneer verloopt mijn evaluatieomgeving?   
+Een evaluatieomgeving verloopt 30 dagen nadat deze aangemaakt is. Als u wilt dat uw omgeving niet verloopt zijn er manieren om het te converteren naar een productieomgeving. Deze functie komt binnenkort en tot dan laten we geen evaluatieomgevingen verlopen.
+
+### <a name="does-my-current-database-created-with-previous-version-of-the-common-data-service-also-gets-counted-in-the-quota"></a>Wordt mijn bestaande database (gemaakt met een eerdere versie van de Common Data Service) ook meegeteld in het quotum?
+Indien u een database had (gemaakt met een eerdere versie van de Common Data Service) wordt deze ook meegeteld in uw quotum voor productieomgevingen. Indien u nu een database maakt in een omgeving (gemaakt voor 15 maart 2018) wordt het ook meegeteld als productieomgeving.
 
 ### <a name="can-i-rename-an-environment"></a>Kan ik de naam van een omgeving wijzigen?
 Ja, deze functionaliteit is beschikbaar vanuit het PowerApps-beheercentrum. Zie [Environment Administration](environments-administration.md#rename-your-environment) (Beheer van omgeving) voor meer informatie.
 
 ### <a name="can-i-delete-an-environment"></a>Kan ik een omgeving verwijderen?
 Ja, deze functionaliteit is beschikbaar vanuit het PowerApps-beheercentrum. Zie [Environment Administration](environments-administration.md#delete-your-environment) (Beheer van omgeving) voor meer informatie.
+Let er op dat u momenteel geen productomgeving met een database (met de nieuwste versie van de Common Data Service) kunt verwijderen. Dit komt binnenkort!
 
 ### <a name="as-an-environment-admin-can-i-view-and-manage-all-resources-apps-flows-apis-etc-for-an-environment"></a>Kan ik als omgevingsbeheerder alle resources (apps, stromen, API's enz.) voor een omgeving weergeven en beheren?
 Ja, de mogelijkheid om de apps en stromen voor een omgeving te bekijken, is beschikbaar via het PowerApps-beheercentrum. Raadpleeg [Apps weergeven](admin-view-apps.md) voor meer informatie.
 
-### <a name="which-license-includes-common-data-service"></a>Welke licentie bevat Common Data Service?
-PowerApps-abonnement 2.  Zie de [PowerApps-pagina met prijzen][3] voor meer informatie over de abonnementen met deze licentie.
+
 
 <!--Reference links in article-->
 [1]: https://admin.powerapps.com
 [2]: https://web.powerapps.com
 [3]: https://powerapps.microsoft.com/pricing/
 [4]: https://admin.flow.microsoft.com
+[5]: https://go.microsoft.com/fwlink/?linkid=871628

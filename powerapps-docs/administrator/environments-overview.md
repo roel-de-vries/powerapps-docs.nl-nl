@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 1747eeb669411e1069d9767d590866d8a4e6eecb
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 4b71f931aa3e8263166d52b68ba375917405c2b8
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="environments-overview"></a>Overzicht van omgevingen
 Een omgeving is een ruimte om de bedrijfsgegevens, -apps en -stromen van uw organisatie op te slaan, te beheren en te delen. Een omgeving doet ook dienst als container voor het scheiden van apps met verschillende rollen, beveiligingsvereisten of doelgroepen. Hoe u voordeel haalt uit omgevingen, is afhankelijk van uw organisatie en de apps die u probeert te maken. Bijvoorbeeld:
@@ -97,39 +97,20 @@ Uw licentie bepaalt of u omgevingen kunt maken.
 
 | Licentie | Gemachtigd om omgeving te maken |
 | --- | --- |
-| PowerApps P2 |√ |
-| PowerApps P2-proefversie |√ |
+| PowerApps P2 |√ (Twee productie- en twee eveluatieomgevingen)|
+| PowerApps P2-proefversie |√ (Twee evaluatieomgevingen)|
 | PowerApps P1 |x |
 | PowerApps P1-proefversie |x |
 | Dynamics 365-abonnementen |x |
 | Office 365-abonnementen |x |
 | Dynamics 365-abonnementen voor Apps en Teams |x |
 
-Elke gebruiker kan maximaal twee evaluatieomgevingen maken. Met PowerApps-abonnement 2 kunt u ook maximaal twee productieomgevingen maken.
 
 ### <a name="where-can-environments-be-created"></a>Waar kunnen omgevingen worden gemaakt?
 U kunt nieuwe omgevingen maken in [PowerApps.com][2] en vanuit het [PowerApps-beheercentrum][1]. Als u een omgeving maakt, wordt u voor die omgeving automatisch toegevoegd aan de rol Omgevingsbeheerder. Er is geen limiet op het aantal omgevingen waaraan u kunt deelnemen als lid van de rol Omgevingsbeheerder of Omgevingsmaker. Zie [Omgevingen beheren in PowerApps](environments-administration.md) voor meer informatie over omgevingen. Zie [Een omgeving maken](create-environment.md) voor instructies over het maken van een omgeving.
 
 ![](./media/environments-overview/CreateEnvironmentDialog-New.png)
 
-## <a name="what-will-change-for-powerapps-preview-users"></a>Wat verandert er voor PowerApps Preview-gebruikers?
-Gebruikers die aan de PowerApps-preview hebben deelgenomen, zullen enkele wijzigingen gewaarworden in hun ervaring met de introductie van omgevingen.  De volgende tabel geeft aan wat gebruikers binnen en buiten de Verenigde Staten kunnen verwachten:
-
-| User | Wat gebeurt er |
-| --- | --- |
-| Preview-gebruiker die een Common Data Service-database heeft gemaakt |U ziet een omgeving met de naam "Omgeving van {uw eigen naam}" die uw Common Data Service-previewdatabase bevat en alle apps die u ervoor hebt ontwikkeld.  U wordt toegevoegd aan de rollen Environment Maker en Environment Admin van deze omgeving en als een database-eigenaar van de database. Wanneer PowerApps algemeen beschikbaar komt, zullen we de metagegevens van de Common Data Service bijwerken. Deze wijziging heeft als gevolg dat u nog steeds de entiteiten en apps kunt gebruiken die u al hebt gebouwd voor uw Common Data Service-previewdatabase. U zult in die database echter geen velden of entiteiten kunnen maken. Binnenkort zullen wij richtlijnen publiceren voor het maken van een omgeving met een database die de bijgewerkte metagegevens bevat en voor het migreren van uw apps naar die omgeving. <br> Als uw apps die voor uw Common Data Service-previewdatabase zijn gebouwd, ook een aangepaste connector als gegevensbron gebruiken, zullen ze in deze omgeving tijdelijk niet werken omdat alle aangepaste connectors naar de standaardomgeving worden gemigreerd. U moet de aangepaste connector in deze omgeving opnieuw maken om alle betrokken apps te herstellen. |
-| Preview-gebruiker in de Verenigde Staten |De volgende resources die u tijdens de preview-periode van PowerApps hebt gemaakt, komen beschikbaar in de standaardomgeving van uw tenant:<br>- Alle apps die u hebt gemaakt (met uitzondering van apps die verbinding maakten met een Common Data Service-previewdatabase)<br>- Alle verbindingen en aangepaste connectors die u hebt gemaakt<br>- Alle on-premises gegevensgateways die u hebt geïnstalleerd |
-| Preview-gebruiker buiten de Verenigde Staten |Naast de standaardomgeving ziet u ook een omgeving met de naam "{Azure AD-tenant} (van preview)" die de volgende resources bevat die u tijdens de preview-periode van PowerApps hebt gemaakt:<br>- Alle apps die u hebt gemaakt (met uitzondering van apps die verbinding maakten met een Common Data Service-previewdatabase)<br>- Alle verbindingen en aangepaste connectors die u hebt gemaakt<br>- Alle on-premises gegevensgateways die u hebt geïnstalleerd.<br>U wordt toegevoegd aan de rol Environment Maker van deze omgeving. |
-
-Een *preview-gebruiker* is iemand die Microsoft PowerApps gebruikt voordat het algemeen beschikbaar (AB) is.
-
-Twee weken nadat PowerApps algemeen beschikbaar (AB) wordt gesteld, zullen omgevingen die preview-inhoud bevatten, als alleen-lezen worden gemarkeerd (met uitzondering van de standaardomgeving); alle bestaande apps en stromen blijven in deze omgevingen werken, maar u kunt geen apps of stromen maken. Het is raadzaam dat gebruikers van deze omgevingen hun inhoud migreren naar de standaardomgeving of een andere aangepaste omgeving. Raadpleeg de volgende blog (die deze week wordt gepost) voor meer informatie over het migratieproces: [Common Data Service features announcement blog (Aankondigingsblog Common Data Service-functies)][3].
-
-### <a name="example-environments-for-a-preview-user-in-us"></a>Voorbeeldomgevingen voor een preview-gebruiker in de Verenigde Staten
-![](./media/environments-overview/USuser1.png)
-
-### <a name="example-environments-for-a-preview-user-not-in-us"></a>Voorbeeldomgevingen voor een preview-gebruiker buiten de Verenigde Staten
-![](./media/environments-overview/non-USuser1.png)
 
 ## <a name="managing-environments-for-your-organization"></a>Omgevingen voor uw organisatie beheren
 In het PowerApps-beheercentrum kunt u alle omgevingen beheren die u hebt gemaakt of waarvoor u bent toegevoegd aan de rol Omgevingsbeheerder. In het beheercentrum kunt u alle beheerderstaken uitvoeren op een omgeving, waaronder de volgende:

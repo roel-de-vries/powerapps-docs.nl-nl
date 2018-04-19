@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: ecfcc5ca60ac453d1cbeb252d6ad97085934c3b2
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: debe9dd0ab3aa948537820cccd3304a6b4225c54
+ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="quickstart-download-a-list-of-apps-created-in-your-environments"></a>Snelstartgids: een lijst downloaden met de apps die in uw omgevingen zijn gemaakt
 Als u een omgevingsbeheerder bent, kunt u een lijst bekijken en downloaden met de apps die zijn gemaakt in de omgevingen die u beheert. Als u een globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory bent, kunt u een lijst bekijken en downloaden met de apps die in alle omgevingen in uw organisatie zijn gemaakt.
@@ -28,7 +28,7 @@ In deze snelstartgids leert u hoe u een lijst met de apps die in één omgeving 
 
 ## <a name="prerequisites"></a>Vereisten
  Als u de stappen in deze snelstartgids wilt volgen, zijn de volgende items vereist:
- * PowerApps-abonnement 2 of Flow-abonnement 2. U kunt zich ook aanmelden voor een [gratis proefversie van een PowerApps-abonnement 2](https://web.powerapps.com/signup?redirect=marketing&email=).
+ * Een licentie voor PowerApps Plan 2 óf voor Microsoft Flow Plan 2. U kunt zich ook aanmelden voor een [gratis proefversie van een PowerApps-abonnement 2](https://web.powerapps.com/signup?redirect=marketing&email=).
  * Machtigingen voor omgevingsbeheerder van PowerApps, globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory. Zie het Engelstalige artikel [Environments administration in PowerApps](environments-administration.md) (Omgevingen beheren in PowerApps) voor meer informatie.
 
 ## <a name="sign-in-to-the-powerapps-admin-center"></a>Aanmelden bij PowerApps-beheercentrum

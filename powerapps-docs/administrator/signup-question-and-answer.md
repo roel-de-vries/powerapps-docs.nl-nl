@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: jamesol
-ms.openlocfilehash: 01614846f0b1172e23e2399aa0f1f03f646df84d
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 5d6db5bded909387b5bc4ef15dc0bf6c163bfa7a
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="manage-licenses-in-my-org"></a>Licenties in uw organisatie beheren
 Dit onderwerp beschrijft hoe gebruikers in uw organisatie toegang kunnen krijgen tot PowerApps en hoe u de toegang tot de PowerApps-service kunt beheren.
@@ -60,9 +60,9 @@ Tot slot is het mogelijk om het gebruik van bedrijfseigen gegevens in Microsoft 
 
 ## <a name="administration-of-powerapps"></a>Beheer van PowerApps
 ### <a name="why-has-the-powerapps-icon-appeared-in-the-office-365-app-launcher"></a>Waarom is het pictogram PowerApps verschenen in het startprogramma voor Office 365-apps?
-Zoals in augustus is aangekondigd, is Microsoft PowerApps nu een fundamenteel onderdeel van het Office 365-pakket. Drie maanden na deze aankondiging is Microsoft PowerApps ingeschakeld als een service die onderdeel uitmaakt van bestaande Office 365-SKU's. Omdat gebruikers overal ter wereld nu gebruik kunnen maken van Microsoft PowerApps, wordt dit pictogram nu weergegeven in het startprogramma voor apps. Raadpleeg het [Licentie-overzicht](pricing-billing-skus.md) voor meer informatie over welke Office 365-SKU's nu PowerApps omvatten.
+Microsoft PowerApps is een fundamenteel onderdeel van de Office 365-suite en is ingeschakeld als een service als deel van de bestaande Office 365-SKU’s. Omdat gebruikers overal ter wereld nu Microsoft PowerApps kunnen gebruiken, verschijnt het in ‘Alle apps’ in het startscherm voor apps. Raadpleeg het [Licentie-overzicht](pricing-billing-skus.md) voor meer informatie over welke Office 365-SKU's nu PowerApps omvatten.
 
-Bekijk het volgende hoofdstuk als u de PowerApps-tegel standaard wilt verwijderen uit het startprogramma voor apps.
+Zie de volgende sectie als u standaard de tegel PowerApps wilt verwijderen uit ‘Alle apps’.
 
 ### <a name="how-do-i-remove-powerapps-from-existing-users"></a>Hoe verwijder ik PowerApps bij bestaande gebruikers?
 Als er een licentie voor PowerApps-abonnement 1 of 2 is toegewezen aan een gebruiker, kunt u met behulp van de volgende stappen de PowerApps-licentie voor die gebruiker verwijderen:

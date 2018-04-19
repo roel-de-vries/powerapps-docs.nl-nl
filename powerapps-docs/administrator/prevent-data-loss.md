@@ -4,7 +4,7 @@ description: Overzicht van het beheren van het beleid ter preventie van gegevens
 services: powerapps
 suite: powerapps
 documentationcenter: na
-author: SKjerland
+author: manasmams
 manager: kfile
 editor: ''
 tags: ''
@@ -14,17 +14,17 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
-ms.author: sharik
-ms.openlocfilehash: f901b3db8d10fbfe8d4d25bb972f4da72d6897f3
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: manasma
+ms.openlocfilehash: f02e9023deb2bc0d11e9d94414f9e78651cab2b5
+ms.sourcegitcommit: c5e3991e0e4e9f22a1e094d699f35adabfb97c6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="manage-data-loss-prevention-dlp-policies"></a>Beleid ter preventie van gegevensverlies (DLP) beheren
 De gegevens van een organisatie zijn essentieel om succes te behalen. Gegevens moeten dus te allen tijde beschikbaar zijn om beslissingen te kunnen nemen, maar ze moeten ook worden beveiligd zodat ze niet worden gedeeld met doelgroepen die er geen toegang toe zouden mogen hebben. U kunt hiertoe in PowerApps een beleid ter preventie van gegevensverlies (DLP) instellen waarmee wordt bepaald met welke consumentenconnectors zakelijke gegevens mogen worden gedeeld. Een organisatie die gebruikmaakt van PowerApps wil bijvoorbeeld niet dat de zakelijke gegevens uit SharePoint automatisch worden gepubliceerd op Twitter.
 
-Als u een DLP-beleid wilt maken, bewerken of verwijderen, moet u over de machtiging Omgevingsbeheerder of Tenantbeheerder beschikken. Zie het Engelstalige artikel [Environments administration in PowerApps](environments-administration.md) (Omgevingen beheren in PowerApps) voor meer informatie.
+Om DLP-beleid te maken, bewerken of verwijderen moet u gemachtigd zijn als omgevingsbeheerder of als tenantbeheerder voor Azure Active Directory. Zie [Omgevingen beheren in PowerApps](environments-administration.md) voor meer informatie.
 
 Zie [Snelstartgids: een beleid ter preventie van gegevensverlies (DLP) maken](create-dlp-policy.md) voor instructies over het maken van een DLP-beleid.
 
@@ -39,6 +39,11 @@ Zie [Snelstartgids: een beleid ter preventie van gegevensverlies (DLP) maken](cr
 
     ![Aanmelden](./media/prevent-data-loss/3.png)
 2. Breng de wijzigingen aan en klik of tik op **Beleid opslaan**.
+
+    > [!NOTE]
+    > DLP-beleid voor omgevingen kan tenant-breed DLP-beleid niet overschrijven.
+    >
+    >
 
     Als u de wijzigingen wilt bekijken, zoekt u het DLP-beleid in de lijst met beleidsregels en klikt of tikt u op het beleid om de bijbehorende eigenschappen te bekijken.
 

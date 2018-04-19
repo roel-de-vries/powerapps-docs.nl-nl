@@ -14,20 +14,24 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 6556e16fef3908a77be02f270fdb25f2f01ed4b4
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a2bbcead313961e064a57d2ea567b5596ece4f7a
+ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="generate-an-app-from-excel-in-powerapps"></a>Een app genereren vanuit Excel in PowerApps
 In dit onderwerp genereert u uw eerste app automatisch in PowerApps met gegevens uit een Excel-tabel. U selecteert een Excel-bestand, genereert een app en voert vervolgens de app uit die u hebt gegenereerd. Elke gegenereerde app bevat schermen om te bladeren in records, recordgegevens weer te geven en records te maken of bij te werken. Door het genereren van een app kunt u snel een werkende app krijgen met Excel-gegevens. Vervolgens kunt u de app aan uw eigen behoeften aanpassen. 
 
 Het Excel-bestand moet zich in een cloudopslagaccount bevinden, zoals OneDrive, Google Drive of Dropbox. In dit onderwerp wordt gebruikgemaakt van OneDrive voor bedrijven.
 
-Als u dit onderwerp wilt volgen, moet u het bestand [Flooring Estimates](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) in Excel downloaden en in uw [cloudopslagaccount](connections/cloud-storage-blob-connections.md) opslaan. U kunt eventueel uw eigen Excel-bestand gebruiken als de gegevens [als een tabel zijn opgemaakt](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664). 
-
 Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../signup-for-powerapps.md).
+
+## <a name="prerequisites"></a>Vereisten ##
+Download het bestand [Flooring Estimates](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) in Excel en sla het op in uw [cloud-opslagaccount](connections/cloud-storage-blob-connections.md) om dit onderwerp exact te volgen.
+
+> [!IMPORTANT]
+> U kunt uw eigen Excel-bestand gebruiken maar de gegevens moeten zijn opgemaakt als tabel. Zie voor meer informatie [Een tabel opmaken](how-to-excel-tips.md). 
 
 ## <a name="generate-the-app"></a>De app genereren
 1. Meld u aan bij [PowerApps](https://web.powerapps.com).
