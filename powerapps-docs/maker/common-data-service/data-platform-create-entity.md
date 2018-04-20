@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 3/21/2018
 ms.author: clwesene
-ms.openlocfilehash: d26b7a086e75a52d9da3369196f59d3fb439f50b
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e22a18bacb258ca46c8f36d647f9ebcc45282929
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="quickstart-create-a-custom-entity"></a>Snelstartgids: Een aangepaste entiteit maken
 U kunt een aangepaste entiteit maken om gegevens op te slaan die specifiek zijn voor uw organisatie. Vervolgens kunt u die gegevens weergeven door een app te ontwikkelen die naar de entiteit verwijst. Nadat u een entiteit hebt gemaakt, kunt u [een of meer velden maken of wijzigen](data-platform-manage-fields.md) en [relaties tussen entiteiten maken](data-platform-entity-lookup.md).
@@ -37,7 +37,7 @@ In deze instructies wordt beschreven hoe u handmatig een aangepaste entiteit kun
 3. Voer in het veld **Weergavenaam** een eenvoudig herkenbare naam in waarmee u in de toekomst naar deze entiteit kunt verwijzen. Deze naam wordt ook gebruikt in formulieren, diagrammen en andere objecten die zijn gemaakt met deze entiteit. Hier ziet u twee andere velden die ook worden gevuld:
 
     * Weergavenaam in meervoud: dit wordt gebruikt bij het communiceren met deze entiteit vanuit PowerApps of Flow en wordt gebruikt als naam van de entiteit via de WebAPI van Common Data Service. De naam in meervoud wordt automatisch gegenereerd, maar kan worden gewijzigd.
-    * Naam: dit is de unieke naam van de entiteit, de naam mag geen speciale tekens of spaties bevatten en moet uniek zijn. De naam bevat ook een voorvoegsel dat is ingesteld toen uw omgeving is gemaakt. Dit wordt gebruikt om ervoor te zorgen dat de entiteiten die u maakt, kunnen worden geëxporteerd en geïmporteerd naar andere omgevingen zonder conflicten met andere entiteitsnamen. Dit voorvoegsel kan worden gewijzigd door het voorvoegsel van de uitgever van de Common Data Service-standaardoplossing bij te werken.
+    * Naam: dit is de unieke naam van de entiteit; de naam mag geen speciale tekens of spaties bevatten en moet uniek zijn. De naam bevat ook een voorvoegsel dat is ingesteld toen uw omgeving werd gemaakt. Dit wordt gebruikt om ervoor te zorgen dat de entiteiten die u maakt, kunnen worden geëxporteerd en geïmporteerd naar andere omgevingen zonder conflicten met andere entiteitsnamen. Dit voorvoegsel kan worden gewijzigd door het voorvoegsel van de uitgever van de Common Data Service-standaardoplossing bij te werken.
 
     > [!NOTE]
     > De velden **Weergavenaam** kunnen op elk gewenst moment worden bijgewerkt zodat deze anders worden weergegeven in uw apps. Het veld **Naam** kan niet worden gewijzigd nadat de entiteit is opgeslagen, aangezien dit kan leiden tot het verbreken van een bestaande app.
@@ -53,18 +53,18 @@ In deze instructies wordt beschreven hoe u handmatig een aangepaste entiteit kun
 
 5. Optioneel: voeg een nieuw veld toe aan uw entiteit door te klikken op **Veld toevoegen**. Voer in het deelvenster Nieuw veld de **Weergavenaam** voor uw veld in en selecteer het type gegevens. Zie [Manage fields in an entity](data-platform-manage-fields.md) (Velden in een entiteit beheren) voor meer informatie.
 
-    ![Nieuw veld](./media/data-platform-cds-create-entity/newfieldpanel-2.png "deelvenster Nieuw veld")
+    ![Nieuw veld](./media/data-platform-cds-create-entity/newfieldpanel-2.png "Deelvenster Nieuw veld")
 
 
 6. Klik op **Gereed** om het veld toe te voegen en herhaal stap 5 om extra velden toe te voegen.
 7. Klik op **Entiteit opslaan**om uw entiteit op te slaan en om deze beschikbaar te maken voor gebruik in apps.
 
-    Uw entiteit wordt weergegeven in de lijst met entiteiten in de database. Als u entiteiten wilt zien die u hebt gemaakt, kunt u het filter in de opdrachtbalk wijzigen van 'Standaard' in 'Aangepast'
+    Uw entiteit wordt weergegeven in de lijst met entiteiten in de database. Als u entiteiten wilt zien die u hebt gemaakt, kunt u het filter in de opdrachtbalk wijzigen van Standaard in Aangepast
 
 ## <a name="system-fields"></a>Systeemvelden
 Alle entiteiten hebben systeemvelden. Deze velden zijn alleen-lezen. Daarom kunt u ze niet wijzigen of verwijderen en u kunt er geen waarden aan toekennen. Standaard worden systeemvelden niet weergegeven in de lijst met velden, hoewel ze zich wel op de entiteit bevinden. Voor een overzicht van alle velden kunt u het filter in de opdrachtbalk wijzigen van **Standaard** naar **Alle**.
 
-Zie [Metagegevens entiteit](../../developer/common-data-service/entity-metadata.md) voor meer informatie over de metagegevens die zijn gerelateerd aan een entiteit
+Zie [Metagegevens van entiteiten](../../developer/common-data-service/entity-metadata.md) voor meer informatie over de metagegevens die zijn gerelateerd aan een entiteit
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Velden in een entiteit beheren](data-platform-manage-fields.md)

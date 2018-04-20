@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: anneta
-ms.openlocfilehash: def53153d3db75b0f56d7878324fa1391c8c58a8
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 77906602fad6708857a6c34f44d1bc3c7c258f6c
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="quickstart-add-data-to-an-entity-in-the-common-data-service-by-using-power-query"></a>Snelstartgids: Gegevens aan een entiteit in Common Data Service toevoegen met Power Query
 In deze procedure maakt u een entiteit in de [Common Data Service for Apps](data-platform-intro.md) en vult u de entiteit met gegevens uit een OData-feed via Power Query. U kunt dezelfde technieken gebruiken om gegevens vanuit deze online en on-premises gegevensbronnen te integreren, waaronder:
@@ -35,7 +35,7 @@ In deze procedure maakt u een entiteit in de [Common Data Service for Apps](data
 
 U kunt ook gegevens filteren, transformeren en samenvoegen voordat u deze in een nieuwe of bestaande entiteit laadt.
 
-Als u geen licentie voor PowerApps hebt, kunt u zich [gratis aanmelden](../signup-for-powerapps.md).
+Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../signup-for-powerapps.md).
 
 ## <a name="prerequisites"></a>Vereisten
 Als u dit onderwerp wilt volgen, moet u overschakelen naar een [omgeving](../canvas-apps/working-with-environments.md) waarin u entiteiten kunt maken.
@@ -91,3 +91,4 @@ Als u **Naar bestaande entiteit laden** selecteert, kunt u een entiteit opgeven 
 
 We zijn trots op deze functionaliteit en horen graag uw feedback. [Stuur ons vooral uw suggesties en feedback](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1) over deze functie!
 
+Als een [foutbericht over machtigingen](data-platform-cds-newentity-troubleshooting-mashup.md) wordt weergegeven, neemt u contact op met uw beheerder.

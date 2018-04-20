@@ -15,15 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 94ae54308f49838159ff06e0e642ab9f2503eab1
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 872e06e3d260480f09f66c52b592540bae44bdda
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="overview-of-building-a-model-driven-app"></a>Overzicht van het bouwen van een modelgestuurde app
 
-Het ontwerp van modelgestuurde apps is een componentgerichte methode zonder code of met code van laag niveau voor het ontwikkelen van apps. In tegenstelling tot ontwikkeling van canvas-apps waar de ontwerper volledige controle over de app-indeling heeft, wordt met modelgestuurde apps een groot deel van de lay-out voor u bepaald en grotendeels bepaald door de onderdelen die u aan de app toevoegt. 
+Het ontwerp van modelgestuurde apps is een componentgerichte methode voor het ontwikkelen van apps. Het ontwerp van modelgestuurde apps vereist geen code en de apps die u maakt, kunnen eenvoudig of zeer complex zijn.  In tegenstelling tot ontwikkeling van canvas-apps waar de ontwerper volledige controle over de app-indeling heeft, wordt met modelgestuurde apps een groot deel van de lay-out voor u bepaald en grotendeels bepaald door de onderdelen die u aan de app toevoegt. 
 
 ![Voorbeeld van modelgestuurde app](media/model-driven-app-overview/model-app-sample.png)
 
@@ -44,12 +44,12 @@ Op een fundamenteel niveau bestaat het maken van modelgestuurde apps uit drie be
 - De app samenstellen
 
 ### <a name="modeling-business-data"></a>Bedrijfsgegevens modelleren
-Voor het modelleren van bedrijfsgegevens bepaalt u welke gegevens u in uw app wilt opnemen en hoe deze gegevens samenhangen met andere gegevens. Een modelgestuurd ontwerp maakt gebruik van een architectuur op basis van metagegevens, zodat ontwerpers de app kunnen aanpassen zonder code te schrijven. Metagegevens betekent 'gegevens over gegevens'. Deze gegevens bepalen de structuur van de gegevens die zijn opgeslagen in het systeem.
+Voor het modelleren van bedrijfsgegevens bepaalt u welke gegevens u in uw app wilt opnemen en hoe deze gegevens samenhangen met andere gegevens. Een modelgestuurd ontwerp maakt gebruik van een architectuur op basis van metagegevens, zodat ontwerpers de app kunnen aanpassen zonder code te schrijven. Metagegevens betekent 'gegevens over gegevens'. Deze gegevens bepalen de structuur van de gegevens die zijn opgeslagen in het systeem. [Zelfstudie: Een aangepaste entiteit met componenten in PowerApps maken](../common-data-service/create-custom-entity.md)
 
 ### <a name="defining-business-processes"></a>Bedrijfsprocessen definiëren
 Het definiëren en afdwingen van consistente bedrijfsprocessen is een belangrijk aspect van het modelgestuurde app-ontwerp. Consistente processen zorgen ervoor dat de gebruikers van uw app zich op hun werk kunnen concentreren en niet op het onthouden van een set handmatige stappen. Processen kunnen eenvoudig of complex zijn en worden in de loop van de tijd regelmatig gewijzigd. Voor het maken van een proces selecteert u **Geavanceerd** om [Solution Explorer](#advanced-model-driven-app-making) te openen. Selecteer vervolgens in het linkernavigatiedeelvenster van Solution Explorer de optie **Processen** en selecteer tenslotte **Nieuw**. Meer informatie: [Werken met bedrijfslogica](#working-with-business-logic)  
 
-### <a name="composing-the-app"></a>De app samenstellen
+### <a name="composing-the-model-driven-app"></a>De modelgestuurde app samenstellen
 Na het modelleren van gegevens en het definiëren van processen, kunt u uw app bouwen door met de appontwerper onderdelen te selecteren en te configureren die u nodig hebt.
 
 ![Appontwerper](media/model-driven-app-overview/app-designer.png)
@@ -119,14 +119,16 @@ Selecteer vervolgens het tabblad **Geavanceerd**.
 
 ## <a name="model-driven-app-development-resources"></a>Resources voor het ontwikkelen van modelgestuurde apps
 Zie de volgende onderwerpen voor meer informatie over het ontwikkelen van modelgestuurde apps.
-### <a name="modeling-and-composing-your-app"></a>Uw app modelleren en samenstellen
+### <a name="modeling-your-data"></a>Uw gegevens modelleren
 - [Aangepaste zakelijke apps ontwerpen met de appontwerper](https://docs.microsoft.com/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
-- [Entiteiten maken of bewerken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-entities)
 - [Formulieren maken en ontwerpen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-design-forms)
+- [Weergaven maken of bewerken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-views)  
+
+### <a name="modeling-and-composing-your-app"></a>Uw app modelleren en samenstellen
+- [Entiteiten maken of bewerken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-entities)
+- [Relaties maken en bewerken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-entity-relationships) 
 - [Velden maken en bewerken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-fields)
 - [Algemene optiesets maken en bewerken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-global-option-sets)
-- [Weergaven maken of bewerken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-views)  
-- [Relaties maken en bewerken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-entity-relationships) 
 
 ### <a name="working-with-business-logic"></a>Werken met bedrijfslogica
 - [Overzicht zakelijke processtromen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/business-process-flows-overview)
@@ -143,5 +145,7 @@ Zie de volgende onderwerpen voor meer informatie over het ontwikkelen van modelg
 [Een oplossing maken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-solution)
 
 ## <a name="next-steps"></a>Volgende stappen
-[Een aangepaste entiteit maken in PowerApps](../common-data-service/create-custom-entity.md)
+[Snelstart: Een aangepaste entiteit maken](../common-data-service/data-platform-create-entity.md)
+
+[Zelfstudie: Een aangepaste entiteit met componenten in PowerApps maken](../common-data-service/create-custom-entity.md)
 

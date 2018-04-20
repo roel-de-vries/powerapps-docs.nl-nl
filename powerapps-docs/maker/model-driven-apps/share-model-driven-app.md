@@ -16,10 +16,10 @@ ms.topic: article
 ms.date: 03/21/2018
 ms.author: matp
 ms.openlocfilehash: 4f971668b506776cfd1a9cce2f61d591a4a0db5e
-ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="tutorial-share-a-model-driven-app-with-powerapps"></a>Zelfstudie: Een modelgestuurde app delen met PowerApps
 
@@ -72,7 +72,7 @@ Zie [Beveiligingsrollen](https://docs.microsoft.com/dynamics365/customer-engagem
 13. Selecteer **Opslaan en sluiten**.
 
 ## <a name="assign-security-roles-to-users"></a>Beveiligingsrollen aan gebruikers toewijzen
-Met beveiligingsrollen wordt de toegang van een gebruiker tot gegevens beheerd via een reeks toegangsniveaus en -machtigingen. De gecombineerde toegangsniveaus en -machtigingen die zijn opgenomen in een bepaalde beveiligingsrol, zorgen ervoor dat er limieten gelden voor de weergave van gegevens van de gebruiker en de interactie van de gebruiker met deze gegevens.
+Met beveiligingsrollen kunt u de toegang van een gebruiker tot gegevens beheren met een set met toegangsniveaus en -machtigingen. De gecombineerde toegangsniveaus en -machtigingen die zijn opgenomen in een bepaalde beveiligingsrol, zorgen ervoor dat er limieten gelden voor de weergave van gegevens van de gebruiker en de interactie van de gebruiker met deze gegevens.
 
 ### <a name="assign-a-security-role-to-pet-grooming-technicians"></a>Een beveiligingsrol toewijzen aan dierverzorgers
 1. Selecteer in het dialoogvenster **Deze app delen** onder **Gebruikers toewijzen aan de beveiligingsrol** **Beveiligingsgebruikers**.
@@ -124,7 +124,7 @@ Deze vooraf gedefinieerde rollen zijn beschikbaar met een [!INCLUDE [powerapps](
 |Omgevingsmaker     |  Geen       | Hiermee kunt u met Microsoft Flow nieuwe aan een omgeving gekoppelde resources maken, waaronder apps, verbindingen, aangepaste API's, gateways en stromen. Hiermee hebt u echter geen toegang tot gegevens in een omgeving. Zie [Overzicht van omgevingen](https://powerapps.microsoft.com/blog/powerapps-environments/) voor meer informatie        |
 |Systeembeheerder     |  Maken, Lezen, Schrijven, Verwijderen, Aanpassingen, Beveiligingsrollen       | Personen met deze rol hebben volledige machtiging voor het aanpassen of beheren van de omgeving, inclusief het maken, wijzigen en toewijzen van beveiligingsrollen. Hiermee kunt u alle gegevens in de omgeving weergeven. Zie [Vereiste bevoegdheden voor aanpassen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization) voor meer informatie        |
 |Systeemaanpasser     | Maken (zelf), Lezen (zelf), Schrijven (zelf), Verwijderen (zelf), Aanpassingen         | Hiermee hebt u volledige machtiging voor het aanpassen van de omgeving. De systeemaanpasser kan echter alleen records weergeven voor de omgevingsentiteiten die de aanpasser maakt. Zie [Vereiste bevoegdheden voor aanpassen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization) voor meer informatie        |
-|Common Data Service-gebruiker     |  Lezen, Maken (zelf), Schrijven (Zelf), Verwijderen (zelf)       | Hiermee kunnen gebruikers een app in de omgeving uitvoeren en veelvoorkomende taken uitvoeren voor de records waarvan ze eigenaar zijn.        |
+|Common Data Service-gebruiker     |  Lezen, Maken (zelf), Schrijven (zelf), Verwijderen (zelf)       | Hiermee kunnen gebruikers een app in de omgeving uitvoeren en veelvoorkomende taken uitvoeren voor de records waarvan ze eigenaar zijn.        |
 |Delegeren     | Handelen namens een andere gebruiker        | Hiermee kunt u code uitvoeren als een andere gebruiker of door een andere gebruiker te imiteren.  Deze rol wordt doorgaans gebruikt met een andere beveiligingsrol zodat toegang tot records kan worden verkregen. Zie [Een andere gebruiker imiteren](https://docs.microsoft.com/dynamics365/customer-engagement/developer/org-service/impersonate-another-user) voor meer informatie        |
 
 * Deze bevoegdheid heeft een globaal bereik, tenzij anders aangegeven.
