@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 3/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 9a247ab22970538c56c8a1fb1578b197f9898f92
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 939be0cc43e03836d97049addcff27a8e4b063a0
+ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="common-data-service-for-apps"></a>Common Data Service for Apps
 
@@ -62,15 +62,17 @@ Als u een app ontwikkelt, kunt u standaardentiteiten en aangepaste entiteiten ge
 
 Wanneer u een standaardentiteit gebruikt of een aangepaste entiteit maakt, zijn er in elk van beide meerdere elementen beschikbaar en kunnen verschillende acties worden uitgevoerd. Op basis van hoe eenvoudig of geavanceerd uw bedrijfsscenario is, kan worden bepaald welke functies u moet gebruiken. Als u de entiteiten wilt bekijken die beschikbaar zijn in uw omgeving, meldt u zich aan bij [PowerApps](https://web.powerapps.com) en klikt u in het menu links op Gegevens en vervolgens op Entiteiten.
 
-### <a name="system-fields"></a>Systeemvelden
-Alle entiteiten, of ze nu standaard of aangepast zijn, worden gemaakt met een set kant-en-klare velden die u niet kunt wijzigen, verwijderen of op een bepaalde waarde kunt instellen. Dit zijn de belangrijkste systeemvelden:
+![Entiteitsgegevens](./media/data-platform-cds-intro/entitylist.png "Entiteitsgegevens")
 
 * Met elk **veld** kunt u een stukje informatie definiëren dat u wilt verzamelen en het gegevenstype of de indeling waarmee u dit wilt weergeven. Velden zijn vergelijkbaar met kolommen in databases of Excel.
-* Via alternatieve **sleutels** kunt u efficiënt en nauwkeurig zoeken en communiceren met records in de entiteit wanneer niet de standaard unieke id wordt gebruikt. Dit is bijzonder belangrijk wanneer u een bedrijfssleutel gebruikt of een integratie uitvoert met een extern systeem.
-* Elke entiteit kan meerdere **relaties** hebben met andere entiteiten ter ondersteuning van zoekopdrachten en query's binnen verschillende entiteiten. Relaties kunt zo worden gemaakt dat deze ondersteuning bieden voor veel-op-een-relaties, een-op-veel-relaties en veel-op-veel-relaties.
-* Via **Weergaven** kan elke entiteit op verschillende manieren worden gepresenteerd, inclusief welke velden worden weergegeven, het filteren en sorteren van de gegevens. Deze presentaties worden opgeslagen als weergaven en kunnen in verschillende apps worden verbruikt. Mogelijk wilt u bijvoorbeeld alleen actieve accounts in uw app bekijken. Hiervoor gebruikt u een weergave die vooraf zo is gefilterd dat alleen actieve accounts worden getoond, om te voorkomen dat u dit filter bij elke gebruikte app opnieuw moet instellen.
+* Via alternatieve **sleutels** kunt u efficiënt en nauwkeurig zoeken en communiceren met records in de entiteit wanneer niet de standaard unieke id wordt gebruikt. Dit is belangrijk wanneer u een bedrijfssleutel gebruikt of een integratie uitvoert met een extern systeem.
+* Elke entiteit kan meerdere **relaties** hebben met andere entiteiten ter ondersteuning van zoekopdrachten en query's binnen verschillende entiteiten. Relaties kunnen zo worden gemaakt dat deze ondersteuning bieden voor veel-op-een-relaties, een-op-veel-relaties en veel-op-veel-relaties.
+* Via **Weergaven** kan elke entiteit op verschillende manieren worden gepresenteerd, inclusief welke velden worden weergegeven, het filteren en sorteren van de gegevens. Deze presentaties worden opgeslagen als weergaven en kunnen in verschillende apps worden gebruikt. Mogelijk wilt u bijvoorbeeld alleen actieve accounts in uw app bekijken. Hiervoor gebruikt u een weergave die vooraf zo is gefilterd dat alleen actieve accounts worden weergegeven, om te voorkomen dat u dit filter bij elke gebruikte app opnieuw moet instellen.
 * **Bedrijfsregels** kunnen worden gebruikt voor het valideren van de gegevens die in entiteiten worden gemaakt en bijgewerkt om gegevenskwaliteit te waarborgen. Elke bedrijfsregel kan gegevens valideren op meerdere velden en entiteiten en waarschuwings- en foutberichten oproepen, ongeacht de app die wordt gebruikt voor het maken van de gegevens.
-* **Gegevens** die zijn opgeslagen in Common Data Service zijn beschikbaar via de PowerApps-portal, PowerApps, Microsoft Excel en web-API's voor ontwikkelaars.
+* **Gegevens** die zijn opgeslagen in Common Data Service, zijn beschikbaar via de PowerApps-portal, PowerApps, Microsoft Excel en web-API's voor ontwikkelaars.
+
+### <a name="system-fields"></a>Systeemvelden
+Alle entiteiten, of ze nu standaard of aangepast zijn, worden gemaakt met een set kant-en-klare velden die u niet kunt wijzigen, verwijderen of op een bepaalde waarde kunt instellen. Dit zijn de belangrijkste systeemvelden:
 
 ## <a name="logic-and-validation"></a>Logica en validatie
 
@@ -86,11 +88,11 @@ Entiteiten in Common Data Service kunnen gebruikmaken van uitgebreide logica en 
 Er zijn verschillende manieren om te beginnen met het ophalen van gegevens in Common Data Service:
 
 * Maak een PowerApp of stroom om gegevens te maken.
-* Gebruik Power Query om verbinding te maken met een online of on-premises gegevensbron en deze rechtstreeks in Commmon Data Service te importeren. Met Power Query kunt u de entiteiten tevens maken tijdens het importeren op basis van het schema van de bron evenals transformaties uitvoeren op uw gegevens tijdens het importeren. Zie [Gegevens aan een entiteit in Common Data Service toevoegen met Power Query](./data-platform-cds-newentity-pq.md) voor meer informatie.
+* Gebruik Power Query om verbinding te maken met een online- of on-premises gegevensbron en deze rechtstreeks in Common Data Service te importeren. Met Power Query kunt u de entiteiten tevens maken tijdens het importeren op basis van het schema van de bron evenals transformaties uitvoeren op uw gegevens tijdens het importeren. Zie [Gegevens aan een entiteit in Common Data Service toevoegen met Power Query](./data-platform-cds-newentity-pq.md) voor meer informatie.
 
 ## <a name="developer-capabilities"></a>Mogelijkheden voor ontwikkelaars
 
-Naast de functies die beschikbaar zijn via de [PowerApps](https://web.powerapps.com)-portal, bevat Common Data Service ook functies voor ontwikkelaars om programmatisch toegang te krijgen tot metagegevens en gegevens voor het maken van de entiteiten en zakelijke logica, evenals interactie met gegevens. Zie [Overzicht van Common Data Service for Apps voor ontwikkelaars](../../developer/common-data-service/overview.md) voor meer informatie
+Naast de functies die beschikbaar zijn via de [PowerApps](https://web.powerapps.com)-portal, bevat Common Data Service ook functies voor ontwikkelaars om programmatisch toegang te krijgen tot metagegevens en gegevens voor het maken van entiteiten en zakelijke logica, evenals interactie met gegevens. Zie [Overzicht van Common Data Service for Apps voor ontwikkelaars](../../developer/common-data-service/overview.md) voor meer informatie
 
 ## <a name="get-started"></a>Aan de slag
 Als u het wilt uitproberen, kunt u een app te maken met een standaardentiteit of een [aangepaste entiteit maken](create-custom-entity.md), en vervolgens [een app maken die gebruikmaakt van die entiteit](../canvas-apps/data-platform-create-app.md).
