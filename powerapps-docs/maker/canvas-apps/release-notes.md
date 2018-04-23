@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/21/2018
+ms.date: 04/09/2018
 ms.author: sharik
-ms.openlocfilehash: e9e5c156e9cb3ad47375be9a237a757a6db1158b
-ms.sourcegitcommit: a9d33322228c398d29964429602dc3fe19fa67d2
+ms.openlocfilehash: 92438c37b870ace2ed5b2ec086cf6c5fb1548fdc
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="whats-new-in-powerapps"></a>Wat is er nieuw in PowerApps?
 Zie [Veelvoorkomende problemen en oplossingen](common-issues-and-resolutions.md) voor meer informatie over bekende beperkingen.
@@ -34,18 +34,20 @@ Ontdek de meest recente updates voor onze zakelijke toepassingen, evenals een gr
 
 **Binnenkort beschikbaar:** het PDF-bestand met releaseopmerkingen wordt telkens bijgewerkt bij nieuwe functies. De releaseopmerkingen zijn ook beschikbaar op een webpagina.
 
-## <a name="mar-21"></a>21 maart
-1. Maak [modelgestuurde apps](../model-driven-apps/model-driven-app-overview.md) die beginnen met uw gegevensmodel en die worden gebouwd op basis van de vorm van uw belangrijkste zakelijke gegevens en processen in Common Data Service om formulieren, weergaven en andere onderdelen vorm te geven. Met modelgestuurde apps wordt automatisch een uitstekende gebruikersinterface gegenereerd die responsief is op alle apparaten.
-2. [Maak een database](../../administrator/create-database.md) op de meest recente versie van Common Data Service in een omgeving.
-3. Common Data Service for Apps omvat nu:
+## <a name="apr-9"></a>9 april
+* Besturingselementen voor knippen (Ctrl+X), kopiëren (Ctrl+C) en plakken (Ctrl+ )&mdash;waaronder stijlen, formules en eigenschappen van de besturingselementen&mdash;via apps in een webbrowser.
 
+## <a name="mar-21"></a>21 maart
+1. Maak [modelgestuurde apps](../model-driven-apps/model-driven-app-overview.md) die beginnen met uw gegevensmodel en die worden gebouwd op basis van de vorm van uw belangrijkste zakelijke gegevens en processen in Common Data Service for Apps om formulieren, weergaven en andere onderdelen vorm te geven. Met modelgestuurde apps wordt automatisch een uitstekende gebruikersinterface gegenereerd die responsief is op alle apparaten.
+2. [Maak een database](../../administrator/create-database.md) op de meest recente versie van CDS for Apps in een omgeving.
+3. CDS for Apps bevat nu:
     - **Extra gegevenstypen** ondersteunen complexere entiteitdefinities en bieden een rijkere ervaring. (Van toepassing op canvas-apps en modelgestuurde apps.)
-    - [Entiteiten maken en aanpassen](../common-data-service/data-platform-create-entity.md) in Common Data Service for Apps rechtstreeks vanaf de PowerApps-site. De **vernieuwde ervaring** bevat verbeterde prestaties, een gebruikersvriendelijkere gebruikersinterface en handige functies zoals het inline maken van optiesets. (Van toepassing op canvas-apps en modelgestuurde apps.)
-    - Maak **bedrijfsregels aan serverzijde** voor het valideren van gegevens die in Common Data Service for Apps zijn ingevoerd. (Van toepassing op canvas-apps en modelgestuurde apps.)
-    - Maak **berekende en samengevouwen velden** in Common Data Service for Apps-entiteiten rechtstreeks vanaf de PowerApps-site. (Van toepassing op canvas-apps en modelgestuurde apps.)  
-    - Ontwikkelaars kunnen de **Software Development Kit** (SDK) van Common Data Service for Apps gebruiken voor het maken van op code gebaseerde aanpassingen voor Common Data Service.
-    - Geavanceerde gebruikers kunnen in Common Data Service for Apps opgeslagen gegevens openen door middel van een nieuwe **OData-web-API**.
-    - [Gegevens importeren](../common-data-service/data-platform-cds-newentity-pq.md) in Common Data Service met **Power Query**. Power Query op internet gebruiken om vanuit meerdere bronnen rechtstreeks gegevens te importeren naar Common Data Service for Apps
+    - [Entiteiten maken en aanpassen](../common-data-service/data-platform-create-entity.md) in CDS for Apps rechtstreeks vanaf de PowerApps-site. De **vernieuwde ervaring** bevat verbeterde prestaties, een gebruikersvriendelijkere gebruikersinterface en handige functies zoals het inline maken van optiesets. (Van toepassing op canvas-apps en modelgestuurde apps.)
+    - Maak **bedrijfsregels aan serverzijde** voor het valideren van gegevens die in CDS for Apps zijn ingevoerd. (Van toepassing op canvas-apps en modelgestuurde apps.)
+    - Maak **berekende en samengevouwen velden** in CDS for Apps-entiteiten rechtstreeks vanaf de PowerApps-site. (Van toepassing op canvas-apps en modelgestuurde apps.)  
+    - Ontwikkelaars kunnen de **Software Development Kit** (SDK) van CDS for Apps gebruiken voor het maken van op code gebaseerde aanpassingen voor CDS for Apps.
+    - Geavanceerde gebruikers kunnen in CDS for Apps opgeslagen gegevens openen door middel van een nieuwe **OData-web-API**.
+    - [Importeer gegevens](../common-data-service/data-platform-cds-newentity-pq.md) in CDS for Apps met **Power Query**. Power Query op internet gebruiken om vanuit meerdere bronnen rechtstreeks gegevens te importeren naar CDS for Apps
 
 ## <a name="mar-5"></a>5 maart
 1. [Bijlagen](controls/control-attachments.md) toevoegen (en verwijderen) aan SharePoint-lijsten.
@@ -83,8 +85,3 @@ Ontdek de meest recente updates voor onze zakelijke toepassingen, evenals een gr
 
 ## <a name="nov-10"></a>10 nov
 * [Wijzig de naam van regels](working-with-rules.md) in een app en geef regels weer wanneer het geselecteerde besturingselement binnen de regelvoorwaarde valt.
-
-## <a name="oct-30"></a>30 oktober
-1. [Alle regels weergeven](working-with-rules.md) in een app, niet alleen die voor het geselecteerde besturingselement.
-2. Pictogrammen toegevoegd waarom veel werd gevraagd door app-makers.
-3. Verbeterde prestaties van apps op Android- en iOS-apparaten.
