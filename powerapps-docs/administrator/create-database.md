@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: cc068fc475643ae68e74d22981679dd9b038eb83
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: 68ce23ae4b4a961a69cc60173b4f98ec18f05dd2
+ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="create-a-common-data-service-database"></a>Een Common Data Service-database maken
 U kunt een database maken en apps bouwen door Common Data Service als een gegevensarchief te gebruiken. U kunt uw eigen aangepaste entiteiten maken of de vooraf gedefinieerde entiteiten gebruiken. Als u een database wilt maken, moet u eerst een omgeving maken of als **omgevingsbeheerder** aan een bestaande omgeving worden toegewezen. Daarnaast moet u aan de juiste licentie zijn toegewezen. Zie [Prijzen](pricing-billing-skus.md) voor informatie over het aanschaffen van een abonnement voor het gebruik van Common Data Service.
@@ -57,7 +57,7 @@ Er zijn diverse manieren om een database te maken:
 Wanneer een database wordt gemaakt, behouden de gebruikers aan wie de omgevingsrollen zijn toegewezen de bevoegdheden voor deze rollen.  
     Gebruikers met de rol **Omgevingsbeheerder** worden nu toegewezen aan de rol **Systeembeheerder**. Gebruikers met de rol **Omgevingsmaker** blijven in het bezit van dezelfde rol.
 
-U kunt extra gebruikers aan de vooraf gedefinieerde rollen toewijzen of [aangepaste rollen][1] maken. Zie het Engelstalige artikel [Database Security](create-database.md) (Databasebeveiliging) voor meer informatie.
+U kunt extra gebruikers aan de vooraf gedefinieerde rollen toewijzen of [aangepaste rollen][1] maken. Zie het Engelstalige artikel [Database Security](database-security.md) (Databasebeveiliging) voor meer informatie.
 
 > [!NOTE]
 > Wanneer u de database maakt, wordt de beveiligingsgroep die aan de rol Omgevingsbeheerder of de rol Omgevingsmaker is toegewezen, niet meer gebruikt. Op dit moment wordt de AAD-beveiligingsgroep niet ondersteund wanneer u machtigingen in de database toewijst.
