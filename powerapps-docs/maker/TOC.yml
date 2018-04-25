@@ -6,6 +6,12 @@
       href: signup-for-powerapps.md
     - name: Aanmelden voor het PowerApps-communityabonnement
       href: dev-community-plan.md
+    - name: Wat is er nieuw
+      href: ./canvas-apps/release-notes.md
+    - name: Veelvoorkomende problemen en oplossingen
+      href: ./canvas-apps/common-issues-and-resolutions.md
+    - name: Geplande en recente webinars
+      href: ./canvas-apps/webinars-listing.md
 - name: Canvas-apps
   href: ./canvas-apps/getting-started.md
   items:
@@ -123,12 +129,14 @@
               href: ./canvas-apps/add-scrolling-screen.md
             - name: Een algemene app maken
               href: ./canvas-apps/global-apps.md
-            - name: Toegankelijke apps maken
+            - name: Een toegankelijke app maken
               href: ./canvas-apps/accessible-apps.md
         - name: Uw app beheren
           items:
             - name: Inleiding tot powerapps.com
               href: ./canvas-apps/intro-maker-portal.md
+            - name: Werken met omgevingen
+              href: ./canvas-apps/working-with-environments.md
             - name: Een app bewerken
               href: ./canvas-apps/edit-app.md
             - name: De grootte en richting van het scherm wijzigen
@@ -195,21 +203,13 @@
           href: ./canvas-apps/connections-list.md
         - name: 'Systeemvereisten, limieten en configuratie'
           href: ./canvas-apps/limits-and-config.md
-    - name: Bronnen
-      items:
-        - name: Werken met omgevingen
-          href: ./canvas-apps/working-with-environments.md
-        - name: Wat is er nieuw
-          href: ./canvas-apps/release-notes.md
-        - name: Veelvoorkomende problemen en oplossingen
-          href: ./canvas-apps/common-issues-and-resolutions.md
-        - name: Geplande en recente webinars
-          href: ./canvas-apps/webinars-listing.md
 - name: Modelgestuurde apps
   href: ./model-driven-apps/model-driven-app-overview.md
   items:
     - name: Overzicht van voorbeeld-apps
       href: ./model-driven-apps/overview-model-driven-samples.md
+    - name: Bouw uw eerste modelgebaseerde app
+      href: .//model-driven-apps/build-first-model-driven-app.md
     - name: Een modelgestuurde app delen
       href: ./model-driven-apps/share-model-driven-app.md
     - name: Voor ontwikkelaars

@@ -38,3 +38,18 @@
       href: admin-manage-apps.md
     - name: Een app verplaatsen tussen tenants of omgevingen
       href: environment-and-tenant-migration.md
+    - name: Reageren op DSR-aanvragen voor door het systeem gegenereerde logboeken
+      href: powerapps-gdpr-dsr-guide-systemlogs.md
+    - name: Reageren op DSR-aanvragen voor PowerApps-klantgegevens
+      href: powerapps-gdpr-dsr-guide.md
+      items:
+        - name: Reageren op DSR-aanvragen exporteren
+          href: powerapps-gdpr-export-dsr.md
+        - name: Reageren op DSR-aanvragen verwijderen
+          href: powerapps-gdpr-delete-dsr.md
+    - name: Reageren op DSR-aanvragen voor CDS voor Apps-klantgegevens
+      href: common-data-service-gdpr-dsr-guide.md
+- name: Referentie
+  items:
+    - name: PowerShell-ondersteuning voor PowerApps (preview-versie)
+      href: powerapps-powershell.md
