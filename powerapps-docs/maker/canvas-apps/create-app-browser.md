@@ -1,25 +1,22 @@
 ---
 title: Apps in een browser maken of bewerken | Microsoft Docs
 description: Maak of bewerk apps in een browser met behulp van PowerApps Studio voor internet.
-services: powerapps
-suite: powerapps
 documentationcenter: na
-author: skjerland
+author: aftowen
 manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/08/2018
-ms.author: sharik
-ms.openlocfilehash: 5d120cd0a754b2aa6ad45c5cc81435810e382c61
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: anneta
+ms.openlocfilehash: 4c8b100e4993921c651590c80eda4297345cdd40
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="create-or-edit-apps-in-powerapps-studio-for-web"></a>Apps maken of bewerken in PowerApps Studio voor internet
 Maak en bewerk apps in PowerApps Studio voor internet, dat in een browser wordt geopend op Windows of andere platforms.

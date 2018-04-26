@@ -1,25 +1,22 @@
 ---
 title: Een lijst met items weergeven | Microsoft Docs
 description: Gebruik een galerie om een lijst met items in uw app weer te geven, en filter de lijst door een criterium op te geven.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: karthik-1
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 09/28/2017
 ms.author: sharik
-ms.openlocfilehash: 04499f276e179fe6b57103a3d28a68ba6fe6b7bb
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 60ec1fc7f896aeb3391ed794920e987b232d09f3
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="show-a-list-of-items-in-powerapps"></a>Een lijst met items weergeven in PowerApps
 U kunt een lijst met items van een gegevensbron weergeven door het besturingselement **[Galerie](controls/control-gallery.md)** toe te voegen aan uw app. In dit onderwerp wordt Excel gebruikt als gegevensbron. Filter de lijst door het besturingselement **Galerie** zodanig te configureren dat alleen de items die voldoen aan het filtercriterium worden weergegeven in een besturingselement **[Tekstinvoer](controls/control-text-input.md)**.

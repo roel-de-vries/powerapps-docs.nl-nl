@@ -1,7 +1,6 @@
 ---
 title: Snelstartgids voor entiteitsrelaties via opzoekveld | Microsoft Docs
 description: Snelstartgids voor het creëren van een relatie tussen entiteiten met behulp van een opzoekveld
-services: powerapps
 documentationcenter: na
 author: clwesene
 manager: kfile
@@ -9,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: cds
 ms.date: 3/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 37450b6e9f43780deaed4ff34b005472501bdb23
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a607058d1e26f37a4bffa054d9dc148be8b6b011
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="quickstart-create-a-relationship"></a>Snelstartgids: Een relatie maken
 Gegevens in de ene entiteit zijn vaak gekoppeld aan gegevens in een andere entiteit. Als u bijvoorbeeld een entiteit **Docenten** en een entiteit **Klas** hebt, kan de entiteit **Klas** een opzoekrelatie met de entiteit **Docenten** hebben om te laten zien welke docent de klas lesgeeft. U kunt via een opzoekveld gegevens weergeven van de entiteit **Docenten**. Dit wordt vaak aangeduid als een opzoekveld.

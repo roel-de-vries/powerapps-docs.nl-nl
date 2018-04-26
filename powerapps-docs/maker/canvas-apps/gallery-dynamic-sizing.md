@@ -1,25 +1,22 @@
 ---
 title: Items met verschillende hoogten weergeven in een galerie | Microsoft Docs
 description: Een galerie met flexibele hoogte toevoegen en zo configureren dat deze automatisch wordt aangepast aan de hoeveelheid inhoud in elk item van de galerie
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/01/2017
 ms.author: fikaradz
-ms.openlocfilehash: 2f4f4867fa9d1fb13dfd613cc3564703b0c220e2
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 466e0d9cb1acfe4cfeb72256db2deddfd3466e19
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="show-items-of-different-heights-in-a-powerapps-gallery"></a>Items met verschillende hoogten weergeven in een PowerApps-galerie
 Als verschillende items in uw gegevensset verschillende hoeveelheden gegevens in hetzelfde veld bevatten, kunt u items volledig weergeven die meer gegevens bevatten zonder lege ruimte toe te voegen na items die minder gegevens bevatten. Voeg het galeriebesturingselement **Flexibele hoogte** toe en configureer dit zodat u:

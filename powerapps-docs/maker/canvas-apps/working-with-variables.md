@@ -1,25 +1,22 @@
 ---
 title: Over variabelen | Microsoft Docs
 description: Naslaginformatie voor het werken met status, contextvariabelen en verzamelingen
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 1372e8e92e0263d82b3b25c77f063c6fc1bb2ac4
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 74ab73d78e87c25adf0cd300bb8a6321a578d749
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-variables-in-powerapps"></a>Over variabelen in PowerApps
 Als u andere programmeerprogramma's zoals Visual Basic of JavaScript hebt gebruikt, vraagt u zich misschien het volgende af: **waar zijn de variabelen?** PowerApps is iets anders, en er is ook een andere benadering voor nodig. In plaats van dat u een variabele gebruikt, moet u zich afvragen: **wat zou ik doen in Excel?**
@@ -41,11 +38,11 @@ Excel beschikt niet over variabelen. De waarde van een cel met een formule wordt
 ### <a name="powerapps"></a>PowerApps
 Apps die u in PowerApps maakt, hebben een werking die lijkt op die van Excel. In plaats van cellen bij te werken, kunt u waar u maar wilt op het scherm besturingselementen toevoegen en deze een naam geven om in formules te gebruiken.
 
-U kunt het Excel-gedrag bijvoorbeeld repliceren in een app door een besturingselement **[Label](controls/control-text-box.md)** met de naam **Tekstvak1** en twee besturingselementen **[Tekstinvoer](controls/control-text-input.md)** met de namen **Tekstinvoer1** en **Tekstinvoer2** toe te voegen. Als u vervolgens de  **[tekst](controls/properties-core.md)**eigenschap van **Tekstvak1** instelt op **Tekstinvoer1 + Tekstinvoer2**, wordt altijd automatisch de som van de getallen in **Tekstinvoer1** en **Tekstinvoer2** weergegeven.
+U kunt het Excel-gedrag bijvoorbeeld repliceren in een app door een besturingselement **[Label](controls/control-text-box.md)** met de naam **Tekstvak1** en twee besturingselementen **[Tekstinvoer](controls/control-text-input.md)** met de namen **Tekstinvoer1** en **Tekstinvoer2** toe te voegen. Als u vervolgens de  **[tekst](controls/properties-core.md)** eigenschap van **Tekstvak1** instelt op **Tekstinvoer1 + Tekstinvoer2**, wordt altijd automatisch de som van de getallen in **Tekstinvoer1** en **Tekstinvoer2** weergegeven.
 
 ![](media/working-with-variables/recalc1.png)
 
-Het besturingselement **Tekstvak1** is geselecteerd met de **[tekst](controls/properties-core.md)**formule in de formulebalk bovenaan het scherm.  Hier zien we de formule **Tekstinvoer1 + Tekstinvoer2**.  Deze formule maakt een afhankelijkheid tussen deze besturingselementen, net zoals er afhankelijkheden worden gemaakt tussen de cellen in een Excel-werkmap.  Laten we de waarde van **Tekstinvoer1** wijzigen:
+Het besturingselement **Tekstvak1** is geselecteerd met de **[tekst](controls/properties-core.md)** formule in de formulebalk bovenaan het scherm.  Hier zien we de formule **Tekstinvoer1 + Tekstinvoer2**.  Deze formule maakt een afhankelijkheid tussen deze besturingselementen, net zoals er afhankelijkheden worden gemaakt tussen de cellen in een Excel-werkmap.  Laten we de waarde van **Tekstinvoer1** wijzigen:
 
 ![](media/working-with-variables/recalc2.png)
 
@@ -63,14 +60,14 @@ Als het resultaat van onze berekening in **Tekstvak1.Tekst** negatief is, wordt 
 U kunt formules gebruiken voor een groot aantal scenario's:
 
 * Door de GPS-functie van uw apparaat te gebruiken, kan een besturingselement voor kaarten en een formule die gebruikmaakt van **Location.Latitude** en **Location.Longitude** uw huidige locatie weergeven.  Op de kaart wordt automatisch uw locatie bijgehouden terwijl u zich verplaatst.
-* Andere gebruikers kunnen [gegevensbronnen](working-with-data-sources.md) bijwerken.  Anderen in uw team kunnen bijvoorbeeld items in een SharePoint-lijst bijwerken.  Wanneer u een gegevensbron vernieuwt, worden eventuele afhankelijke formules automatisch opnieuw berekend om de bijgewerkte gegevens weer te geven. In het voorbeeld kunt u ook een **[item](controls/properties-core.md)**eigenschap uit de galerie aan de formule **Filter (SharePointList)** toevoegen. Deze geeft automatisch de nieuwe gefilterde set [records](working-with-tables.md#records) weer.
+* Andere gebruikers kunnen [gegevensbronnen](working-with-data-sources.md) bijwerken.  Anderen in uw team kunnen bijvoorbeeld items in een SharePoint-lijst bijwerken.  Wanneer u een gegevensbron vernieuwt, worden eventuele afhankelijke formules automatisch opnieuw berekend om de bijgewerkte gegevens weer te geven. In het voorbeeld kunt u ook een **[item](controls/properties-core.md)** eigenschap uit de galerie aan de formule **Filter (SharePointList)** toevoegen. Deze geeft automatisch de nieuwe gefilterde set [records](working-with-tables.md#records) weer.
 
 ### <a name="benefits"></a>Voordelen
 Het gebruik van formules om apps te bouwen biedt veel voordelen:
 
 * Als u Excel kent, kent u PowerApps. Het model en de formuletaal zijn hetzelfde.
 * Als u andere programmeerprogramma's hebt gebruikt, weet u misschien hoeveel code u voor deze voorbeelden nodig zou hebben.  In Visual Basic zou u een gebeurtenis-handler moeten schrijven voor de wijzigingsgebeurtenis op elk besturingselement voor tekstinvoer.  De code voor het uitvoeren van de berekeningen is overbodig en zou mogelijk niet meer gesynchroniseerd zijn, of u zou een algemene subroutine moeten schrijven.  In PowerApps bereikt u dit met een enkele formule die uit één regel bestaan.
-* Om te weten waar de tekst in **Tekstvak1** vandaan komt, weet u precies wat u moet bekijken: de formule in de **[tekst](controls/properties-core.md)**eigenschap.  Er is geen andere manier om de tekst van dit besturingselement te beïnvloeden.  In een traditioneel programmeerprogramma kan elke gebeurtenis-handler of subroutine de waarde van het label waar dan ook in het programma wijzigen.  Hierdoor kan het lastiger worden om te bepalen waar en wanneer een variabele is gewijzigd.
+* Om te weten waar de tekst in **Tekstvak1** vandaan komt, weet u precies wat u moet bekijken: de formule in de **[tekst](controls/properties-core.md)** eigenschap.  Er is geen andere manier om de tekst van dit besturingselement te beïnvloeden.  In een traditioneel programmeerprogramma kan elke gebeurtenis-handler of subroutine de waarde van het label waar dan ook in het programma wijzigen.  Hierdoor kan het lastiger worden om te bepalen waar en wanneer een variabele is gewijzigd.
 * Als gebruikers een schuifregelaar aanpassen en vervolgens van gedachten veranderen, kunnen ze de schuifregelaar terugzetten naar de oorspronkelijke waarde.  Het is dan alsof er nooit iets is gebeurd: de app bevat dezelfde besturingselementwaarden als voorheen.  Het heeft geen gevolgen om te experimenteren en u af te vragen 'wat als', net als in Excel.  
 
 Over het algemeen is het handiger om een effect te bewerkstelligen met behulp van een formule. Laat de formule-engine in PowerApps het werk voor u doen.  
@@ -101,7 +98,7 @@ Laten we onze optelsom opnieuw bouwen met een globale variabele:
 
 1. Voeg een tekstinvoerbesturingselement met de naam **Tekstinvoer1** en twee knoppen met de naam **Knop1** en **Knop2** toe.
 
-2. Stel de **[tekst](controls/properties-core.md)**eigenschap van **Knop1** in op **"Toevoegen"** en stel de **tekst**eigenschap van **Knop2** in op **"Wissen"**.
+2. Stel de **[tekst](controls/properties-core.md)** eigenschap van **Knop1** in op **"Toevoegen"** en stel de **tekst**eigenschap van **Knop2** in op **"Wissen"**.
 
 3. Als het voorlopige totaal moet worden bijgewerkt wanneer een gebruiker de knop **Toevoegen** selecteert, stelt u de eigenschap **[OnSelect](controls/properties-core.md)** in op deze formule:
    
@@ -160,7 +157,7 @@ Laten we onze optelsom opnieuw bouwen met een contextvariabele:
 
 1. Voeg een tekstinvoerbesturingselement met de naam **Tekstinvoer1** en twee knoppen met de naam **Knop1** en **Knop2** toe.
 
-2. Stel de **[tekst](controls/properties-core.md)**eigenschap van **Knop1** in op **"Toevoegen"** en stel de **tekst**eigenschap van **Knop2** in op **"Wissen"**.
+2. Stel de **[tekst](controls/properties-core.md)** eigenschap van **Knop1** in op **"Toevoegen"** en stel de **tekst**eigenschap van **Knop2** in op **"Wissen"**.
 
 3. Als het voorlopige totaal moet worden bijgewerkt wanneer een gebruiker de knop **Toevoegen** selecteert, stelt u de eigenschap **[OnSelect](controls/properties-core.md)** in op deze formule:
    
@@ -210,9 +207,9 @@ Hoe verzamelingen werken:
 
 Laten we onze optelsom opnieuw maken met behulp van een verzameling:
 
-1. Voeg een **[tekstinvoer](controls/control-text-input.md)**besturingselement met de naam **Tekstinvoer1** en twee knoppen met de naam **Knop1** en **Knop2** toe.
+1. Voeg een **[tekstinvoer](controls/control-text-input.md)** besturingselement met de naam **Tekstinvoer1** en twee knoppen met de naam **Knop1** en **Knop2** toe.
 
-2. Stel de **[tekst](controls/properties-core.md)**eigenschap van **Knop1** in op **"Optellen"** en stel de **tekst**eigenschap van **Knop2** in op **"Wissen"**.
+2. Stel de **[tekst](controls/properties-core.md)** eigenschap van **Knop1** in op **"Optellen"** en stel de **tekst**eigenschap van **Knop2** in op **"Wissen"**.
 
 3. Als het voorlopige totaal moet worden bijgewerkt wanneer een gebruiker de knop **Optellen** selecteert, stelt u de eigenschap **[OnSelect](controls/properties-core.md)** in op deze formule:
    

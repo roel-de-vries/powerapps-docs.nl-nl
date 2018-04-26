@@ -1,25 +1,22 @@
 ---
 title: De indeling van een gegevensformulier begrijpen | Microsoft Docs
 description: Overzichtelijke formulieren maken met behulp van rijen en kolommen.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 06/17/2017
 ms.author: gregli
-ms.openlocfilehash: 79b14972d5900b7a84e7634eb57fac24e243bd46
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 2b64ebdf91effe812d3fd81d0d1e0bb854147a19
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-data-form-layout-in-microsoft-powerapps"></a>De indeling van een gegevensformulier begrijpen in Microsoft PowerApps
 Met PowerApps kunt u gemakkelijk formulieren maken die er mooi uitzien en efficiënt te gebruiken zijn. Neem bijvoorbeeld dit eenvoudige verkooporderformulier:
@@ -53,7 +50,7 @@ Als u niet vertrouwd bent met PowerApps (of apps alleen automatisch hebt gegener
 1. Voeg een leeg scherm toe waar u het formulier moet plaatsen.
    
     Buiten deze zelfstudie kunt u de besturingselementen **Galerie** en **[Formulier bewerken](controls/control-form-detail.md)** op hetzelfde scherm plaatsen, maar u hebt meer werkruimte als u ze op afzonderlijke schermen plaatst.
-2. Voeg een **[Label](controls/control-text-box.md)**besturingselement toe bovenaan het nieuwe scherm en stel de eigenschap **Text** in op deze expressie:
+2. Voeg een **[Label](controls/control-text-box.md)** besturingselement toe bovenaan het nieuwe scherm en stel de eigenschap **Text** in op deze expressie:
    <br>**"Verkooporder " & Gallery1.Selected.SalesOrderId**
    
     Het label toont het ordernummer van het record dat u hebt geselecteerd in de galerie.

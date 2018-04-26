@@ -1,25 +1,22 @@
 ---
 title: De functies If en Switch | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis en voorbeelden, voor de functies If en Switch in PowerApps
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 04/24/2017
 ms.author: gregli
-ms.openlocfilehash: 9254eaf63d816fc8ac9890026f74bdeaeaa9b1a4
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: f4e5510224d5abc7a6d2ccaa286d08c8f170fa10
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="if-and-switch-functions-in-powerapps"></a>De functies If en Switch in PowerApps
 Hiermee wordt bepaald of een voorwaarde in een set true is (**If**) of dat het resultaat van een formule overeenkomt met een willekeurige waarde in een set (**Switch**). Vervolgens wordt een resultaat geretourneerd of een actie uitgevoerd.
@@ -59,11 +56,11 @@ In de volgende voorbeelden heeft een **schuifregelaar** met de naam **Schuifrege
 
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
-| **If( Schuifregelaar1.Value&nbsp;=&nbsp;25, "Result1" )** |De voorwaarde is **true** en het bijbehorende resultaat wordt geretourneerd. |"Result1" |
-| **If( Schuifregelaar1.Value&nbsp;=&nbsp;25, "Result1", "Result2" )** |De voorwaarde is **true** en het bijbehorende resultaat wordt geretourneerd. |"Result1" |
-| **If( Schuifregelaar1.Value&nbsp;>&nbsp;1000, "Result1" )** |De voorwaarde is **false** en er is geen *DefaultResult* opgegeven. |*leeg* |
+| **Als( Schuifregelaar1.Value&nbsp;=&nbsp;25, "Result1" )** |De voorwaarde is **true** en het bijbehorende resultaat wordt geretourneerd. |"Result1" |
+| **Als( Schuifregelaar1.Value&nbsp;=&nbsp;25, "Result1", "Result2" )** |De voorwaarde is **true** en het bijbehorende resultaat wordt geretourneerd. |"Result1" |
+| **Als( Schuifregelaar1.Value&nbsp;>&nbsp;1000, "Result1" )** |De voorwaarde is **false** en er is geen *DefaultResult* opgegeven. |*leeg* |
 | **If( Schuifregelaar1.Waarde&nbsp;>&nbsp;1000, "Result1", "Result2" )** |De voorwaarde is **false**, er is een *DefaultResult* opgegeven en deze wordt geretourneerd. |"Result2" |
-| **If( Schuifregelaar1.Waarde&nbsp;=&nbsp;25, "Result1", Schuifregelaar1.Value&nbsp;>&nbsp;0, "Result2" )** |De eerste voorwaarde is **true** en het bijbehorende resultaat wordt geretourneerd. De tweede voorwaarde is ook **true**, maar deze wordt niet geëvalueerd omdat deze later in de lijst met argumenten staat dan een voorwaarde die wordt geëvalueerd als **true**. |"Result1" |
+| **Als( Schuifregelaar1.Waarde&nbsp;=&nbsp;25, "Result1", Schuifregelaar1.Value&nbsp;>&nbsp;0, "Result2" )** |De eerste voorwaarde is **true** en het bijbehorende resultaat wordt geretourneerd. De tweede voorwaarde is ook **true**, maar deze wordt niet geëvalueerd omdat deze later in de lijst met argumenten staat dan een voorwaarde die wordt geëvalueerd als **true**. |"Result1" |
 | **If( IsBlank(&nbsp;Schuifregelaar1.Value&nbsp;), "Result1", IsNumeric(&nbsp;Schuifregelaar1.Value&nbsp;), "Result2" )** |De eerste voorwaarde is **false** omdat de schuifregelaar niet *leeg* is. De tweede voorwaarde is **true** omdat de waarde van de schuifregelaar een getal is; het bijbehorende resultaat wordt geretourneerd. |"Result2" |
 | **If( Schuifregelaar1.Value&nbsp;>&nbsp;1000, "Result1", Schuifregelaar1.Value&nbsp;>&nbsp;50, "Result2", "Result3")** |Zowel de eerste als de tweede voorwaarde is **false** en *DefaultResult* is opgegeven en geretourneerd. |"Result3" |
 | **Switch( Schuifregelaar1.Value, 25, "Result1" )** |De waarde van de schuifregelaar komt overeen met de eerste waarde die moet worden gecontroleerd en het bijbehorende resultaat wordt geretourneerd. |"Result1" |
@@ -71,16 +68,16 @@ In de volgende voorbeelden heeft een **schuifregelaar** met de naam **Schuifrege
 | **Switch( Schuifregelaar1.Value, 20, "Result1", 10, "Result2", 0, "Result3", "DefaultResult" )** |De waarde van de schuifregelaar komt niet overeen met een van de waarden die worden gecontroleerd.  Een *DefaultResult* is opgegeven, dus deze wordt geretourneerd. |"DefaultResult" |
 
 ### <a name="branching-in-behavior-formulas"></a>Vertakkingen in gedragsformules
-In deze voorbeelden is in een **[Text input](../controls/control-text-input.md)**-besturingselement met de naam **FirstName** de waarde 'John' getypt.
+In deze voorbeelden is in een **[Tekstinvoer](../controls/control-text-input.md)**-besturingselement met de naam **FirstName** de waarde 'John' getypt.
 
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
-| **If( ! IsBlank( Voornaam.Text ), Navigate(&nbsp;Scherm1, Schermovergang.None) )** |De voorwaarde is **true** dus de functie **[Navigate](function-navigate.md)** wordt uitgevoerd. U kunt de functie **[IsBlank](function-isblank-isempty.md)** gebruiken om te testen of een verplicht formulierveld is ingevuld.  If **Voornaam** [leeg](function-isblank-isempty.md) was, zou deze formule geen effect hebben. |**true**<br><br>De weergave wordt gewijzigd naar **Scherm1**. |
+| **Als( ! IsBlank( Voornaam.Text ), Navigate(&nbsp;Scherm1, Schermovergang.None) )** |De voorwaarde is **true** dus de functie **[Navigate](function-navigate.md)** wordt uitgevoerd. U kunt de functie **[IsBlank](function-isblank-isempty.md)** gebruiken om te testen of een verplicht formulierveld is ingevuld.  Als **Voornaam** [leeg](function-isblank-isempty.md) was, zou deze formule geen effect hebben. |**true**<br><br>De weergave wordt gewijzigd naar **Scherm1**. |
 | **If( IsBlank( Voornaam.Text ), Navigate(&nbsp;Scherm1, Schermovergang.None), Terug() )** |Zonder de operator **!** is de voorwaarde **false**, dus wordt de functie **[Navigate](function-navigate.md)** niet uitgevoerd. De functie **[Terug](function-navigate.md)** is opgegeven als een *DefaultResult*, dus deze wordt uitgevoerd. |**true**<br><br>De weergave gaat terug naar het scherm dat eerder werd weergegeven. |
 | **Switch( Voornaam.Text, "Carlos", Navigate(&nbsp;Scherm1, Schermovergang.None ), "Kirstin", Navigate( Scherm2, Schermovergang.None ), "John", Navigate( Scherm3, Schermovergang.None ) )** |De waarde van **Voornaam.Text** wordt vergeleken met 'Carlos', 'Kirstin' en 'John', in die volgorde. Er is een overeenkomst gevonden met 'John', dus de app navigeert naar **Scherm3**. |**true**<br><br>De weergave wordt gewijzigd naar **Scherm3**. |
 
 ### <a name="step-by-step"></a>Stap voor stap
-1. Voeg een **[Text input](../controls/control-text-input.md)**-besturingselement toe en noem het **Tekst1** als het die naam niet standaard al heeft.
+1. Voeg een **[Tekstinvoer](../controls/control-text-input.md)**-besturingselement toe en noem het **Tekst1** als het die naam niet standaard al heeft.
 2. Typ in **Tekst1** **30**.
 3. Voeg een besturingselement van het type **Label** toe en stel de eigenschap **[Text](../controls/properties-core.md)** in op deze formule:<br>
    **If( Value(Text1.Text) < 20, "Bestel VEEL meer!", Value(Text1.Text) < 40, "Bestel meer!", Text1.Text )**

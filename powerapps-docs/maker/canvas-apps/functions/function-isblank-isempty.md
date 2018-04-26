@@ -1,25 +1,22 @@
 ---
 title: Functies Blank, Samenvoegen, IsBlank en IsEmpty | Microsoft Docs
 description: Referentie-informatie, inclusief syntaxis en voorbeelden, voor de functies Blank, Samenvoegen, IsBlank en IsEmpty in PowerApps
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: f4e104456cd1ae60bfb60b49e3cf28dca89926d8
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 80d06a30dbe334f7fa9691d2a56805d53876693c
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="blank-coalesce-isblank-and-isempty-functions-in-powerapps"></a>Functies Blank, Samenvoegen, IsBlank en IsEmpty in PowerApps
 Hiermee wordt getest of een waarde leeg is of een [tabel](../working-with-tables.md) geen [records](../working-with-tables.md#records) bevat. Dit biedt een manier om *lege* waarden te maken.
@@ -128,7 +125,7 @@ Andere voorbeelden:
 | **IsBlank( "" )** |Een tekenreeks die geen tekens bevat. |**true** |
 | **IsBlank( "Hallo" )** |Een tekenreeks die een of meer tekens bevat. |**false** |
 | **IsBlank( *AnyCollection* )** |Omdat de [verzameling](../working-with-data-sources.md#collections) bestaat, is hij niet leeg, zelfs al zou hij geen records bevatten. Gebruik in plaats daarvan **IsEmpty** om te controleren op een lege verzameling. |**false** |
-| **IsBlank( Mid( "Hallo", 17, 2 ) )** |Het eerste teken voor  **[Mid](function-left-mid-right.md)**  ligt voorbij het einde van de tekenreeks.  Het resultaat is een lege tekenreeks. |**true** |
+| **IsBlank( Mid( "Hallo", 17, 2 ) )** |Het eerste teken voor **[Mid](function-left-mid-right.md)** ligt voorbij het einde van de tekenreeks.  Het resultaat is een lege tekenreeks. |**true** |
 | **IsBlank( If( false, false ) )** |Een **[If](function-if.md)**-functie zonder *ElseResult*.  Omdat de voorwaarde altijd **false** is, retourneert deze **[If](function-if.md)** altijd *leeg*. |**true** |
 
 ### <a name="isempty"></a>IsEmpty

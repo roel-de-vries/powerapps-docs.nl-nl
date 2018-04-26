@@ -1,7 +1,6 @@
 ---
 title: Een volledig nieuwe app maken met een Common Data Service-database | Microsoft Docs
 description: Een app maken voor het toevoegen, bijwerken en verwijderen van records.
-services: powerapps
 documentationcenter: na
 author: AFTOwen
 manager: kfile
@@ -9,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: cb60ea139be12e51ea9faac7f61ca769d80c1af7
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a0aab890e52b49bb0cac382338a8fa02eec736a0
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="create-an-app-from-scratch-using-a-common-data-service-database"></a>Een volledig nieuwe app maken met een Common Data Service-database
 Een app bouwen voor het beheren van gegevens die zijn opgeslagen in de Common Data Service, met (ingebouwde) standaardentiteiten, (door uw organisatie gemaakte) aangepaste entiteiten, of beide.
@@ -41,7 +39,6 @@ Wanneer u een app bouwt op basis van de Common Data Service, hoeft u geen verbin
     U kunt een volledig nieuwe app ontwerpen voor telefoons of andere apparaten (zoals tablets). In dit onderwerp wordt de nadruk gelegd op het ontwerpen van een app voor telefoons.
 
 ## <a name="specify-an-entity"></a>Een entiteit opgeven
-
 1. Klik of tik in het midden van het scherm op **verbinding maken met gegevens** en klik of tik vervolgens in het deelvenster **Gegevens** op de verbinding **Common Data Service**.
 
 1. Typ of plak in het zoekvak de eerste letters van **Accounts** om de lijst met entiteiten te filteren, schakel het selectievakje **Accounts** in en klik of tik daarna op **Verbinding maken**.
@@ -122,7 +119,7 @@ Wanneer u een app bouwt op basis van de Common Data Service, hoeft u geen verbin
     ![Het pictogram Volgende](./media/data-platform-create-app-scratch/next-icon.png)
 
 1. Klik of tik in **FormScreen** op het pictogram Annuleren en stel de bijbehorende eigenschap **OnSelect** in op deze formule:<br>
-`ResetForm(EditForm1);Navigate(FormScreen, ScreenTransition.None)`
+`ResetForm(EditForm1);Navigate(BrowseScreen, ScreenTransition.None)`
 
     ![Pictogram Annuleren](./media/data-platform-create-app-scratch/cancel-icon.png)
 

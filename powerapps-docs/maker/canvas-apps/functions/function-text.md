@@ -1,25 +1,22 @@
 ---
 title: De functie Tekst | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis en voorbeelden, voor de functie Tekst in PowerApps
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 515afea5dee865400bb096c401b865a21e9d3b47
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a63a972e7af3c821d2441519c2a887bbe110faac
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="text-function-in-powerapps"></a>De functie Tekst in PowerApps
 Maakt een numerieke of datum/tijd-waarde op voor weergave als een teksttekenreeks.

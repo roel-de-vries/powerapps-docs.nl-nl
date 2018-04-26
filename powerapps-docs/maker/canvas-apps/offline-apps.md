@@ -1,25 +1,22 @@
 ---
 title: Apps ontwikkelen die geschikt zijn voor offlinegebruik | Microsoft Docs
 description: Bouw apps die geschikt zijn voor offlinegebruik, zodat uw gebruikers altijd productief kunnen zijn, online en offline.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: mgblythe
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 05/09/2017
 ms.author: mblythe
-ms.openlocfilehash: 20ca1804df900256b6819bc3e062d61a005a38de
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e73324d6cfce5edf7ece0350b2047dc7842373bb
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="develop-offline-capable-apps-with-powerapps"></a>Apps ontwikkelen die geschikt zijn voor offlinegebruik met PowerApps
 Een van de meest voorkomende scenario's waarmee u als ontwikkelaar van mobiele apps te maken hebt, is uw gebruikers productief te laten zijn wanneer er beperkte of helemaal geen connectiviteit is. PowerApps heeft een reeks functies en gedragingen waarmee u apps kunt ontwikkelen die geschikt zijn voor offlinegebruik. U kunt:

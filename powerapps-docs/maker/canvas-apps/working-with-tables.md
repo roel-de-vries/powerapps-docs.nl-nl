@@ -1,25 +1,22 @@
 ---
 title: Over tabellen | Microsoft Docs
 description: Naslaginformatie voor het werken met tabellen, kolommen en records
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 794263448bc067ef8bf44ae46480865c56fdbdf8
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 42a7c0db6aaf46d8cdbd112cf72c6f95f58dc9ec
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-tables-and-records-in-powerapps"></a>Over tabellen en records in PowerApps
 U kunt een app maken die toegang heeft tot informatie in Microsoft Excel, SharePoint, SQL Server en enkele andere bronnen die gegevens opslaan in records en tabellen. Om zo efficiënt mogelijk met dit soort gegevens te werken, moet u de concepten doornemen die ten grondslag liggen aan deze structuren.
@@ -237,7 +234,7 @@ Houd er rekening mee dat we in het bovenstaande voorbeeld op sommige plekken dub
 ### <a name="disambiguation"></a>Ondubbelzinnigheid
 Veldnamen waarbij het recordbereik is toegevoegd, overschrijven dezelfde namen elders in de app.  Als dit gebeurt, kunt u nog steeds toegang krijgen tot waarden buiten het recordbereik met de operator voor ondubbelzinnigheid [**@**](functions/operators.md):
 
-* Als u toegang wilt krijgen tot waarden van geneste recordbereiken, gebruikt u de operator **@** met de naam van de tabel die wordt bewerkt met behulp van het patroon ***Tabel*[@*Veldnaam*]**.  
+* Als u toegang wilt krijgen tot waarden van geneste recordbereiken, gebruikt u de operator **@** met de naam van de tabel die wordt bewerkt met behulp van het patroon ***Tabel *[@* Veldnaam*]**.  
 * Als u toegang wilt krijgen tot globale waarden, zoals gegevensbronnen, verzamelingen en contextvariabelen, gebruikt u het patroon **[@*Objectnaam*]** (zonder een tabelaanduiding).
 
 Als de tabel die wordt bewerkt een expressie is, zoals een **Filter( *tabel*, ... )**, kan de operator voor ondubbelzinnigheid niet worden gebruikt.  Alleen het binnenste recordbereik kan velden openen vanuit deze tabelexpressie door de operator voor ondubbelzinnigheid niet te gebruiken.

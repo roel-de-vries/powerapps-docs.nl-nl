@@ -1,25 +1,22 @@
 ---
 title: Een scherm toevoegen en tussen schermen navigeren | Microsoft Docs
 description: Een scherm toevoegen aan een app en de pijlen Vorige en Volgende gebruiken om in PowerApps tussen schermen te navigeren
-services: ''
-suite: powerapps
 documentationcenter: na
-author: skjerland
-manager: anneta
+author: aftowen
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 07/10/2017
-ms.author: sharik
-ms.openlocfilehash: 64c38e561be90cbebabe17f73377e4d754d99c54
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.author: anneta
+ms.openlocfilehash: 19c06fa9bfc7098227e5f30a1c913522d9e6e7a3
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="add-a-screen-and-navigate-between-screens"></a>Een scherm toevoegen en tussen schermen navigeren
 Maak een app met meerdere schermen en voeg manieren toe waarop gebruikers ertussen kunnen navigeren.

@@ -1,24 +1,21 @@
 ---
 title: Grafieken maken | Microsoft Docs
 description: Gegevenscategorieën weergeven als lijn-, cirkel- of staafdiagram weergeven
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: lonu
-manager: anneta
+manager: kfile
 editor: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 10/23/2016
 ms.author: lonu
-ms.openlocfilehash: 727d19973056a9c738bd0087f99a36889ab50421
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9a4daa7135f54ed3a0b3e1f206ce0d201c42da8b
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="show-data-in-a-line-pie-or-bar-chart-in-powerapps"></a>Gegevens in PowerApps weergeven in een lijn-, cirkel- of staafdiagram
 Gebruik lijn-, cirkel- en staafdiagrammen om uw gegevens weer te geven. Als u werkt met diagrammen, moet u de gegevens die u importeert als volgt indelen:

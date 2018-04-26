@@ -1,25 +1,22 @@
 ---
 title: Zelfstudie voor het maken van een aangepaste entiteit voorzien van componenten met PowerApps | Microsoft Docs
 description: Zelfstudie met stapsgewijze instructies voor het maken en configureren van een entiteit voor gebruik met een PowerApps-app.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: Mattp123
-manager: bycho
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: cds
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 3fd8b262849fb1f6bf2a7ff70d9d9af8b082efac
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 685a275f496c631e6c784bde4e8b2b245507388f
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="tutorial-create-a-custom-entity-that-has-components-in-powerapps"></a>Zelfstudie: Een aangepaste entiteit met componenten in PowerApps maken
 
@@ -80,7 +77,7 @@ Meld u aan bij [PowerApps](https://powerapps.microsoft.com/). Als u nog geen [!I
 
 6. Selecteer **Doorzoekbaar** en selecteer vervolgens **Gereed**.
 
-7. Selecteer in de werkbalk van de entiteitsdesigner het veld **Toevoegen**. Geef in het deelvenster **Veldeigenschappen** de volgende waarden op of selecteer deze, en selecteer daarna **Gereed**.
+7. Selecteer in de werkbalk van de entiteitsdesigner het veld **Toevoegen**. Geef in het deelvenster **Veldeigenschappen** de volgende waarden op of selecteer deze en selecteer daarna **Gereed**.
   - **Weergavenaam**. *Ras*
   - **Gegevenstype**. *Tekst*
   - **Doorzoekbaar**. *Ja*

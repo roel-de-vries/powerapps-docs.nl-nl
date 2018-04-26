@@ -1,8 +1,6 @@
 ---
 title: Problemen met Power Query oplossen | Microsoft Docs
 description: Problemen oplossen met Power Query om een aangepaste entiteit in Common Data Service for Apps te maken
-services: ''
-suite: powerapps
 documentationcenter: na
 author: mllopis
 manager: kfile
@@ -10,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: cds
 ms.date: 08/18/2017
 ms.author: millopis
-ms.openlocfilehash: dafed76565a4bd3fb3e2822319d344f49376b4fc
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: aa6e54c635db195a254e0f406205d53775f59cd5
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="troubleshooting-power-query"></a>Problemen met Power Query oplossen
 Als u Power Query gebruikt om een aangepaste entiteit te maken die gegevens uit externe bronnen bevat, kan deze fout worden weergegeven:

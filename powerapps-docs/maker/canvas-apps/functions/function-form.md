@@ -1,25 +1,22 @@
 ---
 title: De functies EditForm, NewForm, SubmitForm, ResetForm en ViewForm| Microsoft Docs
 description: Referentie-informatie, inclusief syntaxis en voorbeelden, voor de functies EditForm, NewForm, SubmitForm, ResetForm en ViewForm in PowerApps
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 7e64426cfee2b72cd8fda51b889b99b285147fcc
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 6a32068d0de49ea0a6cf752fde0fd486159f39e9
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="editform-newform-submitform-resetform-and-viewform-functions-in-powerapps"></a>De functies EditForm, NewForm, SubmitForm, ResetForm en ViewForm in PowerApps
 Hiermee kunt u een item bekijken, bewerken of maken, de inhoud opslaan en de besturingselementen opnieuw instellen in een besturingselement **[Formulier bewerken](../controls/control-form-detail.md)**.

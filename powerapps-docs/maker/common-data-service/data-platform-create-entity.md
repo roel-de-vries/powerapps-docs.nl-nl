@@ -1,7 +1,6 @@
 ---
 title: Snelstartgids voor het maken van een aangepaste entiteit | Microsoft Docs
 description: Snelstartgids voor het maken van een aangepaste entiteit op basis van een andere entiteit of een volledig nieuwe entiteit maken.
-services: powerapps
 documentationcenter: na
 author: clwesene
 manager: kfile
@@ -9,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: cds
 ms.date: 3/21/2018
 ms.author: clwesene
-ms.openlocfilehash: e22a18bacb258ca46c8f36d647f9ebcc45282929
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: 2232083de556bafcc978423dafb0e98e564aaa3b
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="quickstart-create-a-custom-entity"></a>Snelstartgids: Een aangepaste entiteit maken
 U kunt een aangepaste entiteit maken om gegevens op te slaan die specifiek zijn voor uw organisatie. Vervolgens kunt u die gegevens weergeven door een app te ontwikkelen die naar de entiteit verwijst. Nadat u een entiteit hebt gemaakt, kunt u [een of meer velden maken of wijzigen](data-platform-manage-fields.md) en [relaties tussen entiteiten maken](data-platform-entity-lookup.md).

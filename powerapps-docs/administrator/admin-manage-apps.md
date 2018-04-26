@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: 307951163c4291ff29d8fe0bdec9237e0bbbe0e4
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: ccecf87da6ea93cf9764cce7fd9449e1e5c75934
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="manage-apps-created-in-your-organization"></a>De apps beheren die in uw organisatie zijn gemaakt
 Als u een omgevingsbeheerder, globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory bent, kunt u de apps beheren die in uw organisatie zijn gemaakt.
@@ -34,7 +34,7 @@ Beheerders kunnen in het PowerApps-beheercentrum het volgende doen:
 * Machtigingen voor omgevingsbeheerder van PowerApps, globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory. Zie [Omgevingen beheren in PowerApps](environments-administration.md) voor meer informatie.
 
 ## <a name="manage-an-app"></a>Een app beheren
-1. Meld u aan bij het beheercentrum op [https://admin.powerapps.com]([https://admin.powerapps.com).
+1. Meld u aan bij het beheercentrum op [https://admin.powerapps.com](https://admin.powerapps.com).
 2. Tik of klik in het navigatiedeelvenster op **Omgevingen** en klik of tik op de omgeving met de app die u wilt beheren.
 
     Als u geen **omgevingen** ziet in het navigatievenster wijst dat er op dat u geen PowerApps-abonnement 2, Microsoft Flow-abonnement 2 of PowerApps-abonnement 2 proeflicentie hebt.

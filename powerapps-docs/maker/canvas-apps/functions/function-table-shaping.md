@@ -1,25 +1,22 @@
 ---
 title: Functies AddColumns, DropColumns RenameColumns en ShowColumns | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis en voorbeelden, voor de functies AddColumns, DropColumns, RenameColumns en ShowColumns in PowerApps
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 0b7fe4d8e0b9129be126985bbb49cc5ffecbcd44
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 4ed3bae7b4b8fc10053a1a2fec49e7116ec4d4e4
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="addcolumns-dropcolumns-renamecolumns-and-showcolumns-functions-in-powerapps"></a>De functies AddColumns, DropColumns RenameColumns en ShowColumns in PowerApps
 Hiermee geeft u een [tabel](../working-with-tables.md) vorm door [kolommen](../working-with-tables.md#columns) op te nemen, uit te sluiten, te selecteren of door de naam ervan te wijzigen.

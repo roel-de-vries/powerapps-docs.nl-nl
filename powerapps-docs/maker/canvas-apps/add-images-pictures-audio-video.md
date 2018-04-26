@@ -1,24 +1,21 @@
 ---
 title: Multimediabestanden insluiten in een app en uploaden | Microsoft Docs
 description: Multimediabestanden weergeven in een app en ze uploaden naar een gegevensbron
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: karthik-1
-manager: anneta
+manager: kfile
 editor: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 07/12/2017
 ms.author: sharik
-ms.openlocfilehash: 75ec8131a4e9a4be796f06669d8d25ff559eaf69
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 7ee752f5606f10f66ad7c8dc49e05233225c0a89
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>Multimediabestanden gebruiken in PowerApps
 In dit onderwerp wordt beschreven hoe u multimediabestanden insluit in uw app, hoe u pentekeningen uploadt naar een gegevensbron en hoe u afbeeldingen van een gegevensbron weergeeft in uw app. De gegevensbron die in dit onderwerp wordt gebruikt is een Excel-bestand in OneDrive voor Bedrijven.

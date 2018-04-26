@@ -1,25 +1,22 @@
 ---
 title: Wat zijn formulieren? | Microsoft Docs
 description: Gebruik formulieren voor het verzamelen en weergeven van informatie van een gegevensbron.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/27/2016
 ms.author: gregli
-ms.openlocfilehash: 983eec5b3a6aa0f90ffe3f8460646bb92955e424
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: c0e0595fc3e3025ca345e1415fbd3da99f090063
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-data-forms-in-microsoft-powerapps"></a>Gegevensformulieren begrijpen in Microsoft PowerApps
 Voer drie typen besturingselementen toe zodat de gebruiker naar een record kan bladeren, details over deze record kan weergeven, en een record kan bewerken of maken:
@@ -212,7 +209,7 @@ Ten slotte moet we het besturingselement **[Formulier weergeven](controls/contro
 
 Geweldig!  We gaan nu naar navigatie: hoe een gebruiker het detailscherm vanaf het galeriescherm opent en andersom.
 
-* Voeg een **[knop](controls/control-button.md)**besturingselement toe aan het scherm, stel de eigenschap **[Tekst](controls/properties-core.md)** in op de weergave van **[Terug](functions/function-navigate.md)** en stel de bijbehorende eigenschap **[OnSelect](controls/properties-core.md)** in op **Terug()**.
+* Voeg een **[knop](controls/control-button.md)** besturingselement toe aan het scherm, stel de eigenschap **[Tekst](controls/properties-core.md)** in op de weergave van **[Terug](functions/function-navigate.md)** en stel de bijbehorende eigenschap **[OnSelect](controls/properties-core.md)** in op **Terug()**.
    
     Met deze formule gaat de gebruiker terug naar de galerie wanneer hij de details heeft bekeken.
 
@@ -252,14 +249,14 @@ Deze twee eigenschappen zijn dezelfde als de eigenschappen op het besturingselem
 
 Het besturingselement **[Formulier bewerken](controls/control-form-detail.md)** gaat verder door de mogelijkheid voor de functie **[SubmitForm](functions/function-form.md)** om wijzigingen terug te schrijven naar de gegevensbron. U gebruikt dit met een knop- of afbeeldingsbesturingselement voor het opslaan van wijzigingen van een gebruiker.
 
-* Voeg een **[knop](controls/control-button.md)**besturingselement toe, stel de eigenschap **[Tekst](controls/properties-core.md)** in op de weergave van **Opslaan** en stel de bijbehorende eigenschap **[OnSelect](controls/properties-core.md)** in op deze formule:<br>
+* Voeg een **[knop](controls/control-button.md)** besturingselement toe, stel de eigenschap **[Tekst](controls/properties-core.md)** in op de weergave van **Opslaan** en stel de bijbehorende eigenschap **[OnSelect](controls/properties-core.md)** in op deze formule:<br>
   **SubmitForm (Form1)**
 
 ![Formulier bewerken voor gegevensbron Ice Cream](./media/working-with-forms/edit-icecream-save.png)
 
 Navigatie toevoegen naar en vanaf dit scherm:
 
-1. Voeg nog een **[knop](controls/control-button.md)**besturingselement toe, stel de eigenschap **[Tekst](controls/properties-core.md)** in op de weergave van **Annuleren** en stel de bijbehorende eigenschap **[OnSelect](controls/properties-core.md)** in op deze formule: <br>**ResetForm (Form1 ); Terug()**
+1. Voeg nog een **[knop](controls/control-button.md)** besturingselement toe, stel de eigenschap **[Tekst](controls/properties-core.md)** in op de weergave van **Annuleren** en stel de bijbehorende eigenschap **[OnSelect](controls/properties-core.md)** in op deze formule: <br>**ResetForm (Form1 ); Terug()**
    
     Met deze formule worden alle niet-opgeslagen wijzigingen geannuleerd en opent u het vorige scherm.
    

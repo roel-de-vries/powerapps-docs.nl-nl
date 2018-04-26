@@ -1,25 +1,22 @@
 ---
 title: Gegevenskaarten begrijpen | Microsoft Docs
 description: Gebruik deze formulierkaarten voor het verzamelen en weergeven van informatie van een gegevensbron.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 64a7132151ea9df7071c21427d2554bd12bb026c
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 074e40dd2fc19279bef36ac91196c61b050abda3
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-data-cards"></a>Gegevenskaarten begrijpen
 Besturingselementen van **[kaarten](controls/control-card.md)** zijn de bouwstenen van de besturingselementen voor de formulieren **[Bewerken](controls/control-form-detail.md)** en  **[Weergeven](controls/control-form-detail.md)**. Het formulier vertegenwoordigt de volledige record en elke kaart één veld van dat record.

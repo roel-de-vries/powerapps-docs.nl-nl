@@ -1,25 +1,22 @@
 ---
 title: Een regel maken | Microsoft Docs
 description: Stapsgewijze instructies voor het ontwikkelen van app-logica door regels te maken
-services: ''
-suite: PowerApps
 documentationcenter: na
 author: karthik-1
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 11/10/2017
 ms.author: sharik
-ms.openlocfilehash: 30c069a65d19b965ee5c66411ca08723a6f510ae
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: f8578625ea3661a9070bddcc5b2ff63c6ecde4fd
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="create-a-rule-in-powerapps"></a>Een regel maken in PowerApps
 Maak regels om een app automatisch te wijzigen op basis van criteria die u opgeeft. U kunt bijvoorbeeld lijstitems in rood, geel of groen weergeven op basis van hun status, of een goedkeuringsknop alleen weergeven voor bepaalde gebruikers (zoals managers).

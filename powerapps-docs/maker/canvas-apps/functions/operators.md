@@ -1,25 +1,22 @@
 ---
 title: Operators | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis en voorbeelden, voor de operators in PowerApps
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: 3250251e02170d2dd7bab441bc3c94705216ec00
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9dce0ac36cd16faaa9c8b9a0b34d15eff086ab2e
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="operators-and-data-types-in-powerapps"></a>Operators en gegevenstypen in PowerApps
 Sommige van deze operators zijn afhankelijk van de taal van de auteur.  Zie [Global apps](../global-apps.md) voor meer informatie.
@@ -86,7 +83,7 @@ Bij de besturingselementen op dit scherm is er nog een andere optie. Zij kunnen 
 ## <a name="disambiguation-operator"></a>Ondubbelzinnigheidsoperator
 Sommige functies maken [recordbereiken](../working-with-tables.md#record-scope) voor toegang tot de velden van een tabel tijdens het verwerken van elke record, zoals **Filter**, **AddColumns** en **Sum**.  Veldnamen waarbij het recordbereik is toegevoegd, overschrijven dezelfde namen elders in de app.  Als dit gebeurt, kunt u nog steeds toegang krijgen tot waarden buiten het recordbereik met de operator voor ondubbelzinnigheid **@**:
 
-* Als u toegang wilt krijgen tot waarden van geneste recordbereiken, gebruikt u de operator **@** met de naam van de tabel die wordt bewerkt met behulp van het patroon ***Tabel*[@*Veldnaam*]**.  
+* Als u toegang wilt krijgen tot waarden van geneste recordbereiken, gebruikt u de operator **@** met de naam van de tabel die wordt bewerkt met behulp van het patroon ***Tabel *[@* Veldnaam*]**.  
 * Als u toegang wilt krijgen tot globale waarden, zoals gegevensbronnen, verzamelingen en contextvariabelen, gebruikt u het patroon **[@*Objectnaam*]** (zonder een tabelaanduiding).
 
 Zie het gesprek over [recordbereik](../working-with-tables.md#record-scope) voor meer informatie en voorbeelden.

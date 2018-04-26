@@ -1,25 +1,22 @@
 ---
 title: Functie UpdateContext | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis en voorbeelden, voor de functie UpdateContext in PowerApps
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 11/08/2015
 ms.author: gregli
-ms.openlocfilehash: bcade879bfad04a50f80c26638f994897d9b42c0
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a784251899e7c51ef8213b6d6f31c2830b08e2dc
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="updatecontext-function-in-powerapps"></a>De functie UpdateContext in PowerApps
 Maakt [contextvariabelen](../working-with-variables.md#create-a-context-variable) voor het huidige scherm of werkt ze bij.
@@ -38,7 +35,7 @@ Als u een contextvariabele wilt maken of bijwerken, geeft u één [record](../wo
 * Als u de naam opgeeft van een variabele die nog niet bestaat, maakt **UpdateContext** een variabele met die naam en stelt de waarde van die variabele in op de opgegeven waarde.
 * Als u eerder een variabele hebt gedefinieerd, maar deze variabele niet opgeeft in deze **UpdateContext**-formule, blijft de waarde ervan ongewijzigd.
 
-Contextvariabelen worden impliciet gemaakt met behulp van de functie **UpdateContext** of [**Navigate**](function-navigate.md).  Er is geen expliciete declaratie vereist.  Als u alle **UpdateContext-** en **Navigate-**verwijzingen naar een contextvariabele verwijdert, bestaat die contextvariabele niet meer.  Om een variabele te wissen, stelt u de waarde ervan in op het resultaat van de functie [**Blank**](function-isblank-isempty.md).
+Contextvariabelen worden impliciet gemaakt met behulp van de functie **UpdateContext** of [**Navigate**](function-navigate.md).  Er is geen expliciete declaratie vereist.  Als u alle **UpdateContext-** en **Navigate-** verwijzingen naar een contextvariabele verwijdert, bestaat die contextvariabele niet meer.  Om een variabele te wissen, stelt u de waarde ervan in op het resultaat van de functie [**Blank**](function-isblank-isempty.md).
 
 U ziet de waarden, definities en het gebruik van uw variabelen met de weergave Variabelen onder het menu Bestand in de ontwerpomgeving.
 

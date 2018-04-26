@@ -1,24 +1,21 @@
 ---
 title: Tekst weergeven en de datum- of tijdnotatie instellen | Microsoft Docs
 description: Datums en tijden toevoegen en instellen met PowerApps
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: AFTOwen
-manager: anneta
+manager: kfile
 editor: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 10/16/2016
 ms.author: anneta
-ms.openlocfilehash: 98bd76540e4e4d167535bd66ff556ef343ef7ef6
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 71f527486b16db6344340c14672ede9cdaeb09ab
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="show-text-and-format-dates-and-times-in-powerapps"></a>Tekst weergeven en de datum- en tijdnotatie instellen in PowerApps
 Voeg datums en tijden toe en pas de notatie aan aan het gewenste detailniveau of uw taalgebied. Bereken de tijd tussen twee datums of geef een bepaalde datum op en bereken wat de datum een bepaalde periode voor of na die datum is. Converteer datums van of naar afzonderlijke waarden voor dagen, maanden en jaren en converteer tijden van of naar afzonderlijke waarden voor uren, minuten en seconden.

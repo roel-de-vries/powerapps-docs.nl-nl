@@ -1,25 +1,22 @@
 ---
 title: Functies Trim en TrimEnds | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis en voorbeelden, voor de functies Trim en TrimEnds in PowerApps
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 09/09/2016
 ms.author: gregli
-ms.openlocfilehash: 7dc9372071b905cf2b95f7355864276d8f344d9c
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 38aa25c46bf8b29c413ca9c3df92f9528bfa97d5
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="trim-and-trimends-functions-in-powerapps"></a>De functies Trim en TrimEnds in PowerApps
 Hiermee verwijdert u extra spaties uit een tekenreeks.
@@ -61,5 +58,5 @@ U maakt deze verzameling door de eigenschap **OnSelect** van een besturingseleme
 | **TrimEnds(&nbsp;Spaties&nbsp;)** |Verwijdert alle spaties aan het begin en einde van elke tekenreeks in de verzameling **Spaties**. |<style> img { max-width: none } </style> ![](media/function-trim/output-trimends.png) |
 
 > [!NOTE]
-> Extra spaties worden niet weergegeven als u een verzameling weergeeft door te klikken of tikken op **Verzamelingen** in het menu **Bestand**. Als u de lengte van de tekenreeks wilt controleren, gebruikt u de functie  **[Len](function-len.md)** .
+> Extra spaties worden niet weergegeven als u een verzameling weergeeft door te klikken of tikken op **Verzamelingen** in het menu **Bestand**. Als u de lengte van de tekenreeks wilt controleren, gebruikt u de functie **[Len](function-len.md)**.
 

@@ -1,8 +1,6 @@
 ---
 title: Een kaart aanpassen | Microsoft Docs
 description: Het standaardbesturingselement wijzigen dat wordt weergegeven in een kaart op een Details- of Bewerken-formulier in PowerApps
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: AFTOwen
 manager: kfile
@@ -10,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 0a46aeaf5e37a4c461daae65a01a00c38ed53414
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: aa9d5785f1c005da7c22c63bd94cb41e1a643ad3
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="customize-a-card-in-powerapps"></a>Een kaart aanpassen in PowerApps
 Basisaanpassingen uitvoeren (zonder een kaart te ontgrendelen) door bijvoorbeeld het besturingselement te wijzigen. Geavanceerde aanpassingen uitvoeren door de kaart te ontgrendelen en bijvoorbeeld een besturingselement toe te voegen dat niet standaard beschikbaar is voor die kaart.

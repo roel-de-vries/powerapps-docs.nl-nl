@@ -1,24 +1,21 @@
 ---
 title: Start een stroom in een app | Microsoft Docs
 description: Maak een stroom die een of meer taken uitvoert wanneer een gebeurtenis plaatsvindt in een app, zoals wanneer een gebruiker een knop selecteert.
-services: ''
-suite: powerapps
 documentationcenter: ''
 author: stepsic-microsoft-com
-manager: anneta
+manager: kfile
 editor: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 06/05/2017
 ms.author: sharik
-ms.openlocfilehash: 378394fe0c42d0418a62974c26b217ab473d40ed
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: bf9cbe451cc9ac5fa0ef98ba3e32963e240c0b5e
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="start-a-flow-in-an-app"></a>Start een stroom in een app
 U kunt Microsoft Flow gebruiken om logica te maken die een of meer taken uitvoert wanneer er een gebeurtenis optreedt in een app. U kunt bijvoorbeeld een knop zo configureren dat, wanneer een gebruiker deze selecteert, er een item wordt gemaakt in een SharePoint-lijst, een e-mailbericht of vergaderverzoek wordt verzonden, een bestand wordt toegevoegd aan de cloud of zelfs al deze dingen. U kunt elk besturingselement in de app configureren om de stroom te starten, die zelfs blijft lopen als u PowerApps sluit.

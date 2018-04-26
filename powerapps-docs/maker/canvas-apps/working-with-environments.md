@@ -1,25 +1,22 @@
 ---
 title: Werken met omgevingen | Microsoft Docs
 description: Schakelen tussen omgevingen en begrijpen hoe de inhoud op de pagina's verandert.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: linhtranms
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 10/14/2016
 ms.author: litran
-ms.openlocfilehash: 09fdc09e305a0de9cdbc1f7d936db444dbeda321
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: fa1dcd264e99a2bea333d7b6aa0bbf2e04cd47e9
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="working-with-environments-and-microsoft-powerapps"></a>Werken met omgevingen en Microsoft PowerApps
 U kunt met PowerApps in verschillende omgevingen werken en eenvoudig schakelen tussen omgevingen. Zie [Overzicht van omgevingen](../../administrator/environments-overview.md) voor een overzicht van omgevingen. Daarin wordt in detail uitgelegd waarom u omgevingen gebruikt en hoe u omgevingen kunt maken en beheren. In dit artikel komen de volgende onderwerpen over omgevingen aan bod:
