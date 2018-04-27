@@ -35,14 +35,18 @@
       items:
         - name: Een gegenereerde app aanpassen
           items:
-            - name: Een bladerscherm aanpassen
+            - name: '1: Galerieën'
               href: ./canvas-apps/customize-layout-sharepoint.md
-            - name: Een formulier aanpassen
+            - name: '2: Formulieren'
               href: ./canvas-apps/customize-forms-sharepoint.md
-            - name: Een kaart aanpassen
+            - name: '3: Kaarten'
               href: ./canvas-apps/customize-card.md
         - name: Een volledig nieuwe app maken
-          href: ./canvas-apps/data-platform-create-app-scratch.md
+          items:
+            - name: Common Data Service for Apps
+              href: ./canvas-apps/data-platform-create-app-scratch.md
+            - name: Excel
+              href: ./canvas-apps/get-started-create-from-blank.md
         - name: Een app delen
           href: ./canvas-apps/share-app.md
         - name: Een app insluiten in Power BI
@@ -95,8 +99,6 @@
       items:
         - name: Een SharePoint-lijstformulier aanpassen
           href: ./canvas-apps/customize-list-form.md
-        - name: Een volledig nieuwe Excel-app bouwen
-          href: ./canvas-apps/get-started-create-from-blank.md
         - name: Een app aanpassen
           items:
             - name: Een besturingselement toevoegen en configureren
@@ -131,6 +133,9 @@
               href: ./canvas-apps/global-apps.md
             - name: Een toegankelijke app maken
               href: ./canvas-apps/accessible-apps.md
+              items:
+                - name: Kleur
+                  href: ./canvas-apps/accessible-apps-color.md
         - name: Uw app beheren
           items:
             - name: Inleiding tot powerapps.com
