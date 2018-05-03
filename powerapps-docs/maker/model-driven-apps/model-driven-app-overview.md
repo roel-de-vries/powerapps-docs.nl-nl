@@ -12,20 +12,17 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 1b9ee344192d84933d25a3208d2feb0873a298c1
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 76571a53c95661d853b7fb326e3c1087a6f432c4
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="overview-of-building-a-model-driven-app"></a>Overzicht van het bouwen van een modelgestuurde app
 
 Het ontwerp van modelgestuurde apps is een componentgerichte methode voor het ontwikkelen van apps. Het ontwerp van modelgestuurde apps vereist geen code en de apps die u maakt, kunnen eenvoudig of zeer complex zijn.  In tegenstelling tot ontwikkeling van canvas-apps waar de ontwerper volledige controle over de app-indeling heeft, wordt met modelgestuurde apps een groot deel van de lay-out voor u bepaald en grotendeels bepaald door de onderdelen die u aan de app toevoegt. 
 
 ![Voorbeeld van modelgestuurde app](media/model-driven-app-overview/model-app-sample.png)
-
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
 
 Het ontwerp van modelgestuurde apps biedt de volgende voordelen:
 - Rijke componentgerichte omgevingen voor ontwerpen zonder code 
