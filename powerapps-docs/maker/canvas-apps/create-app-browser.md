@@ -12,18 +12,18 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/08/2018
 ms.author: anneta
-ms.openlocfilehash: 4c8b100e4993921c651590c80eda4297345cdd40
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 4add1e15c1a85b27b83295422dbb6472ac02ad9f
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-edit-apps-in-powerapps-studio-for-web"></a>Apps maken of bewerken in PowerApps Studio voor internet
 Maak en bewerk apps in PowerApps Studio voor internet, dat in een browser wordt geopend op Windows of andere platforms.
 
 ## <a name="prerequisites"></a>Vereisten
 * [Meld u aan](../signup-for-powerapps.md) voor PowerApps.
-* Zorg ervoor dat u een [ondersteunde browser](limits-and-config.md#supported-browsers-for-powerapps-studio-for-web) gebruikt.
+* Zorg ervoor dat u een [ondersteunde browser](limits-and-config.md#supported-browsers-for-powerapps-studio) gebruikt.
 
 ## <a name="open-powerapps-studio-for-web"></a>PowerApps Studio voor internet openen
 1. Meld u aan bij [powerapps.com](http://go.microsoft.com/fwlink/p/?LinkId=708209).

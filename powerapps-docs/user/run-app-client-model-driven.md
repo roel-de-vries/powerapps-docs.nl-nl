@@ -15,18 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 73b8aca29af2e9ee5fa117a7e7b79a8d3dbaca9f
-ms.sourcegitcommit: a9ac8a3ed734cb5f70b61476168d1bff5de844f8
+ms.openlocfilehash: a538eb1b6046c4cfd27e969613b44574cec8ff7e
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="quickstart-run-a-model-driven-app-on-a-mobile-device"></a>Snelstartgids: een modelgestuurde app uitvoeren op een mobiel apparaat
 
 Wanneer de app is gemaakt en met u is gedeeld, kunt u deze app uitvoeren op verschillende populaire mobiele apparaten, zoals apparaten met Windows, iOS of Android, of in een webbrowser. In deze snelstartgids leert u hoe u een modelgestuurde app kunt uitvoeren op een mobiel apparaat. 
-
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
 Om van deze snelstartgids gebruik te kunnen maken, moet u zijn geregistreerd voor PowerApps. U kunt zich hier [gratis voor registreren](https://web.powerapps.com/signup?redirect=marketing&email=). Zorg er ook voor dat u toegang hebt tot een app die u hebt gemaakt of die iemand anders heeft gemaakt en die met u is gedeeld.
 

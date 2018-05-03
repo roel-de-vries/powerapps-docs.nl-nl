@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 6f9ef24f4ab6f0009c7020008e299f09ecb0762e
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: fca166ef388921e08bf71149a8b1274a31a7dc52
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-an-app-to-manage-projects"></a>Een app maken om projecten te beheren
 > [!NOTE]
@@ -28,8 +28,6 @@ In deze taak gaan we een volledig nieuwe app bouwen. Met deze app kan een gebrui
 > Het [downloadpakket](https://aka.ms/o4ia0f) voor dit scenario omvat een voltooide versie van deze app: project-details-app.msapp.
 
 ## <a name="quick-review-of-powerapps-studio"></a>Kort overzicht van PowerApps Studio
-In de laatste taak hebt u PowerApps Studio voor internet gebruikt, maar voor we verdergaan moet u eerst een goede indruk hebben van alle onderdelen. U kunt doorgaan met werken in PowerApps Studio voor internet, maar u kunt ook [PowerApps Studio voor Windows](https://aka.ms/powerappswin) gebruiken.
-
 PowerApps Studio heeft drie deelvensters en een lint waardoor het maken van apps lijkt op het maken van een PowerPoint-presentatie:
 
 1. Linkernavigatiebalk, met een hiërarchische weergave van alle schermen en besturingselementen van de app, evenals de miniaturen op de schermen
