@@ -14,11 +14,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 68ce23ae4b4a961a69cc60173b4f98ec18f05dd2
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: c32be4dd25da1c2267043b061102b2714a109cc5
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="create-a-common-data-service-database"></a>Een Common Data Service-database maken
 U kunt een database maken en apps bouwen door Common Data Service als een gegevensarchief te gebruiken. U kunt uw eigen aangepaste entiteiten maken of de vooraf gedefinieerde entiteiten gebruiken. Als u een database wilt maken, moet u eerst een omgeving maken of als **omgevingsbeheerder** aan een bestaande omgeving worden toegewezen. Daarnaast moet u aan de juiste licentie zijn toegewezen. Zie [Prijzen](pricing-billing-skus.md) voor informatie over het aanschaffen van een abonnement voor het gebruik van Common Data Service.
@@ -52,6 +52,8 @@ Er zijn diverse manieren om een database te maken:
 
     ![](./media/create-database/Create-DB-From-Entities.png)
 
+> [!NOTE]
+> Op dit moment is het niet mogelijk een database buiten uw Azure AD-regio te maken. Het wordt binnenkort mogelijk om een database in een andere regio dan uw eigen Azure AD-thuisregio te maken, maar op dit moment dient u een database in een omgeving met dezelfde regio als uw Azure AD-thuisregio te maken.
 
 ## <a name="security-model-for-the-databases"></a>Beveiligingsmodel voor de databases
 Wanneer een database wordt gemaakt, behouden de gebruikers aan wie de omgevingsrollen zijn toegewezen de bevoegdheden voor deze rollen.  

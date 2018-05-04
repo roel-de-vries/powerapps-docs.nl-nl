@@ -1,27 +1,24 @@
 ---
 title: Een streepjescode scannen | Microsoft Docs
 description: Verschillende typen streepjescodes scannen, zoals UPC en Codabar
-services: ''
-suite: powerapps
 documentationcenter: na
 author: aftowen
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 10/23/2016
 ms.author: anneta
-ms.openlocfilehash: 078c53300c4e1489d179f9c91818a8e23616f3ae
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: d8f41cc03f0cfac88ef356966c7d07b6cf088cda
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="scan-a-barcode-in-microsoft-powerapps"></a>Een streepjescode scannen in Microsoft PowerApps
+# <a name="scan-a-barcode-in-powerapps"></a>Een streepjescode scannen in PowerApps
 U kunt verschillende soorten streepjescodes scannen door een app te maken en deze uit te voeren op een apparaat dat is uitgerust met een camera, bijvoorbeeld een telefoon. Het numerieke equivalent van de streepjescode wordt weergegeven in een besturingselement **Label** en u kunt deze gegevens uploaden naar diverse [gegevensbronnen](connections-list.md).
 
 Zie [Aan de slag](getting-started.md) als u onbekend bent met PowerApps.

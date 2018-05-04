@@ -1,8 +1,6 @@
 ---
 title: Wat is er nieuw in PowerApps? | Microsoft Docs
 description: Updates voor PowerApps, onderverdeeld op basis van de releasedatum
-services: powerapps
-suite: powerapps
 documentationcenter: na
 author: skjerland
 manager: kfile
@@ -10,16 +8,15 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.date: 04/09/2018
+ms.topic: conceptual
+ms.component: canvas
+ms.date: 04/23/2018
 ms.author: sharik
-ms.openlocfilehash: 92438c37b870ace2ed5b2ec086cf6c5fb1548fdc
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: 00b80bd5b9e0953366dd58d6e3b3266ffe7956bd
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="whats-new-in-powerapps"></a>Wat is er nieuw in PowerApps?
 Zie [Veelvoorkomende problemen en oplossingen](common-issues-and-resolutions.md) voor meer informatie over bekende beperkingen.
@@ -33,6 +30,9 @@ Zie [Veelvoorkomende problemen en oplossingen](common-issues-and-resolutions.md)
 Ontdek de meest recente updates voor onze zakelijke toepassingen, evenals een groot aantal nieuwe mogelijkheden voor het bouwen van uw eigen toepassingen en extensies boven op ons platform. [Download het PDF-bestand met releaseopmerkingen voor voorjaar 2018](https://aka.ms/businessappsreleasenotes). Deze hebben betrekking op Dynamics 365, PowerApps, Microsoft Flow en Power BI.
 
 **Binnenkort beschikbaar:** het PDF-bestand met releaseopmerkingen wordt telkens bijgewerkt bij nieuwe functies. De releaseopmerkingen zijn ook beschikbaar op een webpagina.
+
+## <a name="apr-23"></a>23 april
+* [Bijlagen](controls/control-attachments.md) in Internet Explorer downloaden in aangepaste formulieren van SharePoint.
 
 ## <a name="apr-9"></a>9 april
 * Besturingselementen voor knippen (Ctrl+X), kopiëren (Ctrl+C) en plakken (Ctrl+ )&mdash;waaronder stijlen, formules en eigenschappen van de besturingselementen&mdash;via apps in een webbrowser.
