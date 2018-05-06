@@ -1,294 +1,239 @@
 ---
-title: Een volledig nieuwe app maken | Microsoft Docs
-description: Een app volledig zelf maken door elk UI-element en het gedrag te configureren voor het beheren van de dagelijkse gegevens van uw bedrijf.
-services: ''
-suite: powerapps
-documentationcenter: na
+title: Een volledig nieuwe Excel-app maken | Microsoft Docs
 author: AFTOwen
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.date: 10/16/2016
+ms.topic: conceptual
+ms.component: canvas
+ms.date: 04/23/2018
 ms.author: anneta
-ms.openlocfilehash: efc965d607198ed6366f3390960ccdf44b2ea210
-ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
+ms.openlocfilehash: 29f07162ec2815398cda5bcc359f7388df261bc0
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="create-an-app-from-scratch"></a>Een volledig nieuwe app maken
-Maak een volledig nieuwe app met een van de vele gegevensbronnen, en voeg later meer bronnen toe indien nodig. Bepaal het uiterlijk en gedrag van elk UI-element om de resultaten te optimaliseren voor uw specifieke doelstellingen en werkstroom. Deze benadering kost veel meer tijd dan [automatisch een app genereren](get-started-create-from-data.md), maar ervaren app-makers kunnen zo de beste app voor hun wensen maken.
-
-Wanneer u deze zelfstudie volgt, maakt u een app met twee schermen. In een scherm kunnen gebruikers bladeren door een set records:
-
-![Scherm waarin een gebruiker kan bladeren door een gegevensset](./media/get-started-create-from-blank/first-screen-final.png)
-
-In het andere scherm kunnen gebruikers een record maken, een of meer velden in een record bijwerken of een hele record verwijderen:
-
-![Scherm waarin een gebruiker gegevens kan toevoegen of bijwerken](./media/get-started-create-from-blank/changescreen-final.png)
+# <a name="create-an-excel-app-from-scratch"></a>Een volledig nieuwe Excel-app maken
+Maak uw eigen volledig nieuwe app op basis van Excel-gegevens, opgemaakt als een tabel, en voeg vervolgens desgewenst gegevens uit andere bronnen toe. Wanneer u deze zelfstudie volgt, maakt u een app met twee schermen. In het ene scherm kunnen gebruikers bladeren door een set records. In het andere scherm kunnen gebruikers een record maken, een of meer velden in een record bijwerken of een heel record verwijderen. Deze benadering kost meer tijd dan [een app automatisch genereren](get-started-create-from-data.md), maar ervaren app-makers kunnen hiermee de beste app voor hun wensen maken.
 
 ## <a name="prerequisites"></a>Vereisten
-U kunt uw eigen Excel-bestand gebruiken en deze zelfstudie raadplegen voor informatie over algemene concepten. De gegevens in het Excel-bestand moet echter zijn opgemaakt als een tabel. Zie voor meer informatie [Een tabel opmaken in Excel](how-to-excel-tips.md).
-
-Als u de onderstaande stappen precies wilt volgen, maakt u een Excel-bestand met deze voorbeeldgegevens.
+Als u de onderstaande stappen in deze zelfstudie precies wilt volgen, maakt u een Excel-bestand met deze voorbeeldgegevens.
 
 1. Kopieer deze gegevens en plak ze in een Excel-bestand.
 
-   | Start Day | Start Time | Volunteer 1 | Volunteer 2 |
-   | --- | --- | --- | --- |
-   | Saturday |10am-noon |Vasquez |Kumashiro |
-   | Saturday |noon-2pm |Ice |Singhal |
-   | Saturday |2pm-4-pm |Myk |Mueller |
-   | Sunday |10am-noon |Li |Adams |
-   | Sunday |10am-noon |Singh |Morgan |
-   | Sunday |10am-noon |Batye |Nguyen |
+    | StartDay | StartTime | Vrijwilliger | Backup |
+    | --- | --- | --- | --- |
+    | Saturday |10am-noon |Vasquez |Kumashiro |
+    | Saturday |noon-2pm |Ice |Singhal |
+    | Saturday |2pm-4-pm |Myk |Mueller |
+    | Sunday |10am-noon |Li |Adams |
+    | Sunday |10am-noon |Singh |Morgan |
+    | Sunday |10am-noon |Batye |Nguyen |
 
 2. Maak deze gegevens op als tabel met de naam **Schedule**, zodat de gegevens kunnen worden geparseerd door PowerApps.
 
     Zie voor meer informatie [Een tabel opmaken in Excel](how-to-excel-tips.md).
 
-3. Sla het bestand op onder de naam **eventsignup.xls** en upload het naar een [cloudopslagaccount](connections/cloud-storage-blob-connections.md), zoals OneDrive.
+3. Sla het bestand op onder de naam **eventsignup.xls**, sluit het en upload het naar een [cloudopslagaccount](connections/cloud-storage-blob-connections.md), zoals OneDrive.
 
-4. Als PowerApps nieuw voor u is:
+> [!IMPORTANT]
+> U kunt uw eigen Excel-bestand gebruiken en deze zelfstudie raadplegen voor informatie over algemene concepten. De gegevens in het Excel-bestand moet echter zijn opgemaakt als een tabel. Zie voor meer informatie [Een tabel opmaken in Excel](how-to-excel-tips.md).
 
-   * Informatie over het [toevoegen van een besturingselement en het instellen van de eigenschappen](add-configure-controls.md), die het uiterlijk en gedrag van het besturingselement bepalen.
-   * Informatie over het [toevoegen van een scherm en wijzigen van de naam](add-screen-context-variables.md).
+## <a name="open-a-blank-app"></a>Een lege app openen
+1. Meld u aan bij [PowerApps](http://web.powerapps.com).
 
-## <a name="create-a-blank-app-and-connect-to-data"></a>Een lege app maken en verbinding maken met gegevens
-1. Klik of tik in PowerApps Studio op **Nieuw** in het menu **Bestand** (aan de linkerkant van het scherm).
+    ![PowerApps-startpagina](./media/get-started-create-from-blank/sign-in.png)
 
-    ![Optie Nieuw in het menu Bestand](./media/get-started-create-from-blank/file-new.png)
+    U kunt een volledig nieuwe app ontwerpen voor telefoons of voor andere apparaten (zoals tablets). Dit onderwerp richt zich op het ontwerpen van een app voor telefoons.
 
-2. Klik of tik onder **Lege app** op **Telefoonindeling**.
+1. Beweeg onder **Apps zoals deze maken** de muisaanwijzer over de tegel **Beginnen met een lege app**, selecteer het telefoonpictogram en selecteer **Deze app maken**.
 
-    ![Optie voor het maken van een app op basis van gegevens](./media/get-started-create-from-blank/create-from-blank.png)
+    ![Lege-apptegel](./media/get-started-create-from-blank/blank-app.png)
 
-3. Volg wanneer u daarom wordt gevraagd de rondleiding, om te begrijpen wat de hoofdgebieden van PowerApps zijn (of klik of tik op **Skip**).
+    PowerApps Studio maakt een lege app voor telefoons.
 
-    ![Korte rondleiding](./media/get-started-create-from-blank/quick-tour.png)
+1. Selecteer **Overslaan** in het dialoogvenster **Welkom bij PowerApps Studio**.
 
-    U kunt de rondleiding altijd later nog volgen door eerst op het vraagtekenpictogram in de rechterbovenhoek en vervolgens op **Take the intro tour** te klikken of tikken.
+## <a name="connect-to-data"></a>Verbinding maken met gegevens
+1. Selecteer **Verbinding maken met gegevens** in het midden van het scherm.
 
-4. Klik of tik op een pictogram in de rechterbovenhoek van de linkernavigatiebalk om over te schakelen naar de miniatuurweergave.
+1. Selecteer in het deelvenster **Gegevens** de verbinding voor uw cloudopslagaccount als deze wordt weergegeven. Volg anders deze stappen om een verbinding toe te voegen:
 
-    ![Schakelen tussen weergaven](./media/get-started-create-from-blank/toggle-view.png)
+    1. Selecteer **Nieuwe verbinding**, selecteer de tegel voor uw cloudopslagaccount en selecteer vervolgens **Maken**.
+    2. Geef uw referenties voor het account op als u hierom wordt gevraagd.
 
-5. Klik of tik in het rechterdeelvenster op **Gegevensbron toevoegen**.
+1. Typ of plak onder **Een Excel-bestand kiezen** de eerste letters van **eventsignup** om de lijst te filteren en selecteer vervolgens het bestand dat u hebt geüpload.
 
-    ![Gegevensbron toevoegen](./media/get-started-create-from-blank/add-data-source.png)
+1. Selecteer onder **Een tabel kiezen** het selectievakje voor **Planning**, en selecteer vervolgens **Verbinden**.
 
-6. Voer een van de volgende stappen uit:
+## <a name="create-the-view-screen"></a>Het weergavescherm maken
 
-   * Als u al een verbinding met uw cloudopslagaccount hebt, klikt of tikt u daarop.
-   * Als u nog geen verbinding hebt met uw cloudopslagaccount, klikt of tikt u op **Add connection**, klikt of tikt u op uw accounttype, klikt of tikt u op **Connect** en geeft u vervolgens (wanneer u daarom wordt gevraagd) uw referenties op.
+1. Selecteer op het tabblad **Start** de pijl omlaag naast **Nieuw scherm** om een lijst met schermtypen te openen en selecteer vervolgens **Lijstscherm**.
 
-7. Klik of tik onder **Choose an Excel file** op **eventsignup.xlsx**.
-
-    ![Het Excel-bestand opgeven dat u wilt gebruiken](./media/get-started-create-from-blank/select-excel-file.png)
-
-8. Selecteer onder **Choose a table** het selectievakje **Schedule** en klik of tik op **Connect**.
-
-    ![De Excel-tabel opgeven die u wilt gebruiken](./media/get-started-create-from-blank/select-table.png)
-
-    Op het tabblad **Data sources** in het rechter deelvenster worden de gegevensbronnen weergegeven die u hebt toegevoegd aan uw app.
-
-    ![Verbonden gegevensbronnen weergeven](./media/get-started-create-from-blank/data-connect.png)
-
-    Voor deze zelfstudie is slechts één gegevensbron nodig, maar u kunt er later meer toevoegen.
-
-## <a name="show-the-data"></a>Gegevens weergeven
-1. Ga naar het tabblad **Start** en klik of tik op **Nieuw scherm** en vervolgens op **Lijstscherm**.
-
-    ![Een indeling toevoegen met elementen voor een koptekst, ondertitel en hoofdtekst](./media/get-started-create-from-blank/add-gallery.png)
+    ![Een lijstscherm toevoegen](./media/get-started-create-from-blank/add-list-screen.png)
 
     Er wordt een scherm toegevoegd met verschillende standaardbesturingselementen, zoals een zoekvak en een besturingselement **[Galerie](controls/control-gallery.md)**. De galerie vult het volledige scherm onder het zoekvak.
 
-2. Klik op of tik op een willekeurige plaats in de galerie (behalve op een pijl), bijvoorbeeld vlak onder het zoekvak.
+2. Selecteer de galerie door in de buurt van het middelpunt te tikken of te klikken.
 
-    ![Galerie selecteren](./media/get-started-create-from-blank/select-gallery.png)
+    De galerie wordt omgeven door een selectiekader met grepen.
 
-3. Open in het rechterdeelvenster de lijst **Indelingen** en klik of tik vervolgens op de optie voor een titel, een ondertitel en hoofdtekst.
+    ![Een lijstscherm toevoegen](./media/get-started-create-from-blank/select-gallery.png)
 
-    ![Galerie selecteren](./media/get-started-create-from-blank/select-layout.png)
+3. Selecteer in het rechterdeelvenster **CustomGallerySample** om het deelvenster **Gegevens** te openen.
 
-4. Klik of tik in de lijst met eigenschappen op **[Items](controls/properties-core.md)**, kopieer deze formule en plak die in de formulebalk:
+    ![Deelvenster Gegevens openen](./media/get-started-create-from-blank/custom-gallery-sample.png)
 
-    **SortByColumns(Search(Schedule, TextSearchBox1.Text, "Volunteer_x0020_1"), "Volunteer_x0020_1", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))**
+1. Selecteer onder **Gegevensbron** de pijl omlaag om de lijst van gegevensbronnen voor de app te openen en selecteer vervolgens **Planning**.
 
-    Als u niet zeker weet waar u de eigenschappenlijst vindt, raadpleegt u [Besturingselementen toevoegen en configureren](add-configure-controls.md).
+    ![Een gegevensbron selecteren](./media/get-started-create-from-blank/select-schedule.png)
 
-    > [!NOTE]
-> Kolomnamen met spaties in gegevensbronnen van Excel of SharePoint worden in PowerApps vervangen door **‘\_x0020\_’**. In dit voorbeeld wordt de kolom **'Volunteer 1'** in een formule weergegeven als **'Volunteer_x0020_1'**.
+1. Selecteer onder **Indeling** de pijl omlaag om de lijst met indelingen te openen en selecteer vervolgens **Titel, subtitel en hoofdtekst**.
 
-    Deze galerie laat de gegevens uit de tabel **Schedule** zien.
+    ![Indeling selecteren](./media/get-started-create-from-blank/select-layout.png)
 
-    ![De standaardweergave van de Schedule-gegevens in de galerie](./media/get-started-create-from-blank/show-data-default.png)
+1. Wijzig onder **Title2** de kolom die wordt weergegeven van **Back-up** in **Vrijwilliger**.
 
-    Met het zoekvak kan een filter worden toegepast op de galerie, op basis van de tekst die de gebruiker typt. Als een gebruiker ten minste één letter in het zoekvak typt, geeft de galerie alleen de records weer waarin het veld **Volunteer 1** de tekst bevat die de gebruiker heeft getypt.
+     ![Kolom wijzigen in label](./media/get-started-create-from-blank/change-title2.png)
 
-    Met de sorteerknop kunnen de records worden gesorteerd op basis van de gegevens in de kolom **Volunteer 1**. Wanneer een gebruiker op deze knop klikt of tikt, verandert de sorteervolgorde van oplopend naar aflopend of omgekeerd.
+1. Selecteer het pictogram voor sluiten in de rechterbovenhoek om het deelvenster **Gegevens** te sluiten.
 
-    Deze formule bevat de functies **Sort**, **If**, **IsBlank**, **Filter** en **Text**. Voor meer informatie over deze en andere functies raadpleegt u de [naslaginformatie over formules](formula-reference.md)
+    De galerie geeft de naam van elke vrijwilliger en de dag en tijd van de dienst van die vrijwilliger weer.
 
-5. Typ een **i** in het zoekvak en klik of tik eenmaal (of een oneven aantal malen) op de knop Sorteren.
+    ![De planningsgegevens in de galerie, niet gesorteerd](./media/get-started-create-from-blank/show-data-unsorted.png)
+
+4. Selecteer de galerie en controleer of in de eigenschappenlijst **[Items](controls/properties-core.md)** worden weergegeven.
+
+    Zoals u in de formulebalk ziet, is de waarde van die eigenschap **Planning**.
+
+    ![De planningsgegevens in de galerie, niet gesorteerd](./media/get-started-create-from-blank/set-property.png)
+
+1. Wijzig de waarde van de eigenschap **Items** door deze formule te kopiëren en te plakken in de formulebalk:
+
+    **SortByColumns(Search(Schedule, TextSearchBox1.Text, "Volunteer"), "Volunteer", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))**
+
+    De galerie toont gegevens in alfabetische volgorde op de naam van de vrijwilliger.
+
+    ![De planningsgegevens in de galerie, gesorteerd](./media/get-started-create-from-blank/show-data-sorted.png)
+
+    Gebruikers kunnen de galerie sorteren en filteren op de naam van de vrijwilliger op basis van de **SortByColumns**- en **zoek**functies in deze formule.
+
+    - Als een gebruiker ten minste één letter in het zoekvak typt, geeft de galerie alleen de records weer waarin het veld **Vrijwilliger** de tekst bevat die de gebruiker heeft getypt.
+    - Als een gebruiker de sorteerknop selecteert, wordt de galerie weergegeven met de records in oplopende of aflopende volgorde (afhankelijk van hoe vaak de gebruiker de knop selecteert) op basis van het veld **Vrijwilliger**.
+
+    Zie de [naslaginformatie over formules](formula-reference.md) voor meer informatie over deze en andere functies.
+
+5. Typ een **i** in het zoekvak, selecteer de sorteerknop door erop te klikken of te tikken en selecteer deze vervolgens nog een keer (of nog een oneven aantal keren).
 
     De resultaten worden weergegeven in de galerie.
 
     ![De galerie sorteren en filteren](./media/get-started-create-from-blank/sort-filter.png)
 
-    Meer informatie over **[Sorteren](functions/function-sort.md)**, **[Filteren](functions/function-filter-lookup.md)** en [andere functies](formula-reference.md)
+1. Wis alle tekst in het zoekvak.
 
-6. Selecteer het besturingselement **[Label](controls/control-text-box.md)** boven aan het scherm door erop te klikken of tikken.
-
-    ![Titelbalk selecteren](./media/get-started-create-from-blank/select-title-bar.png)
-
-7. Klik of tik in de lijst met eigenschappen op **[Text](controls/properties-core.md)**, kopieer deze tekst en plak die in de formulebalk:<br>
-   **"Records weergeven"**
+6. Selecteer boven aan het scherm het besturingselement **[Label](controls/control-text-box.md)** en vervang **[Titel]** door **Records weergeven**.
 
     ![Titelbalk wijzigen](./media/get-started-create-from-blank/change-title-bar.png)
 
-## <a name="create-the-changescreen-and-its-banner"></a>Het ChangeScreen en de banner maken
-1. Verwijder **Screen1** en wijzig de naam van **Screen2** in **ViewScreen**.
+## <a name="create-the-change-screen"></a>Het wijzigingsscherm maken
+1. Selecteer op het tabblad **Start** de pijl omlaag naast **Nieuw scherm**, en selecteer vervolgens **Formulierscherm**.
 
-    ![Naam van scherm wijzigen](./media/get-started-create-from-blank/rename-screen.png)
+     ![Formulierscherm toevoegen](./media/get-started-create-from-blank/add-form-screen.png)
 
-2. Voeg een scherm toe en noem het **ChangeScreen**.
+1. Selecteer in het scherm dat u zojuist hebt toegevoegd de optie **Verbinding maken met gegevens** om het deelvenster **Gegevens** te selecteren en stel de gegevensbron vervolgens in op **Planning**.
 
-    ![Scherm toevoegen en de naam wijzigen](./media/get-started-create-from-blank/add-screen.png)
+1. Selecteer onder **Velden** alle selectievakjes om alle velden in het formulier weer te geven.
 
-3. Ga naar het tabblad **Invoegen** en klik of tik op **Tekst** en vervolgens op **[Label](controls/control-text-box.md)**.
+     ![Velden weergeven](./media/get-started-create-from-blank/show-fields.png)
 
-4. Configureer het besturingselement **Label** dat u zojuist hebt toegevoegd:
+1. Sleep het veld **Vrijwilliger** omhoog zodat het bovenaan de lijst met velden wordt weergegeven.
 
-   * Stel de eigenschap **Text** in op deze formule:
-     <br>**"Record wijzigen"**
+     ![Velden opnieuw ordenen](./media/get-started-create-from-blank/reorder-fields.png)
 
-   * Stel de eigenschap **Fill** in op deze formule:
-     <br>**RGBA(62, 96, 170, 1)**.
+1. Selecteer het formulier en stel de eigenschap **Item** in op deze expressie door het in de formulebalk te typen of plakken:<br>**BrowseGallery1.Selected**
 
-   * Stel de eigenschap **Color** in op deze formule:
-     <br>**RGBA(255, 255, 255, 1)**
+1. Selecteer boven aan het scherm het besturingselement **[Label](controls/control-text-box.md)** en vervang **[Titel]** door **Records wijzigen**.
 
-   * Stel de eigenschap **Align** in op **Center**.
-   * Stel de eigenschap **X** in op **0**.
+    ![Titelbalk wijzigen](./media/get-started-create-from-blank/change-title-bar2.png)
 
-   * Stel de eigenschap **Width** in op **640**.
-     Uw wijzigingen wordt toegepast op het besturingselement **Label**.
+## <a name="delete-and-rename-screens"></a>Schermen verwijderen en de naam van schermen wijzigen
+1. Selecteer in de linkernavigatiebalk het weglatingsteken (...) voor **Screen1** en selecteer vervolgens **Verwijderen**.
 
-     ![ChangeScreen met banner](./media/get-started-create-from-blank/change-screen-blank.png)
+    ![Scherm verwijderen](./media/get-started-create-from-blank/delete-screen.png)
 
-## <a name="add-and-configure-a-form"></a>Een formulier toevoegen en configureren
-1. Klik of tik op het tabblad **Invoegen** op **Tekst** en klik of tik vervolgens op **Tekstvak**.
+1. Selecteer het weglatingsteken (...) voor **Screen2**, selecteer **Naam wijzigen**, en typ of plak **ViewScreen**.
 
-2. Verplaats het formulier en wijzig de grootte zodat het vrijwel het gehele scherm vult.
+1. Selecteer het weglatingsteken (...) voor **Screen3**, selecteer **Naam wijzigen**, en typ of plak **ChangeScreen**.
 
-    ![Een formulier toevoegen](./media/get-started-create-from-blank/add-form.png)
+## <a name="configure-icons-on-the-view-screen"></a>Pictogrammen configureren op het weergavescherm
+1. Selecteer bovenaan **ViewScreen** het pictogram in de vorm van een ronde pijl.
 
-    Het formulier heet standaard **Form1**, tenzij u al eerder een formulier hebt toegevoegd en weer verwijderd. In dat gevel wijzigt u de naam van het formulier in **Form1**.
+    ![Record toevoegen](./media/get-started-create-from-blank/refresh-icon.png)
 
-3. Stel de eigenschap **[DataSource](controls/control-form-detail.md)** van **Form1** in op **Schedule**.
+1. Stel de eigenschap **OnSelect** voor dat pictogram in op deze formule:<br>**Refresh(Schedule)**
 
-4. Stel de eigenschap **Item** van **Form1** in op deze expressie:
-   <br>**BrowseGallery1.Selected**
+    Wanneer de gebruiker dit pictogram selecteert, worden de gegevens uit **Planning** vernieuwd vanuit het Excel-bestand.
 
-5. Klik of tik in het rechterdeelvenster op het selectievakje voor elk veld om het weer te geven.
+    Zie de [naslaginformatie over formules](formula-reference.md) voor meer informatie over deze en andere functies.
 
-    ![Velden weergeven in formulier](./media/get-started-create-from-blank/schedule-checkbox.png)
-
-6. Klik of tik onder aan het scherm op **Een aangepaste kaart toevoegen**.
-
-    ![Een aangepaste kaart toevoegen](./media/get-started-create-from-blank/add-custom-card.png)
-
-7. Voeg een besturingselement **[Label](controls/control-text-box.md)** toe aan de nieuwe kaart.
-
-8. Stel de eigenschap **[AutoHeight](controls/control-text-box.md)** van het nieuwe besturingselement in op **true** en de eigenschap **[Text](controls/properties-core.md)** op deze formule:
-   <br>**Form1.Error**
-
-    In het label worden eventuele fouten in het formulier weergegeven.
-
-9. Klik of tik in de linkernavigatiebalk op de bovenste miniatuur om **ChangeScreen** te selecteren.
-
-10. Klik of tik op het tabblad **Invoegen** op **Pictogrammen**, klik of tik op de optie om een **Pijl-terug** toe te voegen en verplaats de pijl naar de linkerbenedenhoek van het scherm.
-
-11. Stel de eigenschap **[OnSelect](controls/properties-core.md)** van de pijl in op deze formule:
-
-     **ResetForm(Form1);Navigate(ViewScreen,ScreenTransition.None)**
-
-      Wanneer de gebruiker op de pijl klikt of tikt, opent de functie **[Navigate](functions/function-navigate.md)** het **ViewScreen**.
-
-12. Voeg een besturingselement **[Button](controls/control-button.md)** toe onder het formulier en stel de eigenschap **[Text](controls/properties-core.md)** van de knop in op **”Save”**.
-
-     ![Een knop Save toevoegen](./media/get-started-create-from-blank/add-save-button.png)
-
-13. Stel de eigenschap **[OnSelect](controls/properties-core.md)** van deze knop in op deze formule:
-
-    **SubmitForm(Form1); If(Form1.ErrorKind = ErrorKind.None, Navigate(ViewScreen, ScreenTransition.None))**
-
-    Wanneer de gebruiker op de knop klikt of tikt, slaat de functie **[SubmitForm](functions/function-form.md)** alle wijzigingen in de gegevensbron op en wordt het **ViewScreen** opnieuw weergegeven.
-
-14. Voeg onderaan het scherm nog een knop toe, stel de eigenschap **[Text](controls/properties-core.md)** in op **”Remove”** en stel de eigenschap **[OnSelect](controls/properties-core.md)** in op deze formule:
-
-    **Remove(Schedule,BrowseGallery1.Selected);<br>If(IsEmpty(Errors(Schedule)),Navigate(ViewScreen,ScreenTransition.None))**
-
-    Wanneer de gebruiker op de knop klikt of tikt, verwijdert de functie **[Remove](functions/function-remove-removeif.md)** de record en wordt het **ViewScreen** opnieuw weergegeven.
-
-15. Stel de eigenschap **[Visible](controls/properties-core.md)** van de knop **Remove** in op deze formule:
-    <br>**Form1.Mode=FormMode.Edit**
-
-    Met deze stap verbergt u de knop **Remove** wanneer de gebruiker een record maakt.
-
-    Het **ChangeScreen** komt overeen met dit voorbeeld:
-
-    ![Definitief ChangeScreen](./media/get-started-create-from-blank/changescreen-final.png)
-
-## <a name="set-navigation-from-viewscreen"></a>Navigatie van ViewScreen instellen
-1. Klik of tik in de linkernavigatiebalk op de bovenste miniatuur voor het **ViewScreen**.
-
-    ![ViewScreen openen](./media/get-started-create-from-blank/select-viewscreen.png)
-
-2. Klik of tik op **Pijl-vooruit** voor de eerste record in de galerie.
-
-    ![Pijl-vooruit](./media/get-started-create-from-blank/next-arrow.png)
-
-3. Stel de eigenschap **[OnSelect](controls/properties-core.md)** van de pijl in op deze formule:
-
-    **Navigate(ChangeScreen,ScreenTransition.None)**
-
-4. Klik of tik op het pluspictogram in de rechterbovenhoek.
+1. Selecteer in de rechterbovenhoek van **ViewScreen** het plusteken.
 
     ![Record toevoegen](./media/get-started-create-from-blank/add-record.png)
 
-5. Stel de eigenschap **[OnSelect](controls/properties-core.md)** van het geselecteerde pictogram in op deze formule:
+1. Stel de eigenschap **OnSelect** voor dat pictogram in op deze formule:<br>**NewForm(EditForm1);Navigate(ChangeScreen,ScreenTransition.None)**
 
-    **NewForm(Form1);Navigate(ChangeScreen,ScreenTransition.None)**`
+    Wanneer de gebruiker dit pictogram selecteert, wordt **ChangeScreen** weergegeven met lege velden, zodat de gebruiker eenvoudig een nieuw record kan maken.
 
-     Wanneer de gebruiker op dit pictogram klikt of tikt, wordt het **ChangeScreen** weergegeven met lege velden, zodat de gebruiker eenvoudig een nieuwe record kan maken.
+1. Selecteer de pijl naar rechts voor het eerste record in de galerie.
 
-## <a name="run-the-app"></a>De app uitvoeren
-Tijdens het aanpassen van de app kunt u uw wijzigingen testen door de app uit te voeren in de Preview-modus, zoals de stappen in deze sectie laten zien.
+    ![Pijl selecteren](./media/get-started-create-from-blank/select-arrow.png)
 
-1. Klik of tik in de linkernavigatiebalk op de bovenste miniatuur om het **ViewScreen** te selecteren.
+1. Stel de eigenschap **OnSelect** van de pijl in op deze formule:<br>**EditForm(EditForm1); Navigate(ChangeScreen, ScreenTransition.None)**
 
-    ![ViewScreen selecteren](./media/get-started-create-from-blank/select-viewscreen.png)
+    Wanneer de gebruiker dit pictogram selecteert, wordt **ChangeScreen** weergegeven met elk veld waarin de gegevens voor het geselecteerde record worden weergegeven, zodat de gebruiker het record eenvoudiger kan bewerken of verwijderen.
 
-2. Open de Preview-modus door op F5 te drukken (of klik of tik op het pictogram **Preview** rechtsboven).
+## <a name="configure-icons-on-the-change-screen"></a>Pictogrammen configureren op het wijzigingsscherm
+1. Selecteer in **ChangeScreen** het pictogram 'x' in de linkerbovenhoek.
+
+    ![Pictogram Annuleren](./media/get-started-create-from-blank/cancel-icon.png)
+
+1. Stel de eigenschap **OnSelect** voor dat pictogram in op deze formule:<br>**ResetForm(EditForm1);Navigate(ViewScreen, ScreenTransition.None)**
+
+    Wanneer de gebruiker dit pictogram selecteert, worden eventuele wijzigingen die de gebruiker heeft aangebracht in dit scherm verwijderd en wordt het weergavescherm geopend.
+
+1. Selecteer het vinkje in de rechterbovenhoek.
+
+    ![Pictogram Vinkje](./media/get-started-create-from-blank/checkmark-icon.png)
+
+1. Stel de eigenschap **OnSelect** van het vinkje in op deze formule:<br>**SubmitForm(EditForm1); Navigate(ViewScreen, ScreenTransition.None)**
+
+    Wanneer de gebruiker dit pictogram selecteert, worden eventuele wijzigingen die de gebruiker heeft aangebracht in dit scherm opgeslagen en wordt het weergavescherm geopend.
+
+1. Selecteer op het tabblad **Invoegen** de optie **Pictogrammen** en selecteer het **Prullenbak**-pictogram.
+
+1. Stel de eigenschap **Kleur** van het nieuwe pictogram in op **Wit** en verplaats het nieuwe pictogram, zodat het naast het vinkje wordt weergegeven.
+
+    ![Pictogram Prullenbak](./media/get-started-create-from-blank/trash-icon.png)
+
+1. Stel de eigenschap **OnSelect** voor het prullenbakpictogram in op deze formule:<br>**Remove(Schedule, BrowseGallery1.Selected); Navigate(ViewScreen, ScreenTransition.None)**
+
+    Wanneer de gebruiker dit pictogram selecteert, wordt het geselecteerde record verwijderd uit de gegevensbron en wordt het weergavescherm geopend.
+
+## <a name="test-the-app"></a>De app testen
+1. Selecteer het **ViewScreen** en open de preview door op F5 te drukken (of door het pictogram **Preview** in de rechterbovenhoek te selecteren).
 
     ![Preview-modus openen](./media/get-started-create-from-blank/open-preview.png)
 
-3. Klik of tik op de pijl-vooruit voor een record om de details van de record weer te geven.
+1. Voeg een record toe.
 
-4. Wijzig in het **ChangeScreen** de informatie in een of meer velden, sla uw wijzigingen op door te klikken of tikken op **Opslaan** of verwijder de record door te klikken of tikken op **Verwijderen**.
+1. Werk het record dat u hebt toegevoegd bij, en sla de wijzigingen op.
 
-5. Sluit de Preview-modus door op Esc te drukken (of klik of tik op het pictogram sluiten onder de titelbalk).
+1. Werk het record dat u hebt toegevoegd bij, en annuleer de wijzigingen.
 
-    ![Preview-modus sluiten](./media/get-started-create-from-blank/close-preview.png)
+1. Verwijder het record dat u hebt toegevoegd.
+
+1. Sluit de previewmodus door op Esc te drukken (of door het pictogram voor sluiten in de rechterbovenhoek te selecteren).
 
 ## <a name="next-steps"></a>Volgende stappen
 * Druk op Ctrl+S om de app op te slaan in de cloud, zodat u deze op andere apparaten kunt uitvoeren.
 * [Deel de app](share-app.md) zodat anderen deze kunnen uitvoeren.
-* Meer informatie over [galerieën](add-gallery.md), [formulieren](add-form.md) en [formules](working-with-formulas.md).
+* Meer informatie over [functies](working-with-formulas.md) zoals **Patch**, die u kunt gebruiken om gegevens te beheren zonder een standaardformulier te maken.

@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/23/2016
 ms.author: anneta
-ms.openlocfilehash: d8f41cc03f0cfac88ef356966c7d07b6cf088cda
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 6960b41effb109f6f2266ba279b4d51ea51e744f
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="scan-a-barcode-in-powerapps"></a>Een streepjescode scannen in PowerApps
 U kunt verschillende soorten streepjescodes scannen door een app te maken en deze uit te voeren op een apparaat dat is uitgerust met een camera, bijvoorbeeld een telefoon. Het numerieke equivalent van de streepjescode wordt weergegeven in een besturingselement **Label** en u kunt deze gegevens uploaden naar diverse [gegevensbronnen](connections-list.md).
@@ -35,8 +35,7 @@ Zie [Aan de slag](getting-started.md) als u onbekend bent met PowerApps.
 ## <a name="create-a-blank-app"></a>Een lege app maken
 1. [Meld u aan voor PowerApps](../signup-for-powerapps.md) en voer dan *een* van de volgende handelingen uit:
 
-   * [Open PowerApps](https://create.powerapps.com/api/start) in een browser op een apparaat dat een camera heeft.
-   * [Installeer PowerApps](http://aka.ms/powerappsinstall) vanuit de Windows Store op een apparaat dat een camera heeft. Open PowerApps, meld u aan en klik of tik op **New** in het menu **File** (aan de linkerkant).
+1. [Open PowerApps](https://create.powerapps.com) in een browser op een apparaat dat een camera heeft.
 
 2. Klik of tik onder **Beginnen met een leeg canvas of een leeg sjabloon** op **Telefoonindeling** in de tegel **Lege app**.
 
