@@ -1,75 +1,97 @@
 ---
 title: Snelstartgids voor het maken van een aangepaste entiteit | Microsoft Docs
-description: Snelstartgids voor het maken van een aangepaste entiteit op basis van een andere entiteit of een volledig nieuwe entiteit maken.
-documentationcenter: na
-author: clwesene
+description: In deze snelstartgids leert u hoe u een aangepaste entiteit in PowerApps kunt maken.
+services: ''
+suite: powerapps
+author: SKjerland
 manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: conceptual
+ms.topic: quickstart
 ms.component: cds
-ms.date: 3/21/2018
-ms.author: clwesene
-ms.openlocfilehash: 2232083de556bafcc978423dafb0e98e564aaa3b
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.date: 05/01/2018
+ms.author: sharik
+ms.openlocfilehash: 397fdea9f5257cf5a1062867d45a53d592a0909c
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="quickstart-create-a-custom-entity"></a>Snelstartgids: Een aangepaste entiteit maken
-U kunt een aangepaste entiteit maken om gegevens op te slaan die specifiek zijn voor uw organisatie. Vervolgens kunt u die gegevens weergeven door een app te ontwikkelen die naar de entiteit verwijst. Nadat u een entiteit hebt gemaakt, kunt u [een of meer velden maken of wijzigen](data-platform-manage-fields.md) en [relaties tussen entiteiten maken](data-platform-entity-lookup.md).
+In PowerApps definieert een *entiteit* de gegevens die u wilt bijhouden in de vorm van records, waaronder doorgaans eigenschappen zoals de bedrijfsnaam, locatie, producten, e-mailadres en telefoonnummer. Vervolgens kunt u die gegevens weergeven door een app te ontwikkelen die naar de entiteit verwijst. PowerApps biedt kant-en-klare standaardentiteiten die geschikt zijn voor gebruikelijke scenario's binnen een organisatie (zoals het volgen van afspraken), maar er zijn situaties waarin u wellicht aangepaste entiteiten wilt maken om specifieke gegevens van uw organisatie op te slaan.
 
-In deze instructies wordt beschreven hoe u handmatig een aangepaste entiteit kunt maken. U kunt ook via Power Query een entiteit maken die is gebaseerd op bestaande gegevens. Zie [Nieuwe entiteit met Power Query maken](data-platform-cds-newentity-pq.md) voor meer informatie
+In deze snelstartgids leert u hoe u de aangepaste entiteit Productbeoordeling maakt, die u kunt gebruiken om een app te maken waarin beoordelingen en opmerkingen worden weergegeven voor producten die door uw bedrijf worden verkocht.
 
-> [!NOTE]
-> Zie de [Referentie entiteit](../../developer/common-data-service/reference/about-entity-reference.md) voordat u een entiteit maakt. Deze entiteiten betreffen typische scenario's, zoals accounts en contactpersonen. Als een van deze entiteiten in de huidige vorm of na enkele kleine aanpassingen aan uw vereisten voldoet, dan bespaart u zichzelf tijd door met die entiteit te beginnen.
+## <a name="prerequisites"></a>Vereisten
+Als u de stappen in deze snelstartgids wilt volgen, zijn de volgende items vereist:
+* Een licentie voor PowerApps Plan 2 óf voor Microsoft Flow Plan 2. U kunt zich ook aanmelden voor een [gratis proefversie van een PowerApps-abonnement 2](https://web.powerapps.com/signup?redirect=marketing&email=).
+* Ofwel de beveiligingsrol van systeembeheerder of systeemaanpasser binnen Common Data Service voor apps.
+
+## <a name="sign-in-to-powerapps"></a>Meld u aan bij PowerApps
+Meld u aan bij PowerApps in [https://web.powerapps.com]([https://web.powerapps.com).
 
 ## <a name="create-an-entity"></a>Een entiteit maken
-1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
+1. Klik of tik in het navigatiedeelvenster op **Gegevens** om de sectie uit te vouwen en klik of tik vervolgens op **Entiteiten**.
 
-    ![Entiteitsgegevens](./media/data-platform-cds-create-entity/entitylist.png "Entiteitslijst")
+    ![Lijst met entiteiten en de bijbehorende details](./media/data-platform-cds-create-entity/entitylist.png "Entiteitenlijst")
 
-2. Tik of klik in de opdrachtbalk **Nieuwe entiteit**.
-3. Voer in het veld **Weergavenaam** een eenvoudig herkenbare naam in waarmee u in de toekomst naar deze entiteit kunt verwijzen. Deze naam wordt ook gebruikt in formulieren, diagrammen en andere objecten die zijn gemaakt met deze entiteit. Hier ziet u twee andere velden die ook worden gevuld:
+2. Klik of tik in de opdrachtbalk op **Nieuwe entiteit**.
 
-    * Weergavenaam in meervoud: dit wordt gebruikt bij het communiceren met deze entiteit vanuit PowerApps of Flow en wordt gebruikt als naam van de entiteit via de WebAPI van Common Data Service. De naam in meervoud wordt automatisch gegenereerd, maar kan worden gewijzigd.
-    * Naam: dit is de unieke naam van de entiteit; de naam mag geen speciale tekens of spaties bevatten en moet uniek zijn. De naam bevat ook een voorvoegsel dat is ingesteld toen uw omgeving werd gemaakt. Dit wordt gebruikt om ervoor te zorgen dat de entiteiten die u maakt, kunnen worden geëxporteerd en geïmporteerd naar andere omgevingen zonder conflicten met andere entiteitsnamen. Dit voorvoegsel kan worden gewijzigd door het voorvoegsel van de uitgever van de Common Data Service-standaardoplossing bij te werken.
+    Voordat u een entiteit maakt, moet u de [entiteitsreferentie](../../developer/common-data-service/reference/about-entity-reference.md) bekijken voor een beschrijving van beschikbare standaardentiteiten. Deze entiteiten zijn bedoeld voor gebruikelijke scenario's. Als een van deze entiteiten in de huidige vorm of na enkele kleine aanpassingen aan uw vereisten voldoet, bespaart u zichzelf tijd door met die entiteit te beginnen. 
 
-    > [!NOTE]
-    > De velden **Weergavenaam** kunnen op elk gewenst moment worden bijgewerkt zodat deze anders worden weergegeven in uw apps. Het veld **Naam** kan niet worden gewijzigd nadat de entiteit is opgeslagen, aangezien dit kan leiden tot het verbreken van een bestaande app.
+3. Voer in het deelvenster **Nieuwe entiteit** in het vak **Weergavenaam** de naam **Productbeoordeling** in en voer vervolgens een beschrijving in (optioneel; een beschrijving is nuttig als anderen deze entiteit gaan gebruiken). Andere velden in het deelvenster worden automatisch ingevuld, zoals hieronder wordt beschreven. Klik op **Volgende** zodra u klaar bent.
 
+    * **Weergavenaam in meervoud**: dit veld wordt automatisch ingevuld wanneer u een weergavenaam invult, maar u kunt dit desgewenst wijzigen. De weergavenaam in meervoud is de naam van de entiteit in de Common Data Service WebAPI. Deze naam wordt gebruikt wanneer u vanuit PowerApps of Flow met deze entiteit werkt.
+    * **Naam**: dit veld wordt ook automatisch ingevuld wanneer u een weergavenaam invoert. Het voorvoegsel is ingesteld op het moment dat de omgeving is gemaakt en zorgt ervoor dat de entiteiten die u maakt, kunnen worden geëxporteerd en geïmporteerd naar andere omgevingen zonder conflicten met andere entiteitsnamen. U kunt dit voorvoegsel wijzigen door het voorvoegsel van de uitgever van de Common Data Service-standaardoplossing bij te werken. Als u fouten met bestaande apps wilt voorkomen, moet u de naam niet wijzigen nadat u de entiteit hebt opgeslagen.
+     
     ![Nieuwe entiteit](./media/data-platform-cds-create-entity/newentitypanel.png "deelvenster Nieuwe entiteit")
 
-4. Klik op **Volgende** om naar de detailpagina voor Entiteit te gaan. Elke entiteit wordt standaard gestart met één veld, Primaire naam. Dit veld wordt gebruikt wanneer zoekacties zijn gemaakt op basis van deze entiteit. Deze dient doorgaans te worden gebruikt voor het opslaan van de naam of primaire beschrijving van de gegevens die in de entiteit worden opgeslagen.
-
-    > [!NOTE]
-    > De naam en de weergavenaam van het veld **Primaire naam** kunnen worden bijgewerkt voordat u de entiteit voor de eerste keer opslaat. Als u dit veld bijvoorbeeld 'Studentnaam' wilt noemen in plaats van 'Primaire naam'
+4. Klik of tik op de pagina met entiteitsdetails op het veld **Primaire naam** om het deelvenster **Primaire naam** te openen. Vervang daarna in het vak **Weergavenaam** de optie **Primaire naam** door **Productbeoordeling**. In het vak **Naam** vervangt u **Primaire naam** door **Productbeoordeling**. Klik of tik daarna op **Gereed**.
+ 
+    Elke entiteit bevat standaard het veld Primaire naam, die voor opzoekvelden wordt gebruikt wanneer er relaties met andere entiteiten tot stand worden gebracht. In het veld Primaire naam wordt doorgaans de naam of primaire beschrijving opgeslagen van de gegevens die in de entiteit zijn opgeslagen. U kunt de naam en de weergavenaam van het veld Primaire naam bijwerken voordat u de entiteit voor de eerste keer opslaat.
 
     ![Details entiteit](./media/data-platform-cds-create-entity/newentitydetails.png "Details nieuwe entiteit")
 
-5. Optioneel: voeg een nieuw veld toe aan uw entiteit door te klikken op **Veld toevoegen**. Voer in het deelvenster Nieuw veld de **Weergavenaam** voor uw veld in en selecteer het type gegevens. Zie [Manage fields in an entity](data-platform-manage-fields.md) (Velden in een entiteit beheren) voor meer informatie.
+5. U kunt als volgt een veld aan de entiteit toevoegen:
+ 
+    a. Klik of tik in de opdrachtbalk op **Veld toevoegen** om het deelvenster **Veldeigenschappen** te openen.
+
+    b. Voer in het vak **Weergavenaam** de **beoordelingsdatum** in.
+
+    c. Kies in de vervolgkeuzelijst **Gegevenstype** de optie **Alleen datum**.
+
+    d. Klik of tik op het selectievakje **Vereist**.
+    
+    e. Klik of tik op **Gereed**.
+     
+    Zie [Manage fields in an entity](data-platform-manage-fields.md) (Velden in een entiteit beheren) voor meer informatie.
 
     ![Nieuw veld](./media/data-platform-cds-create-entity/newfieldpanel-2.png "Deelvenster Nieuw veld")
 
+6. Herhaal de vorige stappen om nog drie velden toe te voegen met de volgende configuratie:
+    * **Weergavenaam** = Productbeoordeling; **Gegevenstype** = geheel getal; klik of tik op het selectievakje **Vereist**
+    * **Weergavenaam** = Naam beoordelaar; **Gegevenstype** = tekst
+    * **Weergavenaam** = Opmerking van beoordelaar; **Gegevenstype** = tekst
 
-6. Klik op **Gereed** om het veld toe te voegen en herhaal stap 5 om extra velden toe te voegen.
+    Als u klaar bent, moet de pagina met entiteitsdetails vijf velden bevatten.
+
+    ![Veldenlijst](./media/data-platform-cds-create-entity/addedfields.png "Lijst met velden")
+
+    Alle entiteiten hebben systeemvelden die alleen-lezen zijn. Standaard worden systeemvelden niet weergegeven in de lijst met velden, hoewel ze zich wel in de entiteit bevinden. Voor een overzicht van alle velden kunt u het filter in de opdrachtbalk wijzigen van **Standaard** in **Alles**. Zie [Metagegevens van entiteiten](../../developer/common-data-service/entity-metadata.md) voor meer informatie over de metagegevens die zijn gerelateerd aan een entiteit.
+
 7. Klik op **Entiteit opslaan**om uw entiteit op te slaan en om deze beschikbaar te maken voor gebruik in apps.
 
-    Uw entiteit wordt weergegeven in de lijst met entiteiten in de database. Als u entiteiten wilt zien die u hebt gemaakt, kunt u het filter in de opdrachtbalk wijzigen van Standaard in Aangepast
+    De entiteit Productbeoordeling moet in de lijst met entiteiten in uw database worden weergegeven. Als u deze entiteit niet ziet staan, kunt u het filter in de opdrachtbalk wijzigen van **Standaard** naar **Aangepast**.
 
-## <a name="system-fields"></a>Systeemvelden
-Alle entiteiten hebben systeemvelden. Deze velden zijn alleen-lezen. Daarom kunt u ze niet wijzigen of verwijderen en u kunt er geen waarden aan toekennen. Standaard worden systeemvelden niet weergegeven in de lijst met velden, hoewel ze zich wel op de entiteit bevinden. Voor een overzicht van alle velden kunt u het filter in de opdrachtbalk wijzigen van **Standaard** naar **Alle**.
-
-Zie [Metagegevens van entiteiten](../../developer/common-data-service/entity-metadata.md) voor meer informatie over de metagegevens die zijn gerelateerd aan een entiteit
+    ![Filter](./media/data-platform-cds-create-entity/filter.png "Selectie filteren")
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Velden in een entiteit beheren](data-platform-manage-fields.md)
-* [Relaties tussen entiteiten definiëren](data-platform-entity-lookup.md)
-* [Een app genereren met behulp van een Common Data Service-database](../canvas-apps/data-platform-create-app.md)
-* [Create an app from scratch using a Common Data Service database (Een volledig nieuwe app maken met behulp van een Common Data Service-database)](../canvas-apps/data-platform-create-app-scratch.md)
+In deze snelstartgids hebt u geleerd hoe u de aangepaste entiteit Productbeoordeling maakt, die u kunt gebruiken om een app te maken waarin beoordelingen en opmerkingen worden weergegeven voor elk product dat door een specifiek bedrijf wordt verkocht. Hierna kunt u leren hoe u relaties tussen entiteiten definieert (in dit geval tussen de standaardentiteit Product en uw aangepaste entiteit Productbeoordeling), zodat u elk product kunt koppelen aan de beoordelingen en opmerkingen die u ervoor ontvangt.
+
+> [!div class="nextstepaction"]
+> [Een relatie maken](data-platform-entity-lookup.md)
 
 ## <a name="privacy-notice"></a>Privacyverklaring
-Met Common Data Model van Microsoft PowerApps worden aangepaste entiteits- en veldnamen in onze diagnostische systemen verzameld en bewaard.  We gebruiken die kennis om Common Data Model voor onze klanten te verbeteren. De entiteits- en veldnamen die u maakt, geven ons inzicht in veelgebruikte scenario's binnen de Microsoft PowerApps-community. Met behulp daarvan kunnen we bepalen wat er ontbreekt bij de standaardentiteiten van de service, zoals schema's voor organisaties. De gegevens in de databasetabellen die aan deze entiteiten zijn gekoppeld, zijn niet toegankelijk voor en worden niet gebruikt door Microsoft. Ook worden de gegevens niet gerepliceerd buiten de regio waarin de database is ingericht. De aangepaste entiteits- en veldnamen worden echter mogelijk wel gerepliceerd in andere regio's. Ze worden verwijderd in overeenstemming met ons bewaarbeleid voor gegevens. Microsoft hecht veel waarde aan uw privacy, zoals beschreven in ons [Vertrouwenscentrum](https://www.microsoft.com/trustcenter/Privacy/default.aspx).
-
+Met Common Data Model van Microsoft PowerApps worden aangepaste entiteits- en veldnamen in onze diagnostische systemen verzameld en bewaard. We gebruiken die kennis om Common Data Model voor onze klanten te verbeteren. De entiteits- en veldnamen die door app-makers worden gemaakt, geven ons inzicht in veelgebruikte scenario's binnen de Microsoft PowerApps-community. Met behulp daarvan kunnen we bepalen wat er ontbreekt bij de standaardentiteiten van de service, zoals schema's voor organisaties. De gegevens in de databasetabellen die aan deze entiteiten zijn gekoppeld, zijn niet toegankelijk voor en worden niet gebruikt door Microsoft. Ook worden de gegevens niet gerepliceerd buiten de regio waarin de database is ingericht. De aangepaste entiteits- en veldnamen worden echter mogelijk wel gerepliceerd in andere regio's. Ze worden verwijderd in overeenstemming met ons bewaarbeleid voor gegevens. Microsoft hecht veel waarde aan uw privacy, zoals beschreven in ons [Vertrouwenscentrum](https://www.microsoft.com/trustcenter/Privacy/default.aspx).

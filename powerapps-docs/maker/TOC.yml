@@ -228,8 +228,6 @@
           href: ./common-data-service/data-platform-create-entity.md
         - name: Een aangepaste entiteit maken op basis van gegevens
           href: ./common-data-service/data-platform-cds-newentity-pq.md
-        - name: Velden beheren
-          href: ./common-data-service/data-platform-manage-fields.md
         - name: Een optieset maken
           href: ./common-data-service/custom-picklists.md
         - name: Een relatie maken
@@ -244,6 +242,18 @@
           href: ./common-data-service/create-custom-entity.md
     - name: Voorbeelden en resources
       href: ./common-data-service/samples-resources.md
+    - name: Concepten
+      items:
+        - name: Licentievereisten voor entiteiten
+          href: ./common-data-service/data-platform-entity-licenses.md
+    - name: Procedures
+      items:
+        - name: Aangepaste velden in een entiteit beheren
+          href: ./common-data-service/data-platform-manage-fields.md
+    - name: Referentie
+      items:
+        - name: Beperkte entiteiten waarvoor Dynamics 365-licenties vereist zijn
+          href: ./common-data-service/data-platform-restricted-entities.md
     - name: Voor ontwikkelaars
       href: ../developer/common-data-service/TOC.yml
 - name: Common Data Model

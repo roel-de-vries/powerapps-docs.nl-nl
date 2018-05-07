@@ -1,99 +1,63 @@
 ---
 title: Wat is Common Data Service for Apps? | Microsoft Docs
-description: Inleiding tot Common Data Service for Apps, entiteiten en logica aan de serverzijde.
+description: Inleiding tot Common Data Service (CDS) voor apps, entiteiten en logica aan de serverzijde.
 documentationcenter: na
-author: clwesene
+author: SKjerland
 manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: conceptual
+ms.topic: overview
 ms.component: cds
-ms.date: 3/21/2018
-ms.author: clwesene
-ms.openlocfilehash: cc7eb07b45db1271607ffb65d37258ec6f88f38b
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.date: 05/01/2018
+ms.author: sharik
+ms.openlocfilehash: 0f829548f8d2066d36fc722fa616aa388ccb1a69
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="what-is-common-data-service-for-apps"></a>Wat is Common Data Service for Apps?
+Met Common Data Service (CDS) voor apps kunt u veilig gegevens die door zakelijke toepassingen worden gebruikt, opslaan en beheren. De gegevens in CDS voor apps worden opgeslagen in een set entiteiten. Een *entiteit* is een set records waarin gegevens worden opgeslagen, vergelijkbaar met de manier waarop met een tabel gegevens in een database worden opgeslagen. CDS voor apps bevat een basisset met standaardentiteiten die voor de gebruikelijke scenario's, maar u kunt ook aangepaste entiteiten maken die specifiek voor uw organisatie zijn en deze invullen met gegevens met behulp van Power Query. App-makers kunnen vervolgens PowerApps gebruiken om uitgebreide toepassingen te bouwen aan de hand van deze gegevens.
 
-Met Common Data Service for Apps kunt u veilig gegevens opslaan en beheren die worden gebruikt in apps die u hebt ontwikkeld of in apps van Microsoft en app-providers. De gegevens in CDS for Apps worden opgeslagen in een set standaardentiteiten en aangepaste entiteiten. Een entiteit is een set velden waarin gegevens worden opgeslagen, vergelijkbaar met een tabel in een database. Nadat uw gegevens zijn opgeslagen, kunt u Microsoft PowerApps gebruiken om uitgebreide toepassingen te bouwen die gebruikmaken van uw gegevens:
-
-* U kunt gebruikmaken van standaardentiteiten of aangepaste entiteiten maken ter ondersteuning van uw scenario en toepassing.
-* Rechtstreeks PowerApps en stromen maken voor CDS for Apps.
-* Voeg aangepaste velden en relaties toe aan standaardentiteiten waarbij aanvullende informatie nodig is.
-* Maak berekende en getotaliseerde velden voor uw entiteiten om te voorzien in consistente berekeningen in alle apps en analyses.
-* Definieer bedrijfsregels om voor gegevenskwaliteit binnen entiteiten te zorgen, ongeacht met welke app u uw gegevens opent of bewerkt.
-* Maak werkstromen en gebruik een integratie met Microsoft Flow om aanvullende acties en bedrijfsprocessen te bevorderen op basis van uw gegevens.
-* Aangepaste en standaardentiteiten onderbrengen in een app die u ontwikkelt, net zo eenvoudig als met gegevens in andere bronnen.
-* Maak verbinding met uw gegevens uit Microsoft Excel met invoegtoepassingen voor productiviteit van CDS for Apps.
-* Importeer en synchroniseer uw gegevens eenvoudig met Power Query.
-* De gegevens binnen uw organisatie beveiligen met op rollen gebaseerde beveiliging tegen aangepaste en standaardentiteiten.
-* Bied globale ondersteuning voor uw gegevens en toepassingen door gebruik te maken van vertalingen van entiteits- en veldnamen in de taal van uw gebruikers.
-
-Elke entiteit bevat een reeks records die gebruikers kunnen maken, lezen, bijwerken en verwijderen, afhankelijk van hun machtigingen. U kunt relaties tussen entiteiten maken, zodat u informatie in de ene entiteit kunt opzoeken op basis van een record in een andere entiteit. U kunt bijvoorbeeld een aangepaste entiteit maken om bij te houden welke evenementen een klant heeft bezocht. Door de Klant toe te voegen als zoekveld aan uw aangepaste entiteit, maakt u een relatie tussen de twee entiteiten, die u kunt gebruiken in uw app en rapportage.
-
-Zie [Prijzen](../../administrator/pricing-billing-skus.md) voor informatie over het aanschaffen van een abonnement voor het gebruik van CDS for Apps.
+Zie [Prijzen](../../administrator/pricing-billing-skus.md) voor informatie over het aanschaffen van een abonnement voor het gebruik van CDS voor apps.
 
 ## <a name="why-use-common-data-service-for-apps"></a>Waarom Common Data Service for Apps gebruiken?
-Zowel aangepaste als standaardentiteiten binnen de CDS for Apps bieden een veilige opslagoptie voor uw gegevens in de cloud. Met entiteiten kunt u een definitie van uw gegevens maken die is gericht op uw zakelijke activiteiten en die u binnen uw apps kunt gebruiken. Als u twijfelt over het gebruik van entiteiten, kijk dan eens naar de volgende voordelen:
+Standaardentiteiten en aangepaste entiteiten binnen CDS voor apps bieden een veilige opslagoptie voor uw gegevens in de cloud. Met entiteiten kunt u een definitie van de gegevens van uw organisatie maken die is gericht op uw zakelijke activiteiten en die u binnen apps kunt gebruiken. Als u twijfelt over het gebruik van entiteiten, kijk dan eens naar de volgende voordelen:
 
-* **Eenvoudig te beheren**: zowel de metagegevens als de gegevens worden opgeslagen in de cloud. U hoeft u geen zorgen te maken over de details of hoe de gegevens worden opgeslagen.
-* **Eenvoudig te delen**: de gegevens kunnen makkelijk met collega's worden gedeeld, omdat PowerApps de machtigingen beheert.
-* **Eenvoudig te beveiligen**: gegevens worden veilig opgeslagen, zodat gebruikers ze alleen kunnen bekijken als hun toegang wordt verleend. Met op rollen gebaseerde beveiliging kunt u de toegang tot entiteiten voor verschillende gebruikers binnen uw organisatie beheren.
-* **Uitgebreide metagegevens**: gegevenstypen en relaties worden rechtstreeks in PowerApps gebruikt. Door bijvoorbeeld een veldtype-URL te definiëren worden uw gegevens als een hyperlink in uw app gepresenteerd.
-* **Logica en validatie**: definieer berekende velden, bedrijfsregels, werkstromen en zakelijke processtromen om de kwaliteit van de gegevens te waarborgen en bedrijfsprocessen te bevorderen.
-* **Hulpprogramma's voor productiviteit**: entiteiten zijn beschikbaar binnen de invoegtoepassingen voor Microsoft Excel om de productiviteit te vergroten en ervoor te zorgen dat uw gegevens toegankelijk zijn.
-
-Als u een app ontwikkelt, kunt u standaardentiteiten en aangepaste entiteiten gebruiken, of beide. Als u met een standaardentiteit in uw app een bepaald doel kunt bereiken, dan kunt u beter deze gebruiken in plaats van dat u een aangepaste entiteit maakt die hetzelfde doet. Als u het doel bereikt door enkele wijzigingen aan de standaardentiteit aan te brengen, dan kunt u aan uw behoeften voldoen door velden toe te voegen.
-
-* Standaardentiteiten zijn standaard opgenomen in CDS for Apps. Deze zijn, overeenkomstig de aanbevolen procedures, ontworpen om de meest algemene concepten voor een organisatie te ondervangen, zoals contactpersonen, accounts en producten. Zie [Standaardentiteiten](data-platform-intro.md#standard-entities) voor een volledige lijst van entiteiten.
-* U kunt de functionaliteit van de standaardentiteiten uitbreiden door een of meer aangepaste entiteiten te maken voor het opslaan van informatie die uniek is voor uw organisatie. Zie [How to create a custom entity](create-custom-entity.md) (Een aangepaste entiteit maken) voor meer informatie.
-
-> [!NOTE]
-> Gebruik zoveel mogelijk standaardentiteiten (eventueel met aangepaste velden). Dit zorgt ervoor dat u in de toekomst kunt profiteren van nieuwe functies of apps die gebruikmaken van deze entiteiten.
+* **Eenvoudig te beheren** &ndash; zowel de metagegevens als de gegevens worden opgeslagen in de cloud. U hoeft u geen zorgen te maken over de details of hoe de gegevens worden opgeslagen.
+* **Eenvoudig te delen** &ndash; de gegevens kunnen makkelijk uw collega's worden gedeeld, omdat &mdash;PowerApps de machtigingen beheert.
+* **Eenvoudig te beveiligen** &ndash; gegevens worden veilig opgeslagen, zodat gebruikers ze alleen kunnen bekijken als hun toegang wordt verleend. Met op rollen gebaseerde beveiliging kunt u de toegang tot entiteiten voor verschillende gebruikers binnen uw organisatie beheren.
+* **Uitgebreide metagegevens** &ndash; gegevenstypen en relaties worden rechtstreeks in PowerApps gebruikt. Door bijvoorbeeld een veldtype-URL te definiëren worden uw gegevens als een hyperlink in uw app gepresenteerd.
+* **Logica en validatie** &ndash; definieer berekende velden, bedrijfsregels, werkstromen en zakelijke processtromen om de kwaliteit van de gegevens te waarborgen en bedrijfsprocessen te bevorderen.
+* **Hulpprogramma's voor productiviteit** &ndash; entiteiten zijn beschikbaar binnen de invoegtoepassingen voor Microsoft Excel om de productiviteit te vergroten en ervoor te zorgen dat uw gegevens toegankelijk zijn.
 
 ## <a name="interacting-with-entities"></a>Interactie met entiteiten
+Als u een app ontwikkelt, kunt u standaardentiteiten en aangepaste entiteiten gebruiken, of beide. Standaardentiteiten zijn standaard opgenomen in CDS for Apps. Deze zijn ontworpen conform de best practices om de meest algemene concepten en scenario's binnen een organisatie te ondervangen.
 
-Wanneer u een standaardentiteit gebruikt of een aangepaste entiteit maakt, zijn er in elk van beide meerdere elementen beschikbaar en kunnen verschillende acties worden uitgevoerd. Op basis van hoe eenvoudig of geavanceerd uw bedrijfsscenario is, kan worden bepaald welke functies u moet gebruiken. Als u de entiteiten wilt bekijken die beschikbaar zijn in uw omgeving, meldt u zich aan bij [PowerApps](https://web.powerapps.com) en klikt u in het menu links op Gegevens en vervolgens op Entiteiten.
+![Schermopname van een lijst met entiteiten. ](./media/data-platform-cds-intro/entitylist.png "Lijst met entiteiten")
 
-![Entiteitsgegevens](./media/data-platform-cds-intro/entitylist.png "Entiteitsgegevens")
+Zie [Referentie voor entiteiten](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/reference/about-entity-reference) voor een volledige lijst met entiteiten.
 
-* Met elk **veld** kunt u een stukje informatie definiëren dat u wilt verzamelen en het gegevenstype of de indeling waarmee u dit wilt weergeven. Velden zijn vergelijkbaar met kolommen in databases of Excel.
-* Via alternatieve **sleutels** kunt u efficiënt en nauwkeurig zoeken en communiceren met records in de entiteit wanneer niet de standaard unieke id wordt gebruikt. Dit is belangrijk wanneer u een bedrijfssleutel gebruikt of een integratie uitvoert met een extern systeem.
-* Elke entiteit kan meerdere **relaties** hebben met andere entiteiten ter ondersteuning van zoekopdrachten en query's binnen verschillende entiteiten. Relaties kunnen zo worden gemaakt dat deze ondersteuning bieden voor veel-op-een-relaties, een-op-veel-relaties en veel-op-veel-relaties.
-* Via **Weergaven** kan elke entiteit op verschillende manieren worden gepresenteerd, inclusief welke velden worden weergegeven, het filteren en sorteren van de gegevens. Deze presentaties worden opgeslagen als weergaven en kunnen in verschillende apps worden gebruikt. Mogelijk wilt u bijvoorbeeld alleen actieve accounts in uw app bekijken. Hiervoor gebruikt u een weergave die vooraf zo is gefilterd dat alleen actieve accounts worden weergegeven, om te voorkomen dat u dit filter bij elke gebruikte app opnieuw moet instellen.
-* **Bedrijfsregels** kunnen worden gebruikt voor het valideren van de gegevens die in entiteiten worden gemaakt en bijgewerkt om gegevenskwaliteit te waarborgen. Elke bedrijfsregel kan gegevens valideren op meerdere velden en entiteiten en waarschuwings- en foutberichten oproepen, ongeacht de app die wordt gebruikt voor het maken van de gegevens.
-* **Gegevens** die zijn opgeslagen in CDS for Apps, zijn beschikbaar via de PowerApps-portal, PowerApps, Microsoft Excel en web-API's voor ontwikkelaars.
-
-### <a name="system-fields"></a>Systeemvelden
-Alle entiteiten, of ze nu standaard of aangepast zijn, worden gemaakt met een set kant-en-klare velden die u niet kunt wijzigen, verwijderen of op een bepaalde waarde kunt instellen. Dit zijn de belangrijkste systeemvelden:
+U kunt de functionaliteit van de standaardentiteiten uitbreiden door een of meer aangepaste entiteiten te maken voor het opslaan van informatie die uniek is voor uw organisatie. Zie [How to create a custom entity](create-custom-entity.md) (Een aangepaste entiteit maken) voor meer informatie.
 
 ## <a name="logic-and-validation"></a>Logica en validatie
+Entiteiten in CDS voor apps kunnen gebruikmaken van uitgebreide logica en validatie aan de serverzijde om gegevenskwaliteit te waarborgen en herhalende code terug te brengen in elke app die gegevens binnen een entiteit maakt en gebruikt.
 
-Entiteiten in CDS for Apps kunnen gebruikmaken van uitgebreide logica en validatie aan de serverzijde om gegevenskwaliteit te waarborgen en herhalende code terug te brengen bij het maken van apps en gebruiken van gegevens in de entiteit.
-
-* **Bedrijfsregels** kunnen gegevens valideren op meerdere velden en entiteiten en waarschuwings- en foutberichten oproepen, ongeacht de app die wordt gebruikt voor het maken van de gegevens. Zie [Een bedrijfsregel maken](./data-platform-create-business-rule.md) voor meer informatie.
+* **Bedrijfsregels** worden gebruikt voor het valideren van gegevens in meerdere velden en entiteiten en bieden waarschuwings- en foutberichten, ongeacht de app die wordt gebruikt voor het maken van de gegevens. Zie [Een bedrijfsregel maken](./data-platform-create-business-rule.md) voor meer informatie.
 * **Zakelijke processtromen** bieden gebruikers begeleiding in het consistent invoeren van gegevens en het steeds weer volgen van dezelfde stappen. Zakelijke processtromen worden momenteel alleen ondersteund voor modelgestuurde apps. Zie [Overzicht zakelijke processtromen](/dynamics365/customer-engagement/customize/business-process-flows-overview) voor meer informatie.
-* Via **Werkstromen** kunt u bedrijfsprocessen automatiseren zonder interactie met de gebruiker. Zie [Overzicht van werkstromen](/dynamics365/customer-engagement/customize/workflow-processes) voor meer informatie.
-* **Bedrijfslogica met code** ondersteunt meer geavanceerde scenario's van ontwikkelaars bij het rechtstreeks uitbreiden van de toepassing via code. Zie [Bedrijfslogica toepassen met code](../../developer/common-data-service/apply-business-logic-with-code.md) voor meer informatie.
-
-## <a name="getting-data-into-common-data-service-for-apps"></a>Gegevens ophalen in Common Data Service for Apps
-
-Er zijn verschillende manieren om te beginnen met het ophalen van gegevens in CDS for Apps:
-
-* Maak een PowerApp of stroom om gegevens te maken.
-* Gebruik Power Query om verbinding te maken met een online- of on-premises gegevensbron en deze rechtstreeks in CDS for Apps te importeren. Met Power Query kunt u de entiteiten tevens maken tijdens het importeren op basis van het schema van de bron evenals transformaties uitvoeren op uw gegevens tijdens het importeren. Zie [Gegevens aan een entiteit in Common Data Service for Apps toevoegen met Power Query](./data-platform-cds-newentity-pq.md) voor meer informatie.
+* Via **werkstromen** kunt u bedrijfsprocessen automatiseren zonder gebruikersinteractie. Zie [Overzicht van werkstromen](/dynamics365/customer-engagement/customize/workflow-processes) voor meer informatie.
+* **Bedrijfslogica met code** biedt ondersteuning voor geavanceerde scenario's van ontwikkelaars bij het rechtstreeks uitbreiden van de toepassing via code. Zie [Bedrijfslogica toepassen met code](../../developer/common-data-service/apply-business-logic-with-code.md) voor meer informatie.
 
 ## <a name="developer-capabilities"></a>Mogelijkheden voor ontwikkelaars
-
 Naast de functies die beschikbaar zijn via de [PowerApps](https://web.powerapps.com)-portal, bevat CDS for Apps ook functies voor ontwikkelaars om programmatisch toegang te krijgen tot metagegevens en gegevens voor het maken van entiteiten en zakelijke logica, evenals interactie met gegevens. Zie [Overzicht van Common Data Service for Apps voor ontwikkelaars](../../developer/common-data-service/overview.md) voor meer informatie
 
-## <a name="get-started"></a>Aan de slag
-Als u het wilt uitproberen, kunt u een app te maken met een standaardentiteit of een [aangepaste entiteit maken](create-custom-entity.md), en vervolgens [een app maken die gebruikmaakt van die entiteit](../canvas-apps/data-platform-create-app.md).
+## <a name="next-steps"></a>Volgende stappen
+U gaat als volgt aan de slag met behulp van CDS voor apps:
+* [Maak een app met behulp van een Common Data Service-database](../canvas-apps/data-platform-create-app-scratch.md).
+* [Maak een aangepaste entiteit](create-custom-entity.md) en [maak daarna een app die gebruikmaakt van die entiteit](../canvas-apps/data-platform-create-app.md).
+* [Gebruik Power Query](./data-platform-cds-newentity-pq.md) om verbinding te maken met een online- of on-premises gegevensbron en importeer de gegevens rechtstreeks in CDS voor apps.
 
 ## <a name="privacy-notice"></a>Privacyverklaring
-Met Common Data Model van Microsoft PowerApps worden aangepaste entiteits- en veldnamen in onze diagnostische systemen verzameld en bewaard.  We gebruiken die kennis om Common Data Model voor onze klanten te verbeteren. De entiteits- en veldnamen die u maakt, geven ons inzicht in veelgebruikte scenario's binnen de Microsoft PowerApps-community. Met behulp daarvan kunnen we bepalen wat er ontbreekt bij de standaardentiteiten van de service, zoals schema's voor organisaties. De gegevens in de databasetabellen die aan deze entiteiten zijn gekoppeld, zijn niet toegankelijk voor en worden niet gebruikt door Microsoft. Ook worden de gegevens niet gerepliceerd buiten de regio waarin de database is ingericht. De aangepaste entiteits- en veldnamen worden echter mogelijk wel gerepliceerd in andere regio's. Ze worden verwijderd in overeenstemming met ons bewaarbeleid voor gegevens. Microsoft hecht veel waarde aan uw privacy, zoals beschreven in ons [Vertrouwenscentrum](https://www.microsoft.com/trustcenter/Privacy/default.aspx).
+Met Common Data Model van Microsoft PowerApps worden aangepaste entiteits- en veldnamen in onze diagnostische systemen verzameld en bewaard. We gebruiken die kennis om Common Data Model voor onze klanten te verbeteren. De entiteits- en veldnamen die door app-makers worden gemaakt, geven ons inzicht in veelgebruikte scenario's binnen de Microsoft PowerApps-community. Met behulp daarvan kunnen we bepalen wat er ontbreekt bij de standaardentiteiten van de service, zoals schema's voor organisaties. De gegevens in de databasetabellen die aan deze entiteiten zijn gekoppeld, zijn niet toegankelijk voor en worden niet gebruikt door Microsoft. Ook worden de gegevens niet gerepliceerd buiten de regio waarin de database is ingericht. De aangepaste entiteits- en veldnamen worden echter mogelijk wel gerepliceerd in andere regio's. Ze worden verwijderd in overeenstemming met ons bewaarbeleid voor gegevens. Microsoft hecht veel waarde aan uw privacy, zoals beschreven in ons [Vertrouwenscentrum](https://www.microsoft.com/trustcenter/Privacy/default.aspx).
