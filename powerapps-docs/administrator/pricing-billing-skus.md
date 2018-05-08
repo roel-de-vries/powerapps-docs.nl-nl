@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/24/2018
 ms.author: jamesol
-ms.openlocfilehash: e74f75df09c22bd37e5459ec720324faf061e2e9
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 5fb57b7e790d22a4b055b073c7d60e1d65a69b81
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="licensing-overview"></a>Licentieoverzicht
 PowerApps wordt gelicentieerd op gebruikersbasis. Elke gebruiker die toegang heeft tot de service voor het maken en uitvoeren van apps, heeft een licentie nodig. Office 365- en Dynamics 365-klanten kunnen onmiddellijk profiteren van de mogelijkheden van PowerApps en Microsoft Flow die deze aanbiedingen omvatten. Klanten die apps en stromen willen maken die toegang nodig hebben tot gegevensbronnen buiten Office 365 en Dynamics 365, of die aanvullende functionaliteit nodig hebben, kunnen een zelfstandig abonnement voor PowerApps en Flow Microsoft aanschaffen. Er zijn belangrijke verschillen in de functionaliteit tussen deze groepen met licenties.
@@ -35,7 +35,7 @@ Met de PowerApps-mogelijkheden voor Office 365 en Dynamics 365 kunnen gebruikers
 |  | Opgenomen abonnementen |
 | --- | --- |
 | Welke Microsoft Office 365-abonnementen bevatten PowerApps? |Deze abonnementen bevatten PowerApps voor Office 365: <br><br>Office 365 Business Essentials <br>Office 365 Business Premium <br>Office 365 Education <br>Office 365 Education Plus <br>Office 365 Enterprise E1 <br>Office 365 Enterprise E3 <br>Office 365 Enterprise E5<br><br>*Office 365 Enterprise E2 bevat dezelfde mogelijkheden als Office 365 Enterprise E1, en Office 365 Enterprise E4 bevat dezelfde mogelijkheden als Office 365 Enterprise E3.*<br><br>Office 365 Enterprise F1 bevat PowerApps voor Office 365 Enterprise F1. |
-| Welke Microsoft Dynamics 365-apps en ‑abonnementen bevatten PowerApps? |Deze apps bevatten PowerApps voor Dynamics 365:<br><br>Dynamics 365 for Sales, Enterprise edition <br>Dynamics 365 for Customer Service, Enterprise edition <br>Dynamics 365 for Operations, Enterprise edition <br>Dynamics 365 for Field Service, Enterprise edition <br>Dynamics 365 for Project Service Automation, Enterprise edition <br>Dynamics 365 for Team Members, Enterprise edition <br>Dynamics 365 for Financials, Business edition <br>Dynamics 365 for Team Members, Business edition <br>Dynamics 365 for Talent, Enterprise edition <br>Dynamics 365 for Retail, Enterprise edition <br><br>Deze abonnementen bevatten PowerApps-abonnement 2:<br><br>Dynamics 365, Enterprise Edition, abonnement 1<br>Dynamics 365, Enterprise Edition, abonnement 2 <br><br>*PowerApps voor Dynamics 365 is ook opgenomen in bestaande CRM Online Enterprise-, Professional-, Basic- en Essential-abonnementen.* |
+| Welke Microsoft Dynamics 365-apps en ‑abonnementen bevatten PowerApps? |Deze apps bevatten PowerApps voor Dynamics 365:<br><br>Dynamics 365 for Team Members, Enterprise Edition <br>Dynamics 365 for Financials, Business Edition <br>Dynamics 365 for Team Members, Business Edition<br>Dynamics 365 for Talent <br><br>Deze abonnementen bevatten PowerApps-abonnement 2:<br><br>Dynamics 365 Customer Engagement Plan, Enterprise Edition<br>Dynamics 365 Plan, Enterprise Edition <br>Dynamics 365 for Sales, Enterprise Edition <br>Dynamics 365 for Customer Service, Enterprise Edition<br>Dynamics 365 for Case Management, Enterprise Edition <br>Dynamics 365 for Operations, Enterprise Edition <br>Dynamics 365 for Field Service, Enterprise Edition <br>Dynamics 365 for Project Service Automation, Enterprise Edition<br>Verkoopoplossingen voor Microsoft-relaties <br><br>*PowerApps voor Dynamics 365 is ook opgenomen in de abonnementen Dynamics CRM Online Enterprise, Professional, Basic en Essential.* |
 
 ### <a name="powerapps-for-office-365-enterprise-f1"></a>PowerApps voor Office 365 Enterprise F1
 PowerApps is opgenomen in Office 365 Enterprise F1, waarmee gebruikers apps kunnen uitvoeren en werkstromen kunnen automatiseren. Gebruikers kunnen echter geen apps maken met dit abonnement (zoals dat kan met abonnementen zoals Office 365 E1, E3 en E5). Deze tabel bevat specifieke informatie over wat gebruikers kunnen doen met PowerApps voor Office 365 Enterprise F1:

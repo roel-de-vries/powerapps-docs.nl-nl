@@ -7,11 +7,11 @@ ms.topic: tutorial
 ms.component: canvas
 ms.date: 04/24/2018
 ms.author: anneta
-ms.openlocfilehash: 6206d520e8bb07c0919f482700c1af861e41109d
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 3138969cc51d0d0964692d4c53101b6a145ba1cf
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>Zelfstudie: Een galerie aanpassen in PowerApps
 In deze zelfstudie past u de galerie aan en brengt u andere wijzigingen aan in een app die automatisch is gegenereerd in Microsoft PowerApps. Gebruikers kunnen gegevens in de app beheren, zelfs als u deze wijzigingen niet aanbrengt. De app wordt echter eenvoudiger in gebruik als u deze aanpast aan de behoeften van uw organisatie:
@@ -28,7 +28,7 @@ Deze zelfstudie begint met een app die is gegenereerd op basis van een specifiek
 Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../signup-for-powerapps.md).
 
 ## <a name="prerequisites"></a>Vereisten
-U kunt dit onderwerp raadplegen voor alleen algemene concepten of u kunt elke stap uitvoeren als u [deze app voor de eerste keer genereert](data-platform-create-app.md).
+[Genereer een app](data-platform-create-app.md) vanuit de entiteit **Accounts** van de Common Data Service (CDS) voor apps.
 
 ## <a name="open-the-generated-app"></a>De gegenereerde app openen
 1. Meld u aan bij [PowerApps](https://web.powerapps.com) en selecteer bij de linkerrand **Apps**.
