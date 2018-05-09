@@ -1,25 +1,22 @@
 ---
 title: Kleur- en randeigenschappen | Microsoft Docs
 description: Naslaginformatie over eigenschappen zoals BorderColor, HoverBorderColor en PressedBorderColor
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 913e9b78445db03fbd59fedbdd0bf9d992175bf1
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 5c30d0c96d3d6ad8eee0781a6c209419ba70c860
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="color-and-border-properties-in-powerapps"></a>Kleur- en randeigenschappen in PowerApps
 ## <a name="overview"></a>Overzicht
@@ -48,12 +45,17 @@ Deze eigenschappen zijn normaal van kracht, wanneer de gebruiker niets met het b
 
 * Is van toepassing op de besturingselementen **[Afbeelding toevoegen](control-add-picture.md)**, **[Audio](control-audio-video.md)**, **[Knop](control-button.md)**, **[Kaart](control-card.md)**, **[Selectievakje](control-check-box.md)**, **[Datumkiezer](control-date-picker.md)**, **[Weergaveformulier](control-form-detail.md)**, **[Vervolgkeuzelijst](control-drop-down.md)**, **[Bewerkingsformulier](control-form-detail.md)**, **[Exporteren](control-export-import.md)**, **[Galerie](control-gallery.md)**, **[HTML-tekst](control-html-text.md)**, **[Pictogram](control-shapes-icons.md)**, **[Afbeelding](control-image.md)**, **[Importeren](control-export-import.md)**, **[Label](control-text-box.md)**, **[Keuzelijst](control-list-box.md)**, **[Microfoon](control-microphone.md)**, **[PDF-viewer](control-pdf-viewer.md)**, **[Peninvoer](control-pen-input.md)**, **[Keuzerondje](control-radio.md)**, **[Waardering](control-rating.md)**, **[Scherm](control-screen.md)**, **[Vorm](control-shapes-icons.md)**, **[Tekstinvoer](control-text-input.md)**, **[Timer](control-timer.md)**, **[Wisselknop](control-toggle.md)** en **[Video](control-audio-video.md)**.
 
-**FocusedBorderThickness**: de dikte van de rand van een besturingselement met toetsenbordfocus.
+## <a name="focused"></a>Met focus
+Deze eigenschappen worden van kracht wanneer het besturingselement de focus heeft.
 
-* Is van toepassing op de besturingselementen **[Afbeelding toevoegen](control-add-picture.md)**, **[Audio](control-audio-video.md)**, **[Knop](control-button.md)**, **[Kaart](control-card.md)**, **[Selectievakje](control-check-box.md)**, **[Datumkiezer](control-date-picker.md)**, **[Weergaveformulier](control-form-detail.md)**, **[Vervolgkeuzelijst](control-drop-down.md)**, **[Bewerkingsformulier](control-form-detail.md)**, **[Exporteren](control-export-import.md)**, **[Galerie](control-gallery.md)**, **[HTML-tekst](control-html-text.md)**, **[Pictogram](control-shapes-icons.md)**, **[Afbeelding](control-image.md)**, **[Importeren](control-export-import.md)**, **[Label](control-text-box.md)**, **[Keuzelijst](control-list-box.md)**, **[Microfoon](control-microphone.md)**, **[PDF-viewer](control-pdf-viewer.md)**, **[Peninvoer](control-pen-input.md)**, **[Keuzerondje](control-radio.md)**, **[Waardering](control-rating.md)**, **[Scherm](control-screen.md)**, **[Vorm](control-shapes-icons.md)**, **[Tekstinvoer](control-text-input.md)**, **[Wisselknop](control-toggle.md)** en**[Video](control-audio-video.md)**.
+**FocusedBorderColor**: de kleur van de rand van een besturingselement wanneer het de focus heeft.
+
+**FocusedBorderThickness**: de dikte van de rand van een besturingselement wanneer het de focus heeft.
+
+* Deze eigenschappen zijn van toepassing op de besturingselementen **[Afbeelding toevoegen](control-add-picture.md)**, **[Bijlagen](control-attachments.md)**, **[Audio](control-audio-video.md)**, **[Knop](control-button.md)**, **[Camera](control-camera.md)**, **[Selectievakje](control-check-box.md)**, **[Keuzelijst met invoervak](control-combo-box.md)**, **[Datumkiezer](control-date-picker.md)**, **[Vervolgkeuzelijst](control-drop-down.md)**, **[Exporteren](control-export-import.md)**, **[Galerie](control-gallery.md)**, **[Pictogram](control-shapes-icons.md)**, **[Afbeelding](control-image.md)**, **[Importeren](control-export-import.md)**, **[Label](control-text-box.md)**, **[Keuzelijst](control-list-box.md)**, **[Microfoon](control-microphone.md)**, **[Radio](control-radio.md)**, **[Waardering](control-rating.md)**, **[Vorm](control-shapes-icons.md)**, **[Schuifregelaar](control-slider.md)**, **[Tekstinvoer](control-text-input.md)**, **[Timer](control-timer.md)**, **[Wisselknop](control-toggle.md)** en **[Video](control-audio-video.md)**.
 
 ## <a name="disabled"></a>Uitgeschakeld
-Deze eigenschappen worden van kracht wanneer de besturingselementen zijn uitgeschakeld.  Een besturingselement kan worden uitgeschakeld als eigenschap **[Disabled](properties-core.md)** wordt ingesteld op *true*.
+Deze eigenschappen worden van kracht wanneer het besturingselementen is uitgeschakeld.  Een besturingselement kan worden uitgeschakeld als eigenschap **[Disabled](properties-core.md)** wordt ingesteld op *true*.
 
 **DisabledBorderColor**: de kleur van de rand van een besturingselement als de eigenschap **[DisplayMode](properties-core.md)** is ingesteld op **Uitgeschakeld**.
 

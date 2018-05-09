@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselement voor kaart: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Kaart
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: e85b7ce4c51e693d566fb50b51be48f9ab3edadd
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 7d44ba120a68d08f5779b8383df5b2263f228438
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="card-control-in-powerapps"></a>Besturingselement voor kaart in PowerApps
 Gebruik dit besturingselement voor het weergeven en bewerken van één veld van een besturingselement **[Formulier weergeven](control-form-detail.md)** of **[Formulier bewerken](control-form-detail.md)**.
@@ -101,3 +98,11 @@ Zie [Informatie over gegevenskaarten](../working-with-cards.md) voor voorbeelden
 ## <a name="examples"></a>Voorbeelden
 Zie [Gegevenskaarten begrijpen](../working-with-cards.md) en [De indeling van een gegevensformulier begrijpen](../working-with-form-layout.md) voor voorbeelden.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* **[Fill](properties-color-border.md)**  en eventuele onderliggende besturingselementen. Als een kaart bijvoorbeeld een **[Label](control-text-box.md)** bevat en het label een transparante opvulling heeft, wordt de **[Fill](properties-color-border.md)** van de kaart effectief de achtergrondkleur voor het label. Er moet daarom voldoende contrast zijn tussen de **[Fill](properties-color-border.md)** van de kaart en de **[Color](properties-color-border.md)** van het label.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **DisplayName** moet aanwezig zijn.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: f2605680c7b6e8f7102fd3459230344863a93f55
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: cea6eca66bc5945004da85d32a57239d28e4302e
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="date-picker-control-in-powerapps"></a>Besturingselement voor datumkiezer in PowerApps
 Een besturingselement waarop de gebruiker kan klikken of tikken om een datum op te geven.
@@ -40,13 +40,13 @@ Als u een besturingselement **Datumkiezer** toevoegt in plaats van een besturing
 **Language**: bepaalt de taal die wordt gebruikt voor de indeling van datums, waaronder de namen van maanden. Als deze eigenschap niet is opgegeven, bepaalt de apparaatinstelling van de gebruiker de taal.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers.
+
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
 
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
 
 **[BorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement.
-
-**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer deze de toetsenbordfocus heeft.
 
 **[Color](properties-color-border.md)**: de kleur van de tekst in een besturingselement.
 
@@ -61,6 +61,10 @@ Als u een besturingselement **Datumkiezer** toevoegt in plaats van een besturing
 **EndYear**: het laatste jaar waarop de gebruiker de waarde van een datumkiezer kan instellen.
 
 **[Fill](properties-color-border.md)**: de achtergrondkleur van een besturingselement.
+
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
 
 **[Font](properties-text.md)**: de naam van de lettertypefamilie waarin de tekst wordt weergegeven.
 
@@ -84,7 +88,7 @@ Als u een besturingselement **Datumkiezer** toevoegt in plaats van een besturing
 
 **StartYear**: het eerste jaar waarop de gebruiker de waarde van een datumkiezer kan instellen.
 
-**[TabIndex](properties-accessibility.md)**: past de tabvolgorde van besturingselementen tijdens runtime aan wanneer hier een andere waarde dan nul is ingesteld.
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **[Visible](properties-core.md)**: hiermee wordt aangegeven of een besturingselement zichtbaar of verborgen is.
 
@@ -110,3 +114,15 @@ Als u een besturingselement **Datumkiezer** toevoegt in plaats van een besturing
     In het besturingselement **[Label](control-text-box.md)** wordt het aantal dagen weergegeven tussen vandaag en de datum die u hebt gekozen.
 4. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+* De standaardvereisten voor kleurcontrast zijn van toepassing.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+* De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
+ 

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 71f3493064e7b877a501f9b91f93adedb0c68f6a
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: d68e0e08b42bf0342e27c14ab7d53c746c468992
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="list-box-control-in-powerapps"></a>Besturingselement voor keuzelijst in PowerApps
 Een lijst waarin de gebruiker een of meer items kan selecteren.
@@ -35,13 +35,13 @@ Een besturingselement **Keuzelijst** toont altijd alle beschikbare opties (in te
 [!INCLUDE [long-items](../../../includes/long-items.md)]
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers.
+
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
 
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
 
 **[BorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement.
-
-**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer deze de toetsenbordfocus heeft.
 
 **[Color](properties-color-border.md)**: de kleur van de tekst in een besturingselement.
 
@@ -54,6 +54,10 @@ Een besturingselement **Keuzelijst** toont altijd alle beschikbare opties (in te
 **[DisabledFill](properties-color-border.md)**: de achtergrondkleur van een besturingselement als de eigenschap **[DisplayMode](properties-core.md)** is ingesteld op **Uitgeschakeld**.
 
 **[Fill](properties-color-border.md)**: de achtergrondkleur van een besturingselement.
+
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
 
 **[Font](properties-text.md)**: de naam van de lettertypefamilie waarin de tekst wordt weergegeven.
 
@@ -103,7 +107,7 @@ Een besturingselement **Keuzelijst** toont altijd alle beschikbare opties (in te
 
 **[Strikethrough](properties-text.md)**: hiermee wordt aangegeven of een streep door de tekst van een besturingselement wordt weergegeven.
 
-**[TabIndex](properties-accessibility.md)**: past de tabvolgorde van besturingselementen tijdens runtime aan wanneer hier een andere waarde dan nul is ingesteld.
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **[Tooltip](properties-core.md)**: beschrijvende tekst die wordt weergegeven wanneer de gebruiker een besturingselement aanwijst.
 
@@ -149,3 +153,22 @@ Een besturingselement **Keuzelijst** toont altijd alle beschikbare opties (in te
     ![Namen van vloermateriaal in vervolgkeuzelijsten](./media/control-list-box/selected-lists.png)
 6. (Optioneel) Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* **SelectionColor** en **SelectionFill**
+* **SelectionFill** en **[Fill](properties-color-border.md)**
+* **[HoverFill](properties-color-border.md)** en **[Fill](properties-color-border.md)**
+* **[PressedFill](properties-color-border.md)** en **[Fill](properties-color-border.md)**
+
+Dit komt bovenop de standaardvereisten voor kleurcontrast.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+* De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
+> [!NOTE]
+> Met de tab-toets navigeert u naar de **Keuzelijst** of ervan weg. Met de pijltoetsen navigeert u door de inhoud van de **Keuzelijst**.

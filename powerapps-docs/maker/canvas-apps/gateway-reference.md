@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/20/2017
 ms.author: anneta
-ms.openlocfilehash: 77e47b79ece6149f7d9068fc4092e09fbdca77d2
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 2c754fa8e479494ae1002e5339d2d8d5eeb2480f
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-powerapps"></a>Informatie over on-premises gegevensgateways voor Microsoft PowerApps
 ## <a name="installation-and-configuration"></a>Installatie en configuratie
@@ -138,6 +138,10 @@ De on-premises gegevensgateway is zo geconfigureerd dat *NT SERVICE\PBIEgwServic
 Dit is niet het account dat wordt gebruikt om verbinding te maken met on-premises gegevensbronnen of het werk- of schoolaccount waarmee u zich aanmeldt bij cloudservices.
 
 Als u problemen ondervindt met uw proxyserver vanwege de verificatie, kunt u het Windows-serviceaccount wijzigen in het account van een domeingebruiker of een beheerde service zoals in de [proxyconfiguratie](https://docs.microsoft.com/power-bi/service-gateway-proxy#changing-the-gateway-service-account-to-a-domain-user) wordt beschreven.
+
+## <a name="tenant-level-administration"></a>Beheer op tenantniveau 
+
+Er is momenteel geen enkele locatie waar tenantbeheerders alle gateways kunnen beheren die andere gebruikers hebben geïnstalleerd en geconfigureerd.  Als u een tenantbeheerder bent, wordt u aangeraden de gebruikers in uw organisatie te vragen u als beheerder toe te voegen aan elke gateway die ze installeren. Hiermee kunt u alle gateways in uw organisatie beheren via de pagina Gateway-instellingen of via [PowerShell-opdrachten](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters).
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 #### <a name="general"></a>Algemeen

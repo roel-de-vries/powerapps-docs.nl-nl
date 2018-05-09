@@ -1,7 +1,6 @@
 ---
 title: Reageren op AVG-aanvragen voor het verwijderen van klantgegevens | Microsoft Docs
-description: Reageren op AVG-aanvragen voor het verwijderen van klantgegevens
-services: powerapps
+description: Instructies voor het reageren op AVG-aanvragen voor het verwijderen van PowerApps-gegevens van de klant
 suite: powerapps
 documentationcenter: na
 author: jamesol-msft
@@ -13,23 +12,23 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/17/2018
+ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 67e1ad0056f80b892343506ec9a89845e0bca05e
-ms.sourcegitcommit: e3a2819c14ad67cc4ca6640b9064550d0f553d8f
+ms.openlocfilehash: e4f555416aadb90d882717072f614ccb958fa733
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="responding-to-delete-data-subject-rights-dsr-requests-for-customer-data-in-powerapps"></a>Reageren op AVG-aanvragen voor het verwijderen van klantgegevens in PowerApps
+# <a name="responding-to-data-subject-rights-dsr-requests-to-delete-powerapps-customer-data"></a>Reageren op AVG-aanvragen voor het verwijderen van PowerApps-gegevens van de klant
 
-Het ‘recht op wissing’ door het verwijderen van persoonlijke gegevens uit de klantgegevens van een organisatie, is een belangrijke beschermingsmaatregel in de Algemene verordening gegevensbescherming (AVG). Het verwijderen van persoonlijke gegevens omvat het verwijderen van door het systeem gegenereerde logboeken, maar niet gegevens uit auditlogboeken.
+Het ‘recht op wissing’ door het verwijderen van persoonlijke gegevens uit de klantgegevens van een organisatie, is een belangrijke beschermingsmaatregel in de Algemene verordening gegevensbescherming (AVG) van de Europese Unie (EU). Het verwijderen van persoonlijke gegevens omvat het verwijderen van door het systeem gegenereerde logboeken, maar niet gegevens uit auditlogboeken.
 
 Met PowerApps kunnen gebruikers Line-Of-Business-toepassingen ontwikkelen die een belangrijk onderdeel vormen van de dagelijkse bewerkingen van uw organisatie. Wanneer een gebruiker uw organisatie verlaat, moet u handmatig controleren en bepalen of bepaalde gegevens en resources die de gebruiker heeft gemaakt, moeten worden verwijderd. Andere persoonlijke gegevens worden automatisch verwijderd wanneer het account van de gebruiker wordt verwijderd uit Azure Active Directory.
 
 Hieronder is uitgesplitst welke persoonlijke gegevens automatisch worden verwijderd en welke gegevens u handmatig moet controleren en verwijderen:
 
-Moet handmatig worden gecontroleerd en verwijderen |   Wordt automatisch verwijderd wanneer de gebruiker wordt verwijderd uit Azure Active Directory.
+Moet handmatig worden gecontroleerd en verwijderen |   Wordt automatisch verwijderd wanneer de gebruiker wordt verwijderd uit Azure Active Directory
 --- | ---
 Omgeving\** | Gateway
 Omgevingsmachtigingen\*** | Gateway-machtigingen
@@ -42,50 +41,53 @@ Machtigingen voor aangepaste connector |
 
 \** Elk van deze resources bevat records Gemaakt door- en Gewijzigd door-records die persoonlijke gegevens bevatten. Uit veiligheidsoverwegingen wordt deze records bewaard totdat de resource wordt verwijderd.
 
-\*** Voor omgevingen met een CDS for Apps-database (Common Data Service), worden omgevingsmachtigingen (dat wil zeggen, welke gebruikers zijn toegewezen aan de rollen Omgevingsmaker en Omgevingsbeheerder) opgeslagen als records in die database. Zie [Executing DSRs against Common Data Service Customer Data](https://go.microsoft.com/fwlink/?linkid=872251) (AGV-aanvragen uitvoeren voor klantgegevens in Common Data Service) voor instructies over het reageren op AVG-aanvragen voor gebruikers van CDS for Apps.
+\*** Voor omgevingen met een CDS for Apps-database (Common Data Service), worden omgevingsmachtigingen (dat wil zeggen, welke gebruikers zijn toegewezen aan de rollen Omgevingsmaker en Omgevingsbeheerder) opgeslagen als records in die database. Zie [Responding to Data Subject Rights (DSR) requests for Common Data Service for Apps customer data](common-data-service-gdpr-dsr-guide.md) (Reageren op AVG-aanvragen voor Common Data Service for Apps-gegevens van de klant) voor instructies over het reageren op AVG-aanvragen van gebruikers die CDS for Apps gebruiken.
 
 Voor de gegevens en resources waarvoor handmatige controle vereist is, biedt PowerApps de volgende ervaringen voor het opnieuw toewijzen (indien van toepassing) of verwijderen van persoonlijke gegevens voor een specifieke gebruiker:
 
-- Website-toegang: [PowerApps-site](https://web.powerapps.com), [PowerApps-beheercentrum](https://admin.powerapps.com/) en [Office 365 Trust Portal](https://servicetrust.microsoft.com/)
-- PowerShell-toegang: PowerApps-cmdlets voor [app-ontwikkelaars](https://go.microsoft.com/fwlink/?linkid=871448) en [beheerders](https://go.microsoft.com/fwlink/?linkid=871804) en cmdlets voor [on-premises gateways](https://go.microsoft.com/fwlink/?linkid=872238).
+* Website-toegang: [PowerApps-site](https://web.powerapps.com), [PowerApps-beheercentrum](https://admin.powerapps.com/) en [Office 365 Trust Portal](https://servicetrust.microsoft.com/)
+
+* PowerShell-toegang: PowerApps-cmdlets voor [app-ontwikkelaars](https://go.microsoft.com/fwlink/?linkid=871448) en [beheerders](https://go.microsoft.com/fwlink/?linkid=871804) en cmdlets voor [on-premises gateways](https://go.microsoft.com/fwlink/?linkid=872238).
+
 Hieronder is uitgesplitst welke ervaringen beschikbaar zijn voor het verwijderen van elk type resource dat persoonlijke gegevens bevat:
 
 Resources met persoonlijke gegevens | Website-toegang | PowerShell-toegang
 --- | --- | ---
 Omgeving | PowerApps-beheercentrum |  PowerApps-cmdlets
 Omgevingsmachtigingen**   | PowerApps-beheercentrum | PowerApps-cmdlets
-Canvas-app  | PowerApps-beheercentrum <br> PowerApps-site| PowerApps-cmdlets
+Canvas-app  | PowerApps-beheercentrum <br> PowerApps| PowerApps-cmdlets
 Machtigingen voor canvas-apps  | PowerApps-beheercentrum | PowerApps-cmdlets
 Verbinding | | App-ontwikkelaar: beschikbaar <br> Beheerder: in ontwikkeling
 Verbindingsmachtigingen | | App-ontwikkelaar: beschikbaar <br> Beheerder: in ontwikkeling
 Aangepaste connector | | App-ontwikkelaar: beschikbaar <br> Beheerder: in ontwikkeling
 Machtigingen voor aangepaste connector | | App-ontwikkelaar: beschikbaar <br> Beheerder: in ontwikkeling
 
-\***Als er, na de introductie van de CDS for Apps, een database wordt gemaakt binnen de omgeving, worden omgevingsmachtigingen en machtigingen voor modelgestuurde apps opgeslagen als records in de instantie van die database. Zie [Executing DSRs against Common Data Service Customer Data](https://go.microsoft.com/fwlink/?linkid=872251) (AGV-aanvragen uitvoeren voor klantgegevens in Common Data Service) voor instructies over het reageren op AVG-aanvragen voor gebruikers van CDS for Apps.
+\***Als er, na de introductie van de CDS for Apps, een database wordt gemaakt binnen de omgeving, worden omgevingsmachtigingen en machtigingen voor modelgestuurde apps opgeslagen als records in de instantie van die database. Zie [Responding to Data Subject Rights (DSR) requests for Common Data Service for Apps customer data](common-data-service-gdpr-dsr-guide.md) (Reageren op AVG-aanvragen voor Common Data Service for Apps-gegevens van de klant) voor instructies over het reageren op AVG-aanvragen van gebruikers die CDS for Apps gebruiken.
 
 ## <a name="prerequisites"></a>Vereisten
 
 ### <a name="for-users"></a>Voor gebruikers
-Elke gebruiker met een geldige PowerApps-licentie kan de in dit document beschreven gebruikersbewerkingen uitvoeren met de [PowerApps-site](https://web.powerapps.com) of [PowerShell-cmdlets voor app-ontwikkelaars](https://go.microsoft.com/fwlink/?linkid=871448).
+Elke gebruiker met een geldige PowerApps-licentie kan de in dit document beschreven gebruikersbewerkingen uitvoeren met [PowerApps](https://web.powerapps.com) of de [PowerShell-cmdlets voor app-ontwikkelaars](https://go.microsoft.com/fwlink/?linkid=871448).
 
 ### <a name="for-administrators"></a>Voor beheerders
-Als u met het [PowerApps-beheercentrum](https://admin.powerapps.com/), het Microsoft Flow-beheercentrum of [PowerShell-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804) de beheerbewerkingen wilt uitvoeren die in dit document worden beschreven, hebt u een account met de beide volgende machtigingen nodig:
+Als u met het [PowerApps-beheercentrum](https://admin.powerapps.com/), het Microsoft Flow-beheercentrum of [PowerShell-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804) de beheerbewerkingen wilt uitvoeren die in dit document worden beschreven, hebt u het volgende nodig:
 
-- Een betaalde licentie of en proeflicentie voor PowerApps-abonnement 2. U kunt zich [aanmelden voor een proeflicentie](http://web.powerapps.com/trial) en deze 30 dagen vernieuwen.
-- [Globale beheerder voor Office 365](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504)- of [globale beheerder Azure voor Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)-machtigingen zijn tevens vereist als u in de resources van een andere gebruiker wilt zoeken. Anders hebt u alleen toegang tot de omgevingen en omgevingsresources waarin u Omgevingsbeheerdersmachtigingen hebt.
+* Een betaalde PowerApps-abonnement 2-licentie of een PowerApps-abonnement 2-evaluatielicentie. U kunt zich aanmelden voor een 30-daagse evaluatielicentie op [http://web.powerapps.com/trial](http://web.powerapps.com/trial). Evaluatielicenties kunnen worden vernieuwd als ze zijn verlopen.
+
+* [Globale beheerder voor Office 365](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504)- of [globale beheerder Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)-machtigingen als u in de resources van een andere gebruiker wilt zoeken. (Let op: omgevingsbeheerders hebben alleen toegang tot de omgevingen en omgevingsresources waarvoor ze machtigingen hebben.)
 
 ## <a name="step-1-delete-or-reassign-all-environments-created-by-the-user"></a>Stap 1: alle door de gebruiker gemaakte omgevingen verwijderen of opnieuw toewijzen
 Als beheerder moet u twee beslissingen nemen bij het verwerken van een AVG-aanvraag voor het verwijderen van gegevens voor elke omgeving die de gebruiker heeft gemaakt:
 
-1.  Als u vaststelt dat de omgeving niet wordt gebruikt door iemand anders in uw organisatie, kunt u besluiten de omgeving te verwijderen.
+1. Als u vaststelt dat de omgeving niet wordt gebruikt door iemand anders in uw organisatie, kunt u besluiten de omgeving te verwijderen.
 
-2.  Als u vaststelt dat de omgeving nog vereist is, kunt u besluiten de omgeving niet te verwijderen en uzelf (of een andere gebruiker in uw organisatie) toe te voegen als een Omgevingsbeheerder.
+2. Als u vaststelt dat de omgeving nog vereist is, kunt u besluiten de omgeving niet te verwijderen en uzelf (of een andere gebruiker in uw organisatie) toe te voegen als een Omgevingsbeheerder.
 
 > [!IMPORTANT]
 > Als u een omgeving verwijdert, worden alle resources in de omgeving definitief verwijderd, inclusief alle apps, flows, verbindingen, enzovoort. Controleer daarom de inhoud van de omgeving voordat u deze verwijdert.
 
 ### <a name="give-access-to-a-users-environments-from-the-powerapps-admin-center"></a>Toegang verlenen tot de omgevingen van een gebruiker vanuit het PowerApps-beheercentrum
-Een beheerder kan beheerderstoegang verlenen tot een omgeving die door een specifieke gebruiker zijn gemaakt vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) door de volgende stappen te volgen:
+Een beheerder kan beheerderstoegang verlenen tot een omgeving die door een specifieke gebruiker is gemaakt vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) door de volgende stappen te volgen:
 
 1. Selecteer vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) elke omgeving in uw organisatie.
 
@@ -145,17 +147,17 @@ Zie [Omgevingen beheren](environments-administration.md) voor meer informatie.
 #### <a name="powerapps-admin-center"></a>PowerApps-beheercentrum
 Een beheerder kan de omgevingsmachtigingen voor een omgeving verwijderen vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) door de volgende stappen te volgen:
 
-1.  Selecteer vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) elke omgeving in uw organisatie.
+1. Selecteer vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) elke omgeving in uw organisatie.
 
     U moet een [globale beheerder voor Office 365](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) of [globale beheerder van Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal) zijn om alle omgevingen te kunnen controleren die binnen uw organisatie zijn gemaakt.
 
     ![Landingspagina van het beheercentrum](./media/powerapps-gdpr-delete-dsr/admin-center-landing.png)
 
-2.  Selecteer **Beveiliging**.
+2. Selecteer **Beveiliging**.
 
     Als uw omgeving geen CDS for Apps-database heeft, ziet u een sectie voor **Omgevingsrollen.**
 
-4.  Selecteer binnen **Omgevingsrollen** onafhankelijk van elkaar **Omgevingsbeheerder** en **Omgevingsmaker** en zoek de naam van de gebruiker via de zoekbalk.
+3. Selecteer binnen **Omgevingsrollen** onafhankelijk van elkaar **Omgevingsbeheerder** en **Omgevingsmaker** en zoek de naam van de gebruiker via de zoekbalk.
 
     ![Pagina Omgevingsrollen](./media/powerapps-gdpr-delete-dsr/admin-environment-role-share-page.png)
 
@@ -198,23 +200,23 @@ Een gebruiker kan een app van verwijderen van de [PowerApps-site](https://web.po
 ### <a name="delete-a-users-canvas-app-using-the-powerapps-admin-center"></a>De canvas-app van een gebruiker verwijderen via het PowerApps-beheercentrum
 Een beheerder kan apps die zijn gemaakt door een gebruiker vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) verwijderen door de volgende stappen te volgen:
 
-1.  Selecteer vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) elke omgeving in uw organisatie.
+1. Selecteer vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) elke omgeving in uw organisatie.
 
     U moet een [globale beheerder voor Office 365](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) of [globale beheerder van Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal) zijn om alle omgevingen te kunnen controleren die binnen uw organisatie zijn gemaakt.
 
     ![Landingspagina van het beheercentrum](./media/powerapps-gdpr-delete-dsr/admin-center-landing.png)
 
-2.  Selecteer **Resources** > **Apps**.
+2. Selecteer **Resources** > **Apps**.
 
-3.  Zoek via de zoekbalk de naam van de gebruiker. Zo vindt u alle apps die door die gebruiker in deze omgeving zijn gemaakt:
+3. Zoek via de zoekbalk de naam van de gebruiker. Zo vindt u alle apps die door die gebruiker in deze omgeving zijn gemaakt:
 
     ![Apps zoeken](./media/powerapps-gdpr-delete-dsr/search-apps.png)
 
-4.  Selecteer **Details** voor elke app van de gebruiker:
+4. Selecteer **Details** voor elke app van de gebruiker:
 
     ![App details selecteren](./media/powerapps-gdpr-delete-dsr/select-app-details.png)
 
-5.  Selecteer **Verwijderen** om elke app te verwijderen:
+5. Selecteer **Verwijderen** om elke app te verwijderen:
 
 ### <a name="delete-a-users-canvas-app-using-the-powerapps-admin-powershell-cmdlets"></a>De canvas-apps van een gebruiker verwijderen met de PowerShell-cmdlets voor PowerApps-beheerders
 Als een beheerder besluit alle canvas-apps van een gebruiker te verwijderen, kan dit met de functie **Remove-AdminApp** in de [PowerShell-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804):
@@ -237,21 +239,21 @@ Wanneer een app met een gebruiker wordt gedeeld, wordt in PowerApps een record o
 > De roltoewijzingen van de app-eigenaar kunnen alleen worden verwijderd door een nieuwe eigenaar voor de app toe te wijzen.
 
 ### <a name="powerapps-admin-center"></a>PowerApps-beheercentrum
-Een beheerder kan app-roltoewijzingen voor een gebruiker vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) verwijderen door de volgende stappen te volgen:
+Een beheerder kan roltoewijzingen voor apps voor een gebruiker vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) verwijderen door de volgende stappen te volgen:
 
-1.  Selecteer vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) elke omgeving in uw organisatie.
+1. Selecteer vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) elke omgeving in uw organisatie.
 
     U moet een [globale beheerder voor Office 365](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) of [globale beheerder van Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal) zijn om alle omgevingen te kunnen controleren die binnen uw organisatie zijn gemaakt.
 
     ![Landingspagina van het beheercentrum](./media/powerapps-gdpr-delete-dsr/admin-center-landing.png)
 
-2.  Selecteer voor elke omgeving **Resources** > **Apps**.
+2. Selecteer voor elke omgeving **Resources** > **Apps**.
 
-3.  Selecteer **Delen** voor elke app in de omgeving:
+3. Selecteer **Delen** voor elke app in de omgeving:
 
     ![App delen selecteren](./media/powerapps-gdpr-delete-dsr/select-admin-share-nofilter.png)
 
-6.  Als de gebruiker toegang heeft tot de app, verwijdert u vanuit het scherm **Delen** van de app de machtiging en selecteert u **Opslaan**.
+4. Als de gebruiker toegang heeft tot de app, verwijdert u vanuit het scherm **Delen** van de app de machtiging en selecteert u **Opslaan**.
 
     ![Beheerpagina app delen](./media/powerapps-gdpr-delete-dsr/admin-share-page.png)
 
@@ -334,8 +336,7 @@ Get-ConnectorRoleAssignment | Remove-ConnectorRoleAssignment
 De functie waarmee een beheerder met de [PowerShell-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804) de connectorroltoewijzingen van een gebruiker kan zoeken en verwijderen, is in ontwikkeling.
 
 ## <a name="step-9-delete-the-users-personal-data-in-microsoft-flow"></a>Stap 9: de persoonlijke gegevens van de gebruiker in Microsoft Flow verwijderen
-PowerApps-licenties omvatten altijd Microsoft Flow-mogelijkheden. Behalve dat Microsoft Flow is opgenomen in PowerApps-licenties, is Microsoft Flow ook beschikbaar als een zelfstandige service.
-Zie [Executing DSRs against Microsoft Flow Customer Data](https://go.microsoft.com/fwlink/?linkid=872250) (AVG-aanvragen uitvoeren voor gegevens van Microsoft Flow-klanten) voor instructies over het reageren op AVG-aanvragen van gebruikers die de Microsoft Flow-service gebruiken.
+PowerApps-licenties omvatten altijd Microsoft Flow-mogelijkheden. Behalve dat Microsoft Flow is opgenomen in PowerApps-licenties, is Microsoft Flow ook beschikbaar als een zelfstandige service. Zie [Responding to GDPR Data Subject Requests for Microsoft Flow](https://go.microsoft.com/fwlink/?linkid=872250) (Reageren op AGV-aanvragen voor gegevensonderwerpen voor Microsoft Flow) voor instructies over het reageren op AVG-aanvragen van gebruikers die de Microsoft Flow-service gebruiken.
 
 > [!IMPORTANT]
 > Het is raadzaam deze stap door beheerders te laten uitvoeren voor PowerApps-gebruikers.
@@ -343,7 +344,7 @@ Zie [Executing DSRs against Microsoft Flow Customer Data](https://go.microsoft.c
 ## <a name="step-10-delete-the-users-personal-data-in-instances-of-cds-for-apps"></a>Stap 10: de persoonlijke gegevens van de gebruiker in instanties van CDS for Apps verwijderen
 Bepaalde PowerApps-licenties, waaronder het PowerApps Community-abonnement, bieden gebruikers binnen uw organisatie de mogelijkheid instanties van CDS for Apps te maken en apps te bouwen op CDS for Apps. Het PowerApps Community-abonnement is een gratis licentie waarmee gebruikers CDS for Apps kunnen proberen in een individuele omgeving. Zie de pagina met prijzen voor PowerApps voor informatie over welke mogelijkheden elke PowerApps-licentie bevat.
 
-Zie [Executing DSRs against customer data in CDS for Apps](https://go.microsoft.com/fwlink/?linkid=872251) (AVG-aanvragen uitvoeren voor klantgegevens in CDS for Apps) voor instructies over het reageren op AVG-aanvragen van gebruikers die CDS for Apps gebruiken.
+Zie [Responding to Data Subject Rights (DSR) requests for Common Data Service for Apps customer data](common-data-service-gdpr-dsr-guide.md) (Reageren op AVG-aanvragen voor Common Data Service for Apps-gegevens van de klant) voor instructies over het reageren op AVG-aanvragen van gebruikers die CDS for Apps gebruiken.
 
 > [!IMPORTANT]
 > Het is raadzaam deze stap door beheerders te laten uitvoeren voor PowerApps-gebruikers.

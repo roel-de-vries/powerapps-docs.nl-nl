@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselement voor cirkeldiagram: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Cirkeldiagram
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 1388eac45e5086f677cb83c8db9593fe01a9819f
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: bda839765d797bf87590f037221b116bad781657
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="pie-chart-control-in-powerapps"></a>Besturingselement voor cirkeldiagram in PowerApps
 Een besturingselement waarin relatieve waarden ten opzichte van elkaar worden vergeleken.
@@ -27,12 +24,14 @@ Een besturingselement waarin relatieve waarden ten opzichte van elkaar worden ve
 ## <a name="description"></a>Beschrijving
 Voeg een besturingselement **Cirkeldiagram** toe als u relatieve gegevens wilt weergeven uit een tabel met labels in de meest linkse kolom en waarden in de tweede kolom van links.
 
-## <a name="key-properties"></a>Belangrijkste eigenschappen
+Dit besturingselement is een gegroepeerd besturingselement met drie besturingselementen: een **[label](control-text-box.md)** voor de titel, de diagramafbeelding en een **legenda**.
+
+## <a name="chart-key-properties"></a>Belangrijkste eigenschappen voor diagrammen
 **[Items](properties-core.md)**: de gegevensbron die wordt weergegeven in een besturingselement zoals een galerie, een lijst of een grafiek.
 
 **ShowLabels**: bepaalt of in een cirkeldiagram de waarden worden weergegeven die aan de wiggen zijn gekoppeld.
 
-## <a name="additional-properties"></a>Aanvullende eigenschappen
+## <a name="additional-chart-properties"></a>Aanvullende diagrameigenschappen
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
 
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
@@ -67,6 +66,8 @@ Voeg een besturingselement **Cirkeldiagram** toe als u relatieve gegevens wilt w
 
 **[Size](properties-text.md)**: de tekengrootte van de tekst die in een besturingselement wordt weergegeven.
 
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
+
 **[Visible](properties-core.md)**: hiermee wordt aangegeven of een besturingselement zichtbaar of verborgen is.
 
 **[Width](properties-size-location.md)**: de afstand tussen de linker- en rechterrand van een besturingselement.
@@ -90,3 +91,27 @@ Voeg een besturingselement **Cirkeldiagram** toe als u relatieve gegevens wilt w
    
     In het besturingselement **Cirkeldiagram** ziet u omzetcijfers voor elk product ten opzichte van andere producten.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* elk item in **ItemColorSet**
+* elk item in **ItemColorSet** en de achtergrondkleur
+* **[Color](properties-color-border.md)** en de achtergrondkleur
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* Er moet een **[label](control-text-box.md)** direct vóór het diagram aanwezig zijn dat fungeert als de titel.
+
+    > [!NOTE]
+> Diagramafbeeldingen en **legenda** zijn verborgen voor gebruikers van schermlezers. In plaats daarvan wordt een tabelweergave van de gegevens weergegeven. Ze kunnen ook door de knoppen gaan waarmee gegevens in het diagram worden geselecteerd.
+
+### <a name="low-vision-support"></a>Ondersteuning voor gebruikers met beperkt gezichtsvermogen
+* Er moet een **legenda** zijn.
+* U kunt **ShowLabels** instellen op **true**. Hierdoor kunnen gebruikers met beperkt gezichtsvermogen snel bepalen wat elk segment vertegenwoordigt.
+* U kunt **LabelPosition** instellen op **LabelPosition.Outside**. Hierdoor wordt de leesbaarheid van labels verhoogd door het consistente kleurcontrast.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+
+    > [!NOTE]
+> Als gebruikers naar het diagram navigeren, kunnen ze door de knoppen gaan waarmee gegevens in het diagram worden geselecteerd.

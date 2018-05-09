@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 264c360af0175b6a5dddd74306b32c7d1ecaef1d
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 98357cb2f6d829906dfcdd4ecaa4acc3afdef26d
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="barcode-scanner-control-experimental-in-powerapps"></a>Besturingselement Streepjescodescanner (experimenteel) in PowerApps
 Een experimenteel besturingselement waarmee de gebruiker foto’s kan maken met behulp van de streepjescodescanner op het apparaat.
@@ -31,6 +31,8 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 **streepjescodescanner**: op een apparaat met meer dan één streepjescodescanner is dit de numerieke id van de streepjescodescanner die de app gebruikt.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers.
+
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
 
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
@@ -51,9 +53,13 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 
 **Photo**: het beeld dat wordt vastgelegd wanneer de gebruiker een foto maakt.
 
+**ShowLiveBarcodeDetection**: of visuele aanwijzingen worden weergegeven die de status van de streepjescodedetectie aangeven. Gele rechthoeken vertegenwoordigen gebieden die worden onderzocht. Een groene lijn over een rechthoek geeft geslaagde streepjescode-identificatie aan.
+
 **Stream**: automatisch bijgewerkte foto op basis van de eigenschap **StreamRate**.
 
 **StreamRate**: hoe vaak de foto in de eigenschap **Stream** wordt bijgewerkt, in milliseconden.  Dit kan een waarde tussen 100 (1/10e van een seconde) tot 3.600.000 (1 uur) zijn.
+
+**Text**: waarde van de streepjescode die als laatste is geïdentificeerd door de scanner.
 
 **[Tooltip](properties-core.md)**: beschrijvende tekst die wordt weergegeven wanneer de gebruiker een besturingselement aanwijst.
 
@@ -75,6 +81,16 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 1. Voeg een besturingselement **Streepjescodescanner** toe en geef het de naam **MijnStreepjescodescanner**
 
     Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
-2. Voeg een besturingselement **Label** toe en stel de uitvoer van het vak in op de waarde van de streepjescodescanner.  
+2. Voeg een besturingselement **Label** toe en stel de uitvoer in op **Text** van de streepjescodescanner.  
 3. Scan een streepjescode van het type dat is ingesteld met de eigenschap BarcodeType.
 4. De gescande streepjescode wordt in het label weergegeven.
+
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="video-alternatives"></a>Alternatieven voor video
+* U kunt een **[Label](control-text-box.md)** toevoegen met de **[Text](properties-core.md)** ingesteld op de **Text** van de streepjescodescanner. Aangezien de streepjescodescanner de geïdentificeerde streepjescodewaarde niet weergeeft, wordt de scanner toegankelijk voor iedereen, niet alleen voor mensen met een visuele handicap, wanneer het bovenstaande wordt uitgevoerd.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
+> [!NOTE]
+> Schermlezers melden het wanneer een nieuwe streepjescode is gevonden. De waarde wordt niet gemeld. Zolang de streepjescode in beeld is, wordt u er om de vijf seconden door schermlezers aan herinnerd dat nog steeds dezelfde streepjescode wordt geïdentificeerd.

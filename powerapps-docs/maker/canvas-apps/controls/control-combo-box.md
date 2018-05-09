@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/13/2017
 ms.author: fikaradz
-ms.openlocfilehash: 4d298e24ea967cbf5cb47638d4296f6efbd758c7
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 5fb4ca1a8c3618a81940ef953e2e7d1c9b04dd7e
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="combo-box-control-in-powerapps"></a>Besturingselement voor keuzelijst met invoervak in PowerApps
 Een besturingselement waarmee gebruikers selecties kunnen maken in geboden opties.  Ondersteunt zoeken en meervoudige selectie.
@@ -46,6 +46,8 @@ Als u personen wilt selecteren met behulp van een **keuzelijst met invoervak**, 
 **IsSearchable**: bepaalt of de gebruiker naar items kan zoeken alvorens ze te selecteren.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers.
+
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
 
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
@@ -58,6 +60,10 @@ Als u personen wilt selecteren met behulp van een **keuzelijst met invoervak**, 
 
 **[DisplayMode](properties-core.md)**: of invoer van de gebruiker is toegestaan (**Bewerken**), alleen gegevens worden weergegeven (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
 
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
 
 **InputTextPlaceholder**: instructietekst die aan eindgebruikers wordt getoond wanneer er geen items zijn geselecteerd.
@@ -67,6 +73,8 @@ Als u personen wilt selecteren met behulp van een **keuzelijst met invoervak**, 
 **OnNavigate**: hoe de app reageert wanneer de gebruiker op een item klikt.
 
 **[OnSelect](properties-core.md)**: de manier waarop de app reageert wanneer de gebruiker op een besturingselement tikt of klikt.
+
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **[Visible](properties-core.md)**: hiermee wordt aangegeven of een besturingselement zichtbaar of verborgen is.
 
@@ -85,3 +93,26 @@ Als u personen wilt selecteren met behulp van een **keuzelijst met invoervak**, 
     Er verschijnt een functionele **keuzelijst met invoervak** in uw app.
 
     Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
+
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* **ChevronFill** en **ChevronBackground**
+* **ChevronHoverFill** en **ChevronHoverBackground**
+* **SelectionColor** en **SelectionFill**
+* **SelectionFill** en **[Fill](properties-color-border.md)**
+* **SelectionTagColor** en **SelectionTagFill**
+
+Dit komt bovenop de standaardvereisten voor kleurcontrast.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
+> [!NOTE]
+> Op aanraakschermen kunnen gebruikers van de schermlezer achtereenvolgens door de inhoud van de keuzelijst met invoervak navigeren. De keuzelijst met invoervak werkt als een knop die, indien geselecteerd, de inhoud weergeeft of verbergt.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+* De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
+> [!NOTE]
+> Met de tab-toets navigeert u naar of van de keuzelijst met invoervak. Met de pijltoetsen navigeert u door de inhoud van de keuzelijst met invoervak. Met de Escape-toets sluit u de vervolgkeuzelijst wanneer deze is geopend.

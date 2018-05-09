@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/01/2016
 ms.author: mblythe
-ms.openlocfilehash: 3a7407f0f93ee5cd6bb749f79c258a1cf6c20b96
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 13952338015fd6ec6f951cb9447cc5203f7159e0
+ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>PowerApps Community-abonnement: een gratis ontwikkelingsomgeving voor individueel gebruik
 Als u vaardigheden wilt opdoen en meer informatie wilt over PowerApps, Microsoft Flow en Common Data Service, is het PowerApps Community-abonnement het juiste abonnement voor u. Het PowerApps Community-abonnement geeft u een gratis ontwikkelingsomgeving voor individueel gebruik, waarin u het volgende kunt doen:
@@ -55,8 +55,8 @@ Met de individuele omgeving krijgt u de volgende functionaliteit:
 | **Belangrijke functies** | |
 | Apps maken en uitvoeren |Ja. U kunt een onbeperkt aantal apps maken |
 | Apps delen\* |Nee |
-| Common Data Service gebruiken |Ja |
-| Uw gegevens modelleren met behulp van Common Data Service |Ja |
+| Common Data Service gebruiken |Ja** |
+| Uw gegevens modelleren met behulp van Common Data Service |Ja** |
 | Omgevingsbeheer en gebruikersbeleid van ondernemingsniveau |Ja |
 | **Connectiviteit** | |
 | Verbinding maken met Office 365, Dynamics 365 en andere connectors |Ja |
@@ -65,9 +65,9 @@ Met de individuele omgeving krijgt u de volgende functionaliteit:
 | Toegang tot on‐premises gegevens met behulp van een on-premises gateway |Ja |
 | Aangepaste connectors maken voor verbinding met uw eigen systemen |Ja. U kunt een onbeperkt aantal aangepaste connectors maken |
 | **Common Data Service** | |
-| Toepassingen maken en uitvoeren in Common Data Service |Ja |
-| Uw gegevens modelleren in Common Data Service |Ja |
-| Een database maken in Common Data Service |Ja |
+| Toepassingen maken en uitvoeren in Common Data Service |Ja** |
+| Uw gegevens modelleren in Common Data Service |Ja** |
+| Een database maken in Common Data Service |Ja** |
 | **Beheer** | |
 | Collega's als omgevingsmakers en -beheerders toevoegen |Nee |
 | Collega's aan de databaserollen toevoegen |Nee |
@@ -75,6 +75,8 @@ Met de individuele omgeving krijgt u de volgende functionaliteit:
 | Gegevensbeleid voor de individuele omgeving opstellen |Ja |
 
 *U kunt apps, stromen, verbindingen, enz. niet met andere gebruikers van uw tenant delen. U kunt een andere gebruiker ook niet als een omgevingsbeheerders of -maker toevoegen of aan de databaserollen toevoegen vanuit het beheercentrum.
+
+**Het maken van een database met de Common Data Service is momenteel niet beschikbaar in een afzonderlijke omgeving. Binnenkort is deze mogelijkheid weer beschikbaar. Als u eerder een database hebt gemaakt, kunt u deze zonder problemen blijven gebruiken. 
 
 ## <a name="what-are-the-capacity-limits-for-the-individual-environment"></a>Wat zijn de capaciteitslimieten voor de individuele omgeving?
 | **Capaciteit** |  |

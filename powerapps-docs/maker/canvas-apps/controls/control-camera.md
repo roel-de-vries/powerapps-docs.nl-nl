@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: a3a724ad42082962ec8aea4e616f1d75aa7299ec
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: fe92e1844f5471abe30f0fdae0c0f3f71ca517e9
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="camera-control-in-powerapps"></a>Besturingselement voor camera in PowerApps
 Een besturingselement waarmee de gebruiker foto's kan maken met behulp van de camera van het apparaat.
@@ -31,6 +31,8 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 **Camera**: op een apparaat dat meerdere camera’s heeft, is dit de numerieke id van de camera die door de app wordt gebruikt.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers. Het doel van het maken van een foto moet worden beschreven.
+
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
 
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
@@ -43,6 +45,10 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 
 **[DisplayMode](properties-core.md)**: of invoer van de gebruiker is toegestaan (**Bewerken**), alleen gegevens worden weergegeven (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
 
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
 
 **[OnSelect](properties-core.md)**: de manier waarop de app reageert wanneer de gebruiker op een besturingselement tikt of klikt.
@@ -54,6 +60,8 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 **Stream**: automatisch bijgewerkte foto op basis van de eigenschap **StreamRate**.
 
 **StreamRate**: hoe vaak de foto in de eigenschap **Stream** wordt bijgewerkt, in milliseconden.  Dit kan een waarde tussen 100 (1/10e van een seconde) tot 3.600.000 (1 uur) zijn.
+
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **[Tooltip](properties-core.md)**: beschrijvende tekst die wordt weergegeven wanneer de gebruiker een besturingselement aanwijst.
 
@@ -90,3 +98,21 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 
 Gebruik de functie **[SaveData](../functions/function-savedata-loaddata.md)** om de foto's lokaal op te slaan of de functie **[Patch](../functions/function-patch.md)** om een gegevensbron bij te werken.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+Het camera-besturingselement geeft niet alleen de camerafeed weer, maar werkt ook als een knop waarmee een foto wordt gemaakt. Daarom gelden voor het camera-besturingselement dezelfde aandachtspunten als voor knoppen.
+
+### <a name="video-alternatives"></a>Alternatieven voor video
+* U kunt een alternatieve invoervorm toevoegen voor gebruikers met een visuele beperking. Met **[Afbeelding toevoegen](control-add-picture.md)** kunnen gebruikers een afbeelding vanaf hun apparaat uploaden.
+
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* **[FocusedBorderColor](properties-color-border.md)** en de externe kleur
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+* De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
+ 

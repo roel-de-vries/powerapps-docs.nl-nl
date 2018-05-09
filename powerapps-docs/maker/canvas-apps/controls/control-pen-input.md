@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselement voor peninvoer: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Peninvoer
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 7e5be9b68b501279329c23f9afe5d451487fa8d1
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 84981a00a516f553d3f1b318f12a6f68064c66b2
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="pen-input-control-in-powerapps"></a>Besturingselement voor peninvoer in PowerApps
 Een besturingselement waarin de gebruiker kan tekenen, wissen en gebieden van een afbeelding kan markeren.
@@ -33,6 +30,8 @@ De gebruiker kan dit besturingselement gebruiken als een whiteboard, en om grafi
 **Modus**: het besturingselement heeft de modus **Tekenen** of **Wissen**.  De modus Selecteren is afgeschaft.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers. Kan worden gebruikt om het doel van het besturingselement en alternatieve methoden voor invoer te beschrijven.
+
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
 
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
@@ -90,3 +89,20 @@ De gebruiker kan dit besturingselement gebruiken als een whiteboard, en om grafi
 
 Gebruik de functie **[SaveData](../functions/function-savedata-loaddata.md)** om de tekeningen lokaal op te slaan of de functie **[Patch](../functions/function-patch.md)** om ze in een gegevensbron op te slaan.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* **[BorderColor](properties-color-border.md)** en de kleur buiten het besturingselement (als er een rand is)
+* **[Fill](properties-color-border.md)** en de kleur buiten het besturingselement (als er geen rand is)
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
+
+    > [!IMPORTANT]
+> **Peninvoer** is niet toegankelijk voor gebruikers van schermlezers. Geef altijd een alternatieve vorm van invoer. Als bijvoorbeeld een schets vereist is, kunt u een besturingselement toevoegen voor **[Afbeelding toevoegen](control-add-picture.md)** waarmee gebruikers een afbeelding kunnen uploaden. Beide methoden kunnen worden aangeboden en de gebruiker kan de optie kiezen waarmee hij het meest vertrouwd is.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+
+> [!IMPORTANT]
+> **Peninvoer** is niet toegankelijk voor toetsenbordgebruikers. Geef altijd een alternatieve vorm van invoer. Als bijvoorbeeld een handtekening vereist is, kunt u een **[Tekstinvoer](control-text-input.md)** toevoegen waarmee gebruikers hun naam kunnen invoeren. Beide methoden kunnen worden aangeboden en de gebruiker kan de optie kiezen waarmee hij het meest vertrouwd is.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 7a71695460453816dd5c63dad8477cb7ccc703d7
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 922a34c4acdaa82313edb9bf55bcb24d42af7fed
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="shape-controls-and-icon-controls-in-powerapps"></a>Besturingselementen voor vormen en pictogrammen in PowerApps
 Grafische elementen waarvan u het uiterlijk en gedrag kunt configureren met behulp van verschillende eigenschappen.
@@ -33,7 +33,13 @@ Het gaat hier om besturingselementen zoals pijlen, geometrische vormen, actiepic
 **[OnSelect](properties-core.md)**: de manier waarop de app reageert wanneer de gebruiker op een besturingselement tikt of klikt.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers.
+
 **[DisplayMode](properties-core.md)**: of invoer van de gebruiker is toegestaan (**Bewerken**), alleen gegevens worden weergegeven (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
+
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
 
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
 
@@ -41,7 +47,9 @@ Het gaat hier om besturingselementen zoals pijlen, geometrische vormen, actiepic
 
 **[PressedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de gebruiker op dat besturingselement tikt of klikt.
 
-**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer deze de toetsenbordfocus heeft.
+**[PressedFill](properties-color-border.md)**: de achtergrondkleur van een besturingselement wanneer de gebruiker op dat besturingselement tikt of klikt.
+
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **[Visible](properties-core.md)**: hiermee wordt aangegeven of een besturingselement zichtbaar of verborgen is.
 
@@ -67,3 +75,34 @@ Het gaat hier om besturingselementen zoals pijlen, geometrische vormen, actiepic
 5. (Optioneel) Druk op Esc om terug te gaan naar de standaardwerkruimte, voeg een besturingselement **Vorm** toe aan **Doel** en stel de eigenschap **[OnSelect](properties-core.md)** van het besturingselement **Vorm** in op deze formule:
    <br>**Navigate(Bron, Schermovergang.Fade)**
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+Het volgende geldt alleen voor afbeeldingen die worden gebruikt als knoppen en voor afbeeldingen die niet alleen voor de sier zijn.
+
+Voor pictogrammen:
+* **[Color](properties-color-border.md)** en **[Fill](properties-color-border.md)**
+* Andere standaardvereisten voor kleurcontrast zijn van toepassing (indien gebruikt als een knop)
+
+Voor vormen met randen:
+* **[BorderColor](properties-color-border.md)** en de kleur buiten het besturingselement
+* **[FocusedBorderColor](properties-color-border.md)** en de kleur buiten het besturingselement (indien gebruikt als een knop)
+
+Voor vormen zonder randen:
+* **[Fill](properties-color-border.md)** en de kleur buiten het besturingselement
+* **[PressedFill](properties-color-border.md)** en de kleur buiten het besturingselement (indien gebruikt als een knop)
+* **[HoverFill](properties-color-border.md)** en de kleur buiten het besturingselement (indien gebruikt als een knop)
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn als de afbeelding wordt gebruikt als een knop of als de afbeelding niet alleen voor de sier is.
+* **[AccessibleLabel](properties-accessibility.md)** moet leeg zijn of de lege tekenreeks **""** bevatten als de afbeelding alleen voor de sier is. Hierdoor wordt de afbeelding genegeerd door de schermlezer.
+* **[AccessibleLabel](properties-accessibility.md)** kan leeg zijn of de lege tekenreeks **""** bevatten als de afbeelding redundante informatie bevat.
+    * Bijvoorbeeld: een pictogram **Instellingen** waarvoor **[AccessibleLabel](properties-accessibility.md)** is ingesteld op **Instellingen**. Dit pictogram wordt niet gebruikt als een knop. Het staat naast een **[label](control-text-box.md)** dat ook **Instellingen** heet. Het pictogram wordt door schermlezers gelezen als **Instellingen** en het label ook als **Instellingen**. Dit is onnodig. In dit geval heeft het pictogram geen **[AccessibleLabel](properties-accessibility.md)** nodig.
+> [!IMPORTANT]
+> Schermlezers lezen alle pictogrammen of vormen waarvoor **[TabIndex](properties-accessibility.md)** nul of groter is, zelfs als **[AccessibleLabel](properties-accessibility.md)** leeg is. Dit is omdat deze als knoppen worden weergegeven. Als er geen **[AccessibleLabel](properties-accessibility.md)** is opgegeven, lezen schermlezers de afbeelding als een **knop**.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn als de afbeelding wordt gebruikt als een knop. Hierdoor kunnen toetsenbordgebruikers naar de afbeelding navigeren.
+* Focusindicatoren moet duidelijk zichtbaar zijn als de afbeelding wordt gebruikt als een knop. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
+> [!NOTE]
+> Wanneer **[TabIndex](properties-accessibility.md)** nul of groter is, wordt het pictogram of de vorm weergegeven als een knop. Het uiterlijk van de afbeelding verandert niet, maar de afbeelding wordt door schermlezers juist geïdentificeerd als een knop. Wanneer **[TabIndex](properties-accessibility.md)** kleiner is dan nul, wordt het pictogram of de vorm geïdentificeerd als een afbeelding.

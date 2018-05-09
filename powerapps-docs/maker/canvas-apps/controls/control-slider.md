@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: dc10ac44c1c14f182c39176a6b0216f3ede3816d
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 81465979cce5adf0596cf8c95f8887e0170007a9
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="slider-control-in-powerapps"></a>Besturingselement voor schuifregelaar in PowerApps
 Een besturingselement waarmee de gebruiker een waarde kan opgeven door een schuifknop te slepen.
@@ -37,23 +37,29 @@ De gebruiker kan een waarde kiezen, tussen een minimum- en maximumwaarde die u o
 **[Value](properties-core.md)**: de waarde van een besturingselement voor invoer.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers.
+
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
 
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
 
 **[BorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement.
 
-**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer deze de toetsenbordfocus heeft.
-
 **[DisplayMode](properties-core.md)**: of invoer van de gebruiker is toegestaan (**Bewerken**), alleen gegevens worden weergegeven (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
 
 **[DisabledBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement als de eigenschap **[DisplayMode](properties-core.md)** is ingesteld op **Uitgeschakeld**.
+
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
 
 **HandleActiveFill**: de kleur van de schuifknop van een schuifregelaar als de gebruiker de waarde ervan verandert.
 
 **HandleFill**: de kleur van de schuifknop (het element dat van positie verandert) van een wisselknop of schuifregelaar.
 
 **HandleHoverFill**: de kleur van de schuifknop van een schuifregelaar wanneer de gebruiker de knop aanwijst.
+
+**HandleSize**: de doorsnede van de greep.
 
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
 
@@ -77,7 +83,7 @@ De gebruiker kan een waarde kiezen, tussen een minimum- en maximumwaarde die u o
 
 **ShowValue**: bepaalt of de waarde van een schuifregelaar of waardering wordt weergegeven wanneer de gebruiker die waarde verandert of het besturingselement aanwijst.
 
-**[TabIndex](properties-accessibility.md)**: past de tabvolgorde van besturingselementen tijdens runtime aan wanneer hier een andere waarde dan nul is ingesteld.
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **[Tooltip](properties-core.md)**: beschrijvende tekst die wordt weergegeven wanneer de gebruiker een besturingselement aanwijst.
 
@@ -112,3 +118,24 @@ De gebruiker kan een waarde kiezen, tussen een minimum- en maximumwaarde die u o
 7. Druk op F5 en pas vervolgens **MinsteAantalInwoners** aan om alleen die steden weer te geven met meer inwoners dan de waarde die u opgeeft.
 8. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* **ValueFill** en **RailFill**
+* **ValueHoverFill** en **RailHoverFill**
+* **[FocusedBorderColor](properties-color-border.md)** en de kleur buiten het besturingselement
+* **ValueFill** en achtergrondkleur
+* **RailFill** en achtergrondkleur
+* **ValueHoverFill** en achtergrondkleur
+* **RailHoverFill** en achtergrondkleur
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+* De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
+* De schuifregelaarwaarde moet worden weergegeven wanneer er interactie is met het toetsenbord. Dit kan op een van deze manieren worden bereikt:
+    * Stel **ShowValue** in op **true**.
+    * Voeg een **[Label](control-text-box.md)** toe naast de schuifregelaar. Stel **[Tekst](properties-core.md)** van het label in op de **[Waarde](properties-core.md)** van de schuifregelaar.

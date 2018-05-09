@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 74ab73d78e87c25adf0cd300bb8a6321a578d749
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: d77bc3c90b16fae60fb0daf78376beaa31d67098
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="understand-variables-in-powerapps"></a>Over variabelen in PowerApps
 Als u andere programmeerprogramma's zoals Visual Basic of JavaScript hebt gebruikt, vraagt u zich misschien het volgende af: **waar zijn de variabelen?** PowerApps is iets anders, en er is ook een andere benadering voor nodig. In plaats van dat u een variabele gebruikt, moet u zich afvragen: **wat zou ik doen in Excel?**
@@ -257,5 +257,5 @@ Laten we onze optelsom opnieuw maken met behulp van een verzameling:
 12. Bekijk het opnieuw door op de toets F5 te drukken, getallen in het tekstinvoerbesturingselement in te voeren en knoppen te selecteren.  Selecteer de knop **Opslaan**.  Sluit uw app, start deze opnieuw en selecteer de knop **Laden** om uw verzameling opnieuw te laden.  
     
     > [!NOTE]
-    > **SaveData** en **LoadData** werken niet bij uitvoering in een webbrowser. U moet de studio gebruiken die op Windows of een van de spelers voor mobiele apparaten is geïnstalleerd.  
+    > **SaveData** en **LoadData** werken niet bij uitvoering in een webbrowser. U moet PowerApps Studio voor Windows of PowerApps Mobile gebruiken.
 

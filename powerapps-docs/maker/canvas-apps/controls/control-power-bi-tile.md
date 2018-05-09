@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/07/2016
 ms.author: fikaradz
-ms.openlocfilehash: 1f351877e3c05b83b4bd9cfa104a7eb22cef5028
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: a760dd47cfe703cdf829037d0090c99fc215831e
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>Tegelbesturingselement voor Power BI in PowerApps
 Een besturingselement dat een [Power BI](https://powerbi.microsoft.com)-tegel in een app weergeeft.
@@ -68,3 +68,9 @@ Als de PowerApp is gedeeld, is deze toegankelijk voor alle gebruikers die zijn g
    
    Hebt u geen Power BI? [Meld u aan](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi).
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+De **Power BI-tegel** is eenvoudig een container voor Power BI-inhoud. Informatie over het maken van toegankelijke inhoud met deze [toegankelijkheidstips voor Power BI](https://docs.microsoft.com/power-bi/desktop-accessibility).
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* U kunt een koptekst met een **[Label](control-text-box.md)** toevoegen, als de Power BI-inhoud niet over een titel beschikt. De kop kan direct vóór de **Power BI-tegel** worden geplaatst.

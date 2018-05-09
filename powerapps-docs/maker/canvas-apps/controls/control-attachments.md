@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2017
 ms.author: fikaradz
-ms.openlocfilehash: 5bb7e4f27ed7ee0a30fb028d4d8dfd20a5fc250b
-ms.sourcegitcommit: 078ba325480147e6e4da61e319ed53219f1c5cfc
+ms.openlocfilehash: 6b46cfd778dcb29553dce252988b8b6a049ba12d
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="attachments-control-in-powerapps"></a>Besturingselement voor bijlagen in PowerApps
 Een besturingselement waarmee gebruikers bestanden kunnen downloaden op hun apparaat en ook bestanden kunnen uploaden naar en verwijderen van een SharePoint-lijst.
@@ -33,6 +33,8 @@ Het besturingselement voor bijlagen heeft de volgende tijdelijke beperkingen:
 1. De functies uploaden en verwijderen werken alleen binnen een formulier.  Besturingselement bijlagen lijkt uitgschakeld wanneer het zich bewerkingsmodus bevindt en niet in een formulier.   Merk op dat om het toevoegen en verwijderen van bestanden aan de backend te besparen de eindgebruiker het formulier moet opslaan.
 
 1. U kunt alleen bestanden met een maximale grootte van 10 MB uploaden.  
+
+1. Met iOS-apparaten kunnen op dit moment alleen bestanden van documenten en cloud-opslagaccounts worden geüpload. Als u foto's/video's wilt bijvoegen, gebruikt u de webbrowser op uw iOS-apparaat om de app uit te voeren.
 
 ## <a name="description"></a>Beschrijving
 Met een besturingselement **Attachments** kunt u bestanden openen die zijn opgeslagen op een gegevensbron en ook bestanden toevoegen aan en verwijderen van een SharePoint-lijst.
@@ -51,7 +53,7 @@ Met een besturingselement **Attachments** kunt u bestanden openen die zijn opges
 **[OnSelect](properties-core.md)**: de manier waarop de app reageert wanneer de gebruiker op een bijlage klikt.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
-**AccessibleLabel** - Het label dat wordt vermeld door schermlezers.
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers. Het doel van de bijlagen moet worden beschreven.
 
 **AddAttachmentText** - De labeltekst voor de koppeling die gebruikt wordt om een nieuwe bijlage toe te voegen.
 
@@ -63,11 +65,17 @@ Met een besturingselement **Attachments** kunt u bestanden openen die zijn opges
 
 **[DisplayMode](properties-core.md)** - Of het besturingselement het toevoegen en verwijderen van bestanden toestaat (**Bewerken**), alleen gegevens weergeeft (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
 
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
 
 **MaxAttachmentsText** - de tekst die de koppeling 'bestand bijvoegen' vervangt wanneer het besturingselement het maximaal aantal toegestande bestanden bevat.
 
 **NoAttachmentsText** - Informatieve tekst die wordt weergegeven voor de gebruiker wanneer er geen bestanden zijn bijgevoegd.
+
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **[Visible](properties-core.md)**: hiermee wordt aangegeven of een besturingselement zichtbaar of verborgen is.
 
@@ -89,4 +97,31 @@ Met een besturingselement **Attachments** kunt u bestanden openen die zijn opges
 
     Het aan de SharePoint-lijst gekoppelde veld Bijlagen wordt in het formulier weergegeven.
 
-Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
+[Ontdek hoe u een besturingselement toevoegt en configureert.](../add-configure-controls.md)
+
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* **ItemColor** en **ItemFill**
+* **ItemHoverColor** en **ItemHoverFill**
+* **ItemPressedColor** en **ItemPressedFill**
+* **AddedItemColor** en **AddedItemFill**
+* **RemovedItemColor** en **RemovedItemFill**
+* **ItemErrorColor** en **ItemErrorFill**
+* **AddAttachmentColor** en **Fill**
+* **MaxAttachmentsColor** en **Fill**
+* **NoAttachmentsColor** en **Fill**
+
+Dit komt bovenop de standaardvereisten voor kleurcontrast.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+De volgende eigenschappen moeten aanwezig zijn:
+* **[AccessibleLabel](properties-accessibility.md)**
+* **AddAttachmentsText**
+* **MaxAttachmentsText**
+* **NoAttachmentsText**
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+* De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.

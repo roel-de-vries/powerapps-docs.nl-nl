@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 9cf051ba94e9d43b4c263d627c25affa66e6b843
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: f28247ab3fce610571e2d5c27106bcf15c00cc8b
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="radio-control-in-powerapps"></a>Besturingselement voor keuzerondje in PowerApps
 Een lijst met alle beschikbare opties, maar de gebruiker kan maar één optie selecteren.
@@ -45,8 +45,6 @@ Een besturingselement **Keuzerondje**, inmiddels al tientallen jaren bekend bij 
 
 **[BorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement.
 
-**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer deze de toetsenbordfocus heeft.
-
 **[Color](properties-color-border.md)**: de kleur van de tekst in een besturingselement.
 
 **[DisplayMode](properties-core.md)**: of invoer van de gebruiker is toegestaan (**Bewerken**), alleen gegevens worden weergegeven (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
@@ -58,6 +56,10 @@ Een besturingselement **Keuzerondje**, inmiddels al tientallen jaren bekend bij 
 **[DisabledFill](properties-color-border.md)**: de achtergrondkleur van een besturingselement als de eigenschap **[DisplayMode](properties-core.md)** is ingesteld op **Uitgeschakeld**.
 
 **[Fill](properties-color-border.md)**: de achtergrondkleur van een besturingselement.
+
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
 
 **[Font](properties-text.md)**: de naam van de lettertypefamilie waarin de tekst wordt weergegeven.
 
@@ -103,7 +105,7 @@ Een besturingselement **Keuzerondje**, inmiddels al tientallen jaren bekend bij 
 
 **[Strikethrough](properties-text.md)**: hiermee wordt aangegeven of een streep door de tekst van een besturingselement wordt weergegeven.
 
-**[TabIndex](properties-accessibility.md)**: past de tabvolgorde van besturingselementen tijdens runtime aan wanneer hier een andere waarde dan nul is ingesteld.
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **[Tooltip](properties-core.md)**: beschrijvende tekst die wordt weergegeven wanneer de gebruiker een besturingselement aanwijst.
 
@@ -135,3 +137,20 @@ Een besturingselement **Keuzerondje**, inmiddels al tientallen jaren bekend bij 
 4. (Optioneel) Kies in het besturingselement **Keuzerondje** de andere optie om te controleren of de juiste tekst wordt weergegeven.
 5. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* **RadioSelectionFill** en **RadioBackgroundFill**
+* **RadioBackgroundFill** en **[Fill](properties-color-border.md)**
+
+Dit komt bovenop de standaardvereisten voor kleurcontrast.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* Er moet een **[Waarde](properties-core.md)** zijn voor elke optie van de keuzerondjes.
+* U kunt een **[Label](control-text-box.md)** toevoegen direct vóór het besturingselement **Radio** dat dient als de kop.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+* De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
+ 

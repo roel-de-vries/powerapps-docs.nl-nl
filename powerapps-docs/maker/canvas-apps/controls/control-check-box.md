@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 3784e90bbf6ed45d2b67b6211efaab279e37feca
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 9b51e1cf59c5df163027e8768c21d6ae544d7ba1
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="check-box-control-in-powerapps"></a>Besturingselement voor selectievakje in PowerApps
 Een besturingselement dat de gebruiker kan in- of uitschakelen om de waarde ervan in te stellen op **true** of **false**.
@@ -61,6 +61,10 @@ De gebruiker kan een Booleaanse waarde opgeven met behulp van dit vertrouwde bes
 
 **[Fill](properties-color-border.md)**: de achtergrondkleur van een besturingselement.
 
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
 **[Font](properties-text.md)**: de naam van de lettertypefamilie waarin de tekst wordt weergegeven.
 
 **[FontWeight](properties-text.md)**: het gewicht van de tekst in een besturingselement: **Bold**, **Semibold**, **Normal** of **Lighter**.
@@ -101,6 +105,8 @@ De gebruiker kan een Booleaanse waarde opgeven met behulp van dit vertrouwde bes
 
 **[Strikethrough](properties-text.md)**: hiermee wordt aangegeven of een streep door de tekst van een besturingselement wordt weergegeven.
 
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
+
 **[Tooltip](properties-core.md)**: beschrijvende tekst die wordt weergegeven wanneer de gebruiker een besturingselement aanwijst.
 
 **[Underline](properties-text.md)**: hiermee wordt aangegeven of onder de tekst in een besturingselement een streep wordt weergegeven.
@@ -131,3 +137,21 @@ De gebruiker kan een Booleaanse waarde opgeven met behulp van dit vertrouwde bes
     Het besturingselement **[Datumkiezer](control-date-picker.md)** wordt weergegeven wanneer de eigenschap **[Value](properties-core.md)** van **chkReserveren** de waarde **true** heeft, maar niet wanneer de waarde **false** is.
 4. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* **CheckmarkFill** en **CheckboxBackgroundFill**
+* **CheckboxBackgroundFill** en **[Fill](properties-color-border.md)**
+* **CheckboxBackgroundFill** en **[PressedFill](properties-color-border.md)**
+* **CheckboxBackgroundFill** en **[HoverFill](properties-color-border.md)**
+
+Dit komt bovenop de standaardvereisten voor kleurcontrast.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[Text](properties-core.md)** moet aanwezig zijn.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+* De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
+ 

@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 5a469c875d82670e30d0be8bef86cc476ca5ea19
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: c87f0e644668e9b9804b001560402972fd3d4531
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="share-an-app-in-powerapps"></a>Een app delen in PowerApps
 Het is fantastisch om apps te ontwikkelen die voldoen aan uw eigen zakelijke behoeften, maar de werkelijke kracht van PowerApps schuilt in het delen van die apps met anderen. In dit onderwerp wordt uitgelegd hoe u apps kunt delen met specifieke gebruikers of beveiligingsgroepen, of zelfs met uw hele organisatie.
@@ -57,13 +57,13 @@ De melding bevat een ander soort koppeling, afhankelijk van de machtigingen die 
 ### <a name="how-do-my-users-see-the-app-i-shared"></a>Hoe kunnen mijn gebruikers de gedeelde app zien?
 Nadat u een app deelt met een of meer gebruikers of beveiligingsgroepen, is hoe zij de app kunnen zien afhankelijk van de machtiging waarmee u de app hebt gedeeld.
 
-##### <a name="if-you-shared-an-app-with-user-permission"></a>Als u een app hebt gedeeld met de machtiging *Gebruiker*
+##### <a name="if-you-shared-an-app-with-can-use-permission"></a>Als u een app hebt gedeeld met de machtiging *Mag gebruiken*
 De mensen waarmee u de app hebt gedeeld ontvangen een e-mailmelding als u bij het delen van de app dit selectievakje hebt ingeschakeld. Ze kunnen in deze e-mail klikken of tikken op een koppeling om de app uit te voeren via [Dynamics 365](http://home.dynamics.com). Binnenkort wordt ook ondersteuning voor universele links geïmplementeerd, zodat de app in PowerApps Studio of PowerApps Mobile wordt geopend, indien PowerApps Studio of PowerApps Mobile is geïnstalleerd.
 
 Gebruikers kunnen de app ook vinden via [Dynamics 365](http://home.dynamics.com), in AppSource (als u bijvoorbeeld geen e-mail heeft verzonden). [Meer informatie](../../user/app-source.md) over hoe gebruikers apps kunnen verkrijgen via AppSource.
 
-##### <a name="if-you-shared-an-app-with-contributor-permission"></a>Als u een app hebt gedeeld met de machtiging *Inzender*
-De mensen waarmee u de app hebt gedeeld ontvangen een e-mailmelding als u bij het delen van de app dit selectievakje hebt ingeschakeld. Ze kunnen in deze e-mail klikken of tikken op een koppeling om de app direct te openen in de webversie van PowerApps Studio, waar ze deze kunnen bewerken. De e-mail bevat ook een koppeling om de app uit te voeren via [Dynamics 365](http://home.dynamics.com). Binnenkort wordt ook ondersteuning voor universele links geïmplementeerd, zodat de app in PowerApps Studio of PowerApps Mobile wordt geopend, indien PowerApps Studio of PowerApps Mobile is geïnstalleerd.
+##### <a name="if-you-shared-an-app-with-can-edit-permission"></a>Als u een app hebt gedeeld met de machtiging *Mag bewerken*
+De mensen waarmee u de app hebt gedeeld ontvangen een e-mailmelding als u bij het delen van de app dit selectievakje hebt ingeschakeld. Ze kunnen in deze e-mail klikken of tikken op een koppeling om de app direct voor bewerking te openen in PowerApps Studio. De e-mail bevat ook een koppeling om de app uit te voeren via [Dynamics 365](http://home.dynamics.com). Binnenkort wordt ook ondersteuning voor universele koppelingen geïmplementeerd, zodat de app in PowerApps Studio of PowerApps Mobile wordt geopend indien PowerApps Studio of PowerApps Mobile is geïnstalleerd.
 
 Gebruikers kunnen de app ook vinden op [powerapps.com](http://web.powerapps.com) (als u bijvoorbeeld geen e-mail hebt verzonden). Dit is de thuisbasis waar app-makers kunnen bladeren door alle apps die ze hebben gemaakt of die anderen met hen hebben gedeeld met de machtiging **Inzender**. [Dynamics 365](http://home.dynamics.com) biedt gebruikers dan weer de mogelijkheid snel apps van PowerApps en andere zakelijke apps uit te voeren.
 

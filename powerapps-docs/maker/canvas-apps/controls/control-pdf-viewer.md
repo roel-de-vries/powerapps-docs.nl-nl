@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselement voor PDF-viewer: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement PDF-viewer
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: c3ed17faae5963f71531b2fdc2ef9b08ee2569cc
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 7f6350a70bff19df0c83d2082fe8fb463d81d772
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="pdf-viewer-control-experimental-in-powerapps"></a>Besturingselement voor PDF-viewer (experimenteel) in PowerApps
 Een experimenteel besturingselement dat de inhoud van een PDF-bestand toont.
@@ -99,8 +96,17 @@ Als het document kan niet worden geopend in PowerApps, wordt de optie om het doc
 
 ## <a name="example"></a>Voorbeeld
 * Voeg een besturingselement **PDF-viewer** toe en stel de eigenschap **Document** in op de URL (tussen dubbele aanhalingstekens) van een PDF-bestand, zoals in dit voorbeeld:<br>
-  **"http://www.who.int/gho/publications/world_health_statistics/EN_WHS2015_TOC.pdf?ua=1"**
+  **"https://blog.mozilla.org/security/files/2015/05/HTTPS-FAQ.pdf"**
 
     Het PDF-bestand wordt in het besturingselement weergegeven.
 
     Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
+
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+Niet alle toegankelijkheidsfuncties van PDF-documenten worden ondersteund omdat de **PDF-viewer** nog steeds in de experimentele fase is. **ShowControls** moet daarom worden ingesteld op **true**, zodat gebruikers het document in een externe toepassing kunnen openen.
+
+Informatie over het maken van toegankelijke PDF-documenten met de standaarden [WCAG 2.0](https://www.w3.org/TR/WCAG-TECHS/pdf.html) en [PDF/UA](https://www.pdfa.org/pdfua-the-iso-standard-for-universal-accessibility/).
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* U kunt een koptekst met een  **[Label](control-text-box.md)** toevoegen, als het PDF-document niet over een titel beschikt. De kop kan direct vóór de **PDF-viewer** worden geplaatst.

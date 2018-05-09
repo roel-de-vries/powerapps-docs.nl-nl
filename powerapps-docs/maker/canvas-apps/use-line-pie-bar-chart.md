@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/23/2016
 ms.author: lonu
-ms.openlocfilehash: 9a4daa7135f54ed3a0b3e1f206ce0d201c42da8b
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: f4b6f604ecd7557f7b7b54769d66da850e18ef4f
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="show-data-in-a-line-pie-or-bar-chart-in-powerapps"></a>Gegevens in PowerApps weergeven in een lijn-, cirkel- of staafdiagram
 Gebruik lijn-, cirkel- en staafdiagrammen om uw gegevens weer te geven. Als u werkt met diagrammen, moet u de gegevens die u importeert als volgt indelen:
@@ -30,7 +30,7 @@ Uw gegevens zouden er ongeveer als volgt uit moeten zijn:
 U kunt dergelijke diagrammen maken en gebruiken in PowerApps. Aan de slag.
 
 ## <a name="prerequisites"></a>Vereisten
-* [Registreer u](../signup-for-powerapps.md) voor PowerApps en [installeer](http://aka.ms/powerappsinstall) PowerApps. Meld u bij het openen van PowerApps aan met dezelfde referenties die u hebt gebruikt om u te registreren.
+* [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com) met dezelfde referenties die u hebt gebruikt om u te registreren.
 * Maak een app op basis van een [sjabloon](get-started-test-drive.md) of op basis van [gegevens](get-started-create-from-data.md), of maak een [volledig nieuwe](get-started-create-from-blank.md) app.
 * Lees hoe u [een besturingselement kunt configureren](add-configure-controls.md) in PowerApps.
 * Download de map [ChartData.zip](http://pwrappssamples.blob.core.windows.net/samples/ChartData.zip), die voorbeeldgegevens bevat in de XML-bestandsindeling. Volg de stappen in dit onderwerp om deze rechtstreeks in uw app te importeren. Ook kunt u het ZIP-bestand uitpakken, het XML-bestand in Excel openen en het vervolgens opslaan naar een [cloudopslagaccount](connections/cloud-storage-blob-connections.md).

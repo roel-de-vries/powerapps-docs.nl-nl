@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselement voor scherm: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Scherm
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: cd2e2a8c28fb894b1935b29bf80bf65eb631a266
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: d03e587d86262bcecf59012e36af0c3dc27b29a3
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="screen-control-in-powerapps"></a>Schermbesturingselement in PowerApps
 Een UI-element dat een of meer andere besturingselementen in een app bevat.
@@ -70,3 +67,19 @@ De meeste apps hebben meerdere besturingselementen van het type **Scherm**, met 
 8. (Optioneel) Klik of tik op de andere optie in het besturingselement **[Keuzerondje](control-radio.md)** en klik of tik vervolgens op het besturingselement **[Vorm](control-shapes-icons.md)** om te controleren of **Doel** in de andere kleur wordt weergegeven.
 9. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+Wanneer het **Scherm** de effectieve achtergrond is voor tekst, moet er voldoende kleurencontrast zijn tussen:
+* **[Fill](properties-color-border.md)** en tekst
+* **[BackgroundImage](properties-visual.md)** en tekst (indien van toepassing)
+
+Als een **Scherm** bijvoorbeeld een **[Label](control-text-box.md)** bevat en het label een transparante opvulling heeft, wordt de **[Fill](properties-color-border.md)** van de kaart effectief de achtergrondkleur voor het label.
+
+Naast tekst kunt u ook kleurcontrast controleren met essentiële grafische objecten, zoals de sterafbeeldingen in een besturingselement voor **[Waardering](control-rating.md)**.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* Er moet een beschrijvende naam zijn voor elk **Scherm**. De schermnaam kan op dezelfde manier worden weergegeven en bewerkt als andere besturingselementen: in de structuurweergave van het deelvenster van besturingselementen of in de kop van het eigenschappendeelvenster.
+
+    > [!NOTE]
+> Wanneer een nieuw **Scherm** wordt geladen, lezen schermlezers de naam ervan voor. 

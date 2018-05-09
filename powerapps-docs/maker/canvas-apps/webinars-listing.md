@@ -4,7 +4,7 @@ description: Hier ziet u een overzicht van eerdere en toekomstige webinars, incl
 services: ''
 suite: powerapps
 documentationcenter: na
-author: anhthuchang
+author: audrieMSFT
 manager: anneta
 editor: ''
 tags: ''
@@ -13,52 +13,49 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 3/1/2018
-ms.author: v-malyng
-ms.openlocfilehash: 824f15ba3747ae5788aaa230787cf68993be2ee4
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.date: 4/18/2018
+ms.author: audrie
+ms.openlocfilehash: e26afdee008b54285e0c20e869f8ccabb8aae215
+ms.sourcegitcommit: e3a2819c14ad67cc4ca6640b9064550d0f553d8f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="powerapps-webinar-listing"></a>Overzicht van PowerApps-webinars #
 In deze webinars ziet u hoe u kunt gebruikmaken van de functies en voorzieningen van Microsoft PowerApps. U kunt aanvullende onderwerpen voorstellen in de opmerkingen onder dit onderwerp.
 
 ## <a name="upcoming-webinars"></a>Komende webinars ##
-**Connector-reeks | Project Online (PWA)**
-<br>door Audrie Gordon
-<br>*12 Maart, 10:00 PST, 13.00 EST*
+**Aan de slag | Inzicht in modelgestuurde app-sjablonen met Casey Burke**
+<br>door Casey Burke
+<br>*19 april, 10:00 PST, 12:00 EST*
 
-In deze demonstratie over de connector-reeks behandelen we stapsgewijs het gebruik van de opties van de Project Online (ook wel PWA)-connector. U kunt meedoen en uw vragen stellen over het bouwen van apps die gebruikmaken van hulpprogramma's voor het beheer van de portfolio en Project Online.
+Microsoft Program Manager Casey Burke demonstreert en analyseert de architectuur van modelgestuurde app-sjablonen. U ziet hoe u deze sjablonen kunt gebruiken en aanpassen aan uw eigen zakelijke doelstellingen.
 
-[Klik hier om te kijken op 12 maart](https://www.youtube.com/watch?v=oncGxlmFqy8)
+[Klik hier om te kijken op 19 april](https://www.youtube.com/watch?v=FShakkXKiS8) 
 
+**Deep Dive | PowerApps gebruiken voor het beheer van bedrijfsprocessen door Dawid van Heerden**
+<br>door Audrie Gordon & Dawid van Heerden
+<br>*23 april, 10:00 PST, 12:00 EST*
 
-**Deep Dive | Oplossingen voor serverpatches bouwen met PowerApps door Brian Blanchard (deel 2)**
-<br>door Brian Blanchard & Audrie Gordon
-<br>*19 maart, 10:00 PST, 13.00 EST*
-
-Dit is deel twee van Brian Blanchard’s demonstratie over hoe hij een app heeft gebouwd voor zijn team om schema’s voor het toepassen van serverpatches te beheren. Hij geeft een kijkje achter de schermen van zowel de installatie van Azure Automation als geavanceerde werkstromen in Microsoft Flow. Bonuspunten voor Brian voor het gebruiken van PowerApps en Flow, zodat zijn team tijd en geld kan besparen.
-
-[Klik hier om te kijken op 19 maart](https://www.youtube.com/watch?v=oncGxlmFqy8)
-
-**Deep Dive | Click-Through PowerApps-analyses door Vivek Bavishi**
-<br>door Vivek Bavishi & Audrie Gordon
-<br>*17 april, 10:00 PST, 13:00 EST*
-
-Vivek Bavishi van de International PowerApps Champions-groep, gaat samen met Audrie Gordon van het PowerApps-team stapsgewijs door een eenvoudige benadering om uw eigen clickthrough-analyses te maken met PowerApps en Flow. Breid uw rapportagmogelijkheden uit met statistieken waarmee u het inzichtelijker maakt hoe de consumenten van uw app door uw applicaties navigeren. Hiermee kunt gegevens gebruiken om aannames over gebruik en ontwerp van een app te valideren! Als u een serieuze maker van apps bent wilt u de presentatie van Vivek niet missen.
-
-[Klik hier om te kijken op 17 april](https://www.youtube.com/watch?v=OM-rlhKJFTA)
-
-**Connector-reeks | De voordelen van het gebruik van de Common Data Service**
-<br>door Audrie Gordon
-<br>*23 april, 10:30 PST, 13:30 EST*
-
-Bent u al begonnen met het verkennen van de Common Data Service (ook wel CDS)? Bent u bij op het gebied van de voordelen van een common data schema voor uw bedrijfstoepassingen? Hebt u gehoord wat er nieuw en spannend is op dat gebied?
-
-Dit webinar duikt in de voordelen van het gebruiken van de Common Data Service in alle Microsoft Cloud-abonnementen (voor Office 365, Azure, en activering van Dynamics 365 app). Kom naar dit live webinar om een glimp op te vangen van welke kant we op gaan met CDS en hoe krachtig het is om uw apps te vorm te geven met gebruik van dit platform. We kunnen niet wachten om u een aantal van de eindeloze mogelijkheden te laten zien!
+PowerApps zijn ideaal om snel bedrijfstoepassingen te maken. Deze video toont de kracht van dit platform om bedrijfsprocessen met meerdere stappen te maken, met verschillende rollen, stappen en routeringsopties.
 
 [Klik hier om te kijken op 23 april](https://www.youtube.com/watch?v=JY8r46HnHoI)
+
+**Deep Dive | Laura Rogers van IWMentor deelt aanbevolen procedures voor productie-apps**
+<br>door Audrie Gordon & Laura Rodgers
+<br>*14 mei, 10:00 PST, 12:00 EST*
+
+Laura Rogers van IW Manager geeft al jaren training in het maken van productie-apps voor bedrijven. We hebben allemaal al veel geleerd van haar, met name degenen die met SharePoint-technologieën werken. In deze webinar deelt Laura aanbevolen procedures en geleerde lessen voor het maken van productie-apps met PowerApps en het Business Application-platform. Bovendien geeft ze een demonstratie van een productie-app voor het bijhouden van facturen en metingen. Dit wilt u niet missen! Website van IW Mentor: https://www.iwmentor.com/
+
+[Klik hier om te kijken op 14 mei](https://www.youtube.com/watch?v=I50GtV9w7Os)
+
+**Een kijkje in de universele audit-app: ontdek de mogelijkheden van PowerApps en Flow met Paul Culmsee**
+<br>door Paul Culmsee
+<br>*14 juni, 6:00 PST, 9:00 EST*
+
+Voor deze populaire app in PowerApps worden wekelijks 3-5 aanvragen gedaan. Als gevolg hiervan is de app wereldwijd geïmplementeerd. In deze sessie ziet u hoe de app is ontworpen, op welke manier gebruik is gemaakt van de mogelijkheden van PowerApps en Flow en welke aanpassingen zijn gedaan voor clients. Een uitstekende sessie voor gebruikers die aan de slag willen gaan met deze app. De video toont de volledige oplossing die wereldwijd wordt gebruikt. 
+
+[Klik hier om te kijken op 14 juni](https://www.youtube.com/watch?v=6Wn47bDOMEE)
 
 ## <a name="past-webinars"></a>Eerdere webinars ##
 Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor uw registratiegegevens opnieuw opgeven, waarna u per mail een koppeling naar de opname ontvangt.
@@ -79,15 +76,19 @@ Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor uw re
 **Aan de slag met besturingselementen voor PowerApps**
 <br>door Audrie Gordon [Nu bekijken](https://www.youtube.com/watch?v=lUo0DXvJENI)
 
+**Aan de slag | Productintegraties: Tips en trucs voor Teams en PowerApps**
+<br>door Audrie Gordon [Nu bekijken](https://www.youtube.com/watch?v=obBQk-aSElI)
+
 **Aan de slag met de Common Data Service**
 <br>door Jono Luk [Nu bekijken](https://info.microsoft.com/US-PowerBI-WBNR-FY17-04Apr-18-GettingStartedwiththeCommonDataServices312618_01Registration-ForminBody.html)
+
+**Aan de slag met modelgestuurde apps**
+<br>door Adrian Orth [Nu bekijken](https://www.youtube.com/watch?v=buDDSzJTgns)
+
 
 ### <a name="pro-topics"></a>Onderwerpen voor professionals ###
 **Uw PowerApps-toepassingen implementeren**
 <br>door James Oleinik [Nu bekijken](https://www.youtube.com/watch?v=LF49hFB14Cs)
-
-**Diep doordringen in PowerApps-formules**
-<br>door Greg Lindhorst [Nu bekijken](https://www.youtube.com/watch?v=PuePMMuj5ps)
 
 **Opnieuw opbouwen van een InfoPath Designer-formulier in PowerApps**
 <br>door Daniel Christian [Nu bekijken](https://www.youtube.com/watch?v=ohQcxcVZSK4)
@@ -131,17 +132,30 @@ Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor uw re
 **PowerApps en Flow gebruiken om Line of Business-’portals’ te maken**
 <br>door Vishwas Lele[Nu bekijken](http://www.youtube.com/watch?v=eSMAAFHK44c)
 
-**Werken met connectors: de Planner-connector gebruiken**
-<br> door Audrie Gordon [Nu bekijken](https://www.youtube.com/watch?v=NBPL9Uw7qzg)
 
-**Aan de slag | Productintegraties: Tips en trucs voor Teams en PowerApps**
-<br>door Audrie Gordon [Nu bekijken](https://www.youtube.com/watch?v=obBQk-aSElI)
+### <a name="deep-dives"></a>Deep Dives ###
+**Deep Dive | PowerApps-formules**
+<br>door Greg Lindhorst [Nu bekijken](https://www.youtube.com/watch?v=PuePMMuj5ps)
+
+**Deep Dive | Patchoplossingen voor servers bouwen met PowerApps, door Brian Blanchard**
+<br>door Brian Blanchard & Audrie Gordon [Nu kijken](https://www.youtube.com/watch?v=QAe0oBecowU)
+
+**Deep Dive | Oplossingen voor serverpatches bouwen met PowerApps door Brian Blanchard (deel 2)**
+<br>door Brian Blanchard & Audrie Gordon [Nu kijken](https://www.youtube.com/watch?v=FDU7ONCN4_U)
+
+**Deep Dive | Click-Through PowerApps-analyses door Vivek Bavishi**
+<br>door Vivek Bavishi & Audrie Gordon [Nu bekijken](https://www.youtube.com/watch?v=OM-rlhKJFTA)
+
+
+### <a name="connector-series"></a>Connector-reeks ###
+**Connector-reeks | Werken met connectors: de Planner-connector gebruiken**
+<br> door Audrie Gordon [Nu bekijken](https://www.youtube.com/watch?v=NBPL9Uw7qzg)
 
 **Connector-reeks | De kracht van Office Graph met PowerApps**
 <br>door Audrie Gordon [Nu bekijken](https://www.youtube.com/watch?v=AOGGyoElGaQ)
 
-**Deep Dive | Patchoplossingen voor servers bouwen met PowerApps, door Brian Blanchard**
-<br>door Brian Blanchard & Audrie Gordon [Nu kijken](https://www.youtube.com/watch?v=QAe0oBecowU)
+**Connector-reeks | Project Online (PWA)**
+<br>door Audrie Gordon [Nu bekijken](https://www.youtube.com/watch?v=oncGxlmFqy8)
 
 
 ### <a name="app-designer-topics"></a>Onderwerpen voor app-ontwerpers ###

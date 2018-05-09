@@ -10,13 +10,13 @@ ms.service: powerapps
 ms.devlang: na
 ms.topic: conceptual
 ms.component: cds
-ms.date: 03/21/2018
+ms.date: 05/01/2018
 ms.author: matp
-ms.openlocfilehash: 685a275f496c631e6c784bde4e8b2b245507388f
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: dcd7acb9b6a7556e30cfa1aa46385024dcd0bcb5
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="tutorial-create-a-custom-entity-that-has-components-in-powerapps"></a>Zelfstudie: Een aangepaste entiteit met componenten in PowerApps maken
 
@@ -30,9 +30,6 @@ In deze zelfstudie maakt u een entiteit en voegt u vervolgens belangrijke onderd
 - Een weergave aanpassen 
 - Een formulier aanpassen
 
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
-
 De zelfstudie volgt het bedrijf Contoso: een bedrijf voor de cosmetische verzorging van honden en katten. Contoso heeft een app nodig voor het bijhouden van klanten en huisdieren die kan worden gebruikt door werknemers op een verscheidenheid aan apparaten.
 
 ## <a name="prerequisites"></a>Vereisten
@@ -41,7 +38,7 @@ Meld u aan bij [PowerApps](https://powerapps.microsoft.com/). Als u nog geen [!I
 
 ## <a name="create-a-custom-entity"></a>Een aangepaste entiteit maken
 
-1. Selecteer in het linkernavigatiedeelvenster onder **Common Data Service** de optie **Entiteiten** en selecteer vervolgens **Nieuwe entiteit**.
+1. Vouw in het linkernavigatiedeelvenster **Gegevens** uit, selecteer **Entiteiten** en selecteer vervolgens **Nieuwe entiteit**.
     ![Nieuwe entiteit](media/create-custom-entity/create-new-entity.png)
 2. Geef de volgende waarden op in het rechterdeelvenster en selecteer vervolgens **Volgende**.
   - **Weergavenaam**: *Huisdier* 
@@ -49,18 +46,18 @@ Meld u aan bij [PowerApps](https://powerapps.microsoft.com/). Als u nog geen [!I
 3. Selecteer **Entiteit opslaan**.
 
 ## <a name="add-and-customize-fields"></a>Velden toevoegen en aanpassen
-
+ 
 1. Selecteer op het tabblad **Velden** het veld **Primaire naam**.
 2. Breng in het rechterdeelvenster de volgende wijzigingen aan in het veld **Primaire naam**: 
   - Wijzig de **Weergavenaam** van **Primaire naam** in *Huisdiernaam*
-  - Selecteer **Niet doorzoekbaar**
-
+  - Selecteer **Niet doorzoekbaar**  
+  
     ![Het primaire veld wijzigen](media/create-custom-entity/primary-field.png)
 3. Selecteer **Gereed**.
-4. Selecteer op de werkbalk van de entiteitsdesigner het veld **Toevoegen**. Geef in het deelvenster **Veldeigenschappen** de volgende waarden en opties op of selecteer deze.
+4. Selecteer op het tabblad **Velden** van de werkbalk van de entiteitsdesigner het veld **Toevoegen**. Geef in het deelvenster **Veldeigenschappen** de volgende waarden en opties op of selecteer deze.
   - **Weergavenaam**. *Soorten*
   - **Gegevenstype**. *Optieset*
-  - **Optieset**. *Nieuw*
+  - **Optieset**. *Nieuwe optieset*
 5. De optieset maken
 
   a. Selecteer **Nieuw item toevoegen**. 
@@ -92,15 +89,16 @@ Meld u aan bij [PowerApps](https://powerapps.microsoft.com/). Als u nog geen [!I
 
 ## <a name="add-a-relationship"></a>Een relatie toevoegen
 
-1. Selecteer het tabblad **Relaties** en selecteer vervolgens op de werkbalk van de entiteitsdesigner **Relatie toevoegen**. 
-2. Selecteer in de lijst **Gerelateerde entiteit** van het rechterdeelvenster **Account** en selecteer vervolgens **Gereed**.
-3. Selecteer **Entiteit opslaan**.
+1. Selecteer het tabblad **Relaties** op de werkbalk van de entiteitsdesigner, selecteer **Relatie toevoegen** en selecteer vervolgens **Veel-op-een**. 
+2. Selecteer in het rechterdeelvenster in de lijst **Verwant** de optie **Account**.
+3. Selecteer **Gereed**.
+4. Selecteer **Entiteit opslaan**.
 
-U ziet dat wanneer u een relatie toevoegt, er automatisch een veld met het gegevenstype **Zoekopdracht** wordt toegevoegd aan de lijst met velden op het tabblad **Velden**. ![Opzoekveld voor accounts](media/create-custom-entity/account-lookup-field.png)
+U ziet dat wanneer u een veel-op-een-relatie toevoegt, er automatisch een veld **Account** met het gegevenstype **Zoekopdracht** wordt toegevoegd aan de lijst met velden op het tabblad **Velden**. ![Opzoekveld voor accounts](media/create-custom-entity/account-lookup-field.png)
 
 ## <a name="customize-a-view"></a>Een weergave aanpassen
 
-1. Selecteer het tabblad **Weergaven** en selecteer vervolgens de weergave **Actieve huisdieren**.
+1. Selecteer het tabblad **Weergaven** en selecteer vervolgens de weergave **Actieve huisdieren**. Als u geen weergave **Actieve huisdieren** ziet, selecteert u **Filter verwijderen**.
 2. Selecteer in de weergaveontwerper **Kolommen toevoegen** de volgende kolommen en selecteer vervolgens **OK**.
   - Account
   - Afspraakdatum 
@@ -110,22 +108,20 @@ U ziet dat wanneer u een relatie toevoegt, er automatisch een veld met het gegev
 4. Als u de kolommen wilt rangschikken, selecteert u de kolom die u wilt verplaatsen en gebruikt u vervolgens de pijltjesknoppen <- en -> totdat uw weergave er als volgt uitziet.
     ![Weergave Actieve huisdieren](media/create-custom-entity/active-pets-view.png)
 5. Selecteer in de werkbalk weergaveontwerper **Opslaan en sluiten**.  
-6. Selecteer **Entiteit opslaan**.
 
 ## <a name="model-driven-apps-only-customize-the-main-form"></a>Alleen voor modelgestuurde apps: het hoofdformulier aanpassen
 
 Sla deze stap over als u de entiteit Huisdier alleen wilt gebruiken in een canvas-app. 
 
 1. Selecteer in het linkernavigatiedeelvenster [!INCLUDE [powerapps](../../includes/powerapps.md)] **Modelgestuurd**.
-2. Selecteer in het linkernavigatiedeelvenster **Geavanceerd**.
-3. Selecteer **Entiteiten** in de linkernavigatiebalk van het venster van de oplossing, vouw **Huisdier** uit en selecteer vervolgens **Formulieren**.
-4. Selecteer **Informatie** naast het formuliertype **Hoofd** om de formuliereneditor te openen.
+2. Vouw in het linkernavigatiedeelvenster **Gegevens** uit, selecteer **Entiteiten** en selecteer vervolgens **Huisdier**.
+3. Selecteer het tabblad **Formulier** en selecteer vervolgens **Informatie**naast het formuliertype **Hoofd** om de formuliereneditor te openen.
     ![Hoofdformulier bewerken](media/create-custom-entity/main-form-edit.png)
-5. Sleep op de formuliereneditor de velden **Soorten**, **Ras**, **Afspraakdatum** en **Account** die zich in het deelvenster Veldverkenner bevinden en zet deze in de sectie Algemeen van het formuliercanvas, totdat het formulier er als volgt uitziet.
+4. Sleep op de formuliereneditor de velden **Soorten**, **Ras**, **Afspraakdatum** en **Account** die zich in het deelvenster Veldverkenner bevinden en zet deze in de sectie Algemeen van het formuliercanvas, totdat het formulier er als volgt uitziet.
     ![Velden selecteren voor het hoofdformulier](media/create-custom-entity/main-form-edit2.png) 
-6. Selecteer **Opslaan en sluiten**.
-7. Selecteer in het venster van de oplossing **Alle aanpassingen publiceren**.
-    ![Alle aanpassingen publiceren](media/create-custom-entity/publish-all-customizations.png)
+5. Selecteer **Opslaan**.
+6. Selecteer **Publiceren**.
+7. Selecteer **Opslaan en sluiten** om de formulierontwerper te sluiten.
 
 ## <a name="add-the-custom-entity-to-an-app"></a>De aangepaste entiteit toevoegen aan een app
 
@@ -133,4 +129,6 @@ De entiteit is nu gereed om te worden gebruikt voor het bouwen van een canvas-ap
 
 ## <a name="next-steps"></a>Volgende stappen
 
-In deze zelfstudie hebt u geleerd hoe u een entiteit kunt maken die kan worden gebruikt voor het maken van een nuttige app. Zie voor meer informatie over het maken van een canvas-app [Een volledig nieuwe app maken](../canvas-apps/get-started-create-from-blank.md).
+In deze zelfstudie hebt u geleerd hoe u een entiteit kunt maken die kan worden gebruikt voor het maken van een nuttige app. 
+- Zie [Bouw uw eerste modelgebaseerde apps](../model-driven-apps/build-first-model-driven-app.md) voor meer informatie over het maken van een modelgestuurde app.
+- Zie voor meer informatie over het maken van een canvas-app [Een volledig nieuwe app maken](../canvas-apps/get-started-create-from-blank.md).

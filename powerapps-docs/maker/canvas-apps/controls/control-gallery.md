@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/25/2017
 ms.author: sharik
-ms.openlocfilehash: 9839059cca741e47f5f519a45e7291847c1bc792
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 501dfbba3e01efe55c76d7af234e2f9064096728
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="gallery-control-in-powerapps"></a>Besturingselement voor galerie in PowerApps
 Een besturingselement dat andere besturingselementen bevat en waarin een reeks gegevens wordt weergegeven.
@@ -37,6 +37,8 @@ Er zijn vooraf gedefinieerde galeriesjablonen beschikbaar voor het weergeven van
 **Selected**: het geselecteerde item.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers. Moet beschrijven waaruit de lijst met items bestaat.
+
 **AllItems**: alle items in een galerie, inclusief waarden van aanvullende besturingselementen die deel uitmaken van de sjabloon van de galerie.
 
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
@@ -96,3 +98,20 @@ Er zijn vooraf gedefinieerde galeriesjablonen beschikbaar voor het weergeven van
 * [Geluiden ophalen](control-microphone.md#example)
 * [Tekeningen ophalen](control-pen-input.md#create-a-set-of-images)
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+Als iets moet worden geselecteerd wanneer ergens in een galerij-item wordt geklikt, moet er voldoende kleurcontrast zijn tussen:
+* **[BorderColor](properties-color-border.md)** en de kleur buiten de galerie (als er een rand is)
+* **[BorderColor](properties-color-border.md)** en de kleur buiten de galerie (als er geen rand is)
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
+> [!NOTE]
+> Schermlezers melden het als items in de galerie wijzigen. Het **AccessibleLabel** wordt ook genoemd. Dit geeft de aankondiging context en is zelfs belangrijker wanneer er meerdere galerieën op hetzelfde scherm staan.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* U kunt **ShowScrollbar** instellen op **true**. Op de meeste apparaten met aanraakscherm wordt de schuifbalk pas weergegeven wanneer er wordt geschoven.
+* Als iets moet worden geselecteerd als ergens in een galerij-item wordt geklikt, moeten toetsenbordgebruikers het galerie-item ook kunnen selecteren. Voeg bijvoorbeeld een **[Knop](control-button.md)** toe waarvan de eigenschap **OnSelect** is ingesteld op **Select(Parent)**.
+> [!NOTE]
+> Besturingselementen buiten de galerie worden niet meegenomen in de toetsenbordnavigatievolgorde binnen de galerie. **[TabIndex](properties-accessibility.md)** van besturingselementen in een galerie, vallen binnen het bereik. Zie [eigenschappen voor toegankelijkheid](properties-accessibility.md) voor meer informatie.

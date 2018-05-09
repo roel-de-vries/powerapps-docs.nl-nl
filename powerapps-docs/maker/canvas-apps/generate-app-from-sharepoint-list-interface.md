@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 50e897e9d75eec037039e81e6dbed524206b10d3
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 51a13472407c5483eed7cc2c202e46855905157d
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="generate-an-app-from-within-sharepoint-using-powerapps"></a>Een app genereren vanuit SharePoint met behulp van PowerApps
 
@@ -53,7 +53,7 @@ De app wordt op een afzonderlijk browsertabblad geopend.
 ## <a name="manage-the-app"></a>De app beheren
 ![Opdrachtbalk](./media/generate-app-from-sharepoint-list-interface/command-bar.png)
 
-* Als u klikt of tikt op **Bewerken in PowerApps**, wordt de app geopend in een afzonderlijk browsertabblad, waar u de app kunt bijwerken in de webversie van PowerApps Studio.
+* Als u klikt of tikt op **Bewerken in PowerApps**, wordt de app geopend in een afzonderlijk browsertabblad, waar u de app kunt bijwerken in PowerApps Studio.
 
 * Als u klikt of tikt op **Deze weergave openbaar maken**, kunnen andere personen in uw organisatie deze zien. Standaard ziet u alleen weergaven die u zelf maakt. Als u wilt dat anderen uw app kunnen bewerken, moet u de app [met hen delen](share-app.md) en hen vervolgens machtigen als **Can edit**.
 

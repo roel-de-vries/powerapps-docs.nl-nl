@@ -9,12 +9,12 @@ In het eerste onderwerp van Gestuurd leren las u over de belangrijkste onderdele
 We verwachten niet van u dat u veel tijd gaat besteden om te weten te komen wat PowerApps *is*, maar we denken wel dat het handig is om wat dieper op de diverse onderdelen in te gaan.
 
 ## <a name="webpowerappscom"></a>web.powerapps.com
-Als u apps ontwikkelt, is dit waar u de meeste tijd besteedt. U leert aan de hand van de **voorbeeld-apps en -sjablonen** die hier beschikbaar zijn en u krijgt hier alle apps te zien die u hebt gemaakt. U maakt apps in **PowerApps Studio voor internet** of **PowerApps Studio voor Windows** en deelt die apps met individuele gebruikers en organisaties. U beheert gegevens: **verbindingen**, **gateways** en **entiteiten** (waarover meer verderop.) En ziet u alle **stromen** die zijn gemaakt in **flows.microsoft.com**, die u kunt integreren met uw apps.
+Als u apps ontwikkelt, is dit waar u de meeste tijd besteedt. U leert aan de hand van de **voorbeeld-apps en -sjablonen** die hier beschikbaar zijn en u krijgt hier alle apps te zien die u hebt gemaakt. U maakt apps in **PowerApps Studio** en deelt die apps vervolgens met individuele gebruikers en organisaties. U beheert gegevens: **verbindingen**, **gateways** en **entiteiten** (waarover meer verderop.) En ziet u alle **stromen** die zijn gemaakt in **flows.microsoft.com**, die u kunt integreren met uw apps.
 
 ![De site van web.powerapps.com](./media/learning-powerapps-parts/powerapps-web-site.png)
 
 ## <a name="powerapps-studio"></a>PowerApps Studio
-**PowerApps Studio** is beschikbaar als webtoepassing die u in elke moderne browser kunt gebruiken, en als Windows-toepassing. PowerApps Studio heeft drie deelvensters en een lint waardoor het maken van apps **vergelijkbaar is met het maken van een PowerPoint-presentatie**:
+**PowerApps Studio** is beschikbaar als webtoepassing die u in elke moderne browser kunt gebruiken. PowerApps Studio heeft drie deelvensters en een lint waardoor het maken van apps **vergelijkbaar is met het maken van een PowerPoint-presentatie**:
 
 1. **Linkernavigatiebalk**: hier kunt u een miniatuur weergeven voor elk scherm in uw app of een hiërarchische weergave van alle besturingselementen op elk scherm
 2. **Middelste deelvenster**: hier ziet u het scherm waaraan u werkt

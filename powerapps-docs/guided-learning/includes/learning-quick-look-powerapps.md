@@ -10,7 +10,7 @@ Elke voorbeeld-app is bedoeld voor een specifiek doel, zoals een budget beheren,
 ![PowerApps-voorbeeld-app voor vloermaterialen](./media/learning-quick-look-powerapps/powerapps-flooring-sample.png)
 
 ## <a name="create-an-app-from-a-template"></a>Een app maken op basis van een sjabloon
-Een andere goede manier om te beginnen is **het ontwikkelen van een app op basis van een sjabloon**. Sjablonen zijn in feite voorbeeld-apps die u kunt openen om te zien hoe ze zijn samengesteld. Ze maken gebruik van voorbeeldgegevens om u een idee van de mogelijkheden te geven. Door ze te openen in PowerApps Studio ziet u **stapsgewijs hoe een app is gebouwd**. Momenteel zijn sjablonen alleen beschikbaar in PowerApps Studio voor Windows, niet in PowerApps Studio voor webtoepassingen.
+Een andere goede manier om te beginnen is **het ontwikkelen van een app op basis van een sjabloon**. Sjablonen zijn in feite voorbeeld-apps die u kunt openen om te zien hoe ze zijn samengesteld. Ze maken gebruik van voorbeeldgegevens om u een idee van de mogelijkheden te geven. Door ze te openen in PowerApps Studio ziet u **stapsgewijs hoe een app is gebouwd**.
 
 ![App-sjabloon in PowerApps](./media/learning-quick-look-powerapps/powerapps-templates.png)
 
@@ -24,7 +24,7 @@ Als uw team begonnen is met PowerApps te gebruiken, hebben mensen wellicht al **
 ![PowerApps delen](./media/learning-quick-look-powerapps/powerapps-sharing.png)
 
 ## <a name="create-an-app-from-a-data-source"></a>Een app maken op basis van een gegevensbron
-Apps maken in **PowerApps Studio voor internet** of **PowerApps Studio voor Windows**. U kunt verbinding maken met gegevensbronnen en apps gaan samenstellen in een visueel ontwerpprogramma.
+Apps maken in **PowerApps Studio**. U kunt verbinding maken met gegevensbronnen en apps gaan samenstellen in een visueel ontwerpprogramma.
 
 ![Een app in PowerApps maken op basis van gegevens](./media/learning-quick-look-powerapps/powerapps-app-from-data.png)
 

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 2bc1eddc09fde255fbc1f7a7899ba2f416374e0c
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e6c883a5d17d87c58fafd4f10d1075364d616480
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="export-control-and-import-control-in-powerapps"></a>Besturingselementen voor exporteren en importeren in PowerApps
 Besturingselementen waarmee u gegevens naar een lokaal bestand exporteert en die gegevens vervolgens in een andere app in PowerApps importeert.
@@ -58,6 +58,10 @@ Als u deze functionaliteit in uw app inschakelt, kan de app worden blootgesteld 
 
 **[Fill](properties-color-border.md)**: de achtergrondkleur van een besturingselement.
 
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
 **[Font](properties-text.md)**: de naam van de lettertypefamilie waarin de tekst wordt weergegeven.
 
 **[FontWeight](properties-text.md)**: het gewicht van de tekst in een besturingselement: **Bold**, **Semibold**, **Normal** of **Lighter**.
@@ -92,6 +96,8 @@ Als u deze functionaliteit in uw app inschakelt, kan de app worden blootgesteld 
 
 **[Strikethrough](properties-text.md)**: hiermee wordt aangegeven of een streep door de tekst van een besturingselement wordt weergegeven.
 
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
+
 **[Text](properties-core.md)**: de tekst die wordt weergegeven in een besturingselement of die de gebruiker in een besturingselement typt.
 
 **[Underline](properties-text.md)**: hiermee wordt aangegeven of onder de tekst in een besturingselement een streep wordt weergegeven.
@@ -122,3 +128,6 @@ Als u deze functionaliteit in uw app inschakelt, kan de app worden blootgesteld 
 7. Druk op F5, tik of klik op **MyData**, klik of tik op het bestand dat u hebt geëxporteerd en klik of tik vervolgens op **Open**.
 8. Druk op Esc, tik of klik op **Collections** in het menu **File** en controleer of de huidige app de geëxporteerde gegevens bevat.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+Dezelfde richtlijnen als voor **[Button](control-button.md)** zijn van toepassing, omdat **Export** en **Import** eenvoudig gespecialiseerde knoppen zijn.

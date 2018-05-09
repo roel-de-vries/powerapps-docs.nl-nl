@@ -15,17 +15,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 1661477ced59a678ac278dfcebe5e6f661c3e3f1
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 7dd954a8e9d0ee9fe645dc248841a2a867d01b43
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 ---
 # <a name="audio-and-video-controls-in-powerapps"></a>Besturingselementen voor audio en video in PowerApps
 Een besturingselement voor het afspelen van een geluidsbestand, een videobestand of een video op YouTube.
 
 ## <a name="description"></a>Beschrijving
-Een besturingselement **Audio** is bedoeld voor het afspelen van een geluidsfragment uit een bestand, een opname van een besturingselement **[Microfoon](control-microphone.md)** of het audiospoor uit een videobestand. Een besturingselement **Video** is bedoeld voor het afspelen van een videoclip uit een bestand of van YouTube als u een URL opgeeft, eventueel met ondertiteling.
+Een besturingselement **Audio** is bedoeld voor het afspelen van een geluidsfragment uit een bestand, een opname van een besturingselement **[Microfoon](control-microphone.md)** of het audiospoor uit een videobestand.
+
+Een besturingselement **Video** is bedoeld om een videoclip uit een bestand of van YouTube of Azure Media Services af te spelen.  Ondertiteling kan optioneel worden weergegeven wanneer dit wordt opgegeven.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
 **Loop**: bepaalt of een geluidsfragment of een videoclip automatisch opnieuw wordt gestart zodra het afspelen is voltooid.
@@ -35,6 +37,8 @@ Een besturingselement **Audio** is bedoeld voor het afspelen van een geluidsfrag
 **ShowControls**: bepaalt of een audio- of videospeler bijvoorbeeld een knop Afspelen en een volumeregelaar bevat, en of een besturingselement Pen bijvoorbeeld pictogrammen weergeeft voor Tekenen en Wissen.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers. Moet de titel van de video- of audioclip zijn.
+
 **AutoPause**: bepaalt of een audio- of videoclip automatisch moet worden onderbroken als de gebruiker naar een ander scherm navigeert.
 
 **AutoStart**: bepaalt of een besturingselement voor audio of video automatisch een clip moet afspelen wanneer de gebruiker naar het scherm navigeert dat dit besturingselement bevat.
@@ -50,6 +54,10 @@ Een besturingselement **Audio** is bedoeld voor het afspelen van een geluidsfrag
 **[DisplayMode](properties-core.md)**: of invoer van de gebruiker is toegestaan (**Bewerken**), alleen gegevens worden weergegeven (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
 
 **[Fill](properties-color-border.md)**: de achtergrondkleur van een besturingselement.
+
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
 
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
 
@@ -72,6 +80,8 @@ Een besturingselement **Audio** is bedoeld voor het afspelen van een geluidsfrag
 **StartTime**: de tijd na het begin van een geluidsfragment of videoclip waarop de clip wordt afgespeeld.
 
 **Tijd**: de huidige positie van een besturingselement voor media.
+
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **[Tooltip](properties-core.md)**: beschrijvende tekst die wordt weergegeven wanneer de gebruiker een besturingselement aanwijst.
 
@@ -103,3 +113,37 @@ Een besturingselement **Audio** is bedoeld voor het afspelen van een geluidsfrag
 1. Voeg een besturingselement **Video** toe en stel de eigenschap **Media** in op de URL van een YouTube-video. Plaats de URL tussen dubbele aanhalingstekens.
 2. Druk op F5 en speel het fragment vervolgens af door op de afspeelknop te klikken of te tikken van het besturingselement **Video**.
 3. Druk op Esc om terug te gaan naar de standaardwerkruimte.
+
+### <a name="play-a-video-from-azure-media-services"></a>Een video afspelen vanuit Azure Media Services
+1. Nadat de video's zijn gepubliceerd op AMS, kopieert u de manifest-URL. Start het streaming-eindpunt van uw service als dat nog niet is gestart.
+1. Voeg een besturingselement **Video** toe en stel de eigenschap **Media** in op de URL van de AMS-video. Plaats de URL tussen dubbele aanhalingstekens.
+2. Druk op F5 en speel het fragment vervolgens af door op de afspeelknop te klikken of te tikken van het besturingselement **Video**.
+3. Druk op Esc om terug te gaan naar de standaardwerkruimte.
+
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="audio-and-video-alternatives"></a>Alternatieven voor audio en video
+* **ShowControls** moet waar zijn zodat gebruikers op hun eigen tempo kunnen luisteren of kijken naar multimedia. Gebruikers kunnen zo ook ondertiteling en volledige-schermmodus op videospelers in- of uitschakelen.
+* Voor video’s moet ondertiteling worden opgegeven.
+  *  Gebruik voor YouTube-video's ontwerpgereedschappen van YouTube om ondertiteling toe te voegen.
+  *  Maak voor andere video’s ondertiteling in de WebVTT-opmaak, upload deze en stel **ClosedCaptionsUrl** in op de url-locatie. Er zijn enkele beperkingen. Een server (of servers) die als host fungeert (of fungeren) voor video's en ondertiteling, moet(en) geschikt zijn voor CORS en deze uitvoeren via het HTTPS-protocol. Ondertiteling werkt niet in Internet Explorer.
+* U kunt een audio- of videotranscript opgeven door een van deze methoden te gebruiken:
+  1. Plaats de tekst in een **[Label](control-text-box.md)**  en positioneer deze naast de multimediaspeler. Maak eventueel een **[knop](control-button.md)** om de weergave van de tekst in of uit te schakelen.
+  2. Plaats de tekst in een ander scherm. Maak een **[knop](control-button.md)** die naar het scherm navigeert en plaats de knop naast de multimediaspeler.
+  3. Als de beschrijving kort is, kan deze in **[AccessibleLabel](properties-accessibility.md)** worden geplaatst.
+
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* **[FocusedBorderColor](properties-color-border.md)** en de externe kleur
+* **[Image](properties-visual.md)** en de besturingselementen van de multimediaspeler (indien van toepassing)
+* **[Image](properties-color-border.md)** en de besturingselementen van de multimediaspeler (indien van toepassing)
+
+Geef ondertiteling en/of transcript op als de video-inhoud problemen heeft met kleurcontrast.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+* De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
+* **AutoStart** moet onwaar zijn, omdat het voor toetsenbordgebruikers lastig kan zijn om snel te stoppen met afspelen.

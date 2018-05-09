@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/28/2016
 ms.author: litran
-ms.openlocfilehash: 288e28d50d335e75baa99f50b26975ad529cc88f
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: f29f75522eb01c61c3528e61018fb759980e79f9
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="introduction-to-powerappscom"></a>Inleiding tot powerapps.com
 Het team van PowerApps introduceert [powerapps.com](http://web.powerapps.com) opnieuw als het nieuwe platform voor app-ontwikkelaars. We hebben de pagina opnieuw ingericht als de primaire site waarop ontwikkelaars aan de slag kunnen met hun apps, toegang hebben tot Microsoft Common Data Service en hun apps op één plek kunnen beheren. In dit artikel bespreken we de volgende aspecten:
@@ -34,7 +34,7 @@ Aan de rechterkant van de kop ziet u ten eerste een vervolgkeuzelijst. Hiermee k
 
 ![Omgevingslijst in kop](./media/intro-maker-portal/environment.png)
 
-Naast de vervolgkeuzelijst voor omgeving ziet u een downloadpictogram. Klik of tik op dit pictogram om een dialoogvenster te openen met koppelingen naar de downloadpagina van PowerApps Mobile (voor iOS of Android) of PowerApps Studio voor Windows.
+Naast de vervolgkeuzelijst voor omgeving ziet u een downloadpictogram. Klik of tik op dit pictogram om een dialoogvenster weer te geven met koppelingen om PowerApps Mobile te downloaden (voor iOS- of Android-apparaten).
 
 ![Downloadknop in kop](./media/intro-maker-portal/downloads2.png)
 
@@ -59,7 +59,7 @@ Als u nog niet eerder zich hebt aangemeld of een app hebt gemaakt of uitgevoerd,
 
 ![Een app maken](./media/intro-maker-portal/createapp.png)
 
-Klik of tik in de banner op **Aan de slag** om opties weer te geven voor het maken van een app met behulp van **PowerApps Studio voor Windows** of **PowerApps Studio voor internet**.
+Klik of tik in deze banner op **Aan de slag** om opties weer te geven voor het maken van een app met behulp van **PowerApps Studio**.
 
 ![Modaal venster app maken](./media/intro-maker-portal/createmodal2.png)
 
@@ -90,7 +90,7 @@ Onder **Common Data Service** wordt nog een knop weergegeven, afhankelijk van uw
 
 Onder de banner **Microsoft Common Data Service gebruiken** ziet u een aantal voorbeeldapps en verbonden voorbeeldapps die u kunt gebruiken.
 
-* **Voorbeeldapps**: voorbeeldapps zijn gemaakt voor verschillende bedrijfsscenario's waarbij een telefoon- dan wel tabletindeling wordt gebruikt. Klik op een app voor een korte beschrijving van wat de app doet, de indeling waarvoor de app is gemaakt en de mogelijkheden die de app biedt, zoals camera, GPS of keuzerondjes. Op deze manier leren nieuwe gebruikers de mogelijkheden van PowerApps snel kennen. Met een sjabloon kunt u bovendien een identieke app maken in PowerApps Studio voor Windows.
+* **Voorbeeldapps**: voorbeeldapps zijn gemaakt voor verschillende bedrijfsscenario's waarbij een telefoon- dan wel tabletindeling wordt gebruikt. Klik op een app voor een korte beschrijving van wat de app doet, de indeling waarvoor de app is gemaakt en de mogelijkheden die de app biedt, zoals camera, GPS of keuzerondjes. Op deze manier leren nieuwe gebruikers de mogelijkheden van PowerApps snel kennen. Met een sjabloon kunt u bovendien een identieke app maken in PowerApps Studio.
   
     ![Voorbeeld-apps](./media/intro-maker-portal/sampleapps2.png)
 * **Verbonden voorbeeldapps**: deze apps maken verbinding met uw gegevens via een gegevensverbinding, zoals Office 365, Salesforce, Trello en Wunderlist. Deze reeks apps wijkt af van de bovenstaande voorbeeldapps. Wanneer u op een verbonden voorbeeldapp klikt of tikt, richt u daadwerkelijk een nieuw exemplaar van de app in (als een soort sjabloon). U wordt gevraagd uw referenties in te voeren om verbinding te maken met uw gegevens. Het mooie van een verbonden voorbeeldapp is dat in de huidige omgeving een exemplaar voor u wordt ingericht, dat u in PowerApps Studio kunt openen om te zien hoe de bijbehorende app is gemaakt. Het nadeel is dat het maken vrij lang kan duren (tot een minuut). Wacht dus rustig af en laat de browser laden wanneer u op een verbonden voorbeeldapp klikt of tikt.
@@ -110,7 +110,7 @@ In de lijstweergave ziet u alleen de apps in de geselecteerde omgeving. Als u ap
 
 ## <a name="whats-new"></a>Wat is er nieuw?
 
-* Als u op een app klikt of tikt, wordt deze nu in een nieuw tabblad geopend in PowerApps Studio voor internet.
+* Als u op een app klikt of tikt, wordt deze nu in een nieuw tabblad geopend in PowerApps Studio.
 * De pagina **Apps** geeft standaard alle apps weer waarvoor u een bewerkingsmachtiging hebt. Selecteer **Alle apps** in het filter om **alle apps** (inclusief apps die u alleen kunt gebruiken) weer te geven.
   
    ![Appfilter](./media/intro-maker-portal/allapps_filter.png)

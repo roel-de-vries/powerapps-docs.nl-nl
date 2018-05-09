@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/14/2016
 ms.author: litran
-ms.openlocfilehash: fa1dcd264e99a2bea333d7b6aa0bbf2e04cd47e9
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 4bf196041853e9f88c97aabcd3ff1c234b2608be
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="working-with-environments-and-microsoft-powerapps"></a>Werken met omgevingen en Microsoft PowerApps
 U kunt met PowerApps in verschillende omgevingen werken en eenvoudig schakelen tussen omgevingen. Zie [Overzicht van omgevingen](../../administrator/environments-overview.md) voor een overzicht van omgevingen. Daarin wordt in detail uitgelegd waarom u omgevingen gebruikt en hoe u omgevingen kunt maken en beheren. In dit artikel komen de volgende onderwerpen over omgevingen aan bod:
@@ -30,28 +30,22 @@ Wanneer u zich aanmeldt voor PowerApps en u zich voor het eerst aanmeldt op powe
 
 ![Standaardomgeving](./media/working-with-environments/env-dropdown.png)
 
-De *standaardomgeving* is voor iedereen toegankelijk. U kunt beginnen met het maken van apps in deze omgeving en uw apps met anderen delen. Mogelijk hebt u ook toegang tot andere omgevingen, zoals de omgevingen die u [zelf hebt gemaakt](../../administrator/environments-administration.md) of de omgevingen die door anderen zijn gemaakt, maar waartoe u wel toegang hebt. U kunt tussen omgevingen schakelen door te klikken op de vervolgkeuzelijst voor de omgeving in de rechterbovenhoek en een andere omgeving te selecteren. In dit voorbeeld schakel ik over van *Standaardomgeving* naar *Omgeving 1*.
+De *standaardomgeving* is voor iedereen toegankelijk. U kunt beginnen met het maken van apps in deze omgeving en uw apps met anderen delen. Mogelijk hebt u ook toegang tot andere omgevingen, zoals de omgevingen die u [zelf hebt gemaakt](../../administrator/environments-administration.md) of de omgevingen die door anderen zijn gemaakt, maar waartoe u wel toegang hebt. U kunt tussen omgevingen schakelen door te klikken op de vervolgkeuzelijst voor de omgeving in de rechterbovenhoek en een andere omgeving te selecteren. Dit voorbeeld toont het schakelen van *Standaardomgeving* naar *Omgeving 1*.
 
 ![Overschakelen naar een andere omgeving](./media/working-with-environments/switch-env.png)
 
 Als u overschakelt naar een andere omgeving (zoals Omgeving 1), ziet u alle apps die u hebt gemaakt of waartoe u toegang hebt in deze nieuwe omgeving.
 
 ## <a name="create-apps-in-the-right-environment"></a>Apps maken in de juiste omgeving
-U kunt apps maken in bestaande omgevingen waartoe u toegang hebt of in een nieuwe omgeving. Het maken van uw eigen omgeving vereist echter een bepaald plan. Zie [dit onderwerp](../../administrator/pricing-billing-skus.md) voor meer informatie. Voordat u een app maakt, moet u altijd **de gewenste omgeving voor de app selecteren**. Anders moet u de app later weer overzetten naar een andere omgeving.
+U kunt apps maken in een omgeving die u maakt of waarvoor u toegang hebt gekregen. Voor het maken van uw eigen omgeving hebt u echter een [specifiek abonnement](../../administrator/pricing-billing-skus.md) nodig. Voordat u een app maakt, moet u altijd **de gewenste omgeving voor de app selecteren**. Anders moet u de app later weer overzetten naar een andere omgeving.
 
-1. Meld u aan bij [powerapps.com](http://web.powerapps.com) en selecteer de omgeving waarin u de app wilt maken. Als u *PowerApps Studio* of *de webversie van PowerApps Studio* gebruikt, gaat u naar stap 4.
+Voer een van de volgende handelingen uit om een app te maken in de juiste omgeving:
 
-2. Selecteer **+ Nieuwe app**.
+- Als PowerApps Studio niet is geopend, [meld u zich aan](http://web.powerapps.com), selecteert u de omgeving waarin u uw app wilt maken, selecteert u **Apps** aan de linkerkant en selecteert u vervolgens **Een app maken**.
 
-3. Selecteer **PowerApps Studio openen** of **de webversie van PowerApps Studio** .
-
-4. Als *PowerApps Studio* of de webversie van *PowerApps Studio* is geopend, selecteert u de omgeving opnieuw in de rechterbovenhoek. Deze ervaring wordt in de toekomst verbeterd, maar in de huidige versie moet u dit telkens selecteren als u een app in een nieuwe omgeving wilt maken.
-
-    ![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/studio-switch-env.PNG)
+- Als PowerApps Studio is geopend, selecteert u de omgeving opnieuw in de rechterbovenhoek.
 
 5. Op de pagina **Account** selecteert u **Wijzigen** naast de naam van de huidige omgeving.
-
-    ![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/studio-env-dropdown.PNG)
 
 6. Selecteer de omgeving waarin u de app wilt maken.
 
@@ -62,14 +56,6 @@ U kunt apps maken in bestaande omgevingen waartoe u toegang hebt of in een nieuw
     ![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/new-app.PNG)
 
 ## <a name="view-apps-in-the-right-environment"></a>Apps weergeven in de juiste omgeving
-Of u nu werkt in [powerapps.com](http://web.powerapps.com), PowerApps Studio voor Windows of de webversie van PowerApps Studio, de lijst met apps, verbindingen, enzovoort die u ziet, wordt altijd gefilterd op basis van de omgeving die in de vervolgkeuzelijst is geselecteerd. Controleer altijd of de juiste omgeving is geselecteerd als u de gewenste app(s) niet ziet.
-
-Nogmaals, ga als volgt te werk als u wilt overschakelen naar een andere omgeving in [powerapps.com](http://web.powerapps.com):
-
-![Overschakelen naar een andere omgeving](./media/working-with-environments/switch-env.png)
-
-Ga als volgt te werk als u wilt overschakelen naar een andere omgeving in PowerApps Studio voor Windows of de webversie van PowerApps Studio:
-
-![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/studio-switch-env.PNG)
+Of u nu werkt in [powerapps.com](http://web.powerapps.com) of PowerApps Studio, de lijst met apps, verbindingen, enzovoort die u ziet, wordt altijd gefilterd op basis van de omgeving die in de vervolgkeuzelijst is geselecteerd. Controleer altijd of de juiste omgeving is geselecteerd als u de gewenste app(s) niet ziet.
 
 Zie [dit overzicht](../../administrator/environments-overview.md) voor meer informatie over omgevingen.

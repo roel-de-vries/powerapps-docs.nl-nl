@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: dac1f8ea99746f04d2d3305e279a4bc5faf67903
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 709da9e7b3e80e370488e9bdfb45f40d68dae856
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="toggle-control-in-powerapps"></a>Besturingselement voor wisselknop in PowerApps
 Een besturingselement dat de gebruiker in- of uit kan schakelen door het verplaatsen van een greep.
@@ -33,13 +33,13 @@ Een wisselknop is een besturingselement dat is ontworpen voor recente gebruikers
 **[Value](properties-core.md)**: de waarde van een besturingselement voor invoer.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers.
+
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
 
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
 
 **[BorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement.
-
-**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer deze de toetsenbordfocus heeft.
 
 **[DisplayMode](properties-core.md)**: of invoer van de gebruiker is toegestaan (**Bewerken**), alleen gegevens worden weergegeven (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
 
@@ -52,6 +52,12 @@ Een wisselknop is een besturingselement dat is ontworpen voor recente gebruikers
 **FalseTekst**: de tekst die wordt weergegeven wanneer de wisselknop is uitgeschakeld.
 
 **[Fill](properties-color-border.md)**: de achtergrondkleur van een besturingselement.
+
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**HandleFill**: de opvulkleur van de greep van de wisselknop.
 
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
 
@@ -75,7 +81,7 @@ Een wisselknop is een besturingselement dat is ontworpen voor recente gebruikers
 
 **ShowLabel**: geeft aan of een tekstlabel moet worden weergegeven naast het besturingselement van de wisselknop.
 
-**[TabIndex](properties-accessibility.md)**: past de tabvolgorde van besturingselementen tijdens runtime aan wanneer hier een andere waarde dan nul is ingesteld.
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **TextPosition**: geeft aan of het label links of rechts moet worden weergegeven naast het besturingselement van de wisselknop.
 
@@ -114,3 +120,30 @@ Een wisselknop is een besturingselement dat is ontworpen voor recente gebruikers
 
     In het label ziet u een andere prijs, afhankelijk van of **Ledenkorting** is in- of uitgeschakeld.
 4. Druk op Esc om terug te gaan naar de standaardwerkruimte.
+
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* **HandleFill** en **FalseFill**
+* **HandleFill** en **FalseHoverFill**
+* **HandleFill** en **TrueFill**
+* **HandleFill** en **TrueHoverFill**
+* **FalseFill** en de kleur buiten het besturingselement
+* **FalseHoverFill** en de kleur buiten het besturingselement
+* **TrueFill** en de kleur buiten het besturingselement
+* **TrueHoverFill** en de kleur buiten het besturingselement
+
+Dit komt bovenop de standaardvereisten voor kleurcontrast.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
+* **FalseText** moet aanwezig zijn.
+* **TrueText** moet aanwezig zijn.
+
+### <a name="low-vision-support"></a>Ondersteuning voor gebruikers met beperkt gezichtsvermogen
+* U kunt **ShowLabel** instellen op **true**, zodat gebruikers snel de waarde van de wisselknop kunnen bepalen.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+* De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.

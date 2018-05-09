@@ -1,38 +1,35 @@
 ---
 title: 'Besturingselementen voor kolomdiagram en lijndiagram: naslaginformatie | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over de besturingselementen Kolomdiagram en Lijndiagram
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 039b267394ef6be5e3038fa0b07149f69fee6a51
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e6a5df9283cc0d6f5ab30f27096ba3e7e9e5bff0
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="column-chart-and-line-chart-controls-in-powerapps"></a>Besturingselementen Kolomdiagram en Lijndiagram in PowerApps
 Besturingselementen die gegevens weergeven als grafieken met x- en y-assen.
 
 ## <a name="description"></a>Beschrijving
-Een besturingselement **Kolomdiagram** of **Lijndiagram** bestaat standaard uit meerdere gegroepeerde besturingselementen. Deze besturingselementen bevatten een titel, gegevens en een legenda.
+**Kolomdiagram** en **Lijndiagram** zijn gegroepeerde besturingselementen. Elke groep bevat drie besturingselementen: een **[label](control-text-box.md)** voor de titel, de diagramafbeelding en een **legenda**.
 
-## <a name="key-properties"></a>Belangrijkste eigenschappen
+## <a name="chart-key-properties"></a>Belangrijkste eigenschappen voor diagrammen
 **[Items](properties-core.md)**: de gegevensbron die wordt weergegeven in een besturingselement zoals een galerie, een lijst of een grafiek.
 
 **NumberOfSeries**: hoeveel kolommen met gegevens er in een kolom- of lijndiagram worden weergegeven.
 
-## <a name="all-properties"></a>Alle eigenschappen
+## <a name="additional-chart-properties"></a>Aanvullende diagrameigenschappen
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
 
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
@@ -41,9 +38,9 @@ Een besturingselement **Kolomdiagram** of **Lijndiagram** bestaat standaard uit 
 
 **[Color](properties-color-border.md)**: de kleur van de tekst in een besturingselement.
 
-**[DisplayMode](properties-core.md)**: of invoer van de gebruiker is toegestaan (**Bewerken**), alleen gegevens worden weergegeven (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
-
 **[DisabledBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement als de eigenschap **[DisplayMode](properties-core.md)** is ingesteld op **Uitgeschakeld**.
+
+**[DisplayMode](properties-core.md)**: of invoer van de gebruiker is toegestaan (**Bewerken**), alleen gegevens worden weergegeven (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
 
 **[Font](properties-text.md)**: de naam van de lettertypefamilie waarin de tekst wordt weergegeven.
 
@@ -91,6 +88,8 @@ Een besturingselement **Kolomdiagram** of **Lijndiagram** bestaat standaard uit 
 
 **[Size](properties-text.md)**: de tekengrootte van de tekst die in een besturingselement wordt weergegeven.
 
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
+
 **[Visible](properties-core.md)**: hiermee wordt aangegeven of een besturingselement zichtbaar of verborgen is.
 
 **[Width](properties-size-location.md)**: de afstand tussen de linker- en rechterrand van een besturingselement.
@@ -126,3 +125,28 @@ Een besturingselement **Kolomdiagram** of **Lijndiagram** bestaat standaard uit 
    
     Het besturingselement toont per product de omzet voor een periode van drie jaar.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* elk item in **ItemColorSet**
+* elk item in **ItemColorSet** en de achtergrondkleur
+* **[Color](properties-color-border.md)** en de achtergrondkleur
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* Er moet een **[label](control-text-box.md)** direct vóór het diagram aanwezig zijn dat fungeert als de titel.
+* U kunt een samenvatting van de grafiekafbeelding toevoegen. Bijvoorbeeld: Het lijndiagram toont een gestage toename van de verkoopcijfers tussen maart en augustus van dit jaar.
+
+    > [!NOTE]
+> Diagramafbeeldingen en **legenda** zijn verborgen voor gebruikers van schermlezers. In plaats daarvan wordt een tabelweergave van de gegevens weergegeven. Ze kunnen ook door de knoppen gaan waarmee gegevens in het diagram worden geselecteerd.
+
+### <a name="low-vision-support"></a>Ondersteuning voor gebruikers met beperkt gezichtsvermogen
+* Er moet een **legenda** zijn als meer dan één reeks wordt weergegeven.
+* U kunt **GridStyle** instellen op GridStyle.All, die beiden assen weergeeft. Hierdoor kunnen alle gebruikers de schaal van de gegevens nauwkeurig bepalen.
+* Voor **Kolomdiagram**, kunt u **Markeringen** instellen op **true**. Hierdoor kunnen gebruikers met een beperkt gezichtsvermogen de waarde van een kolom bepalen.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+
+    > [!NOTE]
+> Als gebruikers naar het diagram navigeren, kunnen ze door de knoppen gaan waarmee gegevens in het diagram worden geselecteerd.

@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselement voor HTML-tekst: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement HTML-tekst
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: bb652f3ba6decad7cb6f93007eaec6340f230ca1
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: aacd47621148c03eef88dea31763ab4af2658bfc
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="html-text-control-in-powerapps"></a>Besturingselement voor HTML-tekst in PowerApps
 Een vak waarin tekst wordt weergegeven en HTML-codes worden geconverteerd naar opmaak.
@@ -32,7 +29,7 @@ Een besturingselement **HTML-tekst** bevat niet alleen gewone tekst en getallen,
 
 **[Font](properties-text.md)**: de naam van de lettertypefamilie waarin de tekst wordt weergegeven.
 
-**HTMLText**: tekst die wordt weergegeven in een besturingselement voor HTML-tekst en die HTML-codes kan bevatten.
+**HtmlText**: tekst die wordt weergegeven in een besturingselement voor HTML-tekst en die HTML-codes kan bevatten.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
@@ -85,8 +82,22 @@ Een besturingselement **HTML-tekst** bevat niet alleen gewone tekst en getallen,
 
 Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
 
-1. Voeg een besturingselement **HTML-tekst** toe en stel de eigenschap **HTMLText** in op deze waarde:<br>
+1. Voeg een besturingselement **HTML-tekst** toe en stel de eigenschap **HtmlText** in op deze waarde:<br>
    **Source.Text**
    
      Het besturingselement **HTML-tekst** bevat dezelfde tekst als het besturingselement **[Label](control-text-box.md)**, maar de codes zijn geconverteerd naar de juiste tekens.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+Het besturingselement **HTML-tekst** moet niet interactief zijn. Het mag alleen worden gebruikt om tekst weer te geven.
+
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* **[Color](properties-color-border.md)** en **[Fill](properties-color-border.md)**
+* Tekst met aangepaste kleuren en de achtergrond
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **HtmlText** moet aanwezig zijn.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **HtmlText** mag geen interactieve elementen bevatten als `<button>`, `<a>` of `<input>`. Het **[TabIndex](properties-accessibility.md)**-systeem in PowerApps houdt geen rekening met elementen in **HtmlText**.

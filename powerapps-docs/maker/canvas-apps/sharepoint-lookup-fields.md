@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 01/20/2017
 ms.author: sharik
-ms.openlocfilehash: 194bc4d68d4b26360074d8ed431cacaf231d0cdf
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 0a257df76980bcf1801c9ed98de87ae06c4ae624
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="how-to-link-sharepoint-lists-using-lookup-fields"></a>SharePoint-lijsten koppelen met behulp van opzoekvelden
 In deze zelfstudie leert hoe u twee SharePoint-lijsten kunt koppelen met opzoekvelden.
@@ -91,7 +91,7 @@ U doet dit eerst, zodat u bij het toevoegen van gegevens aan de lijst **activa**
 ## <a name="create-an-app-from-the-assets-list"></a>Een app maken op basis van de lijst Assets
 U gebruikt deze app om gegevens toe te voegen aan de lijst **Assets**.
 
-1. Open PowerApps Studio. Als u PowerApps nog niet eerder hebt gebruikt, kunt u zich [gratis aanmelden](https://powerapps.microsoft.com) met het e-mailadres van uw organisatie en daarna de instructies volgen om PowerApps Studio te downloaden vanuit de Windows Store.
+1. [Meld u aan bij PowerApps Studio](http://web.powerapps.com). Als u PowerApps nog niet eerder hebt gebruikt, kunt u zich [gratis aanmelden](https://powerapps.microsoft.com) met het e-mailadres van uw organisatie.
 
 2. Klik of tik in het menu **Bestand** (aan de linkerkant) op **Nieuw** en klik of tik vervolgens op **SharePoint**.
 

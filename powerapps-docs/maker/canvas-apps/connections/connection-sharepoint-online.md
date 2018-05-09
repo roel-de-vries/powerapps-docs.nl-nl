@@ -12,11 +12,11 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2017
 ms.author: ankitsar
-ms.openlocfilehash: fe6017ee402f0026aab3ef281a02b472b6a503ad
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 1be4a7a6f1d4080a715f88db8d48892641a19a1f
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="connect-to-sharepoint-from-powerapps"></a>Verbinding maken met Sharepoint vanuit PowerApps
 ![SharePoint](./media/connection-sharepoint-online/sharepointicon.png)
@@ -49,13 +49,11 @@ U kunt gegevens uit een aangepaste lijst toevoegen, maar geen bibliotheek. Boven
 Kolommen die spaties bevatten, kunnen door PowerApps worden gelezen. De spaties worden echter wel vervangen door de hexadecimale escape-code **'\_x0020\_'**. **'Naam kolom'** wordt in SharePoint bijvoorbeeld weergegeven als **'Naam_x0020_kolom'** in de gegevensindeling of in een formule in PowerApps.
 
 ## <a name="prerequisites"></a>Vereisten
-Open PowerApps door *een* van deze stappen uit te voeren:
+1. [Meld u aan](../../signup-for-powerapps.md) voor PowerApps.
 
-* [Registreer u](../../signup-for-powerapps.md) voor PowerApps, [installeer PowerApps Studio voor Windows](http://aka.ms/powerappsinstall), open het en meld u aan met dezelfde referenties die u hebt gebruikt om u te registreren.
+1. [Meld u aan](http://web.powerapps.com) bij PowerApps door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
 
-* [Open de webversie van PowerApps Studio](https://create.powerapps.com/api/start) in een browser.
-
-    Zie [Create or edit apps in a browser](../create-app-browser.md) (Apps in een browser maken of bewerken) voor een lijst met ondersteunde browsers en de beperkingen in de preview-versie van de webversie van PowerApps Studio.
+1. Selecteer aan de linkerkant **Apps** en selecteer vervolgens **Een app maken** in de banner.
 
 ## <a name="create-an-app"></a>Een app maken
 * [Genereer automatisch een app](../app-from-sharepoint.md) op basis van gegevens in een SharePoint-lijst.

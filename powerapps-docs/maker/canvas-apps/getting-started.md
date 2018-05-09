@@ -1,6 +1,6 @@
 ---
-title: Inleiding | Microsoft Docs
-description: Informatie over het maken en gebruiken van aangepaste zakelijke apps met Microsoft PowerApps
+title: Wat zijn canvas-apps? | Microsoft Docs
+description: Een aangepaste Line-Of-Business-toepassing ontwerpen en bouwen vanaf een canvas in PowerApps
 services: ''
 suite: powerapps
 documentationcenter: na
@@ -15,13 +15,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/14/2018
 ms.author: anneta
-ms.openlocfilehash: 2d45f6a054fb95ab3a4ebf037ac1115497724ef4
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 984c53417f8684add431dffc6d7c7d89d707eaf2
+ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 ---
-# <a name="introduction-to-powerapps"></a>Inleiding tot PowerApps
+# <a name="what-are-canvas-apps-in-powerapps"></a>Wat zijn de canvas-apps in PowerApps?
 Welkom bij PowerApps. PowerApps is een service waarmee u zakelijke apps kunt bouwen die in een browser of op een telefoon of tablet worden uitgevoerd. U hebt geen ervaring met codering nodig. In PowerApps worden het visuele concept van slepen-en-neerzetten uit PowerPoint gecombineerd met Excel-expressies voor logica en het verwerken van gegevens.
 
 Met PowerApps kunt u zakelijke gegevens vanuit een [grote verscheidenheid aan bronnen binnen Microsoft en van derden](connections-list.md) integreren in één krachtige app. Ook kunt u apps maken voor gebruikers die deze in SharePoint, Power BI en Teams kunnen uitvoeren.

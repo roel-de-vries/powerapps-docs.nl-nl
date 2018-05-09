@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 0ab25713976e9f89fa74b5f7664b13dca447841e
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 82a545279ed297d3faa14ad0db47c30dea2660aa
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="image-control-in-powerapps"></a>Besturingselement voor afbeeldingen in PowerApps
 Een besturingselement waarin een afbeelding wordt weergeven, bijvoorbeeld uit een lokaal bestand of een gegevensbron.
@@ -31,6 +31,8 @@ Als u een of meer besturingselementen **Afbeelding** toevoegt aan een app, kunt 
 **[Image](properties-visual.md)**: de naam van de afbeelding die wordt weergegeven in een besturingselement voor een afbeelding, audio of microfoon.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers.
+
 **ApplyEXIFOrientation**: geeft aan of de richting die is opgegeven in de EXIF-gegevens die in de installatiekopie zijn ingevoegd, automatisch moet worden toegepast.
 
 **AutoDisableOnSelect**: hiermee wordt het besturingselement automatisch uitgeschakeld terwijl het gedrag OnSelect van toepassing is.
@@ -40,8 +42,6 @@ Als u een of meer besturingselementen **Afbeelding** toevoegt aan een app, kunt 
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
 
 **[BorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement.
-
-**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer deze de toetsenbordfocus heeft.
 
 **CalculateOriginalDimensions**: hiermee worden de eigenschappen **OriginalHeight** en **OriginalWidth** ingeschakeld.
 
@@ -56,6 +56,10 @@ Als u een of meer besturingselementen **Afbeelding** toevoegt aan een app, kunt 
 **FlipHorizontal**: geeft aan of de afbeelding horizontaal moet worden gespiegeld voordat deze wordt weergegeven.
 
 **FlipVertical**: geeft aan of de afbeelding verticaal moet worden gespiegeld voordat deze wordt weergegeven.
+
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
 
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
 
@@ -92,6 +96,8 @@ Als u een of meer besturingselementen **Afbeelding** toevoegt aan een app, kunt 
 **[RadiusTopLeft](properties-size-location.md)**: de mate van afronding van de linkerbovenhoek van een besturingselement.
 
 **[RadiusTopRight](properties-size-location.md)**: de mate van afronding van de rechterbovenhoek van een besturingselement.
+
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **[Tooltip](properties-core.md)**: beschrijvende tekst die wordt weergegeven wanneer de gebruiker een besturingselement aanwijst.
 
@@ -130,3 +136,23 @@ Als u een of meer besturingselementen **Afbeelding** toevoegt aan een app, kunt 
     Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
 
     In het besturingselement **Galerie** ziet u afbeeldingen van tapijt, parket en vloertegels op basis van koppelingen in het Excel-bestand dat u hebt gedownload.
+
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+* Standaardvereisten voor kleurcontrast zijn van toepassing, indien de afbeelding wordt gebruikt als een knop.
+* U kunt controleren op problemen met het contrast in de afbeelding als deze niet alleen voor de sier is.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn als de afbeelding wordt gebruikt als een knop of als de afbeelding niet alleen voor de sier is.
+* **[AccessibleLabel](properties-accessibility.md)** moet leeg zijn of de lege tekenreeks **""** bevatten als de afbeelding alleen voor de sier is. Hierdoor wordt de afbeelding genegeerd door de schermlezer.
+* **[AccessibleLabel](properties-accessibility.md)** kan leeg zijn of de lege tekenreeks **""** bevatten als de afbeelding redundante informatie bevat.
+    * Bijvoorbeeld: een **Afbeelding** van tandwielen waarvoor **[AccessibleLabel](properties-accessibility.md)** is ingesteld op **Instellingen**. Deze afbeelding wordt niet gebruikt als een knop. Het staat naast een **[label](control-text-box.md)** dat ook **Instellingen** heet. De afbeelding wordt door schermlezers gelezen als **Instellingen** en het label ook als **Instellingen**. Dit is onnodig. In dit geval heeft de **Afbeelding** geen **[AccessibleLabel](properties-accessibility.md)** nodig.
+> [!IMPORTANT]
+> Schermlezers lezen altijd **Afbeelding**en die een **[TabIndex](properties-accessibility.md)** van nul of hoger hebben, zelfs als **[AccessibleLabel](properties-accessibility.md)** leeg is. Dit komt omdat deze als knoppen worden weergegeven. Als er geen **[AccessibleLabel](properties-accessibility.md)** is opgegeven, lezen schermlezers de afbeelding als een **knop**.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn als de afbeelding wordt gebruikt als een knop. Hierdoor kunnen toetsenbordgebruikers naar de afbeelding navigeren.
+* Focusindicatoren moet duidelijk zichtbaar zijn als de afbeelding wordt gebruikt als een knop. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
+> [!NOTE]
+> Wanneer **[TabIndex](properties-accessibility.md)** nul of groter is, wordt de **Afbeelding** weergegeven als een knop. Het uiterlijk van de afbeelding verandert niet, maar de afbeelding wordt door schermlezers juist geïdentificeerd als een knop. Wanneer **[TabIndex](properties-accessibility.md)** kleiner is dan nul, wordt de **Afbeelding** geïdentificeerd als een afbeelding.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 4082034d843765025bb6e40cab83705582417d51
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: fca84b687f6e86905c6eeea18a7cd302f0c58b44
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="text-input-control-in-powerapps"></a>Besturingselement voor tekstinvoer in PowerApps
 Een vak waarin de gebruiker tekst, cijfers en andere gegevens kan typen.
@@ -33,6 +33,8 @@ De gebruiker kan gegevens opgeven door te typen in een besturingselement voor te
 **[Text](properties-core.md)**: de tekst die wordt weergegeven in een besturingselement of die de gebruiker in een besturingselement typt.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers.
+
 **[Align](properties-text.md)**: de locatie van tekst in verhouding tot het horizontale midden van het besturingselement.
 
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
@@ -40,8 +42,6 @@ De gebruiker kan gegevens opgeven door te typen in een besturingselement voor te
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
 
 **[BorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement.
-
-**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer deze de toetsenbordfocus heeft.
 
 **Clear**: bepaalt of het besturingselement voor tekstinvoer een 'X' bevat waarop de gebruiker kan tikken of klikken om de inhoud van dat besturingselement te wissen.
 
@@ -58,6 +58,10 @@ De gebruiker kan gegevens opgeven door te typen in een besturingselement voor te
 **[DisabledFill](properties-color-border.md)**: de achtergrondkleur van een besturingselement als de eigenschap **[DisplayMode](properties-core.md)** is ingesteld op **Uitgeschakeld**.
 
 **[Fill](properties-color-border.md)**: de achtergrondkleur van een besturingselement.
+
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
 
 **[Font](properties-text.md)**: de naam van de lettertypefamilie waarin de tekst wordt weergegeven.
 
@@ -115,7 +119,7 @@ De gebruiker kan gegevens opgeven door te typen in een besturingselement voor te
 
 **[Strikethrough](properties-text.md)**: hiermee wordt aangegeven of een streep door de tekst van een besturingselement wordt weergegeven.
 
-**[TabIndex](properties-accessibility.md)**: past de tabvolgorde van besturingselementen tijdens runtime aan wanneer hier een andere waarde dan nul is ingesteld.
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **[Tooltip](properties-core.md)**: beschrijvende tekst die wordt weergegeven wanneer de gebruiker een besturingselement aanwijst.
 
@@ -159,3 +163,15 @@ De gebruiker kan gegevens opgeven door te typen in een besturingselement voor te
 5. (Optioneel) Voeg een besturingselement zoals een pijl toe, configureer dit om te navigeren naar een ander scherm en geef de pijl pas weer nadat de gebruiker het wachtwoord heeft ingevoerd.
 6. (Optioneel) Voeg een knop toe, configureer de eigenschap **[Text](properties-core.md)** van de knop voor het weergeven van **Aanmelden**, voeg een timer toe en schakel het besturingselement voor tekstinvoer gedurende een bepaalde tijd uit als de gebruiker het verkeerde wachtwoord typt en vervolgens op de knop **Aanmelden** klikt of tikt.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+* De standaardvereisten voor kleurcontrast zijn van toepassing.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+* De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
+ 

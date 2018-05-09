@@ -1,11 +1,9 @@
 U bent nu vertrouwd met alle onderdelen van PowerApps en de opties voor het maken van apps, dus is het tijd om daadwerkelijk een app te gaan bouwen. Voor dit onderwerp genereren we een telefoon-app op basis van een SharePoint Online-lijst, maar u kunt ook gebruikmaken van gegevens uit tal van andere bronnen, zoals Excel, cloudservices zoals SalesForce en on-premises bronnen zoals SQL Server.
 
 ## <a name="connect-to-a-data-source"></a>Verbinding maken met een gegevensbron
-De eerste stap bij het genereren van een app op basis van gegevens is de keuze voor de juiste variant van PowerApps Studio om vervolgens verbinding te maken met de gegevensbron. Klik of tik in web.powerapps.com op **Nieuwe app** en geef aan of u PowerApps Studio voor Windows dan wel PowerApps Studio voor internet wilt gebruiken.
+Tik of klik in web.powerapps.com aan de linkerkant op **Apps** en klik of tik vervolgens op **Een app maken** in de banner.
 
-![Aan de slag op web.powerapps.com](./media/learning-create-first-app-powerapps/generate-choose-studio.png)
-
-In PowerApps Studio hebt u de mogelijkheid om te beginnen op basis van gegevens, op basis van een sjabloon of om helemaal vanaf nul te beginnen. Omdat we een telefoon-app voor een SharePoint-lijst maken, klikt of tikt u onder **SharePoint** op **Telefoonindeling**.
+In PowerApps kunt u een app bouwen op basis van gegevens of een sjabloon of kunt u een heel nieuwe app bouwen. Omdat we een telefoon-app voor een SharePoint-lijst maken, klikt of tikt u onder **SharePoint** op **Telefoonindeling**.
 
 ![Telefoon-app voor SharePoint-lijst](./media/learning-create-first-app-powerapps/generate-sharepoint-phone.png)
 

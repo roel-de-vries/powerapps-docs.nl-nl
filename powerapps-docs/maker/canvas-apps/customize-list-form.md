@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 02/05/2018
 ms.author: anneta
-ms.openlocfilehash: c5dafffba91f4e4ce8e4e27d4780e91bf5ddc415
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 34c4e4126015f9a5f53ef6f07c9c66e4a4141db0
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="customize-a-sharepoint-list-form-using-powerapps"></a>Een SharePoint-lijstformulier aanpassen met PowerApps
 
@@ -33,11 +33,11 @@ Klaar om te beginnen met het aanpassen van uw formulieren? Aan de slag!
 > [!NOTE]
 > De optie **Formulieren aanpassen** is niet beschikbaar of werkt mogelijk niet op de juiste manier als de SharePoint-lijst gegevenstypen bevat die niet worden ondersteund in PowerApps.
 
-Open uw SharePoint-lijst, klik of tik op **PowerApps** op de opdrachtbalk en klik of tik vervolgens op **Formulieren aanpassen**. Hiermee wordt de webversie van PowerApps Studio in een browser geopend, met een door PowerApps gegenereerde formulier-app met één scherm, zoals u in het volgende voorbeeld kunt zien.
+Open uw SharePoint-lijst, klik of tik op **PowerApps** op de opdrachtbalk en klik of tik vervolgens op **Formulieren aanpassen**. Hiermee wordt PowerApps Studio in een browser geopend, met een door PowerApps gegenereerde formulier-app met één scherm, zoals u in het volgende voorbeeld kunt zien.
 
 ![Formulier-app met één scherm](./media/customize-list-form/list-form-app.png)
 
-Als u op een willekeurig moment wilt teruggaan naar uw SharePoint-lijst, klikt of tikt u op **Terug naar SharePoint** in de linkerbovenhoek van de webversie van PowerApps Studio.
+Als u op een willekeurig moment wilt teruggaan naar uw SharePoint-lijst, klikt of tikt u op **Terug naar SharePoint** in de linkerbovenhoek van PowerApps Studio.
 
 ## <a name="customize-the-list-form"></a>Het lijstformulier aanpassen
 
@@ -88,7 +88,7 @@ Zie [Formulieren aanpassen in PowerApps](customize-forms-sharepoint.md) voor sta
 
     * **Het standaard-SharePoint-formulier gebruiken**: in SharePoint wordt het standaard-SharePoint-formulier voor uw lijst gebruikt.
 
-    * **Een aangepast formulier gebruiken dat is gemaakt in PowerApps**: In SharePoint wordt het formulier gebruikt dat u in PowerApps hebt aangepast. (U kunt ook het formulier opnieuw publiceren via de pagina **Opslaan** in de webversie van PowerApps Studio.)
+    * **Een aangepast formulier gebruiken dat is gemaakt in PowerApps**: In SharePoint wordt het formulier gebruikt dat u in PowerApps hebt aangepast. (U kunt ook het formulier opnieuw publiceren via de pagina **Opslaan** in PowerApps Studio.)
 
     Desgewenst kunt u tussen de opties wisselen.
 
@@ -108,7 +108,7 @@ Zie [Formulieren aanpassen in PowerApps](customize-forms-sharepoint.md) voor sta
 
 **V:** Wat is het verschil tussen een aangepast lijstformulier en een zelfstandige app die ik vanuit SharePoint of PowerApps maak?
 
-**A:** De lijstformulier-app die u vanuit SharePoint maakt, is een speciaal type PowerApps-app dat alleen kan worden gebruikt in een SharePoint-lijst. Deze lijstformulier-apps worden niet in uw app-lijst in de webversie van PowerApps Studio of in PowerApps Mobile weergegeven. Daarnaast kunt u deze apps niet buiten de SharePoint-lijst uitvoeren.
+**A:** De lijstformulier-app die u vanuit SharePoint maakt, is een speciaal type PowerApps-app dat alleen kan worden gebruikt in een SharePoint-lijst. Deze lijstformulier-apps worden niet in uw app-lijst in PowerApps Studio of PowerApps Mobile weergegeven. Verder kunt u deze apps niet buiten de SharePoint-lijst uitvoeren.
 
 **V:** Wanneer moet ik een aangepast lijstformulier maken en wanneer moet ik een zelfstandige app maken?
 
@@ -142,12 +142,12 @@ Zie [Formulieren aanpassen in PowerApps](customize-forms-sharepoint.md) voor sta
 
 1. Open uw SharePoint-lijst, klik of tik op **PowerApps** op de opdrachtbalk en klik of tik vervolgens op **Formulieren aanpassen**.
 
-1. Klik of tik in de webversie van PowerApps Studio op **Bestand** en klik of tik op de pagina **Opslaan** op **Alle versies weergeven**. De pagina **Versies** wordt op een nieuw browsertabblad geopend.
+1. Klik of tik in PowerApps Studio op **Bestand** en klik of tik vervolgens op de pagina **Opslaan** op **Alle versies weergeven**. De pagina **Versies** wordt op een nieuw browsertabblad geopend.
 
     > [!NOTE]
     > Als u de knop **Alle versies weergeven** niet ziet, klikt of tikt u op **Opslaan**. Als het goed is, wordt de knop dan weergegeven.
 
-1. Laat de pagina **Versies** of het browsertabblad geopend, ga terug naar de pagina **Opslaan** op het andere browsertabblad en klik of tik op de pijl boven het linkernavigatiedeelvenster. Klik of tik op **Terug naar SharePoint** om uw formulier te ontgrendelen en de webversie van PowerApps Studio af te sluiten.
+1. Laat de pagina **Versies** of het browsertabblad geopend, ga terug naar de pagina **Opslaan** op het andere browsertabblad en klik of tik op de pijl boven in het linkernavigatiedeelvenster. Klik of tik op **Terug naar SharePoint** om uw formulier te ontgrendelen en PowerApps Studio af te sluiten.
 
 1. Ga terug naar de pagina **Versies** op het andere browsertabblad, zoek de versie die u wilt herstellen en klik vervolgens op **Herstellen**.
 

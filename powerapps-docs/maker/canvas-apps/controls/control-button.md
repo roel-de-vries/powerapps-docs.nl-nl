@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 3bab51ee290d779cd01789f55ee7c5908395537a
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: aec9071cf5cc7cbe451bae32dedc2ba119e21189
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="button-control-in-powerapps"></a>Besturingselement voor knop in PowerApps
 Een besturingselement waarop de gebruiker kan klikken of tikken om interactie te hebben met de app.
@@ -43,8 +43,6 @@ Configureer de eigenschap **[OnSelect](properties-core.md)** van een besturingse
 
 **[BorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement.
 
-**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement met toetsenbordfocus.
-
 **[Color](properties-color-border.md)**: de kleur van de tekst in een besturingselement.
 
 **[DisplayMode](properties-core.md)**: of invoer van de gebruiker is toegestaan (**Bewerken**), alleen gegevens worden weergegeven (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
@@ -54,6 +52,10 @@ Configureer de eigenschap **[OnSelect](properties-core.md)** van een besturingse
 **[DisabledColor](properties-color-border.md)**: de kleur van tekst in een besturingselement als de eigenschap **[DisplayMode](properties-core.md)** is ingesteld op **Uitgeschakeld**.
 
 **[DisabledFill](properties-color-border.md)**: de achtergrondkleur van een besturingselement als de eigenschap **[DisplayMode](properties-core.md)** is ingesteld op **Uitgeschakeld**.
+
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
 
 **[Fill](properties-color-border.md)**: de achtergrondkleur van een besturingselement.
 
@@ -99,7 +101,7 @@ Configureer de eigenschap **[OnSelect](properties-core.md)** van een besturingse
 
 **[Strikethrough](properties-text.md)**: hiermee wordt aangegeven of een streep door de tekst van een besturingselement wordt weergegeven.
 
-**[TabIndex](properties-accessibility.md)**: past de tabvolgorde van besturingselementen tijdens runtime aan wanneer hier een andere waarde dan nul is ingesteld.
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **[Tooltip](properties-core.md)**: beschrijvende tekst die wordt weergegeven wanneer de gebruiker een besturingselement aanwijst.
 
@@ -184,3 +186,15 @@ U kunt ook de kleur van een besturingselement **Knop** opgeven door de eigenscha
 
 * Vervang de functie **[ColorFade](../functions/function-colors.md)** door de functie **[ColorValue](../functions/function-colors.md)** in een van de knoppen die u hebt gemaakt en bekijk wat het effect is.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="color-contrast"></a>Kleurcontrast
+* De standaardvereisten voor kleurcontrast zijn van toepassing.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[Text](properties-core.md)** moet aanwezig zijn.
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+* De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
+ 

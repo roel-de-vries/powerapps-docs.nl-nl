@@ -1,6 +1,6 @@
 ---
-title: Snelstartgids voor aangepaste velden in een entiteit beheren | Microsoft Docs
-description: Snelstartgids om aangepaste velden in een entiteit te maken, lezen, bij te werken en te verwijderen.
+title: Aangepaste velden in een entiteit beheren | Microsoft Docs
+description: Overzicht van het maken, lezen, bijwerken en verwijderen van aangepaste velden in een entiteit in CDS voor apps.
 documentationcenter: na
 author: clwesene
 manager: kfile
@@ -8,24 +8,23 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: conceptual
+ms.topic: article
 ms.component: cds
-ms.date: 3/21/2018
+ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: a2dfe95cd9e858326a9f014aaac4e595fb27be48
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: ff522ee5d5614888c6cc0fcfb1e7d6658a36c6ae
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="quickstart-manage-custom-fields"></a>Snelstartgids: Aangepaste velden beheren
+# <a name="manage-custom-fields-in-an-entity"></a>Aangepaste velden in een entiteit beheren
 U kunt een of meer aangepaste velden in een entiteit maken en bijwerken. Als u een aangepast veld maakt, geeft u een aantal eigenschappen op, bijvoorbeeld de naam en de weergavenaam van het veld, en het type gegevens dat het kan bevatten. Zie voor meer informatie [Metagegevens entiteitkenmerk](../../developer/common-data-service/entity-attribute-metadata.md).
 
 > [!NOTE]
-> Elke entiteit heeft [systeemvelden], zoals velden die aangeven wanneer een record voor het laatst is bijgewerkt en door wie dit is gedaan. Daarnaast hebben [standaardentiteiten](data-platform-intro.md#system-fields) standaardvelden. U kunt systeemvelden en standaardvelden niet wijzigen of verwijderen. Als u een aangepast veld maakt, moet dit naast deze ingebouwde velden extra functionaliteit bieden.
+> Elke entiteit bevat systeemvelden, zoals velden die aangeven wanneer een record voor het laatst is bijgewerkt en door wie dit is gedaan. Daarnaast bevatten standaardentiteiten standaardvelden. U kunt systeemvelden en standaardvelden niet wijzigen of verwijderen. Als u een aangepast veld maakt, moet dit naast deze ingebouwde velden extra functionaliteit bieden.
 
 ## <a name="create-a-field"></a>Een veld maken
-
 1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
 
     ![Entiteitsgegevens](./media/data-platform-cds-create-entity/entitylist.png "Entiteitslijst")
@@ -62,7 +61,6 @@ U kunt een of meer aangepaste velden in een entiteit maken en bijwerken. Als u e
     Er wordt een bericht weergegeven wanneer de bewerking is voltooid. Als de bewerking is mislukt, wordt een foutbericht weergegeven met de problemen die zijn opgetreden, zodat u die kunt corrigeren.
 
 ## <a name="create-a-calculated-or-roll-up-field"></a>Een berekend of samengeteld veld maken
-
 Met berekende velden kunt u handmatige berekeningen automatiseren die worden gebruikt in uw bedrijfsprocessen. Een verkoopmedewerker wil bijvoorbeeld de gewogen omzet weten voor een verkoopkans die is gebaseerd op de geschatte omzet van een verkoopkans vermenigvuldigd met de waarschijnlijkheid. Of hij wil automatisch een korting toepassen als een order groter is dan $500. Een berekend veld kan waarden bevatten die het resultaat zijn van eenvoudige rekenkundige bewerkingen of voorwaardelijke bewerkingen, zoals groter dan of als-dan, en vele andere. Berekende velden kunnen worden gemaakt met behulp van de volgende gegevenstypen:
 
 * Eén tekstregel
@@ -74,7 +72,6 @@ Met berekende velden kunt u handmatige berekeningen automatiseren die worden geb
 * Datum en tijd
 
 Zie [Berekende velden definiëren](/dynamics365/customer-engagement/customize/define-calculated-fields) voor meer informatie over de verschillende typen expressies die worden ondersteund en voor voorbeelden
-
 
 ## <a name="update-or-delete-a-field"></a>Een veld bijwerken of verwijderen
 1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Gegevens** uit, klik of tik op **Entiteiten** in het linkernavigatiedeelvenster en klik of tik op een entiteit.

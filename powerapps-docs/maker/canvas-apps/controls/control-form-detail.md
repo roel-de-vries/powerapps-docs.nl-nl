@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselementen Formulier weergeven en Formulier bewerken: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over de besturingselementen Formulier weergeven en Formulier bewerken
-services: ''
-suite: powerapps
 documentationcenter: na
 author: gregli-msft
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: c238a441c147c148fa619e6068579b75d643339a
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 78615949ab5c05b4cf7da56eae23dd1a0194c7ff
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>Besturingselementen Formulier weergeven en Formulier bewerken in PowerApps
 Een record weergeven, bewerken en maken in een gegevensbron.
@@ -88,7 +85,7 @@ Afgeleid van de eigenschap **Mode** en kan niet onafhankelijk worden ingesteld:
 **Error**: een foutbericht dat voor dit formulier wordt weergegeven als de functie **[SubmitForm](../functions/function-form.md)** mislukt.
 
 * Deze eigenschap is alleen van toepassing op het besturingselement **Formulier bewerken**.
-* Deze eigenschap verandert alleen wanneer de functie **[SubmitForm](../functions/function-form.md)**, **EditForm** of  **[ResetForm](../functions/function-form.md)**  wordt uitgevoerd.
+* Deze eigenschap verandert alleen wanneer de functie **[SubmitForm](../functions/function-form.md)**, **EditForm** of **[ResetForm](../functions/function-form.md)** wordt uitgevoerd.
 * Als er geen fout optreedt, is deze eigenschap *leeg* en wordt **ErrorKind** ingesteld op **ErrorKind.None**.
 * Indien mogelijk wordt het foutbericht weergegeven in de taal van de gebruiker. Bepaalde foutberichten zijn rechtstreeks afkomstig uit de gegevensbron en zijn daarom mogelijk niet in de taal van de gebruiker opgesteld.
 
@@ -179,3 +176,6 @@ Het formulier wordt overgeschakeld van de modus **Nieuw** naar de modus **Bewerk
 ## <a name="more-information"></a>Meer informatie
 Zie [Gegevensformulieren begrijpen](../working-with-forms.md) voor een uitgebreid overzicht van de werking van formulieren.
 
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* U kunt aan het formulier een kop toevoegen met een **[Label](control-text-box.md)**.

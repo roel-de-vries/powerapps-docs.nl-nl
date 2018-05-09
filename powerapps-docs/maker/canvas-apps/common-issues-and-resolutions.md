@@ -1,8 +1,6 @@
 ---
 title: Veelvoorkomende problemen en oplossingen voor PowerApps | Microsoft Docs
 description: Informatie over problemen met PowerApps en oplossingen
-services: ''
-suite: powerapps
 documentationcenter: na
 author: skjerland
 manager: kfile
@@ -10,19 +8,26 @@ editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.date: 03/05/2018
+ms.topic: conceptual
+ms.component: canvas
+ms.date: 04/12/2018
 ms.author: sharik
-ms.openlocfilehash: 6df3a0d92f8dd8352f93bdb377ac9c4b446e1e99
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 369bbc445d54152f5b6319922d79a58c9b79121c
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>Veelvoorkomende problemen en oplossingen voor PowerApps
 ## <a name="recently-addedchanged"></a>Onlangs toegevoegd/gewijzigd
+1. **Een aangepaste afbeelding gebruiken als een app-pictogram**
+
+    In PowerApps Studio voor Windows versie 3.18043 kunt u geen aangepaste afbeelding uploaden om te gebruiken als een app-pictogram. U kunt dit probleem omzeilen door [PowerApps Studio voor internet](https://web.powerapps.com) te gebruiken om een aangepaste afbeelding te uploaden. U kunt eventueel ook een van de pictogrammen gebruiken die bij PowerApps Studio voor Windows wordt geleverd en de achtergrondkleur aanpassen.
+
+1. **Schermen kopiëren en plakken over verschillende apps**
+
+    Het kopiëren en plakken van schermen over verschillende apps wordt momenteel niet ondersteund. Om dit te omzeilen, kunt u een nieuw scherm toevoegen aan uw doel-app. U kunt dan de besturingselementen van het scherm kopiëren naar uw bron-app en deze plakken in het scherm van uw doel-app.
+
 1. **De opmaak van SharePoint-lijstformulieren wijzigen**
 
     Wanneer u bij het aanpassen van een SharePoint-lijstformulier in bepaalde talen probeert om de pagina-instelling te wijzigen van staand (standaard) naar liggend, geeft de app mogelijk meerdere foutmeldingen weer (gele driehoeken in besturingselementen). Klik op **Ongedaan maken** om deze foutmeldingen op te lossen en de liggende opmaak te behouden.

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: f0547963060d31f86b32cc2aaff38b116d35036b
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: e3cae08695af7a4625fd4deb58c8cf7cfe71fdd0
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="label-control-in-powerapps"></a>Besturingselement voor label in PowerApps
 Een vak waarin gegevens zoals tekst, getallen, datums of valuta worden weergegeven.
@@ -59,6 +59,10 @@ Een label bevat gegevens die u opgeeft als een letterlijke tekenreeks (deze gege
 
 **[Fill](properties-color-border.md)**: de achtergrondkleur van een besturingselement.
 
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
 **[FontWeight](properties-text.md)**: het gewicht van de tekst in een besturingselement: **Bold**, **Semibold**, **Normal** of **Lighter**.
 
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
@@ -94,6 +98,8 @@ Een label bevat gegevens die u opgeeft als een letterlijke tekenreeks (deze gege
 **[Size](properties-text.md)**: de tekengrootte van de tekst die in een besturingselement wordt weergegeven.
 
 **[Strikethrough](properties-text.md)**: hiermee wordt aangegeven of een streep door de tekst van een besturingselement wordt weergegeven.
+
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **[Tooltip](properties-core.md)**: beschrijvende tekst die wordt weergegeven wanneer de gebruiker een besturingselement aanwijst.
 
@@ -140,3 +146,27 @@ In deze procedure maakt u een verzameling met de naam **Inwonersaantallen**, met
     Als u de galerie selecteert, ziet u in het deelvenster aan de rechterkant de opties voor de galerie.
 4. Stel in het deelvenster **Galerie1** de bovenste lijst in op **Inwonersaantal**, de middelste lijst op **Stad** en de onderste lijst op **Land**.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+Ongeacht wat de naam doet vermoeden, hoeft een besturingselement voor **label** niet te worden gebruikt als een label voor een ander besturingselement. Het kan worden gebruikt om elke tekst weer te geven.
+
+Een **label** kan worden gebruikt als een knop of koppeling door het gedrag van **[OnSelect](properties-core.md)** op te geven. Daarom gelden voor dit besturingselement dezelfde aandachtspunten als voor knoppen.
+
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* **[Color](properties-color-border.md)** en **[Fill](properties-color-border.md)**
+* Andere standaardvereisten voor kleurcontrast zijn van toepassing (indien gebruikt als een knop of koppeling)
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[Text](properties-core.md)** moet aanwezig zijn.
+> [!NOTE]
+> Schermlezers beschouwen **label**s als knoppen wanneer **[TabIndex](properties-accessibility.md)** groter dan of gelijk aan nul is.
+
+### <a name="low-vision-support"></a>Ondersteuning voor gebruikers met beperkt gezichtsvermogen
+* **Label** moet eruitzien als een koppeling als deze wordt gebruikt als een koppeling.
+    * Stel **[Underline](properties-text.md)** in op **true**
+    * **[HoverColor](properties-color-border.md)** moet verschillen van **[Color](properties-color-border.md)**
+
+### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
+* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn als de tekst wordt gebruikt als een knop of koppeling. Hierdoor kunnen toetsenbordgebruikers ernaartoe navigeren.
+* Focusindicatoren moet duidelijk zichtbaar zijn als de tekst wordt gebruikt als een knop of koppeling. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.

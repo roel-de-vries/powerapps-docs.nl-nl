@@ -12,11 +12,11 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/12/2016
 ms.author: lanced
-ms.openlocfilehash: 3eb91d8903caff9af812943697cf317ee7379316
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 6e373bdf618bf9e59deef5d8bddf73c06d6f34fd
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="connect-to-power-bi-from-powerapps"></a>Verbinding maken met Power BI vanuit PowerApps
 ![Power BI](./media/connection-powerbi/powerbiicon.png)
@@ -26,7 +26,7 @@ Power BI is een pakket business analytics-hulpprogramma's waarmee u gegevens kun
 In dit onderwerp ziet u hoe u de Power BI-verbinding in een app kunt gebruiken en vindt u een overzicht van de beschikbare functies.
 
 ## <a name="prerequisites"></a>Vereisten
-* Toegang tot [powerapps.com](https://powerapps.com) of [PowerApps](http://aka.ms/powerappsinstall) moet zijn geïnstalleerd
+* [Aanmelden](https://web.powerapps.com)
 * De Power BI-[verbinding](https://powerapps.microsoft.com/tutorials/add-manage-connections/) moet zijn toegevoegd
 * U hebt een app gemaakt op basis van een [sjabloon](https://powerapps.microsoft.com/tutorials/get-started-test-drive/), op basis van [gegevens](https://powerapps.microsoft.com/tutorials/get-started-create-from-data/) of u hebt een [volledig nieuwe](https://powerapps.microsoft.com/tutorials/get-started-create-from-blank/) app gemaakt
 

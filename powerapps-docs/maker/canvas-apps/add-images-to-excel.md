@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: anneta
-ms.openlocfilehash: b15584a1b53625544711f04d074c688ce75eac9c
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 29da2a8814b0de7d34915f9992aeb963743785d2
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="add-images-to-excel-from-powerapps"></a>Afbeeldingen toevoegen aan Excel via PowerApps
 Maak automatisch een app waarin gebruikers afbeeldingen uit bestanden of tekeningen kunnen toevoegen, weergeven of verwijderen met het besturingselement **Pen**. De app is gebaseerd op een Excel-bestand dat u maakt en uploadt naar een cloudopslagaccount.
@@ -41,7 +41,7 @@ Maak automatisch een app waarin gebruikers afbeeldingen uit bestanden of tekenin
 6. Klik of tik onder **Een tabel kiezen** op de tabel die u hebt gemaakt en klik of tik daarna op **Verbinden**.
    
     ![Uw tabel selecteren](./media/add-images-to-excel/select-table.png)
-7. Als u PowerApps zojuist hebt geïnstalleerd of geüpgraded, bekijkt u de rondleiding of klikt of tikt u op **Overslaan**.
+7. Als de korte rondleiding wordt weergegeven, volgt u deze of klikt of tikt u op **Overslaan**.
    
     ![Eerste scherm van de rondleiding](./media/add-images-to-excel/quick-tour.png)
 

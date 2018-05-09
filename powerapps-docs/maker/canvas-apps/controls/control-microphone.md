@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 3ffede0018a371b3c3a4cf4a3a1f9fc8115140de
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 8f49b7dbe6186c9c984b27f4c5b07273e88f1963
+ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="microphone-control-in-powerapps"></a>Besturingselement voor microfoon in PowerApps
 Een besturingselement waarmee de gebruiker geluiden kan opnemen.
@@ -33,6 +33,8 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 **OnStop**: hoe de app reageert wanneer de gebruiker een opname stopt met het besturingselement Microfoon.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+**[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers. Het doel van de microfoon moet worden beschreven.
+
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
 
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
@@ -50,6 +52,10 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 **[DisabledFill](properties-color-border.md)**: de achtergrondkleur van een besturingselement als de eigenschap **[DisplayMode](properties-core.md)** is ingesteld op **Uitgeschakeld**.
 
 **[Fill](properties-color-border.md)**: de achtergrondkleur van een besturingselement.
+
+**[FocusedBorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement wanneer de focus op het besturingselement is.
+
+**[FocusedBorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement wanneer de focus op het besturingselement is.
 
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
 
@@ -74,6 +80,8 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 **[PressedFill](properties-color-border.md)**: de achtergrondkleur van een besturingselement wanneer de gebruiker op dat besturingselement tikt of klikt.
 
 **[Reset](properties-core.md)**: of een besturingselement wordt teruggezet op de standaardwaarde.
+
+**[TabIndex](properties-accessibility.md)**: de navigatievolgorde op het toetsenbord ten opzichte van andere besturingselementen.
 
 **[Tooltip](properties-core.md)**: beschrijvende tekst die wordt weergegeven wanneer de gebruiker een besturingselement aanwijst.
 
@@ -105,3 +113,18 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 
 Gebruik de functie **[SaveData](../functions/function-savedata-loaddata.md)** om de opnames lokaal op te slaan of de functie **[Patch](../functions/function-patch.md)** om een gegevensbron bij te werken.
 
+
+## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+Voor de microfoon gelden dezelfde richtlijnen als voor **[knop](control-button.md)** omdat **Microfoon** een gespecialiseerde knop is. Bekijk bovendien de volgende scenario's:
+
+### <a name="audio-alternatives"></a>Alternatieven voor audio
+* U kunt een alternatieve invoervorm toevoegen voor gebruikers met een spraakprobleem of gebruikers zonder microfoon. Met **[tekstinvoer](control-text-input.md)** kunnen gebruikers bijvoorbeeld tekst invoeren.
+
+### <a name="color-contrast"></a>Kleurcontrast
+Er moet voldoende kleurcontrast zijn tussen:
+* **[Afbeelding](properties-visual.md)** en de tekst van knop en het pictogram (indien van toepassing)
+
+Dit komt bovenop de standaardvereisten voor kleurcontrast.
+
+### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
+* **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.

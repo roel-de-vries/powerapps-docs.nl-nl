@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 04/27/2016
 ms.author: gregli
-ms.openlocfilehash: c0e0595fc3e3025ca345e1415fbd3da99f090063
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: a9cd26ad41ceaa5b94678a3ef87bf0ab6dda98a1
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="understand-data-forms-in-microsoft-powerapps"></a>Gegevensformulieren begrijpen in Microsoft PowerApps
 Voer drie typen besturingselementen toe zodat de gebruiker naar een record kan bladeren, details over deze record kan weergeven, en een record kan bewerken of maken:
@@ -35,7 +35,7 @@ Zoals in dit onderwerp wordt beschreven, kunt u deze besturingselementen combine
 
 ## <a name="prerequisites"></a>Vereisten
 
-* [Registreer u](../signup-for-powerapps.md) voor PowerApps, [installeer](http://aka.ms/powerappsinstall) het, open het en meld u aan met dezelfde referenties die u hebt gebruikt om u te registreren.
+* [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
 * Lees hoe u [een besturingselement kunt configureren](add-configure-controls.md) in PowerApps.
 
 ## <a name="explore-a-generated-app"></a>Een gegenereerde app verkennen
