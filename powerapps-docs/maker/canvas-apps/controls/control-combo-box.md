@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselement voor keuzelijst met invoervak: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Keuzelijst met invoervak
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 09/13/2017
 ms.author: fikaradz
-ms.openlocfilehash: 5fb4ca1a8c3618a81940ef953e2e7d1c9b04dd7e
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 1a790627ad1dbd1bebecca84cb41ee29dcf148dd
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="combo-box-control-in-powerapps"></a>Besturingselement voor keuzelijst met invoervak in PowerApps
 Een besturingselement waarmee gebruikers selecties kunnen maken in geboden opties.  Ondersteunt zoeken en meervoudige selectie.
@@ -44,6 +41,8 @@ Als u personen wilt selecteren met behulp van een **keuzelijst met invoervak**, 
 **SelectMultiple**: bepaalt of de gebruiker één item of meerdere items kan selecteren.
 
 **IsSearchable**: bepaalt of de gebruiker naar items kan zoeken alvorens ze te selecteren.
+
+**SearchFields**: de gegevensvelden van de betreffende gegevensbron wanneer de gebruiker tekst invoert.  Als u wilt zoeken op meerdere velden, stelt u ComboBox1.SearchFields = ["MyFirstColumn", "MySecondColumn"] in
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
 **[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers.
@@ -104,15 +103,17 @@ Er moet voldoende kleurcontrast zijn tussen:
 * **SelectionFill** en **[Fill](properties-color-border.md)**
 * **SelectionTagColor** en **SelectionTagFill**
 
-Dit komt bovenop de standaardvereisten voor kleurcontrast.
+Dit komt bovenop de [standaardvereisten voor kleurcontrast](../accessible-apps-color.md).
 
 ### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
 * **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
-> [!NOTE]
+
+    > [!NOTE]
 > Op aanraakschermen kunnen gebruikers van de schermlezer achtereenvolgens door de inhoud van de keuzelijst met invoervak navigeren. De keuzelijst met invoervak werkt als een knop die, indien geselecteerd, de inhoud weergeeft of verbergt.
 
 ### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
 * **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
 * De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
-> [!NOTE]
+
+    > [!NOTE]
 > Met de tab-toets navigeert u naar of van de keuzelijst met invoervak. Met de pijltoetsen navigeert u door de inhoud van de keuzelijst met invoervak. Met de Escape-toets sluit u de vervolgkeuzelijst wanneer deze is geopend.

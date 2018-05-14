@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselement voor afbeeldingen: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Afbeelding
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 82a545279ed297d3faa14ad0db47c30dea2660aa
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: bd07c6ee0a0084171c928c6908c33caae974d765
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="image-control-in-powerapps"></a>Besturingselement voor afbeeldingen in PowerApps
 Een besturingselement waarin een afbeelding wordt weergeven, bijvoorbeeld uit een lokaal bestand of een gegevensbron.
@@ -140,7 +137,7 @@ Als u een of meer besturingselementen **Afbeelding** toevoegt aan een app, kunt 
 
 ## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
 ### <a name="color-contrast"></a>Kleurcontrast
-* Standaardvereisten voor kleurcontrast zijn van toepassing, indien de afbeelding wordt gebruikt als een knop.
+* [Standaardvereisten voor kleurcontrast](../accessible-apps-color.md) zijn van toepassing, indien de afbeelding wordt gebruikt als een knop.
 * U kunt controleren op problemen met het contrast in de afbeelding als deze niet alleen voor de sier is.
 
 ### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
@@ -148,11 +145,13 @@ Als u een of meer besturingselementen **Afbeelding** toevoegt aan een app, kunt 
 * **[AccessibleLabel](properties-accessibility.md)** moet leeg zijn of de lege tekenreeks **""** bevatten als de afbeelding alleen voor de sier is. Hierdoor wordt de afbeelding genegeerd door de schermlezer.
 * **[AccessibleLabel](properties-accessibility.md)** kan leeg zijn of de lege tekenreeks **""** bevatten als de afbeelding redundante informatie bevat.
     * Bijvoorbeeld: een **Afbeelding** van tandwielen waarvoor **[AccessibleLabel](properties-accessibility.md)** is ingesteld op **Instellingen**. Deze afbeelding wordt niet gebruikt als een knop. Het staat naast een **[label](control-text-box.md)** dat ook **Instellingen** heet. De afbeelding wordt door schermlezers gelezen als **Instellingen** en het label ook als **Instellingen**. Dit is onnodig. In dit geval heeft de **Afbeelding** geen **[AccessibleLabel](properties-accessibility.md)** nodig.
-> [!IMPORTANT]
+
+    > [!IMPORTANT]
 > Schermlezers lezen altijd **Afbeelding**en die een **[TabIndex](properties-accessibility.md)** van nul of hoger hebben, zelfs als **[AccessibleLabel](properties-accessibility.md)** leeg is. Dit komt omdat deze als knoppen worden weergegeven. Als er geen **[AccessibleLabel](properties-accessibility.md)** is opgegeven, lezen schermlezers de afbeelding als een **knop**.
 
 ### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
 * **[TabIndex](properties-accessibility.md)** moet nul of groter zijn als de afbeelding wordt gebruikt als een knop. Hierdoor kunnen toetsenbordgebruikers naar de afbeelding navigeren.
 * Focusindicatoren moet duidelijk zichtbaar zijn als de afbeelding wordt gebruikt als een knop. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
-> [!NOTE]
+
+    > [!NOTE]
 > Wanneer **[TabIndex](properties-accessibility.md)** nul of groter is, wordt de **Afbeelding** weergegeven als een knop. Het uiterlijk van de afbeelding verandert niet, maar de afbeelding wordt door schermlezers juist geïdentificeerd als een knop. Wanneer **[TabIndex](properties-accessibility.md)** kleiner is dan nul, wordt de **Afbeelding** geïdentificeerd als een afbeelding.

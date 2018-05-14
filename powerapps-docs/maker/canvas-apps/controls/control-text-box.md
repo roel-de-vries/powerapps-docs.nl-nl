@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselement voor label: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement voor label
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: e3cae08695af7a4625fd4deb58c8cf7cfe71fdd0
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: caa8cf8678a509e4d66442f790b8d89905d48b92
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="label-control-in-powerapps"></a>Besturingselement voor label in PowerApps
 Een vak waarin gegevens zoals tekst, getallen, datums of valuta worden weergegeven.
@@ -155,11 +152,12 @@ Een **label** kan worden gebruikt als een knop of koppeling door het gedrag van 
 ### <a name="color-contrast"></a>Kleurcontrast
 Er moet voldoende kleurcontrast zijn tussen:
 * **[Color](properties-color-border.md)** en **[Fill](properties-color-border.md)**
-* Andere standaardvereisten voor kleurcontrast zijn van toepassing (indien gebruikt als een knop of koppeling)
+* Andere [standaardvereisten voor kleurcontrast zijn van toepassing](../accessible-apps-color.md) (indien gebruikt als een knop of koppeling)
 
 ### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
 * **[Text](properties-core.md)** moet aanwezig zijn.
-> [!NOTE]
+
+    > [!NOTE]
 > Schermlezers beschouwen **label**s als knoppen wanneer **[TabIndex](properties-accessibility.md)** groter dan of gelijk aan nul is.
 
 ### <a name="low-vision-support"></a>Ondersteuning voor gebruikers met beperkt gezichtsvermogen

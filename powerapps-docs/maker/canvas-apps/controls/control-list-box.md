@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselement voor keuzelijst: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Keuzelijst
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: d68e0e08b42bf0342e27c14ab7d53c746c468992
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 24fc5523b2f1d3cced7cdf4af8c30c65d28757a2
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="list-box-control-in-powerapps"></a>Besturingselement voor keuzelijst in PowerApps
 Een lijst waarin de gebruiker een of meer items kan selecteren.
@@ -162,7 +159,7 @@ Er moet voldoende kleurcontrast zijn tussen:
 * **[HoverFill](properties-color-border.md)** en **[Fill](properties-color-border.md)**
 * **[PressedFill](properties-color-border.md)** en **[Fill](properties-color-border.md)**
 
-Dit komt bovenop de standaardvereisten voor kleurcontrast.
+Dit komt bovenop de [standaardvereisten voor kleurcontrast](../accessible-apps-color.md).
 
 ### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
 * **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
@@ -170,5 +167,6 @@ Dit komt bovenop de standaardvereisten voor kleurcontrast.
 ### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
 * **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
 * De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
-> [!NOTE]
+
+    > [!NOTE]
 > Met de tab-toets navigeert u naar de **Keuzelijst** of ervan weg. Met de pijltoetsen navigeert u door de inhoud van de **Keuzelijst**.

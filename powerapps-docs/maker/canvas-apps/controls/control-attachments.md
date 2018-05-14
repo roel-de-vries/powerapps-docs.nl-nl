@@ -1,32 +1,29 @@
 ---
 title: 'Besturingselement voor bijlagen: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Bijlagen
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.date: 09/29/2017
+ms.topic: reference
+ms.component: canvas
+ms.date: 04/23/2018
 ms.author: fikaradz
-ms.openlocfilehash: 6b46cfd778dcb29553dce252988b8b6a049ba12d
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: 24610e4d70f39f08eec1e828c1be20183d8de3af
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="attachments-control-in-powerapps"></a>Besturingselement voor bijlagen in PowerApps
 Een besturingselement waarmee gebruikers bestanden kunnen downloaden op hun apparaat en ook bestanden kunnen uploaden naar en verwijderen van een SharePoint-lijst.
 
 ## <a name="limitations"></a>Beperkingen
 Het besturingselement voor bijlagen heeft de volgende tijdelijke beperkingen:
-1. Downloaden van bijlagen wordt niet ondersteund in Internet Explorer.
+1. Het downloaden van bijlagen wordt in Internet Explorer alleen ondersteund in aangepaste formulieren van SharePoint.
 
 1. Uploaden van bijlagen werkt alleen met gegevensbronnen van SharePoint-lijst.  Ondersteuning voor andere gegevensbronnen wordt stapsgewijs geïntroduceerd, beginnend bij CDS.
 
@@ -97,7 +94,7 @@ Met een besturingselement **Attachments** kunt u bestanden openen die zijn opges
 
     Het aan de SharePoint-lijst gekoppelde veld Bijlagen wordt in het formulier weergegeven.
 
-[Ontdek hoe u een besturingselement toevoegt en configureert.](../add-configure-controls.md)
+[Informatie over het toevoegen en configureren van een besturingselement].(../add-configure-controls.md)
 
 
 ## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
@@ -113,7 +110,7 @@ Er moet voldoende kleurcontrast zijn tussen:
 * **MaxAttachmentsColor** en **Fill**
 * **NoAttachmentsColor** en **Fill**
 
-Dit komt bovenop de standaardvereisten voor kleurcontrast.
+Dit komt bovenop de [standaardvereisten voor kleurcontrast](../accessible-apps-color.md).
 
 ### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
 De volgende eigenschappen moeten aanwezig zijn:

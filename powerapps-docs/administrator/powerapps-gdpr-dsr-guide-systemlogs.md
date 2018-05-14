@@ -1,6 +1,6 @@
 ---
-title: Reageren op DSR’s voor door het systeem gegenereerde logboeken in PowerApps, Microsoft Flow en Common Data Service | Microsoft Docs
-description: Reageren op DSR’s voor door het systeem gegenereerde logboeken in PowerApps, Microsoft Flow en Common Data Service
+title: Reageren op verzoeken van betrokkenen voor door het systeem gegenereerde logboeken in PowerApps, Microsoft Flow en Common Data Service voor apps | Microsoft Docs
+description: Overzicht van hoe te reageren op verzoeken van betrokkenen voor door het systeem gegenereerde logboeken in PowerApps, Microsoft Flow en Common Data Service voor apps
 services: powerapps
 suite: powerapps
 documentationcenter: na
@@ -14,16 +14,16 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/18/2018
+ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 1b85ac81969407fe4e84c41fd93debeccddb0f05
-ms.sourcegitcommit: e3a2819c14ad67cc4ca6640b9064550d0f553d8f
+ms.openlocfilehash: c3086ce05ba748b5387ec4ae5a1e794658b5677a
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="responding-to-dsr-requests-for-system-generated-logs-in-powerapps-microsoft-flow-and-common-data-service-for-apps"></a>Reageren op DSR-verzoeken voor door het systeem gegenereerde logboeken in PowerApps, Microsoft Flow en Common Data Service for Apps
-Microsoft biedt u de mogelijkheid om door het systeem gegenereerde logboeken te openen, te exporteren en te verwijderen. Deze logboeken kunnen worden beschouwd als persoonlijk onder de brede definitie van *persoonsgegevens* van de algemene verordening gegevensbescherming (AVG). Voorbeelden van door het systeem gegenereerde logboeken die als persoonlijk kunnen worden beschouwd onder de AVG zijn:
+Microsoft biedt u de mogelijkheid om door het systeem gegenereerde logboeken te openen, te exporteren en te verwijderen. Deze logboeken kunnen onder de brede definitie van *persoonsgegevens* van de algemene verordening gegevensbescherming (AVG) van de EU (Europese Unie) worden beschouwd als persoonlijk. Voorbeelden van door het systeem gegenereerde logboeken die als persoonlijk kunnen worden beschouwd onder de AVG zijn:
 * Gebruiksgegevens over producten en services, zoals activiteitenlogboeken van gebruikers
 * Zoekaanvragen en querygegevens van gebruikers
 * Gegevens die zijn gegenereerd door producten en services als een product van systeemfunctionaliteit en interactie door gebruikers of andere systemen
@@ -31,9 +31,11 @@ Microsoft biedt u de mogelijkheid om door het systeem gegenereerde logboeken te 
 Denk erom dat de mogelijkheid om gegevens in door het systeem gegenereerde logboeken te beperken of rectificeren niet wordt ondersteund. Gegevens in door het systeem gegenereerde logboeken vormen feitelijke acties die zijn uitgevoerd binnen de Microsoft-cloud. Diagnostische gegevens&mdash;waaronder wijzigingen aan dergelijke gegevens&mdash;zouden het historisch overzicht van acties in gevaar brengen, en fraude en beveiligingsrisico's vergroten.
 
 ## <a name="accessing-and-exporting-system-generated-logs"></a>Door het systeem gegenereerde logboeken openen en exporteren
-Beheerders hebben toegang tot door het systeem gegenereerde logboeken die zijn gekoppeld aan het gebruik door een gebruiker vanPowerApps, Microsoft Flow en CDS for Apps-services en -toepassingen. Door het systeem gegenereerde logboeken openen en exporteren:
+Beheerders hebben toegang tot door het systeem gegenereerde logboeken die zijn gekoppeld aan het gebruik door een gebruiker van PowerApps, Microsoft Flow en CDS (Common Data Service) for Apps-services en -toepassingen.
 
-1. Ga naar de [Microsoft Service Trust-portal](https://servicetrust.microsoft.com/) en meldt u aan met de referenties van een globale Office 365-beheerder.
+U kunt door het systeem gegenereerde logboeken als volgt openen en exporteren:
+
+1. Ga naar de [Microsoft Service Trust-portal](https://servicetrust.microsoft.com/) en meld u aan met de referenties van een globale Office 365-beheerder.
 
 2. Selecteer in de vervolgkeuzelijst **Privacy** bovenaan de pagina **DSR**.
 
@@ -55,7 +57,7 @@ De volgende tabel geeft een overzicht van hoe u door het systeem gegenereerde lo
 | Hoe zien gegevens in door het systeem gegenereerde logboeken eruit? |  Voorbeeld van een door het systeem gegenereerd logboekrecord in JSON-indeling: <br> [{ <br>"DateTime": "2017-04- 28T12:09:29-07:00",  <br> "AppName": "SharePoint", <br> "Action": "OpenFile", "IP": "154.192.13.131", <br> "DevicePlatform": "Windows 1.0.1607" <br>}]
 
 > [!NOTE]
->  Niet alle functies staan export of verwijdering van door het systeem gegenereerde logboeken met persoonlijke gegevens toe. De integriteit van dergelijke informatie kan daarom worden gehandhaafd omwille van beveiligings- en controleredenen.
+>  Voor beveiligings- en auditdoeleinden is het met sommige functies niet mogelijk om door het systeem gegenereerde logboeken te exporteren of te verwijderen. Dit is om de integriteit van persoonsgegevens te behouden.
 >
 >
 

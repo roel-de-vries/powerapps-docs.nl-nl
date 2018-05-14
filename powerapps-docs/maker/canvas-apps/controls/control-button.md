@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselement voor knop: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Knop
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: aec9071cf5cc7cbe451bae32dedc2ba119e21189
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 8a22e1075d15d96b7e1a6383260d5b7ccb653c3a
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="button-control-in-powerapps"></a>Besturingselement voor knop in PowerApps
 Een besturingselement waarop de gebruiker kan klikken of tikken om interactie te hebben met de app.
@@ -189,7 +186,7 @@ U kunt ook de kleur van een besturingselement **Knop** opgeven door de eigenscha
 
 ## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
 ### <a name="color-contrast"></a>Kleurcontrast
-* De standaardvereisten voor kleurcontrast zijn van toepassing.
+* [De standaardvereisten voor kleurcontrast](../accessible-apps-color.md) zijn van toepassing.
 
 ### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
 * **[Text](properties-core.md)** moet aanwezig zijn.

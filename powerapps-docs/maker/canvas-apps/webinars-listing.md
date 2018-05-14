@@ -1,53 +1,70 @@
 ---
 title: Webinaroverzicht | Microsoft Docs
 description: Hier ziet u een overzicht van eerdere en toekomstige webinars, inclusief tijd/datum en de besproken onderwerpen.
-services: ''
-suite: powerapps
-documentationcenter: na
 author: audrieMSFT
-manager: anneta
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 4/18/2018
 ms.author: audrie
-ms.openlocfilehash: e26afdee008b54285e0c20e869f8ccabb8aae215
-ms.sourcegitcommit: e3a2819c14ad67cc4ca6640b9064550d0f553d8f
+ms.openlocfilehash: 7c171b155e077f8e765268d3cb6838e5989d8a00
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="powerapps-webinar-listing"></a>Overzicht van PowerApps-webinars #
 In deze webinars ziet u hoe u kunt gebruikmaken van de functies en voorzieningen van Microsoft PowerApps. U kunt aanvullende onderwerpen voorstellen in de opmerkingen onder dit onderwerp.
 
 ## <a name="upcoming-webinars"></a>Komende webinars ##
-**Aan de slag | Inzicht in modelgestuurde app-sjablonen met Casey Burke**
-<br>door Casey Burke
-<br>*19 april, 10:00 PST, 12:00 EST*
+**Deel 1 van de serie Modelgestuurde apps | Entiteiten en gegevensimport beheren**
+<br>door Audrie Gordon en Clay Wesener
+<br>*1 mei, 10:00 PST, 12:00 EST*
 
-Microsoft Program Manager Casey Burke demonstreert en analyseert de architectuur van modelgestuurde app-sjablonen. U ziet hoe u deze sjablonen kunt gebruiken en aanpassen aan uw eigen zakelijke doelstellingen.
+Werk samen met Clay Wesener van het PowerApps-team terwijl hij u stapsgewijs helpt met het bouwen van een CDS voor apps-database. U leert hoe u entiteiten en velden maakt en hierdoor navigeert. U krijgt ook een goed beeld van de ingebouwde mogelijkheden. 
 
-[Klik hier om te kijken op 19 april](https://www.youtube.com/watch?v=FShakkXKiS8) 
+Dit is deel 1 van een driedelige serie:
+<br>**Deel 1: Entiteiten**
+<br>Deel 2: Formulieren en weergaven
+<br>Deel 3: Grafieken en dashboards
 
-**Deep Dive | PowerApps gebruiken voor het beheer van bedrijfsprocessen door Dawid van Heerden**
-<br>door Audrie Gordon & Dawid van Heerden
-<br>*23 april, 10:00 PST, 12:00 EST*
+Dit is een geweldige gelegenheid om te leren hoe u standaardentiteiten en -velden hergebruikt en hoe u in een mum van tijd uw eigen aangepaste scenario's maakt.
 
-PowerApps zijn ideaal om snel bedrijfstoepassingen te maken. Deze video toont de kracht van dit platform om bedrijfsprocessen met meerdere stappen te maken, met verschillende rollen, stappen en routeringsopties.
-
-[Klik hier om te kijken op 23 april](https://www.youtube.com/watch?v=JY8r46HnHoI)
+[Klik hier om te kijken op 1 mei](https://www.youtube.com/watch?v=02NWfHRYkeo)
 
 **Deep Dive | Laura Rogers van IWMentor deelt aanbevolen procedures voor productie-apps**
 <br>door Audrie Gordon & Laura Rodgers
 <br>*14 mei, 10:00 PST, 12:00 EST*
 
-Laura Rogers van IW Manager geeft al jaren training in het maken van productie-apps voor bedrijven. We hebben allemaal al veel geleerd van haar, met name degenen die met SharePoint-technologieën werken. In deze webinar deelt Laura aanbevolen procedures en geleerde lessen voor het maken van productie-apps met PowerApps en het Business Application-platform. Bovendien geeft ze een demonstratie van een productie-app voor het bijhouden van facturen en metingen. Dit wilt u niet missen! Website van IW Mentor: https://www.iwmentor.com/
+Laura Rogers van IW Manager geeft al jaren training in het maken van productie-apps voor bedrijven. We hebben allemaal al veel geleerd van haar, met name degenen die met SharePoint-technologieën werken. In deze webinar deelt Laura aanbevolen procedures en geleerde lessen voor het maken van productie-apps met PowerApps en het Business Application-platform. Bovendien geeft ze een demonstratie van een productie-app voor het bijhouden van facturen en metingen. Dit evenement wilt u niet missen. Website van IW Mentor: https://www.iwmentor.com/
 
 [Klik hier om te kijken op 14 mei](https://www.youtube.com/watch?v=I50GtV9w7Os)
+
+**Deel 2 van de serie Modelgestuurde apps | Formulieren en weergaven maken**
+<br>door Audrie Gordon en Clay Wesener
+<br>*15 mei, 10:00 PST, 12:00 EST*
+
+Modelgestuurde apps bieden een rijke ervaring voor app-makers die scenario's maken met eenvoudige tot complexe formulieren. Leer hoe u onze Forms Designer gebruikt voor het maken van formulieren die nodig zijn voor de model-app waaraan we in deel 1 zijn begonnen. Anees helpt u bij formulieronderdelen zoals tabbladen, secties en velden. Hij deelt ook een aantal aanbevolen procedures over het integreren van bedrijfslogica en filters. 
+
+Dit is deel 2 van een driedelige serie:
+<br>Deel 1: Entiteiten
+<br>**Deel 2: Formulieren en weergaven**
+<br>Deel 3: Grafieken en dashboards
+
+[Klik hier om te kijken op 15 mei](https://www.youtube.com/watch?v=v7VoX-V2ek4)
+
+**Deel 3 uit de serie Modelgestuurde apps | Grafieken en dashboards verkennen**
+<br>door Audrie Gordon en Clay Wesener
+<br>*29 mei, 10:00 PST, 12:00 EST
+
+PowerApps biedt een samengestelde benadering voor rapportage, met een scala aan weergaven en dashboardmogelijkheden. De serie Modelgestuurde apps omvat handige grafieken en dashboards om de oplossing waaraan we hebben gewerkt te optimaliseren en te moderniseren. 
+
+Dit is deel 3 van een driedelige serie:
+<br>Deel 1: Entiteiten
+<br>Deel 2: Formulieren en weergaven
+<br>**Deel 3: Grafieken en dashboards**
+
+[Klik hier om te kijken op 29 mei](https://www.youtube.com/watch?v=kJ5eTWh7Hyg)
 
 **Een kijkje in de universele audit-app: ontdek de mogelijkheden van PowerApps en Flow met Paul Culmsee**
 <br>door Paul Culmsee
@@ -85,6 +102,12 @@ Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor uw re
 **Aan de slag met modelgestuurde apps**
 <br>door Adrian Orth [Nu bekijken](https://www.youtube.com/watch?v=buDDSzJTgns)
 
+### <a name="model-driven-apps"></a>Modelgestuurde apps ###
+**Onderdelen van modelgestuurde apps | Inleiding tot Modelgestuurde apps**
+<br>door Charles Sterling en Adrian Orth [Nu bekijken](https://www.youtube.com/watch?v=buDDSzJTgns)
+
+**Onderdelen van modelgestuurde apps | Aan de slag met modelgestuurde sjablonen**
+<br>door Charles Sterling en Casey Burke [Nu bekijken](https://www.youtube.com/watch?v=FShakkXKiS8)
 
 ### <a name="pro-topics"></a>Onderwerpen voor professionals ###
 **Uw PowerApps-toepassingen implementeren**
@@ -145,6 +168,9 @@ Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor uw re
 
 **Deep Dive | Click-Through PowerApps-analyses door Vivek Bavishi**
 <br>door Vivek Bavishi & Audrie Gordon [Nu bekijken](https://www.youtube.com/watch?v=OM-rlhKJFTA)
+
+ **Deep Dive | PowerApps gebruiken voor het beheer van bedrijfsprocessen door Dawid van Heerden**
+<br>door Dawid van Heerden [Nu bekijken](https://www.youtube.com/watch?v=Jj3hPkAf5KU)
 
 
 ### <a name="connector-series"></a>Connector-reeks ###

@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselement voor camera: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Camera
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: fe92e1844f5471abe30f0fdae0c0f3f71ca517e9
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 78cf8d73758e931d009080f03962c3450088a553
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="camera-control-in-powerapps"></a>Besturingselement voor camera in PowerApps
 Een besturingselement waarmee de gebruiker foto's kan maken met behulp van de camera van het apparaat.
@@ -73,8 +70,6 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 
 **[Y](properties-size-location.md)**: de afstand tussen de bovenrand van een besturingselement en de bovenrand van de bovenliggende container (het scherm als er geen bovenliggende container is).
 
-**Zoom**: het percentage waarmee een foto van een camera wordt vergroot of de weergave van een bestand in een PDF-viewer.
-
 ## <a name="related-functions"></a>Verwante functies
 [**Patch**( *Gegevensbron*, *Basisrecord*, *Wijzigingsrecord* )](../functions/function-patch.md)
 
@@ -82,16 +77,16 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 ### <a name="add-photos-to-an-image-gallery-control"></a>Foto's toevoegen aan een besturingselement Afbeeldingengalerie
 1. Voeg een besturingselement **Camera** toe, geef het besturingselement de naam **MijnCamera** en stel de eigenschap **[OnSelect](properties-core.md)** in op deze formule:<br>
    **Collect(MyPix, MyCamera.Photo)**
-   
+
     Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
-   
+
     Wilt u meer informatie over de functie **[Collect](../functions/function-clear-collect-clearcollect.md)** of [andere functies](../formula-reference.md)?
 2. Druk op F5 en maak een foto door op **MijnCamera** te klikken of te tikken.
 3. Voeg een besturingselement **[Afbeeldingengalerie](control-gallery.md)** toe en pas het formaat van het besturingselement **[Afbeeldingen](control-image.md)** van de galerie, de sjabloon en het besturingselement **Afbeeldingengalerie** zelf aan zodat deze op het scherm passen.
-4. Stel de eigenschap **[Items](properties-core.md)** van het besturingselement **Afbeeldingengalerie** in op deze expressie:<br>**MijnAfbeeldingen.Url**.
+4. Stel de eigenschap **[Items](properties-core.md)** van het besturingselement **Afbeeldingengalerie** in op:<br>**MyPix**.
 5. Stel de eigenschap **[Items](properties-visual.md)** van het besturingselement **Afbeelding** in de galerie in op deze expressie:<br>
    **ThisItem.Url**
-   
+
     De foto die u hebt gemaakt, wordt weergegeven in het besturingselement **Afbeeldingengalerie**.
 6. Maak zo veel foto's als u wilt en ga vervolgens terug naar de standaardwerkruimte door op Esc te drukken.
 7. (Optioneel) Stel de eigenschap **OnSelect** van het besturingselement **Afbeelding** in het besturingselement **Afbeeldingengalerie** in op **Remove(MijnAfbeeldingen, ThisItem)**, druk op F5 en klik of tik op een foto om deze te verwijderen.
@@ -115,4 +110,3 @@ Er moet voldoende kleurcontrast zijn tussen:
 ### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
 * **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
 * De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
- 

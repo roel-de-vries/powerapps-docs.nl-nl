@@ -1,25 +1,22 @@
 ---
 title: 'PowerApps Community-abonnement: een gratis ontwikkelingsomgeving voor individueel gebruik | Microsoft Docs'
 description: Registreer u om vaardigheden op te doen en meer informatie te krijgen over PowerApps, Microsoft Flow en Common Data Service.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: mgblythe
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 05/01/2016
 ms.author: mblythe
-ms.openlocfilehash: 13952338015fd6ec6f951cb9447cc5203f7159e0
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: 70200430b0cee7356d70795440b908a8837ba18d
+ms.sourcegitcommit: 6a75c4c499bcdbeb9d65d3a9af47dedcf900f38d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>PowerApps Community-abonnement: een gratis ontwikkelingsomgeving voor individueel gebruik
 Als u vaardigheden wilt opdoen en meer informatie wilt over PowerApps, Microsoft Flow en Common Data Service, is het PowerApps Community-abonnement het juiste abonnement voor u. Het PowerApps Community-abonnement geeft u een gratis ontwikkelingsomgeving voor individueel gebruik, waarin u het volgende kunt doen:
@@ -76,7 +73,7 @@ Met de individuele omgeving krijgt u de volgende functionaliteit:
 
 *U kunt apps, stromen, verbindingen, enz. niet met andere gebruikers van uw tenant delen. U kunt een andere gebruiker ook niet als een omgevingsbeheerders of -maker toevoegen of aan de databaserollen toevoegen vanuit het beheercentrum.
 
-**Het maken van een database met de Common Data Service is momenteel niet beschikbaar in een afzonderlijke omgeving. Binnenkort is deze mogelijkheid weer beschikbaar. Als u eerder een database hebt gemaakt, kunt u deze zonder problemen blijven gebruiken. 
+\*\*Het maken van een database met de Common Data Service is momenteel niet beschikbaar in een afzonderlijke omgeving. Binnenkort is deze mogelijkheid weer beschikbaar. Als u eerder een database hebt gemaakt, kunt u deze zonder problemen blijven gebruiken. 
 
 ## <a name="what-are-the-capacity-limits-for-the-individual-environment"></a>Wat zijn de capaciteitslimieten voor de individuele omgeving?
 | **Capaciteit** |  |

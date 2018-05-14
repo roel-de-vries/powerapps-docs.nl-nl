@@ -1,6 +1,6 @@
 ---
 title: PowerShell-ondersteuning | Microsoft Docs
-description: PowerShell-ondersteuning voor PowerApps
+description: Beschrijving van de verschillende PowerShell-cmdlets en een overzicht van hoe u ze installeert en uitvoert
 services: powerapps
 suite: powerapps
 documentationcenter: na
@@ -14,50 +14,55 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/17/2018
+ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 274d34ca56cc993ec26fa4f4ced77bb2aba9985f
-ms.sourcegitcommit: e3a2819c14ad67cc4ca6640b9064550d0f553d8f
+ms.openlocfilehash: 69508b2127c5c919db4a334045c6eed3bb9374af
+ms.sourcegitcommit: 0a781b50a8551f2e61c22725ef1c43ba4fdf752a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>PowerShell-ondersteuning voor PowerApps (preview-versie)
-
-U kunt met de preview-introductie van de PowerShell-cmdlets voor app-ontwerpers en -beheerders een groot deel van de bewakings- en beheertaken automatiseren die nu alleen handmatig kunnen worden uitgevoerd in de [PowerApps-site](https://web.powerapps.com) of het [PowerApps-beheercentrum](https://admin.powerapps.com).
+U kunt met de preview-introductie van de PowerShell-cmdlets voor app-ontwerpers en -beheerders een groot deel van de bewakings- en beheertaken automatiseren die nu alleen handmatig kunnen worden uitgevoerd in [PowerApps](https://web.powerapps.com) of het [PowerApps-beheercentrum](https://admin.powerapps.com).
 
 ## <a name="installation"></a>Installatie
-Als u de PowerShell-cmdlets voor app-ontwerpers wilt uitvoeren, moet u eerst de volgende stappen uitvoeren:
+Ga als volgt te werk om de PowerShell-cmdlets voor app-makers uit te voeren:
 
-1. Download het bestand met PowerShell-scripts [hier](https://go.microsoft.com/fwlink/?linkid=872358).
+1. Download het [bestand met PowerShell-scripts](https://go.microsoft.com/fwlink/?linkid=872358).
 
 2. Pak het bestand uit in een map.
 
-3. Open als beheerder een PowerShell-opdrachtvenster in dezelfde map.
+3. Open in dezelfde map een PowerShell-opdrachtvenster (als beheerder).
 
-4. Voer vervolgens de volgende eenmalige PowerShell-opdracht uit (ervan uitgaande dat u nog nooit PowerShell-opdrachten hebt uitgevoerd op de huidige computer):
+4. Voer de volgende eenmalige PowerShell-opdracht uit (ervan uitgaande dat u nog nooit PowerShell-opdrachten hebt uitgevoerd op de huidige computer):
 
     ```
-    Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
     ```
 
-5. Importeer vervolgens de vereiste modules met de volgende opdrachten:
+5. Importeer de vereiste modules met de volgende opdrachten:
 
     ```
     Import-Module .\Microsoft.PowerApps.Administration.PowerShell.psm1 -Force
     Import-Module .\Microsoft.PowerApps.PowerShell.psm1 -Force
     ```
 
-6. Ten slotte moet u uw referenties invoeren met de volgende opdracht voordat u toegang tot de opdrachten kunt krijgen. Deze referenties worden vernieuwd voor maximaal ongeveer acht uur voordat u zich opnieuw moet aanmelden om het gebruik van de cmdlets voort te zetten.
+6. Voordat u toegang tot de opdrachten kunt krijgen, moet u uw referenties invoeren met de volgende opdracht. Deze referenties worden vernieuwd voor maximaal ongeveer acht uur voordat u zich opnieuw moet aanmelden om het gebruik van de cmdlets voort te zetten.
 
     ```
     Add-PowerAppsAccount
     ```
 
+7.  Er is momenteel een [bekend probleem](https://powerusers.microsoft.com/t5/Administering-PowerApps/Getting-errors-when-I-try-to-import-the-preview-powerapps/td-p/109036) dat inhoudt dat u mogelijk ook de PowerShell-bestanden handmatig moet deblokkeren met de volgende opdracht:
+
+    ```
+    dir . | Unblock-File
+    ```
+
 ## <a name="powerapps-cmdlets-for-app-makers-preview"></a>PowerApps-cmdlets voor app-ontwerpers (preview)
 
 ### <a name="prerequisite"></a>Vereisten
-Alle gebruikers met een geldige PowerApps-licentie kunnen de bewerkingen in deze cmdlets uitvoeren. Ze hebben echter alleen toegang tot de resources (bijvoorbeeld apps, stromen enzovoort) die zijn gemaakt of die met hen zijn gedeeld.
+Gebruikers met een geldige PowerApps-licentie kunnen de bewerkingen in deze cmdlets uitvoeren, maar ze hebben alleen toegang tot de bronnen (bijvoorbeeld apps, stromen, enzovoort) die ze zelf hebben gemaakt of met hen zijn gedeeld.
 
 ### <a name="cmdlet-list"></a>Lijst met cmdlets
 | Doel | Cmdlet |
@@ -74,7 +79,7 @@ Alle gebruikers met een geldige PowerApps-licentie kunnen de bewerkingen in deze
 | Machtigingen voor connectoren lezen, bijwerken en verwijderen | Get-ConnectorRoleAssignment <br> Set-ConnectorRoleAssignment <br> Remove-ConnectorRoleAssignment
 
 > [!NOTE]
-> De volgende opdrachten kunnen worden gebruikt om de syntaxis te begrijpen en om voorbeelden voor elk van de cmdlets te bekijken:
+> Gebruik de volgende opdrachten om de syntaxis te begrijpen en om voorbeelden voor elk van de cmdlets te bekijken:
 >```
 >Get-Help Get-PowerAppsEnvironment
 >Get-Help Get-PowerAppsEnvironment -Examples
@@ -84,23 +89,23 @@ Alle gebruikers met een geldige PowerApps-licentie kunnen de bewerkingen in deze
 ## <a name="powerapps-cmdlets-for-administrators-preview"></a>PowerApps-cmdlets voor beheerders (preview-versie)
 
 ### <a name="prerequisite"></a>Vereisten
-Als u de beheerbewerkingen in de beheer-cmdlets wilt uitvoeren, moet u een account met de volgende machtigingen hebben:
+Om de beheerbewerkingen in de beheer-cmdlets uit te voeren, hebt u het volgende nodig:
 
-- Een betaalde licentie voor PowerApps-abonnement 2 of een licentie voor de proefversie van PowerApps-abonnement 2. U kunt zich aanmelden voor een 30-daagse licentie voor de proefversie op [http://web.powerapps.com/trial](http://web.powerapps.com/trial). Licenties voor de proefversie kunnen worden verlengd als ze zijn verlopen.
+* Een betaalde PowerApps-abonnement 2-licentie of een PowerApps-abonnement 2-evaluatielicentie. U kunt zich aanmelden voor een 30-daagse evaluatielicentie op [http://web.powerapps.com/trial](http://web.powerapps.com/trial). Evaluatielicenties kunnen worden vernieuwd als ze zijn verlopen.
 
-- U moet ook beschikken over de bevoegdheden van een [globale beheerder voor Office 365](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) of een [globale beheerder voor Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal) als u in de resources van een andere gebruiker moet zoeken. Anders hebt u alleen toegang tot omgevingen en omgevingsresources waarvoor u omgevingsbeheerdersbevoegdheden hebt.
+* [Globale beheerder voor Office 365](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504)- of [globale beheerder Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)-machtigingen als u in de resources van een andere gebruiker wilt zoeken. (Let op: omgevingsbeheerders hebben alleen toegang tot de omgevingen en omgevingsresources waarvoor ze machtigingen hebben.)
 
 ### <a name="cmdlet-list"></a>Lijst met cmdlets
 | Doel | Cmdlets
 | --- | ---
 | Omgevingen lezen en verwijderen | Get-AdminEnvironment <br> Remove-AdminEnvironment
-| Bevoegdheden voor omgevingen lezen, bijwerken en verwijderen <br><br> *Deze cmdlets werken alleen voor omgevingen waarin geen Common Data Service for Apps-database aanwezig is.* | Get-AdminEnvironmentRoleAssignment <br> Set-AdminEnvironmentRoleAssignment <br> Remove-AdminEnvironmentRoleAssignment
+| Machtigingen voor omgevingen lezen, bijwerken en verwijderen <br><br> *Deze cmdlets werken alleen voor omgevingen waarin geen CDS voor apps-database aanwezig is.* | Get-AdminEnvironmentRoleAssignment <br> Set-AdminEnvironmentRoleAssignment <br> Remove-AdminEnvironmentRoleAssignment
 | Canvas-apps lezen en verwijderen | Get-AdminApp <br> Remove-AdminApp
 | Machtigingen voor canvas-apps lezen, bijwerken en verwijderen | Get-AdminAppRoleAssignment <br> Remove-AdminAppRoleAssignment <br> Set-AdminAppRoleAssignment <br> Set-AdminAppOwner
 | Stromen lezen, bijwerken en verwijderen | Get-AdminFlow <br> Enable-AdminFlow <br> Disable-AdminFlow <br> Remove-AdminFlow  <br> Remove-AdminFlowOwnerRole
 
 > [!NOTE]
-> De volgende opdrachten kunnen worden gebruikt om de syntaxis te begrijpen en om een voorbeeld voor elk van de cmdlets te bekijken:
+> Gebruik de volgende opdrachten om de syntaxis te begrijpen en om een voorbeeld voor elk van de cmdlets te bekijken:
 >```
 >Get-Help Get-AdminEnvironment
 >Get-Help Get-AdminEnvironment -Examples
@@ -109,4 +114,4 @@ Als u de beheerbewerkingen in de beheer-cmdlets wilt uitvoeren, moet u een accou
 
 ## <a name="questions"></a>Vragen?
 
-Als u eventuele opmerkingen, suggesties of vragen hebt, kunt u ze sturen naar de [Administering PowerApps Community Board](https://powerusers.microsoft.com/t5/Administering-PowerApps/bd-p/Admin_PowerApps).
+Eventuele opmerkingen, suggesties of vragen kunt u publiceren op [Administering PowerApps Community Board](https://powerusers.microsoft.com/t5/Administering-PowerApps/bd-p/Admin_PowerApps).

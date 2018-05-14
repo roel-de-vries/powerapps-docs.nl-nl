@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselement voor vervolgkeuzelijst: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Vervolgkeuzelijst
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 9d723fb7377d6ab3e5ea2bd9d4805cff8f157243
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 3df14293f478c24dbe64b84d0c2d1ea50b485fa3
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="drop-down-control-in-powerapps"></a>Besturingselement voor vervolgkeuzelijst in PowerApps
 Een lijst waarin alleen het eerste item wordt weergegeven, tenzij de gebruiker de lijst opent.
@@ -149,7 +146,7 @@ Er moet voldoende kleurcontrast zijn tussen:
 * **SelectionColor** en **SelectionFill**
 * **SelectionFill** en **[Fill](properties-color-border.md)**
 
-Dit komt bovenop de standaardvereisten voor kleurcontrast.
+Dit komt bovenop de [standaardvereisten voor kleurcontrast](../accessible-apps-color.md).
 
 ### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
 * **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.

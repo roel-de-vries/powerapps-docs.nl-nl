@@ -1,25 +1,22 @@
 ---
 title: De voorbeeld-app Helpdesk van PowerApps installeren en configureren | Microsoft Docs
 description: Stapsgewijze instructies voor het installeren en configureren van de voorbeeld-app Helpdesk van PowerApps.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: caburk
-manager: ''
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: sample
+ms.component: canvas
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: be5a2f1994a55abf6936ded4dfddf84d145115c5
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: e042230acec8bf70a2a99eee316d234cb5cdea15
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="install-and-configure-the-help-desk-powerapps-sample"></a>De voorbeeld-app Helpdesk van PowerApps installeren en configureren
 
@@ -85,10 +82,10 @@ In deze lijst worden de Helpdesk-tickets opgeslagen.
 7. Voer **LAPTOP/PC-apparatuuruitgifte** in het tekstvak **Standaardwaarde** in.
 8. Klik op **OK**.
 
-### <a name="create--complete-column"></a>De kolom % voltooid maken
+### <a name="create-percentcomplete-column"></a>Kolom Percentage voltooid maken
 
 1. Klik op **Kolom maken**.
-2. Voer **% Voltooid** in het tekstvak **Kolomnaam** in.
+2. Voer **Percentage voltooid** in het tekstvak **Kolomnaam** in.
 3. Selecteer **Getal (1, 10, 100)** in de lijst met keuzerondjes **type of information in this column is** (type informatie in deze kolom is).
 4. Selecteer **Nee** in de lijst met keuzerondjes **Informatie in deze kolom is vereist**.
 5. Klik op **OK**.
@@ -251,6 +248,7 @@ In deze lijst worden de Helpdesk-tickets opgeslagen.
     
     > [!TIP] 
     > Als er meerdere beheerders zijn, gebruikt u een komma om de beheerders te scheiden.  Voorbeeld: admin1@microsoft.com, admin2@microsoft.com.
+    > Als u wilt controleren of de adressen in AdminList overeenkomen met de indeling die PowerApps verwacht, selecteert u Weergave > Variabelen > Algemeen > Mijn profiel en bekijkt u de verwachte e-mailadresindeling in de kolom E-mail.
 
 5. Klik op **Bestand**.
 6. Klik op **Opslaan**.

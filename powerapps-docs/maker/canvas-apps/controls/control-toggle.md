@@ -1,25 +1,22 @@
 ---
 title: 'Besturingselement voor wisselknop: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Wisselknop
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 709da9e7b3e80e370488e9bdfb45f40d68dae856
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 0344a43707170bccebfd01d8b3a1bba24f3c183f
+ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="toggle-control-in-powerapps"></a>Besturingselement voor wisselknop in PowerApps
 Een besturingselement dat de gebruiker in- of uit kan schakelen door het verplaatsen van een greep.
@@ -134,7 +131,7 @@ Er moet voldoende kleurcontrast zijn tussen:
 * **TrueFill** en de kleur buiten het besturingselement
 * **TrueHoverFill** en de kleur buiten het besturingselement
 
-Dit komt bovenop de standaardvereisten voor kleurcontrast.
+Dit komt bovenop de [standaardvereisten voor kleurcontrast](../accessible-apps-color.md).
 
 ### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
 * **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.

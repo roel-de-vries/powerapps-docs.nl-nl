@@ -1,25 +1,22 @@
 ---
 title: De voorbeeld-app Onkostenrapporten van PowerApps installeren en configureren | Microsoft Docs
 description: Stapsgewijze instructies voor het installeren en configureren van de voorbeeld-app Onkostenrapporten van PowerApps.
-services: ''
-suite: powerapps
 documentationcenter: na
 author: caburk
-manager: ''
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: sample
+ms.component: canvas
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: a63504b0438f50584da6739b9f397300e36d4ce6
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: bce21a5fe07cb5bf608c36371a7cbe45e845b2ad
+ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="install-and-configure-the-expense-report-powerapps-sample"></a>De voorbeeld-app Onkostenrapporten van PowerApps installeren en configureren
 
@@ -63,13 +60,13 @@ Deze lijst bevat de onkostenrapporten.
 
 10. Klik op **Maken**.
 
-### <a name="create-costcenter-column"></a>De kolom Kostenplaats maken
+### <a name="create-cost-center-column"></a>Kolom Kostenplaats maken
 
 1. Klik op de lijst **Onkosten**.
 2. Klik op het **tandwielpictogram** rechtsboven in de webpagina.
 3. Klik op **Lijstinstellingen**.
 4. Klik op **Kolom maken**.
-5. Voer **Kostenplaats** in het tekstvak **Kolomnaam** in.
+5. Voer in het tekstvak **Kolomnaam** **Kostenplaats** in.
 6. Selecteer **Keuze** in de lijst met keuzerondjes **type of information in this column is** (type informatie in deze kolom is).
 7. Voer in het tekstvak **Typ elke keuze op een nieuwe regel** de volgende waarden in, elk op een afzonderlijke regel: 
     - Microsoft
@@ -236,7 +233,7 @@ In deze lijst worden de regelitems opgeslagen die zijn gekoppeld aan onkostenrap
 ### <a name="create-sharepoint-connection"></a>SharePoint-verbinding maken
 
 1.  Klik op **+ Nieuwe verbinding**.
-2.  Typ **Outlook** in het tekstvak **Zoeken** .
+2.  Typ **SharePoint** in het tekstvak **Zoeken**.
 3.  Selecteer **SharePoint** in de lijst.
 4.  Klik op **Maken**.
 5.  Selecteer in het pop-upvenster het account waarmee u bent aangemeld.
@@ -262,7 +259,7 @@ In deze lijst worden de regelitems opgeslagen die zijn gekoppeld aan onkostenrap
     ![Scherm met importinstellingen](./media/expense-report-install/import-settings-sharepoint.png)
 
 10. Klik op **Opslaan**.
-11. Klik op het **rode pictogram** voor de **SharePoint-verbinding**.
+11. Klik op het **rode pictogram** voor de **Goedkeuringsverbinding**.
 12. Klik in de lijst met verbindingen op het item met uw gebruikersnaam.
 
     ![Scherm met importinstellingen](./media/expense-report-install/import-settings-approvals.png)
