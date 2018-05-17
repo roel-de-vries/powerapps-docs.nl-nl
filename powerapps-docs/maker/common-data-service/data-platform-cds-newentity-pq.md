@@ -1,25 +1,22 @@
 ---
-title: Snelstartgids om gegevens aan een entiteit in Common Data Service toe te voegen met Power Query | Microsoft Docs
-description: Snelstartgids met stapsgewijze instructies om met Power Query gegevens toe te voegen aan een nieuwe of bestaande entiteit in Common Data Service for Apps vanuit een andere gegevensbron.
-documentationcenter: na
+title: Gegevens toevoegen aan een entiteit in Common Data Service voor APps met gebruik van Power Query | Microsoft Docs
+description: Stapsgewijze instructies voor het gebruik van Power Query om gegevens toe te voegen aan een nieuwe of bestaande entiteit in Common Data Service (CDS) voor Apps vanuit een andere gegevensbron.
 author: AFTOwen
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
 ms.devlang: na
 ms.topic: conceptual
 ms.component: cds
 ms.date: 03/21/2018
 ms.author: anneta
-ms.openlocfilehash: e54553467714bad1f4bc17963f1011c0decc1963
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 60d1843e48a1dc1d310d877bcba67460da557993
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="quickstart-add-data-to-an-entity-in-the-common-data-service-by-using-power-query"></a>Snelstartgids: Gegevens aan een entiteit in Common Data Service toevoegen met Power Query
-In deze procedure maakt u een entiteit in de [Common Data Service for Apps](data-platform-intro.md) en vult u de entiteit met gegevens uit een OData-feed via Power Query. U kunt dezelfde technieken gebruiken om gegevens vanuit deze online en on-premises gegevensbronnen te integreren, waaronder:
+# <a name="add-data-to-an-entity-in-common-data-service-for-apps-by-using-power-query"></a>Gegevens toevoegen aan een entiteit in Common Data Service (CDS) voor Apps met gebruik van Power Query
+In deze procedure maakt u een entiteit in [Common Data Service (CDS) voor Apps](data-platform-intro.md) en vult u die entiteit met gegevens van een OData-feed met Power Query. U kunt dezelfde technieken gebruiken om gegevens vanuit deze online en on-premises gegevensbronnen te integreren, waaronder:
 
 * SQL Server
 * Salesforce

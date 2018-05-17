@@ -1,6 +1,6 @@
 ---
 title: Veelvoorkomende problemen en oplossingen voor PowerApps | Microsoft Docs
-description: Informatie over problemen met PowerApps en oplossingen
+description: Een lijst met veelvoorkomende problemen en oplossingen in PowerApps.
 documentationcenter: na
 author: skjerland
 manager: kfile
@@ -10,16 +10,23 @@ ms.service: powerapps
 ms.devlang: na
 ms.topic: conceptual
 ms.component: canvas
-ms.date: 04/12/2018
+ms.date: 05/03/2018
 ms.author: sharik
-ms.openlocfilehash: 369bbc445d54152f5b6319922d79a58c9b79121c
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: b37672c4b78cf097eb49a05306ecf3eb8311476f
+ms.sourcegitcommit: 99d50f9a79fe4f35ba56f365de6593abd893978e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/06/2018
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>Veelvoorkomende problemen en oplossingen voor PowerApps
+In dit artikel staan een aantal veelvoorkomende problemen die gebruikers mogelijk ondervinden bij het gebruik van PowerApps. Waar van toepassing worden oplossingen gegeven.
+
 ## <a name="recently-addedchanged"></a>Onlangs toegevoegd/gewijzigd
+1. **Besturingselementen voor keuzelijst met invoervak in galerieën**
+
+    Wanneer u het besturingselement voor een **keuzelijst met invoervak** in een galerie gebruikt, worden de selecties niet behouden als de gebruiker door de galerie scrolt. Dit is geen probleem als u een besturingselement voor een **keuzelijst met invoervak** gebruikt in een galerie waarin u niet kunt scrollen. Er is momenteel geen oplossing beschikbaar.
+
+
 1. **Een aangepaste afbeelding gebruiken als een app-pictogram**
 
     In PowerApps Studio voor Windows versie 3.18043 kunt u geen aangepaste afbeelding uploaden om te gebruiken als een app-pictogram. U kunt dit probleem omzeilen door [PowerApps Studio voor internet](https://web.powerapps.com) te gebruiken om een aangepaste afbeelding te uploaden. U kunt eventueel ook een van de pictogrammen gebruiken die bij PowerApps Studio voor Windows wordt geleverd en de achtergrondkleur aanpassen.

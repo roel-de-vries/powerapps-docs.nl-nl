@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 425600830a64652df7084a0222c02273a1607818
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: f90f7bcdf28388366015a5f5f981e0ab4118f162
+ms.sourcegitcommit: aebffb0bba30e786dd288fb1b79a8bcc4e0bdd9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="configure-environment-security"></a>Omgevingsbeveiliging configureren
 Common Data Service gebruikt een op rollen gebaseerd beveiligingsmodel om de toegang tot de database te beveiligen. In dit onderwerp wordt uitgelegd hoe u de beveiligingsartefacten maakt die u nodig hebt om een app te beveiligen. De gebruikersrollen bepalen de runtime-toegang tot gegevens en staan los van de omgevingsrollen voor omgevingsbeheerders en omgevingsmakers. Zie [Environments overview](environments-overview.md) (Overzicht van omgevingen) voor een overzicht van omgevingen.
@@ -35,22 +35,30 @@ Een omgevingsbeheerder kan als volgt via het [PowerApps-beheercentrum][1] een om
 
 2. Selecteer het tabblad **Beveiliging**.
 
-3. Klik op de koppeling voor het beheren van de omgevingsrollen in Dynamics 365.
+3. Kijk of de gebruiker al in de omgeving bestaat door **view the list of users in the environment** (De lijst met gebruikers in de omgeving weergeven) te selecteren.
+    
+    ![](./media/database-security/security-viewuser.png)
 
-    ![](./media/environment-admin/Security-Link-D365.png)
+4. Als de gebruiker niet bestaat, kunt u de gebruiker toevoegen vanuit het PowerApps-beheercentrum. Voeg de gebruiker toe door het e-mailadres van de gebruiker in uw organisatie te vermelden en **Gebruiker toevoegen** te selecteren.
 
-4. Selecteer de gebruiker in de lijst met gebruikers in de omgeving.
+    ![](./media/database-security/security-adduser.png)
+
+    Wacht enkele minuten en controleer dan of de gebruiker beschikbaar is in de lijst met gebruikers in de omgeving.
+  
+5. Selecteer de gebruiker in de lijst met gebruikers in de omgeving.
 
     ![](./media/environment-admin/D365-Select-User.png)
 
-5. Wijs de rol aan de gebruiker toe.
+6. Wijs de rol aan de gebruiker toe.
 
     ![](./media/environment-admin/D365-Assign-Role.png)
 
     > [!NOTE]
     > Op dit moment kunnen rollen alleen worden toegewezen aan de gebruikers. Aan de functie voor het toewijzen van rollen aan beveiligingsgroepen wordt nog gewerkt.
 
-6. Selecteer **OK** om de toewijzingen van de omgevingsrol bij te werken.
+7. Selecteer **OK** om de toewijzingen van de omgevingsrol bij te werken.
+
+
 
 
 ## <a name="predefined-security-roles"></a>Vooraf gedefinieerde beveiligingsrollen
@@ -58,11 +66,11 @@ De PowerApps-omgeving bevat vooraf gedefinieerde beveiligingsrollen die overeenk
 
 |Beveiligingsrol  |* Databasebevoegdheden  |Beschrijving |
 |---------|---------|---------|
-|Systeembeheerder     |  Maken, Lezen, Schrijven, Verwijderen, Aanpassingen, Beveiligingsrollen       | Personen met deze rol hebben volledige machtiging voor het aanpassen of beheren van de omgeving, inclusief het maken, wijzigen en toewijzen van beveiligingsrollen. De systeembeheerder kan alle gegevens in de omgeving weergeven. Zie [Vereiste bevoegdheden voor aanpassen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization) voor meer informatie.        |
-|Systeemaanpasser     | Maken (zelf), Lezen (zelf), Schrijven (zelf), Verwijderen (zelf), Aanpassingen         | Personen met deze rol hebben volledige machtiging voor het aanpassen van de omgeving. De systeemaanpasser kan echter alleen records weergeven voor de omgevingsentiteiten die de aanpasser maakt. Zie [Vereiste bevoegdheden voor aanpassen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization) voor meer informatie.        |
-|Omgevingsmaker     |  Geen       | Personen met deze rol kunnen nieuwe resources voor een omgeving maken, waaronder apps, verbindingen, aangepaste API's, gateways en stromen met behulp van Microsoft Flow. De omgevingsmaker heeft echter geen toegang tot gegevens in een omgeving. Zie [Overzicht van omgevingen](https://powerapps.microsoft.com/blog/powerapps-environments/) voor meer informatie.        |
-|Common Data Service-gebruiker     |  Lezen, Maken (zelf), Schrijven (zelf), Verwijderen (zelf)       | Personen met deze rol kunnen een app in de omgeving uitvoeren en veelvoorkomende taken uitvoeren voor de records waarvan ze eigenaar zijn.        |
-|Delegeren     | Handelen namens een andere gebruiker        | Hiermee kunt u code uitvoeren als een andere gebruiker of door een andere gebruiker te imiteren.  Deze rol wordt doorgaans gebruikt met een andere beveiligingsrol zodat toegang tot records kan worden verkregen. Zie het Engelstalige artikel [Impersonate another user](https://docs.microsoft.com/dynamics365/customer-engagement/developer/org-service/impersonate-another-user) (Een andere gebruiker imiteren) voor meer informatie.        |
+|Systeembeheerder     |  Maken, Lezen, Schrijven, Verwijderen, Aanpassingen, Beveiligingsrollen       | Personen met deze rol hebben volledige machtiging voor het aanpassen of beheren van de omgeving, inclusief het maken, wijzigen en toewijzen van beveiligingsrollen. Hiermee kunt u alle gegevens in de omgeving weergeven. Zie [Vereiste bevoegdheden voor aanpassen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization) voor meer informatie        |
+|Systeemaanpasser     | Maken (zelf), Lezen (zelf), Schrijven (zelf), Verwijderen (zelf), Aanpassingen         | Hiermee hebt u volledige machtiging voor het aanpassen van de omgeving. De systeemaanpasser kan echter alleen records weergeven voor de omgevingsentiteiten die de aanpasser maakt. Zie [Vereiste bevoegdheden voor aanpassen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization) voor meer informatie.        |
+|Omgevingsmaker     |  Geen       | Hiermee kunt u met Microsoft Flow nieuwe aan een omgeving gekoppelde resources maken, waaronder apps, verbindingen, aangepaste API's, gateways en stromen. Hiermee hebt u echter geen toegang tot gegevens in een omgeving. Zie [Overzicht van omgevingen](https://powerapps.microsoft.com/blog/powerapps-environments/) voor meer informatie.        |
+|Common Data Service-gebruiker     |  Lezen, Maken (zelf), Schrijven (zelf), Verwijderen (zelf)       | Hiermee kunnen gebruikers een app in de omgeving uitvoeren en veelvoorkomende taken uitvoeren voor de records waarvan ze eigenaar zijn.        |
+|Delegeren     | Handelen namens een andere gebruiker        | Hiermee kunt u code uitvoeren als een andere gebruiker of door een andere gebruiker te imiteren.  Deze rol wordt doorgaans gebruikt met een andere beveiligingsrol zodat toegang tot records kan worden verkregen. Zie [Een andere gebruiker imiteren](https://docs.microsoft.com/dynamics365/customer-engagement/developer/org-service/impersonate-another-user) voor meer informatie        |
 
 * Bevoegdheid heeft globaal bereik, tenzij anders aangegeven.
 

@@ -7,11 +7,11 @@ ms.topic: tutorial
 ms.component: canvas
 ms.date: 04/24/2018
 ms.author: anneta
-ms.openlocfilehash: 3138969cc51d0d0964692d4c53101b6a145ba1cf
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: 7a51e2a734426973721fbcb21305f96e6ba7b222
+ms.sourcegitcommit: 99d50f9a79fe4f35ba56f365de6593abd893978e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/06/2018
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>Zelfstudie: Een galerie aanpassen in PowerApps
 In deze zelfstudie past u de galerie aan en brengt u andere wijzigingen aan in een app die automatisch is gegenereerd in Microsoft PowerApps. Gebruikers kunnen gegevens in de app beheren, zelfs als u deze wijzigingen niet aanbrengt. De app wordt echter eenvoudiger in gebruik als u deze aanpast aan de behoeften van uw organisatie:
@@ -33,16 +33,18 @@ Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../sig
 ## <a name="open-the-generated-app"></a>De gegenereerde app openen
 1. Meld u aan bij [PowerApps](https://web.powerapps.com) en selecteer bij de linkerrand **Apps**.
 
-    ![PowerApps-startpagina](./media/customize-layout-sharepoint/sign-in.png)
+    [![PowerApps-startpagina](./media/customize-layout-sharepoint/sign-in.png)](./media/customize-layout-sharepoint/sign-in.png#lightbox)
 
 1. Zoek de app op die u hebt gegenereerd, selecteer het pictogram van het weglatingsteken (**...** ) voor de app en selecteer vervolgens **Bewerken**.
 
+    ![App openen om te bewerken](./media/customize-layout-sharepoint/open-app.png)
+
 ## <a name="change-the-layout"></a>De indeling wijzigen
-1. Selecteer in het bladerscherm de galerie door op een willekeurig item te klikken of tikken, met uitzondering van het bovenste item in de lijst met accounts.
+1. Selecteer **BrowseGallery1** in het linkernavigatiedeelvenster.
 
     Wanneer de galerie is geselecteerd, wordt het omgeven door een selectiekader met grepen.
 
-    ![Geselecteerde galerie](./media/customize-layout-sharepoint/select-gallery.png)
+    ![Galerie selecteren](media/customize-layout-sharepoint/select-gallery-1.png)
 
 1. Selecteer bij de rechterrand de optie **Accounts** om het deelvenster **Gegevens** te openen.
 
@@ -56,7 +58,7 @@ Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../sig
 
     ![Indeling met alleen titel selecteren](./media/customize-layout-sharepoint/choose-layout.png)
 
-1. Open in het deelvenster **Gegevens** de lijst met opties voor de titel.
+1. Open in het deelvenster **Gegevens** de lijst met opties voor **Title2**.
 
     ![Indeling met alleen titel selecteren](./media/customize-layout-sharepoint/show-title-options.png)
 
@@ -66,7 +68,7 @@ Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../sig
 
     ![Definitieve galerie](./media/customize-layout-sharepoint/final-gallery.png)
 
-## <a name="change-the-sort-and-search-columns"></a>De sorteer- en zoekkolommen wijzigen
+## <a name="change-sort-and-search-columns"></a>Sortering wijzigen en zoeken in kolommen
 1. Selecteer de galerie zoals in de vorige sectie wordt beschreven.
 
     ![Galerie selecteren](./media/customize-layout-sharepoint/select-gallery-title.png)
@@ -88,7 +90,7 @@ Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../sig
 
     Zie de [naslaginformatie over formules](formula-reference.md) voor meer informatie over deze en andere functies.
 
-## <a name="test-sorting-and-searching"></a>Sorteren en zoeken testen
+### <a name="test-sorting-and-searching"></a>Sorteren en zoeken testen
 1. Open de preview-modus door op F5 te drukken (of door de afspeelknop bij de rechterbovenhoek te selecteren ).
 
     ![Preview-modus openen](./media/customize-layout-sharepoint/open-preview.png)

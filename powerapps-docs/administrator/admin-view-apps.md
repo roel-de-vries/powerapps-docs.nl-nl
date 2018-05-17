@@ -1,25 +1,18 @@
 ---
 title: Snelstartgids voor het downloaden van een lijst met apps die in uw omgevingen zijn gemaakt | Microsoft Docs
-description: In deze snelstartgids leert u hoe u een lijst kunt downloaden met de apps die in uw omgevingen zijn gemaakt.
-services: powerapps
-suite: powerapps
-documentationcenter: na
-author: skjerland
+description: In deze snelstartgids leert u hoe u een lijst met apps kunt downloaden die in uw omgevingen zijn gemaakt.
+author: SKjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
+ms.component: pa-admin
 ms.topic: quickstart
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: debe9dd0ab3aa948537820cccd3304a6b4225c54
-ms.sourcegitcommit: aa2d0166dccb38100183c093f293233b46f3669d
+ms.openlocfilehash: a51e6b0cb8e9af517d55f7bad39fbe83a1a55098
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="quickstart-download-a-list-of-apps-created-in-your-environments"></a>Snelstartgids: een lijst downloaden met de apps die in uw omgevingen zijn gemaakt
 Als u een omgevingsbeheerder bent, kunt u een lijst bekijken en downloaden met de apps die zijn gemaakt in de omgevingen die u beheert. Als u een globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory bent, kunt u een lijst bekijken en downloaden met de apps die in alle omgevingen in uw organisatie zijn gemaakt.

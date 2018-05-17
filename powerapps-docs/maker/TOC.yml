@@ -226,16 +226,6 @@
       items:
         - name: Een entiteit maken
           href: ./common-data-service/data-platform-create-entity.md
-        - name: Een aangepaste entiteit maken op basis van gegevens
-          href: ./common-data-service/data-platform-cds-newentity-pq.md
-        - name: Een optieset maken
-          href: ./common-data-service/custom-picklists.md
-        - name: Een relatie maken
-          href: ./common-data-service/data-platform-entity-lookup.md
-        - name: Een bedrijfsregel maken
-          href: ./common-data-service/data-platform-create-business-rule.md
-        - name: Een aangepaste entiteit verwijderen
-          href: ./common-data-service/data-platform-delete-entity.md
     - name: Zelfstudie
       items:
         - name: Een aangepaste entiteit met onderdelen maken
@@ -250,6 +240,16 @@
       items:
         - name: Aangepaste velden in een entiteit beheren
           href: ./common-data-service/data-platform-manage-fields.md
+        - name: Een aangepaste entiteit maken op basis van gegevens
+          href: ./common-data-service/data-platform-cds-newentity-pq.md
+        - name: Een optieset maken
+          href: ./common-data-service/custom-picklists.md
+        - name: Een relatie tussen entiteiten maken
+          href: ./common-data-service/data-platform-entity-lookup.md
+        - name: Een bedrijfsregel maken
+          href: ./common-data-service/data-platform-create-business-rule.md
+        - name: Een aangepaste entiteit verwijderen
+          href: ./common-data-service/data-platform-delete-entity.md
     - name: Referentie
       items:
         - name: Beperkte entiteiten waarvoor Dynamics 365-licenties vereist zijn
