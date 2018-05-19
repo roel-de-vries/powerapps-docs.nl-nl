@@ -1,27 +1,27 @@
 ---
 title: Veelvoorkomende problemen en oplossingen voor PowerApps | Microsoft Docs
 description: Een lijst met veelvoorkomende problemen en oplossingen in PowerApps.
-documentationcenter: na
 author: skjerland
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
 ms.component: canvas
-ms.date: 05/03/2018
+ms.date: 05/10/2018
 ms.author: sharik
-ms.openlocfilehash: b37672c4b78cf097eb49a05306ecf3eb8311476f
-ms.sourcegitcommit: 99d50f9a79fe4f35ba56f365de6593abd893978e
+ms.openlocfilehash: 71e6d6977ff84ac8131acb9353f919c5ee80995b
+ms.sourcegitcommit: fe556abcfd6bdfeb5fdeea8f07b185b4b502d02f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>Veelvoorkomende problemen en oplossingen voor PowerApps
-In dit artikel staan een aantal veelvoorkomende problemen die gebruikers mogelijk ondervinden bij het gebruik van PowerApps. Waar van toepassing worden oplossingen gegeven.
+In dit artikel staan enkele veelvoorkomende problemen die u mogelijk ondervindt bij het gebruik van PowerApps. Waar van toepassing worden oplossingen gegeven.
 
 ## <a name="recently-addedchanged"></a>Onlangs toegevoegd/gewijzigd
+1. **Een website openen vanuit een ingesloten app**
+
+    Internet Explorer- en Microsoft Edge-browsers blokkeren mogelijk het openen van een URL of website in beschermde modus of die zich in een lagere beveiligingszone bevindt dan de website waarop de app is geladen. [Wijzig de beveiligings- en privacyinstellingen](https://support.microsoft.com/en-us/help/17479/windows-internet-explorer-11-change-security-privacy-settings) van uw browser om dit probleem op te lossen.
+
 1. **Besturingselementen voor keuzelijst met invoervak in galerieën**
 
     Wanneer u het besturingselement voor een **keuzelijst met invoervak** in een galerie gebruikt, worden de selecties niet behouden als de gebruiker door de galerie scrolt. Dit is geen probleem als u een besturingselement voor een **keuzelijst met invoervak** gebruikt in een galerie waarin u niet kunt scrollen. Er is momenteel geen oplossing beschikbaar.
