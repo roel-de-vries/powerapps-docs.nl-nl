@@ -9,11 +9,11 @@ ms.component: canvas
 ms.topic: landing-page
 ms.date: 10/27/2017
 ms.author: mblythe
-ms.openlocfilehash: afefa1fcf09cb9c4f732fa94e37bb148262eeb04
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: d79039fd70d2e214b269e0d5be97d208192a16fc
+ms.sourcegitcommit: dc689eb0bc0e60b6f8c2f78a18f7aa114bf84165
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -38,27 +38,27 @@ ms.lasthandoff: 04/26/2018
 Aan de slag </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-1">Inleiding tot PowerApps</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=1">Inleiding tot PowerApps</a>
                                 <span style="margin-left: 32px; align-self: center;">5 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-2">De onderdelen van PowerApps</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=2">De onderdelen van PowerApps</a>
                                 <span style="margin-left: 32px; align-self: center;">6 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-3">Verwante technologieën</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=3">Verwante technologieën</a>
                                 <span style="margin-left: 32px; align-self: center;">6 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-4">Apps maken: een beknopt overzicht</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=4">Apps maken: een beknopt overzicht</a>
                                 <span style="margin-left: 32px; align-self: center;">6 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-5">Uw eerste app maken</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=5">Uw eerste app maken</a>
                                 <span style="margin-left: 32px; align-self: center;">5 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="get-started.yml#step-6">Terugblikken op deze sectie</a>
+                                <a class="barLink" href="get-started.yml?tutorial-step=6">Terugblikken op deze sectie</a>
                                 <span style="margin-left: 32px; align-self: center;">2 min.</span>
                               </li>
                           </ul>
@@ -81,19 +81,19 @@ Aan de slag </h3>
 Een app maken vanuit SharePoint </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint.yml#step-1">Een app genereren</a>
+                                <a class="barLink" href="create-app-sharepoint.yml?tutorial-step=1">Een app genereren</a>
                                 <span style="margin-left: 32px; align-self: center;">3 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint.yml#step-2">Een gegenereerde app verkennen</a>
+                                <a class="barLink" href="create-app-sharepoint.yml?tutorial-step=2">Een gegenereerde app verkennen</a>
                                 <span style="margin-left: 32px; align-self: center;">5 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint.yml#step-3">De app aanpassen</a>
+                                <a class="barLink" href="create-app-sharepoint.yml?tutorial-step=3">De app aanpassen</a>
                                 <span style="margin-left: 32px; align-self: center;">5 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="create-app-sharepoint.yml#step-4">App-formules verkennen</a>
+                                <a class="barLink" href="create-app-sharepoint.yml?tutorial-step=4">App-formules verkennen</a>
                                 <span style="margin-left: 32px; align-self: center;">9 min.</span>
                               </li>
                             </ul>
@@ -116,15 +116,15 @@ Een app maken vanuit SharePoint </h3>
 Apps beheren </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps.yml#step-1">Uw apps delen</a>
+                                <a class="barLink" href="manage-apps.yml?tutorial-step=1">Uw apps delen</a>
                                 <span style="margin-left: 32px; align-self: center;">5 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps.yml#step-2">Werken met de versies van uw apps</a>
+                                <a class="barLink" href="manage-apps.yml?tutorial-step=2">Werken met de versies van uw apps</a>
                                 <span style="margin-left: 32px; align-self: center;">1 min.</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="manage-apps.yml#step-3">Omgevingen</a>
+                                <a class="barLink" href="manage-apps.yml?tutorial-step=3">Omgevingen</a>
                                 <span style="margin-left: 32px; align-self: center;">8 min.</span>
                               </li>
                           </ul>
