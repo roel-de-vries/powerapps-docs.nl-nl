@@ -1,28 +1,21 @@
 ---
 title: Omgevingsbeveiliging configureren | Microsoft Docs
 description: In dit onderwerp wordt uitgelegd hoe u omgevingsbeveiliging kunt configureren.
-services: powerapps
-suite: powerapps
-documentationcenter: na
 author: manasmams
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: f90f7bcdf28388366015a5f5f981e0ab4118f162
-ms.sourcegitcommit: aebffb0bba30e786dd288fb1b79a8bcc4e0bdd9c
+ms.openlocfilehash: d9bd70acaacbbeda98c14337035a233b7c70c181
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="configure-environment-security"></a>Omgevingsbeveiliging configureren
-Common Data Service gebruikt een op rollen gebaseerd beveiligingsmodel om de toegang tot de database te beveiligen. In dit onderwerp wordt uitgelegd hoe u de beveiligingsartefacten maakt die u nodig hebt om een app te beveiligen. De gebruikersrollen bepalen de runtime-toegang tot gegevens en staan los van de omgevingsrollen voor omgevingsbeheerders en omgevingsmakers. Zie [Environments overview](environments-overview.md) (Overzicht van omgevingen) voor een overzicht van omgevingen.
+Common Data Service (CDS) for Apps gebruikt een op rollen gebaseerd beveiligingsmodel om de toegang tot de database te beveiligen. In dit onderwerp wordt uitgelegd hoe u de beveiligingsartefacten maakt die u nodig hebt om een app te beveiligen. De gebruikersrollen bepalen de runtime-toegang tot gegevens en staan los van de omgevingsrollen voor omgevingsbeheerders en omgevingsmakers. Zie [Environments overview](environments-overview.md) (Overzicht van omgevingen) voor een overzicht van omgevingen.
 
 ## <a name="assign-security-roles-to-users"></a>Beveiligingsrollen aan gebruikers toewijzen
 Met beveiligingsrollen kunt u de toegang van een gebruiker tot gegevens beheren met een set met toegangsniveaus en -machtigingen. De toegangsniveaus en -machtigingen die zijn opgenomen in een bepaalde beveiligingsrol, zorgen ervoor dat er limieten gelden voor de weergave van gegevens aan de gebruiker en de interactie van de gebruiker met deze gegevens.
@@ -58,9 +51,6 @@ Een omgevingsbeheerder kan als volgt via het [PowerApps-beheercentrum][1] een om
 
 7. Selecteer **OK** om de toewijzingen van de omgevingsrol bij te werken.
 
-
-
-
 ## <a name="predefined-security-roles"></a>Vooraf gedefinieerde beveiligingsrollen
 De PowerApps-omgeving bevat vooraf gedefinieerde beveiligingsrollen die overeenkomen met algemene gebruikerstaken. Voor deze beveiligingsrollen zijn toegangsniveaus gedefinieerd waarmee toegang wordt geboden tot de minimale hoeveelheid zakelijke gegevens die nodig is om de app te kunnen gebruiken.
 
@@ -77,7 +67,6 @@ De PowerApps-omgeving bevat vooraf gedefinieerde beveiligingsrollen die overeenk
 - Personen met de rol Omgevingsmaker kunnen niet alleen resources in een omgeving maken, ze kunnen ook de apps die ze in een omgeving bouwen naar andere gebruikers in uw organisatie distribueren. Ze kunnen de app delen met afzonderlijke gebruikers. Zie [Een app delen in PowerApps](../maker/canvas-apps/share-app.md) voor meer informatie.
 
 - Aan gebruikers die apps maken waarmee verbinding met de database wordt gemaakt en aan gebruikers die entiteiten en beveiligingsrollen moeten maken en bijwerken, moet ook de rol Systeemaanpasser worden toegewezen, samen met de rol Omgevingsmaker, omdat de rol Omgevingsmaker geen bevoegdheden voor de database heeft.
-
 
 ## <a name="create-or-configure-a-custom-security-role"></a>Een aangepaste beveiligingsrol maken of configureren
 Als uw app is gebaseerd op een aangepaste entiteit, moeten de bevoegdheden expliciet worden opgegeven voordat gebruikers met de app kunnen werken. Dit kunt u op een van de volgende manieren doen.

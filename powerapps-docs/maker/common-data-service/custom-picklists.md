@@ -1,24 +1,20 @@
 ---
-title: Snelstartgids voor het maken van een optieset | Microsoft Docs
-description: In deze snelstartgids maakt u een optieset
-documentationcenter: na
+title: Een optieset maken | Microsoft Docs
+description: Stapsgewijze instructies voor het maken van een optieset.
 author: clwesene
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
 ms.component: cds
-ms.date: 3/21/2018
+ms.topic: conceptual
+ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: e31bec33a90a962e302e2bc92c0f2a676ce1a4cc
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 188add46a8e52cfeb75ef1bb670ca3b457963024
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="quickstart-create-an-option-set"></a>Snelstartgids: Een optieset maken
+# <a name="create-an-option-set"></a>Een optieset maken
 
 Met optiesets kunt u vervolgkeuzelijsten van vaste waarden voor een gebruiker in uw app opnemen voor gegevensconsistentie. Deze worden in andere toepassingen soms aangeduid als selectielijsten of keuzevelden. Net als bij entiteiten zijn er behalve standaard optiesets ook mogelijkheden om aangepaste optiesets te maken die u kunt gebruiken in uw app.
 

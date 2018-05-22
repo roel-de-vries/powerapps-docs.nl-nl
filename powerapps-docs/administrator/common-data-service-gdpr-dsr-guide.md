@@ -1,25 +1,19 @@
 ---
-title: Reageren op aanvragen van betrokkenen voor CDS for Apps-klantgegevens | Microsoft Docs
-description: Overzicht van hoe te reageren op aanvragen van betrokkenen voor CDS for Apps-klantgegevens
-services: powerapps
-suite: powerapps
-documentationcenter: na
+title: Reageren op aanvragen van betrokkenen voor Common Data Service (CDS) for Apps-klantgegevens | Microsoft Docs
+description: Overzicht van hoe te reageren op aanvragen van betrokkenen voor Common Data Service (CDS) for Apps-klantgegevens
 author: jamesol-msft
+ms.reviewer: paulliew
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 04/23/2018
-ms.author: paulliew
-ms.openlocfilehash: 88a3d0c31a9608a901d99a8a901a209f14c13fc0
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.author: jamesol
+ms.openlocfilehash: ef5d646e30f5d09dbfe5f111a3ad018b030f79d9
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-common-data-service-for-apps-customer-data"></a>Reageren op aanvragen van betrokkenen voor CDS for Apps-klantgegevens (Common Data Service)
 
@@ -29,7 +23,7 @@ De AVG (algemene verordening gegevensbescherming) van de EU (Europese Unie) verl
 * Kopieën opvragen
 * Correcties aanvragen
 * Verwerking beperken
-* Verwijderen
+* Gegevens verwijderen
 * Gegevens in digitale vorm ontvangen, zodat ze aan een andere verwerker kunnen worden overgedragen
 
 Een formele aanvraag van een betrokkene aan een verwerker om actie te ondernemen met betrekking tot zijn of haar persoonsgegevens wordt een aanvraag van de betrokkene genoemd.

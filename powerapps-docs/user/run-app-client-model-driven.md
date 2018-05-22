@@ -1,27 +1,20 @@
 ---
-title: Met PowerApps een modelgestuurde app uitvoeren op een mobiel apparaat | Microsoft Docs
-description: Walkthrough van het uitvoeren van een modelgestuurde app op een mobiel apparaat
-services: ''
-suite: powerapps
-documentationcenter: na
+title: 'Snelstart: Een modelgestuurde app uitvoeren op een mobiel apparaat met PowerApps | Microsoft Docs'
+description: In deze snelstart wordt uitgelegd hoe u een modelgestuurde app uitvoert op een mobiel apparaat.
 author: Mattp123
-manager: brycho
-editor: ''
-tags: ''
+manager: kfile
 ms.service: powerapps
-ms.devlang: na
+ms.component: pa-user
 ms.topic: quickstart
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: a538eb1b6046c4cfd27e969613b44574cec8ff7e
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: 5556739d0a067e9475cd253efdf733ae91218719
+ms.sourcegitcommit: 167fd8e589689be26101584ab1b3a26be61808f7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/12/2018
 ---
-# <a name="quickstart-run-a-model-driven-app-on-a-mobile-device"></a>Snelstartgids: een modelgestuurde app uitvoeren op een mobiel apparaat
+# <a name="quickstart-run-a-model-driven-app-on-a-mobile-device"></a>Snelstartgids: Een modelgestuurde app uitvoeren op een mobiel apparaat
 
 Wanneer de app is gemaakt en met u is gedeeld, kunt u deze app uitvoeren op verschillende populaire mobiele apparaten, zoals apparaten met Windows, iOS of Android, of in een webbrowser. In deze snelstartgids leert u hoe u een modelgestuurde app kunt uitvoeren op een mobiel apparaat. 
 

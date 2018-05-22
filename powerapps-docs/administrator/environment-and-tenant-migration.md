@@ -1,26 +1,18 @@
 ---
 title: Apps migreren tussen omgevingen en tenants | Microsoft Docs
-description: Apps migreren tussen omgevingen en tenants
-services: powerapps
-suite: powerapps
-documentationcenter: na
+description: Overzicht van hoe u PowerApps-apps migreert tussen omgevingen en tenants
 author: jamesol-msft
 manager: kfile
-editor: ''
-tags: ''
-ms-topic: article
+ms-topic: conceptual
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.date: 03/21/2018
+ms.component: pa-admin
+ms.topic: conceptual
 ms.author: jamesol
-ms.openlocfilehash: 3a63f525a44d1b617ba872dce7936fc97b151967
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 3a064bdb3f75bf45047e3ae0ff465fde1d2b66fa
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="environment-and-tenant-app-migration-through-packaging"></a>Apps migreren tussen omgevingen en tenants via pakketten
 Lees hoe u resources van de ene omgeving naar de andere migreert met pakketten. Deze omgevingen kunnen zich in dezelfde tenant bevinden of in andere tenants.
@@ -96,36 +88,36 @@ U kunt aanpassingen voor entiteiten of opties of de modelgestuurde apps die u in
 
 1. Selecteer in http://web.powerapps.com de ontwerpmodus **Model-driven (preview)** in uw omgeving.
 
-  ![De ontwerpmodus voor modelgestuurde apps selecteren](./media/environment-and-tenant-migration/select-model-driven.png)
+    ![De ontwerpmodus voor modelgestuurde apps selecteren](./media/environment-and-tenant-migration/select-model-driven.png)
 
 2. Selecteer **Geavanceerd** in de linkernavigatiebalk om de oplossingsverkenner voor de standaardoplossing van deze omgeving te starten.
 
-  ![Geavanceerd selecteren](./media/environment-and-tenant-migration/select-advanced.png)
+    ![Geavanceerd selecteren](./media/environment-and-tenant-migration/select-advanced.png)
 
 3. Selecteer **Oplossing exporteren** en voer de vereiste stappen uit.  Binnen enkele seconden wordt begonnen met het downloaden van een oplossingspakketbestand.
 
-  ![Selecteer Exporteren](./media/environment-and-tenant-migration/select-export-solution.png)
+    ![Selecteer Exporteren](./media/environment-and-tenant-migration/select-export-solution.png)
 
 ## <a name="importing-cds-customization-and-model-driven-apps"></a>CDS-aanpassingen en modelgestuurde apps importeren
 Voor het importeren van een CDS-oplossingspakket is in de ervaring helaas een handmatige tijdelijke oplossing nodig. Er wordt gewerkt aan een oplossing voor dit probleem:
 
 1. Selecteer in http://web.powerapps.com de ontwerpmodus **Model-driven (preview)** in uw omgeving.
 
-  ![De ontwerpmodus voor modelgestuurde apps selecteren](./media/environment-and-tenant-migration/select-model-driven.png)
+    ![De ontwerpmodus voor modelgestuurde apps selecteren](./media/environment-and-tenant-migration/select-model-driven.png)
 
 2. Selecteer **Geavanceerd** in de linkernavigatiebalk om de oplossingsverkenner voor de standaardoplossing van deze omgeving te starten.
 
-  ![Geavanceerd selecteren](./media/environment-and-tenant-migration/select-advanced.png)
+    ![Geavanceerd selecteren](./media/environment-and-tenant-migration/select-advanced.png)
 
 3. Kopieer de URL in uw browser, breng de volgende wijzigingen aan en navigeer vervolgens naar de nieuwe URL in uw browser:
 
-  - Huidige URL-structuur: https://{uniekenaamvanorganisatie}.crm.dynamics.com/tools/solution/edit.aspx?id={naamvanoplossing}
+    * Huidige URL-structuur: https://{uniekenaamvanorganisatie}.crm.dynamics.com/tools/solution/edit.aspx?id={naamvanoplossing}
 
-    ![URL bewerken](./media/environment-and-tenant-migration/edit-url.png)
+        ![URL bewerken](./media/environment-and-tenant-migration/edit-url.png)
 
-  - Nieuwe URL-structuur: https://{uniekenaamvanorganisatie}.crm.dynamics.com/tools/solution/SolutionImportWizard.aspx
+    * Nieuwe URL-structuur: https://{uniekenaamvanorganisatie}.crm.dynamics.com/tools/solution/SolutionImportWizard.aspx
 
-      ![Pakket selecteren](./media/environment-and-tenant-migration/select-package.png)
+        ![Pakket selecteren](./media/environment-and-tenant-migration/select-package.png)
 
 4. Selecteer het CDS-oplossingspakketbestand dat u wilt importeren en voltooi de wizard.
 

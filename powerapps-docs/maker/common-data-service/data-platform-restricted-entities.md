@@ -1,22 +1,18 @@
 ---
 title: Beperkte entiteiten waarvoor Dynamics 365-licenties vereist zijn| Microsoft Docs
-description: Een lijst met beperkte entiteiten in Common Data Service voor apps waarvoor Dynamics 365-licenties vereist zijn.
-documentationcenter: na
+description: Een lijst met beperkte entiteiten in Common Data Service (CDS) for Apps waarvoor Dynamics 365-licenties zijn vereist.
 author: clwesene
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: reference
 ms.component: cds
+ms.topic: reference
 ms.date: 05/01/2018
 ms.author: clwesene
-ms.openlocfilehash: 508f58b48f2dd51bf25f23905cc3513db90ed1ce
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: 79b6e386154b15ae6c625afbebbed18a8a86c420
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="restricted-entities-requiring-dynamics-365-licenses"></a>Beperkte entiteiten waarvoor Dynamics 365-licenties vereist zijn
 Makers van apps kunnen de meeste entiteiten die beschikbaar zijn in Common Data Service (CDS) voor apps gebruiken om apps en stromen te maken voor gebruikers die alleen beschikken over een licentie voor PowerApps-abonnement 1. Sommige entiteiten bevatten echter complexe bedrijfslogica waarvoor app-gebruikers moeten beschikken over een licentie voor PowerApps-abonnement 2 of voor Microsoft Flow-abonnement 2 (zie [Licentievereisten voor entiteiten](data-platform-entity-licenses.md) voor meer informatie). Voor een nog kleinere set entiteiten die is gekoppeld aan Dynamics 365-producten hebben gebruikers van canvas- en modelgestuurde apps een licentie nodig voor het bijbehorende Dynamics 365-product als ze records binnen de entiteiten willen maken, bijwerken of verwijderen. Deze worden aangeduid als *beperkte* entiteiten.

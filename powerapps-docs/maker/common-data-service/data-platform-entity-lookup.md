@@ -1,29 +1,24 @@
 ---
-title: Snelstartgids voor entiteitsrelaties via opzoekveld | Microsoft Docs
-description: Snelstartgids voor het creëren van een relatie tussen entiteiten met behulp van een opzoekveld
-documentationcenter: na
+title: Een relatie tussen entiteiten maken met behulp van een opzoekveld | Microsoft Docs
+description: Stapsgewijze instructies voor het maken van een relatie tussen entiteiten in PowerApps met behulp van een opzoekveld.
 author: clwesene
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
 ms.component: cds
-ms.date: 3/21/2018
+ms.topic: conceptual
+ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: a607058d1e26f37a4bffa054d9dc148be8b6b011
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: f1952c2349eb54f2c6348f5abc4dee9a4645348a
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="quickstart-create-a-relationship"></a>Snelstartgids: Een relatie maken
+# <a name="create-a-relationship-between-entities"></a>Een relatie tussen entiteiten maken
 Gegevens in de ene entiteit zijn vaak gekoppeld aan gegevens in een andere entiteit. Als u bijvoorbeeld een entiteit **Docenten** en een entiteit **Klas** hebt, kan de entiteit **Klas** een opzoekrelatie met de entiteit **Docenten** hebben om te laten zien welke docent de klas lesgeeft. U kunt via een opzoekveld gegevens weergeven van de entiteit **Docenten**. Dit wordt vaak aangeduid als een opzoekveld.
 
 ## <a name="define-a-relationship"></a>Een relatie definiëren
 U kunt verschillende typen relaties vanuit de ene entiteit naar de andere (of tussen een entiteit en zichzelf) creëren. Elke entiteit kan een relatie met meer dan één entiteit hebben en elke entiteit kan meer dan één relatie met een andere entiteit hebben. Dit zijn enkele algemene relatietypen:
-
 
 * **Veel-op-één**: In dit type relatie kan elke record in entiteit A overeenkomen met meer dan één record in entiteit B, maar elke record in entiteit B kan overeenkomen met slechts één record in entiteit A. Een klas heeft bijvoorbeeld één klaslokaal. Dit is het meest voorkomende type relatie en wordt weergegeven in de lijst met velden als een **Zoekveld**
 * **Eén-op-veel**: In dit type relatie kan elke record in entiteit B overeenkomen met meer dan één record in entiteit A, maar elke record in entiteit A kan overeenkomen met slechts één record in entiteit B. Eén docent geeft bijvoorbeeld les aan meerdere klassen.

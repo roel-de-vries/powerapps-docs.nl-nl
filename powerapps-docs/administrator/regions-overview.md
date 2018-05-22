@@ -1,25 +1,18 @@
 ---
-title: Overzicht van regio’s | Microsoft Docs
-description: "Regio's in PowerApps: waar apps zijn geïmplementeerd, beschikbare regio's, functies die specifiek zijn voor een regio"
-services: ''
-suite: powerapps
-documentationcenter: na
-author: skjerland
-manager: anneta
-editor: ''
-tags: ''
+title: Overzicht van regio's | Microsoft Docs
+description: Meer informatie over regio's in PowerApps
+author: manasmams
+manager: kfile
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: ab5443ae628a80d52d5bbcb1fa46ceed05391794
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 920cee683dfdeaf55905e7d0973c8d822900cac2
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="regions-overview-in-powerapps"></a>Overzicht van regio's in PowerApps
 ## <a name="how-do-i-find-out-where-my-app-is-deployed"></a>Hoe kan ik nagaan waar mijn app wordt geïmplementeerd?

@@ -1,29 +1,25 @@
 ---
-title: Voorbeelden en andere bronnen voor de Common Data Service | Microsoft Docs
-description: Voorbeelden en andere bronnen die u kunt gebruiken om apps te maken.
-documentationcenter: na
+title: Voorbeelden en andere bronnen voor Common Data Service for Apps | Microsoft Docs
+description: Voorbeelden en andere bronnen die u kunt gebruiken om apps te maken in PowerApps.
 author: clwesene
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
 ms.component: cds
-ms.date: 3/17/2018
+ms.topic: conceptual
+ms.date: 03/17/2018
 ms.author: clwesene
-ms.openlocfilehash: 90453f3f560d063cadc2ef331e9de62d0406e1ff
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 405cafabd57ea234d5202076060ee0987b6904db
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
-# <a name="samples-and-other-resources--for-the-common-data-service"></a>Voorbeelden en andere bronnen voor de Common Data Service
+# <a name="samples-and-other-resources-for-common-data-service-for-apps"></a>Voorbeelden en andere bronnen voor Common Data Service for Apps
 ## <a name="samples"></a>Voorbeelden
-Er zijn diverse voorbeelden waarin de Common Data Service wordt gebruikt. U vindt deze voorbeelden door in het navigatiedeelvenster van [powerapps.com](https://web.powerapps.com) op **Start** te klikken.
+Er zijn diverse voorbeelden waarin Common Data Service (CDS) for Apps wordt gebruikt. U vindt deze voorbeelden door in het navigatiedeelvenster van [powerapps.com](https://web.powerapps.com) op **Start** te klikken.
 
 ## <a name="videos"></a>Video's
-Meer video's vindt u op YouTube in de kanalen [MS PowerApps](https://www.youtube.com/channel/UCGfWR2ekfRFckLjev6eQYLg) en [Microsoft Ignite](https://www.youtube.com/channel/UCrhJmfAGQ5K81XQ8_od1iTg).
+Video's vindt u op YouTube in de kanalen [MS PowerApps](https://www.youtube.com/channel/UCGfWR2ekfRFckLjev6eQYLg) en [Microsoft Ignite](https://www.youtube.com/channel/UCrhJmfAGQ5K81XQ8_od1iTg).
 
 ## <a name="blog-posts"></a>Blogberichten
 U vindt berichten over procedures in de [PowerApps-blog](https://powerapps.microsoft.com/blog/).
@@ -32,5 +28,5 @@ U vindt berichten over procedures in de [PowerApps-blog](https://powerapps.micro
 Veel sessies van de Microsoft Ignite-conferentie zijn opgenomen. Ze zijn beschikbaar via [Microsoft Ignite On-Demand](https://myignite.microsoft.com/videos). Zoek naar 'PowerApps' en 'common data model'.
 
 ## <a name="overview"></a>Overzicht
-In, [Common Data Service and Common Data Model overview](https://docs.microsoft.com/common-data-service/entity-reference/security-model) (Overzicht van de Common Data Service en het Common Data Model) vindt u meer informatie over de Common Data Service en het Common Data Model.
+Ga naar het [overzicht van Common Data Service for Apps en Common Data Model](https://docs.microsoft.com/common-data-service/entity-reference/security-model) voor meer informatie over CDS for Apps en Common Data Model.
 

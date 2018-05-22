@@ -1,26 +1,18 @@
 ---
 title: Reageren op AVG-aanvragen voor het exporteren van PowerApps-gegevens van de klant | Microsoft Docs
-description: Instructies voor het reageren op AVG-aanvragen voor het exporteren van PowerApps-gegevens van de klant
-services: powerapps
-suite: powerapps
-documentationcenter: na
+description: Instructies voor het reageren op aanvragen van betrokkenen voor het exporteren van PowerApps-gegevens van de klant.
 author: jamesol-msft
 manager: kfile
-editor: ''
-tags: ''
-ms-topic: article
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 97f5a6a970e07f9908c02074ef97234b58a52894
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 1b9318bcf4624af48e6be95fd22c12c14bf75dff
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-export-powerapps-customer-data"></a>Reageren op AVG-aanvragen voor het exporteren van PowerApps-gegevens van de klant
 Op basis van het ‘recht op overdraagbaarheid van gegevens’ heeft een betrokkene het recht een kopie van zijn of haar persoonlijke gegevens in elektronische vorm (dat wil zeggen een gestructureerde, gangbare en machineleesbare vorm) op te vragen, die kan worden overgedragen aan een andere verwerkingsverantwoordelijke:
@@ -38,7 +30,7 @@ Omgevingsmachtigingen**   | PowerApps-beheercentrum    | PowerApps-cmdlets
 Canvas-app  | PowerApps-beheercentrum <br> PowerApps-ontwikkelaarsportal |  PowerApps-cmdlets
 Machtigingen voor canvas-apps  | PowerApps-beheercentrum <br> PowerApps-ontwikkelaarsportal    | PowerApps-cmdlets
 Gateway | PowerApps-ontwikkelaarsportal*** | Cmdlets voor on-premises gateway
-Gateway-machtigingen | PowerApps-ontwikkelaarsportal*** |
+Gatewaymachtigingen | PowerApps-ontwikkelaarsportal*** |
 Aangepaste connector | |    Ontwikkelaar: beschikbaar <br> Beheerder: in ontwikkeling
 Machtigingen voor aangepaste connectors | |    Ontwikkelaar: beschikbaar <br> Beheerder: in ontwikkeling
 Verbinding | | Ontwikkelaar: beschikbaar <br> Beheerder: in ontwikkeling

@@ -1,26 +1,18 @@
 ---
-title: PowerShell-ondersteuning | Microsoft Docs
-description: Beschrijving van de verschillende PowerShell-cmdlets en een overzicht van hoe u ze installeert en uitvoert
-services: powerapps
-suite: powerapps
-documentationcenter: na
+title: PowerShell-ondersteuning (preview) | Microsoft Docs
+description: Beschrijving van de verschillende PowerShell-cmdlets en een overzicht van hoe u ze installeert en uitvoert.
 author: jamesol-msft
 manager: kfile
-editor: ''
-tags: ''
-ms-topic: article
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: reference
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 69508b2127c5c919db4a334045c6eed3bb9374af
-ms.sourcegitcommit: 0a781b50a8551f2e61c22725ef1c43ba4fdf752a
+ms.openlocfilehash: 953efbabcdce55ac58376f927d5e399e69a40974
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>PowerShell-ondersteuning voor PowerApps (preview-versie)
 U kunt met de preview-introductie van de PowerShell-cmdlets voor app-ontwerpers en -beheerders een groot deel van de bewakings- en beheertaken automatiseren die nu alleen handmatig kunnen worden uitgevoerd in [PowerApps](https://web.powerapps.com) of het [PowerApps-beheercentrum](https://admin.powerapps.com).

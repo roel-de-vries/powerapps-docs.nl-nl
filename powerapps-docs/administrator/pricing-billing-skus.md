@@ -1,25 +1,18 @@
 ---
 title: Licentieoverzicht | Microsoft Docs
-description: Overzicht van Microsoft PowerApps-licenties.
-services: ''
-suite: powerapps
-documentationcenter: na
+description: Overzicht van licentieverlening in PowerApps.
 author: jamesol-msft
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: jamesol
-ms.openlocfilehash: 5fb57b7e790d22a4b055b073c7d60e1d65a69b81
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: 03aa8fc5254529a337f7bbdf40428ab4a1042a92
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="licensing-overview"></a>Licentieoverzicht
 PowerApps wordt gelicentieerd op gebruikersbasis. Elke gebruiker die toegang heeft tot de service voor het maken en uitvoeren van apps, heeft een licentie nodig. Office 365- en Dynamics 365-klanten kunnen onmiddellijk profiteren van de mogelijkheden van PowerApps en Microsoft Flow die deze aanbiedingen omvatten. Klanten die apps en stromen willen maken die toegang nodig hebben tot gegevensbronnen buiten Office 365 en Dynamics 365, of die aanvullende functionaliteit nodig hebben, kunnen een zelfstandig abonnement voor PowerApps en Flow Microsoft aanschaffen. Er zijn belangrijke verschillen in de functionaliteit tussen deze groepen met licenties.

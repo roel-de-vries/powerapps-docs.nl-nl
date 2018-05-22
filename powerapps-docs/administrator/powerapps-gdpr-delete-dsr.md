@@ -1,30 +1,24 @@
 ---
 title: Reageren op AVG-aanvragen voor het verwijderen van klantgegevens | Microsoft Docs
-description: Instructies voor het reageren op AVG-aanvragen voor het verwijderen van PowerApps-gegevens van de klant
-suite: powerapps
-documentationcenter: na
+description: Instructies voor hoe u moet reageren op aanvragen van betrokkenen voor het verwijderen van PowerApps-gegevens van de klant.
 author: jamesol-msft
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.component: pa-admin
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: e4f555416aadb90d882717072f614ccb958fa733
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 724ac9217e1a336aaea8139375ff7d612eb83b53
+ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/15/2018
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-delete-powerapps-customer-data"></a>Reageren op AVG-aanvragen voor het verwijderen van PowerApps-gegevens van de klant
 
 Het ‘recht op wissing’ door het verwijderen van persoonlijke gegevens uit de klantgegevens van een organisatie, is een belangrijke beschermingsmaatregel in de Algemene verordening gegevensbescherming (AVG) van de Europese Unie (EU). Het verwijderen van persoonlijke gegevens omvat het verwijderen van door het systeem gegenereerde logboeken, maar niet gegevens uit auditlogboeken.
 
-Met PowerApps kunnen gebruikers Line-Of-Business-toepassingen ontwikkelen die een belangrijk onderdeel vormen van de dagelijkse bewerkingen van uw organisatie. Wanneer een gebruiker uw organisatie verlaat, moet u handmatig controleren en bepalen of bepaalde gegevens en resources die de gebruiker heeft gemaakt, moeten worden verwijderd. Andere persoonlijke gegevens worden automatisch verwijderd wanneer het account van de gebruiker wordt verwijderd uit Azure Active Directory.
+Met PowerApps kunnen gebruikers Line-Of-Business-toepassingen ontwikkelen die een belangrijk onderdeel vormen van de dagelijkse bedrijfsvoering van uw organisatie. Wanneer een gebruiker uw organisatie verlaat, moet u handmatig controleren en bepalen of bepaalde gegevens en resources die de gebruiker heeft gemaakt, moeten worden verwijderd. Andere persoonlijke gegevens worden automatisch verwijderd wanneer het account van de gebruiker wordt verwijderd uit Azure Active Directory.
 
 Hieronder is uitgesplitst welke persoonlijke gegevens automatisch worden verwijderd en welke gegevens u handmatig moet controleren en verwijderen:
 
@@ -51,7 +45,7 @@ Voor de gegevens en resources waarvoor handmatige controle vereist is, biedt Pow
 
 Hieronder is uitgesplitst welke ervaringen beschikbaar zijn voor het verwijderen van elk type resource dat persoonlijke gegevens bevat:
 
-Resources met persoonlijke gegevens | Website-toegang | PowerShell-toegang
+Resources met persoonsgegevens | Website-toegang | PowerShell-toegang
 --- | --- | ---
 Omgeving | PowerApps-beheercentrum |  PowerApps-cmdlets
 Omgevingsmachtigingen**   | PowerApps-beheercentrum | PowerApps-cmdlets
