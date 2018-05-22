@@ -8,11 +8,11 @@ ms.component: pa-admin
 ms.topic: quickstart
 ms.date: 03/21/2018
 ms.author: sharik
-ms.openlocfilehash: 322886a485a863d5ebf505ba2d1f5763dcfea60e
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: 50a3819d4a659d48e1372487c5b50dc8295ee398
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="quickstart-create-an-environment"></a>Snelstartgids: een omgeving maken
 Een omgeving is een ruimte om de bedrijfsgegevens, -apps en -stromen van uw organisatie op te slaan, te beheren en te delen. Een omgeving doet ook dienst als container voor het scheiden van apps met verschillende rollen, beveiligingsvereisten of doelgroepen. PowerApps maakt automatisch één standaardomgeving voor elke tenant, die door alle gebruikers in die tenant wordt gedeeld.
@@ -27,7 +27,7 @@ In deze snelstartgids leert u hoe u een omgeving en een database voor deze omgev
  * Machtigingen voor omgevingsbeheerder van PowerApps, globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory. Zie het Engelstalige artikel [Environments administration in PowerApps](environments-administration.md) (Omgevingen beheren in PowerApps) voor meer informatie.
 
 ## <a name="sign-in-to-the-powerapps-admin-center"></a>Aanmelden bij PowerApps-beheercentrum
-Meld u aan bij het beheercentrum op [https://admin.powerapps.com]([https://admin.powerapps.com).
+Meld u aan bij het beheercentrum op [https://admin.powerapps.com](https://admin.powerapps.com).
 
 ## <a name="create-an-environment-and-database"></a>Een omgeving en database maken
 1. Klik of tik in het navigatiedeelvenster op **Omgevingen** en klik of tik op **Nieuwe omgeving**.

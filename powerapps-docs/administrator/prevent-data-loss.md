@@ -8,11 +8,11 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 0215e013f6879ea8d04de8fe74e077c983370bff
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: 158abc3969090e081df41b6b52036d71b6949150
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="manage-data-loss-prevention-dlp-policies"></a>Beleid ter preventie van gegevensverlies (DLP) beheren
 De gegevens van een organisatie zijn essentieel om succes te behalen. Gegevens moeten dus te allen tijde beschikbaar zijn om beslissingen te kunnen nemen, maar ze moeten ook worden beveiligd zodat ze niet worden gedeeld met doelgroepen die er geen toegang toe zouden mogen hebben. U kunt hiertoe in PowerApps een beleid ter preventie van gegevensverlies (DLP) instellen waarmee wordt bepaald met welke consumentenconnectors zakelijke gegevens mogen worden gedeeld. Een organisatie die gebruikmaakt van PowerApps wil bijvoorbeeld niet dat de zakelijke gegevens uit SharePoint automatisch worden gepubliceerd op Twitter.
@@ -22,7 +22,7 @@ Om DLP-beleid te maken, bewerken of verwijderen moet u gemachtigd zijn als omgev
 Zie [Snelstartgids: een beleid ter preventie van gegevensverlies (DLP) maken](create-dlp-policy.md) voor instructies over het maken van een DLP-beleid.
 
 ## <a name="find-a-dlp-policy"></a>Een DLP-beleid zoeken
-1. Meld u aan bij het beheercentrum op [https://admin.poweraps.com]([https://admin.powerapps.com).
+1. Meld u aan bij het beheercentrum op [https://admin.powerapps.com]([https://admin.powerapps.com).
 2. Tik of klik in het navigatiedeelvenster op **Gegevensbeleid**. Als u een lange lijst met beleidsregels hebt, zoekt u het gewenste DLP-beleid via het vak **Zoeken**.
 
     ![](./media/prevent-data-loss/data-policies.png)
