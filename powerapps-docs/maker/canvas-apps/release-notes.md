@@ -1,26 +1,21 @@
 ---
-title: Wat is er nieuw in PowerApps? | Microsoft Docs
+title: Wat is er nieuw | Microsoft Docs
 description: Updates voor PowerApps, onderverdeeld op basis van de releasedatum
 documentationcenter: na
-author: skjerland
-manager: kfile
-editor: ''
-tags: ''
+author: AFTOwen
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
 ms.component: canvas
-ms.date: 04/23/2018
-ms.author: sharik
-ms.openlocfilehash: 00b80bd5b9e0953366dd58d6e3b3266ffe7956bd
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.date: 05/21/2018
+ms.author: anneta
+ms.openlocfilehash: dc4e4f9ae1cdb8cf9edf1c7a52343f6a5db1717c
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="whats-new-in-powerapps"></a>Wat is er nieuw in PowerApps?
 Zie [Veelvoorkomende problemen en oplossingen](common-issues-and-resolutions.md) voor meer informatie over bekende beperkingen.
-
 
 > [!NOTE]
 > Releases worden geleidelijk uitgebracht gedurende enkele dagen. Wellicht wordt nieuwe of bijgewerkte functionaliteit niet direct weergegeven.
@@ -31,13 +26,18 @@ Ontdek de meest recente updates voor onze zakelijke toepassingen, evenals een gr
 
 **Binnenkort beschikbaar:** het PDF-bestand met releaseopmerkingen wordt telkens bijgewerkt bij nieuwe functies. De releaseopmerkingen zijn ook beschikbaar op een webpagina.
 
-## <a name="apr-23"></a>23 april
+## <a name="may-21"></a>21 mei
+1. App-gebruikers toestaan gegevens te importeren in en exporteren uit Excel- of CSV-bestanden die lokaal zijn opgeslagen met de functies **Gegevens ophalen uit Excel-bestand** en **Gegevens exporteren** die nu beschikbaar zijn voor bijgewerkte CDS for Apps-omgevingen (Common Data Service). 
+1. App-gebruikers toestaan [entiteiten te openen in Excel](../common-data-service/data-platform-excel-addin.md) voor het maken, bijwerken en verwijderen van gegevens die zijn opgeslagen in CDS for Apps met de Excel-invoegtoepassing voor PowerApps. 
+1. [Maak en publiceer Power BI-rapporten](../common-data-service/data-platform-powerbi-connector.md) met Power BI Desktop, met een verbinding naar CDS for Apps. 
+
+## <a name="april-23"></a>23 april
 * [Bijlagen](controls/control-attachments.md) in Internet Explorer downloaden in aangepaste formulieren van SharePoint.
 
-## <a name="apr-9"></a>9 april
+## <a name="april-9"></a>9 april
 * Besturingselementen voor knippen (Ctrl+X), kopiëren (Ctrl+C) en plakken (Ctrl+ )&mdash;waaronder stijlen, formules en eigenschappen van de besturingselementen&mdash;via apps in een webbrowser.
 
-## <a name="mar-21"></a>21 maart
+## <a name="march-21"></a>21 maart
 1. Maak [modelgestuurde apps](../model-driven-apps/model-driven-app-overview.md) die beginnen met uw gegevensmodel en die worden gebouwd op basis van de vorm van uw belangrijkste zakelijke gegevens en processen in Common Data Service for Apps om formulieren, weergaven en andere onderdelen vorm te geven. Met modelgestuurde apps wordt automatisch een uitstekende gebruikersinterface gegenereerd die responsief is op alle apparaten.
 2. [Maak een database](../../administrator/create-database.md) op de meest recente versie van CDS for Apps in een omgeving.
 3. CDS for Apps bevat nu:
@@ -49,7 +49,7 @@ Ontdek de meest recente updates voor onze zakelijke toepassingen, evenals een gr
     - Geavanceerde gebruikers kunnen in CDS for Apps opgeslagen gegevens openen door middel van een nieuwe **OData-web-API**.
     - [Importeer gegevens](../common-data-service/data-platform-cds-newentity-pq.md) in CDS for Apps met **Power Query**. Power Query op internet gebruiken om vanuit meerdere bronnen rechtstreeks gegevens te importeren naar CDS for Apps
 
-## <a name="mar-5"></a>5 maart
+## <a name="march-5"></a>5 maart
 1. [Bijlagen](controls/control-attachments.md) toevoegen (en verwijderen) aan SharePoint-lijsten.
 2. Externe [PDF](controls/control-pdf-viewer.md)-bestanden openen in een internetbrowser. (Experimentele functie)
 
@@ -73,15 +73,3 @@ Ontdek de meest recente updates voor onze zakelijke toepassingen, evenals een gr
 
 ## <a name="jan-5"></a>5 jan
 * Reageer rechtstreeks vanuit uw Power BI-rapport of -dashboard op gegevens door een [aangepaste PowerApps-visual (preview-versie)](https://powerapps.microsoft.com/blog/powerbi-powerapps-visual/) te integreren die contextuele gegevens ophaalt uit uw Power BI-rapport.
-
-## <a name="dec-8"></a>8 dec
-1. [Voorwaardensjablonen](working-with-rules.md) voor regels leiden algemene eigenschappen van een besturingselement af (zoals **Tekst** of **Waarde**).
-2. Stop met het weergegeven van het [bevestigingsdialoogvenster **Acties definiëren**](working-with-rules.md) bij het definiëren van regelacties.
-
-## <a name="nov-13"></a>13 nov
-1. Selecteer meerdere waarden voor hetzelfde veld in de SharePoint-lijsten.
-2. [Bijlagen weergeven en downloaden](controls/control-attachments.md) in SharePoint-lijsten.
-3. [Pas SharePoint-lijstformulieren aan](customize-list-form.md) met PowerApps.
-
-## <a name="nov-10"></a>10 nov
-* [Wijzig de naam van regels](working-with-rules.md) in een app en geef regels weer wanneer het geselecteerde besturingselement binnen de regelvoorwaarde valt.

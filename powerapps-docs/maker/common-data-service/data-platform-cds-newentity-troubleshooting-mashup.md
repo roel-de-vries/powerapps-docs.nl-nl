@@ -6,13 +6,13 @@ manager: kfile
 ms.service: powerapps
 ms.component: cds
 ms.topic: conceptual
-ms.date: 08/18/2017
+ms.date: 05/16/2018
 ms.author: millopis
-ms.openlocfilehash: d71349c90748b1820cd3430613e0925498ce9793
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: b89d7a59406d19759b84c34dbda84b98b10d5e58
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="troubleshooting-power-query"></a>Problemen met Power Query oplossen
 Als u Power Query gebruikt om een aangepaste entiteit te maken die gegevens uit externe bronnen bevat, kan deze fout worden weergegeven:
@@ -41,4 +41,29 @@ Als alternatief kan de tenantbeheerder Power Query toestemming geven zonder de m
    * New-AzureRmADServicePrincipal -ApplicationId f3b07414-6bf4-46e6-b63f-56941f3f4128
 
 Het voordeel van deze benadering (in tegenstelling tot de tenant-brede oplossing) is dat deze oplossing zeer afgebakend is. Het heeft alleen gevolgen voor de service-principal van **Power Query**, maar er worden geen andere machtigingen gewijzigd voor de tenant.
+
+## <a name="updating-personal-data"></a>Persoonlijke gegevens bijwerken
+
+Gebruikers kunnen mashups en andere gegevens (zoals querynamen en mashup-metagegevens) bijwerken via de Query Editor en via het `Options`-dialoogvenster dat toegankelijk is vanuit de Query Editor.
+
+In PowerApps kan de Query Editor nu worden geopend via het gegevensvenster, door dit uit te vouwen en te klikken op het menu-item in het deelvenster Entiteiten. Klik hier op het menu '...' en kies Query's bewerken. Klik vervolgens op de knop `Options` in het lint en klik op de knop `Export Diagnostics`.
+
+
+## <a name="deleting-personal-data"></a>Persoonlijke gegevens verwijderen
+
+De meeste gegevens worden automatisch binnen 30 dagen verwijderd. Voor gegevens en metagegevens rond mashups moet de gebruiker alle mashups verwijderen via PowerApps. Alle gerelateerde gegevens en metagegevens worden binnen 30 dagen verwijderd.
+
+Mashups kunnen vanuit Power Apps worden verwijderd door de Data Integrator-projecten te verwijderen. U kunt deze verwijderen door op het gelijknamige tabblad te klikken op de knop ... en de optie `Delete` te kiezen.
+
+Als u een mashup hebt gemaakt via de functie Nieuwe entiteiten van gegevens (Technical Preview), kunt u deze verwijderen door te klikken op de knop ..., vervolgens Query's bewerken te kiezen en tenslotte op de knop Alle query's verwijderen te klikken. Zodra u bevestigt dat u uw query's wilt verwijderen, worden deze verwijderd.
+
+
+## <a name="exporting-personal-data"></a>Persoonlijke gegevens exporteren
+
+Gebruikers kunnen de Query Editor openen, vervolgens klikken op de knop `Options` in het lint en op de knop `Export Diagnostics` te klikken.
+
+In PowerApps kan de Query Editor nu worden geopend via het gegevensvenster, door dit uit te vouwen en te klikken op het menu-item in het deelvenster Entiteiten. Klik hier op het menu '...' en kies Query's bewerken. Klik vervolgens op de knop `Options` in het lint en klik op de knop `Export Diagnostics`.
+
+Door het systeem gegenereerde logboeken met betrekking tot gebruikersacties in de gebruikersinterface (UI) kunnen worden geopend in Azure Portal.
+
 
