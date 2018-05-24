@@ -7,7 +7,7 @@ PowerApps maakt verbinding met de **cloudservices en gegevensbronnen** die u al 
 De eenvoudigste manier om met PowerApps te beginnen is de voorbeelden uit te voeren, de sjablonen uit te proberen en apps op basis van uw eigen gegevens te genereren. U hebt gezien hoe een app op basis van een SharePoint-lijst wordt gegeneerd. U beschikt nu over een solide basis, zodat u apps in de kortst mogelijke tijd kunt ontwikkelen en delen. 
 
 ## <a name="whats-next"></a>Hoe nu verder?
-Gefeliciteerd! U hebt de eerste sectie van PowerApps: Gestuurd leren voltooid. Ongeacht met hoeveel ervaring u bent begonnen, we hopen dat u een helder beeld hebt gekregen van wat PowerApps is en hoe u apps kunt gaan maken. We hebben hieronder enkele nuttige bronnen en downloads opgenomen, maar u moet zeker ook eens naar andere onderwerpen van Gestuurd leren kijken. Als u meer informatie wilt, kunt u lezen hoe u [een app kunt maken en aanpassen op basis van een SharePoint-lijst](https://docs.microsoft.com/powerapps/guided-learning/create-app-sharepoint#step-1).
+Gefeliciteerd! U hebt de eerste sectie van PowerApps: Gestuurd leren voltooid. Ongeacht met hoeveel ervaring u bent begonnen, we hopen dat u een helder beeld hebt gekregen van wat PowerApps is en hoe u apps kunt gaan maken. We hebben hieronder enkele nuttige bronnen en downloads opgenomen, maar u moet zeker ook eens naar andere onderwerpen van Gestuurd leren kijken. Als u meer informatie wilt, kunt u lezen hoe u [een app kunt maken en aanpassen op basis van een SharePoint-lijst](https://docs.microsoft.com/powerapps/guided-learning/create-app-sharepoint?tutorial-step=1).
 
 ## <a name="powerapps-resources"></a>PowerApps-resources
 * Dieper graven met de [PowerApps-documentatie](https://docs.microsoft.com/powerapps/)

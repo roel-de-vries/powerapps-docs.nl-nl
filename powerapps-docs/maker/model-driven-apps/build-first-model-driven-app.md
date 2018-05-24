@@ -12,21 +12,21 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 04/18/2018
 ms.author: matp
-ms.openlocfilehash: 3a9696a025608de3c142277da4059e7e8c5ec5ad
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: dfef87d9c85de3a8311081c3b99eaa9d072dc444
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="quickstart-build-your-first-model-driven-app-from-scratch"></a>Snelstartgids: Uw eerste modelgestuurde app bouwen
 Het ontwerp van modelgestuurde apps is een componentgerichte methode voor het ontwikkelen van apps. In deze snelstartgids maakt u op een vereenvoudigde manier een modelgestuurde app met behulp van een van de standaardentiteiten die in uw [!INCLUDE [powerapps](../../includes/powerapps.md)]-omgeving beschikbaar is. 
 
 ## <a name="sign-in-to-powerapps"></a>Meld u aan bij PowerApps
-Meld u aan bij [PowerApps](https://web.powerapps.microsoft.com/). Als u nog geen [!INCLUDE [powerapps](../../includes/powerapps.md)] account hebt, selecteert u de koppeling **Gratis aan de slag**. 
+Meld u aan bij [PowerApps](https://web.powerapps.com/). Als u nog geen [!INCLUDE [powerapps](../../includes/powerapps.md)] account hebt, selecteert u de koppeling **Gratis aan de slag**. 
 
 ## <a name="create-your-model-driven-app"></a>Uw modelgestuurde app maken
 
-1.  Selecteer de gewenste omgeving of ga naar het [PowerApps-beheercentrum](https://admin.powerapps.microsoft.com/) om een nieuwe te maken.
+1.  Selecteer de gewenste omgeving of ga naar het [PowerApps-beheercentrum](https://admin.powerapps.com/) om een nieuwe te maken.
 2.  Selecteer in het linkernavigatiedeelvenster **Modelgestuurd**. 
 
     ![Modelgestuurd](media/build-first-model-driven-app/choose-design-mode.png)
