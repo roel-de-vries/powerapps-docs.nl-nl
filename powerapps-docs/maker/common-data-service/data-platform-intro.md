@@ -8,11 +8,11 @@ ms.topic: overview
 ms.component: cds
 ms.date: 05/01/2018
 ms.author: sharik
-ms.openlocfilehash: a2dea7da0cc87ad016d5eff6e04b9e03e66341db
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: fb079689ef76e4ad7815b8410ecff4a475877810
+ms.sourcegitcommit: ba587b467044161d1dbcd73625b37aa52b057270
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="what-is-common-data-service-for-apps"></a>Wat is Common Data Service for Apps?
 Met Common Data Service (CDS) voor apps kunt u veilig gegevens die door zakelijke toepassingen worden gebruikt, opslaan en beheren. De gegevens in CDS voor apps worden opgeslagen in een set entiteiten. Een *entiteit* is een set records waarin gegevens worden opgeslagen, vergelijkbaar met de manier waarop met een tabel gegevens in een database worden opgeslagen. CDS voor apps bevat een basisset met standaardentiteiten die voor de gebruikelijke scenario's, maar u kunt ook aangepaste entiteiten maken die specifiek voor uw organisatie zijn en deze invullen met gegevens met behulp van Power Query. App-makers kunnen vervolgens PowerApps gebruiken om uitgebreide toepassingen te bouwen aan de hand van deze gegevens.
@@ -34,7 +34,7 @@ Als u een app ontwikkelt, kunt u standaardentiteiten en aangepaste entiteiten ge
 
 ![Schermopname van een lijst met entiteiten. ](./media/data-platform-cds-intro/entitylist.png "Lijst met entiteiten")
 
-Zie [Referentie voor entiteiten](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/reference/about-entity-reference) voor een volledige lijst met entiteiten.
+Zie [Referentie voor entiteiten](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/about-entity-reference) voor een volledige lijst met entiteiten.
 
 U kunt de functionaliteit van de standaardentiteiten uitbreiden door een of meer aangepaste entiteiten te maken voor het opslaan van informatie die uniek is voor uw organisatie. Zie [How to create a custom entity](create-custom-entity.md) (Een aangepaste entiteit maken) voor meer informatie.
 
