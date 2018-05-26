@@ -1,18 +1,17 @@
 ---
 title: Snelstartgids voor het maken van een omgeving | Microsoft Docs
 description: In deze snelstartgids leert u hoe u een omgeving kunt maken.
-author: skjerland
-manager: kfile
+author: jimholtz
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: quickstart
 ms.date: 03/21/2018
-ms.author: sharik
-ms.openlocfilehash: 50a3819d4a659d48e1372487c5b50dc8295ee398
-ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
+ms.author: jimh
+ms.openlocfilehash: f648d68a19c646a2a69a8eebca85ac9e33af0686
+ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 05/26/2018
 ---
 # <a name="quickstart-create-an-environment"></a>Snelstartgids: een omgeving maken
 Een omgeving is een ruimte om de bedrijfsgegevens, -apps en -stromen van uw organisatie op te slaan, te beheren en te delen. Een omgeving doet ook dienst als container voor het scheiden van apps met verschillende rollen, beveiligingsvereisten of doelgroepen. PowerApps maakt automatisch één standaardomgeving voor elke tenant, die door alle gebruikers in die tenant wordt gedeeld.
