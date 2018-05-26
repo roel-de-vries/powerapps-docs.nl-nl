@@ -1,18 +1,17 @@
 ---
 title: Overzicht van de rol van een PowerApps-beheerder | Microsoft Docs
 description: Overzicht van het traject voor ingebruikname van PowerApps en de rol van een PowerApps-beheerder
-author: SKjerland
-manager: kfile
+author: jimholtz
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: overview
 ms.date: 04/27/2018
-ms.author: sharik
-ms.openlocfilehash: 0a2557ecd1da6c23d01883239df72a2c6ee8f3cc
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.author: jimh
+ms.openlocfilehash: d9bdbcc268a28f303a6cff90d9e9c2193c81bc29
+ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/26/2018
 ---
 # <a name="whats-the-role-of-a-powerapps-administrator"></a>Wat is de rol van een PowerApps-beheerder?
 PowerApps, Microsoft Flow en Common Data Service (CDS) voor apps worden beheerd via het [PowerApps-beheercentrum](https://admin.powerapps.com).

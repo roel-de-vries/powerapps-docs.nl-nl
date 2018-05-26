@@ -1,18 +1,17 @@
 ---
 title: Apps zoeken en uitvoeren | Microsoft Docs
 description: Overzicht van het zoeken en uitvoeren van PowerApps-apps.
-author: SKjerland
-manager: kfile
+author: Mattp123
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: overview
 ms.date: 03/21/2018
-ms.author: sharik
-ms.openlocfilehash: 484f6efb0c10bfa5a1d0e5ccdb0939422ddaf835
-ms.sourcegitcommit: 167fd8e589689be26101584ab1b3a26be61808f7
+ms.author: matp
+ms.openlocfilehash: 6c5a207ec2eb41d2cf19250bd5f319ed692a43e6
+ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2018
+ms.lasthandoff: 05/26/2018
 ---
 # <a name="how-do-i-find-and-run-apps"></a>Apps zoeken en uitvoeren
 Makers van apps kunnen aangepaste *canvas*-apps op basis van taken en rollen maken die werken op de manier zoals u werkt, of u nu een mobiele werknemer in het veld of een arts in een druk ziekenhuis bent. Makers van canvas-apps kunnen vrijwel elk aspect van een canvas-app aanpassen en verbinding maken met meerdere gegevensbronnen om gebruikers te helpen bepaalde taken uit te voeren.
