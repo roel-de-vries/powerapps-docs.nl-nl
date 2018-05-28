@@ -12,11 +12,11 @@ ms.topic: sample
 ms.component: canvas
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: e042230acec8bf70a2a99eee316d234cb5cdea15
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 4601cabae10f3373f8d2ef18190d71af536811b5
+ms.sourcegitcommit: 8cc8d165c10644e02009011b66bc174c169c3b05
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="install-and-configure-the-help-desk-powerapps-sample"></a>De voorbeeld-app Helpdesk van PowerApps installeren en configureren
 
@@ -24,29 +24,29 @@ Stapsgewijze instructies voor het installeren en configureren van de voorbeeld-a
 
 Geschatte tijd voor het uitvoeren van deze stappen: **10-15 minuten**
 
-Bekijk deze video als u een demonstratie wilt zien van dit proces.
+> [!TIP]
+> Bekijk deze [video](https://youtu.be/z4cdtD6hB_4) als u een demonstratie wilt zien van dit proces.
 
-[![Video over de installatie van Helpdesk](./media/help-desk-install/help-desk-install-video.png)](https://youtu.be/z4cdtD6hB_4 )
 
 ## <a name="help-desk-powerapps-sample-overview"></a>Overzicht van de voorbeeld-app Helpdesk van PowerApps
 Helpdesk biedt een gebruiksvriendelijke ervaring om eindgebruikers te verbinden met ondersteuningsmedewerkers. Zoek snel antwoorden op uw belangrijkste vragen, houd openstaande tickets bij en controleer de details van eerdere aanvragen. U moet enkele instellingen opgeven voordat u met de app kunt werken.
 
 ![Openingsscherm van de PowerApp Helpdesk](./media/help-desk-install/Login-screen.png)
 
-Bekijk deze video om te zien hoe u de voorbeeld-app Helpdesk van PowerApp gebruikt.
-
-[![Demovideo van Helpdesk](./media/help-desk-install/help-desk-demo-video.png)](https://youtu.be/sl5fXwwnvzI)
+> [!TIP]
+> Bekijk deze [video](https://youtu.be/sl5fXwwnvzI) om te zien hoe u de voorbeeld-app Helpdesk van PowerApp gebruikt.
 
 ## <a name="prerequisites"></a>Vereisten
 
 - [Meld u aan](https://web.powerapps.com/) voor PowerApps.
+- Moet een geldige SharePoint Online-licentie hebben en machtiging om lijsten te maken.
 
 ## <a name="create-the-helpdesk-sharepoint-list"></a>De SharePoint-lijst Helpdesk maken
 
 In deze lijst worden de Helpdesk-tickets opgeslagen.
 
 1. Open een webbrowser en navigeer naar https://portal.office.com.
-2. Meld u aan met een account die gemachtigd is om lijsten te maken.
+2. Meld u aan met een account dat gemachtigd is om SharePoint-lijsten te maken.
 3. Navigeer naar de siteverzameling waar u de Helpdesk-lijst wilt opslaan.
 4. Klik op het **tandwielpictogram** rechtsboven in de webpagina.
 5. Klik op **Een app toevoegen**.
@@ -62,12 +62,13 @@ In deze lijst worden de Helpdesk-tickets opgeslagen.
 
 ### <a name="create-description-column"></a>De kolom Beschrijving maken
 
-1. Klik op **Kolom maken**.
-2. Voer **Beschrijving** in het tekstvak **Kolomnaam** in.
-3. Selecteer **Meerdere tekstregels** in de lijst met keuzerondjes **type of information in this column is** (type informatie in deze kolom is).
-4. Selecteer **Ja** in de lijst met keuzerondjes **Require that this column contains information** (Informatie in deze kolom is vereist).
-5. Selecteer **Tekst zonder opmaak** in de lijst met keuzerondjes **Specify the type of text to allow** (Opgeven welk teksttype is toegestaan).
-6. Klik op **OK**.
+1. Selecteer het beletselteken naast de lijst Helpdesk en klik op **Instellingen**.
+2. Klik op **Kolom maken**.
+3. Voer **Beschrijving** in het tekstvak **Kolomnaam** in.
+4. Selecteer **Meerdere tekstregels** in de lijst met keuzerondjes **type of information in this column is** (type informatie in deze kolom is).
+5. Selecteer **Ja** in de lijst met keuzerondjes **Require that this column contains information** (Informatie in deze kolom is vereist).
+6. Selecteer **Tekst zonder opmaak** in de lijst met keuzerondjes **Specify the type of text to allow** (Opgeven welk teksttype is toegestaan).
+7. Klik op **OK**.
 
 ### <a name="create-category-column"></a>De kolom Categorie maken
 
@@ -137,14 +138,13 @@ In deze lijst worden de Helpdesk-tickets opgeslagen.
 
 ## <a name="download-the-help-desk-powerapp"></a>De PowerApp Helpdesk downloaden
 
-1.  Navigeer in een webbrowser naar http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/helpdesk/docs/HelpDesk(SP_List).zip.
-2.  Download het PowerApps-pakket en sla dit op uw computer op.
+1.  [Download](http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/helpdesk/docs/HelpDesk(SP_List).zip) het PowerApps-pakket en sla dit op uw computer op.
 
 ## <a name="create-connections"></a>Verbindingen maken
 
 1.  Navigeer in een webbrowser naar https://web.powerapps.com.
 2.  Meld u aan met dezelfde referenties die u hebt gebruikt om u te registreren.
-3.  Selecteer **Verbindingen** in het menu aan de linkerkant.
+3.  Selecteer **Gegevens** en vervolgens **Verbindingen** in het menu aan de linkerkant.
     
 ### <a name="create-office-365-outlook-connection"></a>Office 365 Outlook-verbinding maken
 
@@ -157,7 +157,7 @@ In deze lijst worden de Helpdesk-tickets opgeslagen.
 ### <a name="create-sharepoint-connection"></a>SharePoint-verbinding maken
 
 1.  Klik op **+ Nieuwe verbinding**.
-2.  Typ **Outlook** in het tekstvak **Zoeken** .
+2.  Typ **SharePoint** in het tekstvak **Zoeken**.
 3.  Selecteer **SharePoint** in de lijst.
 4.  Klik op **Maken**.
 5.  Selecteer in het pop-upvenster het account waarmee u bent aangemeld.
@@ -209,16 +209,14 @@ In deze lijst worden de Helpdesk-tickets opgeslagen.
 
 ## <a name="configure-the-powerapp-to-use-the-sharepoint-list"></a>De PowerApp configureren voor het gebruik van de SharePoint-lijst
 
-1. Klik in de webbrowser op **Apps**.
-2. Klik op het **beletselteken** naast de PowerApp Helpdesk.
-3. Klik op **Bewerken op internet**.
-4. Klik op **Toestaan**.
+1. Klik onder Volgende stappen op **App openen**.
+2. Klik op **Toestaan** wanneer om toestemming wordt gevraagd.
 
 ### <a name="delete-connections"></a>Verbindingen verwijderen
 
 1. Klik op **Weergave**.
 2. Klik op **Gegevensbronnen**.
-3. Klik in het deelvenster **Gegevens** op het **beletselteken** naast **Helpdesk**.
+3. Klik in het deelvenster **Gegevens** op het **beletselteken** naast **Helpdesk** SharePoint-verbinding.
 4. Klik op **Verwijderen**.
 
 ### <a name="helpdesk-list"></a>Helpdesk-lijst
@@ -274,7 +272,7 @@ In deze lijst worden de Helpdesk-tickets opgeslagen.
 
 7.  Vouw **Schakelaar** uit.
 8.  Vouw **NIET GESTART** uit.
-9.  Vouw de bewerking **Een e-mail verzenden** uit.
+9.  Vouw de actie **Case niet gestart** uit.
 10. Voer in **Naar** het e-mailadres van de Helpdesk-beheerder in.
 
     ![Het scherm Stroom bewerken](./media/help-desk-install/edit-flow-condition-send-email.png) 
@@ -287,11 +285,11 @@ In deze lijst worden de Helpdesk-tickets opgeslagen.
 2. Klik op het **beletselteken** naast de PowerApp Helpdesk.
 3. Klik op **Openen**. 
 
-Bekijk deze video om te zien hoe u de voorbeeld-app Helpdesk van PowerApp gebruikt.
+> [!TIP]
+> Bekijk deze [video](https://youtu.be/sl5fXwwnvzI) om te zien hoe u de voorbeeld-app Helpdesk van PowerApp gebruikt.
 
-[![Demovideo van Helpdesk](./media/help-desk-install/help-desk-demo-video.png)](https://youtu.be/sl5fXwwnvzI)
 
-##<a name="next-steps"></a>Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 - [Een SharePoint-lijstformulier aanpassen](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/customize-list-form)
 - [Een besturingselement toevoegen en configureren](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/add-configure-controls)
 - [Machtigingen voor een SharePoint-lijst of -bibliotheek bewerken en beheren](https://support.office.com/en-us/article/edit-and-manage-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)

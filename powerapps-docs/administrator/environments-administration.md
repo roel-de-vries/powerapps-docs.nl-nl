@@ -8,11 +8,11 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: cfc120cb135c9fe6007b4dc57382a2e4ade821af
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: 3e3cd3b7339303e23411f3ef977cc33db6e5e8e0
+ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="administer-environments-in-powerapps"></a>Omgevingen beheren in PowerApps
 In het [PowerApps-beheercentrum][1] kunt u omgevingen beheren die u hebt gemaakt en waarvoor u bent toegevoegd aan de rol Omgevingsbeheerder of Systeembeheerder. Vanuit het beheercentrum kunt u de volgende beheeracties uitvoeren:
@@ -137,9 +137,9 @@ Een omgevingsbeheerder kan als volgt via het [PowerApps-beheercentrum][1] een om
 
 4. Als de database in de omgeving is gemaakt:
 
-    a. Klik op de koppeling voor het beheren van de omgevingsrollen in Dynamics 365.
+    a. Voeg de gebruiker toe aan de omgeving en klik op de koppeling om de gebruiker een rol toe te wijzen.
 
-    ![](./media/environment-admin/Security-Link-D365.png)
+    ![](./media/database-security/security-adduser.png)
 
     b. Selecteer de gebruiker in de lijst met gebruikers in de omgeving/het exemplaar.
 

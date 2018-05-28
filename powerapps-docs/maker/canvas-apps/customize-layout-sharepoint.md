@@ -5,16 +5,26 @@ author: AFTOwen
 ms.service: powerapps
 ms.topic: tutorial
 ms.component: canvas
-ms.date: 04/24/2018
+ms.date: 05/06/2018
 ms.author: anneta
-ms.openlocfilehash: 7a51e2a734426973721fbcb21305f96e6ba7b222
-ms.sourcegitcommit: 99d50f9a79fe4f35ba56f365de6593abd893978e
+ms.openlocfilehash: 88170d5f727ff4e3cfe52ce31719bcbc79e33021
+ms.sourcegitcommit: e071ef560eef01c2b250ed50cf0e82f7263d5e4d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>Zelfstudie: Een galerie aanpassen in PowerApps
-In deze zelfstudie past u de galerie aan en brengt u andere wijzigingen aan in een app die automatisch is gegenereerd in Microsoft PowerApps. Gebruikers kunnen gegevens in de app beheren, zelfs als u deze wijzigingen niet aanbrengt. De app wordt echter eenvoudiger in gebruik als u deze aanpast aan de behoeften van uw organisatie:
+In deze zelfstudie past u een lijst met records aan en brengt u andere wijzigingen aan in een app die automatisch is gegenereerd in Microsoft PowerApps. Gebruikers kunnen gegevens in de app beheren zelfs als u deze wijzigingen niet aanbrengt. De app wordt echter eenvoudiger in gebruik als u deze aanpast aan de behoeften van uw organisatie.
+
+De galerie voor deze zelfstudie komt bijvoorbeeld standaard overeen met deze afbeelding. Het e-mailadres wordt meer prominent weergegeven dan andere typen gegevens en gebruikers kunnen de galerie sorteren en filteren op basis van tekst in dat adres:
+
+![Standaardgalerie](./media/customize-layout-sharepoint/gallery-before.png)
+
+Uw gebruikers zijn echter mogelijk meer geïnteresseerd in de accountnaam dan in het e-mailadres. U moet dus de galerie opnieuw configureren om te markeren, sorteren en filteren op basis van de belangrijkste gegevens voor uw organisatie. Bovendien moet u de titel van het standaardscherm wijzigen om het te onderscheiden van de andere schermen in de app.
+
+![Definitieve galerie](./media/customize-layout-sharepoint/gallery-after.png)
+
+U voegt ook een schuifbalk toe zodat gebruikers die geen aanraakschermen of muiswiel hebben door de hele galerie kunnen bladeren.
 
 > [!div class="checklist"]
 > * De indeling van de galerie wijzigen
@@ -23,9 +33,9 @@ In deze zelfstudie past u de galerie aan en brengt u andere wijzigingen aan in e
 > * De titel van het scherm wijzigen
 > * Een schuifbalk weergeven
 
-Deze zelfstudie begint met een app die is gegenereerd op basis van een specifieke gegevensbron. Dezelfde concepten gelden echter voor elke app die u in PowerApps genereert op basis van een SharePoint-lijst, een Excel-tabel of een andere gegevensbron. 
+Deze zelfstudie begint met een app die is gegenereerd op basis van een specifieke gegevensbron. Dezelfde concepten gelden echter voor elke app die u in PowerApps genereert, of dit nu vanaf een SharePoint-lijst, een Excel-tabel of een andere gegevensbron is.
 
-Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../signup-for-powerapps.md).
+Als u zich niet hebt geregistreerd voor PowerApps, kunt u zich hier [gratis registreren](https://web.powerapps.com) voordat u begint.
 
 ## <a name="prerequisites"></a>Vereisten
 [Genereer een app](data-platform-create-app.md) vanuit de entiteit **Accounts** van de Common Data Service (CDS) voor apps.
@@ -38,6 +48,8 @@ Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../sig
 1. Zoek de app op die u hebt gegenereerd, selecteer het pictogram van het weglatingsteken (**...** ) voor de app en selecteer vervolgens **Bewerken**.
 
     ![App openen om te bewerken](./media/customize-layout-sharepoint/open-app.png)
+
+1. Selecteer **Overslaan** in het dialoogvenster **Welkom bij PowerApps Studio**.
 
 ## <a name="change-the-layout"></a>De indeling wijzigen
 1. Selecteer **BrowseGallery1** in het linkernavigatiedeelvenster.
@@ -58,9 +70,11 @@ Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../sig
 
     ![Indeling met alleen titel selecteren](./media/customize-layout-sharepoint/choose-layout.png)
 
-1. Open in het deelvenster **Gegevens** de lijst met opties voor **Title2**.
+1. Open in het deelvenster **Gegevens** de lijst met opties voor de titel.
 
-    ![Indeling met alleen titel selecteren](./media/customize-layout-sharepoint/show-title-options.png)
+    De naam van dit besturingselement eindigt op een numerieke waarde, zoals **Title1**, maar het cijfer kan mogelijk verschillen op basis van andere acties die u hebt ondernomen.
+
+    ![Lijst met opties voor titellabel openen](./media/customize-layout-sharepoint/show-title-options.png)
 
 1. Selecteer in de lijst met opties **Accountnaam (naam)** en sluit het deelvenster **Gegevens** vervolgens.
 
