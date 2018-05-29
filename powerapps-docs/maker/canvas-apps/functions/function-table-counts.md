@@ -36,7 +36,7 @@ Elk van deze functies retourneert een getal.
 
 ## <a name="syntax"></a>Syntaxis
 **Count**( *TabelMetEénKolom* )<br>
-**CountA**( *TagelMetEénKolom* )
+**CountA**( *TabelMetEénKolom* )
 
 * *TabelMetEénKolom* - vereist.  De kolom met records die moeten worden geteld.  
 
