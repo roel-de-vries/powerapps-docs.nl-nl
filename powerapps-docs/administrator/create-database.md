@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
 ms.openlocfilehash: 3343e8cd81e23d4938466d12ddca2e0a85dc12c8
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168476"
 ---
 # <a name="create-a-common-data-service-for-apps-database"></a>Een Common Data Service voor Apps database maken
 U kunt een database maken en apps bouwen met gebruik van Common Data Service (CDS) voor Apps als gegevensopslag. U kunt uw eigen aangepaste entiteiten maken of de vooraf gedefinieerde entiteiten gebruiken. Als u een database wilt maken, moet u eerst een omgeving maken of als **omgevingsbeheerder** aan een bestaande omgeving worden toegewezen. Daarnaast moet u aan de juiste licentie zijn toegewezen. Zie [Prijzen](pricing-billing-skus.md) voor informatie over het aanschaffen van een abonnement voor het gebruik van CDS for Apps.

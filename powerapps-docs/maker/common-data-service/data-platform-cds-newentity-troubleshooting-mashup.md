@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 05/16/2018
 ms.author: millopis
 ms.openlocfilehash: b89d7a59406d19759b84c34dbda84b98b10d5e58
-ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34445724"
 ---
 # <a name="troubleshooting-power-query"></a>Problemen met Power Query oplossen
 Als u Power Query gebruikt om een aangepaste entiteit te maken die gegevens uit externe bronnen bevat, kan deze fout worden weergegeven:

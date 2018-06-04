@@ -8,10 +8,11 @@ ms.topic: quickstart
 ms.date: 03/21/2018
 ms.author: jimh
 ms.openlocfilehash: 1488b0231009ef3dd3b0b93e21a14a61f3d1c3cd
-ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552479"
 ---
 # <a name="quickstart-download-a-list-of-active-users-in-your-tenant"></a>Snelstartgids: een lijst met actieve gebruikers in uw tenant downloaden
 Als u een globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory bent, kunt u een lijst met actieve gebruikers in uw tenant downloaden, zodat u niet alleen kunt zien wie toegang heeft gekregen tot PowerApps en/of Microsoft Flow, maar ook de licenties kunt zien die aan deze gebruikers zijn toegewezen.

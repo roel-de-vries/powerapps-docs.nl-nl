@@ -8,10 +8,11 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: jimh
 ms.openlocfilehash: 8ef92fec0245bbe27529be0acb214cad7d2b928e
-ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552548"
 ---
 # <a name="manage-apps-created-in-your-organization"></a>De apps beheren die in uw organisatie zijn gemaakt
 Als u een omgevingsbeheerder, globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory bent, kunt u de apps beheren die in uw organisatie zijn gemaakt.

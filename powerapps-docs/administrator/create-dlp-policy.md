@@ -8,10 +8,11 @@ ms.topic: quickstart
 ms.date: 03/30/2018
 ms.author: jimh
 ms.openlocfilehash: da4be42ea0374d6cb50da2f9a9b17eef15d5b316
-ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552364"
 ---
 # <a name="quickstart-create-a-data-loss-prevention-dlp-policy"></a>Snelstartgids: een beleid ter preventie van gegevensverlies (DLP) maken
 Als u de gegevens in uw organisatie wilt beschermen, kunt u in PowerApps een beleid ter preventie van gegevensverlies (DLP) maken waarmee wordt bepaald met welke consumentenconnectors zakelijke gegevens mogen worden gedeeld. Met dit beleid wordt gedefinieerd hoe gegevens mogen worden gedeeld. Het beleid wordt aangeduid als beleid ter preventie van gegevensverlies (DLP). Met een DLP-beleid zorgt u ervoor dat gegevens in uw organisatie op uniforme wijze worden beheerd en voorkomt u dat belangrijke zakelijke gegevens onbedoeld naar connectors zoals socialemediasites worden gepubliceerd.

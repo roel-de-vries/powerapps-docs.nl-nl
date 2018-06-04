@@ -8,10 +8,11 @@ ms.topic: quickstart
 ms.date: 03/21/2018
 ms.author: matp
 ms.openlocfilehash: 55fd0bb164fcbb552db68fb89d77c7a7d0807cdc
-ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34553031"
 ---
 # <a name="quickstart-run-a-canvas-app-on-a-mobile-device"></a>Snelstartgids: Een canvas-app op een mobiel apparaat uitvoeren
 Wanneer u een app maakt, of iemand een app met u deelt, kunt u die app uitvoeren in Windows, iOS, Android of in een webbrowser. In deze snelstartgids leert u hoe u een canvas-app kunt uitvoeren op een mobiel apparaat. Met apps die op een mobiel apparaat worden uitgevoerd, kunt u profiteren van de functionaliteit van het apparaat, zoals de locatieservices en camera.

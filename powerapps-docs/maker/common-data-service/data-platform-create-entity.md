@@ -8,10 +8,11 @@ ms.topic: quickstart
 ms.date: 05/01/2018
 ms.author: matp
 ms.openlocfilehash: 66c96f7496266e03491e404de2bb329f82b6a2bf
-ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552916"
 ---
 # <a name="quickstart-create-a-custom-entity"></a>Snelstartgids: Een aangepaste entiteit maken
 In PowerApps definieert een *entiteit* de gegevens die u wilt bijhouden in de vorm van records, waaronder doorgaans eigenschappen zoals de bedrijfsnaam, locatie, producten, e-mailadres en telefoonnummer. Vervolgens kunt u die gegevens weergeven door een app te ontwikkelen die naar de entiteit verwijst. PowerApps biedt kant-en-klare standaardentiteiten die geschikt zijn voor gebruikelijke scenario's binnen een organisatie (zoals het volgen van afspraken), maar er zijn situaties waarin u wellicht aangepaste entiteiten wilt maken om specifieke gegevens van uw organisatie op te slaan.

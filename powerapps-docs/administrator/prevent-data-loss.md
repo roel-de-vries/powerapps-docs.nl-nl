@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
 ms.openlocfilehash: 158abc3969090e081df41b6b52036d71b6949150
-ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34445701"
 ---
 # <a name="manage-data-loss-prevention-dlp-policies"></a>Beleid ter preventie van gegevensverlies (DLP) beheren
 De gegevens van een organisatie zijn essentieel om succes te behalen. Gegevens moeten dus te allen tijde beschikbaar zijn om beslissingen te kunnen nemen, maar ze moeten ook worden beveiligd zodat ze niet worden gedeeld met doelgroepen die er geen toegang toe zouden mogen hebben. U kunt hiertoe in PowerApps een beleid ter preventie van gegevensverlies (DLP) instellen waarmee wordt bepaald met welke consumentenconnectors zakelijke gegevens mogen worden gedeeld. Een organisatie die gebruikmaakt van PowerApps wil bijvoorbeeld niet dat de zakelijke gegevens uit SharePoint automatisch worden gepubliceerd op Twitter.
