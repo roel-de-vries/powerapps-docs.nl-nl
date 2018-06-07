@@ -1,22 +1,18 @@
 ---
 title: Overzicht van de Excel-verbinding | Microsoft Docs
 description: Geef gegevens in Excel weer en werk ze bij door de werkmap in een cloudopslagaccount op te slaan en vervolgens vanuit uw app verbinding met de gegevens te maken.
-documentationcenter: ''
 author: lancedMicrosoft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 10/02/2016
 ms.author: lanced
-ms.openlocfilehash: e8bdc3f7bbfa7fdd55e9a5273c084d0aa870cf6d
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: feb2d17400c2f1ddc9670e3bd840322dc1edfc10
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803093"
 ---
 # <a name="connect-to-excel-from-powerapps"></a>Verbinding maken met Excel vanuit PowerApps
 ![Excel](./media/connection-excel/excelicon.png)

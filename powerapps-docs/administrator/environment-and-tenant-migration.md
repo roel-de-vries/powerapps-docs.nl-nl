@@ -9,10 +9,11 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.author: jamesol
 ms.openlocfilehash: 3a064bdb3f75bf45047e3ae0ff465fde1d2b66fa
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34167832"
 ---
 # <a name="environment-and-tenant-app-migration-through-packaging"></a>Apps migreren tussen omgevingen en tenants via pakketten
 Lees hoe u resources van de ene omgeving naar de andere migreert met pakketten. Deze omgevingen kunnen zich in dezelfde tenant bevinden of in andere tenants.

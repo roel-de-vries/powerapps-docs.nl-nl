@@ -1,25 +1,23 @@
 ---
 title: Een gegevensverbinding toevoegen in een app | Microsoft Docs
 description: Een gegevensverbinding toevoegen in een bestaande app of lege app
-services: ''
-suite: powerapps
 documentationcenter: na
-author: archnair
+author: lancedMicrosoft
 manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
+ms.component: canvas
 ms.date: 04/06/2018
-ms.author: archanan
-ms.openlocfilehash: e4d2e881a058ea8f265a858f54af81674d8c1296
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.author: lanced
+ms.openlocfilehash: 44ee7b992f5817a5d6b8d791b05e1db671d3e6ba
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31826977"
 ---
 # <a name="add-a-data-connection-in-powerapps"></a>Een gegevensverbinding toevoegen in PowerApps
 In PowerApps voegt u een gegevensverbinding toe met een bestaande app, of met een app die u volledig nieuw bouwt. Uw app kan verbinding maken met SharePoint, Salesforce, OneDrive of [een van de vele andere gegevensbronnen](connections-list.md).
@@ -31,7 +29,7 @@ De [volgende stap](#next-steps) na het lezen van dit artikel is het bekijken en 
 * Verbinding maken met SQL Server en een tabel bijwerken vanuit uw app.
 
 ## <a name="prerequisites"></a>Vereisten
-[Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](http://web.powerapps.com) met dezelfde referenties die u hebt gebruikt om u te registreren.
+[Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](http://web.powerapps.com) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
 
 ## <a name="add-a-data-source"></a>Een gegevensbron toevoegen
 1. Beweeg de muisaanwijzer op het tabblad **Start** over de tegel **Beginnen met een lege app** en selecteer vervolgens **Deze app maken**.
