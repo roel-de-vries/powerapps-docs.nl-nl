@@ -27,15 +27,15 @@ De functie **Gebruiker** retourneert een [record](../working-with-tables.md#reco
 
 | Eigenschap | Beschrijving |
 | --- | --- |
-| **Gebruiker().E-mail** |E-mailadres van de huidige gebruiker. |
-| **Gebruiker().VolledigeNaam** |Volledige naam van de huidige gebruiker, met voor- en achternaam. |
-| **Gebruiker().Afbeelding** |Afbeelding van de huidige gebruiker. Dit is een afbeeldings-URL in de vorm "blob:*id*". Stel de eigenschap **[Afbeelding](../controls/properties-visual.md)** van het besturingselement **[Afbeelding](../controls/control-image.md)** in op deze waarde om de afbeelding in de app weer te geven. |
+| **User().Email** |E-mailadres van de huidige gebruiker. |
+| **User().FullName** |Volledige naam van de huidige gebruiker, met voor- en achternaam. |
+| **User().image** |Afbeelding van de huidige gebruiker. Dit is een afbeeldings-URL in de vorm "blob:*id*". Stel de eigenschap **[Afbeelding](../controls/properties-visual.md)** van het besturingselement **[Afbeelding](../controls/control-image.md)** in op deze waarde om de afbeelding in de app weer te geven. |
 
 > [!NOTE]
 > De informatie die wordt geretourneerd, is de informatie over de huidige PowerApps-gebruiker.  Dit komt overeen met de 'Account'-informatie die wordt weergegeven in de PowerApps-spelers en -studio, die buiten alle opgestelde apps kan worden gevonden.  Mogelijk komt dit niet overeen met de informatie van de huidige gebruiker in Office 365 of andere services.
 
 ## <a name="syntax"></a>Syntaxis
-**Gebruiker**()
+**User**()
 
 ## <a name="examples"></a>Voorbeelden
 De huidige PowerApps-gebruiker heeft de volgende informatie:
@@ -47,7 +47,7 @@ De huidige PowerApps-gebruiker heeft de volgende informatie:
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **Gebruiker()** |Record met alle gegevens van de huidige PowerApps-gebruiker. |{ VolledigeNaam:&nbsp;"John Doe", E-mail:&nbsp;john.doe@contoso.com Afbeelding:&nbsp;"blob:1234...5678"} |
-| **Gebruiker().E-mail** |Het e-mailadres van de huidige PowerApps-gebruiker. |"john.doe@contoso.com" |
-| **Gebruiker().VolledigeNaam** |De volledige naam van de huidige PowerApps-gebruiker. |"John Doe" |
-| **Gebruiker().Afbeelding** |De afbeeldings-URL voor de huidige PowerApps-gebruiker.  Stel de eigenschap **Afbeelding** van het besturingselement **Afbeelding** in op deze waarde om de afbeelding in de app weer te geven. |"blob:1234...5678"<br><br>Met **ImageControl.Image**:<br>![](media/function-user/john-doe-picture.png) |
+| **User().Email** |Het e-mailadres van de huidige PowerApps-gebruiker. |"john.doe@contoso.com" |
+| **User().FullName** |De volledige naam van de huidige PowerApps-gebruiker. |"John Doe" |
+| **User().image** |De afbeeldings-URL voor de huidige PowerApps-gebruiker.  Stel de eigenschap **Afbeelding** van het besturingselement **Afbeelding** in op deze waarde om de afbeelding in de app weer te geven. |"blob:1234...5678"<br><br>Met **ImageControl.Image**:<br>![](media/function-user/john-doe-picture.png) |
 
