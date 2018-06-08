@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 04/03/2018
 ms.author: yifwang
 ms.openlocfilehash: fd458fe6c8962bbc4443c1de7aad0f1c4eea7fac
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31826611"
 ---
 # <a name="format-a-table-in-excel-and-naming-tips"></a>Een tabel in Excel opmaken en tips voor namen
 Om Excel-gegevens te kunnen gebruiken in PowerApps, moet u deze opmaken als een tabel. In dit onderwerp leert u hoe u een tabel in Excel opmaakt en vindt u tips voor namen van Excel-kolommen.

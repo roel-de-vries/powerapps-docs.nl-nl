@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 12/08/2017
 ms.author: mblythe
 ms.openlocfilehash: 375738cd5481430f06307b4c98b342c377d9bc4c
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31836351"
 ---
 # <a name="use-cognitive-services-in-powerapps"></a>Cognitive Services gebruiken in PowerApps
 In dit artikel leert u hoe u een eenvoudige app kunt maken die de tekstanalyse-API van [Microsoft Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview) gebruikt om tekst te analyseren. We laten u zien hoe u de tekstanalyse-API kunt instellen en hoe u deze aan de [connector voor tekstanalyse](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/) kunt koppelen. Vervolgens laten we u zien hoe u een app kunt maken die de API oproept.

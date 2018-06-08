@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
 ms.openlocfilehash: aa9d5785f1c005da7c22c63bd94cb41e1a643ad3
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31829300"
 ---
 # <a name="customize-a-card-in-powerapps"></a>Een kaart aanpassen in PowerApps
 Basisaanpassingen uitvoeren (zonder een kaart te ontgrendelen) door bijvoorbeeld het besturingselement te wijzigen. Geavanceerde aanpassingen uitvoeren door de kaart te ontgrendelen en bijvoorbeeld een besturingselement toe te voegen dat niet standaard beschikbaar is voor die kaart.

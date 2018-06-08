@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 09/14/2017
 ms.author: anneta
 ms.openlocfilehash: e265934336f3646f52b749ddcec5a5e734bd2c50
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31828888"
 ---
 # <a name="save-and-publish-an-app-in-powerapps"></a>Een app opslaan en publiceren in PowerApps
 Wanneer u wijzigingen in een app opslaat, publiceert u deze automatisch alleen voor uzelf en voor anderen die bevoegd zijn om de app te bewerken. Als u klaar bent met het maken van wijzigingen, moet u de wijzigingen expliciet publiceren om deze beschikbaar te maken voor iedereen met wie de app wordt gedeeld.

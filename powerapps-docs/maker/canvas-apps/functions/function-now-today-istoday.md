@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
 ms.openlocfilehash: 410e9be47b4356a97292eb5de17c5dc10885fae3
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31829135"
 ---
 # <a name="now-today-and-istoday-functions-in-powerapps"></a>De functies Now, Today en IsToday in PowerApps
 Retourneert de huidige datum en tijd en test of een datum/tijd-waarde vandaag is.

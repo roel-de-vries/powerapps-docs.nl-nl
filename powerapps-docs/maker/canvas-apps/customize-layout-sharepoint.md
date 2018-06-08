@@ -8,10 +8,11 @@ ms.component: canvas
 ms.date: 05/06/2018
 ms.author: anneta
 ms.openlocfilehash: 88170d5f727ff4e3cfe52ce31719bcbc79e33021
-ms.sourcegitcommit: e071ef560eef01c2b250ed50cf0e82f7263d5e4d
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34453579"
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>Zelfstudie: Een galerie aanpassen in PowerApps
 In deze zelfstudie past u een lijst met records aan en brengt u andere wijzigingen aan in een app die automatisch is gegenereerd in Microsoft PowerApps. Gebruikers kunnen gegevens in de app beheren zelfs als u deze wijzigingen niet aanbrengt. De app wordt echter eenvoudiger in gebruik als u deze aanpast aan de behoeften van uw organisatie.

@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 05/01/2016
 ms.author: mblythe
 ms.openlocfilehash: 70200430b0cee7356d70795440b908a8837ba18d
-ms.sourcegitcommit: 6a75c4c499bcdbeb9d65d3a9af47dedcf900f38d
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "33078415"
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>PowerApps Community-abonnement: een gratis ontwikkelingsomgeving voor individueel gebruik
 Als u vaardigheden wilt opdoen en meer informatie wilt over PowerApps, Microsoft Flow en Common Data Service, is het PowerApps Community-abonnement het juiste abonnement voor u. Het PowerApps Community-abonnement geeft u een gratis ontwikkelingsomgeving voor individueel gebruik, waarin u het volgende kunt doen:

@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
 ms.openlocfilehash: 78615949ab5c05b4cf7da56eae23dd1a0194c7ff
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31838689"
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>Besturingselementen Formulier weergeven en Formulier bewerken in PowerApps
 Een record weergeven, bewerken en maken in een gegevensbron.

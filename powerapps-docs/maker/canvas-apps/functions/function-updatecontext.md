@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 11/08/2015
 ms.author: gregli
 ms.openlocfilehash: a784251899e7c51ef8213b6d6f31c2830b08e2dc
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31838850"
 ---
 # <a name="updatecontext-function-in-powerapps"></a>De functie UpdateContext in PowerApps
 Maakt [contextvariabelen](../working-with-variables.md#create-a-context-variable) voor het huidige scherm of werkt ze bij.

@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 05/19/2017
 ms.author: sharik
 ms.openlocfilehash: d6c857a75a21123cdd0e826682fc595a503d67fd
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32328784"
 ---
 # <a name="edit-an-app-in-powerapps"></a>Een app bewerken in PowerApps
 U kunt elke app bewerken die u hebt ontwikkeld, waarvan u de eigenaar bent of waarvoor u de machtiging **Kan bewerken** hebt. U kunt een app bewerken in PowerApps Studio. Als u probeert een app te bewerken die ergens anders is geopend voor bewerken, ziet u een bericht met de mededeling dat de app al door uzelf of door iemand anders is geopend.

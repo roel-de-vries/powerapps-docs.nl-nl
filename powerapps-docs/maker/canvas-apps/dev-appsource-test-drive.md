@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 05/08/2017
 ms.author: litran
 ms.openlocfilehash: 11f0e0b8a0aa0dce59588c2e1eea21885f19b741
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31836374"
 ---
 # <a name="let-customers-test-drive-your-apps-on-appsource"></a>Klanten uw apps laten uitproberen op AppSource
 Houdt u van het bouwen van apps in PowerApps? Hebt u een app die u met klanten wilt delen? We ondersteunen nu PowerApps Test Drive-oplossingen op [AppSource.com](https://appsource.microsoft.com), zodat u apps met klanten kunt delen en leads voor uw bedrijf kunt genereren.

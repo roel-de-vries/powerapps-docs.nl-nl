@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 10/28/2016
 ms.author: litran
 ms.openlocfilehash: f29f75522eb01c61c3528e61018fb759980e79f9
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32330210"
 ---
 # <a name="introduction-to-powerappscom"></a>Inleiding tot powerapps.com
 Het team van PowerApps introduceert [powerapps.com](http://web.powerapps.com) opnieuw als het nieuwe platform voor app-ontwikkelaars. We hebben de pagina opnieuw ingericht als de primaire site waarop ontwikkelaars aan de slag kunnen met hun apps, toegang hebben tot Microsoft Common Data Service en hun apps op één plek kunnen beheren. In dit artikel bespreken we de volgende aspecten:

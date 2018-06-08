@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
 ms.openlocfilehash: 78cf8d73758e931d009080f03962c3450088a553
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32329934"
 ---
 # <a name="camera-control-in-powerapps"></a>Besturingselement voor camera in PowerApps
 Een besturingselement waarmee de gebruiker foto's kan maken met behulp van de camera van het apparaat.

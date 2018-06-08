@@ -1,25 +1,23 @@
 ---
 title: 'Besturingselement voor timer: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Timer
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 092e6c76b581027e711dbe0a8109f507a2bba292
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 6d4f8f0393b7cb2d6471f159193327f07e648357
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31836902"
 ---
 # <a name="timer-control-in-powerapps"></a>Besturingselement voor timer in PowerApps
 Een besturingselement dat kan bepalen hoe uw app reageert nadat een bepaalde hoeveelheid tijd is verstreken.
@@ -165,6 +163,8 @@ Sommige scenario's zijn vrijgesteld van deze vereisten. Meer informatie vindt u 
 ### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
 * **[Text](properties-core.md)** moet aanwezig zijn.
 * Gebruik **[Text](properties-core.md)** niet voor tijdgebonden en belangrijke informatie. Gebruikers van schermlezers wordt niet gewaarschuwd voor wijzigingen in **[Text](properties-core.md)**.
-> [!NOTE]
-> * Schermlezers kondigen de verstreken tijd om de vijf seconden aan. De **[Text](properties-core.md)** van de timer wordt echter niet opgenomen in de aankondiging.
+
+    > [!NOTE]
+> Schermlezers kondigen de verstreken tijd om de vijf seconden aan. De **[Text](properties-core.md)** van de timer wordt echter niet opgenomen in de aankondiging.
+
 * U kunt een **[Label](control-text-box.md)** toevoegen om de verstreken tijd weer te geven. Gebruik de **[Text](properties-core.md)** van de timer om de gebruiker de opdracht te geven om de timer te starten of stoppen.

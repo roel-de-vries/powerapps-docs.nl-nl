@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: clwesene
 ms.openlocfilehash: d8323eb103751a1be78aeea0093b9d6651ddc3e2
-ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34445849"
 ---
 # <a name="create-a-power-bi-report"></a>Een Power BI-rapport maken
 Met Common Data Service voor apps kunt u met behulp van Power BI Desktop rechtstreeks verbinding maken met uw gegevens om rapporten te maken en deze te publiceren in Power BI. Vanuit Power BI kunnen rapporten worden gebruikt in dashboards, gedeeld met andere gebruikers en platformoverschrijdend worden geopend op mobiele Power BI-apps.

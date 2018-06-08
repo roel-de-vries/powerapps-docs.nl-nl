@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
 ms.openlocfilehash: 42a7c0db6aaf46d8cdbd112cf72c6f95f58dc9ec
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31839172"
 ---
 # <a name="understand-tables-and-records-in-powerapps"></a>Over tabellen en records in PowerApps
 U kunt een app maken die toegang heeft tot informatie in Microsoft Excel, SharePoint, SQL Server en enkele andere bronnen die gegevens opslaan in records en tabellen. Om zo efficiënt mogelijk met dit soort gegevens te werken, moet u de concepten doornemen die ten grondslag liggen aan deze structuren.

@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 07/10/2017
 ms.author: anneta
 ms.openlocfilehash: 19c06fa9bfc7098227e5f30a1c913522d9e6e7a3
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31825252"
 ---
 # <a name="add-a-screen-and-navigate-between-screens"></a>Een scherm toevoegen en tussen schermen navigeren
 Maak een app met meerdere schermen en voeg manieren toe waarop gebruikers ertussen kunnen navigeren.

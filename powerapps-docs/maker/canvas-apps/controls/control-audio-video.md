@@ -1,25 +1,18 @@
 ---
 title: 'Besturingselementen voor audio en video: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over de besturingselementen Audio en Video
-services: ''
-suite: powerapps
-documentationcenter: na
 author: fikaradz
-manager: anneta
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 7dd954a8e9d0ee9fe645dc248841a2a867d01b43
-ms.sourcegitcommit: d7ed5144f96d1ecc17084c30ed0e2ba3c6b03c26
+ms.openlocfilehash: aae87f408452cd83856c2e1c2e07065d4b8df49f
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803277"
 ---
 # <a name="audio-and-video-controls-in-powerapps"></a>Besturingselementen voor audio en video in PowerApps
 Een besturingselement voor het afspelen van een geluidsbestand, een videobestand of een video op YouTube.

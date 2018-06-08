@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
 ms.openlocfilehash: 66b3183f6b1215fc0de2a763da2388698501a9b7
-ms.sourcegitcommit: 99d50f9a79fe4f35ba56f365de6593abd893978e
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "33673527"
 ---
 # <a name="understand-variables-in-powerapps"></a>Over variabelen in PowerApps
 Als u andere programmeerprogramma's zoals Visual Basic of JavaScript hebt gebruikt, vraagt u zich misschien het volgende af: **waar zijn de variabelen?** PowerApps is iets anders, en er is ook een andere benadering voor nodig. In plaats van dat u een variabele gebruikt, moet u zich afvragen: **wat zou ik doen in Excel?**

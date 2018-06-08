@@ -1,25 +1,23 @@
 ---
 title: 'Besturingselementen voor exporteren en importeren: naslaginformatie | Microsoft Docs'
 description: Informatie (waaronder eigenschappen en voorbeelden) over de besturingselementen voor exporteren en importeren
-services: ''
-suite: powerapps
 documentationcenter: na
 author: fikaradz
-manager: anneta
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: e6c883a5d17d87c58fafd4f10d1075364d616480
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 958589deb4fdee42cb8e6df13ff15addbc06c07e
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31830688"
 ---
 # <a name="export-control-and-import-control-in-powerapps"></a>Besturingselementen voor exporteren en importeren in PowerApps
 Besturingselementen waarmee u gegevens naar een lokaal bestand exporteert en die gegevens vervolgens in een andere app in PowerApps importeert.

@@ -1,22 +1,18 @@
 ---
 title: Overzicht van de Dynamics AX-verbinding | Microsoft Docs
 description: Bekijk de beschikbare functies, antwoorden en voorbeelden voor Dynamics AX
-documentationcenter: ''
 author: lancedMicrosoft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 09/13/2016
 ms.author: lanced
-ms.openlocfilehash: 747261548521bf619b1b23b22de217aa39a1a0d7
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: e5e82b36c362b4790b610614486d2001f9c9974e
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803139"
 ---
 # <a name="connect-from-microsoft-powerapps-to-dynamics-ax"></a>Verbinding maken met Dynamics AX vanuit Microsoft PowerApps
 ![Dynamics AX Online](./media/connection-dynamicsax/dynamics-ax.png)

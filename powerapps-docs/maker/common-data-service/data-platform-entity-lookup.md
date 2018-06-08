@@ -9,10 +9,11 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
 ms.openlocfilehash: f1952c2349eb54f2c6348f5abc4dee9a4645348a
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34168430"
 ---
 # <a name="create-a-relationship-between-entities"></a>Een relatie tussen entiteiten maken
 Gegevens in de ene entiteit zijn vaak gekoppeld aan gegevens in een andere entiteit. Als u bijvoorbeeld een entiteit **Docenten** en een entiteit **Klas** hebt, kan de entiteit **Klas** een opzoekrelatie met de entiteit **Docenten** hebben om te laten zien welke docent de klas lesgeeft. U kunt via een opzoekveld gegevens weergeven van de entiteit **Docenten**. Dit wordt vaak aangeduid als een opzoekveld.

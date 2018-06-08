@@ -1,22 +1,18 @@
 ---
 title: Overzicht van de SQL Server-verbinding | Microsoft Docs
 description: Stapsgewijze instructies om verbinding te maken met Azure SQL of een on-premises SQL Server-database
-documentationcenter: ''
 author: lancedMicrosoft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2016
 ms.author: lanced
-ms.openlocfilehash: 65fa5cff5d3b9c9595cc3f9338a7e7af43256f86
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: e11521219fcd368801a6e943f45dbc713309ec36
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803415"
 ---
 # <a name="connect-to-sql-server-from-powerapps"></a>Verbinding maken met SQL Server vanuit PowerApps
 ![SQL Server-pictogram](./media/connection-azure-sqldatabase/sqlicon.png)

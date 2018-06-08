@@ -12,10 +12,11 @@ ms.component: canvas
 ms.date: 06/02/2015
 ms.author: lonu
 ms.openlocfilehash: 959431b69d4f432335997697d8f25b5b8815d63c
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32330285"
 ---
 # <a name="show-sort-and-filter-data-in-a-powerapps-gallery"></a>Gegevens weergeven, sorteren en filteren in een PowerApps-galerie
 Maak een galerie om afbeeldingen en tekst over verschillende producten weer te geven en sorteer en filter deze informatie.

@@ -1,25 +1,23 @@
 ---
 title: 'Besturingselement voor galerie: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Galerie
-services: ''
-suite: powerapps
 documentationcenter: na
-author: RickSaling
-manager: anneta
+author: fikaradz
+manager: kfile
 editor: ''
 tags: ''
 ms.service: powerapps
 ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 05/25/2017
 ms.author: sharik
-ms.openlocfilehash: 501dfbba3e01efe55c76d7af234e2f9064096728
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: dde430d6174af5be75a4fc8ae13dabd6f3759899
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31837252"
 ---
 # <a name="gallery-control-in-powerapps"></a>Besturingselement voor galerie in PowerApps
 Een besturingselement dat andere besturingselementen bevat en waarin een reeks gegevens wordt weergegeven.
@@ -107,11 +105,13 @@ Als iets moet worden geselecteerd wanneer ergens in een galerij-item wordt gekli
 
 ### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
 * **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
-> [!NOTE]
+
+    > [!NOTE]
 > Schermlezers melden het als items in de galerie wijzigen. Het **AccessibleLabel** wordt ook genoemd. Dit geeft de aankondiging context en is zelfs belangrijker wanneer er meerdere galerieën op hetzelfde scherm staan.
 
 ### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
 * U kunt **ShowScrollbar** instellen op **true**. Op de meeste apparaten met aanraakscherm wordt de schuifbalk pas weergegeven wanneer er wordt geschoven.
 * Als iets moet worden geselecteerd als ergens in een galerij-item wordt geklikt, moeten toetsenbordgebruikers het galerie-item ook kunnen selecteren. Voeg bijvoorbeeld een **[Knop](control-button.md)** toe waarvan de eigenschap **OnSelect** is ingesteld op **Select(Parent)**.
-> [!NOTE]
+
+    > [!NOTE]
 > Besturingselementen buiten de galerie worden niet meegenomen in de toetsenbordnavigatievolgorde binnen de galerie. **[TabIndex](properties-accessibility.md)** van besturingselementen in een galerie, vallen binnen het bereik. Zie [eigenschappen voor toegankelijkheid](properties-accessibility.md) voor meer informatie.

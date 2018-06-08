@@ -12,10 +12,11 @@ ms.component: canvas
 ms.date: 11/30/2015
 ms.author: lonu
 ms.openlocfilehash: 01065fd1a12b3d55e8726582cead3d86a6e6a8ad
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "32330284"
 ---
 # <a name="create-and-update-a-collection-in-your-app"></a>Een verzameling in uw app maken en bijwerken
 U kunt een verzameling gebruiken om gegevens op te slaan die in uw app kunnen worden gebruikt. Een verzameling is een groep met items die vergelijkbaar zijn. U maakt bijvoorbeeld een verzameling MijnAfbeeldingen waarin alle foto's worden opgeslagen van producten die uw bedrijf verkoopt. U kunt uw verzameling MijnAfbeeldingen in PowerApps toevoegen en een app maken die alle foto's van deze producten weergeeft. Ander voorbeeld: u kunt een verzameling Prijslijst maken die een overzicht bevat van de producten en de prijs van elk product.

@@ -12,13 +12,14 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 08/08/2017
 ms.author: jamesol
-ms.openlocfilehash: 0792a47db2174dc440488eb854987bca80c8b363
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 0cf09528f83b2729e50139a3b5f9b5b9c00b6119
+ms.sourcegitcommit: 045c96df42405c60c7675edbadac93455270a021
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34822553"
 ---
-# <a name="send-a-pull-notification-in-powerapps"></a>Een pushmelding verzenden in PowerApps
+# <a name="send-a-push-notification-in-powerapps"></a>Een pushmelding verzenden in PowerApps
 Pushmeldingen worden gebruikt in mobiele apps voor zakelijk en consumentengebruik, voornamelijk om app-gebruikers te benaderen en hun aandacht te trekken naar belangrijke taken. Het verzenden van meldingen in PowerApps vindt plaats via de PowerApps-meldingsconnector. U kunt native pushmeldingen verzenden naar alle apps die u in PowerApps maakt. We zullen in de toekomst meer meldingstypen toevoegen.
 
 ![Voorbeeld van een pushmelding](./media/add-notifications/pic1-notification-screenshot.png)

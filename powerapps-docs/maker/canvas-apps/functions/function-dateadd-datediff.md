@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 05/23/2017
 ms.author: gregli
 ms.openlocfilehash: eaf538c1189dffd8fb2169f3eda3f525bcf623de
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31832023"
 ---
 # <a name="dateadd-datediff-and-timezoneoffset-functions-in-powerapps"></a>Functies DateAdd, DateDiff en TimeZoneOffset in PowerApps
 Zoekt het verschil in datum-/tijdwaarden of voegt deze toe en schakelt tussen lokale tijd en UTC.

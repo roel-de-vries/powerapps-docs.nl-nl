@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 07/24/2017
 ms.author: gregli
 ms.openlocfilehash: 9dce0ac36cd16faaa9c8b9a0b34d15eff086ab2e
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31838028"
 ---
 # <a name="operators-and-data-types-in-powerapps"></a>Operators en gegevenstypen in PowerApps
 Sommige van deze operators zijn afhankelijk van de taal van de auteur.  Zie [Global apps](../global-apps.md) voor meer informatie.

@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 02/05/2017
 ms.author: gregli
 ms.openlocfilehash: 35dec320b52dd934d616ba067932228b0e15ee3d
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31838804"
 ---
 # <a name="filter-search-and-lookup-functions-in-powerapps"></a>Functies Filter, Zoeken en LookUp in PowerApps
 Zoekt een of meer [records](../working-with-tables.md#records) in een [tabel](../working-with-tables.md).

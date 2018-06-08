@@ -11,10 +11,11 @@ ms.component: canvas
 ms.date: 03/18/2018
 ms.author: anneta
 ms.openlocfilehash: 54d53d5f3385be4b5d38a2bf220da139ba3bd3a4
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31827253"
 ---
 # <a name="generate-an-app-from-excel-in-powerapps"></a>Een app genereren vanuit Excel in PowerApps
 In dit onderwerp genereert u uw eerste app automatisch in PowerApps met gegevens uit een Excel-tabel. U selecteert een Excel-bestand, genereert een app en voert vervolgens de app uit die u hebt gegenereerd. Elke gegenereerde app bevat schermen om te bladeren in records, recordgegevens weer te geven en records te maken of bij te werken. Door het genereren van een app kunt u snel een werkende app krijgen met Excel-gegevens. Vervolgens kunt u de app aan uw eigen behoeften aanpassen. 

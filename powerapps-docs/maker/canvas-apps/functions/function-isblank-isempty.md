@@ -13,10 +13,11 @@ ms.component: canvas
 ms.date: 07/24/2017
 ms.author: gregli
 ms.openlocfilehash: 80d06a30dbe334f7fa9691d2a56805d53876693c
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31838551"
 ---
 # <a name="blank-coalesce-isblank-and-isempty-functions-in-powerapps"></a>Functies Blank, Samenvoegen, IsBlank en IsEmpty in PowerApps
 Hiermee wordt getest of een waarde leeg is of een [tabel](../working-with-tables.md) geen [records](../working-with-tables.md#records) bevat. Dit biedt een manier om *lege* waarden te maken.
