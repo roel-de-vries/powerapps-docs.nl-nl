@@ -1,22 +1,24 @@
 ---
 title: Wat is Common Data Service for Apps? | Microsoft Docs
 description: Inleiding tot Common Data Service (CDS) voor apps, entiteiten en logica aan de serverzijde.
-author: Mattp123
+author: clwesene
 manager: kfile
 ms.service: powerapps
 ms.topic: overview
 ms.component: cds
 ms.date: 05/01/2018
 ms.author: matp
-ms.openlocfilehash: b26f788a782e42125d6397d38b2d946f8188e475
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 586750edf476a9145e2822522cc0b4b5ad729539
+ms.sourcegitcommit: 7296649d03ebc33dc5ddb9e7c551869dc781f154
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34552824"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250818"
 ---
 # <a name="what-is-common-data-service-for-apps"></a>Wat is Common Data Service for Apps?
 Met Common Data Service (CDS) voor apps kunt u veilig gegevens die door zakelijke toepassingen worden gebruikt, opslaan en beheren. De gegevens in CDS voor apps worden opgeslagen in een set entiteiten. Een *entiteit* is een set records waarin gegevens worden opgeslagen, vergelijkbaar met de manier waarop met een tabel gegevens in een database worden opgeslagen. CDS voor apps bevat een basisset met standaardentiteiten die voor de gebruikelijke scenario's, maar u kunt ook aangepaste entiteiten maken die specifiek voor uw organisatie zijn en deze invullen met gegevens met behulp van Power Query. App-makers kunnen vervolgens PowerApps gebruiken om uitgebreide toepassingen te bouwen aan de hand van deze gegevens.
+
+![Schermafbeelding van een overzicht van het Platform voor zakelijke toepassingen. ] (./media/data-platform-cds-intro/platform.png "Platform-overzicht")
 
 Zie [Prijzen](../../administrator/pricing-billing-skus.md) voor informatie over het aanschaffen van een abonnement voor het gebruik van CDS voor apps.
 
@@ -24,11 +26,31 @@ Zie [Prijzen](../../administrator/pricing-billing-skus.md) voor informatie over 
 Standaardentiteiten en aangepaste entiteiten binnen CDS voor apps bieden een veilige opslagoptie voor uw gegevens in de cloud. Met entiteiten kunt u een definitie van de gegevens van uw organisatie maken die is gericht op uw zakelijke activiteiten en die u binnen apps kunt gebruiken. Als u twijfelt over het gebruik van entiteiten, kijk dan eens naar de volgende voordelen:
 
 * **Eenvoudig te beheren** &ndash; zowel de metagegevens als de gegevens worden opgeslagen in de cloud. U hoeft u geen zorgen te maken over de details of hoe de gegevens worden opgeslagen.
-* **Eenvoudig te delen** &ndash; de gegevens kunnen makkelijk uw collega's worden gedeeld, omdat &mdash;PowerApps de machtigingen beheert.
 * **Eenvoudig te beveiligen** &ndash; gegevens worden veilig opgeslagen, zodat gebruikers ze alleen kunnen bekijken als hun toegang wordt verleend. Met op rollen gebaseerde beveiliging kunt u de toegang tot entiteiten voor verschillende gebruikers binnen uw organisatie beheren.
-* **Uitgebreide metagegevens** &ndash; gegevenstypen en relaties worden rechtstreeks in PowerApps gebruikt. Door bijvoorbeeld een veldtype-URL te definiëren worden uw gegevens als een hyperlink in uw app gepresenteerd.
+* **Toegang tot uw Dynamics 365 gegevens** &ndash; gegevens in uw Dynamics 365-toepassingen worden ook opgeslagen in de Common Data Service for Apps, zodat u snel apps kunt bouwen die gebruikmaken van uw Dynamics 365-gegevens en uw apps uitbreiden met PowerApps.
+* **Uitgebreide metagegevens** &ndash; gegevenstypen en relaties worden rechtstreeks in PowerApps gebruikt.
 * **Logica en validatie** &ndash; definieer berekende velden, bedrijfsregels, werkstromen en zakelijke processtromen om de kwaliteit van de gegevens te waarborgen en bedrijfsprocessen te bevorderen.
 * **Hulpprogramma's voor productiviteit** &ndash; entiteiten zijn beschikbaar binnen de invoegtoepassingen voor Microsoft Excel om de productiviteit te vergroten en ervoor te zorgen dat uw gegevens toegankelijk zijn.
+
+## <a name="dynamics-365-and-the-common-data-service-for-apps"></a>Dynamics 365 en de Common Data Service for Apps
+
+Dynamics 365-toepassingen, zoals Dynamics 365 for Sales, Service of Talent, gebruiken de Common Data Service for Apps ook om de gegevens die worden gebruikt door de toepassingen op te slaan en te beveiligen. Zo kunt u apps bouwen met behulp van PowerApps en de Common Data Service for Apps rechtstreeks op basis van uw zakelijke kerngegevens die al worden gebruikt in Dynamics 365 zonder de noodzaak tot integratie.
+
+* **Apps bouwen aan de hand van uw Dynamics 365-gegevens** &ndash; bouw snel apps aan de hand van uw bedrijfsgegevens binnen PowerApps of met behulp van de Pro Developer-SDK.
+* **Herbruikbare bedrijfslogica en regels beheren** &ndash; bedrijfsregels en logica die al zijn gedefinieerd in uw Dynamics 365-entiteiten, worden toegepast op uw PowerApps om gegevensconsistentie te garanderen, ongeacht hoe uw gebruikers de gegevens benaderen of via welke app.
+* **Herbruikbare vaardigheden in Dynamics 365 en PowerApps** &ndash; gebruikers die eerder in PowerApps of Dynamics 365 vaardigheden hebben geleerd, kunnen deze vaardigheden nu aanwenden in het nieuwe Common Data Service for Apps-platform. Het maken van entiteiten, formulieren, grafieken is nu heel gangbaar in uw toepassingen.
+
+    > [!NOTE]
+    > Dynamics 365 for Finance and Operations vereist momenteel de configuratie van de Data Integrator om uw bedrijfsgegevens van Finance and Operations beschikbaar te stellen in de Common Data Service for Apps.
+
+## <a name="integrating-data-into-the-common-data-service"></a>Gegevens integreren in de Common Data Service
+
+Om een app te bouwen, worden doorgaans gegevens uit meer dan één bron gebruikt. Dit kan soms op toepassingsniveau worden gedaan, maar er zijn ook gevallen waarbij u door deze gegevens in een algemeen archief te integreren eenvoudiger apps kunt bouwen. U hoeft dan maar één set met logica te onderhouden en te bewerken. Met de Common Data Service for Apps kunnen gegevens uit meerdere bronnen worden geïntegreerd in één archief, dat dan kan worden gebruikt in PowerApps, Flow en Power BI samen met de gegevens die al beschikbaar zijn via de Dynamics 365-toepassingen.
+
+* **Geplande integratie met andere systemen** &ndash; gegevens die in een andere toepassing worden bewaard, kunnen regelmatig worden gesynchroniseerd met de Common Data Service for Apps zodat u andere toepassingsgegevens in PowerApps kunt benutten.
+* **Gegevens transformeren en importeren met behulp van PowerQuery** &ndash; het transformeren van gegevens bij het importeren in de algemene Common Data Service kan vanaf veel online gegevensbronnen worden gedaan via PowerQuery, een algemeen hulpprogramma dat wordt gebruikt in Excel en Power BI.
+* **Eenmalige import gegevens** &ndash; eenvoudige import en export van Excel- en CSV-bestanden kan worden gebruikt voor een eenmalige of incidentele import van gegevens in de Common Data Service for Apps.
+
 
 ## <a name="interacting-with-entities"></a>Interactie met entiteiten
 Als u een app ontwikkelt, kunt u standaardentiteiten en aangepaste entiteiten gebruiken, of beide. Standaardentiteiten zijn standaard opgenomen in CDS for Apps. Deze zijn ontworpen conform de best practices om de meest algemene concepten en scenario's binnen een organisatie te ondervangen.
