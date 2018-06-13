@@ -6,13 +6,14 @@ manager: kfile
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 724ac9217e1a336aaea8139375ff7d612eb83b53
-ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
+ms.openlocfilehash: 495d9976b1daa6e7adb20d97c0840b3a1ba90c4b
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552686"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-delete-powerapps-customer-data"></a>Reageren op AVG-aanvragen voor het verwijderen van PowerApps-gegevens van de klant
 
@@ -51,10 +52,10 @@ Omgeving | PowerApps-beheercentrum |  PowerApps-cmdlets
 Omgevingsmachtigingen**   | PowerApps-beheercentrum | PowerApps-cmdlets
 Canvas-app  | PowerApps-beheercentrum <br> PowerApps| PowerApps-cmdlets
 Machtigingen voor canvas-apps  | PowerApps-beheercentrum | PowerApps-cmdlets
-Verbinding | | App-ontwikkelaar: beschikbaar <br> Beheerder: in ontwikkeling
-Verbindingsmachtigingen | | App-ontwikkelaar: beschikbaar <br> Beheerder: in ontwikkeling
-Aangepaste connector | | App-ontwikkelaar: beschikbaar <br> Beheerder: in ontwikkeling
-Machtigingen voor aangepaste connector | | App-ontwikkelaar: beschikbaar <br> Beheerder: in ontwikkeling
+Verbinding | | App-ontwikkelaar: beschikbaar <br> Beheerder: beschikbaar
+Verbindingsmachtigingen | | App-ontwikkelaar: beschikbaar <br> Beheerder: beschikbaar
+Aangepaste connector | | App-ontwikkelaar: beschikbaar <br> Beheerder: beschikbaar
+Machtigingen voor aangepaste connector | | App-ontwikkelaar: beschikbaar <br> Beheerder: beschikbaar
 
 \***Als er, na de introductie van de CDS for Apps, een database wordt gemaakt binnen de omgeving, worden omgevingsmachtigingen en machtigingen voor modelgestuurde apps opgeslagen als records in de instantie van die database. Zie [Responding to Data Subject Rights (DSR) requests for Common Data Service for Apps customer data](common-data-service-gdpr-dsr-guide.md) (Reageren op AVG-aanvragen voor Common Data Service for Apps-gegevens van de klant) voor instructies over het reageren op AVG-aanvragen van gebruikers die CDS for Apps gebruiken.
 
@@ -62,6 +63,26 @@ Machtigingen voor aangepaste connector | | App-ontwikkelaar: beschikbaar <br> Be
 
 ### <a name="for-users"></a>Voor gebruikers
 Elke gebruiker met een geldige PowerApps-licentie kan de in dit document beschreven gebruikersbewerkingen uitvoeren met [PowerApps](https://web.powerapps.com) of de [PowerShell-cmdlets voor app-ontwikkelaars](https://go.microsoft.com/fwlink/?linkid=871448).
+
+#### <a name="unmanaged-tenant"></a>Onbeheerde tenant
+Als u lid bent van een [onbeheerde tenant](https://docs.microsoft.com/azure/active-directory/domains-admin-takeover), wat betekent dat uw Azure AD-tenant geen algemene beheerder heeft, kunt u nog steeds de in dit artikel beschreven stappen volgen voor het verwijderen van uw eigen persoonsgegevens.  Omdat er echter geen algemene beheerder voor uw tenant is, moet u de instructies volgen die in [Stap 11: de gebruiker uit Azure Active Directory verwijderen](#step-11-delete-the-user-from-azure-active-directory) hieronder zijn beschreven om uw eigen account uit de tenant te verwijderen.
+
+Bepaal aan de hand van de volgende stappen of u lid bent van een onbeheerde tenant:
+
+1. Open de volgende URL in een browser en let daarbij op dat u uw e-mailadres in de URL vervangt: https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1
+
+2. Als u lid bent van een **onbeheerde tenant**, ziet u een `"IsViral": true` in het antwoord.
+```
+{
+  ...
+  "Login": "foobar@unmanagedcontoso.com",
+  "DomainName": "unmanagedcontoso.com",
+  "IsViral": true,
+  ...
+}
+```
+
+3. Anders behoort u toe aan een **beheerde tenant**.
 
 ### <a name="for-administrators"></a>Voor beheerders
 Als u met het [PowerApps-beheercentrum](https://admin.powerapps.com/), het Microsoft Flow-beheercentrum of [PowerShell-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804) de beheerbewerkingen wilt uitvoeren die in dit document worden beschreven, hebt u het volgende nodig:
@@ -251,7 +272,7 @@ Een beheerder kan roltoewijzingen voor apps voor een gebruiker vanuit het [Power
 
     ![Beheerpagina app delen](./media/powerapps-gdpr-delete-dsr/admin-share-page.png)
 
-### <a name="powerapps-admin-powershell-cmdlets"></a>PowerShell-cmdlets voor PowerApps-beheerders
+### <a name="powershell-cmdlets-for-admins"></a>PowerShell-cmdlets voor beheerders
 Een beheerder kan alle roltoewijzingen van een gebruiker voor een canvas-app verwijderen met de functie **Remove-AdminAppRoleAssignmnet** in de [PowerShell-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804):
 
 ```
@@ -276,7 +297,15 @@ Get-Connection | Remove-Connection
 ```
 
 ### <a name="powershell-cmdlets-for-powerapps-administrators"></a>PowerShell-cmdlets voor PowerApps-beheerders
-De functie waarmee een beheerder met [PowerShell-cmdlets](https://go.microsoft.com/fwlink/?linkid=871804) de verbindingen van een gebruiker kan zoeken en verwijderen, is in ontwikkeling.
+Een beheerder kan alle verbindingen van een gebruiker verwijderen met de functie **Remove-AdminConnection** in de [PowerShell-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804):
+
+```
+Add-PowerAppsAccount
+$deleteDsrUserId = "0ecb1fcc-6782-4e46-a4c4-738c1d3accea"
+
+#Retrieves all connections for the DSR user and deletes them
+Get-AdminConnection -CreatedBy $deleteDsrUserId | Remove-AdminConnection
+```
 
 ## <a name="step-6-delete-the-users-permissions-to-shared-connections"></a>Stap 6: de machtigingen van de gebruiker voor gedeelde verbindingen verwijderen
 
@@ -292,8 +321,16 @@ Get-ConnectionRoleAssignment | Remove-ConnectionRoleAssignment
 > [!NOTE]
 > Roltoewijzingen voor eigenaren kunnen niet worden verwijderd zonder de verbindingsresource te verwijderen.
 
-### <a name="powerapps-admin-powershell-cmdlets"></a>PowerShell-cmdlets voor PowerApps-beheerders
-De functie waarmee een beheerder met de [PowerShell-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804) de verbindingsroltoewijzingen van een gebruiker kan zoeken en verwijderen, is in ontwikkeling.
+### <a name="powershell-cmdlets-for-admins"></a>PowerShell-cmdlets voor beheerders
+Een beheerder kan alle roltoewijzingen voor een verbinding van een gebruiker verwijderen met de functie **Remove-AdminConnectionRoleAssignment** in de [PowerShell-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804):
+
+```
+Add-PowerAppsAccount
+$deleteDsrUserId = "0ecb1fcc-6782-4e46-a4c4-738c1d3accea"
+
+#Retrieves all connection role assignments for the DSR user and deletes them
+Get-AdminConnectionRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-AdminConnectionRoleAssignment
+```
 
 ## <a name="step-7-delete-custom-connectors-created-by-the-user"></a>Stap 7: door de gebruiker gemaakte aangepaste connectors verwijderen
 Aangepaste connectors vormen een aanvulling op de bestaande standaard-connectors en maken connectiviteit met andere API's, SaaS en aangepaste systemen mogelijk. Het is raadzaam het eigendom van Aangepaste connectors over te dragen aan andere gebruikers in de organisatie of de Aangepaste connector te verwijderen.
@@ -308,8 +345,16 @@ Add-PowerAppsAccount
 Get-Connector -FilterNonCustomConnectors | Remove-Connector
 ```
 
-### <a name="powerapps-admin-powershell-cmdlets"></a>PowerShell-cmdlets voor PowerApps-beheerders
-De functie waarmee een beheerder met de [PowerShell-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804) de aangepaste connectors van een gebruiker kan zoeken en verwijderen, is in ontwikkeling.
+### <a name="powershell-cmdlets-for-admins"></a>PowerShell-cmdlets voor beheerders
+Een beheerder kan alle aangepaste connectors die door een gebruiker zijn gemaakt verwijderen met de functie **Remove-AdminConnector** in de [PowerShell-cmdlets voor PowerApps-beheerder](https://go.microsoft.com/fwlink/?linkid=871804):
+
+```
+Add-PowerAppsAccount
+$deleteDsrUserId = "0ecb1fcc-6782-4e46-a4c4-738c1d3accea"
+
+#Retrieves all custom connectors created by the DSR user and deletes them
+Get-AdminConnector -CreatedBy $deleteDsrUserId | Remove-AdminConnector
+```
 
 ## <a name="step-8-delete-the-users-permissions-to-shared-custom-connectors"></a>Stap 8: de machtigingen van de gebruiker voor gedeelde aangepaste connectors verwijderen
 
@@ -326,8 +371,16 @@ Get-ConnectorRoleAssignment | Remove-ConnectorRoleAssignment
 > [!NOTE]
 > Roltoewijzingen voor eigenaren kunnen niet worden verwijderd zonder de verbindingsresource te verwijderen.
 
-### <a name="powerapps-admin-powershell-cmdlets"></a>PowerShell-cmdlets voor PowerApps-beheerders
-De functie waarmee een beheerder met de [PowerShell-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804) de connectorroltoewijzingen van een gebruiker kan zoeken en verwijderen, is in ontwikkeling.
+### <a name="powershell-cmdlets-for-admins"></a>PowerShell-cmdlets voor beheerders
+Een beheerder kan alle aangepaste roltoewijzingen voor een verbinding van een gebruiker verwijderen met de functie **Remove-AdminConnectorRoleAssignment** in de [PowerShell-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804):
+
+```
+Add-PowerAppsAccount
+$deleteDsrUserId = "0ecb1fcc-6782-4e46-a4c4-738c1d3accea"
+
+#Retrieves all custom connector role assignments for the DSR user and deletes them
+Get-AdminConnectorRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-AdminConnectorRoleAssignment
+```
 
 ## <a name="step-9-delete-the-users-personal-data-in-microsoft-flow"></a>Stap 9: de persoonlijke gegevens van de gebruiker in Microsoft Flow verwijderen
 PowerApps-licenties omvatten altijd Microsoft Flow-mogelijkheden. Behalve dat Microsoft Flow is opgenomen in PowerApps-licenties, is Microsoft Flow ook beschikbaar als een zelfstandige service. Zie [Responding to GDPR Data Subject Requests for Microsoft Flow](https://go.microsoft.com/fwlink/?linkid=872250) (Reageren op AGV-aanvragen voor gegevensonderwerpen voor Microsoft Flow) voor instructies over het reageren op AVG-aanvragen van gebruikers die de Microsoft Flow-service gebruiken.
@@ -344,4 +397,19 @@ Zie [Responding to Data Subject Rights (DSR) requests for Common Data Service fo
 > Het is raadzaam deze stap door beheerders te laten uitvoeren voor PowerApps-gebruikers.
 
 ## <a name="step-11-delete-the-user-from-azure-active-directory"></a>Stap 11: de gebruiker verwijderen uit Azure Active Directory
-Als de bovenstaande stappen zijn voltooid, dient als laatste stap het account van de gebruiker uit Azure Active Directory te worden verwijderd. Volg hiervoor de stappen in de AVG-documentatie over AVG-aanvragen in de [Office 365 Service Trust-portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR).
+Zodra de bovenstaande stappen zijn voltooid, bestaat de laatste stap uit het verwijderen van het account voor Azure Active Directory van de gebruiker.
+
+### <a name="managed-tenant"></a>Beheerde tenant
+Als beheerder van een beheerde Azure AD-tenant kunt u het account van de gebruiker verwijderen. Volg hiervoor de stappen in de AVG-documentatie over AVG-verzoeken in de [Office 365 Service Trust-portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR).
+
+### <a name="unmanaged-tenant"></a>Onbeheerde tenant
+Als u lid bent van een onbeheerde tenant, moet u deze stappen uitvoeren voor het verwijderen van uw account uit uw Azure AD-tenant:
+
+> [!NOTE]
+> Raadpleeg het bovenstaande [gedeelte over onbeheerde tenants](#unmanaged-tenant) als u wilt weten hoe u achterhaalt of u lid bent van een onbeheerde of beheerde tenant.
+
+1. Navigeer naar de [pagina voor privacy op het werk en op school](https://go.microsoft.com/fwlink/?linkid=87312) en meld u aan met uw Azure AD-account.
+
+2. Selecteer **Account sluiten** en volg de instructies voor het verwijderen van uw account uit uw Azure AD-tenant.
+
+    ![App delen selecteren](./media/powerapps-gdpr-delete-dsr/close-account.png)

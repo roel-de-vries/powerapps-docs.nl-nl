@@ -8,23 +8,26 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 05/21/2018
 ms.author: anneta
-ms.openlocfilehash: dc4e4f9ae1cdb8cf9edf1c7a52343f6a5db1717c
-ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
+ms.openlocfilehash: ef4360dda5d4003ff91389af78958052bbb1e052
+ms.sourcegitcommit: 68e2c696397f3002dd14e72a4c2054a603a5e2d7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34851702"
 ---
 # <a name="whats-new-in-powerapps"></a>Wat is er nieuw in PowerApps?
+> [!IMPORTANT]
+> **Aankondiging van de release-opmerkingen**<br>
+> Hebt u vragen over geplande en onlangs uitgebrachte mogelijkheden in PowerApps?<br>
+[Bekijk de release-opmerkingen](https://docs.microsoft.com/en-us/business-applications-release-notes/april18/powerapps/overview). We hebben alle details van a tot z vastgelegd om in uw planning te gebruiken.
+
 Zie [Veelvoorkomende problemen en oplossingen](common-issues-and-resolutions.md) voor meer informatie over bekende beperkingen.
 
 > [!NOTE]
 > Releases worden geleidelijk uitgebracht gedurende enkele dagen. Wellicht wordt nieuwe of bijgewerkte functionaliteit niet direct weergegeven.
 
-## <a name="announcing-the-business-applications-spring-18-release-notes"></a>De opmerkingen voor de release van zakelijke toepassingen in het voorjaar van 2018 aankondigen
-
-Ontdek de meest recente updates voor onze zakelijke toepassingen, evenals een groot aantal nieuwe mogelijkheden voor het bouwen van uw eigen toepassingen en extensies boven op ons platform. [Download het PDF-bestand met releaseopmerkingen voor voorjaar 2018](https://aka.ms/businessappsreleasenotes). Deze hebben betrekking op Dynamics 365, PowerApps, Microsoft Flow en Power BI.
-
-**Binnenkort beschikbaar:** het PDF-bestand met releaseopmerkingen wordt telkens bijgewerkt bij nieuwe functies. De releaseopmerkingen zijn ook beschikbaar op een webpagina.
+## <a name="may-30"></a>30 mei
+1. [Het bedieningselement RTF-editor](controls/control-richtexteditor.md) (experimenteel): hiermee kunnen eindgebruikers tekst in een WYSIWYG-bewerkingsvak opmaken. 
 
 ## <a name="may-21"></a>21 mei
 1. App-gebruikers toestaan gegevens te importeren in en exporteren uit Excel- of CSV-bestanden die lokaal zijn opgeslagen met de functies **Gegevens ophalen uit Excel-bestand** en **Gegevens exporteren** die nu beschikbaar zijn voor bijgewerkte CDS for Apps-omgevingen (Common Data Service). 

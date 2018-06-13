@@ -7,74 +7,25 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 4/18/2018
 ms.author: audrie
-ms.openlocfilehash: 9100aadcbe9b2b4c431fd91da448d859f1830f48
-ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
+ms.openlocfilehash: a5cfa772ce4f7e9f5679164b9309baa31bfc6a96
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803369"
 ---
 # <a name="powerapps-webinar-listing"></a>Overzicht van PowerApps-webinars #
 In deze webinars ziet u hoe u kunt gebruikmaken van de functies en voorzieningen van Microsoft PowerApps. U kunt aanvullende onderwerpen voorstellen in de opmerkingen onder dit onderwerp.
 
 ## <a name="upcoming-webinars"></a>Komende webinars ##
-**Deel 1 van de serie Modelgestuurde apps | Entiteiten en gegevensimport beheren**
-<br>door Audrie Gordon en Clay Wesener
-<br>*1 mei, 10:00 PST, 12:00 EST*
-
-Werk samen met Clay Wesener van het PowerApps-team terwijl hij u stapsgewijs helpt met het bouwen van een CDS voor apps-database. U leert hoe u entiteiten en velden maakt en hierdoor navigeert. U krijgt ook een goed beeld van de ingebouwde mogelijkheden. 
-
-Dit is deel 1 van een driedelige serie:
-<br>**Deel 1: Entiteiten**
-<br>Deel 2: Formulieren en weergaven
-<br>Deel 3: Grafieken en dashboards
-
-Dit is een geweldige gelegenheid om te leren hoe u standaardentiteiten en -velden hergebruikt en hoe u in een mum van tijd uw eigen aangepaste scenario's maakt.
-
-[Klik hier om te kijken op 1 mei](https://www.youtube.com/watch?v=02NWfHRYkeo)
-
-**Deel 2 van de serie Modelgestuurde apps | Formulieren en weergaven maken**
-<br>door Audrie Gordon en Anees Ansari
-<br>*15 mei, 10:00 PST, 12:00 EST*
-
-Modelgestuurde apps bieden een rijke ervaring voor app-makers die scenario's maken met eenvoudige tot complexe formulieren. Leer hoe u onze Forms Designer gebruikt voor het maken van formulieren die nodig zijn voor de model-app waaraan we in deel 1 zijn begonnen. Anees helpt u bij formulieronderdelen zoals tabbladen, secties en velden. Hij deelt ook een aantal aanbevolen procedures over het integreren van bedrijfslogica en filters. 
-
-Dit is deel 2 van een driedelige serie:
-<br>Deel 1: Entiteiten
-<br>**Deel 2: Formulieren en weergaven**
-<br>Deel 3: Grafieken en dashboards
-
-[Klik hier om te kijken op 15 mei](https://www.youtube.com/watch?v=v7VoX-V2ek4)
-
-**Deel 3 uit de serie Modelgestuurde apps | Grafieken en dashboards verkennen**
-<br>door Audrie Gordon en Casey Burke
-<br>*29 mei, 10:00 uur PST, 12:00 uur EST*
-
-PowerApps biedt een samengestelde benadering voor rapportage, met een scala aan weergaven en dashboardmogelijkheden. De serie Modelgestuurde apps omvat handige grafieken en dashboards om de oplossing waaraan we hebben gewerkt te optimaliseren en te moderniseren. 
-
-Dit is deel 3 van een driedelige serie:
-<br>Deel 1: Entiteiten
-<br>Deel 2: Formulieren en weergaven
-<br>**Deel 3: Grafieken en dashboards**
-
-[Klik hier om te kijken op 29 mei](https://www.youtube.com/watch?v=kJ5eTWh7Hyg)
 
 **Connector-reeks | Microsoft StaffHub (Shift Planning)-apps met PowerApps**
 <br>door Marc-André Lépine
 <br>*5 juni, 10:00 uur PST, 13:00 uur EST*
-
+<br>
 Marc-André Lépine uit de groep PowerApps en Flow Azure Advisors vertelt in deze sessie over hoe hij een geweldige app heeft gebouwd ter aanvulling op, en uitbreiding van, de mogelijkheden van de StaffHub Connector. Later deze week laat hij zien hoe hij de Connector heeft uitgebreid met behulp van een aangepaste API.  
 
 [Klik hier om te kijken op 5 juni](https://www.youtube.com/watch?v=LAximnEnKy8)
-
-**Uitbreidbaarheid | Een op JSON gebaseerde oplossing bouwen met PowerApps en Flow**
-<br>door Marc-André Lépine
-<br>*7 juni, 10:00 uur PST, 13:00 uur EST*
-
-Marc-André Lépine is weer terug en deelt enkele tips over uitbreidbaarheid met ons. Als u zijn eerste video hebt gemist, kunt deze hier alsnog bekijken: https://www.youtube.com/watch?v=LAximnEnKy8
-
-Deze keer demonstreert Marc het 'no cliffs'-voordeel van PowerApps door de functionaliteit van de connector StaffHub uit te breiden om zijn eigen bedrijfsvereisten op te nemen via een aangepaste connector. (Het is echt verbazingwekkend hoe eenvoudig dit is, dus mis dit niet, ook niet als u geen professionele ontwikkelaar bent.) 
-
-[Klik hier om te kijken op 7 juni](https://www.youtube.com/watch?v=ykNRxKvAirg)
 
 **Beheer van PowerApps | Veelgestelde vragen**
 <br>door Manas Maheshwari
@@ -84,7 +35,7 @@ Manas Maheshwari, Senior Program Manager bij het team van PowerApps, deelt enkel
 
 [Klik hier om te kijken op 12 juni](https://www.youtube.com/watch?v=9Sy_vT5kIts)
 
-**Een kijkje in de universele audit-app: ontdek de mogelijkheden van PowerApps en Flow met Paul Culmsee**
+**Een kijkje in de universele audit-app: ontdek de mogelijkheden van PowerApps en Flow, door Paul Culmsee**
 <br>door Paul Culmsee
 <br>*14 juni, 6:00 PST, 9:00 EST*
 
@@ -92,8 +43,16 @@ Voor deze populaire app in PowerApps worden wekelijks 3-5 aanvragen gedaan. Als 
 
 [Klik hier om te kijken op 14 juni](https://www.youtube.com/watch?v=6Wn47bDOMEE)
 
+**Aan de slag | Leertrajecten voor PowerApps - Snel goede apps bouwen!**
+<br>door Audrie Gordon
+<br>*26 juni, 18:00 PST, 21:00 EST*
+
+Audrie Gordon van het PowerApps-team deelt aanbevolen procedures en strategieën om snel aan de slag te gaan met het leren en in gebruik nemen van PowerApps in uw organisatie. Mis deze speciale discussie buiten kantooruren, live op YouTube, niet. 
+
+[Klik hier om te kijken op 26 juni](https://www.youtube.com/watch?v=ykNRxKvAirg)
+
 ## <a name="past-webinars"></a>Eerdere webinars ##
-Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor uw registratiegegevens opnieuw opgeven, waarna u per mail een koppeling naar de opname ontvangt.
+Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor in sommige gevallen uw registratiegegevens opnieuw opgeven, waarna u per mail een koppeling naar de opname ontvangt. 
 
 ### <a name="beginner-webinar-series"></a>Webinarserie voor beginners ###
 **5 tips om apps te ontwerpen die goed zijn voor de omzet**
@@ -196,6 +155,15 @@ Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor uw re
 
 **Onderdelen van modelgestuurde apps | Aan de slag met sjablonen**
 <br>door Charles Sterling en Casey Burke [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Understanding-Model-Driven-App-Templates/m-p/116833)
+
+**Deel 1 van de serie Modelgestuurde apps | Entiteiten en gegevensimport beheren**
+<br>door Audrie Gordon en Clay Wesener [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Model-Driven-App-Components-Part-1-Managing-Entities-and-Data/m-p/116837)
+
+**Deel 2 van de serie Modelgestuurde apps | Formulieren en weergaven maken**
+<br>door Audrie Gordon en Anees Ansari [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Model-Driven-App-Components-Part-2-Creating-Forms-and-Views-with/m-p/116838)
+
+**Deel 3 uit de serie Modelgestuurde apps | Grafieken en dashboards verkennen**
+<br>door Audrie Gordon en Casey Burke [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Model-Driven-App-Components-Part-3-Exploring-Charts-and/m-p/119732)
 
 ### <a name="app-designer-series"></a>Serie voor app-ontwerpers ###
 **Apps bouwen voor ingebruikname en bruikbaarheid**

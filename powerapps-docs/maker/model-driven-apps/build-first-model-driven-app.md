@@ -12,11 +12,12 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 04/18/2018
 ms.author: matp
-ms.openlocfilehash: dfef87d9c85de3a8311081c3b99eaa9d072dc444
-ms.sourcegitcommit: f236364ecb06dd86244cd9a607c31e0d716912e2
+ms.openlocfilehash: 3d7aa26696adb187906c9c793c546abd1b97764f
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34583481"
 ---
 # <a name="quickstart-build-your-first-model-driven-app-from-scratch"></a>Snelstartgids: Uw eerste modelgestuurde app bouwen
 Het ontwerp van modelgestuurde apps is een componentgerichte methode voor het ontwikkelen van apps. In deze snelstartgids maakt u op een vereenvoudigde manier een modelgestuurde app met behulp van een van de standaardentiteiten die in uw [!INCLUDE [powerapps](../../includes/powerapps.md)]-omgeving beschikbaar is. 
@@ -30,6 +31,9 @@ Meld u aan bij [PowerApps](https://web.powerapps.com/). Als u nog geen [!INCLUDE
 2.  Selecteer in het linkernavigatiedeelvenster **Modelgestuurd**. 
 
     ![Modelgestuurd](media/build-first-model-driven-app/choose-design-mode.png)
+
+  > [!IMPORTANT]
+  > Als de **modelgestuurde** ontwerpmodus niet beschikbaar is, moet u mogelijk [een omgeving maken](https://docs.microsoft.com/powerapps/administrator/create-environment).   
 
 3. Selecteer **Apps** in het linkerdeelvenster en selecteer vervolgens **Een app maken**.
 

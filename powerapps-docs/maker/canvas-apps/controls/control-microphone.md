@@ -12,17 +12,20 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: ae6a8afa71a150ad1b15f8ef0550f3d7412ff3be
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: c79e30a404b1e653f1df6547c9fcc818efc79433
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34583504"
 ---
 # <a name="microphone-control-in-powerapps"></a>Besturingselement voor microfoon in PowerApps
-Een besturingselement waarmee de gebruiker geluiden kan opnemen.
+Een bedieningselement waarmee app-gebruikers geluiden uit hun apparaat kunnen opnemen.
 
 ## <a name="description"></a>Beschrijving
-Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerken met een of meer geluiden, vanaf elke locatie waar de app wordt uitgevoerd.
+App-gebruikers kunnen audio-opnamen maken als het apparaat waarop de app wordt uitgevoerd, over een microfoon beschikt.
+
+Audio wordt opgeslagen in 3gp-indeling in Android en in AAC-indeling in iOS.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
 **Mic**: op een apparaat dat meerdere microfoons heeft, is dit de numerieke id van de microfoon die door de app wordt gebruikt.
@@ -97,9 +100,9 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 ### <a name="add-sounds-to-a-custom-gallery-control"></a>Geluiden toevoegen aan een besturingselement Aangepaste galerie
 1. Voeg een besturingselement **Microfoon** toe, geef het de naam **MijnMicrofoon** en stel de eigenschap **OnStop** in op deze formule:<br>
    **Collect(MySounds, MyMic.Audio)**
-   
+
     Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
-   
+
     Wilt u meer informatie over de functie **[Collect](../functions/function-clear-collect-clearcollect.md)** of [andere functies](../formula-reference.md)?
 2. Voeg een besturingselement **Aangepaste galerie** toe, plaats de galerie onder **MijnMicrofoon** en stel de eigenschap **[Items](properties-core.md)** van het besturingselement **Aangepaste galerie** in op **MijnGeluiden**.
 3. Voeg in de sjabloon voor het besturingselement **Aangepaste galerie** een besturingselement **[Audio](control-audio-video.md)** toe en stel de eigenschap **Media** hiervan in op **ThisItem.Url**.

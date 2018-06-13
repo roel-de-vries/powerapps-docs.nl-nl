@@ -10,13 +10,14 @@ ms.service: powerapps
 ms.devlang: na
 ms.topic: reference
 ms.component: canvas
-ms.date: 08/28/2017
+ms.date: 06/05/2018
 ms.author: gregli
-ms.openlocfilehash: d7dd33954d337bbfc65b486333e89c4598b11305
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: af089f81b8fd96ec022fe32495cb14f2827f28b5
+ms.sourcegitcommit: 045c96df42405c60c7675edbadac93455270a021
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34822576"
 ---
 # <a name="formula-reference-for-powerapps"></a>Formuleverwijzingen voor PowerApps
 Formules combineren veel elementen.  Hieronder worden vermeld:
@@ -219,7 +220,9 @@ Andere elementen zijn:
 
 **[Niet](functions/function-logicals.md)**: Booleaanse logica NIET.  Retourneert **waar** als het bijbehorende argument **onwaar** is, en retourneert **onwaar** als het bijbehorende argument **waar**.  U kunt ook de operator [**!** gebruiken](functions/operators.md).
 
-**[Nu](functions/function-now-today-istoday.md)**: retourneert de huidige datum/tijd-waarde.
+**[Notify](functions/function-showerror.md)**: geeft een bannerbericht weer voor de gebruiker.
+
+**[Now](functions/function-now-today-istoday.md)**: retourneert de huidige datum/tijd-waarde.
 
 ## <a name="o"></a>O
 **[Of](functions/function-logicals.md)**: Booleaanse logica OF.  Retourneert **waar** als alle bijbehorende argumenten **waar** zijn.  U kunt ook de operator [**||** gebruiken](functions/operators.md).
@@ -280,8 +283,6 @@ Andere elementen zijn:
 **[Instellen](functions/function-set.md)**: stelt de waarde van een globale variabele in.
 
 **[ShowColumns](functions/function-table-shaping.md)**: retourneert een tabel met alleen geselecteerde kolommen.
-
-**[ShowError](functions/function-showerror.md)**: hiermee wordt een foutbericht weergegeven aan de gebruiker.
 
 **[Shuffle](functions/function-shuffle.md)**: plaatst de records in een tabel in een willekeurige volgorde.
 

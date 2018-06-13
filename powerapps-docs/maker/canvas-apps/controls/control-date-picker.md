@@ -12,11 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 9f2aae06422a130e2976d0276536842c6d565db5
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: fe6fc6527348c6d38ba1d7934efb50ea071154d7
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34583550"
 ---
 # <a name="date-picker-control-in-powerapps"></a>Besturingselement voor datumkiezer in PowerApps
 Een besturingselement waarop de gebruiker kan klikken of tikken om een datum op te geven.
@@ -69,6 +70,10 @@ Als u een besturingselement **Datumkiezer** toevoegt in plaats van een besturing
 
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
 
+**IconFill**: de voorgrondkleur van het datumkiezerpictogram.
+
+**IconBackground**: de achtergrondkleur van het datumkiezerpictogram.
+
 **[Italic](properties-text.md)**: hiermee wordt aangegeven of de tekst in een besturingselement cursief is.
 
 **[OnSelect](properties-core.md)**: de manier waarop de app reageert wanneer de gebruiker op een besturingselement tikt of klikt.
@@ -100,14 +105,14 @@ Als u een besturingselement **Datumkiezer** toevoegt in plaats van een besturing
 
 ## <a name="example"></a>Voorbeeld
 1. Voeg een besturingselement **Datumkiezer** toe en geef het de naam **Deadline**.
-   
+
     Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
 2. Voeg een besturingselement van het type **[Label](control-text-box.md)** toe en stel de eigenschap **[Text](properties-core.md)** in op deze formule:
    <br>**DateDiff(Today(), Deadline.SelectedDate) & " dagen nog!"**
-   
+
     Wilt u meer informatie over de functie **[DateDiff](../functions/function-dateadd-datediff.md)** of [andere functies](../formula-reference.md)?
 3. Druk op F5, kies een datum in het besturingselement **Deadline**, en klik of tik op **OK**.
-   
+
     In het besturingselement **[Label](control-text-box.md)** wordt het aantal dagen weergegeven tussen vandaag en de datum die u hebt gekozen.
 4. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
@@ -122,4 +127,3 @@ Als u een besturingselement **Datumkiezer** toevoegt in plaats van een besturing
 ### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
 * **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
 * De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
- 

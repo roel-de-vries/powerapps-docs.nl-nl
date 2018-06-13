@@ -12,11 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/17/2016
 ms.author: gregli
-ms.openlocfilehash: ae72dad8143c747714e8573ecc3cc5a9644044b4
-ms.sourcegitcommit: 8bd4c700969d0fd42950581e03fd5ccbb5273584
+ms.openlocfilehash: 8d54c632780ac827704535af5d24881685a0e518
+ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34583596"
 ---
 # <a name="controls-and-properties-in-powerapps"></a>Besturingselementen en eigenschappen in PowerApps
 Configureer de weergave en het gedrag van een besturingselement door een van de eigenschappen in te stellen. Elk type besturingselement heeft een andere reeks eigenschappen. Sommige eigenschappen, zoals **Height** en **Width**, gelden voor vrijwel elk type besturingselement; andere eigenschappen, zoals **CheckboxSize**, zijn specifiek voor een bepaald type besturingselement.
@@ -85,6 +86,8 @@ Configureer de weergave en het gedrag van een besturingselement door een van de 
 **[Keuzerondje](controls/control-radio.md)**: opties weergeven die elkaar onderling uitsluiten.
 
 **[Waardering](controls/control-rating.md)**: een waarde tussen 1 en een opgegeven getal aangeven.
+
+**[RTF-editor (experimenteel)](controls/control-richtexteditor.md)**: hiermee kunnen app-gebruikers tekst met opmaak creëren.
 
 **[Scherm](controls/control-screen.md)**: gegevens over een specifieke taak weergeven en bijwerken.
 

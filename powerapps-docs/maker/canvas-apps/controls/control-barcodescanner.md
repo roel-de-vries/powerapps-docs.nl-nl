@@ -1,25 +1,18 @@
 ---
 title: 'Besturingselement voor streepjescodescanner: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Streepjescodescanner
-services: ''
-suite: powerapps
-documentationcenter: na
 author: fikaradz
-manager: anneta
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: reference
+ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 98357cb2f6d829906dfcdd4ecaa4acc3afdef26d
-ms.sourcegitcommit: 4710a56d308efe67fe60a7688143e61f5e5f2b44
+ms.openlocfilehash: 22b5cf081755f25b3aff33c36137547882fe3812
+ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34803462"
 ---
 # <a name="barcode-scanner-control-experimental-in-powerapps"></a>Besturingselement Streepjescodescanner (experimenteel) in PowerApps
 Een experimenteel besturingselement waarmee de gebruiker foto’s kan maken met behulp van de streepjescodescanner op het apparaat.
@@ -92,5 +85,6 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 
 ### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
 * **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
-> [!NOTE]
+
+    > [!NOTE]
 > Schermlezers melden het wanneer een nieuwe streepjescode is gevonden. De waarde wordt niet gemeld. Zolang de streepjescode in beeld is, wordt u er om de vijf seconden door schermlezers aan herinnerd dat nog steeds dezelfde streepjescode wordt geïdentificeerd.
