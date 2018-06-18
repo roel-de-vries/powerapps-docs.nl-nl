@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 11/11/2017
 ms.author: ankitsar
-ms.openlocfilehash: 8ae6bd0e576abd3a4115e452b286607b5c695acb
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 69e3baaa769282ca8ac7372ba3360829a1624f3d
+ms.sourcegitcommit: 6bfb002180148a3f22a4d1d8d750fc442489ebe4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31834831"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35291738"
 ---
 # <a name="understand-sharepoint-forms-integration"></a>Integratie met SharePoint-formulieren begrijpen
 U kunt nu eenvoudig [een SharePoint-lijstformulier aanpassen](customize-list-form.md) in PowerApps. In dit artikel vindt u meer informatie over de werking van de formulieren en de manier waarop u deze verder kunt aanpassen.
@@ -76,7 +76,7 @@ Het besturingselement **SharePointIntegration** is verantwoordelijk voor de comm
 ![](./media/sharepoint-form-integration/sharepointintegration-object.png)
 
 >[!NOTE]
->De eigenschappen voor het besturingselement **SharePointIntegration** zijn alleen beschikbaar wanneer het formulier wordt uitgevoerd in SharePoint en zijn niet toegankelijk wanneer u het formulier aanpast in PowerApps studio.
+>De eigenschappen voor het besturingselement **SharePointIntegration** zijn alleen toegankelijk wanneer het formulier wordt uitgevoerd in SharePoint, niet wanneer u het formulier aanpast in PowerApps Studio. Deze eigenschappen zijn mogelijk niet beschikbaar in **OnStart** of **OnVisible**. 
 
 Het besturingselement **SharePointIntegration** bevat de volgende eigenschappen:
 
@@ -109,3 +109,5 @@ Nu u een beter inzicht hebt in het formulier dat standaard wordt gegenereerd en 
 * Zorg dat u voor alle formulieren **RequestHide()** opneemt in de formule **OnSuccess**. Als u dit vergeet, kan het formulier niet worden verborgen met SharePoint.
 
 * U kunt niet bepalen of een formulier wordt verborgen wanneer een gebruiker in SharePoint op **Annuleren** klikt of tikt, dus zorg ervoor dat u uw formulieren opnieuw instelt in de formule **OnCancel** van het besturingselement **SharePointIntegration**.
+
+* De eigenschappen voor het besturingselement **SharePointIntegration** zijn mogelijk niet beschikbaar in **OnStart** of **OnVisible**; deze gebeurtenissen voeren ook slechts één keer uit bij het laden van de lijst. U kunt de formules **OnNew**, **OnView** of **OnEdit** uitvoeren om logica uit te voeren voordat het formulier elke keer aan de gebruiker wordt weergegeven. 

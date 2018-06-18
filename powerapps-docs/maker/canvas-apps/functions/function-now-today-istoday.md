@@ -1,23 +1,18 @@
 ---
 title: Functies Now, Today en IsToday | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis en voorbeelden, voor de functies Now, Today en IsToday in PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
-ms.date: 11/07/2015
+ms.date: 06/09/2018
 ms.author: gregli
-ms.openlocfilehash: 410e9be47b4356a97292eb5de17c5dc10885fae3
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 690144a8d5aef2d7608f0e4104661620840b02ad
+ms.sourcegitcommit: 6bfb002180148a3f22a4d1d8d750fc442489ebe4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31829135"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35291692"
 ---
 # <a name="now-today-and-istoday-functions-in-powerapps"></a>De functies Now, Today en IsToday in PowerApps
 Retourneert de huidige datum en tijd en test of een datum/tijd-waarde vandaag is.
@@ -27,11 +22,22 @@ De functie **Now** retourneert de huidige datum en tijd als een datum/tijd-waard
 
 De functie **Today** retourneert de huidige datum als een datum/tijd-waarde. Het tijdgedeelte is middernacht. **Today** heeft dezelfde waarde gedurende de hele dag, van vandaag middernacht tot morgen middernacht.
 
-De functie **IsToday** test of een datum/tijd-waarde tussen vandaag middernacht en morgen middernacht ligt. Deze functie retourneert de Booleaanse waarde **true** of **false**.
+De functie **IsToday** test of een datum/tijd-waarde tussen vandaag middernacht en morgen middernacht ligt. Deze functie retourneert een Booleaanse waarde (**true** of **false**).
 
 Al deze functies werken met de lokale tijd van de huidige gebruiker.
 
 Zie [working with dates and times (werken met datums en tijden)](../show-text-dates-times.md) voor meer informatie.
+
+## <a name="volatile-functions"></a>Vluchtige functies
+**Now** en **Today** zijn vluchtige functies.  Telkens wanneer een van deze functies wordt geëvalueerd, wordt een andere waarde geretourneerd.  
+
+Wanneer een vluchtige functie in een gegevensstroomformule wordt gebruikt, retourneert deze alleen een andere waarde als de formule waarin deze wordt weergegeven, opnieuw wordt geëvalueerd.  Als er niets anders verandert in de formule, heeft deze dezelfde waarde gedurende de uitvoering van uw app.
+
+Bijvoorbeeld, een label-besturingselement met **Label1.Text = Now()** verandert bijvoorbeeld niet wanneer uw app actief is.  Alleen het sluiten en opnieuw openen van de app leidt tot een nieuwe waarde.
+
+De functie wordt opnieuw geëvalueerd als deze deel uitmaakt van een formule waarin iets anders is gewijzigd.  Als we ons voorbeeld bijvoorbeeld veranderen en een besturingselement van het type schuifregelaar gebruiken met **Label1.Text = DateAdd (Now(), Slider1.Value, Minutes)**, wordt de huidige tijd opgehaald telkens wanneer de waarde van het besturingselement van het type schuifregelaar wijzigt en de teksteigenschap van het label opnieuw wordt geëvalueerd.
+
+Wanneer vluchtige functies worden gebruikt in een [gedragsformule](../working-with-formulas-in-depth.md), worden ze geëvalueerd telkens als de gedragsformule wordt geëvalueerd.  Hieronder vindt u een voorbeeld.
 
 ## <a name="syntax"></a>Syntaxis
 **Now**()
@@ -56,3 +62,40 @@ Voor de voorbeelden in deze sectie is de huidige tijd **3:59 uur** op **12 febru
 | **IsToday( DateAdd( Now(), 12 ) )** |Test of de huidige datum en tijd, plus 12 dagen, tussen vandaag middernacht en morgen middernacht valt. |**false** |
 | **IsToday( DateAdd( Today(), 12 ) )** |Test of de huidige datum, plus 12 dagen, tussen vandaag middernacht en morgen middernacht valt. |**false** |
 
+#### <a name="display-a-clock-that-updates-in-real-time"></a>Een klok weergeven die in realtime wordt bijgewerkt
+
+1. Voeg een **[Timer](../controls/control-timer.md)**-besturingselement toe, stel de eigenschap **Duration** in op **1000** en stel de eigenschap **Repeat** in op **true**.
+
+    De timer wordt één seconde uitgevoerd, begint automatisch opnieuw en gaat door met dat patroon. 
+
+1. Stel de eigenschap **OnTimerEnd** in op deze formule:
+
+    **Set( CurrentTime, Now() )**
+
+    Telkens wanneer de timer opnieuw begint (na elke seconde) stelt deze formule de globale variabele **CurrentTime** in op de huidige waarde van de functie **Now**.
+
+    ![Een scherm met een besturingselement van het type timer met de formule OnTimerEnd = Set(CurrentTime, Now())](media/function-now-today-istoday/now-set-currenttime.png)
+
+1. Voeg een besturingselement van het type **[Label](../controls/control-text-box.md)** toe en stel de eigenschap **Text** in op deze formule:
+
+    **Text( CurrentTime, LongTime24 )**
+
+    Gebruik de functie **[Text](function-text.md)** om de datum en tijd te formatteren zoals u wilt, of stel deze eigenschap in op alleen **CurrentTime** om uren en minuten weer te geven maar geen seconden.
+
+    ![Een scherm met een besturingselement van het type label met de eigenschap Text ingesteld op Text(CurrentTime, LongTime24)](media/function-now-today-istoday/now-use-currenttime.png)
+
+1. Bekijk een voorbeeld van de app door op F5 te drukken en start de timer door erop te klikken of te tikken.
+
+    Het label geeft voortdurend de huidige tijd weer, tot op de seconde.
+
+    ![Vier schermen met vier tijdwaarden (13:50:22, 13:50:45, 13:51:03 en 13:51:25)](media/function-now-today-istoday/now-four-times.png)
+
+1. Stel de eigenschap **AutoStart** van de timer in op **true** en de eigenschap **Visible** op **false**.
+
+    De timer is onzichtbaar en start automatisch.
+
+1. Stel de eigenschap **[OnStart](../controls/control-screen.md)** van het scherm in zodat de variabele **CurrentTime** een geldige waarde heeft, zoals in dit voorbeeld:
+
+    **Set (CurrentTime, Now())**
+
+    Het label wordt weergegeven zodra de app start (voordat de timer één hele seconde uitvoert).
