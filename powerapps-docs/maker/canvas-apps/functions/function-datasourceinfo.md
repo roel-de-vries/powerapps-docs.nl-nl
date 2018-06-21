@@ -1,23 +1,18 @@
 ---
 title: De functie DataSourceInfo | Microsoft Docs
 description: Referentie-informatie, inclusief syntaxis en voorbeelden, voor de functie DataSourceInfo in PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 11/11/2015
 ms.author: gregli
-ms.openlocfilehash: 9747bef986587da7e7a66fe6fc165b4d15e80aed
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 5f156e5f7d0acb48090ac921aa92f31f3a6d20ea
+ms.sourcegitcommit: 222df368f1f35e9357b0b1adf0e69d7206d8126e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31835066"
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "36298464"
 ---
 # <a name="datasourceinfo-function-in-powerapps"></a>De functie DataSourceInfo in PowerApps
 Biedt informatie over een [gegevensbron](../working-with-data-sources.md).

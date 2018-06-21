@@ -7,12 +7,12 @@ ms.component: pa-user
 ms.topic: quickstart
 ms.date: 03/07/2018
 ms.author: matp
-ms.openlocfilehash: ba3b52bbbe12fad8773f09f4c753e4a55d09a6f0
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 4aed5f0d34bf88bca706c1c6421ac3b692308ebb
+ms.sourcegitcommit: 63351b1bda5a8dd00786912f95aba9fb3ebfe75c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34552709"
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "36261713"
 ---
 # <a name="quickstart-run-an-app-in-a-web-browser"></a>Snelstartgids: Een app in een webbrowser uitvoeren
 Wanneer u een app maakt, of iemand een app met u deelt, kunt u die app uitvoeren in Windows, iOS, Android of in een webbrowser. In deze snelstartgids leert u hoe u een canvas-app of modelgestuurde app uitvoert in een webbrowser vanuit de [Startpagina van Dynamics 365](https://home.dynamics.com).
@@ -20,7 +20,7 @@ Wanneer u een app maakt, of iemand een app met u deelt, kunt u die app uitvoeren
 Als u deze snelstartgids wilt volgen, moet u over een [Microsoft Office 365-abonnement](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1) beschikken met Dynamics 365, en toegang hebben tot een [ondersteunde browser en ondersteund besturingssysteem](../maker/canvas-apps/limits-and-config.md). Zorg er ook voor dat u toegang hebt tot een app die u hebt gemaakt of die iemand anders heeft gemaakt en met u heeft gedeeld.
 
 ## <a name="sign-in-to-dynamics-365"></a>Aanmelden bij Dynamics 365
-Meld u aan bij Dynamics 365 op [https://home.dynamics.com]([https://home.dynamics.com).
+Meld u aan bij Dynamics 365 op [https://home.dynamics.com](https://home.dynamics.com).
 
 ## <a name="find-an-app-on-the-home-page"></a>Een app op de startpagina zoeken
 Op de startpagina worden mogelijk verschillende typen zakelijke apps weergegeven, maar u kunt een specifieke app vinden door een gedeelte van de naam in het zoekvak te typen. U kunt ook de lijst filteren, zodat alleen de apps worden weergegeven die zijn gemaakt door een specifieke bron, zoals PowerApps. Hiervoor klikt of tikt u op **Filteren** en selecteert u vervolgens de bron.
