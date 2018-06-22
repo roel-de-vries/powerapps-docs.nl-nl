@@ -11,6 +11,7 @@ ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/03/2018
+ms.locfileid: "32329911"
 ---
 # <a name="accessible-colors-in-powerapps"></a>Toegankelijke kleuren in PowerApps
 Kleuren die worden gebruikt in een app moeten toegankelijk zijn voor gebruikers die kleurenblind zijn of een beperkt gezichtsvermogen hebben. Alle PowerApps-thema's zijn standaard toegankelijk. Volg wanneer u kleuren wijzigt die in een app worden gebruikt deze richtlijnen om ervoor te zorgen dat ze toegankelijk blijven.

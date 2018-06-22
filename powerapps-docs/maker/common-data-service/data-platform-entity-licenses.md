@@ -13,6 +13,7 @@ ms.sourcegitcommit: b3b6118790d6b7b4285dbcb5736e55f6e450125c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/15/2018
+ms.locfileid: "34167099"
 ---
 # <a name="license-requirements-for-entities"></a>Licentie-vereisten voor entiteiten
 App-makers kunnen gebruikmaken van de meeste entiteiten die beschikbaar zijn binnen Common Data Service (CDS) voor apps (inclusief aangepaste entiteiten en entiteiten die deel uitmaken van Common Data Service) om apps en stromen te maken voor gebruikers die alleen beschikken over een licentie voor PowerApps-abonnement 1 of Microsoft Flow-abonnement 1. In sommige gevallen bevatten entiteiten complexe bedrijfslogica of zijn ze gekoppeld aan Dynamics 365-producten waarvoor app-gebruikers een specifieke licentie nodig hebben. Meer informatie over beschikbare abonnementen vindt u op de [PowerApps-pagina met prijzen](https://powerapps.microsoft.com/pricing).

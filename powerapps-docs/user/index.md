@@ -12,6 +12,7 @@ ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/26/2018
+ms.locfileid: "34552663"
 ---
 # <a name="how-do-i-find-and-run-apps"></a>Apps zoeken en uitvoeren
 Makers van apps kunnen aangepaste *canvas*-apps op basis van taken en rollen maken die werken op de manier zoals u werkt, of u nu een mobiele werknemer in het veld of een arts in een druk ziekenhuis bent. Makers van canvas-apps kunnen vrijwel elk aspect van een canvas-app aanpassen en verbinding maken met meerdere gegevensbronnen om gebruikers te helpen bepaalde taken uit te voeren.

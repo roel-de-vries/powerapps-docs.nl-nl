@@ -38,6 +38,8 @@
       href: admin-manage-apps.md
     - name: Een app verplaatsen tussen tenants of omgevingen
       href: environment-and-tenant-migration.md
+    - name: Resources exporteren en importeren
+      href: export-import-packages.md
     - name: Reageren op DSR-aanvragen
       items:
         - name: Door het systeem gegenereerde logboeken

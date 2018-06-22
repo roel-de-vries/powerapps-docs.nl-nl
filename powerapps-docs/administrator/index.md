@@ -12,6 +12,7 @@ ms.sourcegitcommit: 3f5adf07cac1c798f3d4843ed5928505becde30e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 05/26/2018
+ms.locfileid: "34552410"
 ---
 # <a name="whats-the-role-of-a-powerapps-administrator"></a>Wat is de rol van een PowerApps-beheerder?
 PowerApps, Microsoft Flow en Common Data Service (CDS) voor apps worden beheerd via het [PowerApps-beheercentrum](https://admin.powerapps.com).
