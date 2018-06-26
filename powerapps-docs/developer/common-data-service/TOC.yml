@@ -1,6 +1,6 @@
 - name: Overzicht
   href: overview.md
-- name: Kennismaking met oplossingen
+- name: Inleiding tot oplossingen
   href: introduction-solutions.md
 - name: Common Data Service for Apps-gegevensentiteiten
   href: entities.md
