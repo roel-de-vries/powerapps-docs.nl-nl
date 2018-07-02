@@ -596,7 +596,7 @@
           href: ./canvas-apps/connections-list.md
         - name: 'Systeemvereisten, limieten en configuratie'
           href: ./canvas-apps/limits-and-config.md
-        - name: Een sessie-id ophalen
+        - name: Een sessie- of app-id ophalen
           href: ./canvas-apps/get-sessionid.md
 - name: Modelgestuurde apps
   href: ./model-driven-apps/model-driven-app-overview.md

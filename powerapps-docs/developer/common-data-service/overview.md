@@ -1,6 +1,6 @@
 ---
 title: Overzicht van Common Data Service for Apps voor ontwikkelaars | Microsoft Docs
-description: Informatie over hoe ontwikkelaars met Common Data Service for Apps voor toegevoegde waarde kunnen zorgen.
+description: Lees meer informatie over hoe ontwikkelaars met Common Data Service for Apps voor toegevoegde waarde kunnen zorgen.
 services: ''
 suite: powerapps
 documentationcenter: na
@@ -15,29 +15,30 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: jdaly
-ms.openlocfilehash: 5ed61c77cc0cea3cf25e48b347f8a524cf62dfd5
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: c07a6505c0a08eca706c08cc2e4d607cd5322dfe
+ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36949232"
 ---
 # <a name="common-data-service-for-apps-developer-overview"></a>Overzicht van Common Data Service for Apps voor ontwikkelaars
-PowerApps biedt gebruikers, bedrijven, partners, onafhankelijke softwareleveranciers (ISV's) en systeemintegrators (SI's) een krachtig platform voor het bouwen van Line-Of-Business-apps. Nieuw in deze release van PowerApps is de nieuwe service Common Data Service for Apps. Common Data Service for Apps bevat nu de kernfunctionaliteit van het Dynamics 365 Customer Engagement-platform.
+PowerApps biedt gebruikers, bedrijven, onafhankelijke softwareleveranciers (ISV's) en systeemintegrators (SI's) een krachtig platform voor het bouwen van Line-Of-Business-apps. De nieuwe toevoeging aan PowerApps in deze release is de uitbreiding van Common Data Service, nu Common Data Service for Apps genoemd. Deze service bevat nu de kernfunctionaliteit van het Dynamics 365-platform voor Dynamics 365 for Sales, Marketing en Customer Service.
 
 
 ## <a name="get-started"></a>Aan de slag
-Als u al ervaring hebt met de Dynamics 365 Customer Engagement-apps, zult u merken dat uw ervaring goed van pas komt bij het aanpassen en uitbreiden van Common Data Service for Apps.
+Als u al ervaring hebt met de Dynamics 365 for Sales-, Marketing- of Customer Service-apps, zult u merken dat uw ervaring goed van pas komt bij het aanpassen en uitbreiden van Common Data Service for Apps.
 
-Als u nog geen ervaring hebt met de Dynamics 365 Customer Engagement-toepassingen, bieden de volgende onderwerpen een overzicht op hoog niveau van de belangrijke concepten die u op weg helpen bij het werken met Common Data Service for Apps.
+Als u nog geen ervaring hebt met de Dynamics 365 for Sales-, Marketing- en Customer Service-apps, bieden de volgende onderwerpen een algemeen overzicht van de belangrijke concepten die u op weg helpen bij het werken met Common Data Service for Apps.
 
 > [!NOTE]
-> - Modelgestuurde apps zijn verbonden met Common Data Service for Apps. Zie [Overzicht van modelgestuurde apps voor ontwikkelaars](../model-driven-apps/overview.md) voor meer informatie over hoe ontwikkelaars voor toegevoegde waarde op toepassingsniveau kunnen zorgen. De inhoud in deze sectie verwijst alleen naar uitbreidingen die ontwikkelaars op het serviceniveau kunnen toepassen. 
-> - Omdat Common Data Service for Apps en Dynamics 365 Customer Engagement gebruikmaken van hetzelfde platform, vindt u in de [Ontwikkelaarshandleiding voor Dynamics 365 Customer Engagement](/dynamics365/customer-engagement/developer/developer-guide) meer informatie voor ontwikkelaars. In deze onderwerpen vindt u voor meer informatie een overzicht met koppelingen naar de ontwikkelaarshandleiding en andere handleidingen.
+> - Modelgestuurde apps kunnen worden gekoppeld aan Common Data Service for Apps. Zie [Overzicht van modelgestuurde apps voor ontwikkelaars](../model-driven-apps/overview.md) voor meer informatie over hoe ontwikkelaars voor toegevoegde waarde op toepassingsniveau kunnen zorgen. De inhoud in deze sectie verwijst alleen naar uitbreidingen die ontwikkelaars op het serviceniveau kunnen toepassen. 
+> - Omdat voor Common Data Service for Apps en de Dynamics 365 for Sales-, Marketing- en Customer Service-apps hetzelfde platform wordt gebruikt, vindt u in de [Ontwikkelaarshandleiding voor Dynamics 365 Customer Engagement](/dynamics365/customer-engagement/developer/developer-guide) meer informatie voor ontwikkelaars. In deze onderwerpen vindt u voor meer informatie een overzicht met koppelingen naar de ontwikkelaarshandleiding en andere handleidingen.
 
 
 ## <a name="tools-and-resources-for-developers"></a>Hulpprogramma's en resource voor ontwikkelaars
 
-Ontwikkelaars kunnen de volgende hulpprogramma's en resources gebruiken tijdens het werken met oplossingen met Common Data Service for Apps.
+Ontwikkelaars kunnen de volgende hulpprogramma's en resources gebruiken tijdens het werken met oplossingen via Common Data Service for Apps.
 
 ### <a name="tools-available-for-download-from-nuget"></a>Hulpprogramma's die kunnen worden gedownload via NuGet
 
@@ -134,7 +135,7 @@ Zie [Dynamics 365 Customer Engagement Developer Guide: Extend Dynamics 365 Custo
 
 
 
-### <a name="community-tools-for-common-data-service-for-apps"></a>Communityhulpprogramma's voor Common Data Service for Apps
+## <a name="community-tools-for-common-data-service-for-apps"></a>Communityhulpprogramma's voor Common Data Service for Apps
 
 De community van Dynamics 365 maakt hulpprogramma's. Veel van de populairste hulpprogramma's worden gedistribueerd via [XrmToolBox](https://www.xrmtoolbox.com/). XrmToolBox is een Windows-toepassing die met Common Data Service for Apps is verbonden en hulpprogramma's biedt voor taken op het gebied van aanpassingen, configuraties en bewerkingen. De toepassing wordt geleverd met meer dan 30 invoegtoepassingen waarmee beheer-, aanpassings- of configuratietaken eenvoudiger worden en minder tijd in beslag nemen.
 

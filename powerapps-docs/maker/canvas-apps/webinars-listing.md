@@ -7,54 +7,17 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 4/18/2018
 ms.author: audrie
-ms.openlocfilehash: a5cfa772ce4f7e9f5679164b9309baa31bfc6a96
-ms.sourcegitcommit: 7354a0c61578fcc0b9965bf557b9d7c553c73e96
+ms.openlocfilehash: c0711ed071c1635373a66f5b61259f56d468cc9a
+ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34803369"
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "36311656"
 ---
 # <a name="powerapps-webinar-listing"></a>Overzicht van PowerApps-webinars #
-In deze webinars ziet u hoe u kunt gebruikmaken van de functies en voorzieningen van Microsoft PowerApps. U kunt aanvullende onderwerpen voorstellen in de opmerkingen onder dit onderwerp.
+In deze webinars ziet u hoe u kunt gebruikmaken van de functies en voorzieningen van Microsoft PowerApps. Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor in sommige gevallen uw registratiegegevens opnieuw opgeven, waarna u per mail een koppeling naar de opname ontvangt. 
 
-## <a name="upcoming-webinars"></a>Komende webinars ##
-
-**Connector-reeks | Microsoft StaffHub (Shift Planning)-apps met PowerApps**
-<br>door Marc-André Lépine
-<br>*5 juni, 10:00 uur PST, 13:00 uur EST*
-<br>
-Marc-André Lépine uit de groep PowerApps en Flow Azure Advisors vertelt in deze sessie over hoe hij een geweldige app heeft gebouwd ter aanvulling op, en uitbreiding van, de mogelijkheden van de StaffHub Connector. Later deze week laat hij zien hoe hij de Connector heeft uitgebreid met behulp van een aangepaste API.  
-
-[Klik hier om te kijken op 5 juni](https://www.youtube.com/watch?v=LAximnEnKy8)
-
-**Beheer van PowerApps | Veelgestelde vragen**
-<br>door Manas Maheshwari
-<br>*12 juni, 9:30 uur PST, 12:30 uur EST*
-
-Manas Maheshwari, Senior Program Manager bij het team van PowerApps, deelt enkele best practices voor beheer en beantwoordt live uw vragen over PowerApps-beheer, omgevingen en databases. Deze sessie zit boordevol met alles wat u moet weten om PowerApps-omgevingen te beheren. We zien u graag om uw meest urgente beheerdersvragen te beantwoorden.
-
-[Klik hier om te kijken op 12 juni](https://www.youtube.com/watch?v=9Sy_vT5kIts)
-
-**Een kijkje in de universele audit-app: ontdek de mogelijkheden van PowerApps en Flow, door Paul Culmsee**
-<br>door Paul Culmsee
-<br>*14 juni, 6:00 PST, 9:00 EST*
-
-Voor deze populaire app in PowerApps worden wekelijks 3-5 aanvragen gedaan. Als gevolg hiervan is de app wereldwijd geïmplementeerd. In deze sessie ziet u hoe de app is ontworpen, op welke manier gebruik is gemaakt van de mogelijkheden van PowerApps en Flow en welke aanpassingen zijn gedaan voor clients. Een uitstekende sessie voor gebruikers die aan de slag willen gaan met deze app. De video toont de volledige oplossing die wereldwijd wordt gebruikt. 
-
-[Klik hier om te kijken op 14 juni](https://www.youtube.com/watch?v=6Wn47bDOMEE)
-
-**Aan de slag | Leertrajecten voor PowerApps - Snel goede apps bouwen!**
-<br>door Audrie Gordon
-<br>*26 juni, 18:00 PST, 21:00 EST*
-
-Audrie Gordon van het PowerApps-team deelt aanbevolen procedures en strategieën om snel aan de slag te gaan met het leren en in gebruik nemen van PowerApps in uw organisatie. Mis deze speciale discussie buiten kantooruren, live op YouTube, niet. 
-
-[Klik hier om te kijken op 26 juni](https://www.youtube.com/watch?v=ykNRxKvAirg)
-
-## <a name="past-webinars"></a>Eerdere webinars ##
-Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor in sommige gevallen uw registratiegegevens opnieuw opgeven, waarna u per mail een koppeling naar de opname ontvangt. 
-
-### <a name="beginner-webinar-series"></a>Webinarserie voor beginners ###
+## <a name="beginner-webinar-series"></a>Webinarserie voor beginners ##
 **5 tips om apps te ontwerpen die goed zijn voor de omzet**
 <br>door Audrie Gordon [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Top-5-tips-for-designing-and-building-PowerApps-that-mean/m-p/116843)
 
@@ -82,7 +45,7 @@ Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor in so
 **Nieuwe Office Graph-sjablonen (deel 2)**
 <br>door Emma Cooper [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Getting-Started-New-Office-Graph-Templates-Part-2-by-Emma-Cooper/m-p/116840)
 
-### <a name="intermediate-webinar-series"></a>Webinarserie voor gemiddeld niveau ###
+## <a name="intermediate-webinar-series"></a>Webinarserie voor gemiddeld niveau ##
 **De levenscyclus van apps en de nieuwe opties voor opslaan en publiceren in PowerApps**
 <br>door Karthik Bharathy [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Application-LIfecycle-with-the-new-Save-and-publish-options-in/m-p/116860)
 
@@ -95,7 +58,16 @@ Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor in so
 **Laura Rogers van IWMentor deelt best practices voor productieapps**
 <br>door Laura Rodgers [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Laura-Rogers-from-IWMentor-Shares-Best-Practices-for-Production/m-p/116871)
 
-### <a name="advanced-webinar-series"></a>Webinarserie voor gevorderden ###
+**Connector-reeks | Microsoft StaffHub (Shift Planning)-apps met PowerApps**
+<br>door Marc-André Lépine [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Connector-Series-Shift-Scheduling-Apps-with-PowerApps-StaffHub/m-p/122036)
+
+**Beheer van PowerApps | Veelgestelde vragen**
+<br>door Manas Maheshwari [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/PowerApps-Administration-FAQ/m-p/127369#M44)
+
+**Een kijkje in de universele audit-app: ontdek de mogelijkheden van PowerApps en Flow, door Paul Culmsee**
+<br>door Paul Culmsee [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Inside-the-Universal-Audit-App-See-what-PowerApps-and-Flow-are/m-p/127370#M45)
+
+## <a name="advanced-webinar-series"></a>Webinarserie voor gevorderden ##
 **PowerApps-formules**
 <br>door Greg Lindhorst [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Deep-dive-on-formulas-by-Greg-Lindhorst/m-p/116899)
 
@@ -133,7 +105,7 @@ Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor in so
 **Werken met Connectors: Project Online (PWA)**
 <br>door Audrie Gordon [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Connecting-to-Project-Online-PWA/m-p/116889)
 
-### <a name="sharepoint-series"></a>Serie voor SharePoint ###
+## <a name="sharepoint-series"></a>Serie voor SharePoint ##
 **Snel apps ontwikkelen met PowerApps Studio**
 <br>door Karthik Bharathy [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Rapidly-build-applications-with-PowerApps-Studio/m-p/116849)
 
@@ -149,7 +121,7 @@ Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor in so
 **Introductie van lijstformulieren in SharePoint Online**
 <br>door Ankit Saraf [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Introducing-List-Forms-in-SharePoint-Online/m-p/116916)
 
-### <a name="model-driven-series"></a>Serie voor modelgestuurde apps ###
+## <a name="model-driven-series"></a>Serie voor modelgestuurde apps ##
 **Onderdelen van modelgestuurde apps | Inleiding tot Modelgestuurde apps**
 <br>door Charles Sterling en Adrian Orth [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Model-Driven-App-Series-Introduction-to-Model-Driven-Apps/m-p/116820)
 
@@ -165,7 +137,7 @@ Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor in so
 **Deel 3 uit de serie Modelgestuurde apps | Grafieken en dashboards verkennen**
 <br>door Audrie Gordon en Casey Burke [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Model-Driven-App-Components-Part-3-Exploring-Charts-and/m-p/119732)
 
-### <a name="app-designer-series"></a>Serie voor app-ontwerpers ###
+## <a name="app-designer-series"></a>Serie voor app-ontwerpers ##
 **Apps bouwen voor ingebruikname en bruikbaarheid**
 <br>door Veronica Ward [Nu bekijken](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Building-Apps-for-Adoption-and-Usability-with-Veronica-Ward/m-p/117625#M38)
 

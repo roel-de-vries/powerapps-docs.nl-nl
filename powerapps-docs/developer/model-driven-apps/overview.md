@@ -15,11 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/17/2018
 ms.author: jdaly
-ms.openlocfilehash: 4e8a935dbef2c46478f99ecbf82a7fc837feb284
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+ms.openlocfilehash: 1799f275ea777f031e260409f62fcab0667bae59
+ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36949231"
 ---
 # <a name="model-driven-apps-developer-overview"></a>Overzicht van modelgestuurde apps voor ontwikkelaars
 
@@ -31,13 +32,13 @@ Modelgestuurde apps bieden een methode voor het ontwikkelen van apps waarbij geb
 Als u al ervaring hebt met de Dynamics 365 Customer Engagement-apps, zult u merken dat uw ervaring goed van pas komt bij het bouwen van modelgestuurde apps. Er zijn enkele nieuwe ontwerpfuncties beschikbaar, maar de concepten zijn over het algemeen hetzelfde.
 
 > [!NOTE]
-> Modelgestuurde apps zijn verbonden met Common Data Service for Apps. Zie [Overzicht van Common Data Service for Apps voor ontwikkelaars](../common-data-service/overview.md) voor meer informatie over hoe ontwikkelaars voor toegevoegde waarde op serviceniveau kunnen zorgen.
+> Modelgestuurde apps kunnen worden gekoppeld aan Common Data Service for Apps. Zie [Overzicht van Common Data Service for Apps voor ontwikkelaars](../common-data-service/overview.md) voor meer informatie over hoe ontwikkelaars voor toegevoegde waarde op serviceniveau kunnen zorgen.
 > De inhoud in deze sectie is alleen van toepassing op de uitbreidingen die ontwikkelaars kunnen toevoegen en die van invloed zijn op de ervaring voor gebruikers van modelgestuurde apps. 
 
 Als u nog geen ervaring hebt met de Dynamics 365 Customer Engagement-toepassingen, bieden de onderwerpen in deze sectie een overzicht op hoog niveau van de belangrijke concepten die ontwikkelaars op weg helpen bij het werken met modelgestuurde apps. 
 
 > [!NOTE]
-> Omdat Common Data Service for Apps en Dynamics 365 Customer Engagement gebruikmaken van hetzelfde platform, vindt u in de [Ontwikkelaarshandleiding voor Dynamics 365 Customer Engagement](/dynamics365/customer-engagement/developer/developer-guide) meer informatie voor ontwikkelaars. In deze onderwerpen vindt u voor meer informatie een overzicht met koppelingen naar de ontwikkelaarshandleiding en andere handleidingen.
+> Omdat voor Common Data Service for Apps en Dynamics 365 Customer Engagement gebruik wordt gemaakt van hetzelfde platform, vindt u in de [Ontwikkelaarshandleiding voor Dynamics 365 Customer Engagement](/dynamics365/customer-engagement/developer/developer-guide) meer informatie voor ontwikkelaars. In deze onderwerpen vindt u voor meer informatie een overzicht met koppelingen naar de ontwikkelaarshandleiding en andere handleidingen.
 
 
 ## <a name="community-tools-for-model-driven-apps"></a>Communityhulpprogramma's voor modelgestuurde apps

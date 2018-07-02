@@ -7,12 +7,12 @@ ms.topic: overview
 ms.component: canvas
 ms.date: 04/26/2018
 ms.author: anneta
-ms.openlocfilehash: d520f47393c5462f36445e4c8df81617dfddafd2
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 606f5aa15d057387542471f82fd071f4044cfd1e
+ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32329819"
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "36311587"
 ---
 # <a name="what-are-canvas-apps-in-powerapps"></a>Wat zijn de canvas-apps in PowerApps?
 Ontwerp en bouw een zakelijke app via een canvas in Microsoft PowerApps, zonder code te schrijven in een traditionele programmeertaal zoals C#. U ontwerpt de app door elementen naar een canvas te slepen, net zoals u een dia ontwerpt in PowerPoint. Maak Excel-achtige expressies voor het opgeven van logica en het werken met gegevens. Bouw apps die zakelijke gegevens uit [een grote verscheidenheid aan bronnen binnen Microsoft en van derden](connections-list.md) integreren. Deel uw app zodat gebruikers deze kunnen uitvoeren in een browser of op een mobiel apparaat en de app kunnen insluiten zodat deze kan worden uitgevoerd in SharePoint, Power BI of Teams.
@@ -43,7 +43,7 @@ U kunt uw eigen apps en alle apps die met u worden gedeeld, uitvoeren in Windows
 ## <a name="learn-more"></a>Meer informatie
 * Verken de stapsgewijze, conceptuele en verwijzende onderwerpen in het navigatievenster aan de linkerkant.
 * Werk in eigen tempo aan de [begeleide trainingen](https://docs.microsoft.com/powerapps/guided-learning/).
-* Bekijk de [aankomende webinars](webinars-listing.md#upcoming-webinars); deze zijn handig om de onderdelen en functies van PowerApps te leren kennen. U kunt ook op elk gewenst [afgelopen webinars](webinars-listing.md#past-webinars) terugkijken.
+* Kijk welke [webinars](webinars-listing.md) u on-demand kunt volgen om optimaal te werken met de functies en voorzieningen van PowerApps.
 
 ## <a name="share-your-experience"></a>Uw ervaring delen
 * U kunt berichten lezen en plaatsen in de [PowerApps-community](https://aka.ms/powerapps-community), waar iedereen die PowerApps gebruikt vragen kan stellen die anderen kunnen beantwoorden. Voordat u een vraag plaatst, zoekt u in de community om te zien of uw vraag al is beantwoord.
