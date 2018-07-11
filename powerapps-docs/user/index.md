@@ -5,14 +5,18 @@ author: Mattp123
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: overview
-ms.date: 03/21/2018
+ms.date: 07/09/2018
 ms.author: matp
-ms.openlocfilehash: 6c5a207ec2eb41d2cf19250bd5f319ed692a43e6
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+manager: kvivek
+ms.custom: ''
+ms.reviewer: ''
+ms.assetid: ''
+ms.openlocfilehash: 83670a844c62a6daea489d5484641e9c457653f8
+ms.sourcegitcommit: bcfefb30b12cf94815dd9a0fd8cad29a8272d96e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552663"
+ms.lasthandoff: 07/09/2018
+ms.locfileid: "37925657"
 ---
 # <a name="how-do-i-find-and-run-apps"></a>Apps zoeken en uitvoeren
 Makers van apps kunnen aangepaste *canvas*-apps op basis van taken en rollen maken die werken op de manier zoals u werkt, of u nu een mobiele werknemer in het veld of een arts in een druk ziekenhuis bent. Makers van canvas-apps kunnen vrijwel elk aspect van een canvas-app aanpassen en verbinding maken met meerdere gegevensbronnen om gebruikers te helpen bepaalde taken uit te voeren.
