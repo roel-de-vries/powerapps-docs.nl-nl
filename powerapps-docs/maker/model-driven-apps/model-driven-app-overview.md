@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 76571a53c95661d853b7fb326e3c1087a6f432c4
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: eceaf1886bf77b85d6d6b3faae3f32428223cb7e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330923"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899497"
 ---
 # <a name="overview-of-building-a-model-driven-app"></a>Overzicht van het bouwen van een modelgestuurde app
 
@@ -30,7 +30,7 @@ Het ontwerp van modelgestuurde apps biedt de volgende voordelen:
 - Complexe responsieve apps maken met een vergelijkbare UI in een groot aantal apparaten, van pc tot mobiele apparatuur
 - Ontwerpfunctionaliteit is vergelijkbaar met wat beschikbaar is in het Dynamics 365 Customer Engagement-platform 
 - Uw app kan als oplossing worden gedistribueerd
- 
+
 ## <a name="the-approach-to-model-driven-app-making"></a>De aanpak voor het maken van modelgestuurde apps
 Op een fundamenteel niveau bestaat het maken van modelgestuurde apps uit drie belangrijke focusgebieden.
 
@@ -54,6 +54,7 @@ Een goed ontworpen modelgestuurde app bestaat uit verschillende componenten die 
 
 ### <a name="data"></a>Gegevens
 Deze componenten bepalen op welke gegevens de app wordt gebaseerd.
+
 
 
 |Component  |Beschrijving  |Ontwerper  |

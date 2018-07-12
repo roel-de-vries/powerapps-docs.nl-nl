@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: bd07c6ee0a0084171c928c6908c33caae974d765
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 91f1db2f4acd503efce8407dd2c3c60fee6e183e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31835135"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899129"
 ---
 # <a name="image-control-in-powerapps"></a>Besturingselement voor afbeeldingen in PowerApps
 Een besturingselement waarin een afbeelding wordt weergeven, bijvoorbeeld uit een lokaal bestand of een gegevensbron.
@@ -145,14 +145,14 @@ Als u een of meer besturingselementen **Afbeelding** toevoegt aan een app, kunt 
 * **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn als de afbeelding wordt gebruikt als een knop of als de afbeelding niet alleen voor de sier is.
 * **[AccessibleLabel](properties-accessibility.md)** moet leeg zijn of de lege tekenreeks **""** bevatten als de afbeelding alleen voor de sier is. Hierdoor wordt de afbeelding genegeerd door de schermlezer.
 * **[AccessibleLabel](properties-accessibility.md)** kan leeg zijn of de lege tekenreeks **""** bevatten als de afbeelding redundante informatie bevat.
-    * Bijvoorbeeld: een **Afbeelding** van tandwielen waarvoor **[AccessibleLabel](properties-accessibility.md)** is ingesteld op **Instellingen**. Deze afbeelding wordt niet gebruikt als een knop. Het staat naast een **[label](control-text-box.md)** dat ook **Instellingen** heet. De afbeelding wordt door schermlezers gelezen als **Instellingen** en het label ook als **Instellingen**. Dit is onnodig. In dit geval heeft de **Afbeelding** geen **[AccessibleLabel](properties-accessibility.md)** nodig.
+  * Bijvoorbeeld: een **Afbeelding** van tandwielen waarvoor **[AccessibleLabel](properties-accessibility.md)** is ingesteld op **Instellingen**. Deze afbeelding wordt niet gebruikt als een knop. Het staat naast een **[label](control-text-box.md)** dat ook **Instellingen** heet. De afbeelding wordt door schermlezers gelezen als **Instellingen** en het label ook als **Instellingen**. Dit is onnodig. In dit geval heeft de **Afbeelding** geen **[AccessibleLabel](properties-accessibility.md)** nodig.
 
     > [!IMPORTANT]
-> Schermlezers lezen altijd **Afbeelding**en die een **[TabIndex](properties-accessibility.md)** van nul of hoger hebben, zelfs als **[AccessibleLabel](properties-accessibility.md)** leeg is. Dit komt omdat deze als knoppen worden weergegeven. Als er geen **[AccessibleLabel](properties-accessibility.md)** is opgegeven, lezen schermlezers de afbeelding als een **knop**.
+    > Schermlezers lezen altijd **Afbeelding**en die een **[TabIndex](properties-accessibility.md)** van nul of hoger hebben, zelfs als **[AccessibleLabel](properties-accessibility.md)** leeg is. Dit komt omdat deze als knoppen worden weergegeven. Als er geen **[AccessibleLabel](properties-accessibility.md)** is opgegeven, lezen schermlezers de afbeelding als een **knop**.
 
 ### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
 * **[TabIndex](properties-accessibility.md)** moet nul of groter zijn als de afbeelding wordt gebruikt als een knop. Hierdoor kunnen toetsenbordgebruikers naar de afbeelding navigeren.
 * Focusindicatoren moet duidelijk zichtbaar zijn als de afbeelding wordt gebruikt als een knop. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
 
     > [!NOTE]
-> Wanneer **[TabIndex](properties-accessibility.md)** nul of groter is, wordt de **Afbeelding** weergegeven als een knop. Het uiterlijk van de afbeelding verandert niet, maar de afbeelding wordt door schermlezers juist geïdentificeerd als een knop. Wanneer **[TabIndex](properties-accessibility.md)** kleiner is dan nul, wordt de **Afbeelding** geïdentificeerd als een afbeelding.
+  > Wanneer **[TabIndex](properties-accessibility.md)** nul of groter is, wordt de **Afbeelding** weergegeven als een knop. Het uiterlijk van de afbeelding verandert niet, maar de afbeelding wordt door schermlezers juist geïdentificeerd als een knop. Wanneer **[TabIndex](properties-accessibility.md)** kleiner is dan nul, wordt de **Afbeelding** geïdentificeerd als een afbeelding.

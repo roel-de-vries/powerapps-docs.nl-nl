@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/01/2015
 ms.author: gregli
-ms.openlocfilehash: 2b3d91a6da0e17ded435aec74a88ea1bbdd4fac1
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: d1c0a8bdcab3f8a3ba74414ab902092432a34fff
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827730"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899198"
 ---
 # <a name="validate-function-in-powerapps"></a>De functie Validate in PowerApps
 De functie **Validate** controleert of de waarde van één [kolom](../working-with-tables.md#columns) of een volledige [record](../working-with-tables.md#records) geldig is voor een [gegevensbron](../working-with-data-sources.md).  
@@ -55,12 +55,14 @@ Als **Validate** een probleem vindt, retourneert de functie een foutbericht dat 
 Voor deze voorbeelden moeten de waarden in de kolom **Percentage** van de gegevensbron **Scores** een getal tussen 0 en 100 inclusief zijn. De functie retourneert *leeg* als de gegevens slagen voor de validatie. Anders retourneert de functie een foutbericht.
 
 ### <a name="validate-with-a-single-column"></a>Valideren met één kolom
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **Validate( Scores, Percentage, 10 )** |Controleert of **10** een geldige waarde is voor de kolom **Percentage** in de gegevensbron **Scores**. |*leeg* |
 | **Validate( Scores, Percentage, 120 )** |Controleert of **120** een geldige waarde is voor de kolom **Percentage** in de gegevensbron **Scores**. |"Waarden moeten tussen 0 en 100 liggen." |
 
 ### <a name="validate-with-a-complete-record"></a>Valideren met een volledige record
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **Validate( Scores, EditRecord, Gallery.Updates )** |Controleert of **10** een geldige waarde is voor de kolom **Percentage** in de gegevensbron **Scores**. |*leeg* |
