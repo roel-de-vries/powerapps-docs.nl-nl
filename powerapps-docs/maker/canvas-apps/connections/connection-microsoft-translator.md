@@ -2,17 +2,19 @@
 title: Overzicht van de verbinding met Microsoft Translator | Microsoft Docs
 description: Lees hoe u verbinding maakt met Microsoft Translator, doorloop enkele voorbeelden en bekijk alle functies
 author: lancedMicrosoft
+manager: kvivek
 ms.service: powerapps
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
 ms.date: 07/12/2017
 ms.author: lanced
-ms.openlocfilehash: 7c5d4f71c44c4bf247874fbbe901731b269feabd
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.reviewer: anneta
+ms.openlocfilehash: 139f6759b95d65477de63f2c2f8abb489dfa7c74
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898515"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017980"
 ---
 # <a name="connect-to-microsoft-translator-from-powerapps"></a>Verbinding maken met Microsoft Translator vanuit PowerApps
 ![Microsoft Translator](./media/connection-microsoft-translator/translatoricon.png)

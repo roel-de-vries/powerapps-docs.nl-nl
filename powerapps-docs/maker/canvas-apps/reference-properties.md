@@ -1,23 +1,20 @@
 ---
 title: Een eigenschap zoeken | Microsoft Docs
 description: Zoek een eigenschap per besturingselement, per categorie of alfabetisch.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
-ms.component: canvas
+ms.topic: reference
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 03/17/2016
 ms.author: gregli
-ms.openlocfilehash: 8d54c632780ac827704535af5d24881685a0e518
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: d1cda8d13faa0c20786f8f7f466951b2fe5eb95e
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34583596"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018095"
 ---
 # <a name="controls-and-properties-in-powerapps"></a>Besturingselementen en eigenschappen in PowerApps
 Configureer de weergave en het gedrag van een besturingselement door een van de eigenschappen in te stellen. Elk type besturingselement heeft een andere reeks eigenschappen. Sommige eigenschappen, zoals **Height** en **Width**, gelden voor vrijwel elk type besturingselement; andere eigenschappen, zoals **CheckboxSize**, zijn specifiek voor een bepaald type besturingselement.

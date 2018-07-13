@@ -2,17 +2,19 @@
 title: Overzicht van de Dynamics 365-verbinding | Microsoft Docs
 description: Een app maken voor het beheer van gegevens in Dynamics 365
 author: Mattp123
+manager: kvivek
 ms.service: powerapps
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
 ms.date: 07/12/2017
 ms.author: matp
-ms.openlocfilehash: 425620f3e20af7945c0e1506cab23a90c5209973
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.reviewer: ''
+ms.openlocfilehash: e29688f52da411d57daa920437d1f0708c9f663e
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803047"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017014"
 ---
 # <a name="connect-to-dynamics-365-from-powerapps"></a>Verbinding maken met Dynamics 365 vanuit PowerApps
 Met PowerApps kunt u snel mobiele apps genereren, aanpassen, delen en uitvoeren, waarbij u slechts weinig of geen code hoeft te gebruiken. Met de Dynamics 365-connector maakt u in slechts enkele minuten handige mobiele apps om te delen met uw hele organisatie.

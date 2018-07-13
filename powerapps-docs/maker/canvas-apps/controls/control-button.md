@@ -2,17 +2,19 @@
 title: 'Besturingselement voor knop: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Knop
 author: fikaradz
+manager: kvivek
 ms.service: powerapps
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 5e292b9cab399e4433c5b209fe22f17dd955ea9f
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.reviewer: anneta
+ms.openlocfilehash: 6e27f4b76c1642b8f0fe291e74a2bcc6f68d8035
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898464"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017106"
 ---
 # <a name="button-control-in-powerapps"></a>Besturingselement voor knop in PowerApps
 Een besturingselement waarop de gebruiker kan klikken of tikken om interactie te hebben met de app.

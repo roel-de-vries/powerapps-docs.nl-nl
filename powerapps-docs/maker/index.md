@@ -1,23 +1,20 @@
 ---
 title: Overzicht van het maken van apps | Microsoft Docs
 description: Overzicht van het maken van apps in ofwel canvas- of modelgestuurde modus en Common Data Service opnemen
-documentationcenter: na
 author: AFTOwen
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: d9d0a56e0de283c43bb51a9375593950e1c98479
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.reviewer: ''
+ms.openlocfilehash: bed3109a067da091ca6fc242f1f63c8ff11724ab
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "31829671"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39015841"
 ---
 # <a name="overview-of-creating-apps-in-powerapps"></a>Overzicht van het maken van apps in PowerApps
 PowerApps is een zeer productief ontwikkelingsplatform voor zakelijke apps en bestaat uit drie primaire onderdelen:
