@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/21/2015
 ms.author: gregli
-ms.openlocfilehash: d0b2ff351f7026967359f1b4d386a71d7ed5441f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 02664d3715b2e5b43a56a041e9de8b294559a862
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838712"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899152"
 ---
 # <a name="patch-function-in-powerapps"></a>De functie Patch in PowerApps
 Wijzigt of maakt een of meer [records](../working-with-tables.md#records) in een [gegevensbron](../working-with-data-sources.md) of voegt records buiten een gegevensbron samen.
@@ -102,6 +102,7 @@ Nadat de vorige formules zijn geëvalueerd, eindigt de gegevensbron op deze waar
 ![](media/function-patch/icecream-after.png)
 
 #### <a name="merge-records-outside-of-a-data-source"></a>Records samenvoegen (buiten een gegevensbron)
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **Patch(&nbsp;{&nbsp;Naam:&nbsp;"James",&nbsp;Score:&nbsp;90&nbsp;}, {&nbsp;Naam:&nbsp;"Jim",&nbsp;Geslaagd:&nbsp;true&nbsp;} )** |Voegt twee records buiten een gegevensbron samen:<br><ul><li>De waarden in de kolom **Naam** van elke record komen niet overeen. Het resultaat bevat de waarde (**Jim**) in de record die dichter bij het einde van de lijst met argumenten staat in plaats van de waarde (**James**) in de record die dichter bij het begin staat.</li><li>De eerste record bevat een kolom (**Score**) die niet bestaat in de tweede record. Het resultaat bevat die kolom met de waarde (**90**).</li><li>De tweede record bevat een kolom (**Geslaagd**) die niet bestaat in de eerste record. Het resultaat bevat die kolom met de waarde (**true**). |{&nbsp;Naam:&nbsp;"Jim", Score:&nbsp;90, Geslaagd:&nbsp;true&nbsp;} |

@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 04/23/2018
 ms.author: anneta
-ms.openlocfilehash: 29f07162ec2815398cda5bcc359f7388df261bc0
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: bf802668ff56729c1d28fc460495a680fc3c6570
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836965"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896806"
 ---
 # <a name="create-an-excel-app-from-scratch"></a>Een volledig nieuwe Excel-app maken
 Maak uw eigen volledig nieuwe app op basis van Excel-gegevens, opgemaakt als een tabel, en voeg vervolgens desgewenst gegevens uit andere bronnen toe. Wanneer u deze zelfstudie volgt, maakt u een app met twee schermen. In het ene scherm kunnen gebruikers bladeren door een set records. In het andere scherm kunnen gebruikers een record maken, een of meer velden in een record bijwerken of een heel record verwijderen. Deze benadering kost meer tijd dan [een app automatisch genereren](get-started-create-from-data.md), maar ervaren app-makers kunnen hiermee de beste app voor hun wensen maken.
@@ -84,31 +84,31 @@ Als u de onderstaande stappen in deze zelfstudie precies wilt volgen, maakt u ee
 
     ![Deelvenster Gegevens openen](./media/get-started-create-from-blank/custom-gallery-sample.png)
 
-1. Selecteer onder **Gegevensbron** de pijl omlaag om de lijst van gegevensbronnen voor de app te openen en selecteer vervolgens **Planning**.
+4. Selecteer onder **Gegevensbron** de pijl omlaag om de lijst van gegevensbronnen voor de app te openen en selecteer vervolgens **Planning**.
 
     ![Een gegevensbron selecteren](./media/get-started-create-from-blank/select-schedule.png)
 
-1. Selecteer onder **Indeling** de pijl omlaag om de lijst met indelingen te openen en selecteer vervolgens **Titel, subtitel en hoofdtekst**.
+5. Selecteer onder **Indeling** de pijl omlaag om de lijst met indelingen te openen en selecteer vervolgens **Titel, subtitel en hoofdtekst**.
 
     ![Indeling selecteren](./media/get-started-create-from-blank/select-layout.png)
 
-1. Wijzig onder **Title2** de kolom die wordt weergegeven van **Back-up** in **Vrijwilliger**.
+6. Wijzig onder **Title2** de kolom die wordt weergegeven van **Back-up** in **Vrijwilliger**.
 
      ![Kolom wijzigen in label](./media/get-started-create-from-blank/change-title2.png)
 
-1. Selecteer het pictogram voor sluiten in de rechterbovenhoek om het deelvenster **Gegevens** te sluiten.
+7. Selecteer het pictogram voor sluiten in de rechterbovenhoek om het deelvenster **Gegevens** te sluiten.
 
     De galerie geeft de naam van elke vrijwilliger en de dag en tijd van de dienst van die vrijwilliger weer.
 
     ![De planningsgegevens in de galerie, niet gesorteerd](./media/get-started-create-from-blank/show-data-unsorted.png)
 
-4. Selecteer de galerie en controleer of in de eigenschappenlijst **[Items](controls/properties-core.md)** worden weergegeven.
+8. Selecteer de galerie en controleer of in de eigenschappenlijst **[Items](controls/properties-core.md)** worden weergegeven.
 
     Zoals u in de formulebalk ziet, is de waarde van die eigenschap **Planning**.
 
     ![De planningsgegevens in de galerie, niet gesorteerd](./media/get-started-create-from-blank/set-property.png)
 
-1. Wijzig de waarde van de eigenschap **Items** door deze formule te kopiëren en te plakken in de formulebalk:
+9. Wijzig de waarde van de eigenschap **Items** door deze formule te kopiëren en te plakken in de formulebalk:
 
     **SortByColumns(Search(Schedule, TextSearchBox1.Text, "Volunteer"), "Volunteer", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))**
 
@@ -118,22 +118,22 @@ Als u de onderstaande stappen in deze zelfstudie precies wilt volgen, maakt u ee
 
     Gebruikers kunnen de galerie sorteren en filteren op de naam van de vrijwilliger op basis van de **SortByColumns**- en **zoek**functies in deze formule.
 
-    - Als een gebruiker ten minste één letter in het zoekvak typt, geeft de galerie alleen de records weer waarin het veld **Vrijwilliger** de tekst bevat die de gebruiker heeft getypt.
-    - Als een gebruiker de sorteerknop selecteert, wordt de galerie weergegeven met de records in oplopende of aflopende volgorde (afhankelijk van hoe vaak de gebruiker de knop selecteert) op basis van het veld **Vrijwilliger**.
+   - Als een gebruiker ten minste één letter in het zoekvak typt, geeft de galerie alleen de records weer waarin het veld **Vrijwilliger** de tekst bevat die de gebruiker heeft getypt.
+   - Als een gebruiker de sorteerknop selecteert, wordt de galerie weergegeven met de records in oplopende of aflopende volgorde (afhankelijk van hoe vaak de gebruiker de knop selecteert) op basis van het veld **Vrijwilliger**.
 
-    Zie de [naslaginformatie over formules](formula-reference.md) voor meer informatie over deze en andere functies.
+     Zie de [naslaginformatie over formules](formula-reference.md) voor meer informatie over deze en andere functies.
 
-5. Typ een **i** in het zoekvak, selecteer de sorteerknop door erop te klikken of te tikken en selecteer deze vervolgens nog een keer (of nog een oneven aantal keren).
+10. Typ een **i** in het zoekvak, selecteer de sorteerknop door erop te klikken of te tikken en selecteer deze vervolgens nog een keer (of nog een oneven aantal keren).
 
-    De resultaten worden weergegeven in de galerie.
+     De resultaten worden weergegeven in de galerie.
 
-    ![De galerie sorteren en filteren](./media/get-started-create-from-blank/sort-filter.png)
+     ![De galerie sorteren en filteren](./media/get-started-create-from-blank/sort-filter.png)
 
-1. Wis alle tekst in het zoekvak.
+11. Wis alle tekst in het zoekvak.
 
-6. Selecteer boven aan het scherm het besturingselement **[Label](controls/control-text-box.md)** en vervang **[Titel]** door **Records weergeven**.
+12. Selecteer boven aan het scherm het besturingselement **[Label](controls/control-text-box.md)** en vervang **[Titel]** door **Records weergeven**.
 
-    ![Titelbalk wijzigen](./media/get-started-create-from-blank/change-title-bar.png)
+     ![Titelbalk wijzigen](./media/get-started-create-from-blank/change-title-bar.png)
 
 ## <a name="create-the-change-screen"></a>Het wijzigingsscherm maken
 1. Selecteer op het tabblad **Start** de pijl omlaag naast **Nieuw scherm**, en selecteer vervolgens **Formulierscherm**.

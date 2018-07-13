@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 84981a00a516f553d3f1b318f12a6f68064c66b2
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 697752312810473158b4f8cdfed4ef1d7618fdb7
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31832166"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898347"
 ---
 # <a name="pen-input-control-in-powerapps"></a>Besturingselement voor peninvoer in PowerApps
 Een besturingselement waarin de gebruiker kan tekenen, wissen en gebieden van een afbeelding kan markeren.
@@ -101,7 +101,7 @@ Er moet voldoende kleurcontrast zijn tussen:
 * **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
 
     > [!IMPORTANT]
-> **Peninvoer** is niet toegankelijk voor gebruikers van schermlezers. Geef altijd een alternatieve vorm van invoer. Als bijvoorbeeld een schets vereist is, kunt u een besturingselement toevoegen voor **[Afbeelding toevoegen](control-add-picture.md)** waarmee gebruikers een afbeelding kunnen uploaden. Beide methoden kunnen worden aangeboden en de gebruiker kan de optie kiezen waarmee hij het meest vertrouwd is.
+  > **Peninvoer** is niet toegankelijk voor gebruikers van schermlezers. Geef altijd een alternatieve vorm van invoer. Als bijvoorbeeld een schets vereist is, kunt u een besturingselement toevoegen voor **[Afbeelding toevoegen](control-add-picture.md)** waarmee gebruikers een afbeelding kunnen uploaden. Beide methoden kunnen worden aangeboden en de gebruiker kan de optie kiezen waarmee hij het meest vertrouwd is.
 
 ### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
 

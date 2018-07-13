@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 06/17/2017
 ms.author: gregli
-ms.openlocfilehash: 2b64ebdf91effe812d3fd81d0d1e0bb854147a19
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 45baa2450dbb081b800263a9119729e1c2846008
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31839149"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899438"
 ---
 # <a name="understand-data-form-layout-in-microsoft-powerapps"></a>De indeling van een gegevensformulier begrijpen in Microsoft PowerApps
 Met PowerApps kunt u gemakkelijk formulieren maken die er mooi uitzien en efficiënt te gebruiken zijn. Neem bijvoorbeeld dit eenvoudige verkooporderformulier:
@@ -57,17 +57,17 @@ Als u niet vertrouwd bent met PowerApps (of apps alleen automatisch hebt gegener
     Het label toont het ordernummer van het record dat u hebt geselecteerd in de galerie.
 3. (optioneel) Maakt het label als volgt op:
    
-    1. Stel de eigenschap **Align** in op **Center**.
+   1. Stel de eigenschap **Align** in op **Center**.
    
-    2. Stel de eigenschap **Size** in op **20**.
+   2. Stel de eigenschap **Size** in op **20**.
    
-    3. Stel de eigenschap **Fill** in op **Navy**.
+   3. Stel de eigenschap **Fill** in op **Navy**.
    
-    4. Stel de eigenschap **Color** in op **White**.
+   4. Stel de eigenschap **Color** in op **White**.
    
-    5. Stel de eigenschap **Width** in op **Parent.Width**.
+   5. Stel de eigenschap **Width** in op **Parent.Width**.
    
-    6. Stel de eigenschappen **X** en **Y**in op **0**.
+   6. Stel de eigenschappen **X** en **Y**in op **0**.
       
       ![Titelbalk](./media/working-with-form-layout/title-bar.png)
 

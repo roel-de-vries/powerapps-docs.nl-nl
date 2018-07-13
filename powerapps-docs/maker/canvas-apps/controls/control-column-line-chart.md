@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: e6a5df9283cc0d6f5ab30f27096ba3e7e9e5bff0
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 5397c99d02e824a86147af053e1f907f83ce3543
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836265"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898262"
 ---
 # <a name="column-chart-and-line-chart-controls-in-powerapps"></a>Besturingselementen Kolomdiagram en Lijndiagram in PowerApps
 Besturingselementen die gegevens weergeven als grafieken met x- en y-assen.
@@ -139,7 +139,7 @@ Er moet voldoende kleurcontrast zijn tussen:
 * U kunt een samenvatting van de grafiekafbeelding toevoegen. Bijvoorbeeld: Het lijndiagram toont een gestage toename van de verkoopcijfers tussen maart en augustus van dit jaar.
 
     > [!NOTE]
-> Diagramafbeeldingen en **legenda** zijn verborgen voor gebruikers van schermlezers. In plaats daarvan wordt een tabelweergave van de gegevens weergegeven. Ze kunnen ook door de knoppen gaan waarmee gegevens in het diagram worden geselecteerd.
+  > Diagramafbeeldingen en **legenda** zijn verborgen voor gebruikers van schermlezers. In plaats daarvan wordt een tabelweergave van de gegevens weergegeven. Ze kunnen ook door de knoppen gaan waarmee gegevens in het diagram worden geselecteerd.
 
 ### <a name="low-vision-support"></a>Ondersteuning voor gebruikers met beperkt gezichtsvermogen
 * Er moet een **legenda** zijn als meer dan één reeks wordt weergegeven.
@@ -150,4 +150,4 @@ Er moet voldoende kleurcontrast zijn tussen:
 * **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
 
     > [!NOTE]
-> Als gebruikers naar het diagram navigeren, kunnen ze door de knoppen gaan waarmee gegevens in het diagram worden geselecteerd.
+  > Als gebruikers naar het diagram navigeren, kunnen ze door de knoppen gaan waarmee gegevens in het diagram worden geselecteerd.

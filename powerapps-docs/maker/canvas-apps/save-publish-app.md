@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 09/14/2017
 ms.author: anneta
-ms.openlocfilehash: e265934336f3646f52b749ddcec5a5e734bd2c50
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 0192abca52f3ca3d28b911e24a9ca9cd07c95393
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31828888"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37895840"
 ---
 # <a name="save-and-publish-an-app-in-powerapps"></a>Een app opslaan en publiceren in PowerApps
 Wanneer u wijzigingen in een app opslaat, publiceert u deze automatisch alleen voor uzelf en voor anderen die bevoegd zijn om de app te bewerken. Als u klaar bent met het maken van wijzigingen, moet u de wijzigingen expliciet publiceren om deze beschikbaar te maken voor iedereen met wie de app wordt gedeeld.
@@ -47,7 +47,7 @@ PowerApps kan de app ook met regelmatige intervallen van 2 minuten opslaan. Als 
    ![Publicatie controleren](./media/save-publish-app/publish-review.png)
 
    > [!NOTE]
-> We raden u aan uw app binnen zes maanden na de laatste publicatie bij te werken en/of opnieuw te publiceren, zodat deze synchroon blijft met de nieuwste versie van PowerApps. Als u de app niet binnen zes maanden bijwerkt en/of opnieuw publiceert, werkt de app mogelijk opeens niet meer zonder dat u daarvoor bent gewaarschuwd.
+   > We raden u aan uw app binnen zes maanden na de laatste publicatie bij te werken en/of opnieuw te publiceren, zodat deze synchroon blijft met de nieuwste versie van PowerApps. Als u de app niet binnen zes maanden bijwerkt en/of opnieuw publiceert, werkt de app mogelijk opeens niet meer zonder dat u daarvoor bent gewaarschuwd.
 
 ## <a name="identify-the-live-version"></a>De live-versie identificeren
 Klik of tik op [powerapps.com](https://web.powerapps.com) op **Apps** in het menu **Bestand** (aan de linkerkant), klik of tik op het detailpictogram voor een app en klik of tik vervolgens op het tabblad **Versies**.

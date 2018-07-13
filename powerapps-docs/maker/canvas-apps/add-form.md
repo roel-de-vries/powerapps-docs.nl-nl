@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/06/2017
 ms.author: sharik
-ms.openlocfilehash: d24777ec34759a98421784995f5a73b0dfc1d2d2
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: a68986c39ffe251f55c10a26386c8430398d2718
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31826255"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37895817"
 ---
 # <a name="show-edit-or-add-a-record-from-a-table-in-powerapps"></a>Een record uit een tabel weergeven, bewerken of toevoegen in PowerApps
 Als u alle velden in een record wilt weergeven, voegt u het besturingselement **[Weergaveformulier](controls/control-form-detail.md)** toe en configureert u dit. Als u een veld in een record wilt bewerken (of als u een record wilt toevoegen) en u de wijzigingen wilt opslaan in een gegevensbron, voegt u het besturingselement **[Formulier](controls/control-form-detail.md)** bewerken toe en configureert u dit.
@@ -36,7 +36,7 @@ Als u alle velden in een record wilt weergeven, voegt u het besturingselement **
     **FlooringEstimates.Name**
 
     > [!NOTE]
-> Als u niet zeker weet hoe u een besturingselement toevoegt, hoe u de naam wijzigt of hoe u een eigenschap instelt, bekijkt u [Besturingselementen toevoegen en configureren](add-configure-controls.md).
+   > Als u niet zeker weet hoe u een besturingselement toevoegt, hoe u de naam wijzigt of hoe u een eigenschap instelt, bekijkt u [Besturingselementen toevoegen en configureren](add-configure-controls.md).
 
     In de lijst staan de namen van vloerproducten uit de gegevensbron.
 
@@ -45,7 +45,7 @@ Als u alle velden in een record wilt weergeven, voegt u het besturingselement **
     ![Een formulier toevoegen](./media/add-form/add-a-form.png)
 
     > [!NOTE]
-> In dit onderwerp wordt het besturingselement **Formulier bewerken** beschreven, maar er zijn vergelijkbare principes van toepassing op het besturingselement **Formulier weergeven**.
+   > In dit onderwerp wordt het besturingselement **Formulier bewerken** beschreven, maar er zijn vergelijkbare principes van toepassing op het besturingselement **Formulier weergeven**.
 
 3. Stel de eigenschap **[DataSource](controls/control-form-detail.md)** van het formulier in op **FlooringEstimates** en stel de eigenschap **[Item](controls/control-form-detail.md)** van het formulier in op deze formule:
 
@@ -56,7 +56,7 @@ Als u alle velden in een record wilt weergeven, voegt u het besturingselement **
 4. Klik of tik in het deelvenster **Gegevens** op het selectievakje voor elk veld om het weer te geven.
 
     > [!NOTE]
-> Als het deelvenster **Gegevens** is gesloten, opent u het door het formulier te selecteren in het linkerdeelvenster en vervolgens op **Gegevens** in het rechterdeelvenster te klikken of te tikken.
+   > Als het deelvenster **Gegevens** is gesloten, opent u het door het formulier te selecteren in het linkerdeelvenster en vervolgens op **Gegevens** in het rechterdeelvenster te klikken of te tikken.
 
     ![Velden weergeven in formulier](./media/add-form/checkbox.png)
 

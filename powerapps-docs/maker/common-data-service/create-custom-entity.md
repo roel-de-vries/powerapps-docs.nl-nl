@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: tutorial
 ms.date: 05/01/2018
 ms.author: matp
-ms.openlocfilehash: c587ed6488ae498e3ec662016ee1d028023e4095
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: a4430637d197530cff793a2fcde1c2485bf59a9f
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168246"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897289"
 ---
 # <a name="tutorial-create-a-custom-entity-that-has-components-in-powerapps"></a>Zelfstudie: Een aangepaste entiteit met componenten in PowerApps maken
 
@@ -38,49 +38,49 @@ Meld u aan bij [PowerApps](https://powerapps.microsoft.com/). Als u nog geen [!I
 1. Vouw in het linkernavigatiedeelvenster **Gegevens** uit, selecteer **Entiteiten** en selecteer vervolgens **Nieuwe entiteit**.
     ![Nieuwe entiteit](media/create-custom-entity/create-new-entity.png)
 2. Geef de volgende waarden op in het rechterdeelvenster en selecteer vervolgens **Volgende**.
-  - **Weergavenaam**: *Huisdier* 
-  - **Beschrijving**: *Aangepaste entiteit voor het bijhouden van huisdierservices*
+   - **Weergavenaam**: *Huisdier* 
+   - **Beschrijving**: *Aangepaste entiteit voor het bijhouden van huisdierservices*
 3. Selecteer **Entiteit opslaan**.
 
 ## <a name="add-and-customize-fields"></a>Velden toevoegen en aanpassen
  
 1. Selecteer op het tabblad **Velden** het veld **Primaire naam**.
 2. Breng in het rechterdeelvenster de volgende wijzigingen aan in het veld **Primaire naam**: 
-  - Wijzig de **Weergavenaam** van **Primaire naam** in *Huisdiernaam*
-  - Selecteer **Niet doorzoekbaar**  
+   - Wijzig de **Weergavenaam** van **Primaire naam** in *Huisdiernaam*
+   - Selecteer **Niet doorzoekbaar**  
   
-    ![Het primaire veld wijzigen](media/create-custom-entity/primary-field.png)
+     ![Het primaire veld wijzigen](media/create-custom-entity/primary-field.png)
 3. Selecteer **Gereed**.
 4. Selecteer op het tabblad **Velden** van de werkbalk van de entiteitsdesigner het veld **Toevoegen**. Geef in het deelvenster **Veldeigenschappen** de volgende waarden en opties op of selecteer deze.
-  - **Weergavenaam**. *Soorten*
-  - **Gegevenstype**. *Optieset*
-  - **Optieset**. *Nieuwe optieset*
+   - **Weergavenaam**. *Soorten*
+   - **Gegevenstype**. *Optieset*
+   - **Optieset**. *Nieuwe optieset*
 5. De optieset maken
 
-  a. Selecteer **Nieuw item toevoegen**. 
+   a. Selecteer **Nieuw item toevoegen**. 
   
-  b. Vervang **Nieuwe optie** door *Hond*. 
+   b. Vervang **Nieuwe optie** door *Hond*. 
    
-  c. Selecteer **Nieuw item toevoegen**. 
+   c. Selecteer **Nieuw item toevoegen**. 
     
-  d.  Vervang **Nieuwe optie** door *Kat*. 
+   d.  Vervang **Nieuwe optie** door *Kat*. 
     
-  e. Selecteer **Opslaan**. 
+   e. Selecteer **Opslaan**. 
 
-  ![Nieuwe optieset](media/create-custom-entity/optionset-add-items.png)
+   ![Nieuwe optieset](media/create-custom-entity/optionset-add-items.png)
 
 6. Selecteer **Doorzoekbaar** en selecteer vervolgens **Gereed**.
 
 7. Selecteer in de werkbalk van de entiteitsdesigner het veld **Toevoegen**. Geef in het deelvenster **Veldeigenschappen** de volgende waarden op of selecteer deze en selecteer daarna **Gereed**.
-  - **Weergavenaam**. *Ras*
-  - **Gegevenstype**. *Tekst*
-  - **Doorzoekbaar**. *Ja*
+   - **Weergavenaam**. *Ras*
+   - **Gegevenstype**. *Tekst*
+   - **Doorzoekbaar**. *Ja*
 
 8. Selecteer in de werkbalk van de entiteitsdesigner het veld **Toevoegen**. 
 
 9. Geef in het deelvenster **Veldeigenschappen** de volgende waarden op of selecteer deze en selecteer daarna **Gereed**. 
-  - **Weergavenaam**. *Afspraakdatum*
-  - **Gegevenstype**. *Datum en tijd*
+   - **Weergavenaam**. *Afspraakdatum*
+   - **Gegevenstype**. *Datum en tijd*
 
 10. Selecteer **Entiteit opslaan**.
 
@@ -97,10 +97,10 @@ U ziet dat wanneer u een veel-op-een-relatie toevoegt, er automatisch een veld *
 
 1. Selecteer het tabblad **Weergaven** en selecteer vervolgens de weergave **Actieve huisdieren**. Als u geen weergave **Actieve huisdieren** ziet, selecteert u **Filter verwijderen**.
 2. Selecteer in de weergaveontwerper **Kolommen toevoegen** de volgende kolommen en selecteer vervolgens **OK**.
-  - Account
-  - Afspraakdatum 
-  - Ras 
-  - Soorten
+   - Account
+   - Afspraakdatum 
+   - Ras 
+   - Soorten
 3. Selecteer de kolom **Gemaakt op**, selecteer **Verwijderen** en selecteer vervolgens **OK** om de verwijdering van de kolom te bevestigen.
 4. Als u de kolommen wilt rangschikken, selecteert u de kolom die u wilt verplaatsen en gebruikt u vervolgens de pijltjesknoppen <- en -> totdat uw weergave er als volgt uitziet.
     ![Weergave Actieve huisdieren](media/create-custom-entity/active-pets-view.png)

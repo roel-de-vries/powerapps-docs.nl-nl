@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/12/2016
 ms.author: lanced
-ms.openlocfilehash: a3a5d24efffd7cd3c9430cafd5050dc96632ee76
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 0666350b9c60fdd3a1ed9cb2a3e7fa7b46bdd683
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803162"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896875"
 ---
 # <a name="connect-to-power-bi-from-powerapps"></a>Verbinding maken met Power BI vanuit PowerApps
 ![Power BI](./media/connection-powerbi/powerbiicon.png)
@@ -30,7 +30,7 @@ In dit onderwerp ziet u hoe u de Power BI-verbinding in een app kunt gebruiken e
 ### <a name="list-the-alerts-that-youve-set-up-in-the-power-bi-service"></a>De waarschuwingen weergeven die u in de Power BI-service hebt ingesteld
 1. Selecteer **Gallery** in het menu **Insert** en voeg een van de **tekstgalerieën** toe.
 2. Als u de waarschuwingen van de huidige gebruiker wilt weergeven, stelt u de eigenschap [Items](../controls/properties-core.md) van de galerie in op de volgende formule:
-   
+
    `PowerBI.GetAlerts()`
 
 De galerie wordt bijgewerkt met de lijst met waarschuwingen. Voor elke waarschuwing ontvangt u de naam van de waarschuwing, het id-nummer van de waarschuwing en de id van de groepswerkruimte waarin de waarschuwing is geconfigureerd. U hebt de waarschuwings-id nodig als u meer informatie over de waarschuwing wilt.
@@ -64,6 +64,7 @@ De waarschuwingen weergeven die u in de Power BI-service hebt ingesteld
 Geen.
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | value |Matrix |Nee |Een matrix met de gegevenswaarschuwingen die u in de Power BI-service hebt ingesteld. Elk element in de matrix omvat: <ul><li>alertTitle: de titel van de waarschuwing</li><li>alertId: de id van de waarschuwing</li><li>groupId: de id van de groep waarin de waarschuwing is gemaakt</li></ul> |
@@ -75,11 +76,13 @@ De status van een waarschuwing weergeven.
 > Aanvragen naar dit eindpunt worden per waarschuwing beperkt bij te veel aanroepen.
 
 #### <a name="input-properties"></a>Invoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | alertId |Geheel getal |Ja |De id van de waarschuwing, zoals geretourneerd door GetAlerts |
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | tileValue |Getal |Nee |De waarde van de tegel wanneer de waarschuwing is geactiveerd |

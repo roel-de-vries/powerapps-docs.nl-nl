@@ -5,14 +5,17 @@ author: Mattp123
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: quickstart
-ms.date: 03/21/2018
+ms.date: 07/09/2018
 ms.author: matp
-ms.openlocfilehash: 55fd0bb164fcbb552db68fb89d77c7a7d0807cdc
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.custom: ''
+ms.reviewer: ''
+ms.assetid: ''
+ms.openlocfilehash: a80042065a830bb9d34007131cccbd995279e3dd
+ms.sourcegitcommit: bcfefb30b12cf94815dd9a0fd8cad29a8272d96e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34553031"
+ms.lasthandoff: 07/09/2018
+ms.locfileid: "37925703"
 ---
 # <a name="quickstart-run-a-canvas-app-on-a-mobile-device"></a>Snelstartgids: Een canvas-app op een mobiel apparaat uitvoeren
 Wanneer u een app maakt, of iemand een app met u deelt, kunt u die app uitvoeren in Windows, iOS, Android of in een webbrowser. In deze snelstartgids leert u hoe u een canvas-app kunt uitvoeren op een mobiel apparaat. Met apps die op een mobiel apparaat worden uitgevoerd, kunt u profiteren van de functionaliteit van het apparaat, zoals de locatieservices en camera.

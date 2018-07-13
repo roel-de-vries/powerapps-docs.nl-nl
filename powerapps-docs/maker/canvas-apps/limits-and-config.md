@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/07/2018
 ms.author: sharik
-ms.openlocfilehash: ffe1a027e378da3f9c505f4980681a4b5a11dbda
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: e76710bc800782624ca1190086cc19dd47d60939
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34851748"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896093"
 ---
 # <a name="system-requirements-limits-and-configuration-values"></a>Systeemvereisten, limieten en configuratiewaarden
 Dit onderwerp bevat vereisten voor apparaatplatformen en webbrowsers, maar ook limieten en configuratiewaarden voor PowerApps.
 
 ## <a name="supported-platforms-for-running-apps-using-the-powerapps-app"></a>Ondersteunde platforms voor het uitvoeren van apps met behulp van de PowerApps-app
+
 | **Minimale vereiste** | **Aanbevolen** |
 | --- | --- |
 | iOS 9.3 of hoger |iOS 10 of hoger met ten minste 2 GB RAM-geheugen |
@@ -25,6 +26,7 @@ Dit onderwerp bevat vereisten voor apparaatplatformen en webbrowsers, maar ook l
 | Windows 8.1 of hoger (alleen pc) |Windows 10 Fall Creators Update met ten minste 8 GB RAM-geheugen)|
 
 ## <a name="supported-browsers-for-running-apps"></a>Ondersteunde browsers voor het uitvoeren van apps
+
 | **Browser** | **Besturingssysteem** |
 | --- | --- |
 | Google Chrome (meest recente versie)<br>(aanbevolen) |Windows 7 SP1, 8.1 en 10 <br>Android 5 of hoger <br>iOS 8 of hoger<br>macOS |
@@ -34,6 +36,7 @@ Dit onderwerp bevat vereisten voor apparaatplatformen en webbrowsers, maar ook l
 | Apple Safari (meest recente versie) |iOS 8 of hoger <br>macOS |
 
 ## <a name="supported-browsers-for-powerapps-studio"></a>Ondersteunde browsers voor PowerApps Studio
+
 | **Browser** | **Besturingssysteem** |
 | --- | --- |
 | Google Chrome (meest recente versie)<br>(aanbevolen) |Windows 7 SP1, 8.1 en 10 <br>macOS |
@@ -58,7 +61,7 @@ Aanroepen die worden gedaan vanaf een API die is verbonden via een app (bijvoorb
 
 U moet deze adressen gebruiken als u bijvoorbeeld IP-adressen op de goedgekeurde lijst moet plaatsen voor uw Azure SQL-database.
 
->   [!IMPORTANT] 
+> [!IMPORTANT]
 >   Als u bestaande configuraties hebt, moet u deze zo snel mogelijk voor 1 september 2018 bijwerken zodat ze de IP-adressen in deze lijst bevatten en daarmee overeenkomen voor de regio’s waarin uw PowerApps-apps bestaan.
 
 | Regio | Uitgaande IP |

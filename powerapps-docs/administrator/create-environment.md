@@ -7,12 +7,12 @@ ms.component: pa-admin
 ms.topic: quickstart
 ms.date: 03/21/2018
 ms.author: jimh
-ms.openlocfilehash: f648d68a19c646a2a69a8eebca85ac9e33af0686
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 857c080ff3b8205b9c74099954cd5156697deb77
+ms.sourcegitcommit: 26932abc6fcdc5e6723b64b506532bb182ab3f8d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552847"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37026206"
 ---
 # <a name="quickstart-create-an-environment"></a>Snelstartgids: een omgeving maken
 Een omgeving is een ruimte om de bedrijfsgegevens, -apps en -stromen van uw organisatie op te slaan, te beheren en te delen. Een omgeving doet ook dienst als container voor het scheiden van apps met verschillende rollen, beveiligingsvereisten of doelgroepen. PowerApps maakt automatisch één standaardomgeving voor elke tenant, die door alle gebruikers in die tenant wordt gedeeld.
@@ -37,8 +37,6 @@ Meld u aan bij het beheercentrum op [https://admin.powerapps.com](https://admin.
 
     ![Bestand en Delen](./media/create-environment/new-environment-dialog.png)
 3. Zodra de omgeving is gemaakt, verschijnt een bevestigingsbericht in het dialoogvenster en wordt u gevraagd of u een database wilt maken. Klik of tik op **Database maken** om toegang tot Common Data Service in te schakelen.
-
-    **Opmerking:** op dit moment kunt u alleen een database maken in de basisregio van de Azure Active Directory-tenant.
 
     ![Bestand en Delen](./media/create-environment/create-database-dialog.png)
 4. Selecteer de valuta en de taal voor de gegevens die in de database zijn opgeslagen. Als de database eenmaal is gemaakt, kunt u de valuta en de taal niet meer wijzigen. Klik of tik op **Database maken** als u klaar bent.

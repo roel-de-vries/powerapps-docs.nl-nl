@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 07/10/2017
 ms.author: anneta
-ms.openlocfilehash: 702be2a4f1747b6f3303d1add30d9157f5665ee7
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c3b1fb9802541159726a33cacd07c6f9743de0e2
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330466"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896691"
 ---
 # <a name="add-and-configure-a-control-in-powerapps"></a>Een besturingselement toevoegen en configureren in PowerApps
 U kunt een groot aantal verschillende UI-elementen toevoegen aan uw app en vervolgens direct aspecten van hun uiterlijk en gedrag configureren. Dit kan via de werkbalk, in het tabblad **Eigenschappen** of de formulebalk. Deze UI-elementen worden besturingselementen genoemd en de aspecten eigenschappen.
@@ -68,7 +68,7 @@ In deze procedure gaat u een besturingselement van het type **Label** toevoegen 
     ![Een geselecteerde label](./media/add-configure-controls/selected-text-box.png)
 
     > [!IMPORTANT]
-> Als er een besturingselement is geselecteerd op het moment dat u een ander besturingselement of een leeg gebied van het scherm selecteert, wordt de selectie van het eerste element ongedaan gemaakt.
+   > Als er een besturingselement is geselecteerd op het moment dat u een ander besturingselement of een leeg gebied van het scherm selecteert, wordt de selectie van het eerste element ongedaan gemaakt.
 2. Maak het besturingselement **Label** smaller door een greep aan de rechterkant van het selectiekader naar links te slepen. (De middelste greep wordt alleen weergegeven als u inzoomt.)
 
     ![Een label waarvan het formaat is gewijzigd](./media/add-configure-controls/shorter-text-box.png)
@@ -173,7 +173,7 @@ In plaats van een besturingselement rechtstreeks, in het tabblad **Eigenschappen
     ![Functie Today](./media/add-configure-controls/today-function.png)
 
     > [!TIP]
-> U kunt [verschillende notaties gebruiken voor datums en tijden](show-text-dates-times.md). Daarnaast kunt u berekeningen uitvoeren op datums en tijden.
+   > U kunt [verschillende notaties gebruiken voor datums en tijden](show-text-dates-times.md). Daarnaast kunt u berekeningen uitvoeren op datums en tijden.
 
 ## <a name="configure-two-controls-to-interact-with-each-other"></a>Twee besturingselementen configureren voor onderlinge interactie
 In deze procedure gaat u een selectievakje toevoegen en vervolgens het eerder gemaakte label zo configureren dat dit vak alleen wordt weergegeven wanneer het selectievakje is ingeschakeld.

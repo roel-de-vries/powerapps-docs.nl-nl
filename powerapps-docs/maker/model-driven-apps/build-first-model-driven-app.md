@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 04/18/2018
 ms.author: matp
-ms.openlocfilehash: 3d7aa26696adb187906c9c793c546abd1b97764f
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: c1c03202cb95500bb019a3c23a68e0e8d5418cc9
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34583481"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898393"
 ---
 # <a name="quickstart-build-your-first-model-driven-app-from-scratch"></a>Snelstartgids: Uw eerste modelgestuurde app bouwen
 Het ontwerp van modelgestuurde apps is een componentgerichte methode voor het ontwikkelen van apps. In deze snelstartgids maakt u op een vereenvoudigde manier een modelgestuurde app met behulp van een van de standaardentiteiten die in uw [!INCLUDE [powerapps](../../includes/powerapps.md)]-omgeving beschikbaar is. 
@@ -27,43 +27,43 @@ Meld u aan bij [PowerApps](https://web.powerapps.com/). Als u nog geen [!INCLUDE
 
 ## <a name="create-your-model-driven-app"></a>Uw modelgestuurde app maken
 
-1.  Selecteer de gewenste omgeving of ga naar het [PowerApps-beheercentrum](https://admin.powerapps.com/) om een nieuwe te maken.
-2.  Selecteer in het linkernavigatiedeelvenster **Modelgestuurd**. 
+1. Selecteer de gewenste omgeving of ga naar het [PowerApps-beheercentrum](https://admin.powerapps.com/) om een nieuwe te maken.
+2. Selecteer in het linkernavigatiedeelvenster **Modelgestuurd**. 
 
-    ![Modelgestuurd](media/build-first-model-driven-app/choose-design-mode.png)
+   ![Modelgestuurd](media/build-first-model-driven-app/choose-design-mode.png)
 
-  > [!IMPORTANT]
-  > Als de **modelgestuurde** ontwerpmodus niet beschikbaar is, moet u mogelijk [een omgeving maken](https://docs.microsoft.com/powerapps/administrator/create-environment).   
+   > [!IMPORTANT]
+   > Als de **modelgestuurde** ontwerpmodus niet beschikbaar is, moet u mogelijk [een omgeving maken](https://docs.microsoft.com/powerapps/administrator/create-environment).   
 
 3. Selecteer **Apps** in het linkerdeelvenster en selecteer vervolgens **Een app maken**.
 
-4.  Voer op de pagina **Een nieuwe app maken** de volgende gegevens in en selecteer vervolgens **Gereed**: 
-  - **Naam**: voer een naam in voor de app, zoals *Mijneersteapp*. 
-  - **Beschrijving**: typ een korte beschrijving van de app of wat deze doet, zoals *Dit is mijn eerste app*.
-Zie [Een app maken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-app#create-an-app) voor meer informatie over de andere eigenschappen van de app.
+4. Voer op de pagina **Een nieuwe app maken** de volgende gegevens in en selecteer vervolgens **Gereed**: 
+   - **Naam**: voer een naam in voor de app, zoals *Mijneersteapp*. 
+   - **Beschrijving**: typ een korte beschrijving van de app of wat deze doet, zoals *Dit is mijn eerste app*.
+   Zie [Een app maken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-app#create-an-app) voor meer informatie over de andere eigenschappen van de app.
  
-    ![Nieuwe-app-maken](media/build-first-model-driven-app/create-new-app.png)
+   ![Nieuwe-app-maken](media/build-first-model-driven-app/create-new-app.png)
 
 ## <a name="add-components-to-your-app"></a>Onderdelen toevoegen aan uw app
 Vanaf de app-ontwerper voegt u onderdelen toe aan uw app.
-1.  Selecteer de pijl **Open de Sitemapontwerper** om de sitemapontwerper te openen. 
+1. Selecteer de pijl **Open de Sitemapontwerper** om de sitemapontwerper te openen. 
 
-    ![Nieuwe-sitemap-maken](media/build-first-model-driven-app/new-sitemap.png)
+   ![Nieuwe-sitemap-maken](media/build-first-model-driven-app/new-sitemap.png)
 
-2.  Selecteer **Nieuw subgebied** in de sitemapontwerper, selecteer in het rechterdeelvenster het tabblad **Eigenschappen** en selecteer dan de volgende eigenschappen.
-  - **Type**: entiteit
-  - **Entiteit**: account
+2. Selecteer **Nieuw subgebied** in de sitemapontwerper, selecteer in het rechterdeelvenster het tabblad **Eigenschappen** en selecteer dan de volgende eigenschappen.
+   - **Type**: entiteit
+   - **Entiteit**: account
 
-    ![Onderdelen toevoegen aan uw sitemap](media/build-first-model-driven-app/sitemap.png)
+   ![Onderdelen toevoegen aan uw sitemap](media/build-first-model-driven-app/sitemap.png)
 
-3.  Selecteer **Opslaan en sluiten**.
-4.  Selecteer **Formulieren** in het canvas van de app-ontwerper en selecteer vervolgens in het rechterdeelvenster onder de groep **Hoofdformulieren** het formulier **Account**.
+3. Selecteer **Opslaan en sluiten**.
+4. Selecteer **Formulieren** in het canvas van de app-ontwerper en selecteer vervolgens in het rechterdeelvenster onder de groep **Hoofdformulieren** het formulier **Account**.
 
-    ![Account hoofdformulier](media/build-first-model-driven-app/main-form.png)
+   ![Account hoofdformulier](media/build-first-model-driven-app/main-form.png)
 
-5.  Selecteer **Weergaven** in het canvas van de app-ontwerper en selecteer vervolgens de weergaven **Actieve accounts**, **Alle accounts** en **Mijn actieve accounts**.
+5. Selecteer **Weergaven** in het canvas van de app-ontwerper en selecteer vervolgens de weergaven **Actieve accounts**, **Alle accounts** en **Mijn actieve accounts**.
 
-    ![Accountweergaven](media/build-first-model-driven-app/views.png)
+   ![Accountweergaven](media/build-first-model-driven-app/views.png)
 
 6. Selecteer **Grafieken** in het canvas van de app-ontwerper en selecteer vervolgens de grafiek **Accounts op branche**.
 7. Selecteer in de werkbalk van de app-ontwerper **Opslaan en sluiten**.

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 22b5cf081755f25b3aff33c36137547882fe3812
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: b8b25f5bfa3ddbce7b1c541afb7a935a2fe4aa36
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803462"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898163"
 ---
 # <a name="barcode-scanner-control-experimental-in-powerapps"></a>Besturingselement Streepjescodescanner (experimenteel) in PowerApps
 Een experimenteel besturingselement waarmee de gebruiker foto’s kan maken met behulp van de streepjescodescanner op het apparaat.
@@ -32,19 +32,9 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 
 **[BorderThickness](properties-color-border.md)**: de dikte van de rand van een besturingselement.
 
-**Brightness**: hoeveel licht de gebruiker waarschijnlijk in een foto waarneemt.
-
-**Contrast**: hoe gemakkelijk de gebruiker vergelijkbare kleuren in een foto kan onderscheiden.
-
 **[DisplayMode](properties-core.md)**: of invoer van de gebruiker is toegestaan (**Bewerken**), alleen gegevens worden weergegeven (**Weergeven**) of is uitgeschakeld (**Uitgeschakeld**).
 
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
-
-**[OnSelect](properties-core.md)**: de manier waarop de app reageert wanneer de gebruiker op een besturingselement tikt of klikt.
-
-**OnStream**: hoe de app reageert wanneer de eigenschap **Stream** wordt bijgewerkt.
-
-**Photo**: het beeld dat wordt vastgelegd wanneer de gebruiker een foto maakt.
 
 **ShowLiveBarcodeDetection**: of visuele aanwijzingen worden weergegeven die de status van de streepjescodedetectie aangeven. Gele rechthoeken vertegenwoordigen gebieden die worden onderzocht. Een groene lijn over een rechthoek geeft geslaagde streepjescode-identificatie aan.
 
@@ -63,8 +53,6 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 **[X](properties-size-location.md)**: de afstand tussen de linkerrand van een besturingselement en de linkerrand van de bovenliggende container (het scherm als er geen bovenliggende container is).
 
 **[Y](properties-size-location.md)**: de afstand tussen de bovenrand van een besturingselement en de bovenrand van de bovenliggende container (het scherm als er geen bovenliggende container is).
-
-**Zoom**: het percentage waarmee een foto van een streepjescodescanner wordt vergroot of de weergave van een bestand in een PDF-viewer.
 
 ## <a name="related-functions"></a>Verwante functies
 [**Patch**( *Gegevensbron*, *Basisrecord*, *Wijzigingsrecord* )](../functions/function-patch.md)
@@ -87,4 +75,4 @@ Als u dit besturingselement toevoegt, kan de gebruiker een gegevensbron bijwerke
 * **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
 
     > [!NOTE]
-> Schermlezers melden het wanneer een nieuwe streepjescode is gevonden. De waarde wordt niet gemeld. Zolang de streepjescode in beeld is, wordt u er om de vijf seconden door schermlezers aan herinnerd dat nog steeds dezelfde streepjescode wordt geïdentificeerd.
+  > Schermlezers melden het wanneer een nieuwe streepjescode is gevonden. De waarde wordt niet gemeld. Zolang de streepjescode in beeld is, wordt u er om de vijf seconden door schermlezers aan herinnerd dat nog steeds dezelfde streepjescode wordt geïdentificeerd.

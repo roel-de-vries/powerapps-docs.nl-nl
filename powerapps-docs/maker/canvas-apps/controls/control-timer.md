@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 6d4f8f0393b7cb2d6471f159193327f07e648357
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c175b1b35d063f4e20321c494d5472afa2776990
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836902"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899566"
 ---
 # <a name="timer-control-in-powerapps"></a>Besturingselement voor timer in PowerApps
 Een besturingselement dat kan bepalen hoe uw app reageert nadat een bepaalde hoeveelheid tijd is verstreken.
@@ -165,6 +165,6 @@ Sommige scenario's zijn vrijgesteld van deze vereisten. Meer informatie vindt u 
 * Gebruik **[Text](properties-core.md)** niet voor tijdgebonden en belangrijke informatie. Gebruikers van schermlezers wordt niet gewaarschuwd voor wijzigingen in **[Text](properties-core.md)**.
 
     > [!NOTE]
-> Schermlezers kondigen de verstreken tijd om de vijf seconden aan. De **[Text](properties-core.md)** van de timer wordt echter niet opgenomen in de aankondiging.
+  > Schermlezers kondigen de verstreken tijd om de vijf seconden aan. De **[Text](properties-core.md)** van de timer wordt echter niet opgenomen in de aankondiging.
 
 * U kunt een **[Label](control-text-box.md)** toevoegen om de verstreken tijd weer te geven. Gebruik de **[Text](properties-core.md)** van de timer om de gebruiker de opdracht te geven om de timer te starten of stoppen.

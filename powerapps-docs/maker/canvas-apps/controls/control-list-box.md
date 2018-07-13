@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 24fc5523b2f1d3cced7cdf4af8c30c65d28757a2
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: e43d786cf8eac8bb4ca6b13c953281614559c132
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837867"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899405"
 ---
 # <a name="list-box-control-in-powerapps"></a>Besturingselement voor keuzelijst in PowerApps
 Een lijst waarin de gebruiker een of meer items kan selecteren.
@@ -170,4 +170,4 @@ Dit komt bovenop de [standaardvereisten voor kleurcontrast](../accessible-apps-c
 * De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
 
     > [!NOTE]
-> Met de tab-toets navigeert u naar de **Keuzelijst** of ervan weg. Met de pijltoetsen navigeert u door de inhoud van de **Keuzelijst**.
+  > Met de tab-toets navigeert u naar de **Keuzelijst** of ervan weg. Met de pijltoetsen navigeert u door de inhoud van de **Keuzelijst**.

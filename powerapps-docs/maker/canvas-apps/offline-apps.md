@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 05/09/2017
 ms.author: mblythe
-ms.openlocfilehash: e73324d6cfce5edf7ece0350b2047dc7842373bb
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: d374ec8459f4182b11ecf91e28af24a31bb6c055
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836764"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896829"
 ---
 # <a name="develop-offline-capable-apps-with-powerapps"></a>Apps ontwikkelen die geschikt zijn voor offlinegebruik met PowerApps
 Een van de meest voorkomende scenario's waarmee u als ontwikkelaar van mobiele apps te maken hebt, is uw gebruikers productief te laten zijn wanneer er beperkte of helemaal geen connectiviteit is. PowerApps heeft een reeks functies en gedragingen waarmee u apps kunt ontwikkelen die geschikt zijn voor offlinegebruik. U kunt:
@@ -41,19 +41,19 @@ Om de focus op de offlineaspecten van app-ontwikkeling te houden, zullen we u ee
 Op een hoog niveau doet de app het volgende:
 
 1. Bij het starten van de app (gebaseerd op de eigenschap **OnVisible** op het eerste scherm):
-   
+
    * Als het apparaat online is, verkrijgen we rechtstreeks toegang tot de Twitter-connector om gegevens op te halen en vullen we een verzameling met die gegevens.
    * Als het apparaat offline is, laden we de gegevens uit een lokaal cachebestand met behulp van [LoadData](../canvas-apps/functions/function-savedata-loaddata.md).
    * We stellen de gebruiker in staat tweets in te dienen. Als het apparaat online is, posten we die rechtstreeks op Twitter en vernieuwen we de lokale cache.
 2. Elke 5 minuten (indien online):
-   
+
    * Posten we tweets die in de lokale cache staan.
    * Vernieuwen we de lokale cache en slaan we deze op met behulp van [SaveData](../canvas-apps/functions/function-savedata-loaddata.md).
 
 ### <a name="step-1-create-a-new-phone-app"></a>Stap 1: Een nieuwe telefoon-app maken
 1. Open PowerApps Studio.
 2. Klik of tik op **Nieuw** > **Lege app** > **Telefoonindeling**.
-   
+
     ![Lege app, telefoonindeling](./media/offline-apps/blank-app.png)
 
 ### <a name="step-2-add-a-twitter-connection"></a>Stap 2: Een Twitter-verbinding toevoegen
@@ -63,7 +63,7 @@ Op een hoog niveau doet de app het volgende:
 2. Klik of tik op **Nieuwe verbinding**, selecteer **Twitter** en klik of tik op **Maken**.
 
 3. Voer uw referenties in en maak de verbinding.
-   
+
     ![Een Twitter-verbinding toevoegen](./media/offline-apps/twitter-connection.png)
 
 ### <a name="step-3-load-tweets-into-a-localtweets-collection-on-app-startup"></a>Stap 3: Tweets laden in een LocalTweets-verzameling bij het starten van de app
@@ -127,20 +127,20 @@ Deze formule controleert of het apparaat online is. Zo ja, dan is de tekst van h
 ### <a name="step-7-add-a-button-to-post-the-tweet"></a>Stap 7: Een knop toevoegen om de tweet te posten
 1. Voeg een besturingselement van het type **Knop** toe en stel de eigenschap **Text** in op "Tweet".
 2. Stel de eigenschap **OnSelect** in op de volgende formule:
-   
+
     ```
     If (Connection.Connected,
-   
+
         Twitter.Tweet("", {tweetText: NewTweetTextInput.Text}),
-   
+
         Collect(LocalTweetsToPost, {tweetText: NewTweetTextInput.Text});
-   
+
         SaveData(LocalTweetsToPost, "LocalTweetsToPost")
-   
+
     );
-   
+
     UpdateContext({resetNewTweet: true});
-   
+
     UpdateContext({resetNewTweet: false})
     ```  
 
@@ -159,18 +159,18 @@ Voeg een nieuw besturingselement van het type **Timer** toe:
 * Stel de eigenschap **AutoStart** in op 'true'.
 
 * Stel de eigenschap **OnTimerEnd** in op de volgende formule:
-  
+
     ```
     If(Connection.Connected,
-  
+
         ForAll(LocalTweetsToPost, Twitter.Tweet("", {tweetText: tweetText}));
-  
+
         Clear(LocalTweetsToPost);
-  
+
         Collect(LocalTweetsToPost, {tweetText: NewTweetTextInput.Text});
-  
+
         SaveData(LocalTweetsToPost, "LocalTweetsToPost");
-  
+
         UpdateContext({statusText: "Online data"})
     )
     ```

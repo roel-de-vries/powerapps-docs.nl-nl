@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 6ba2186e7f6618cdaa6eef8073e5f3897628ae8f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c221bae846dba06f83705c52c9cbe2f236ab2007
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838212"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896783"
 ---
 # <a name="sort-and-sortbycolumns-functions-in-powerapps"></a>Functies Sorteren en SorterenOpKolommen in PowerApps
 Sorteert een [tabel](../working-with-tables.md).
@@ -57,7 +57,7 @@ Naast sorteren in oplopende of aflopende volgorde, kan **SorterenOpKolommen** so
 * *Sorteervolgorde(n)* - optioneel.  **Sorteervolgorde.Oplopend** of **Sorteervolgorde.Aflopend**.  **Sorteervolgorde.Oplopend** is de standaardinstelling.  Als meerdere *Kolomnamen* worden opgegeven, moeten alle kolommen behalve de laatste een *Sorteervolgorde* bevatten.
   
     > [!NOTE]
-> Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
+  > Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
 
 **SorterenOpKolommen**( *Tabel*, *NaamKolom*, *SorteervolgordeTabel* )
 
@@ -66,7 +66,7 @@ Naast sorteren in oplopende of aflopende volgorde, kan **SorterenOpKolommen** so
 * *SorteervolgordeTabel* - vereist.  Eén kolomtabel met waarden om op te sorteren.
   
     > [!NOTE]
-> Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
+  > Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
 
 ## <a name="examples"></a>Voorbeelden
 Voor de volgende voorbeelden gebruiken we de [gegevensbron](../working-with-data-sources.md) **IJsjes**, die de gegevens in deze tabel bevat:

@@ -3,7 +3,7 @@ title: Functies Back en Navigate | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis en voorbeelden, voor de functies Navigate en Back in PowerApps
 documentationcenter: na
 author: gregli-msft
-manager: kfile
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: powerapps
@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/08/2015
 ms.author: gregli
-ms.openlocfilehash: ecb8b8176dd8489866a5ca88a6b69e1520c3ad69
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: e00ee9b3a58bf3255b9f581f405381af05aa07f9
+ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31834453"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37948567"
 ---
 # <a name="back-and-navigate-functions-in-powerapps"></a>De functies Back en Navigate in PowerApps
 Wijzigen welk scherm wordt weergegeven.
@@ -63,6 +63,7 @@ U kunt deze functies alleen gebruiken binnen een [gedragsformule](../working-wit
 * *UpdateContextRecord* - optioneel.  Een record die de naam bevat van ten minste één kolom en een waarde voor elke kolom. Deze record werkt de contextvariabelen van het nieuwe scherm bij alsof het is doorgegeven aan de functie **[UpdateContext](function-updatecontext.md)**.
 
 ## <a name="examples"></a>Voorbeelden
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **Navigate( Details, ScreenTransition.None )** |Geeft het scherm **Details** weer zonder overgang en zonder de waarde van een contextvariabele te wijzigen. |Het scherm **Details** wordt snel weergegeven. |

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 09/13/2016
 ms.author: gregli
-ms.openlocfilehash: 4d255ec8015caaec1ce066e646c6506c182dc722
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 32739ea0e6ce2caa74794c1b861ba95a2f349a83
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837729"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896461"
 ---
 # <a name="acos-acot-asin-atan-atan2-cos-cot-degrees-pi-radians-sin-and-tan-functions-in-powerapps"></a>De functies Acos, Acot, Asin, Atan, Atan2, Cos, Cot, Degrees, Pi, Radians, Sin en Tan in PowerApps
 Hiermee berekent u trigonometrische waarden.
@@ -92,6 +92,7 @@ Als een argument tot een niet-gedefinieerde waarde zou leiden, is het resultaat 
 
 ## <a name="examples"></a>Voorbeelden
 ### <a name="single-number"></a>Eén getal
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **Cos(&nbsp;1,047197&nbsp;)** |Retourneert de cosinus van 1,047197 radialen of 60 graden. |0,5 |

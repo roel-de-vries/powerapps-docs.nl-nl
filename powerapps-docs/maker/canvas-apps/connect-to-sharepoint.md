@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 09/03/2016
 ms.author: anneta
-ms.openlocfilehash: 16c585f553373faee609683774e7938e8bd165f1
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ca359f550d81a73f448ce18d94d0d36efceb839b
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31824585"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897395"
 ---
 # <a name="create-a-connection-to-sharepoint-from-powerapps"></a>Een verbinding met SharePoint maken vanuit PowerApps
 Maak een verbinding naar SharePoint Online of naar on-premises SharePoint zodat u automatisch een app kunt genereren of om een volledig nieuwe app te bouwen.
@@ -61,7 +61,7 @@ Op het moment van schrijven ondersteunt PowerApps aangepaste lijsten, maar geen 
     ![SharePoint on-premises kiezen](./media/connect-to-sharepoint/choose-onprem.png)
 
     > [!NOTE]
-> Gateways en on-premises verbindingen kunnen alleen worden gemaakt en gebruikt in de [standaardomgeving](working-with-environments.md) van de gebruiker.
+   > Gateways en on-premises verbindingen kunnen alleen worden gemaakt en gebruikt in de [standaardomgeving](working-with-environments.md) van de gebruiker.
 
 2. Geef uw gebruikersnaam en wachtwoord op.
 

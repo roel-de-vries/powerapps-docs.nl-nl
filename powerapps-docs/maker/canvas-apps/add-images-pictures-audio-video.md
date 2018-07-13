@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 07/12/2017
 ms.author: sharik
-ms.openlocfilehash: 4d622eb6cdfaed91547a59be8f5a5dc6651957e5
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: d193c2691f689e935a5dbb92767a16d393098770
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330900"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896737"
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>Multimediabestanden gebruiken in PowerApps
 In dit onderwerp wordt beschreven hoe u multimediabestanden insluit in uw app, hoe u pentekeningen uploadt naar een gegevensbron en hoe u afbeeldingen van een gegevensbron weergeeft in uw app. De gegevensbron die in dit onderwerp wordt gebruikt is een Excel-bestand in OneDrive voor Bedrijven.
@@ -48,14 +48,14 @@ U kunt kiezen welk type mediabestand u toevoegt (bijvoorbeeld afbeeldingen, vide
     ![De afbeeldingseigenschap instellen](./media/add-images-pictures-audio-video/imageproperty.png)
 
     > [!NOTE]
-> Geef alleen de bestandsnaam op, zonder extensie, tussen enkele aanhalingstekens.
+   > Geef alleen de bestandsnaam op, zonder extensie, tussen enkele aanhalingstekens.
 
 7. Als u een video- of audiobesturingselement hebt toegevoegd, stelt u de eigenschap **Media** in op het bestand dat u hebt toegevoegd:  
 
     ![De media-eigenschap instellen](./media/add-images-pictures-audio-video/mediaproperty.png)
 
     > [!NOTE]
-> U kunt een YouTube-video afspelen door de eigenschap **Media** van een videobesturingselement in te stellen op de geschikte URL, tussen dubbele aanhalingstekens.
+   > U kunt een YouTube-video afspelen door de eigenschap **Media** van een videobesturingselement in te stellen op de geschikte URL, tussen dubbele aanhalingstekens.
 
 ## <a name="add-media-from-azure-media-services"></a>Media toevoegen vanuit Azure Media Services
 1. Upload en publiceer uw video-asset vanuit uw Azure Media Services-account via **AMS > Instellingen > Assets**.

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 05/23/2017
 ms.author: gregli
-ms.openlocfilehash: eaf538c1189dffd8fb2169f3eda3f525bcf623de
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 26991baa1feb1ef4821beaf791454def21960d4f
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31832023"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896622"
 ---
 # <a name="dateadd-datediff-and-timezoneoffset-functions-in-powerapps"></a>Functies DateAdd, DateDiff en TimeZoneOffset in PowerApps
 Zoekt het verschil in datum-/tijdwaarden of voegt deze toe en schakelt tussen lokale tijd en UTC.
@@ -56,6 +56,7 @@ Zie ook [Werken met datums en tijden](../show-text-dates-times.md) voor meer inf
 In al deze voorbeelden wordt ervan uitgegaan dat de huidige datum en tijd **15 juli 2013, 13:02** is.
 
 ### <a name="simple-dateadd"></a>Eenvoudige DateAdd
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **Text( DateAdd( Now(), 3 ),<br>"dd-mm-yyyy hh:mm" )** |Voegt drie dagen (standaardeenheden) toe aan de huidige datum en tijd. |'18-07-2013 13:02' |
@@ -64,6 +65,7 @@ In al deze voorbeelden wordt ervan uitgegaan dat de huidige datum en tijd **15 j
 | **Text( DateAdd( Now(), &#8209;30, Minutes ),<br>"dd-mm-yyyy hh:mm" )** |Trekt 30 minuten af van de huidige datum en tijd. |'15-07-2013 12:32' |
 
 ### <a name="simple-datediff"></a>Eenvoudige DateDiff
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **DateDiff( Now(), DateValue("1/1/2014") )** |Retourneert het verschil tussen de twee eenheden in de standaardeenheid **dagen** |170 |

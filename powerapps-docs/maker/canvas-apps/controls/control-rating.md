@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 1df75e5de1f0d8a2515b4dcf761593145d72f70a
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 2cdf88c21e9cd8dd957fa5cf704280df325e85fd
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31834648"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898301"
 ---
 # <a name="rating-control-in-powerapps"></a>Besturingselement voor waardering in PowerApps
 Een besturingselement waarmee gebruikers een waarde kunnen opgeven tussen 1 en een maximumwaarde die u instelt.
@@ -105,7 +105,7 @@ Dit komt bovenop de [standaardvereisten voor kleurcontrast](../accessible-apps-c
 * **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
 
     > [!NOTE]
-> Schermlezers behandelen het besturingselement **Waardering** als keuzerondjes.
+  > Schermlezers behandelen het besturingselement **Waardering** als keuzerondjes.
 
 ### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
 * **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
@@ -113,4 +113,4 @@ Dit komt bovenop de [standaardvereisten voor kleurcontrast](../accessible-apps-c
 * U kunt ook een ander besturingselement gebruiken als er te veel sterren zijn. Het kan omslachtig zijn om te navigeren met een toetsenbord en lastig om nauwkeurig te selecteren met een aanraakscherm.
 
     > [!NOTE]
-> Dezelfde toetsenbordinteracties voor keuzerondjes kunnen worden gebruikt voor **Waardering**.
+  > Dezelfde toetsenbordinteracties voor keuzerondjes kunnen worden gebruikt voor **Waardering**.

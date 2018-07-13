@@ -2,18 +2,21 @@
 title: 'Snelstart: Een app toevoegen aan Microsoft Teams | Microsoft Docs'
 description: In deze snelstart wordt uitgelegd hoe u een app toevoegt aan een Microsoft Teams-kanaal zodat gebruikers met wie u de app hebt gedeeld, de app via dat kanaal kunnen openen.
 author: mgblythe
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: quickstart
 ms.date: 01/18/2018
-ms.author: mblythe
-ms.openlocfilehash: 9c670a61f89b8bf038bae117614895f18101fe0c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.author: matp
+ms.custom: ''
+ms.reviewer: ''
+ms.assetid: ''
+ms.openlocfilehash: 07543d1724ff2272dfa4e1902d2581fa5034360a
+ms.sourcegitcommit: bcfefb30b12cf94815dd9a0fd8cad29a8272d96e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34074125"
+ms.lasthandoff: 07/09/2018
+ms.locfileid: "37925680"
 ---
 # <a name="quickstart-add-an-app-to-microsoft-teams"></a>Snelstartgids: Een app toevoegen aan Microsoft Teams
 
@@ -29,7 +32,7 @@ Als u deze snelstartgids wilt volgen, moet u over een [Office 365-abonnement](ht
 
 ## <a name="sign-in-to-powerapps"></a>Meld u aan bij PowerApps
 
-Meld u aan bij PowerApps op [https://web.powerapps.com]([https://web.powerapps.com).
+Meld u aan bij PowerApps op [https://web.powerapps.com](https://web.powerapps.com).
 
 ## <a name="add-an-app"></a>Een app toevoegen
 

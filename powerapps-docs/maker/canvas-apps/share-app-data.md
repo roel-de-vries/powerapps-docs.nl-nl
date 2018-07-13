@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: 8a763565ff8b48f95f68bdfd91fc21382ad9338f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 8c96a83ae67a8a06aa96b4f4ba091e361430683d
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827822"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896116"
 ---
 # <a name="share-excel-data-used-by-your-app"></a>Excel-gegevens delen die worden gebruikt door uw app
 U kunt Excel-gegevens delen met uw app-gebruikers via een [cloud-account](connections/cloud-storage-blob-connections.md), zoals OneDrive.
@@ -48,7 +48,7 @@ Zie voor meer informatie [Sharing folders on Dropbox (mappen delen op Dropbox)](
     ![Opdracht Delen](./media/share-app-data/onedrive-share.png)
    
     > [!NOTE]
-> In OneDrive voor Bedrijven deelt u het bestand zelf, niet de map met het bestand.
+   > In OneDrive voor Bedrijven deelt u het bestand zelf, niet de map met het bestand.
 3. Selecteer in het dialoogvenster **E-mail**.
    
     ![Delen via e-mail](./media/share-app-data/onedrive-email.png)

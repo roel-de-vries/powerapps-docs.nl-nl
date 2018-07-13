@@ -7,12 +7,12 @@ ms.component: cds
 ms.topic: quickstart
 ms.date: 05/01/2018
 ms.author: matp
-ms.openlocfilehash: ecbdc81b2688ee9aabf5e0df6416212957ca2642
-ms.sourcegitcommit: 222df368f1f35e9357b0b1adf0e69d7206d8126e
+ms.openlocfilehash: 45a341d28b4138ce03ce50d7325f9daa0f159d1a
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36298487"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897427"
 ---
 # <a name="quickstart-create-a-custom-entity"></a>Snelstartgids: Een aangepaste entiteit maken
 In PowerApps definieert een *entiteit* de gegevens die u wilt bijhouden in de vorm van records, waaronder doorgaans eigenschappen zoals de bedrijfsnaam, locatie, producten, e-mailadres en telefoonnummer. Vervolgens kunt u die gegevens weergeven door een app te ontwikkelen die naar de entiteit verwijst. PowerApps biedt kant-en-klare standaardentiteiten die geschikt zijn voor gebruikelijke scenario's binnen een organisatie (zoals het volgen van afspraken), maar er zijn situaties waarin u wellicht aangepaste entiteiten wilt maken om specifieke gegevens van uw organisatie op te slaan.
@@ -38,10 +38,10 @@ Meld u aan bij PowerApps in [https://web.powerapps.com](https://web.powerapps.co
 
 3. Voer in het deelvenster **Nieuwe entiteit** in het vak **Weergavenaam** de naam **Productbeoordeling** in en voer vervolgens een beschrijving in (optioneel; een beschrijving is nuttig als anderen deze entiteit gaan gebruiken). Andere velden in het deelvenster worden automatisch ingevuld, zoals hieronder wordt beschreven. Klik op **Volgende** zodra u klaar bent.
 
-    * **Weergavenaam in meervoud**: dit veld wordt automatisch ingevuld wanneer u een weergavenaam invult, maar u kunt dit desgewenst wijzigen. De weergavenaam in meervoud is de naam van de entiteit in de Common Data Service WebAPI. Deze naam wordt gebruikt wanneer u vanuit PowerApps of Flow met deze entiteit werkt.
-    * **Naam**: dit veld wordt ook automatisch ingevuld wanneer u een weergavenaam invoert. Het voorvoegsel is ingesteld op het moment dat de omgeving is gemaakt en zorgt ervoor dat de entiteiten die u maakt, kunnen worden geëxporteerd en geïmporteerd naar andere omgevingen zonder conflicten met andere entiteitsnamen. U kunt dit voorvoegsel wijzigen door het voorvoegsel van de uitgever van de Common Data Service-standaardoplossing bij te werken. Als u fouten met bestaande apps wilt voorkomen, moet u de naam niet wijzigen nadat u de entiteit hebt opgeslagen.
+   * **Weergavenaam in meervoud**: dit veld wordt automatisch ingevuld wanneer u een weergavenaam invult, maar u kunt dit desgewenst wijzigen. De weergavenaam in meervoud is de naam van de entiteit in de Common Data Service WebAPI. Deze naam wordt gebruikt wanneer u vanuit PowerApps of Flow met deze entiteit werkt.
+   * **Naam**: dit veld wordt ook automatisch ingevuld wanneer u een weergavenaam invoert. Het voorvoegsel is ingesteld op het moment dat de omgeving is gemaakt en zorgt ervoor dat de entiteiten die u maakt, kunnen worden geëxporteerd en geïmporteerd naar andere omgevingen zonder conflicten met andere entiteitsnamen. U kunt dit voorvoegsel wijzigen door het voorvoegsel van de uitgever van de Common Data Service-standaardoplossing bij te werken. Als u fouten met bestaande apps wilt voorkomen, moet u de naam niet wijzigen nadat u de entiteit hebt opgeslagen.
      
-    ![Nieuwe entiteit](./media/data-platform-cds-create-entity/newentitypanel.png "deelvenster Nieuwe entiteit")
+     ![Nieuwe entiteit](./media/data-platform-cds-create-entity/newentitypanel.png "deelvenster Nieuwe entiteit")
 
 4. Klik of tik op de pagina met entiteitsdetails op het veld **Primaire naam** om het deelvenster **Primaire naam** te openen. Vervang daarna in het vak **Weergavenaam** de optie **Primaire naam** door **Productbeoordeling**. In het vak **Naam** vervangt u **Primaire naam** door **Productbeoordeling**. Klik of tik daarna op **Gereed**.
  
@@ -66,15 +66,15 @@ Meld u aan bij PowerApps in [https://web.powerapps.com](https://web.powerapps.co
     ![Nieuw veld](./media/data-platform-cds-create-entity/newfieldpanel-2.png "Deelvenster Nieuw veld")
 
 6. Herhaal de vorige stappen om nog drie velden toe te voegen met de volgende configuratie:
-    * **Weergavenaam** = Productbeoordeling; **Gegevenstype** = geheel getal; klik of tik op het selectievakje **Vereist**
-    * **Weergavenaam** = Naam beoordelaar; **Gegevenstype** = tekst
-    * **Weergavenaam** = Opmerking van beoordelaar; **Gegevenstype** = tekst
+   * **Weergavenaam** = Productbeoordeling; **Gegevenstype** = geheel getal; klik of tik op het selectievakje **Vereist**
+   * **Weergavenaam** = Naam beoordelaar; **Gegevenstype** = tekst
+   * **Weergavenaam** = Opmerking van beoordelaar; **Gegevenstype** = tekst
 
-    Als u klaar bent, moet de pagina met entiteitsdetails vijf velden bevatten.
+     Als u klaar bent, moet de pagina met entiteitsdetails vijf velden bevatten.
 
-    ![Veldenlijst](./media/data-platform-cds-create-entity/addedfields.png "Lijst met velden")
+     ![Veldenlijst](./media/data-platform-cds-create-entity/addedfields.png "Lijst met velden")
 
-    Alle entiteiten hebben systeemvelden die alleen-lezen zijn. Standaard worden systeemvelden niet weergegeven in de lijst met velden, hoewel ze zich wel in de entiteit bevinden. Voor een overzicht van alle velden kunt u het filter in de opdrachtbalk wijzigen van **Standaard** in **Alles**. Zie [Metagegevens van entiteiten](../../developer/common-data-service/entity-metadata.md) voor meer informatie over de metagegevens die zijn gerelateerd aan een entiteit.
+     Alle entiteiten hebben systeemvelden die alleen-lezen zijn. Standaard worden systeemvelden niet weergegeven in de lijst met velden, hoewel ze zich wel in de entiteit bevinden. Voor een overzicht van alle velden kunt u het filter in de opdrachtbalk wijzigen van **Standaard** in **Alles**. Zie [Metagegevens van entiteiten](../../developer/common-data-service/entity-metadata.md) voor meer informatie over de metagegevens die zijn gerelateerd aan een entiteit.
 
 7. Klik op **Entiteit opslaan**om uw entiteit op te slaan en om deze beschikbaar te maken voor gebruik in apps.
 

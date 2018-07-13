@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 09/28/2017
 ms.author: sharik
-ms.openlocfilehash: 60ec1fc7f896aeb3391ed794920e987b232d09f3
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9b2c07e8599ada76aa2f2195fc1240321ed02ef9
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31833483"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898209"
 ---
 # <a name="show-a-list-of-items-in-powerapps"></a>Een lijst met items weergeven in PowerApps
 U kunt een lijst met items van een gegevensbron weergeven door het besturingselement **[Galerie](controls/control-gallery.md)** toe te voegen aan uw app. In dit onderwerp wordt Excel gebruikt als gegevensbron. Filter de lijst door het besturingselement **Galerie** zodanig te configureren dat alleen de items die voldoen aan het filtercriterium worden weergegeven in een besturingselement **[Tekstinvoer](controls/control-text-input.md)**.
@@ -52,7 +52,7 @@ U kunt een lijst met items van een gegevensbron weergeven door het besturingsele
 7. Klik of tik op **Lijstscherm** om een scherm toe te voegen met een besturingselement **Galerie** en andere besturingselementen, zoals een zoekbalk.
 
     > [!NOTE]
-> Of u nu een **Galerie**-besturingselement toevoegt aan een nieuw of een bestaand scherm, u kunt in de buurt van de onderkant van het **Galerie**-besturingselement klikken of tikken om het te selecteren. Daarna kunt u in het rechterdeelvenster op **Flooring Estimates** klikken of tikken en vervolgens op een andere indeling in het venster **Gegevens** klikken of tikken. In deze zelfstudie gebruikt u de standaardindeling.
+   > Of u nu een **Galerie**-besturingselement toevoegt aan een nieuw of een bestaand scherm, u kunt in de buurt van de onderkant van het **Galerie**-besturingselement klikken of tikken om het te selecteren. Daarna kunt u in het rechterdeelvenster op **Flooring Estimates** klikken of tikken en vervolgens op een andere indeling in het venster **Gegevens** klikken of tikken. In deze zelfstudie gebruikt u de standaardindeling.
 
     ![De galerie-indeling kiezen](./media/add-gallery/select-layout.png)
 

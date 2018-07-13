@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 05/25/2017
 ms.author: sharik
-ms.openlocfilehash: dde430d6174af5be75a4fc8ae13dabd6f3759899
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: fcb482844e430444fd95bb2d0c85a8da23c91d84
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837252"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897726"
 ---
 # <a name="gallery-control-in-powerapps"></a>Besturingselement voor galerie in PowerApps
 Een besturingselement dat andere besturingselementen bevat en waarin een reeks gegevens wordt weergegeven.
@@ -107,11 +107,11 @@ Als iets moet worden geselecteerd wanneer ergens in een galerij-item wordt gekli
 * **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
 
     > [!NOTE]
-> Schermlezers melden het als items in de galerie wijzigen. Het **AccessibleLabel** wordt ook genoemd. Dit geeft de aankondiging context en is zelfs belangrijker wanneer er meerdere galerieën op hetzelfde scherm staan.
+  > Schermlezers melden het als items in de galerie wijzigen. Het **AccessibleLabel** wordt ook genoemd. Dit geeft de aankondiging context en is zelfs belangrijker wanneer er meerdere galerieën op hetzelfde scherm staan.
 
 ### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
 * U kunt **ShowScrollbar** instellen op **true**. Op de meeste apparaten met aanraakscherm wordt de schuifbalk pas weergegeven wanneer er wordt geschoven.
 * Als iets moet worden geselecteerd als ergens in een galerij-item wordt geklikt, moeten toetsenbordgebruikers het galerie-item ook kunnen selecteren. Voeg bijvoorbeeld een **[Knop](control-button.md)** toe waarvan de eigenschap **OnSelect** is ingesteld op **Select(Parent)**.
 
     > [!NOTE]
-> Besturingselementen buiten de galerie worden niet meegenomen in de toetsenbordnavigatievolgorde binnen de galerie. **[TabIndex](properties-accessibility.md)** van besturingselementen in een galerie, vallen binnen het bereik. Zie [eigenschappen voor toegankelijkheid](properties-accessibility.md) voor meer informatie.
+  > Besturingselementen buiten de galerie worden niet meegenomen in de toetsenbordnavigatievolgorde binnen de galerie. **[TabIndex](properties-accessibility.md)** van besturingselementen in een galerie, vallen binnen het bereik. Zie [eigenschappen voor toegankelijkheid](properties-accessibility.md) voor meer informatie.

@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: e4c2f78fb00e726bd0b0bf3cde4fe4f42d40dddc
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ed4e83fab0cf5a08c4b274863f11070471fc44a4
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330877"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898698"
 ---
 # <a name="get-started-with-formulas"></a>Aan de slag met formules
 Configureer de app met formules die niet alleen waarden kunnen berekenen en andere taken uitvoeren (zoals in Excel), maar ook reageren op invoer van gebruikers (zoals van een app vereist).
@@ -70,7 +70,7 @@ In Excel kunt u bepaalde gegevens, zoals het getal **42** of de woorden **Hello 
     In Excel kunt u een getal weergeven, bijvoorbeeld **42**, door het in een cel te typen of door een formule te typen die dat getal als resultaat geeft, bijvoorbeeld **=SOM(30;12)**. In PowerApps kunt u hetzelfde resultaat bereiken door de eigenschap **Text** van een besturingselement, zoals een label, in te stellen op **42** of **Sum(30,12)**. In de cel en het label wordt dit getal altijd weergegeven, ongeacht overige wijzigingen aan het werkblad of de app.
    
     > [!NOTE]
-> In PowerApps wordt een formule niet voorafgegaan door een gelijkteken of een plusteken, zoals in Excel wel het geval is. De formulebalk beschouwt alles wat u erin typt standaard als een formule. Een formule wordt ook niet ingesloten tussen dubbele aanhalingstekens (") zoals u gewend bent bij het invoeren van een tekenreeks of tekst.
+   > In PowerApps wordt een formule niet voorafgegaan door een gelijkteken of een plusteken, zoals in Excel wel het geval is. De formulebalk beschouwt alles wat u erin typt standaard als een formule. Een formule wordt ook niet ingesloten tussen dubbele aanhalingstekens (") zoals u gewend bent bij het invoeren van een tekenreeks of tekst.
 5. Vervang in de eigenschap **[Text](controls/properties-core.md)** van het label **Hello World** door **Sum(1,2,3)**.
    
     ![Het gedeeltelijke Som(1;2;3 typen zonder haakje sluiten, veroorzaakt een fout](./media/working-with-formulas/label-sum-partial.png)
@@ -98,7 +98,7 @@ In Excel kunt u voorwaardelijke opmaak gebruiken om bijvoorbeeld negatieve waard
 1. Stel de eigenschap **[Color](controls/properties-color-border.md)** van het label in op deze formule:<br>**Als( Waarde(Tekstvak1.Tekst) < 0, Rood, Zwart )**
    
     > [!NOTE]
-> Geef in een formule de eigenschap van een besturingselement op door de naam van het besturingselement op te geven, gevolgd door een punt, gevolgd door de naam van de eigenschap. Voorbeeld: geef de eigenschap **[Tekst](controls/properties-core.md)** van **Tekstvak1** op door **Tekstvak1.Tekst** te typen.
+   > Geef in een formule de eigenschap van een besturingselement op door de naam van het besturingselement op te geven, gevolgd door een punt, gevolgd door de naam van de eigenschap. Voorbeeld: geef de eigenschap **[Tekst](controls/properties-core.md)** van **Tekstvak1** op door **Tekstvak1.Tekst** te typen.
    
     ![Voorbeeld van een herberekening in PowerApps waarbij de kleur van een label wordt gewijzigd op basis van de waarde](./media/working-with-formulas/recalc-color1.png)
 2. Geef in **Tekstinvoer1** en **Tekstinvoer2** twee getallen op die opgeteld tot een negatieve waarde leiden.

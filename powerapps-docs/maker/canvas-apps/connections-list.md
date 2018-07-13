@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 08/28/2017
 ms.author: lanced
-ms.openlocfilehash: dc68b0f404c2a8d636deb4e77c2ada4582ed3a37
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: baa4c71efb54cea6f04cd45b895009a3c3ce17c7
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836741"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899290"
 ---
 # <a name="overview-of-connectors-for-powerapps"></a>Overzicht van connectors voor PowerApps
 Gegevens vormen de kern van de meeste apps, inclusief de oplossingen die u zelf in PowerApps bouwt. Gegevens worden opgeslagen in een *gegevensbron* en u brengt die gegevens naar uw app door een *verbinding* te maken. De verbinding maakt gebruikt van een specifieke *connector* om te communiceren met de gegevensbron. PowerApps bevat connectors voor veel populaire services en on-premises gegevensbronnen, waaronder SharePoint, SQL Server, Office 365, Salesforce, Twitter en meer. Om te gegevens toe te voegen aan een app, raadpleegt u [Een gegevensverbinding toevoegen in PowerApps](add-data-connection.md).
@@ -46,7 +46,7 @@ Standaard-connectors gedragen zich anders, afhankelijk van het type gegevensbron
     [Een volledig nieuwe app maken](get-started-create-from-blank.md)
 
     > [!NOTE]
-> Als u verbinding wilt maken met gegevens in Excel, moet de werkmap worden gehost in een cloudopslagservice, zoals OneDrive. Zie voor meer informatie [Verbinding maken met cloudopslag vanuit PowerApps](connections/cloud-storage-blob-connections.md).
+  > Als u verbinding wilt maken met gegevens in Excel, moet de werkmap worden gehost in een cloudopslagservice, zoals OneDrive. Zie voor meer informatie [Verbinding maken met cloudopslag vanuit PowerApps](connections/cloud-storage-blob-connections.md).
 
 * Andere connectors werken met gegevensbronnen op basis van functie, zoals Twitter, Facebook en Office 365 Outlook. Als u met deze gegevensbronnen werkt, worden gegevens naar PowerApps geretourneerd door specifieke functies in de onderliggende service aan te roepen. Met de Twitter-connector kunt u bijvoorbeeld `Twitter.MyFollowers()` aanroepen om een lijst met uw volgers te retourneren. U kunt deze gegevens ook in een formulier of galerie gebruiken, maar dat vereist meer werk dan het bij tabelgegevens kost. Zie voor meer informatie [Verbinding maken met Twitter vanuit PowerApps](connections/connection-twitter.md).
 

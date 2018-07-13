@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2017
 ms.author: lanced
-ms.openlocfilehash: c375429b7ac2341766c36ca58e1bbf3c78c9a6d1
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 7c5d4f71c44c4bf247874fbbe901731b269feabd
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803392"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898515"
 ---
 # <a name="connect-to-microsoft-translator-from-powerapps"></a>Verbinding maken met Microsoft Translator vanuit PowerApps
 ![Microsoft Translator](./media/connection-microsoft-translator/translatoricon.png)
@@ -28,46 +28,46 @@ In dit onderwerp wordt uitgelegd hoe u de Microsoft Translator-verbinding maakt 
 
 ## <a name="connect-to-microsoft-translator"></a>Verbinden met Microsoft Translator
 1. Open PowerApps, selecteer **Nieuw** en maak vervolgens een **lege app**. Kies de telefoon- of tabletindeling. De tabletindeling biedt meer werkruimte:  
-   
+
    ![Een lege app openen](./media/connection-microsoft-translator/blank-app.png)
 2. Klik of tik in het rechterdeelvenster op het tabblad **Gegevens** en klik of tik vervolgens op **Gegevensbron toevoegen**.
 3. Selecteer **Nieuwe verbinding** en selecteer vervolgens **Microsoft Translator**:  
-   
+
     ![Verbinden met Microsoft Translator](./media/connection-microsoft-translator/addconnection.png)
-   
+
     ![Verbinden met Microsoft Translator](./media/connection-microsoft-translator/add-translator.png)
 4. Selecteer **Verbinden**. De verbinding wordt weergegeven onder **Gegevensbronnen**:  
-   
+
     ![Verbinden met Microsoft Translator](./media/connection-microsoft-translator/translatordatasource.png)
 
 ## <a name="use-the-microsoft-translator-connection-in-your-app"></a>De Microsoft Translator-verbinding gebruiken in uw app
 ### <a name="translate-text"></a>Tekst vertalen
 1. Selecteer **Text** in het menu **Insert** en selecteer vervolgens **Text input**. Wijzig de naam van het besturingselement voor tekstinvoer in **Source**:  
-   
+
     ![Naam wijzigen](./media/connection-microsoft-translator/renametosource.png)
 2. Voeg een **vervolgkeuzelijst** toe (menu **Invoegen** > **Besturingselementen**), wijzig de naam in **TargetLang** en plaats deze onder **Source**.
 3. Stel de eigenschap **[Items](../controls/properties-core.md)** van **TargetLang** in op de volgende formule:  
-   
+
     `MicrosoftTranslator.Languages()`
 4. Voeg een label toe, plaats dit onder **TargetLang** en stel de eigenschap **[Text](../controls/properties-core.md)** in op de volgende formule:  
-   
+
     `MicrosoftTranslator.Translate(Source.Text, TargetLang.Selected.Value)`
 5. Typ tekst in het vak **Source** en selecteer een taal in **TargetLang**. In het label wordt de tekst die u hebt ingevoerd, weergegeven in de gekozen taal:  
-   
+
     ![Tekst vertalen van het Engels naar het Spaans](./media/connection-microsoft-translator/translate-text.png)
 
 ### <a name="speak-translated-text"></a>Vertaalde tekst uitspreken
 Als u dat nog niet hebt gedaan, voert u de stappen in de vorige sectie uit om tekst te vertalen. In de volgende stappen worden dezelfde besturingselementen gebruikt.
 
 1. Stel de eigenschap **[Items](../controls/properties-core.md)** van de vervolgkeuzelijst **TargetLang** in op de volgende formule:  
-   
+
     `MicrosoftTranslator.SpeechLanguages()`
 2. Wijzig de naam van het tweede label (niet het vak **Source**) in **Target**.
 3. Voeg een **audio**besturingselement toe (menu **Invoegen** > **Media**) en stel de eigenschap **Media** in op de volgende formule:  
-   
+
     `MicrosoftTranslator.TextToSpeech(Target.Text, TargetLang.Selected.Value)`
 4. Druk op F5 of selecteer de knop Voorbeeld (![](./media/connection-microsoft-translator/preview.png)). Typ tekst in het vak **Source**, selecteer een taal in **TargetLang** en selecteer vervolgens de afspeelknop in het audiobesturingselement.
-   
+
     De app speelt een audioversie van de ingevoerde tekst af in de gekozen taal.
 5. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
@@ -75,10 +75,10 @@ Als u dat nog niet hebt gedaan, voert u de stappen in de vorige sectie uit om te
 In de volgende stappen worden dezelfde tekstbesturingselementen **Source** en **Target** gebruikt. U kunt desgewenst nieuwe besturingselementen maken door enkel de namen in de formule bij te werken.
 
 1. Selecteer het tekstbesturingselement **Target** en stel de eigenschap **[Text](../controls/properties-core.md)** in op de volgende formule:  
-   
+
     `MicrosoftTranslator.Detect(Source.Text).Name`
 2. Typ tekst in **Source**.
-   
+
     Het label geeft de taal aan van de tekst die u hebt getypt. Het label geeft bijvoorbeeld **Frans** aan als u **bonjour** typt of **Italiaans** als u **ciao** typt.
 
 ## <a name="view-the-available-functions"></a>De beschikbare functies weergeven
@@ -99,6 +99,7 @@ Get languages: hiermee worden alle talen opgehaald die Microsoft Translator onde
 Geen.
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | Coderen |Tekenreeks |Nee | |
@@ -108,6 +109,7 @@ Geen.
 Tekst vertalen: vertaalt tekst naar een opgegeven taal met Microsoft Translator
 
 #### <a name="input-properties"></a>Invoereigenschappen
+
 | Naam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | query |Tekenreeks |Ja |Te vertalen tekst |
@@ -122,11 +124,13 @@ Geen.
 Taal detecteren: detecteert de brontaal van de tekst
 
 #### <a name="input-properties"></a>Invoereigenschappen
+
 | Naam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | query |Tekenreeks |Ja |Tekst waarvan de taal wordt geïdentificeerd |
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | Coderen |Tekenreeks |Nee | |
@@ -139,6 +143,7 @@ Talen voor spraak ophalen: hiermee worden de beschikbare talen voor spraaksynthe
 Geen.
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | Coderen |Tekenreeks |Nee | |
@@ -148,6 +153,7 @@ Geen.
 Tekst-naar-spraak: zet een opgegeven tekst om in spraak als een audiostream in de wave-indeling
 
 #### <a name="input-properties"></a>Invoereigenschappen
+
 | Naam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | query |Tekenreeks |Ja |Te converteren tekst |

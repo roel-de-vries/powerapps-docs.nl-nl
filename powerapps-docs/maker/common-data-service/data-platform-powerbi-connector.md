@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: clwesene
-ms.openlocfilehash: d8323eb103751a1be78aeea0093b9d6651ddc3e2
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: bb0bec7cf459eb9084aea4db7264350b7913e578
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445849"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898741"
 ---
 # <a name="create-a-power-bi-report"></a>Een Power BI-rapport maken
 Met Common Data Service voor apps kunt u met behulp van Power BI Desktop rechtstreeks verbinding maken met uw gegevens om rapporten te maken en deze te publiceren in Power BI. Vanuit Power BI kunnen rapporten worden gebruikt in dashboards, gedeeld met andere gebruikers en platformoverschrijdend worden geopend op mobiele Power BI-apps.
@@ -57,11 +57,11 @@ Als u Power BI wilt gebruiken met de Common Data Service voor apps, hebt u het v
 
 4. In de navigator ziet u alle entiteiten die beschikbaar zijn voor uw omgeving gegroepeerd in drie mappen. Vouw de map **Common Data Model** uit.
 
-    * Common Data Model: dit zijn standaardentiteiten die veel worden gebruikt en beschikbaar zijn in alle omgevingen als onderdeel van het Common Data Model.
-    * Aangepaste entiteiten: dit zijn entiteiten die u hebt gemaakt of geïmporteerd in uw omgeving.
-    * Systeem: bevat alle entiteiten in uw omgeving, inclusief de entiteiten Common Data Model Aangepast.
+   * Common Data Model: dit zijn standaardentiteiten die veel worden gebruikt en beschikbaar zijn in alle omgevingen als onderdeel van het Common Data Model.
+   * Aangepaste entiteiten: dit zijn entiteiten die u hebt gemaakt of geïmporteerd in uw omgeving.
+   * Systeem: bevat alle entiteiten in uw omgeving, inclusief de entiteiten Common Data Model Aangepast.
 
-    ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport4.png "Power BI Desktop")
+     ![Power BI Desktop](./media/data-platform-cds-powerbi-connector/CreateReport4.png "Power BI Desktop")
 
 5. Selecteer de entiteit **Account** om in het rechterdeelvenster een voorbeeld van uw gegevens te zien en klik op **Laden**.
 

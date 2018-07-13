@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 3100ebae3d3f9b7cdef839d74e9d289b4059de5d
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 7f78cc61b4e6af34af7bf6944e70e783872bc255
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838459"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897496"
 ---
 # <a name="text-input-control-in-powerapps"></a>Besturingselement voor tekstinvoer in PowerApps
 Een vak waarin de gebruiker tekst, cijfers en andere gegevens kan typen.
@@ -149,17 +149,23 @@ De gebruiker kan gegevens opgeven door te typen in een besturingselement voor te
 6. (Optioneel) Voeg meer namen toe aan de verzameling en druk vervolgens op Esc om terug te keren naar de standaardwerkruimte.
 
 ### <a name="prompt-for-a-password"></a>Vragen om een wachtwoord
+
 1. Voeg een besturingselement voor tekstinvoer toe, geef het de naam **inputPassword** en stel de eigenschap **Mode** in op **Wachtwoord**.
-2. Voeg een label toe en stel de eigenschap **[Text](properties-core.md)** in op deze formule:<br>
+
+1. Voeg een label toe en stel de eigenschap **[Text](properties-core.md)** in op deze formule:<br>
    **If(inputPassword.Text = "P@ssw0rd", "Access granted", "Access denied")**
-   
+
     Wilt u meer informatie over de functie **[If](../functions/function-if.md)** of [andere functies](../formula-reference.md)?
-3. Druk op F5 en typ vervolgens **P@ssw0rd** bij **inputPassword**.
-   
+
+1. Druk op F5 en typ vervolgens **P@ssw0rd** bij **inputPassword**.
+
     Wanneer u klaar bent met het typen van het wachtwoord, wordt in plaats van de tekst **Toegang geweigerd** de tekst **Toegang verleend** weergegeven.
-4. Druk op Esc om terug te gaan naar de standaardwerkruimte.
-5. (Optioneel) Voeg een besturingselement zoals een pijl toe, configureer dit om te navigeren naar een ander scherm en geef de pijl pas weer nadat de gebruiker het wachtwoord heeft ingevoerd.
-6. (Optioneel) Voeg een knop toe, configureer de eigenschap **[Text](properties-core.md)** van de knop voor het weergeven van **Aanmelden**, voeg een timer toe en schakel het besturingselement voor tekstinvoer gedurende een bepaalde tijd uit als de gebruiker het verkeerde wachtwoord typt en vervolgens op de knop **Aanmelden** klikt of tikt.
+
+1. Druk op Esc om terug te gaan naar de standaardwerkruimte.
+
+1. (Optioneel) Voeg een besturingselement zoals een pijl toe, configureer dit om te navigeren naar een ander scherm en geef de pijl pas weer nadat de gebruiker het wachtwoord heeft ingevoerd.
+
+1. (Optioneel) Voeg een knop toe, configureer de eigenschap **[Text](properties-core.md)** van de knop voor het weergeven van **Aanmelden**, voeg een timer toe en schakel het besturingselement voor tekstinvoer gedurende een bepaalde tijd uit als de gebruiker het verkeerde wachtwoord typt en vervolgens op de knop **Aanmelden** klikt of tikt.
 
 
 ## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid

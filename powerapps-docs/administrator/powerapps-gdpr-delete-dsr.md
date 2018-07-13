@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 495d9976b1daa6e7adb20d97c0840b3a1ba90c4b
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: d518cbf398d0f29b25da9dafcfa6e9026fcee88e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552686"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897174"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-delete-powerapps-customer-data"></a>Reageren op AVG-aanvragen voor het verwijderen van PowerApps-gegevens van de klant
 
@@ -72,15 +72,15 @@ Bepaal aan de hand van de volgende stappen of u lid bent van een onbeheerde tena
 1. Open de volgende URL in een browser en let daarbij op dat u uw e-mailadres in de URL vervangt: https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1
 
 2. Als u lid bent van een **onbeheerde tenant**, ziet u een `"IsViral": true` in het antwoord.
-```
-{
-  ...
-  "Login": "foobar@unmanagedcontoso.com",
-  "DomainName": "unmanagedcontoso.com",
-  "IsViral": true,
-  ...
-}
-```
+   ```
+   {
+   ...
+   "Login": "foobar@unmanagedcontoso.com",
+   "DomainName": "unmanagedcontoso.com",
+   "IsViral": true,
+   ...
+   }
+   ```
 
 3. Anders behoort u toe aan een **beheerde tenant**.
 

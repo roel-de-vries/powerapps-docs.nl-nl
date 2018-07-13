@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 000f15ea7b1fa4e11cbe49b44e57017daf973a89
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 8eb651bcd4ad9320dc8995864249f619bb76ab77
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552962"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896852"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-export-powerapps-customer-data"></a>Reageren op AVG-aanvragen voor het exporteren van PowerApps-gegevens van de klant
 Op basis van het ‘recht op overdraagbaarheid van gegevens’ heeft een betrokkene het recht een kopie van zijn of haar persoonlijke gegevens in elektronische vorm (dat wil zeggen een gestructureerde, gangbare en machineleesbare vorm) op te vragen, die kan worden overgedragen aan een andere verwerkingsverantwoordelijke:
@@ -39,7 +39,7 @@ Verbindingsmachtigingen  | | App-ontwikkelaar: beschikbaar <br> Beheerder: besch
 PowerApps-gebruikersinstellingen, gebruikers-app-instellingen en meldingen | | App-ontwikkelaar: beschikbaar <br> Beheerder: beschikbaar
 
 > **Als er, na de introductie van de Common Data Service (CDS) for Apps, een database wordt gemaakt binnen de omgeving, worden omgevingsmachtigingen en machtigingen voor modelgestuurde apps opgeslagen als records in de CDS for Apps-database-instantie. Zie [Responding to Data Subject Rights (DSR) requests for Common Data Service for Apps customer data](common-data-service-gdpr-dsr-guide.md) (Reageren op AVG-aanvragen voor Common Data Service for Apps-gegevens van de klant) voor instructies over het reageren op AVG-aanvragen van gebruikers die CDS for Apps gebruiken.
-
+> 
 > *** Een beheerder heeft alleen toegang tot deze resources uit de [PowerApps-portal](https://web.powerapps.com) als de eigenaar van de resource hem of haar expliciet toegang heeft verleend. Als er geen toegang aan de beheerder is verleend, moet hij of zij gebruikmaken van de [PowerApps-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804).
 
 ## <a name="prerequisites"></a>Vereisten

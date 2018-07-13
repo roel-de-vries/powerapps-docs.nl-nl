@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 09/13/2017
 ms.author: fikaradz
-ms.openlocfilehash: 1a790627ad1dbd1bebecca84cb41ee29dcf148dd
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 1c8004fd615e5f706103ad4c364f7818dd1cb091
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32329497"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898257"
 ---
 # <a name="combo-box-control-in-powerapps"></a>Besturingselement voor keuzelijst met invoervak in PowerApps
 Een besturingselement waarmee gebruikers selecties kunnen maken in geboden opties.  Ondersteunt zoeken en meervoudige selectie.
@@ -110,11 +110,11 @@ Dit komt bovenop de [standaardvereisten voor kleurcontrast](../accessible-apps-c
 * **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn.
 
     > [!NOTE]
-> Op aanraakschermen kunnen gebruikers van de schermlezer achtereenvolgens door de inhoud van de keuzelijst met invoervak navigeren. De keuzelijst met invoervak werkt als een knop die, indien geselecteerd, de inhoud weergeeft of verbergt.
+  > Op aanraakschermen kunnen gebruikers van de schermlezer achtereenvolgens door de inhoud van de keuzelijst met invoervak navigeren. De keuzelijst met invoervak werkt als een knop die, indien geselecteerd, de inhoud weergeeft of verbergt.
 
 ### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
 * **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
 * De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
 
     > [!NOTE]
-> Met de tab-toets navigeert u naar of van de keuzelijst met invoervak. Met de pijltoetsen navigeert u door de inhoud van de keuzelijst met invoervak. Met de Escape-toets sluit u de vervolgkeuzelijst wanneer deze is geopend.
+  > Met de tab-toets navigeert u naar of van de keuzelijst met invoervak. Met de pijltoetsen navigeert u door de inhoud van de keuzelijst met invoervak. Met de Escape-toets sluit u de vervolgkeuzelijst wanneer deze is geopend.

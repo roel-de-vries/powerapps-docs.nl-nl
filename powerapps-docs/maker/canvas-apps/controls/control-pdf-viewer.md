@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 7f6350a70bff19df0c83d2082fe8fb463d81d772
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c47fb9a120f41166bbe23d55de6b502209a0f20d
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330831"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898468"
 ---
 # <a name="pdf-viewer-control-experimental-in-powerapps"></a>Besturingselement voor PDF-viewer (experimenteel) in PowerApps
 Een experimenteel besturingselement dat de inhoud van een PDF-bestand toont.
@@ -96,15 +96,17 @@ Als het document kan niet worden geopend in PowerApps, wordt de optie om het doc
 **Zoom**: het percentage waarmee een foto van een camera wordt vergroot of de weergave van een bestand in een PDF-viewer.
 
 ## <a name="example"></a>Voorbeeld
-* Voeg een besturingselement **PDF-viewer** toe en stel de eigenschap **Document** in op de URL (tussen dubbele aanhalingstekens) van een PDF-bestand, zoals in dit voorbeeld:<br>
+
+Voeg een besturingselement **PDF-viewer** toe en stel de eigenschap **Document** in op de URL (tussen dubbele aanhalingstekens) van een PDF-bestand, zoals in dit voorbeeld:
+
   **"https://blog.mozilla.org/security/files/2015/05/HTTPS-FAQ.pdf"**
 
-    Het PDF-bestand wordt in het besturingselement weergegeven.
+    The control shows the PDF file.
 
-    Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
-
+    Don't know how to [add and configure a control](../add-configure-controls.md)?
 
 ## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+
 Niet alle toegankelijkheidsfuncties van PDF-documenten worden ondersteund omdat de **PDF-viewer** nog steeds in de experimentele fase is. **ShowControls** moet daarom worden ingesteld op **true**, zodat gebruikers het document in een externe toepassing kunnen openen.
 
 Informatie over het maken van toegankelijke PDF-documenten met de standaarden [WCAG 2.0](https://www.w3.org/TR/WCAG-TECHS/pdf.html) en [PDF/UA](https://www.pdfa.org/pdfua-the-iso-standard-for-universal-accessibility/).

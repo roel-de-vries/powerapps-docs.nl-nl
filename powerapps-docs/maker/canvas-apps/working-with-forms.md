@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 04/27/2016
 ms.author: gregli
-ms.openlocfilehash: a9cd26ad41ceaa5b94678a3ef87bf0ab6dda98a1
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: bf66c1f7596b8a3ef4c8495db3f0ac2af8165d8c
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330670"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899681"
 ---
 # <a name="understand-data-forms-in-microsoft-powerapps"></a>Gegevensformulieren begrijpen in Microsoft PowerApps
 Voer drie typen besturingselementen toe zodat de gebruiker naar een record kan bladeren, details over deze record kan weergeven, en een record kan bewerken of maken:
@@ -157,7 +157,7 @@ Om de rest van dit onderwerp exact te kunnen volgen, maakt u een SharePoint-lijs
 * Maak een volledig nieuwe app, voor telefoons, en [verbind deze met uw gegevensbron](add-data-connection.md).
   
     > [!NOTE]
-> Tablet-apps zijn vergelijkbaar, maar u wilt wellicht een andere [indeling van het startscherm](#screen-design) om de extra ruimte te benutten.
+  > Tablet-apps zijn vergelijkbaar, maar u wilt wellicht een andere [indeling van het startscherm](#screen-design) om de extra ruimte te benutten.
   
     De voorbeelden in de rest van het onderwerp zijn gebaseerd op een gegevensbron met de naam **Ice Cream**.
 

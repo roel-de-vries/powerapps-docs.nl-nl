@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: aae87f408452cd83856c2e1c2e07065d4b8df49f
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 43328f363926f20d91b49ba422c3bfdae30abbf6
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803277"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898744"
 ---
 # <a name="audio-and-video-controls-in-powerapps"></a>Besturingselementen voor audio en video in PowerApps
 Een besturingselement voor het afspelen van een geluidsbestand, een videobestand of een video op YouTube.
@@ -99,7 +99,7 @@ Een besturingselement **Video** is bedoeld om een videoclip uit een bestand of v
 4. Druk op F5 en speel het fragment vervolgens af door op de afspeelknop te klikken of te tikken van het besturingselement dat u hebt toegevoegd.
 
     > [!TIP]
-> De afspeelknop van het besturingselement **Video** wordt weergegeven wanneer u het besturingselement aanwijst.
+   > De afspeelknop van het besturingselement **Video** wordt weergegeven wanneer u het besturingselement aanwijst.
 5. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
 ### <a name="play-a-youtube-video"></a>Een YouTube-video afspelen

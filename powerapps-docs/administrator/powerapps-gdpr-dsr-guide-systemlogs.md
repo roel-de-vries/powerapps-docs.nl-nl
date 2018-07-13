@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 2c06be34d46688e3a25ce531d0e791dc0b1aca62
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 18bba11ce747b1e04be6013bf41419c34232865a
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34553008"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897243"
 ---
 # <a name="responding-to-dsr-requests-for-system-generated-logs-in-powerapps-microsoft-flow-and-common-data-service-for-apps"></a>Reageren op DSR-verzoeken voor door het systeem gegenereerde logboeken in PowerApps, Microsoft Flow en Common Data Service for Apps
 Microsoft biedt u de mogelijkheid om door het systeem gegenereerde logboeken te openen, te exporteren en te verwijderen. Deze logboeken kunnen onder de brede definitie van *persoonsgegevens* van de algemene verordening gegevensbescherming (AVG) van de EU (Europese Unie) worden beschouwd als persoonlijk. Voorbeelden van door het systeem gegenereerde logboeken die als persoonlijk kunnen worden beschouwd onder de AVG zijn:
@@ -106,7 +106,7 @@ Als u wilt bepalen of u een gebruiker van een beheerde of onbeheerde tenant bent
 1. Open de volgende URL in een browser en zorg ervoor dat u uw e-mailadres in de URL vervangt:[ https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1).
 
 2. Als u lid bent van een **onbeheerde tenant**, ziet u een `"IsViral": true` in het antwoord.
-  ```
+   ```
       {
       ...
       "Login": "foobar@unmanagedcontoso.com",
@@ -114,6 +114,6 @@ Als u wilt bepalen of u een gebruiker van een beheerde of onbeheerde tenant bent
       "IsViral": **true**,
       ...
       }
-  ```
+   ```
 
 3. Anders maakt u deel uit van een beheerde tenant.

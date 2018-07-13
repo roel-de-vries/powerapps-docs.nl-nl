@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: b47e1b36ec86b2bf4ee2167b2599d583b97a0fbc
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 290f4447d7a5793677cfa426edac85963363a9d1
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837959"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896645"
 ---
 # <a name="groupby-and-ungroup-functions-in-powerapps"></a>Functies GroupBy en Groep opheffen in PowerApps
 Groepeert [records](../working-with-tables.md#records) van een [tabel](../working-with-tables.md) en heft deze groep op.
@@ -51,7 +51,7 @@ Een tabel is een waarde in PowerApps, net zoals een tekenreeks of getal. U kunt 
 * *GroupColumnName* - vereist.  De kolomnaam voor de opslag van recordgegevens die niet in de *ColumnName(s)* zijn.
   
     > [!NOTE]
-> Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
+  > Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
 
 **Ungroup**( *Table*, *GroupColumnName* )
 
@@ -59,7 +59,7 @@ Een tabel is een waarde in PowerApps, net zoals een tekenreeks of getal. U kunt 
 * *GroupColumnName* - vereist. De kolom die de recordgegevensconfiguratie met de functie **GroupBy** bevat.
   
     > [!NOTE]
-> Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
+  > Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
 
 ## <a name="examples"></a>Voorbeelden
 ### <a name="create-a-collection"></a>Een verzameling maken

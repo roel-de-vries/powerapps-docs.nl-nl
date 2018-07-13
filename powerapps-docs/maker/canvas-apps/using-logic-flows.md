@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 06/05/2017
 ms.author: sharik
-ms.openlocfilehash: 19e30477b7015061a4e4b781e1c53a55d1fda1a7
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 7079dc6194361cc700ccaad6c02ca0bcf8a9f9d6
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32329612"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37895909"
 ---
 # <a name="start-a-flow-in-an-app"></a>Start een stroom in een app
 U kunt Microsoft Flow gebruiken om logica te maken die een of meer taken uitvoert wanneer er een gebeurtenis optreedt in een app. U kunt bijvoorbeeld een knop zo configureren dat, wanneer een gebruiker deze selecteert, er een item wordt gemaakt in een SharePoint-lijst, een e-mailbericht of vergaderverzoek wordt verzonden, een bestand wordt toegevoegd aan de cloud of zelfs al deze dingen. U kunt elk besturingselement in de app configureren om de stroom te starten, die zelfs blijft lopen als u PowerApps sluit.
@@ -52,7 +52,7 @@ U kunt Microsoft Flow gebruiken om logica te maken die een of meer taken uitvoer
    3. Typ of plak in het vak in het vak **Siteadres** de URL van een SharePoint Online-site die een lijst bevat.
 
        > [!NOTE]
-> Geef de URL voor de site zelf op, zonder de lijst.
+      > Geef de URL voor de site zelf op, zonder de lijst.
 
    4. Selecteer in het vak **Lijstnaam** de lijst die u wilt gebruiken.
 
@@ -86,7 +86,7 @@ U kunt Microsoft Flow gebruiken om logica te maken die een of meer taken uitvoer
 6. Selecteer in het deelvenster de stroom die u in de vorige procedure hebt gemaakt.
 
     > [!NOTE]
-> Als de stroom die u hebt gemaakt niet beschikbaar is, controleert u of PowerApps is ingesteld op de omgeving waarin u de stroom hebt gemaakt.
+   > Als de stroom die u hebt gemaakt niet beschikbaar is, controleert u of PowerApps is ingesteld op de omgeving waarin u de stroom hebt gemaakt.
 
     ![Een stroom toevoegen vanuit het deelvenster Aanpassen](./media/using-logic-flows/add-flow-from-pane.png)
 

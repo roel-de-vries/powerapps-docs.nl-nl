@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: a63a972e7af3c821d2441519c2a887bbe110faac
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: fece9b928cdbfa955ada994e4cdd637eea3f7ac8
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838942"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899704"
 ---
 # <a name="text-function-in-powerapps"></a>De functie Tekst in PowerApps
 Maakt een numerieke of datum/tijd-waarde op voor weergave als een teksttekenreeks.
@@ -31,6 +31,7 @@ De functie **Tekst** maakt een getal of een datum/tijd-waarde op op basis van ee
 Zie [working with dates and times (werken met datums en tijden)](../show-text-dates-times.md) voor meer informatie.
 
 ### <a name="predefined-datetime-formats"></a> Vooraf gedefinieerde datum-/tijdnotaties
+
 | Vooraf gedefinieerde notatie | Beschrijving |
 | --- | --- |
 | **DatumTijdNotatie.LangeDatum** |Jaar, maand, dag van de maand en dag van de week, voluit geschreven. De namen van de maand en dag van de week worden niet afgekort. |
@@ -46,6 +47,7 @@ Zie [working with dates and times (werken met datums en tijden)](../show-text-da
 | **DatumTijdNotatie.UTC** |De waarde voor datum/tijd wordt geconverteerd naar UTC op basis van de tijdzone van de huidige gebruiker en ingedeeld volgens de ISO 8601-norm. |
 
 ### <a name="number-placeholders"></a>Tijdelijke aanduidingen voor getallen
+
 | Tijdelijke aanduiding | Beschrijving |
 | --- | --- |
 | **0** (*nul*) |Geeft extra nullen weer als een getal minder cijfers heeft dan er nullen in de notatie zijn. Gebruik bijvoorbeeld de indeling **#,00** als u **8,9** wilt weergeven als **8,90**. |
@@ -56,28 +58,29 @@ Zie [working with dates and times (werken met datums en tijden)](../show-text-da
 Als in een getal rechts van het decimaalteken meer cijfers voorkomen dan er tijdelijke aanduidingen in de notatie zijn, wordt het getal afgerond naar net zoveel decimaaltekens als het aantal tijdelijke aanduidingen. Als er links van het decimaalteken meer cijfers voorkomen dan er tijdelijke aanduidingen zijn, worden de extra cijfers weergegeven. Als in de notatie alleen hekjes (#) links van het decimaalteken voorkomen, beginnen getallen die kleiner zijn dan 1 met een decimaalteken (bijvoorbeeld **,47**).
 
 ### <a name="date-and-time-placeholders"></a>Tijdelijke aanduidingen voor datum en tijd
-| Tijdelijke aanduiding | Beschrijving |
-| --- | --- |
-| **m** |De maand wordt weergegeven als een getal zonder voorloopnul. |
-| **mm** |De maand wordt weergegeven als een getal met een voorloopnul wanneer dat nodig is. |
-| **mmm** |De maand wordt weergegeven als een afkorting (**jan** tot **dec**). |
-| **mmmm** |De maand wordt weergegeven als een volledige naam (**januari** tot **december**). |
-| **d** |Geeft de dag weer als een getal zonder voorloopnul. |
-| **dd** |Geeft de dag weer als een getal zonder voorloopnul wanneer dat nodig is. |
-| **ddd** |Geeft de dag weer als een afkorting (**zo** tot **za**). |
-| **dddd** |Geeft de dag weer als een volledige naam (**zondag** tot **zaterdag**). |
-| **jj** |Geeft het jaar weer als een getal van twee cijfers. |
-| **jjjj** |Geeft het jaar weer als een getal van vier cijfers. |
-| **h** |Geeft het uur weer als een getal zonder voorloopnul. |
-| **hh** |Geeft het uur weer als een getal met een voorloopnul wanneer dat nodig is. Als de notatie **AM** of **PM** bevat, wordt het uur weergegeven op basis van de 12-uurs notatie. Anders wordt het weergegeven uur gebaseerd op de 24-uurs notatie. |
-| **m** |Geeft de minuut weer als een getal zonder voorloopnul.  > [!NOTE]
-> De code **m** of **mm** moet direct na de code **h** of **hh** worden weergegeven of direct voor de code **ss**. Anders retourneert **Tekst** de maand in plaats van minuten. |
-| **mm** |Geeft de minuut weer als een getal met een voorloopnul wanneer dat nodig is. > [!NOTE]
-> De tijdelijke aanduiding **m** of **mm** moet direct na de tijdelijke aanduiding **h** of **hh** verschijnen of direct voor de tijdelijke aanduiding **ss**. Anders retourneert **Tekst** de maand in plaats van minuten. |
-| **s** |Geeft de seconde weer als een getal zonder voorloopnul. |
-| **ss** |Geeft de seconde weer als een getal met een voorloopnul wanneer dat nodig is. |
-| **f** |Geeft de fracties van seconden weer. |
-| **AM/PM**, **am/pm**, **A/P**, **a/p** |Geeft het uur weer op basis van een 12-uurs notatie. **Tekst** retourneert "AM", "am", "A" of "a" voor tijden van middernacht tot het middaguur en "PM", "pm", "P" of "p" voor tijden van het middaguur tot middernacht |
+
+|                                                                                                 Tijdelijke aanduiding                                                                                                  |                                                                                                     Beschrijving                                                                                                     |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                    **m**                                                                                                     |                                                                               De maand wordt weergegeven als een getal zonder voorloopnul.                                                                                |
+|                                                                                                    **mm**                                                                                                    |                                                                        De maand wordt weergegeven als een getal met een voorloopnul wanneer dat nodig is.                                                                         |
+|                                                                                                   **mmm**                                                                                                    |                                                                             De maand wordt weergegeven als een afkorting (**jan** tot **dec**).                                                                             |
+|                                                                                                   **mmmm**                                                                                                   |                                                                          De maand wordt weergegeven als een volledige naam (**januari** tot **december**).                                                                           |
+|                                                                                                    **d**                                                                                                     |                                                                                Geeft de dag weer als een getal zonder voorloopnul.                                                                                 |
+|                                                                                                    **dd**                                                                                                    |                                                                         Geeft de dag weer als een getal zonder voorloopnul wanneer dat nodig is.                                                                          |
+|                                                                                                   **ddd**                                                                                                    |                                                                              Geeft de dag weer als een afkorting (**zo** tot **za**).                                                                              |
+|                                                                                                   **dddd**                                                                                                   |                                                                            Geeft de dag weer als een volledige naam (**zondag** tot **zaterdag**).                                                                            |
+|                                                                                                    **jj**                                                                                                    |                                                                                      Geeft het jaar weer als een getal van twee cijfers.                                                                                       |
+|                                                                                                   **jjjj**                                                                                                   |                                                                                      Geeft het jaar weer als een getal van vier cijfers.                                                                                      |
+|                                                                                                    **h**                                                                                                     |                                                                                Geeft het uur weer als een getal zonder voorloopnul.                                                                                |
+|                                                                                                    **hh**                                                                                                    | Geeft het uur weer als een getal met een voorloopnul wanneer dat nodig is. Als de notatie **AM** of **PM** bevat, wordt het uur weergegeven op basis van de 12-uurs notatie. Anders wordt het weergegeven uur gebaseerd op de 24-uurs notatie. |
+|                                                                                                    **m**                                                                                                     |                                                                         Geeft de minuut weer als een getal zonder voorloopnul.  > [!NOTE]                                                                          |
+|            > De code **m** of **mm** moet direct na de code **h** of **hh** worden weergegeven of direct voor de code **ss**. Anders retourneert **Tekst** de maand in plaats van minuten.            |                                                                                                                                                                                                                     |
+|                                                                                                    **mm**                                                                                                    |                                                                   Geeft de minuut weer als een getal met een voorloopnul wanneer dat nodig is. > [!NOTE]                                                                   |
+| > De tijdelijke aanduiding **m** of **mm** moet direct na de tijdelijke aanduiding **h** of **hh** verschijnen of direct voor de tijdelijke aanduiding **ss**. Anders retourneert **Tekst** de maand in plaats van minuten. |                                                                                                                                                                                                                     |
+|                                                                                                    **s**                                                                                                     |                                                                               Geeft de seconde weer als een getal zonder voorloopnul.                                                                               |
+|                                                                                                    **ss**                                                                                                    |                                                                        Geeft de seconde weer als een getal met een voorloopnul wanneer dat nodig is.                                                                        |
+|                                                                                                    **f**                                                                                                     |                                                                                         Geeft de fracties van seconden weer.                                                                                          |
+|                                                                                    **AM/PM**, **am/pm**, **A/P**, **a/p**                                                                                    |               Geeft het uur weer op basis van een 12-uurs notatie. **Tekst** retourneert "AM", "am", "A" of "a" voor tijden van middernacht tot het middaguur en "PM", "pm", "P" of "p" voor tijden van het middaguur tot middernacht                |
 
 ### <a name="literal-placeholders"></a>Letterlijke tijdelijke aanduidingen
 U kunt al deze tekens in de tekenreeks voor uw notatie opnemen.  Ze zullen als zodanig worden weergegeven in het resultaat van **Tekst**. Andere tekens zijn gereserveerd voor toekomstige tijdelijke aanduidingen. Die tekens mag u bijgevolg niet gebruiken.
@@ -148,6 +151,7 @@ Standaard gebruikt **Tekst** de taal van de gebruiker die de app uitvoert.  De f
 De gebruiker die deze formules uitvoert, bevindt zich in de Verenigde Staten en Engels is geselecteerd als taal.  De functie **Taal** retourneert "en-US".
 
 ### <a name="number"></a>Getal
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **Tekst(&nbsp;1234,59,&nbsp;"####,#"&nbsp;)** |Maakt het getal op met één decimaalpositie. |"1234,6" |
@@ -169,6 +173,7 @@ De gebruiker die deze formules uitvoert, bevindt zich in de Verenigde Staten en 
 | **Tekst( Nu(), "d-mmm-jj" )** |Wordt opgemaakt met tekens als tijdelijke aanduiding: <ul><li>**d** voor de dag van de maand, met één cijfer of twee cijfers<li>**-** als een letterlijk teken, dat naar het resultaat wordt gekopieerd<li>**mmm** voor een maandafkorting van drie letters<li>**-** als nog een letterlijk teken dat naar het resultaat wordt gekopieerd<li>**jj** voor een jaarafkorting van twee cijfers</ul> |"23-nov-15" |
 
 ### <a name="global-apps"></a>Wereldwijde apps
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **Tekst( 1234567,89, "[$-en-US]$ #.###" )** |Interpreteert **.** als een groeperingsscheidingsteken dat om de drie tekens moet worden geplaatst en **$** als het valutasymbool. Aangezien er geen decimalen moeten worden weergegeven, wordt de waarde naar boven afgerond op het eerstvolgende hogere gehele getal. In dit geval is **[$-en-US]** optioneel, omdat dit de standaardinstelling is. |"$ 1.234.568" |

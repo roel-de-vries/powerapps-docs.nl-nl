@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: d03e587d86262bcecf59012e36af0c3dc27b29a3
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 165b6544808da234773c2b7a2cdd0014d6fe5c2d
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31831418"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898694"
 ---
 # <a name="screen-control-in-powerapps"></a>Schermbesturingselement in PowerApps
 Een UI-element dat een of meer andere besturingselementen in een app bevat.
@@ -83,4 +83,4 @@ Naast tekst kunt u ook kleurcontrast controleren met essentiële grafische objec
 * Er moet een beschrijvende naam zijn voor elk **Scherm**. De schermnaam kan op dezelfde manier worden weergegeven en bewerkt als andere besturingselementen: in de structuurweergave van het deelvenster van besturingselementen of in de kop van het eigenschappendeelvenster.
 
     > [!NOTE]
-> Wanneer een nieuw **Scherm** wordt geladen, lezen schermlezers de naam ervan voor. 
+  > Wanneer een nieuw **Scherm** wordt geladen, lezen schermlezers de naam ervan voor. 

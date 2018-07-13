@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/11/2015
 ms.author: gregli
-ms.openlocfilehash: 5f156e5f7d0acb48090ac921aa92f31f3a6d20ea
-ms.sourcegitcommit: 222df368f1f35e9357b0b1adf0e69d7206d8126e
+ms.openlocfilehash: 67354776e7af05fb619033462c52665ce3aa046c
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36298464"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898623"
 ---
 # <a name="datasourceinfo-function-in-powerapps"></a>De functie DataSourceInfo in PowerApps
 Biedt informatie over een [gegevensbron](../working-with-data-sources.md).
@@ -59,7 +59,7 @@ U kunt ook **DataSourceInfo** gebruiken om informatie over een gegevensbron als 
 * *ColumnName* - optioneel. Voor informatie op kolomniveau, de naam van de kolom als een tekenreeks. De kolom **Telefoonnummer** wordt doorgegeven als **"Telefoonnummer"**, inclusief de dubbele aanhalingstekens. Het argument *ColumnName* kan niet worden gebruikt voor informatie op het niveau van de gegevensbron.
   
     > [!NOTE]
-> Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
+  > Vervang elke spatie in SharePoint- en Excel-gegevensbronnen met kolomnamen met spaties door **‘\_x0020\_’**. Geef **'Naam kolom'** bijvoorbeeld op als **'Naam_x0020_kolom'**.
 
 ## <a name="examples"></a>Voorbeelden
 Voor de voorbeelden in dit gedeelte wordt de gegevensbron **IJs** gebruikt:

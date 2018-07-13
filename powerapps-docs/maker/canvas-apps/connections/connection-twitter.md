@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2017
 ms.author: lanced
-ms.openlocfilehash: bfdd2bc0ed784b9f2302d01f2fc8c176a7d9c4bb
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 33bfc61200d10ca50b80e31fec2bef62044e4be7
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803553"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899635"
 ---
 # <a name="connect-to-twitter-from-powerapps"></a>Verbinding maken met Twitter vanuit PowerApps
 ![Twitter](./media/connection-twitter/twittericon.png)
@@ -27,13 +27,13 @@ In dit onderwerp wordt uitgelegd hoe u de Twitter-verbinding maakt en hoe u de T
 
 ## <a name="connect-to-twitter"></a>Verbinding maken met Twitter
 1. Open PowerApps, selecteer **Nieuw** en maak vervolgens een **lege app**. Kies de telefoon- of tabletindeling. De tabletindeling biedt meer werkruimte:  
-   
+
    ![Een lege app openen](./media/connection-twitter/blank-app.png)
 2. Klik of tik in het rechterdeelvenster op het tabblad **Gegevens** en klik of tik vervolgens op **Gegevensbron toevoegen**.
 3. Selecteer **Nieuwe verbinding** en selecteer vervolgens **Twitter**:  
-   
+
     ![Verbinding maken met Twitter](./media/connection-twitter/addconnection.png)
-   
+
     ![Verbinding maken met Twitter](./media/connection-twitter/add-twitter.png)
 4. Selecteer **Verbinden**, voer uw aanmeldingsgegevens van Twitter in en selecteer **App machtigen**.
 5. Selecteer **Een gegevensbron toevoegen**. De verbinding wordt weergegeven onder **Gegevensbronnen**:  
@@ -45,85 +45,85 @@ De Twitter-verbinding is gemaakt en aan uw app toegevoegd. U kunt de verbinding 
 ### <a name="show-a-timeline"></a>Een tijdlijn weergeven
 1. Selecteer **Galerie** in het menu **Invoegen** en voeg een van de galeries van het type **Met tekst** toe.
 2. We gaan enkele tijdlijnen weergeven:  
-   
+
    * Als u de tijdlijn van de huidige gebruiker wilt weergeven, stelt u de eigenschap **[Items](../controls/properties-core.md)** van de galerie in op de volgende formules:
-     
+
        `Twitter.HomeTimeline().TweetText`  
        `Twitter.HomeTimeline({maxResults:3}).TweetText`  
    * Als u de tijdlijn van een andere gebruiker wilt weergeven, stelt u de eigenschap **[Items](../controls/properties-core.md)** van de galerie in op de volgende formule:  
-     
+
        `Twitter.UserTimeline( *TwitterHandle* ).TweetText`
-     
+
        Voer een Twitter-handle tussen dubbele aanhalingstekens of een equivalente waarde in. Voer bijvoorbeeld `"satyanadella"` of `"powerapps"` rechtstreeks in de formule-expressie in.
    * Voeg een besturingselement voor tekstinvoer met de naam **Tweep** toe en stel de eigenschap Standaard in op `Tweep.Text`. Typ in het tekstvak Tweep een Twitter-handle zoals `satyanadella` (zonder aanhalingstekens en zonder het @-teken).
-     
+
        Stel in het galeriebesturingselement de eigenschap Items in op de volgende formule:  
-     
+
        `Twitter.UserTimeline(Tweep.Text, {maxResults:5}).TweetText`
-     
+
        De tweets van de ingevoerde Twitter-handle worden automatisch weergegeven in het galeriebesturingselement.
-     
+
      > [!TIP]
-> Sommige van deze formules gebruiken het argument **maxResults** om de *x* meest recente tweets in een tijdlijn weer te geven.
+     > Sommige van deze formules gebruiken het argument **maxResults** om de *x* meest recente tweets in een tijdlijn weer te geven.
 3. Stel de eigenschap **Items** van de galerie in op `Twitter.HomeTimeline()`.
-   
+
     Als u de galerie selecteert, ziet u in het deelvenster aan de rechterkant de opties voor de galerie.
 4. Selecteer **TweetText** in de eerste lijst, selecteer **TweetedBy** in de tweede lijst en selecteer **CreatedAt** in de derde lijst.
-   
+
     In de galerie worden nu de waarden van de gekozen eigenschappen weergegeven.
 
 ### <a name="show-followers"></a>Volgers weergeven
 1. Met behulp van een galerie van het type **Met tekst** kunt u enkele volgers weergeven:  
-   
+
    * Als u de volgers van de huidige gebruiker wilt weergeven, stelt u de eigenschap **[Items](../controls/properties-core.md)** van de galerie in op de volgende formule:  
-     
+
        `Twitter.MyFollowers()`  
        `Twitter.MyFollowers({maxResults:3})`
    * Als u de volgers van een andere gebruiker wilt weergeven, stelt u de eigenschap **[Items](../controls/properties-core.md)** van de galerie in op de volgende formule:  
-     
+
        `Twitter.Followers( *TwitterHandle* )`
-     
+
        Voer een Twitter-handle tussen dubbele aanhalingstekens of een equivalente waarde in. Voer bijvoorbeeld `"satyanadella"` of `"powerapps"` rechtstreeks in de formule-expressie in.
    * Voeg een besturingselement voor tekstinvoer met de naam **Tweep** toe en stel de eigenschap Standaard in op `Tweep.Text`. Typ in het tekstvak Tweep een Twitter-handle zoals `satyanadella` (zonder aanhalingstekens en zonder het @-teken).
-     
+
        Stel in het galeriebesturingselement de eigenschap Items in op de volgende formule:  
-     
+
        `Twitter.Followers(Tweep.Text, {maxResults:5})`
-     
+
        In het galeriebesturingselement wordt automatisch weergegeven wie de ingevoerde Twitter-handle volgen.
-     
+
      > [!TIP]
-> Sommige van deze formules gebruiken het argument **maxResults** om de *x* meest recente tweets in een tijdlijn weer te geven.
+     > Sommige van deze formules gebruiken het argument **maxResults** om de *x* meest recente tweets in een tijdlijn weer te geven.
 2. Stel de eigenschap **Items** van de galerie in op `Twitter.MyFollowers()`.
-   
+
     Als u de galerie selecteert, ziet u in het deelvenster aan de rechterkant de opties voor de galerie.
 3. Selecteer **UserName** in de tweede lijst en selecteer **FullName** in de derde lijst.
-   
+
     In de galerie worden nu de waarden van de gekozen eigenschappen weergegeven.
 
 ### <a name="show-followed-users"></a>Gevolgde gebruikers weergeven
 1. Met behulp van een galerie van het type **Met tekst** kunt u enkele gevolgde gebruikers weergeven:  
-   
+
    * Als u wilt weergeven welke gebruikers de huidige gebruiker volgt, stelt u de eigenschap **[Items](../controls/properties-core.md)** van de galerie in op de volgende formule:  
-     
+
        `Twitter.MyFollowing()`  
        `Twitter.MyFollowing({maxResults:3})`
    * Als u wilt weergeven welke gebruikers een andere gebruiker volgt, stelt u de eigenschap **[Items](../controls/properties-core.md)** van de galerie in op de volgende formule:
-     
+
        `Twitter.Following( *TwitterHandle* )`
-     
+
        Voer een Twitter-handle tussen dubbele aanhalingstekens of een equivalente waarde in. Voer bijvoorbeeld `"satyanadella"` of `"powerapps"` rechtstreeks in de formule-expressie in.
    * Voeg een besturingselement voor tekstinvoer met de naam **Tweep** toe en stel de eigenschap Standaard in op `Tweep.Text`. Typ in het tekstvak Tweep een Twitter-handle zoals `satyanadella` (zonder aanhalingstekens en zonder het @-teken).
-     
+
        Stel in het galeriebesturingselement de eigenschap Items in op de volgende formule:  
-     
+
        `Twitter.Following(Tweep.Text, {maxResults:5})`
-     
+
        In het galeriebesturingselement worden automatisch de andere handles die u volgt weergegeven.
-     
+
      Als u de galerie selecteert, ziet u in het deelvenster aan de rechterkant de opties voor de galerie.
 2. Selecteer **Description** in de lijst **Body1**, **UserName** in de lijst **Heading1** en **FullName** in de lijst **Subtitle1**.
-   
+
     In de galerie worden nu de waarden van de gekozen eigenschappen weergegeven.
 
 ### <a name="show-information-about-a-user"></a>Gegevens over een gebruiker weergeven
@@ -144,22 +144,22 @@ U kunt ook een besturingselement voor tekstinvoer gebruiken om een Twitter-handl
 
 ### <a name="search-tweets"></a>Tweets zoeken
 1. Gebruik een galerie van het type **Met tekst** en stel de eigenschap **[Items](../controls/properties-core.md)** in op de volgende formule:  
-   
+
     `Twitter.SearchTweet( *SearchTerm* ).TweetText`
-   
+
     Voer een *zoekterm* tussen dubbele aanhalingstekens in of door te verwijzen naar een equivalente waarde. Voer bijvoorbeeld `"PowerApps"` of `"microsoft"` rechtstreeks in de formule in.
-   
+
     U kunt ook een besturingselement voor **tekstinvoer** gebruiken om een zoekterm op te geven zoals we in dit onderwerp hebben gedaan.
-   
+
     > [!TIP]
-> Geef de eerste vijf resultaten weer met behulp van maxResults:  
-   
+   > Geef de eerste vijf resultaten weer met behulp van maxResults:  
+
     `Twitter.SearchTweet(SearchTerm.Text, {maxResults:5}).TweetText`
 2. Stel de eigenschap **Items** van de galerie in op `Twitter.SearchTweet(SearchTerm.Text, {maxResults:5})`.
-   
+
     Als u de galerie selecteert, ziet u in het deelvenster aan de rechterkant de opties voor de galerie.
 3. Selecteer **TweetText** in de eerste lijst, **TweetedBy** in de tweede lijst en **CreatedAt** in de derde lijst.
-   
+
     In de galerie worden nu de waarden van de gekozen eigenschappen weergegeven.
 
 ### <a name="send-a-tweet"></a>Een tweet verzenden
@@ -189,12 +189,14 @@ Deze verbinding bevat de volgende functies:
 Tijdlijn van gebruiker ophalen: Haalt een verzameling met de meest recente tweets van de opgegeven gebruiker op
 
 #### <a name="input-properties"></a>Invoereigenschappen
+
 | Naam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | userName |Tekenreeks |Ja |Twitter-handle |
 | maxResults |Geheel getal |Nee |Maximum aantal tweets dat moet worden opgehaald, bijvoorbeeld {maxResults:5} |
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | TweetText |Tekenreeks |Ja | |
@@ -208,11 +210,13 @@ Tijdlijn van gebruiker ophalen: Haalt een verzameling met de meest recente tweet
 Eigen tijdlijn ophalen: haalt de meest recente tweets en retweets van mij en mijn volgers op
 
 #### <a name="input-properties"></a>Invoereigenschappen
+
 | Naam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | maxResults |Geheel getal |Nee |Maximum aantal tweets dat moet worden opgehaald, bijvoorbeeld {maxResults:5} |
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | TweetText |Tekenreeks |Ja | |
@@ -226,12 +230,14 @@ Eigen tijdlijn ophalen: haalt de meest recente tweets en retweets van mij en mij
 Tweet zoeken: haalt een verzameling relevante tweets op die overeenkomen met een opgegeven query
 
 #### <a name="input-properties"></a>Invoereigenschappen
+
 | Naam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | searchQuery |Tekenreeks |Ja |Querytekst (u kunt elke query-operator gebruiken die door Twitter wordt ondersteund: http://www.twitter.com/search) |
 | maxResults |Geheel getal |Nee |Maximum aantal tweets dat moet worden opgehaald, bijvoorbeeld {maxResults:5} |
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | TweetText |Tekenreeks |Ja | |
@@ -245,12 +251,14 @@ Tweet zoeken: haalt een verzameling relevante tweets op die overeenkomen met een
 Volgers ophalen: haalt gebruikers op die de opgegeven gebruiker volgen
 
 #### <a name="input-properties"></a>Invoereigenschappen
+
 | Naam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | userName |Tekenreeks |Ja |Twitter-handle van de gebruiker |
 | maxResults |Geheel getal |Nee |Maximum aantal gebruikers dat moet worden opgehaald, bijvoorbeeld {maxResults:5} |
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | FullName |Tekenreeks |Ja | |
@@ -266,11 +274,13 @@ Volgers ophalen: haalt gebruikers op die de opgegeven gebruiker volgen
 Mijn volgers ophalen: haalt gebruikers op die mij volgen
 
 #### <a name="input-properties"></a>Invoereigenschappen
+
 | Naam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | maxResults |Geheel getal |Nee |Maximum aantal gebruikers dat moet worden opgehaald, bijvoorbeeld {maxResults:5} |
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | FullName |Tekenreeks |Ja | |
@@ -286,12 +296,14 @@ Mijn volgers ophalen: haalt gebruikers op die mij volgen
 Gevolgde gebruikers ophalen: haalt gebruikers op die de opgegeven gebruiker volgt
 
 #### <a name="input-properties"></a>Invoereigenschappen
+
 | Naam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | userName |Tekenreeks |Ja |Twitter-handle van de gebruiker |
 | maxResults |Geheel getal |Nee |Maximum aantal gebruikers dat moet worden opgehaald, bijvoorbeeld {maxResults:5} |
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | FullName |Tekenreeks |Ja | |
@@ -307,11 +319,13 @@ Gevolgde gebruikers ophalen: haalt gebruikers op die de opgegeven gebruiker volg
 Mijn gevolgde gebruikers ophalen: haalt gebruikers op die ik volg
 
 #### <a name="input-properties"></a>Invoereigenschappen
+
 | Naam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | maxResults |Geheel getal |Nee |Maximum aantal gebruikers dat moet worden opgehaald, bijvoorbeeld {maxResults:5} |
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | FullName |Tekenreeks |Ja | |
@@ -327,11 +341,13 @@ Mijn gevolgde gebruikers ophalen: haalt gebruikers op die ik volg
 Gebruiker ophalen: haalt gegevens op over de opgegeven gebruiker (voorbeeld: gebruikersnaam, beschrijving, aantal volgers, enzovoort)
 
 #### <a name="input-properties"></a>Invoereigenschappen
+
 | Naam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | userName |Tekenreeks |Ja |Twitter-handle van de gebruiker |
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | FullName |Tekenreeks |Ja | |
@@ -347,12 +363,14 @@ Gebruiker ophalen: haalt gegevens op over de opgegeven gebruiker (voorbeeld: geb
 Een nieuwe tweet posten: twitteren
 
 #### <a name="input-properties"></a>Invoereigenschappen
+
 | Naam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | tweetText |Tekenreeks |Nee |Tekst die moet worden gepost, bijvoorbeeld {tweetText:"Hallo"} |
 | body |Tekenreeks |Nee |Media die moeten worden gepost |
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | TweetId |Tekenreeks |Ja | |
@@ -361,11 +379,13 @@ Een nieuwe tweet posten: twitteren
 Wanneer een nieuwe tweet verschijnt: activeert een werkstroom wanneer een nieuwe tweet wordt gepost die overeenkomt met uw zoekopdracht
 
 #### <a name="input-properties"></a>Invoereigenschappen
+
 | Naam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | searchQuery |Tekenreeks |Ja |Querytekst (u kunt elke query-operator gebruiken die door Twitter wordt ondersteund: http://www.twitter.com/search) |
 
 #### <a name="output-properties"></a>Uitvoereigenschappen
+
 | Eigenschapsnaam | Gegevenstype | Vereist | Beschrijving |
 | --- | --- | --- | --- |
 | value |Matrix |Nee | |

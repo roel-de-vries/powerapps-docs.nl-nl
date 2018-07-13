@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 396a2d5325b7b72f3637dba1edddeead49594167
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: a0f55de520a180a646e1e73aac423abc74bfed1d
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31832576"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896231"
 ---
 # <a name="datevalue-timevalue-and-datetimevalue-functions-in-powerapps"></a>De functies DateValue, TimeValue en DateTimeValue in PowerApps
 Hiermee kunt u een datum, tijd of beide in een tekenreeks converteren naar een datum/tijd-waarde.
@@ -61,7 +61,7 @@ U typt **11/10/2014** in een besturingselement voor tekstinvoer met de naam **St
     Het label toont **Saturday, October 11, 2014** als uw computer is ingesteld op de landinstelling **en**.
   
     > [!NOTE]
-> U kunt met de **DateTimeFormat**-parameter verschillende andere opties dan **LongDateTime** gebruiken. Als u een lijst van deze opties wilt weergeven, typt u de parameter onmiddellijk gevolgd door een uitroepteken in het functievak.
+  > U kunt met de **DateTimeFormat**-parameter verschillende andere opties dan **LongDateTime** gebruiken. Als u een lijst van deze opties wilt weergeven, typt u de parameter onmiddellijk gevolgd door een uitroepteken in het functievak.
 * **Text(DateValue(Startdatum.Text), "fr"), DateTimeFormat.LongDate)**
   
     Het label toont **maandag 10 november 2014**.
@@ -80,7 +80,7 @@ U typt **10/11/2014 1:50:24.765 PM** in een besturingselement voor tekstinvoer m
     Het label toont **Saturday, October 11, 2014 1:50:24 PM** als uw computer is ingesteld op de landinstelling "en".
   
     > [!NOTE]
-> U kunt met de **DateTimeFormat**-parameter verschillende andere opties dan **LongDateTime** gebruiken. Als u een lijst van deze opties wilt weergeven, typt u de parameter onmiddellijk gevolgd door een uitroepteken in het functievak.
+  > U kunt met de **DateTimeFormat**-parameter verschillende andere opties dan **LongDateTime** gebruiken. Als u een lijst van deze opties wilt weergeven, typt u de parameter onmiddellijk gevolgd door een uitroepteken in het functievak.
 * **Text(DateTimeValue(Start.Text, "fr"), DateTimeFormat.LongDateTime)**
   
     Het label toont **Monday, November 10, 2014 1:50:24 PM**.

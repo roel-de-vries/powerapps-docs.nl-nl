@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/23/2016
 ms.author: anneta
-ms.openlocfilehash: 6960b41effb109f6f2266ba279b4d51ea51e744f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 3e1bc218e6be8dcbbb1a72672aedf1de5d1cd7e9
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32328715"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37895932"
 ---
 # <a name="scan-a-barcode-in-powerapps"></a>Een streepjescode scannen in PowerApps
 U kunt verschillende soorten streepjescodes scannen door een app te maken en deze uit te voeren op een apparaat dat is uitgerust met een camera, bijvoorbeeld een telefoon. Het numerieke equivalent van de streepjescode wordt weergegeven in een besturingselement **Label** en u kunt deze gegevens uploaden naar diverse [gegevensbronnen](connections-list.md).
@@ -36,18 +36,18 @@ Zie [Aan de slag](getting-started.md) als u onbekend bent met PowerApps.
 ## <a name="create-a-blank-app"></a>Een lege app maken
 1. [Meld u aan voor PowerApps](../signup-for-powerapps.md) en voer dan *een* van de volgende handelingen uit:
 
-1. [Open PowerApps](https://create.powerapps.com) in een browser op een apparaat dat een camera heeft.
+2. [Open PowerApps](https://create.powerapps.com) in een browser op een apparaat dat een camera heeft.
 
-2. Klik of tik onder **Beginnen met een leeg canvas of een leeg sjabloon** op **Telefoonindeling** in de tegel **Lege app**.
+3. Klik of tik onder **Beginnen met een leeg canvas of een leeg sjabloon** op **Telefoonindeling** in de tegel **Lege app**.
 
     ![Een volledig nieuwe app maken](./media/scan-barcode/create-from-blank.png)
 
-3. Als u PowerApps nooit eerder hebt gebruikt, kunt u belangrijke gebieden van de app bekijken door de inleidende rondleiding te volgen (of klik of tik op **Skip**).
+4. Als u PowerApps nooit eerder hebt gebruikt, kunt u belangrijke gebieden van de app bekijken door de inleidende rondleiding te volgen (of klik of tik op **Skip**).
 
     ![Scherm van de rondleiding openen](./media/scan-barcode/quick-tour.png)
 
     > [!NOTE]
-> U kunt de rondleiding altijd later volgen door op het vraagtekenpictogram in de rechterbovenhoek te klikken of tikken en vervolgens op **Take the intro tour**.
+   > U kunt de rondleiding altijd later volgen door op het vraagtekenpictogram in de rechterbovenhoek te klikken of tikken en vervolgens op **Take the intro tour**.
 
 ## <a name="add-a-barcode-control"></a>Een streepjescode-besturingselement toevoegen
 1. Klik of tik op het tabblad **Invoegen** op **Media** en klik of tik vervolgens op **Streepjescode**.
@@ -61,7 +61,7 @@ Zie [Aan de slag](getting-started.md) als u onbekend bent met PowerApps.
 3. Klik of tik op het tabblad **Start** op **Streepjescode1** en typ of plak **MijnScanner** onder **Naam wijzigen**.
 
     > [!TIP]
-> Het eerste **streepjescode**-besturingselement dat u toevoegt, heet standaard **Streepjescode1**. Als u dat besturingselement verwijdert en nog een **streepjescode**-besturingselement toevoegt, krijgt dat standaard de naam **Streepjescode2**. Door de naam van een besturingselement handmatig te wijzigen, zorgt u ervoor dat in formules met de juiste naam naar het besturingselement wordt verwezen.
+   > Het eerste **streepjescode**-besturingselement dat u toevoegt, heet standaard **Streepjescode1**. Als u dat besturingselement verwijdert en nog een **streepjescode**-besturingselement toevoegt, krijgt dat standaard de naam **Streepjescode2**. Door de naam van een besturingselement handmatig te wijzigen, zorgt u ervoor dat in formules met de juiste naam naar het besturingselement wordt verwezen.
 
     ![De naam van een streepjescode-besturingselement wijzigen](./media/scan-barcode/rename-barcode.png)
 

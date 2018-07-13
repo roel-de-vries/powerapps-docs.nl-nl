@@ -1,23 +1,19 @@
 ---
 title: De opsomming Color en de functies ColorFade, ColorValue en RGBA | Microsoft Docs
 description: Referentie-informatie voor de opsomming Color en de functies ColorFade, ColorValue en RGBA in PowerApps, inclusief syntaxis en voorbeelden
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2015
 ms.author: gregli
-ms.openlocfilehash: f4eeabf5708fffa6881b84402280d5639d96cc0a
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 6615dfee8f7c867bb25c237633fe031d614d517d
+ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838666"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37948636"
 ---
 # <a name="color-enumeration-and-colorfade-colorvalue-and-rgba-functions-in-powerapps"></a>De opsomming Color en de functies ColorFade, ColorValue en RGBA in PowerApps
 Geïntegreerde kleurwaarden gebruiken, aangepaste kleuren definiëren en Alpha blending.
@@ -51,6 +47,7 @@ De functie **ColorFade** retourneert een lichtere of donkere versie van een kleu
 * *FadeAmount* - vereist.  Een getal tussen -1 en 1.  Met -1 wordt een kleur volledig zwart, 0 heeft geen invloed op de kleur en met 1 wordt de kleur volledig wit.  
 
 ## <a name="built-in-colors"></a>Geïntegreerde kleuren
+
 | Opsomming Color | ColorValue met Hex-code | RGBA | Kleurenstaal |
 | --- | --- | --- | --- |
 | **Color.AliceBlue** |**ColorValue( "#f0f8ff" )** |**RGBA( 240, 248, 255, 1 )** |![aliceblue](./media/function-colors/color-aliceblue.png) |

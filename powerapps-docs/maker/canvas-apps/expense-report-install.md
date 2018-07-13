@@ -12,12 +12,12 @@ ms.topic: sample
 ms.component: canvas
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: bce21a5fe07cb5bf608c36371a7cbe45e845b2ad
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9ce265df67dd980653766b7bf9d57376c671e18a
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330578"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899957"
 ---
 # <a name="install-and-configure-the-expense-report-powerapps-sample"></a>De voorbeeld-app Onkostenrapporten van PowerApps installeren en configureren
 
@@ -241,23 +241,23 @@ In deze lijst worden de regelitems opgeslagen die zijn gekoppeld aan onkostenrap
 
 ## <a name="import-the-expense-report-powerapp"></a>De PowerApp Onkostenrapporten importeren
 
-1.  Navigeer in een webbrowser naar https://web.powerapps.com.
-2.  Meld u aan met dezelfde referenties die u hebt gebruikt om u te registreren.
-3.  Selecteer **Apps** in het menu aan de linkerkant. 
-4.  Klik op **Pakket importeren (preview)**.
+1. Navigeer in een webbrowser naar https://web.powerapps.com.
+2. Meld u aan met dezelfde referenties die u hebt gebruikt om u te registreren.
+3. Selecteer **Apps** in het menu aan de linkerkant. 
+4. Klik op **Pakket importeren (preview)**.
     
-    ![Het scherm Pakket importeren](./media/expense-report-install/import-package.png)
+   ![Het scherm Pakket importeren](./media/expense-report-install/import-package.png)
 
-5.  Klik op de knop **Uploaden** en selecteer het PowerApp-pakket dat u in de vorige stappen hebt gedownload.
-6.  Stel voor de resourcetypen **App** en **Stroom** **IMPORTINSTELLINGEN** in op **Als nieuwe maken**.
-7.  Stel voor de verbindingen **SharePoint** en **Outlook** **IMPORTINSTELLINGEN** in op **Selecteren tijdens importeren**.
+5. Klik op de knop **Uploaden** en selecteer het PowerApp-pakket dat u in de vorige stappen hebt gedownload.
+6. Stel voor de resourcetypen **App** en **Stroom** **IMPORTINSTELLINGEN** in op **Als nieuwe maken**.
+7. Stel voor de verbindingen **SharePoint** en **Outlook** **IMPORTINSTELLINGEN** in op **Selecteren tijdens importeren**.
     
-    ![Scherm met importinstellingen](./media/expense-report-install/import-settings.png)
+   ![Scherm met importinstellingen](./media/expense-report-install/import-settings.png)
 
-8.  Klik op het **rode pictogram** voor de **SharePoint-verbinding**.
-9.  Klik in de lijst met verbindingen op het item met uw gebruikersnaam.
+8. Klik op het **rode pictogram** voor de **SharePoint-verbinding**.
+9. Klik in de lijst met verbindingen op het item met uw gebruikersnaam.
 
-    ![Scherm met importinstellingen](./media/expense-report-install/import-settings-sharepoint.png)
+   ![Scherm met importinstellingen](./media/expense-report-install/import-settings-sharepoint.png)
 
 10. Klik op **Opslaan**.
 11. Klik op het **rode pictogram** voor de **Goedkeuringsverbinding**.
@@ -265,9 +265,9 @@ In deze lijst worden de regelitems opgeslagen die zijn gekoppeld aan onkostenrap
 
     ![Scherm met importinstellingen](./media/expense-report-install/import-settings-approvals.png)
 
-13.  Klik op **Opslaan**.
-14.  Klik op het **rode pictogram** voor de **Office 365 Outlook-verbinding**.
-15.  Klik in de lijst met verbindingen op het item met uw gebruikersnaam.
+13. Klik op **Opslaan**.
+14. Klik op het **rode pictogram** voor de **Office 365 Outlook-verbinding**.
+15. Klik in de lijst met verbindingen op het item met uw gebruikersnaam.
 
     ![Scherm met importinstellingen](./media/expense-report-install/import-settings-office365outlook.png)
 
@@ -383,7 +383,7 @@ Bekijk deze video om te zien hoe u de voorbeeld-app Onkostenrapporten van PowerA
 
 [![Video over de installatie van Onkostenrapporten](./media/expense-report-install/expense-report-demo-video.png)](https://youtu.be/h6E9cdrOvMU)
 
-##<a name="next-steps"></a>Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 - [Een SharePoint-lijstformulier aanpassen](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/customize-list-form)
 - [Een besturingselement toevoegen en configureren](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/add-configure-controls)
 - [Machtigingen voor een SharePoint-lijst of -bibliotheek bewerken en beheren](https://support.office.com/en-us/article/edit-and-manage-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)

@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: fca166ef388921e08bf71149a8b1274a31a7dc52
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: fcf1bcec976e34f07745c315d75569bbc86e583f
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330624"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899520"
 ---
 # <a name="create-an-app-to-manage-projects"></a>Een app maken om projecten te beheren
 > [!NOTE]
@@ -155,7 +155,7 @@ In deze stap gaan we een manier vinden om naar de andere schermen in de app te n
      ![Knoptekst bijwerken](./media/sharepoint-scenario-build-app/04-03-08-buttons-final.png)
      
      > [!NOTE]
-> De knop heeft het label **Details bijwerken**, maar eerst navigeren we naar het scherm **ViewProjects** om een bij te werken project te selecteren.
+     > De knop heeft het label **Details bijwerken**, maar eerst navigeren we naar het scherm **ViewProjects** om een bij te werken project te selecteren.
 
 ### <a name="run-the-app"></a>De app uitvoeren
 De app doet nog niet veel, maar u kunt de app al wel uitvoeren:

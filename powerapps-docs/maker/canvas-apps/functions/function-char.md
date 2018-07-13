@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 2e8281f401088f43aa7785ac5dcf7b2f07bb6f96
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: b5d63b26498b94943f5340d9f57f3255390c7c94
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31826200"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37895978"
 ---
 # <a name="char-function-in-powerapps"></a>De functie Char in PowerApps
 Hiermee wordt een tekencode naar een tekenreeks vertaald.
@@ -31,6 +31,7 @@ De functie **Char** retourneert een tekenreeks met het juiste ASCII-teken voor u
 * *CharacterCode* - vereist. ASCII-tekencode om te vertalen.
 
 ## <a name="examples"></a>Voorbeelden
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **Char( 65 )** |Retourneert het teken dat overeenkomt met de ASCII-code 65. |A |

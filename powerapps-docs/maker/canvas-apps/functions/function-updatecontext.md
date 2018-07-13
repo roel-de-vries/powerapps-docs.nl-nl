@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/08/2015
 ms.author: gregli
-ms.openlocfilehash: a784251899e7c51ef8213b6d6f31c2830b08e2dc
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: e7da24eec1a85a1d57ab83476734639ef0f5dd25
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838850"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898071"
 ---
 # <a name="updatecontext-function-in-powerapps"></a>De functie UpdateContext in PowerApps
 Maakt [contextvariabelen](../working-with-variables.md#create-a-context-variable) voor het huidige scherm of werkt ze bij.
@@ -68,6 +68,7 @@ Het bereik van elke contextvariabele is een scherm. Als u een contextvariabele w
 * *ContextVariable2*: *Value2*,... - optioneel. Aanvullende contextvariabelen die u wilt maken of bijwerken en hun waarden.
 
 ## <a name="examples"></a>Voorbeelden
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **UpdateContext( {&nbsp;Teller:&nbsp;1&nbsp;} )** |Hiermee maakt of wijzigt u de contextvariabele **Teller** en stelt u de waarde in op **1**. |**Teller** heeft de waarde **1**. U kunt verwijzen naar die variabele door de naam **Teller** in een formule te gebruiken. |
@@ -85,10 +86,10 @@ Het bereik van elke contextvariabele is een scherm. Als u een contextvariabele w
 6. Selecteer **Vormen** op het tabblad **Invoegen** op het scherm **Doel** en selecteer vervolgens de pijl terug.
 7. Stel de eigenschap **[OnSelect](../controls/properties-core.md)** van de pijl terug in op deze formule:<br>**Navigate(Bron, Schermovergang.Fade)**
 8. Druk op het scherm **Bron** op F5 en selecteer de knop voor een van de talen.
-   
+
     Op het scherm **Doel** wordt het label weergegeven in de taal die overeenkomt met de geselecteerde knop.
 9. Selecteer de pijl terug om terug te keren naar het scherm **Bron** en selecteer vervolgens de knop voor de andere taal.
-   
+
     Op het scherm **Doel** wordt het label weergegeven in de taal die overeenkomt met de geselecteerde knop.
 10. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 

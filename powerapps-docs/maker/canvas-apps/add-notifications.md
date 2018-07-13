@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 08/08/2017
 ms.author: jamesol
-ms.openlocfilehash: 0cf09528f83b2729e50139a3b5f9b5b9c00b6119
-ms.sourcegitcommit: 045c96df42405c60c7675edbadac93455270a021
+ms.openlocfilehash: 1ab3b17d03b2fd21fceb0675ca55d33302f67d31
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34822553"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897750"
 ---
 # <a name="send-a-push-notification-in-powerapps"></a>Een pushmelding verzenden in PowerApps
 Pushmeldingen worden gebruikt in mobiele apps voor zakelijk en consumentengebruik, voornamelijk om app-gebruikers te benaderen en hun aandacht te trekken naar belangrijke taken. Het verzenden van meldingen in PowerApps vindt plaats via de PowerApps-meldingsconnector. U kunt native pushmeldingen verzenden naar alle apps die u in PowerApps maakt. We zullen in de toekomst meer meldingstypen toevoegen.
@@ -41,19 +41,19 @@ Voeg de PowerApps-meldingsconnector toe aan een app waarvoor u rechten als **Inz
 > Als u een pushmelding activeert vanuit een stroom, kunt u de melding op dit moment enkel naar één gebruiker of beveiligingsgroep tegelijk verzenden.
 
 1. Maak in [Microsoft Flow](https://flow.microsoft.com) een trigger die aangeeft wanneer de pushmelding wordt verzonden.
-   
+
     U kunt bijvoorbeeld een melding verzenden wanneer in de Common Data Service een record wordt toegevoegd aan de entiteit **Case**.
-   
+
     ![Schermopname van het maken van een stroom met een trigger op basis van de Common Data Service](./media/add-notifications/pic4-step1-flowupdated.png)
 2. Maak een actie voor de stroom met behulp van de **PowerApps-meldingsconnector** en voer de **App-id** in van de app waar u meldingen naar wilt verzenden.
-   
+
     U kunt de naam van de verbinding ook aanpassen aan uw scenario.
-   
+
     ![Schermopname van het maken van een verbinding met de PowerApps die deze pushmeldingen ontvangen](./media/add-notifications/pic5-step2-create-connection.jpg)
 3. (optioneel) Geef parameters door aan de app wanneer deze wordt geopend (nadat de gebruiker op de pushmelding tikt).
-   
+
     In dit voorbeeld geven we de velden **Case-id** en **Eerste eigenaar** door voor de geselecteerde contactpersoon.
-   
+
     ![Schermopname van het doorgeven van optionele parameters in de pushmelding](./media/add-notifications/pic6-step3-configure-notif.jpg)
 
 ## <a name="send-a-notification-from-an-app"></a>Een pushmelding verzenden vanuit een app
@@ -61,20 +61,20 @@ U kunt een pushmelding verzenden van een app naar een andere app of binnen dezel
 
 1. Ga in [PowerApps](https://web.powerapps.com/) naar de app die u wilt gebruiken om pushmeldingen te verzenden.
 2. Kopieer op het tabblad **Details** de **App-id** van deze app.
-   
+
     ![App-id ophalen](./media/add-notifications/grab-id.png)
 3. Maak op het tabblad **Verbindingen** een verbinding naar de PowerApps-meldingsconnector en plak hier de app-id uit de vorige stap.
-   
+
     ![Verbinding maken](./media/add-notifications/create-connection.png)
 4. De verbinding naar de trigger-app toevoegen.
-   
+
     In ons voorbeeld gebruiken we dezelfde app als de trigger-app. De gebruiker die de case opnieuw toewijst activeert ook een pushmelding naar de nieuwe case-eigenaar.
-   
+
     ![Verbinding toevoegen](./media/add-notifications/add-connection.png)
 5. Roep via de pushmeldingverbinding de methode **SendPushNotification** aan.
-   
+
     In ons voorbeeld activeren we deze melding met behulp van de eigenschap **OnSuccess** in een formulier.
-   
+
     ![PowerApps-formule](./media/add-notifications/powerapps-function.png)
 
 ## <a name="load-a-specific-page-and-context-when-a-user-taps-the-notification"></a>Een specifieke pagina en context openen wanneer een gebruiker op de melding tikt
@@ -91,16 +91,18 @@ U kunt uw app bijvoorbeeld instellen om na het openen direct naar de pagina **Ca
 
 > [!TIP]
 > Het is een goed idee om een unieke eerste pagina in de app te maken voor de melding:
-
->1. Maak een lege pagina die uw app niet standaard opent, voeg een besturingselement van het type **Text Input** in en stel de waarde **timer.Duration** in.
->2. Wanneer u de app maakt, moet u de timer instellen op een andere waarde dan nul. Wanneer u klaar bent om de app te publiceren, stelt u de waarde in op **0** om de timer direct te activeren.
+> 
+> 1. Maak een lege pagina die uw app niet standaard opent, voeg een besturingselement van het type **Text Input** in en stel de waarde **timer.Duration** in.
+> 2. Wanneer u de app maakt, moet u de timer instellen op een andere waarde dan nul. Wanneer u klaar bent om de app te publiceren, stelt u de waarde in op **0** om de timer direct te activeren.
 
 ## <a name="syntax"></a>Syntaxis
+
 | Naam | Beschrijving |
 | --- | --- |
 | Pushmelding verzenden |Verzend een pushmelding naar de app die is opgegeven in de verbindingsinstellingen voor de melding. |
 
 ### <a name="parameters"></a>Parameters
+
 | Naam | Type | Beschrijving |
 | --- | --- | --- |
 | ontvangers |String-matrix, vereist |Een lijst met: <ul> <li>E-mailadressen voor gebruikers of beveiligingsgroepen</li> <li>Object-id's voor gebruikers of beveiligingsgroepen in Azure Active Directory</li></ul> |

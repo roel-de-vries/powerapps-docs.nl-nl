@@ -1,23 +1,19 @@
 ---
 title: De functie IsMatch | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis, voor de functie IsMatch in PowerApps
-documentationcenter: na
 author: gregli-msft
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 02/05/2017
 ms.author: gregli
-ms.openlocfilehash: 26bbef6e61845708e20efb3bd201ae61867d1026
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 908602af84c94d4a14dcd2017c2791ee5c25e6ad
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838413"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899244"
 ---
 # <a name="ismatch-function-in-powerapps"></a>De functie IsMatch in PowerApps
 Test of een teksttekenreeks overeenkomt met een patroon.
@@ -134,21 +130,23 @@ De gebruiker typt **Hallo wereld** in **TextInput1**.
 | **IsMatch( TextInput1.Text, "hallo", Contains & IgnoreCase )** |Test of de invoer van de gebruiker het woord "hallo" (niet-hoofdlettergevoelig) bevat. |**true** |
 
 ### <a name="predefined-patterns"></a>Vooraf gedefinieerde patronen
-| Formule | Beschrijving | Resultaat |
-| --- | --- | --- |
-| **IsMatch( "123-45-7890", Digit & Digit & Digit & Hyphen & Digit & Digit & Hyphen & Digit & Digit & Digit & Digit & Digit )** |Komt overeen met een burgerservicenummer van de Verenigde Staten |**true** |
-| **IsMatch( "joan@contoso.com", E-mail )** |Komt overeen met een e-mailadres |**true** |
-| **IsMatch( "123.456", MultipleDigits & Period & OptionalDigits )** |Komt overeen met een opeenvolging van cijfers, een punt en vervolgens nul of meer cijfers. |**true** |
-| **IsMatch( "123", MultipleDigits & Period & OptionalDigits )** |Komt overeen met een opeenvolging van cijfers, een punt en vervolgens nul of meer cijfers. Er staat geen punt in de tekst. Daarom is er geen overeenkomst met dit patroon. |**false** |
+
+|                                                            Formule                                                            |                                                                Beschrijving                                                                |  Resultaat   |
+|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| **IsMatch( "123-45-7890", Digit & Digit & Digit & Hyphen & Digit & Digit & Hyphen & Digit & Digit & Digit & Digit & Digit )** |                                              Komt overeen met een burgerservicenummer van de Verenigde Staten                                               | **true**  |
+|                                           **IsMatch( "joan@contoso.com", E-mail )**                                            |                                                         Komt overeen met een e-mailadres                                                          | **true**  |
+|                              **IsMatch( "123.456", MultipleDigits & Period & OptionalDigits )**                               |                                   Komt overeen met een opeenvolging van cijfers, een punt en vervolgens nul of meer cijfers.                                   | **true**  |
+|                                **IsMatch( "123", MultipleDigits & Period & OptionalDigits )**                                 | Komt overeen met een opeenvolging van cijfers, een punt en vervolgens nul of meer cijfers. Er staat geen punt in de tekst. Daarom is er geen overeenkomst met dit patroon. | **false** |
 
 ### <a name="regular-expressions"></a>Reguliere expressies
-| Formule | Beschrijving | Resultaat |
-| --- | --- | --- |
-| **IsMatch( "986", "\d+" )** |Komt overeen met een geheel getal dat groter is dan nul. |**true** |
-| **IsMatch( "1.02", "\d+(\.\d\d)?" )** |Komt overeen met een positief bedrag. Als de invoer een decimaalteken bevat, moet de invoer ook 2 numerieke tekens na het decimaalteken bevatten. 3,00 is bijvoorbeeld geldig, maar 3,1 is dat niet. |**true** |
-| **IsMatch( "-4.95", "(-)?\d+(\.\d\d)?" )** |Komt overeen met een positief of negatief bedrag. Als de invoer een decimaalteken bevat, moet de invoer ook 2 numerieke tekens na het decimaalteken bevatten. |**true** |
-| **IsMatch( "111-11-1111", "\d{3}-\d{2}-\d{4}" )** |Komt overeen met een burgerservicenummer van de Verenigde Staten.  Valideert de indeling, het type en de lengte van het opgegeven invoerveld. De tekenreeks die overeen moet komen, moet bestaan uit 3 numerieke tekens met daar achter een streepje, daarna 2 numerieke tekens met daar achter een streepje en vervolgens 4 numerieke tekens. |**true** |
-| **IsMatch( "111-111-111", "\d{3}-\d{2}-\d{4}" )** |Hetzelfde als het vorige voorbeeld, maar een van de afbreekstreepjes in de invoer valt buiten het bereik. |**false** |
-| **IsMatch( "weakpassword", "(?!^[0-9]\*$)(?!^[a-zA-Z]\*$)([a-zA-Z0-9]{8,10})" )** |Valideert een sterk wachtwoord, dat uit 8, 9 of 10 tekens moet bestaan en daarnaast minimaal één cijfer en minimaal een letter moet bevatten. De tekenreeks mag geen speciale tekens bevatten. |**false** |
-| **IsMatch( "http://microsoft.com", "(ht&#124;f)tp(s?)\:\/\/\[0-9a-zA-Z\]([-.\w]\*[0-9a-zA-Z])\*(:(0-9)\*)\*(\/?)([a-zA-Z0-9\-\.\?\,\'\/\\\+&amp;%\$#_]\*)?" )** |Valideert een http-, https- of ftp-URL. |**true** |
+
+|                                                                              Formule                                                                              |                                                                                                                                  Beschrijving                                                                                                                                   |  Resultaat   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+|                                                                    **IsMatch( "986", "\d+" )**                                                                    |                                                                                                                    Komt overeen met een geheel getal dat groter is dan nul.                                                                                                                     | **true**  |
+|                                                               **IsMatch( "1.02", "\d+(\.\d\d)?" )**                                                               |                                        Komt overeen met een positief bedrag. Als de invoer een decimaalteken bevat, moet de invoer ook 2 numerieke tekens na het decimaalteken bevatten. 3,00 is bijvoorbeeld geldig, maar 3,1 is dat niet.                                         | **true**  |
+|                                                            **IsMatch( "-4.95", "(-)?\d+(\.\d\d)?" )**                                                             |                                                        Komt overeen met een positief of negatief bedrag. Als de invoer een decimaalteken bevat, moet de invoer ook 2 numerieke tekens na het decimaalteken bevatten.                                                        | **true**  |
+|                                                         **IsMatch( "111-11-1111", "\d{3}-\d{2}-\d{4}" )**                                                         | Komt overeen met een burgerservicenummer van de Verenigde Staten.  Valideert de indeling, het type en de lengte van het opgegeven invoerveld. De tekenreeks die overeen moet komen, moet bestaan uit 3 numerieke tekens met daar achter een streepje, daarna 2 numerieke tekens met daar achter een streepje en vervolgens 4 numerieke tekens. | **true**  |
+|                                                         **IsMatch( "111-111-111", "\d{3}-\d{2}-\d{4}" )**                                                         |                                                                                               Hetzelfde als het vorige voorbeeld, maar een van de afbreekstreepjes in de invoer valt buiten het bereik.                                                                                               | **false** |
+|                                         **IsMatch( "weakpassword", "(?!^[0-9]\*$)(?!^[a-zA-Z]\*$)([a-zA-Z0-9]{8,10})" )**                                         |                                        Valideert een sterk wachtwoord, dat uit 8, 9 of 10 tekens moet bestaan en daarnaast minimaal één cijfer en minimaal een letter moet bevatten. De tekenreeks mag geen speciale tekens bevatten.                                        | **false** |
+| **IsMatch( "<http://microsoft.com>", "(ht&#124;f)tp(s?)\:\/\/\[0-9a-zA-Z\]([-.\w]\*[0-9a-zA-Z])\*(:(0-9)\*)\*(\/?)([a-zA-Z0-9\-\.\?\,\'\/\\\+&amp;%\$#_]\*)?" )** |                                                                                                                     Valideert een http-, https- of ftp-URL.                                                                                                                      | **true**  |
 

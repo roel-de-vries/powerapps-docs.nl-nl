@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/08/2017
 ms.author: gregli
-ms.openlocfilehash: 5e9b9ec980e6dd4aeacfef42b40fe7f52c19d558
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 4cdc1116de5882b69814bd91b4006debb8c5f5cf
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838735"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899336"
 ---
 # <a name="understand-data-sources-in-powerapps"></a>Gegevensbronnen begrijpen in PowerApps
 Voor de meeste PowerApps-apps wordt externe informatie gebruikt die is opgeslagen in cloudservices. Deze worden **Gegevensbronnen** genoemd. Een veel voorkomend voorbeeld is bijvoorbeeld een tabel in een Excel-bestand die is opgeslagen in OneDrive voor Bedrijven. Apps krijgen toegang tot deze gegevensbronnen via **Verbindingen**.
@@ -54,7 +54,7 @@ U kunt gegevensbronnen van tabellen op dezelfde manier gebruiken als u een inter
 * De gegevensbron bevat dezelfde kolomnamen en gegevenstypen als de onderliggende tabel in de verbinding.
   
     > [!NOTE]
-> Kolomnamen met spaties in gegevensbronnen van Excel of SharePoint worden in PowerApps vervangen door **‘\_x0020\_’**. **'Kolom twaalf'** in SharePoint of Excel wordt bijvoorbeeld weergegeven als **'Kolom_x0020_twaalf'** in PowerApps wanneer de naam wordt weergegeven in de gegevensindeling of wordt gebruikt in een formule.
+  > Kolomnamen met spaties in gegevensbronnen van Excel of SharePoint worden in PowerApps vervangen door **‘\_x0020\_’**. **'Kolom twaalf'** in SharePoint of Excel wordt bijvoorbeeld weergegeven als **'Kolom_x0020_twaalf'** in PowerApps wanneer de naam wordt weergegeven in de gegevensindeling of wordt gebruikt in een formule.
 * De gegevensbron wordt automatisch uit de service geladen wanneer de app wordt geladen.  U kunt de gegevens geforceerd vernieuwen met behulp van de functie **[Refresh](functions/function-refresh.md)**.
 * Wanneer gebruikers een app uitvoeren, kunnen zij records maken, wijzigen en verwijderen, en die wijzigingen terugkoppelen naar de onderliggende tabel in de service.
   * Records kunnen worden gemaakt met de functies **[Patch](functions/function-patch.md)** en **[Collect](functions/function-clear-collect-clearcollect.md)**.  

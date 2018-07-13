@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 03/15/2018
 ms.author: mblythe
-ms.openlocfilehash: da3d21e3f4488f552568a95d856af175f9a042eb
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9dbc59baf8970582b108ee588904437441107722
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827092"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896369"
 ---
 # <a name="powerapps-custom-visual-for-power-bi"></a>Aangepast visueel PowerApps-element voor Power BI
 
@@ -31,11 +31,11 @@ Bekijk de stappen die nodig zijn om het aangepaste visuele PowerApps-element in 
 
     ![Aangepast visueel element in Marketplace](./media/powerapps-custom-visual/powerapps-store.png) 
 
-1. Voeg het visuele PowerApps-element toe aan uw rapport en stel de daaraan gekoppelde gegevensvelden in.
+2. Voeg het visuele PowerApps-element toe aan uw rapport en stel de daaraan gekoppelde gegevensvelden in.
 
     ![De rapportgegevens selecteren](./media/powerapps-custom-visual/add-visual-set-data.png)
 
-1. U kunt hiervoor een bestaande app kiezen of er een maken. Als u ervoor kiest om een app te maken, kunt u kiezen in welke omgeving u deze wilt maken.
+3. U kunt hiervoor een bestaande app kiezen of er een maken. Als u ervoor kiest om een app te maken, kunt u kiezen in welke omgeving u deze wilt maken.
 
     ![Nieuwe of bestaande app](./media/powerapps-custom-visual/create-new-or-choose-app.png)
 
@@ -45,19 +45,19 @@ Bekijk de stappen die nodig zijn om het aangepaste visuele PowerApps-element in 
 
     ![Nieuwe app](./media/powerapps-custom-visual/new-app.png)
 
-1. Nu kunt u in PowerApps Studio de gegevensvelden gebruiken die u in stap 2 hebt ingesteld. Het object `PowerBIIntegration` fungeert zoals elke andere alleen-lezen PowerApps-gegevensbron of -verzameling. U kunt met het object een besturingselement invullen, of deze toevoegen en filteren met andere gegevensbronnen.
+4. Nu kunt u in PowerApps Studio de gegevensvelden gebruiken die u in stap 2 hebt ingesteld. Het object `PowerBIIntegration` fungeert zoals elke andere alleen-lezen PowerApps-gegevensbron of -verzameling. U kunt met het object een besturingselement invullen, of deze toevoegen en filteren met andere gegevensbronnen.
 
     ![Aangepaste formule](./media/powerapps-custom-visual/custom-formula.png)
 
     Deze formule wordt aan de Power BI-gegevens toegevoegd met de gegevensbron van de klant: `LookUp(Customer,Customer_x0020_Name=First(PowerBIIntegration.Data).Customer_Name)`
 
- Het Power BI-rapport en de gestarte PowerApps Studio-instantie delen een live gegevensverbinding. Wanneer deze beide zijn geopend, kunt u de gegevens in het rapport filteren of wijzigen. De bijgewerkte gegevens ziet u onmiddellijk in uw app in PowerApps Studio weergegeven.
+   Het Power BI-rapport en de gestarte PowerApps Studio-instantie delen een live gegevensverbinding. Wanneer deze beide zijn geopend, kunt u de gegevens in het rapport filteren of wijzigen. De bijgewerkte gegevens ziet u onmiddellijk in uw app in PowerApps Studio weergegeven.
 
-1. Sla, wanneer u gereed bent met het bouwen of wijzigen van uw app, de app op en publiceer deze in PowerApps om uw app in het Power BI-rapport te zien.
+5. Sla, wanneer u gereed bent met het bouwen of wijzigen van uw app, de app op en publiceer deze in PowerApps om uw app in het Power BI-rapport te zien.
 
-1. Zorg ervoor dat u, wanneer u tevreden bent met uw wijzigingen, de PowerApps-app deelt met gebruikers van uw rapport en sla het rapport vervolgens op.
+6. Zorg ervoor dat u, wanneer u tevreden bent met uw wijzigingen, de PowerApps-app deelt met gebruikers van uw rapport en sla het rapport vervolgens op.
 
-1. En hiermee hebt u een rapport gemaakt waarin uw gebruikers acties kunnen uitvoeren al naar gelang zij inzichten krijgen uit uw gegevens.
+7. En hiermee hebt u een rapport gemaakt waarin uw gebruikers acties kunnen uitvoeren al naar gelang zij inzichten krijgen uit uw gegevens.
 
     ![Het rapport bewerken](./media/powerapps-custom-visual/working-report.gif)
 

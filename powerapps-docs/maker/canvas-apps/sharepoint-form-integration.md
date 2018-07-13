@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 11/11/2017
 ms.author: ankitsar
-ms.openlocfilehash: 69e3baaa769282ca8ac7372ba3360829a1624f3d
-ms.sourcegitcommit: 6bfb002180148a3f22a4d1d8d750fc442489ebe4
+ms.openlocfilehash: f8f21235170483c908149898f92b57cc6c2cb9aa
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35291738"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896415"
 ---
 # <a name="understand-sharepoint-forms-integration"></a>Integratie met SharePoint-formulieren begrijpen
 U kunt nu eenvoudig [een SharePoint-lijstformulier aanpassen](customize-list-form.md) in PowerApps. In dit artikel vindt u meer informatie over de werking van de formulieren en de manier waarop u deze verder kunt aanpassen.
@@ -66,7 +66,7 @@ Het formulier dat standaard wordt gegenereerd, bestaat uit de volgende besturing
 
     * **OnCancel**: Hiermee maakt u de wijzigingen in **SharePointForm1** ongedaan. Het formulier wordt in SharePoint altijd verborgen wanneer een gebruiker in SharePoint op **Annuleren** klikt of tikt.
 
-        **SubmitForm(SharePointForm1)**
+        **ResetForm(SharePointForm1)**
 
 Deze standaardinstellingen zorgen ervoor dat het formulier werkt wanneer dit in SharePoint wordt uitgevoerd. Met de instellingen wordt de PowerApps-formuliermodus gewijzigd wanneer de gebruiker het formulier gebruikt in SharePoint. Daarnaast zorgen deze instellingen ervoor dat de wijzigingen naar SharePoint worden verzonden.
 
@@ -103,8 +103,8 @@ Nu u een beter inzicht hebt in het formulier dat standaard wordt gegenereerd en 
 
 * Gebruik de formule **OnSave** van het besturingselement **SharePointIntegration** om aan te passen wat er gebeurt wanneer een gebruiker in SharePoint op **Opslaan** klikt of tikt. Als u meerdere formulieren hebt, moet u ervoor zorgen dat u alleen de wijzigingen verzendt voor het formulier dat momenteel wordt gebruikt.
 
-    >[!TIP]
-     Stel verschillende waarden in voor een variabele in de formules **OnNew**, **OnView** en **OnEdit**. U kunt deze variabele in de formule **OnSave** gebruiken om te bepalen welk formulier wordt gebruikt.
+  > [!TIP]
+  >    Stel verschillende waarden in voor een variabele in de formules **OnNew**, **OnView** en **OnEdit**. U kunt deze variabele in de formule **OnSave** gebruiken om te bepalen welk formulier wordt gebruikt.
 
 * Zorg dat u voor alle formulieren **RequestHide()** opneemt in de formule **OnSuccess**. Als u dit vergeet, kan het formulier niet worden verborgen met SharePoint.
 

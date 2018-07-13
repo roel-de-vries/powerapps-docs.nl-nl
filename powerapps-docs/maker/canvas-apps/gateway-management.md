@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/30/2016
 ms.author: archanan
-ms.openlocfilehash: d51d134878b04f3cb10ff876ef488f1390e4ef30
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 939758c1550f1006f00bd9a386eb4b9cbcd69af0
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31826793"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899911"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-powerapps"></a>Een on-premises gegevensgateway beheren in PowerApps
 Installeer een on-premises gegevensgateway om gegevens snel en veilig over te dragen tussen PowerApps en een gegevensbron die zich niet in de cloud bevindt, zoals een on-premises SQL Server-database of een on-premises SharePoint-site. Bekijk alle gateways waarvoor u beheerdersmachtigingen hebt en beheer machtigingen en verbindingen voor deze gateways.
@@ -67,7 +67,7 @@ Voor het machtigingsniveau **Mag gebruiken** en **Mag gebruiken + delen**, selec
 3. Als u een verbinding wilt delen, klikt of tikt u op **Share**, waarna u gebruikers kunt toevoegen of verwijderen.
 
     > [!NOTE]
-> U kunt alleen bepaalde typen verbindingen, zoals SQL Server, delen. Zie [App-resources delen](share-app-resources.md) voor meer informatie.
+   > U kunt alleen bepaalde typen verbindingen, zoals SQL Server, delen. Zie [App-resources delen](share-app-resources.md) voor meer informatie.
 
 Zie [Uw verbindingen beheren](add-manage-connections.md) voor meer informatie over het beheren van een verbinding.
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 11/30/2015
 ms.author: lonu
-ms.openlocfilehash: 01065fd1a12b3d55e8726582cead3d86a6e6a8ad
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: b3bf7c2227d3321a581eb1a568de1ce78ead92ee
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330284"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899888"
 ---
 # <a name="create-and-update-a-collection-in-your-app"></a>Een verzameling in uw app maken en bijwerken
 U kunt een verzameling gebruiken om gegevens op te slaan die in uw app kunnen worden gebruikt. Een verzameling is een groep met items die vergelijkbaar zijn. U maakt bijvoorbeeld een verzameling MijnAfbeeldingen waarin alle foto's worden opgeslagen van producten die uw bedrijf verkoopt. U kunt uw verzameling MijnAfbeeldingen in PowerApps toevoegen en een app maken die alle foto's van deze producten weergeeft. Ander voorbeeld: u kunt een verzameling Prijslijst maken die een overzicht bevat van de producten en de prijs van elk product.
@@ -84,7 +84,7 @@ De volgende stappen laten u zien hoe u een verzameling binnen uw app kunt maken 
    ![][10]  
    
     > [!NOTE]
-> U kunt 'Tekstinvoer' vervangen door zoiets als 'Plaats' of 'Staat’, zoals in de afbeelding.  
+   > U kunt 'Tekstinvoer' vervangen door zoiets als 'Plaats' of 'Staat’, zoals in de afbeelding.  
 6. Selecteer **Knop** op het tabblad **Invoegen**. Stel de eigenschap **[OnSelect](controls/properties-core.md)** in op de volgende functie:  
    ```Collect(Destinations, {Cities:City!Text, States:States!Text})```  
    
@@ -92,7 +92,7 @@ De volgende stappen laten u zien hoe u een verzameling binnen uw app kunt maken 
     ![][11]  
    
     > [!NOTE]
-> U kunt deze zelfde functie gebruiken om extra kolommen aan deze verzameling toe te voegen. U kunt bijvoorbeeld nog een besturingselement voor tekstinvoer toevoegen voor Land om een kolom met landen toe te voegen:
+   > U kunt deze zelfde functie gebruiken om extra kolommen aan deze verzameling toe te voegen. U kunt bijvoorbeeld nog een besturingselement voor tekstinvoer toevoegen voor Land om een kolom met landen toe te voegen:
    
     `Collect(Destinations, {Cities:City!Text, States:States!Text}, {Countries:Country!Text})`
 7. Wijzig de naam van het knopbesturingselement **AddCityStateButton** en stel de eigenschap **[Tekst](controls/properties-core.md)** ervan in op **Plaats en staat toevoegen**:  
@@ -155,7 +155,7 @@ Er zijn een paar secties in dit stappenplan. Na het afronden weet u hoe u gegeve
     ```Collect(OrderList, {Name:PriceGallery!Selected!Name, Qty:OrderQty!Value, Cost:OrderQty!Value*LookUp(PriceList, PriceGallery!Selected!Name in Name, Price)});SaveData(OrderList, "orderfile")```  
    
     > [!NOTE]
-> Als u deze knop later in deze procedure selecteert, maakt u een verzameling die wordt opgeslagen met de naam **Bestellijst**. De verzameling zal de naam bevatten van een product dat u in de galerie invoert, een hoeveelheid die u met de schuifregelaar kiest en de totale kosten die worden berekend door de hoeveelheid te vermenigvuldigen met de prijs van het product.
+   > Als u deze knop later in deze procedure selecteert, maakt u een verzameling die wordt opgeslagen met de naam **Bestellijst**. De verzameling zal de naam bevatten van een product dat u in de galerie invoert, een hoeveelheid die u met de schuifregelaar kiest en de totale kosten die worden berekend door de hoeveelheid te vermenigvuldigen met de prijs van het product.
 4. Selecteer het tabblad **Scherm** en stel de eigenschap **[OnVisible](controls/control-screen.md)** in op de volgende expressie:  
    
     ```If(IsEmpty(PriceList), LoadData(PriceList, "pricefile"));If(IsEmpty(OrderList), LoadData(OrderList, "orderfile"))```

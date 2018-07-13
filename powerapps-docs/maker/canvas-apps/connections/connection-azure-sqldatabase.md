@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/12/2016
 ms.author: lanced
-ms.openlocfilehash: e11521219fcd368801a6e943f45dbc713309ec36
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: d8d5e29fc7f1c551ac637d86886bc658e7414110
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803415"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898002"
 ---
 # <a name="connect-to-sql-server-from-powerapps"></a>Verbinding maken met SQL Server vanuit PowerApps
 ![SQL Server-pictogram](./media/connection-azure-sqldatabase/sqlicon.png)
@@ -33,7 +33,7 @@ Maak in Azure of een on-premises database verbinding met SQL Server, zodat u geg
 * Voor een on-premises database identificeert u een [gegevensgateway](../gateway-management.md) die met u is gedeeld (of maakt u er een).
   
     > [!NOTE]
-> Gateways en on-premises verbindingen kunnen alleen worden gemaakt en gebruikt in de [standaardomgeving](../working-with-environments.md) van de gebruiker.
+  > Gateways en on-premises verbindingen kunnen alleen worden gemaakt en gebruikt in de [standaardomgeving](../working-with-environments.md) van de gebruiker.
 
 ## <a name="generate-an-app-automatically"></a>Automatisch een app genereren
 1. Klik of tik in PowerApps Studio op **New** in het menu **File** (aan de linkerkant).
@@ -54,7 +54,7 @@ Maak in Azure of een on-premises database verbinding met SQL Server, zodat u geg
        ![Verbinding maken met een on-premises database](./media/connection-azure-sqldatabase/connect-onprem.png)
      
        > [!NOTE]
-> Als u geen gateway hebt, [installeert u er een](../gateway-reference.md) en klikt of tikt u op **Gatewaylijst vernieuwen**.
+     > Als u geen gateway hebt, [installeert u er een](../gateway-reference.md) en klikt of tikt u op **Gatewaylijst vernieuwen**.
 6. Klik of tik op **Verbinden**.
 7. Klik of tik op een optie onder **Choose a dataset**, klik op of tik op een optie onder **Choose a table** en klik of tik op **Connect**.
    
@@ -77,7 +77,7 @@ Maak in Azure of een on-premises database verbinding met SQL Server, zodat u geg
        ![Verbinding maken met een database in Azure](./media/connection-azure-sqldatabase/connect-onprem-portal.png)
      
        > [!NOTE]
-> Als u geen gateway hebt, [installeert u er een](../gateway-reference.md) en klikt of tikt u op het pictogram met de pijl die met de klok mee beweegt om de lijst te vernieuwen.
+     > Als u geen gateway hebt, [installeert u er een](../gateway-reference.md) en klikt of tikt u op het pictogram met de pijl die met de klok mee beweegt om de lijst te vernieuwen.
 5. Klik of tik op **Maken** om de verbinding te maken.
 6. Maak een app met behulp van de technieken die vergelijkbaar zijn met de technieken die worden beschreven in [Een volledig nieuwe app maken](../get-started-create-from-blank.md).
 
@@ -98,7 +98,7 @@ Maak in Azure of een on-premises database verbinding met SQL Server, zodat u geg
        ![Verbinding maken met een database in Azure](./media/connection-azure-sqldatabase/connect-onprem-fromblank.png)
      
        > [!NOTE]
-> Als u geen gateway hebt, [installeert u er een](../gateway-reference.md) en klikt of tikt u op het pictogram met de pijl die met de klok mee beweegt om de lijst te vernieuwen.
+     > Als u geen gateway hebt, [installeert u er een](../gateway-reference.md) en klikt of tikt u op het pictogram met de pijl die met de klok mee beweegt om de lijst te vernieuwen.
 6. Klik of tik op **Verbinden**.
 7. Onder **Choose a dataset** klikt of tikt u op een optie.
 8. Schakel onder **Choose a table** een of meer selectievakjes in en klik of tik op **Connect**.

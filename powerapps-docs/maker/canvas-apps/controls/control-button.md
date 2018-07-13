@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: a5d818bf12bafaa5c557afae1d93b6ba0a6a7d2f
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 5e292b9cab399e4433c5b209fe22f17dd955ea9f
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803438"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898464"
 ---
 # <a name="button-control-in-powerapps"></a>Besturingselement voor knop in PowerApps
 Een besturingselement waarop de gebruiker kan klikken of tikken om interactie te hebben met de app.
@@ -141,7 +141,7 @@ Voeg een formule toe die het besturingselement **Tekstinvoer** tussen vermelding
     **UpdateContext({Total:Total + Value(Source.Text)});<br>UpdateContext({ClearInput: ""})**
    
     > [!NOTE]
-> Scheid meerdere formules met puntkomma's '**;**'.
+   > Scheid meerdere formules met puntkomma's '**;**'.
 3. Stel de eigenschap **[Default](properties-core.md)** van **Bron** in op **ClearInput**.
 4. Druk op **F5** en test de app vervolgens door verschillende cijfers tegelijkertijd toe te voegen.
 

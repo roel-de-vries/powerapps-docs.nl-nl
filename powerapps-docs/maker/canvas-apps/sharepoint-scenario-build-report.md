@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 01/10/2018
 ms.author: mblythe
-ms.openlocfilehash: 4863ee2c19c17eb8afcc8913dcfb5f3831af828c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 7ab372f8e8a03da35752614905017e24672480b3
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31839103"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897703"
 ---
 # <a name="create-a-power-bi-report-to-analyze-projects"></a>Een Power BI-rapport maken voor projectanalyse
 > [!NOTE]
@@ -94,8 +94,8 @@ In deze stap gaan we eerst verbinding maken met de twee lijsten. Vervolgens scho
    
     ![Kolommen verwijderen](./media/sharepoint-scenario-build-report/05-01-07-remove-column.png)
 3. Verwijder de twee kolommen na de kolom **Id**: **ServerRedirectedEmbedURL** en **ContentTypeId**. 
-> [!TIP]
-> Gebruik de Shift-toets om beide kolommen te selecteren. Klik vervolgens op **Kolommen verwijderen**.
+   > [!TIP]
+   > Gebruik de Shift-toets om beide kolommen te selecteren. Klik vervolgens op **Kolommen verwijderen**.
 4. Verwijder alle kolommen rechts van de kolom **PMAssigned** (totaal 22 kolommen). De tabel moet met de volgende afbeelding overeenkomen:
    
     ![Tabel Projectdetails in Query-editor](./media/sharepoint-scenario-build-report/05-01-08-table-details.png)

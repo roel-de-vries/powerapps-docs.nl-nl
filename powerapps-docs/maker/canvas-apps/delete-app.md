@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: canvas
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: e0186e0f1f8b1396f2fb90cfffae8e38aacb1ac1
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ed454b6656971adb4c209d2dd9a59e5258ef8eac
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827000"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898140"
 ---
 # <a name="delete-an-app-from-powerapps"></a>Een app verwijderen uit PowerApps
 In dit artikel wordt beschreven hoe u een app verwijdert uit uw PowerApps-account en uit de accounts van iedereen met wie de app is gedeeld.
@@ -31,7 +31,7 @@ In dit artikel wordt beschreven hoe u een app verwijdert uit uw PowerApps-accoun
     ![](./media/delete-app/filter-list.png)
    
     > [!NOTE]
-> Als de app die u wilt verwijderen niet wordt weergegeven, controleer dan of u zich in de juiste omgeving bevindt.
+   > Als de app die u wilt verwijderen niet wordt weergegeven, controleer dan of u zich in de juiste omgeving bevindt.
 3. Klik of tik aan de rechterkant op het pictogram Details voor de app die u wilt verwijderen.
    
     ![](./media/delete-app/app-options.png)
@@ -40,11 +40,11 @@ In dit artikel wordt beschreven hoe u een app verwijdert uit uw PowerApps-accoun
     ![](./media/delete-app/delete-icon.png)
    
     > [!NOTE]
-> U kunt een app alleen verwijderen als u de machtiging **Inzender** hebt voor de app.
+   > U kunt een app alleen verwijderen als u de machtiging **Inzender** hebt voor de app.
 5. Klik of tik in het dialoogvenster dat verschijnt op **Uit de cloud verwijderen**.  
    
     > [!IMPORTANT]
-> Met deze actie wordt deze app niet alleen permanent verwijderd uit uw account, maar ook uit de accounts van alle gebruikers met wie deze app is gedeeld.
+   > Met deze actie wordt deze app niet alleen permanent verwijderd uit uw account, maar ook uit de accounts van alle gebruikers met wie deze app is gedeeld.
    
     ![](./media/delete-app/delete-button.png)
 

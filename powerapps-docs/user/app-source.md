@@ -2,18 +2,21 @@
 title: Apps ontdekken via AppSource | Microsoft Docs
 description: Via AppSource ontdekken welke apps met uw organisatie zijn gedeeld
 author: linhtranms
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: conceptual
-ms.date: 10/28/2016
-ms.author: litran
-ms.openlocfilehash: 3f1eee4a220b46fcae769054eef71c1c8ad41859
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.date: 07/09/2018
+ms.author: matp
+ms.custom: ''
+ms.reviewer: ''
+ms.assetid: ''
+ms.openlocfilehash: ce7494e136c3cc4e0ff6e841f5145fee8a9185c2
+ms.sourcegitcommit: bcfefb30b12cf94815dd9a0fd8cad29a8272d96e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34074171"
+ms.lasthandoff: 07/09/2018
+ms.locfileid: "37925473"
 ---
 # <a name="discover-apps-via-appsource"></a>Apps ontdekken via AppSource
 De apps die u bouwt en publiceert met PowerApps worden ontdekt en gebruikt in Dynamics 365 for Web. Hier worden al uw apps weergegeven: de apps die u hebt gekozen om ze te gebruiken (door ze te openen via een deele-mail of door ze via AppSource te openen) en de apps die beheerders voor u hebben ingericht. Dit omvat al uw apps uit PowerApps, alsmede Dynamics 365-toepassingen van Microsoft. U kunt zoeken naar apps en filteren op omgeving en de apps die u het vaakst gebruikt vastmaken aan de bovenkant van de pagina.

@@ -12,12 +12,12 @@ ms.topic: sample
 ms.component: canvas
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: 4601cabae10f3373f8d2ef18190d71af536811b5
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: e7ed897af79831f9d8db7ae6da6719b3e6977807
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34470038"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896967"
 ---
 # <a name="install-and-configure-the-help-desk-powerapps-sample"></a>De voorbeeld-app Helpdesk van PowerApps installeren en configureren
 
@@ -173,27 +173,27 @@ In deze lijst worden de Helpdesk-tickets opgeslagen.
 
 ## <a name="import-the-help-desk-powerapp"></a>De PowerApp Helpdesk importeren
 
-1.  Navigeer in een webbrowser naar https://web.powerapps.com.
-2.  Meld u aan met dezelfde referenties die u hebt gebruikt om u te registreren.
-3.  Selecteer **Apps** in het menu aan de linkerkant. 
-4.  Klik op **Pakket importeren (preview)**.
+1. Navigeer in een webbrowser naar https://web.powerapps.com.
+2. Meld u aan met dezelfde referenties die u hebt gebruikt om u te registreren.
+3. Selecteer **Apps** in het menu aan de linkerkant. 
+4. Klik op **Pakket importeren (preview)**.
     
-    ![Het scherm Pakket importeren](./media/help-desk-install/import-package.png)
+   ![Het scherm Pakket importeren](./media/help-desk-install/import-package.png)
 
-5.  Klik op de knop **Uploaden** en selecteer het PowerApp-pakket dat u in de vorige stappen hebt gedownload.
-6.  Stel voor de resourcetypen **App** en **Stroom** **IMPORTINSTELLINGEN** in op **Als nieuwe maken**.
-7.  Stel voor de verbindingen **SharePoint** en **Outlook** **IMPORTINSTELLINGEN** in op **Selecteren tijdens importeren**.
+5. Klik op de knop **Uploaden** en selecteer het PowerApp-pakket dat u in de vorige stappen hebt gedownload.
+6. Stel voor de resourcetypen **App** en **Stroom** **IMPORTINSTELLINGEN** in op **Als nieuwe maken**.
+7. Stel voor de verbindingen **SharePoint** en **Outlook** **IMPORTINSTELLINGEN** in op **Selecteren tijdens importeren**.
     
-    ![Scherm met importinstellingen](./media/help-desk-install/import-settings.png)
+   ![Scherm met importinstellingen](./media/help-desk-install/import-settings.png)
 
-8.  Klik op het **rode pictogram** voor de **SharePoint-verbinding**.
-9.  Klik in de lijst met verbindingen op het item met uw gebruikersnaam.
+8. Klik op het **rode pictogram** voor de **SharePoint-verbinding**.
+9. Klik in de lijst met verbindingen op het item met uw gebruikersnaam.
 
-    ![Scherm met importinstellingen](./media/help-desk-install/import-settings-sharepoint.png)
+   ![Scherm met importinstellingen](./media/help-desk-install/import-settings-sharepoint.png)
 
 10. Klik op **Opslaan**.
-11.  Klik op het **rode pictogram** voor de **Office 365 Outlook-verbinding**.
-12.  Klik in de lijst met verbindingen op het item met uw gebruikersnaam.
+11. Klik op het **rode pictogram** voor de **Office 365 Outlook-verbinding**.
+12. Klik in de lijst met verbindingen op het item met uw gebruikersnaam.
 
     ![Scherm met importinstellingen](./media/help-desk-install/import-settings-office365outlook.png)
 
@@ -241,13 +241,13 @@ In deze lijst worden de Helpdesk-tickets opgeslagen.
 1. Selecteer het **aanmeldscherm**.
 2. Selecteer **OnStart** in de vervolgkeuzelijst.
 3. Vouw het formulevenster uit en zoek de verzameling **AdminList**.
-4. Vervang **user@microsoft.com** door uw Helpdesk-beheerder(s).
+4. Vervang <strong>user@microsoft.com</strong> door uw Helpdesk-beheerder(s).
 
     ![De lijst met beheerders bijwerken](./media/help-desk-install/Change-admin.png)
     
-    > [!TIP] 
-    > Als er meerdere beheerders zijn, gebruikt u een komma om de beheerders te scheiden.  Voorbeeld: admin1@microsoft.com, admin2@microsoft.com.
-    > Als u wilt controleren of de adressen in AdminList overeenkomen met de indeling die PowerApps verwacht, selecteert u Weergave > Variabelen > Algemeen > Mijn profiel en bekijkt u de verwachte e-mailadresindeling in de kolom E-mail.
+   > [!TIP]
+   > Als er meerdere beheerders zijn, gebruikt u een komma om de beheerders te scheiden.  Voorbeeld: admin1@microsoft.com, admin2@microsoft.com.
+   > Als u wilt controleren of de adressen in AdminList overeenkomen met de indeling die PowerApps verwacht, selecteert u Weergave > Variabelen > Algemeen > Mijn profiel en bekijkt u de verwachte e-mailadresindeling in de kolom E-mail.
 
 5. Klik op **Bestand**.
 6. Klik op **Opslaan**.

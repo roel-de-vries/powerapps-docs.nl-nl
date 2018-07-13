@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 06/29/2017
 ms.author: gregli
-ms.openlocfilehash: 3615328bf1c272425779998545b0d16ac5626297
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 1fdf6c92fb739f1293c90322b508b46f4ec5733e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31832599"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898025"
 ---
 # <a name="set-function-in-powerapps"></a>De functie Set in PowerApps
 De waarde van een globale variabele instellen.
@@ -55,6 +55,7 @@ Globale variabelen kunnen niet dezelfde naam gebruiken als een bestaande verzame
 * *Value*: vereist.  De waarde die moet worden toegewezen aan de contextvariabele.
 
 ## <a name="examples"></a>Voorbeelden
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **Set(&nbsp;Teller,&nbsp;1&nbsp;)** |Hiermee maakt of wijzigt u de globale variabele **Teller** en stelt u de waarde in op **1**. |**Teller** heeft de waarde **1**. U kunt verwijzen naar die variabele door de naam **Teller** in een formule te gebruiken. |

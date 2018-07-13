@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 8dc68646808e40792d3e55aa9ac547aa43a78efb
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c916784df877b1228fd8d9322a80ccccdc61967f
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827339"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37897887"
 ---
 # <a name="savedata-and-loaddata-functions-in-powerapps"></a>Functies SaveData en LoadData in PowerApps
 Hiermee wordt een [verzameling](../working-with-data-sources.md#collections) opgeslagen en opnieuw geladen.
@@ -39,6 +39,7 @@ De opslag wordt gecodeerd en bevindt zich op een persoonlijke locatie op het lok
 * *IgnoreNonexistentFile* - optioneel. Booleaanse waarde (**true**/**false**) die aangeeft of de functie **LoadData** fouten moet weergeven of negeren wanneer een overeenkomend bestand niet wordt gevonden. Als u **false** opgeeft, worden fouten weergegeven. Als u **true** opgeeft, worden fouten genegeerd, wat nuttig is voor offlinescenario's. Met **SaveData** kan een bestand worden gemaakt als het apparaat offline is (als **Connection.Connected** de status **false** heeft).
 
 ## <a name="examples"></a>Voorbeelden
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **If(Connection.Connected, ClearCollect(LocalTweets, Twitter.SearchTweet("PowerApps", {maxResults: 100})),LoadData(LocalTweets, "Tweets", true))** |Als het apparaat is verbonden, wordt de verzameling LocalTweets uit de Twitter-service geladen. Anders wordt de verzameling uit de lokale bestandscache geladen. |De inhoud wordt weergegeven, ongeacht of het apparaat online of offline is. |
