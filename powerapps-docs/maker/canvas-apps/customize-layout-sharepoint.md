@@ -7,14 +7,15 @@ ms.topic: tutorial
 ms.component: canvas
 ms.date: 05/06/2018
 ms.author: anneta
-ms.openlocfilehash: 88170d5f727ff4e3cfe52ce31719bcbc79e33021
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 80baf43cbde0811d4ab5a7f5212aff767a9f6103
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34453579"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899934"
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>Zelfstudie: Een galerie aanpassen in PowerApps
+
 In deze zelfstudie past u een lijst met records aan en brengt u andere wijzigingen aan in een app die automatisch is gegenereerd in Microsoft PowerApps. Gebruikers kunnen gegevens in de app beheren zelfs als u deze wijzigingen niet aanbrengt. De app wordt echter eenvoudiger in gebruik als u deze aanpast aan de behoeften van uw organisatie.
 
 De galerie voor deze zelfstudie komt bijvoorbeeld standaard overeen met deze afbeelding. Het e-mailadres wordt meer prominent weergegeven dan andere typen gegevens en gebruikers kunnen de galerie sorteren en filteren op basis van tekst in dat adres:
@@ -39,9 +40,11 @@ Deze zelfstudie begint met een app die is gegenereerd op basis van een specifiek
 Als u zich niet hebt geregistreerd voor PowerApps, kunt u zich hier [gratis registreren](https://web.powerapps.com) voordat u begint.
 
 ## <a name="prerequisites"></a>Vereisten
+
 [Genereer een app](data-platform-create-app.md) vanuit de entiteit **Accounts** van de Common Data Service (CDS) voor apps.
 
 ## <a name="open-the-generated-app"></a>De gegenereerde app openen
+
 1. Meld u aan bij [PowerApps](https://web.powerapps.com) en selecteer bij de linkerrand **Apps**.
 
     [![PowerApps-startpagina](./media/customize-layout-sharepoint/sign-in.png)](./media/customize-layout-sharepoint/sign-in.png#lightbox)
@@ -53,6 +56,7 @@ Als u zich niet hebt geregistreerd voor PowerApps, kunt u zich hier [gratis regi
 1. Selecteer **Overslaan** in het dialoogvenster **Welkom bij PowerApps Studio**.
 
 ## <a name="change-the-layout"></a>De indeling wijzigen
+
 1. Selecteer **BrowseGallery1** in het linkernavigatiedeelvenster.
 
     Wanneer de galerie is geselecteerd, wordt het omgeven door een selectiekader met grepen.
@@ -84,11 +88,12 @@ Als u zich niet hebt geregistreerd voor PowerApps, kunt u zich hier [gratis regi
     ![Definitieve galerie](./media/customize-layout-sharepoint/final-gallery.png)
 
 ## <a name="change-sort-and-search-columns"></a>Sortering wijzigen en zoeken in kolommen
+
 1. Selecteer de galerie zoals in de vorige sectie wordt beschreven.
 
     ![Galerie selecteren](./media/customize-layout-sharepoint/select-gallery-title.png)
 
-2. Controleer of de eigenschappenlijst linksboven de optie **Items** bevat.
+1. Controleer of de eigenschappenlijst linksboven de optie **Items** bevat.
 
     ![Eigenschap Items](./media/customize-layout-sharepoint/items-property.png)
 
@@ -100,12 +105,13 @@ Als u zich niet hebt geregistreerd voor PowerApps, kunt u zich hier [gratis regi
 
     Met deze formule kunt u zorgen voor het volgende:
 
-    - Als een gebruiker een of meer tekens in de zoekbalk typt, toont de galerie alleen de accountnamen die de tekst bevatten die de gebruiker heeft ingetypt.
-    - Als een gebruiker het sorteerpictogram selecteert, wordt de galerie alfabetisch gesorteerd op accountnaam in oplopende of aflopende volgorde, afhankelijk van hoe vaak de gebruiker het pictogram selecteert.
+    * Als een gebruiker een of meer tekens in de zoekbalk typt, toont de galerie alleen de accountnamen die de tekst bevatten die de gebruiker heeft ingetypt.
+    * Als een gebruiker het sorteerpictogram selecteert, wordt de galerie alfabetisch gesorteerd op accountnaam in oplopende of aflopende volgorde, afhankelijk van hoe vaak de gebruiker het pictogram selecteert.
 
-    Zie de [naslaginformatie over formules](formula-reference.md) voor meer informatie over deze en andere functies.
+     Zie de [naslaginformatie over formules](formula-reference.md) voor meer informatie over deze en andere functies.
 
 ### <a name="test-sorting-and-searching"></a>Sorteren en zoeken testen
+
 1. Open de preview-modus door op F5 te drukken (of door de afspeelknop bij de rechterbovenhoek te selecteren ).
 
     ![Preview-modus openen](./media/customize-layout-sharepoint/open-preview.png)
@@ -121,6 +127,7 @@ Als u zich niet hebt geregistreerd voor PowerApps, kunt u zich hier [gratis regi
 1. Verwijder alle tekst uit de zoekbalk en sluit de preview-modus vervolgens door op Esc te drukken (of selecteer het pictogram voor sluiten in de rechterbovenhoek).
 
 ## <a name="change-the-screen-title"></a>De titel van het scherm wijzigen
+
 1. Selecteer de titel van het scherm door erop te klikken of te tikken.
 
     ![Schermtitel selecteren](./media/customize-layout-sharepoint/select-title.png)
@@ -133,18 +140,20 @@ Als u zich niet hebt geregistreerd voor PowerApps, kunt u zich hier [gratis regi
 
     ![Nieuwe schermtitel](./media/customize-layout-sharepoint/new-screen-title.png)
 
-## <a name="show-a-scroll-bar"></a>Een schuifbalk weergeven
+## <a name="show-a-scrollbar"></a>Een schuifbalk weergeven
+
 Als uw gebruikers mogelijk niet over een aanraakscherm of muiswiel beschikken, configureert u de galerie om een schuifbalk weer te geven wanneer de gebruiker de muisaanwijzer erover beweegt. Op die manier kunnen gebruikers alle accounts weergeven, zelfs als het scherm deze niet in één keer kan weergegeven.
 
 1. Selecteer de galerie zoals in de eerste procedure wordt beschreven.
 
     ![Galerie selecteren](./media/customize-layout-sharepoint/select-gallery-sorted.png)
 
-1. Selecteer op het tabblad **Galerie** de optie **Schuifbalk weergeven** en bevestig dat de waarde van deze eigenschap is gewijzigd in **true**. 
+1. Selecteer op het tabblad **Galerie** de optie **Schuifbalk weergeven** en bevestig dat de waarde van deze eigenschap is gewijzigd in **true**.
 
     ![Schuifbalk weergeven](./media/customize-layout-sharepoint/show-scrollbar.png)
 
 ## <a name="next-steps"></a>Volgende stappen
+
 In deze zelfstudie hebt u de galerie aangepast en andere wijzigingen aangebracht in het standaardscherm voor het bladeren door records in een gegenereerde app. U kunt ook de standaardschermen aanpassen om details weer te geven en voor het maken of bijwerken van accounts. Omdat het scherm voor bladeren een galerie bevat, bevatten de andere twee schermen in de app formulieren. U kunt bijvoorbeeld wijzigen welke gegevenstypen de formulieren weergeven en in welke volgorde.
 
 > [!div class="nextstepaction"]

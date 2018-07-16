@@ -7,12 +7,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/02/2016
 ms.author: lanced
-ms.openlocfilehash: feb2d17400c2f1ddc9670e3bd840322dc1edfc10
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: e6ab6d7e5c7cdf6c166660c1e905f3d62531c3ed
+ms.sourcegitcommit: 76ffec3b4d9c18a01f19c583435541ae165a8234
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803093"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864233"
 ---
 # <a name="connect-to-excel-from-powerapps"></a>Verbinding maken met Excel vanuit PowerApps
 ![Excel](./media/connection-excel/excelicon.png)
@@ -25,7 +25,7 @@ Excel is *een soort* verbinding. Excel-gegevens weergeven in uw app:
 4. Geef deze informatie in uw app weer door [automatisch een app te genereren](../get-started-create-from-data.md) of door bijvoorbeeld een besturingselement **Galerie** toe te voegen en te configureren.
 
 > [!NOTE]
-> Wanneer u verbinding hebt gemaakt met de Excel-tabel vanuit PowerApps, wordt de nieuwe kolom **\_* PowerAppsId_*** gemaakt, met een unieke id voor elke rij van de Excel-tabel.
+> Wanneer u verbinding maakt met de Excel-tabel vanuit PowerApps, wordt een nieuwe kolom gemaakt met de naam **\_PowerAppsId_**, met een unieke id voor elke rij van de Excel-tabel.
 
 [Overzicht van de cloudopslagverbinding](cloud-storage-blob-connections.md) toont u hoe u de verbinding kunt toevoegen, hoe u een Excel-tabel als een gegevensbron kunt toevoegen en hoe u de Excel-gegevens in uw app kunt gebruiken.
 
