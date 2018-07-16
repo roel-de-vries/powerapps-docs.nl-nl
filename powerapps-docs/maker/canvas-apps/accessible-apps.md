@@ -2,20 +2,24 @@
 title: Toegankelijke apps maken | Microsoft Docs
 description: Hoe u apps toegankelijk maakt voor mensen met beperkingen
 author: fikaradz
+manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/03/2018
 ms.author: fikaradz
-ms.openlocfilehash: 8a7139f6dbc39bc1585156802e30236aa2b68359
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 909f71a61ca3df73b41eb9e1fe0f3dc3f52d1527
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803070"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018716"
 ---
 # <a name="create-accessible-apps"></a>Toegankelijke apps maken
 Een toegankelijke app stelt gebruikers met visuele, gehoor- of andere beperkingen in staat de app goed te kunnen gebruiken.  Toegankelijkheid is een vereiste voor veel regeringen en organisaties. Daarnaast kunt u door onderstaande richtlijnen te volgen uw app beter bruikbaar maken voor alle gebruikers.
+
+Gebruik de **[Toegankelijkheidscontrole](accessibility-checker.md)** om mogelijke toegankelijkheidsproblemen in uw app te controleren. 
 
 ## <a name="layout-and-color"></a>Indeling en kleur
 Met gezond verstand en een eenvoudig ontwerp kunt u apps toegankelijker maken voor alle gebruikers ervan.  Houd rekening met onderstaande suggesties wanneer u grote aanpassingen aan apps maakt.  PowerApps-thema's zijn standaard toegankelijk.
@@ -59,4 +63,7 @@ Als u een handtekeningenveld gebruikt met het besturingselement PenInput, moet u
 
 
 
-Gerelateerde informatie: **[eigenschappen voor toegankelijkheid](controls/properties-accessibility.md)**
+Gerelateerd:
+- [Eigenschappen voor toegankelijkheid](controls/properties-accessibility.md)
+- [Toegankelijkheidscontrole gebruiken](accessibility-checker.md)
+- [Toegankelijke kleuren in PowerApps](accessible-apps-color.md)
