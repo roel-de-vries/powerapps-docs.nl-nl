@@ -2,17 +2,19 @@
 title: 'Zelfstudie: Een galerie aanpassen in een gegenereerde app | Microsoft Docs'
 description: In deze zelfstudie past u de gegevens die worden weergegeven in de galerie en andere elementen aan van een app die automatisch is gegenereerd in PowerApps.
 author: AFTOwen
+manager: kvivek
 ms.service: powerapps
 ms.topic: tutorial
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 05/06/2018
 ms.author: anneta
-ms.openlocfilehash: 80baf43cbde0811d4ab5a7f5212aff767a9f6103
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: bb02f12bf452d1928408ea7c266469b524607b5f
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899934"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39016784"
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>Zelfstudie: Een galerie aanpassen in PowerApps
 
