@@ -134,7 +134,9 @@
             - name: Een toegankelijke app maken
               href: ./canvas-apps/accessible-apps.md
               items:
-                - name: Kleur
+                - name: Toegankelijkheidsproblemen vinden
+                  href: ./canvas-apps/accessibility-checker.md
+                - name: Kleur gebruiken voor toegankelijkheid
                   href: ./canvas-apps/accessible-apps-color.md
         - name: Uw app beheren
           items:
