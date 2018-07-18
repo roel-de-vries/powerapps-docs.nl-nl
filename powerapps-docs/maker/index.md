@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 03/18/2018
 ms.author: anneta
 ms.reviewer: ''
-ms.openlocfilehash: bed3109a067da091ca6fc242f1f63c8ff11724ab
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 3d95f017b064f61a539906268ebb73fff1e1d04f
+ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39015841"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39094605"
 ---
 # <a name="overview-of-creating-apps-in-powerapps"></a>Overzicht van het maken van apps in PowerApps
 PowerApps is een zeer productief ontwikkelingsplatform voor zakelijke apps en bestaat uit drie primaire onderdelen:
@@ -46,7 +46,7 @@ Wanneer u een modelgestuurde app maakt, kunt u alle kracht van Common Data Servi
 
 Het aan de slag gaan met modelgestuurde apps is eenvoudig. Begin met de volgende onderwerpen:
 
-- [Een app maken](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-app)
+- [Een app maken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-app)
 - [Formulieren maken en ontwerpen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-design-forms)
 - [Weergaven maken of bewerken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-views)
 - [Een systeemgrafiek maken of bewerken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-system-chart)
