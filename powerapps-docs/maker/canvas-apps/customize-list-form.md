@@ -1,167 +1,194 @@
 ---
-title: Een SharePoint-lijstformulier aanpassen met PowerApps | Microsoft Docs
-description: U kunt PowerApps gebruiken om een lijstformulier in SharePoint aan te passen.
-documentationcenter: na
-author: aftowen
-manager: kfile
-editor: ''
-tags: ''
+title: Een SharePoint-lijstformulier aanpassen | Microsoft Docs
+description: Gebruik PowerApps om het formulier aan te passen waarmee gebruikers vermeldingen in een SharePoint-lijst maken en bijwerken.
+author: AFTOwen
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
 ms.component: canvas
-ms.date: 02/05/2018
+ms.date: 06/11/2018
 ms.author: anneta
-ms.openlocfilehash: 34c4e4126015f9a5f53ef6f07c9c66e4a4141db0
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 1ab7b6bc5f8e2617fc3d66bcdac40b930805d14d
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330394"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37900095"
 ---
-# <a name="customize-a-sharepoint-list-form-using-powerapps"></a>Een SharePoint-lijstformulier aanpassen met PowerApps
+# <a name="customize-a-sharepoint-list-form-by-using-powerapps"></a>Een SharePoint-lijstformulier aanpassen met PowerApps
 
-U kunt nu eenvoudig een SharePoint-lijstformulier aanpassen in PowerApps. Veel taken voor het aanpassen van SharePoint-lijstformulieren die u in InfoPath uitvoert, kunt u nu inline in een browser met PowerApps uitvoeren. Bovendien biedt PowerApps u de mogelijkheid om nog veel meer te doen.
+U kunt eenvoudig het formulier voor een SharePoint-lijst aanpassen door PowerApps te openen in een browser. U hoeft geen traditionele code, zoals C#, te schrijven of een andere app, zoals InfoPath, te downloaden. Wanneer u de wijzigingen publiceert, wordt het formulier ingesloten in de SharePoint-lijst voor gebruik door alle gebruikers ervan. In PowerApps kunt u ook analyserapporten bekijken, eenvoudig voorwaardelijke opmaak maken en verbinding maken met andere gegevensbronnen.
 
-PowerApps is rechtstreeks geïntegreerd met SharePoint - u hoeft dus geen andere app naar uw computer te downloaden. Met PowerApps kunt u aangepaste formulieren maken zonder dat u hiervoor code hoeft te schrijven. Na het publiceren worden de formulieren ingesloten in de SharePoint-lijst en zijn ze beschikbaar voor alle gebruikers van de lijst.
-
-En omdat PowerApps naadloos is geïntegreerd in SharePoint, is niet nodig formulieren op twee plekken te beheren: machtigingen worden overgenomen van en beheerd via SharePoint. En wellicht is het grootste pluspunt van de integratie tussen PowerApps en SharePoint dat u toegang hebt tot veel krachtige functies, zoals Analytics-rapporten, regels voor aanwijzen en klikken voor voorwaardelijke opmaak en verbindingen met andere gegevensbronnen.
-
-Klaar om te beginnen met het aanpassen van uw formulieren? Aan de slag!
-
-## <a name="create-a-custom-list-form-app-in-powerapps"></a>Een aangepaste lijstformulier-app maken in PowerApps
+Als u de stappen in dit onderwerp wilt volgen, maakt u een eenvoudige lijst zodat u kunt zien hoe aanpassing werkt. U kunt dan vervolgens dezelfde concepten toepassen op uw eigen lijst.
 
 > [!NOTE]
-> De optie **Formulieren aanpassen** is niet beschikbaar of werkt mogelijk niet op de juiste manier als de SharePoint-lijst gegevenstypen bevat die niet worden ondersteund in PowerApps.
+> Als de optie **Formulieren aanpassen** niet beschikbaar is of niet correct werkt voor uw lijst, bevat deze mogelijk gegevenstypen die [PowerApps niet ondersteunt](connections/connection-sharepoint-online.md#known-issues). U kunt uw formulier ook niet verplaatsen naar een andere lijst of [omgeving](working-with-environments.md).
 
-Open uw SharePoint-lijst, klik of tik op **PowerApps** op de opdrachtbalk en klik of tik vervolgens op **Formulieren aanpassen**. Hiermee wordt PowerApps Studio in een browser geopend, met een door PowerApps gegenereerde formulier-app met één scherm, zoals u in het volgende voorbeeld kunt zien.
+## <a name="prerequisites"></a>Vereisten
 
-![Formulier-app met één scherm](./media/customize-list-form/list-form-app.png)
+Maak op een SharePoint-site een lijst die deze kolommen bevat:
 
-Als u op een willekeurig moment wilt teruggaan naar uw SharePoint-lijst, klikt of tikt u op **Terug naar SharePoint** in de linkerbovenhoek van PowerApps Studio.
+- **ProductNaam** (één tekstregel)
+- **Details** (ja/nee)
+- **Prijs** (valuta)
+- **Beschikbaarheid** (datum zonder tijd)
+- **Kleur** (keuze)
 
-## <a name="customize-the-list-form"></a>Het lijstformulier aanpassen
+## <a name="open-the-form-in-powerapps"></a>Open het formulier in PowerApps
 
-PowerApps biedt verschillende manieren voor het aanpassen van formulieren. Hieronder ziet u een aantal voorbeelden:
+1. Open de lijst die u hebt gemaakt en selecteer vervolgens **Nieuw** op de opdrachtbalk.
 
-* [De grootte en richting wijzigen](set-aspect-ratio-portrait-landscape.md)
-* [De tekst opmaken](controls/properties-text.md)
-* [Afbeeldingen](add-images-pictures-audio-video.md) of [grafieken toevoegen](use-line-pie-bar-chart.md)
-* [Aangepaste gegevensvalidatie toevoegen](functions/function-validate.md)
-* [Regels toevoegen](working-with-rules.md)
-* [Aanvullende weergaven maken](https://powerapps.microsoft.com/blog/separate-custom-forms/)
+    Het formulier wordt geopend en geeft de velden weer die u hebt toegevoegd, plus **Titel** en **Bijlagen**.
 
-Stel bijvoorbeeld dat uw formulier het veld **AccountID** bevat. U wilt dit veld niet weergeven in het formulier.
+1. Selecteer bovenaan het formulier **Aanpassen**.
 
-![Het veld AccountID selecteren](./media/customize-list-form/select-card.png)
+    PowerApps Studio wordt geopend in hetzelfde browsertabblad.
 
-Het is in PowerApps zeer eenvoudig om dit veld te verbergen. Hiervoor gaat u naar de opties voor het aanpassen van formulieren en schakelt u het selectievakje **AccountID** uit.
+1. Selecteer **Overslaan** in het dialoogvenster **Welkom bij PowerApps Studio**.
 
-![Het selectievakje AccountID uitschakelen](./media/customize-list-form/checkbox.png)
+## <a name="hide-extra-fields"></a>Extra velden verbergen
 
-Zie [Formulieren aanpassen in PowerApps](customize-forms-sharepoint.md) voor stapsgewijze instructies voor het verbergen van velden en het aanbrengen van andere formulierwijzigingen. Zie [Documentatie voor Microsoft PowerApps](https://docs.microsoft.com/powerapps/) voor een volledige lijst resources.
+In het midden van het scherm geeft PowerApps uw formulier weer. Het bevat echter enkele velden die u mogelijk niet wilt weergeven.
 
-## <a name="save-and-publish-the-list-form-back-to-sharepoint"></a>Het lijstformulier weer publiceren naar SharePoint
+- Schakel in het deelvenster **Gegevens** de selectievakjes voor deze velden uit.
 
-1. Als u klaar bent, klikt of tikt u op **Bestand** en vervolgens op **Opslaan**. Hiermee worden uw wijzigingen in de PowerApps-formulier-app opgeslagen.
+  - **Title**
+  - **Gewijzigd**
+  - **Gemaakt**
+  - **Gemaakt door**
+  - **Gewijzigd door**
+  - **Id**
 
-1. Als u uw formulier weer naar SharePoint wilt publiceren zodat anderen dit kunnen gebruiken, klikt of tikt u op **Publiceren naar SharePoint**. U hoeft zich geen zorgen te maken over het delen van het formulier: de machtigingen voor het formulier worden overgenomen van de SharePoint-lijst.
+    Deze velden verdwijnen van het formulier, zodat alleen de velden overblijven die u hebt gemaakt.
 
-    ![Publiceren naar SharePoint](./media/customize-list-form/publish-to-sharepoint.png)  
+    ![Lijst met velden](./media/customize-list-form/field-list.png)
 
-## <a name="view-your-list-form-in-sharepoint"></a>Uw lijstformulier in SharePoint weergeven
+## <a name="set-conditional-formatting"></a>Voorwaardelijke opmaak instellen
 
-1. Als u uw aangepaste formulier wilt weergeven, klikt of tikt u op **Terug naar SharePoint** en vervolgens op een item in de SharePoint-lijst. Het formulier wordt inline aan de rechterkant van het browservenster geopend.
+U kunt instellen dat de velden **Prijs**, **Beschikbaarheid** en **Kleuren** alleen worden weergegeven als **Details** is ingesteld op ja.
 
-    ![Formulier inline openen in SharePoint](./media/customize-list-form/list-form-open.png)
+1. Selecteer de kaart **Prijs** door er op te klikken of te tikken.
 
-1. Als u [uw formulier verder wilt aanpassen](sharepoint-form-integration.md), klikt of tikt u op **Aanpassen** en brengt u de gewenste wijzigingen aan. Zorg dat u uw wijzigingen opslaat wanneer u klaar bent.
+    ![De kaart Beschikbaarheid selecteren](./media/customize-list-form/select-card.png)
 
-    ![De knop Aanpassen](./media/customize-list-form/customize-button.png)
+1. Selecteer **Zichtbaar** in de lijst met eigenschappen.
 
-    U kunt uw formulier zo vaak aanpassen en opslaan als u wilt, maar uw wijzigingen worden pas zichtbaar in SharePoint nadat u op **Publiceren naar SharePoint** hebt geklikt of getikt.
+    ![De eigenschap Zichtbaar selecteren](./media/customize-list-form/select-property.png)
 
-## <a name="toggle-between-using-the-default-sharepoint-form-and-the-custom-form"></a>Schakelen tussen het standaard-SharePoint-formulier en het aangepaste formulier
+1. Typ of plak deze formule in de formulebalk:
 
-1. Klik of tik in uw lijst in SharePoint op **Instellingen**, klik of tik op **Lijstinstellingen** en klik of tik vervolgens op **Formulierinstellingen**.
+    **If(DataCardValue3.Value = true, true)**
 
-1. Klik of tik op de pagina **Formulierinstellingen** op een van de volgende opties en klik of tik daarna op **OK**.
+    ![De waarde instellen van de eigenschap Zichtbaar](./media/customize-list-form/build-formula.png)
 
-    * **Het standaard-SharePoint-formulier gebruiken**: in SharePoint wordt het standaard-SharePoint-formulier voor uw lijst gebruikt.
+1. Herhaal de laatste drie stappen met de kaarten **Beschikbaarheid** en **Kleur**.
 
-    * **Een aangepast formulier gebruiken dat is gemaakt in PowerApps**: In SharePoint wordt het formulier gebruikt dat u in PowerApps hebt aangepast. (U kunt ook het formulier opnieuw publiceren via de pagina **Opslaan** in PowerApps Studio.)
+1. Houd de Alt-toets ingedrukt en selecteer de wisselknop **Details** meerdere malen (door erop te klikken of te tikken).
+
+    De drie velden die u hebt geconfigureerd, worden weergegeven en verdwijnen van het formulier.
+
+1. (optioneel) Pas uw formulieren aan op verschillende andere manieren, zoals:
+
+    - Wijzig de grootte, stand of beide (bijvoorbeeld om [het formulier breder te maken](set-aspect-ratio-portrait-landscape.md)).
+    - Voeg een besturingselement toe zodat gebruikers [bijlagen kunnen uploaden](controls/properties-text.md).
+    - Maak een [opzoekveld](sharepoint-lookup-fields.md).
+
+## <a name="save-publish-and-show-the-form"></a>Het formulier opslaan, publiceren en weergeven
+
+1. Open het menu **Bestand**, selecteer **Opslaan** en selecteer vervolgens twee keer **Publiceren naar SharePoint**.
+
+1. Selecteer de pijl-terug in de linkerbovenhoek en selecteer vervolgens **Terug naar SharePoint**.
+
+1. Selecteer **Nieuw** op de opdrachtbalk om uw aangepaste formulier te openen.
+
+1. Selecteer de wisselknop **Details** meerdere keren om de laatste drie velden te verbergen en weer te geven.
+
+Als u [uw formulier verder wilt aanpassen](sharepoint-form-integration.md), opent u het en selecteert u **Aanpassen** bovenaan het formulier. Maak, bewaar en publiceer uw wijzigingen vervolgens.
+
+## <a name="use-the-default-form"></a>Het standaardformulier gebruiken
+
+1. Vanaf uw lijst in SharePoint opent u de instellingenpagina (door het tandwielpictogram in de rechterbovenhoek te selecteren) en selecteert u vervolgens **Lijstinstellingen**.
+
+2. Selecteer onder **Algemene instellingen** de optie **Formulierinstellingen**.
+
+3. Selecteer op de pagina **Formulierinstellingen** een van deze opties en selecteer vervolgens **OK**.
+
+    - **Het standaard SharePoint-formulier gebruiken**: wanneer een gebruiker uw lijst opent en **Nieuw** selecteert op de opdrachtbalk, wordt het standaardformulier voor de lijst weergegeven.
+
+    - **Een aangepast formulier gebruiken dat is gemaakt in PowerApps**: wanneer een gebruiker uw lijst opent en **Nieuw** selecteert op de opdrachtbalk, wordt uw aangepaste formulier weergegeven. (Als alternatief kunt u het formulier ook opnieuw publiceren in PowerApps.)
 
     Desgewenst kunt u tussen de opties wisselen.
 
     ![Opties voor formulierinstellingen](./media/customize-list-form/form-settings.png)
 
-## <a name="delete-the-custom-list-form"></a>Het aangepaste lijstformulier verwijderen
+## <a name="delete-the-custom-form"></a>Het aangepaste formulier verwijderen
 
-1. Klik of tik in uw lijst in SharePoint op **Instellingen**, klik of tik op **Lijstinstellingen** en klik of tik vervolgens op **Formulierinstellingen**.
+1. Vanaf uw lijst in SharePoint opent u de instellingenpagina (door het tandwielpictogram in de rechterbovenhoek te selecteren) en selecteert u vervolgens **Lijstinstellingen**.
 
-1. Klik of tik op de pagina **Formulierinstellingen** op **Het standaard-SharePoint-formulier gebruiken** en klik of tik onder de optie **Een aangepast formulier gebruiken dat is gemaakt in PowerApps** op **Aangepaste formulier verwijderen**. Hiermee wordt het aangepaste formulier verwijderd dat u in PowerApps hebt gemaakt en wordt het standaard-SharePoint-formulier hersteld.
+1. Selecteer onder **Algemene instellingen** de optie **Formulierinstellingen**.
+
+1. Selecteer op de pagina **Formulierinstellingen** de optie **Het standaard SharePoint-formulier gebruiken** en selecteer vervolgens **Aangepast formulier verwijderen**.
 
     ![Het aangepaste formulier verwijderen](./media/customize-list-form/use-default-sharepoint.png)
 
-## <a name="top-questions-about-list-form-customization"></a>Veelgestelde vragen over het aanpassen van lijstformulieren
+## <a name="q--a"></a>Vragen en antwoorden
 
-### <a name="customizing-forms-versus-creating-apps"></a>Verschil tussen het aanpassen van formulieren en het maken van apps
+### <a name="forms-vs-apps"></a>Formulieren versus apps
 
-**V:** Wat is het verschil tussen een aangepast lijstformulier en een zelfstandige app die ik vanuit SharePoint of PowerApps maak?
+**V:** Wat is het verschil tussen een aangepast formulier en een zelfstandige app die ik vanuit SharePoint of PowerApps maak?
 
-**A:** De lijstformulier-app die u vanuit SharePoint maakt, is een speciaal type PowerApps-app dat alleen kan worden gebruikt in een SharePoint-lijst. Deze lijstformulier-apps worden niet in uw app-lijst in PowerApps Studio of PowerApps Mobile weergegeven. Verder kunt u deze apps niet buiten de SharePoint-lijst uitvoeren.
+**A:** Als u het formulier voor een SharePoint-lijst aanpast, wordt het formulier niet weergegeven als een app in PowerApps Studio of PowerApps Mobile. U kunt het formulier alleen openen vanuit de lijst waarvoor u het hebt gemaakt.
 
-**V:** Wanneer moet ik een aangepast lijstformulier maken en wanneer moet ik een zelfstandige app maken?
+**V:** Wanneer moet ik een formulier voor het beheren van gegevens in een SharePoint-lijst aanpassen en wanneer moet ik een zelfstandige app maken?
 
-**A:** Als u wilt dat gebruikers met behulp van SharePoint toegang tot het formulier kunnen krijgen en de manier wilt aanpassen waarop gebruikers lijstitems kunnen maken, weergeven of bewerken, kunt u het beste een aangepast lijstformulier maken vanuit SharePoint. Als u voor uw gebruikers een volledig aangepaste ervaring wilt maken die los van de SharePoint-site kan worden gebruikt, kunt u het beste een zelfstandige app maken.
+**A:** U kunt een formulier aanpassen als u wilt dat uw gebruikers gegevens kunnen beheren zonder SharePoint (bijvoorbeeld in een desktopbrowser). Maak een app als u wilt dat uw gebruikers gegevens kunnen beheren buiten SharePoint (bijvoorbeeld op een mobiel apparaat).
 
-**V:** Kan ik een lijstformulier aanpassen en een zelfstandige app voor dezelfde lijst maken?
+**V:** Kan ik een lijstformulier aanpassen en een app voor dezelfde lijst maken?
 
-**A:** Ja. Zelfstandige apps en aangepaste lijstformulieren zijn onafhankelijk van elkaar; u kunt ze los van elkaar aanpassen en beheren.
+**A:** Ja.
 
-**V:** Zijn de aanpassingsfuncties voor het aanpassen van lijsten hetzelfde als die voor het aanpassen van zelfstandige apps?
+**V:** Kan ik een lijst aanpassen en een app maken met dezelfde functies?
 
-**A:** Ja. U kunt [besturingselementen toevoegen en configureren](add-configure-controls.md), [verbinding maken met beschikbare gegevensbronnen](add-data-connection.md) of [uw eigen gegevensbronnen toevoegen](../canvas-apps/register-custom-api.md), taken die u ook voor zelfstandige apps kunt uitvoeren.
+**A:** Ja.
 
-**V:** Kan ik aangepaste lijstformulieren in een andere omgeving maken dan in de standaardomgeving van mijn organisatie?
+**V:** Kan ik een formulier aanpassen in een andere omgeving dan in de standaardomgeving van mijn organisatie?
 
-**A:** Nee. Momenteel kunt u aangepaste lijstformulieren alleen in de standaard-PowerApps-omgeving van uw organisatie maken. U kunt geen aangepaste lijstformulieren maken in (of migreren naar) andere omgevingen.
+**A:** Nee.
 
-### <a name="managing-your-custom-list-form"></a>Uw aangepaste lijstformulier beheren
+### <a name="manage-your-custom-form"></a>Uw aangepaste formulier beheren
 
-**V:** Hoe kan ik een directe koppeling krijgen naar mijn lijstformulier die ik met anderen kan delen?
+**V:** Hoe kan ik eenvoudig mijn formulier delen met anderen?
 
-**A:** Open het formulier in de SharePoint-lijst en klik of tik op **Koppeling kopiëren**.
+**A:** Openen het formulier, selecteer **Koppeling kopiëren** en stuur vervolgens de koppeling naar iedereen die het formulier moet kunnen gebruiken.
 
-**V:** Kan ik mijn lijstformulier bijwerken zonder mijn wijzigingen zichtbaar te maken voor anderen?
+**V:** Kan ik mijn formulier bijwerken zonder mijn wijzigingen zichtbaar te maken voor anderen?
 
-**A:** Ja. U kunt zo vaak u wilt wijzigingen in uw formulier aanbrengen. Uw wijzigingen worden echter pas zichtbaar voor anderen nadat u op **[Publiceren naar SharePoint](customize-list-form.md#save-and-publish-the-list-form-back-to-sharepoint)** hebt geklikt of getikt.
+**A:** Ja. U kunt uw formulier wijzigen en zo vaak u wilt opslaan. Uw wijzigingen worden echter pas zichtbaar voor anderen nadat u op tweemaal **Publiceren naar SharePoint** hebt geselecteerd.
 
 **V:** Als ik een lijstformulier aanpas en per ongeluk een fout maak, kan ik dan de vorige versie herstellen?
 
-**A:** Ja. Als u wijzigingen in uw formulier aanbrengt, deze wijzigingen opslaat en er vervolgens vaststelt dat u een fout hebt gemaakt, kunt u een vorige versie van het formulier herstellen met PowerApps:
+**A:** Ja.
 
-1. Open uw SharePoint-lijst, klik of tik op **PowerApps** op de opdrachtbalk en klik of tik vervolgens op **Formulieren aanpassen**.
+1. Open de lijst, selecteer **PowerApps** op de opdrachtbalk en selecteer vervolgens **Formulieren aanpassen**.
 
-1. Klik of tik in PowerApps Studio op **Bestand** en klik of tik vervolgens op de pagina **Opslaan** op **Alle versies weergeven**. De pagina **Versies** wordt op een nieuw browsertabblad geopend.
+1. Selecteer in PowerApps Studio de optie **Bestand** en selecteer vervolgens **Alle versies weergeven**. De pagina **Versies** wordt op een nieuw browsertabblad geopend.
 
     > [!NOTE]
-    > Als u de knop **Alle versies weergeven** niet ziet, klikt of tikt u op **Opslaan**. Als het goed is, wordt de knop dan weergegeven.
+    > Als u de knop **Alle versies weergeven** niet ziet, selecteert u **Opslaan**. Als het goed is, wordt de knop dan weergegeven.
 
-1. Laat de pagina **Versies** of het browsertabblad geopend, ga terug naar de pagina **Opslaan** op het andere browsertabblad en klik of tik op de pijl boven in het linkernavigatiedeelvenster. Klik of tik op **Terug naar SharePoint** om uw formulier te ontgrendelen en PowerApps Studio af te sluiten.
+1. Laat de pagina **Versies** of het browsertabblad geopend, ga terug naar de pagina **Opslaan** op het andere browsertabblad en klik of tik op de pijl boven in het linkernavigatiedeelvenster. Klik of tik op **Terug naar SharePoint** om uw formulier te ontgrendelen en PowerApps Studio te sluiten.
 
-1. Ga terug naar de pagina **Versies** op het andere browsertabblad, zoek de versie die u wilt herstellen en klik vervolgens op **Herstellen**.
+1. Ga terug naar de pagina **Versies** op het andere browsertabblad, zoek de versie die u wilt herstellen en selecteer vervolgens **Herstellen**.
 
     > [!NOTE]
     > Als u een foutmelding krijgt dat het herstel is mislukt omdat het formulier door een andere gebruiker is vergrendeld, wacht u totdat de gebruiker het formulier heeft ontgrendeld en probeert u het opnieuw.
 
-**V:** Kan ik mijn aangepaste lijstformulier van de ene lijst naar de andere verplaatsen?
+**V:** Kan ik mijn aangepaste formulier van de ene lijst naar de andere verplaatsen?
 
-**A:** Nee. Deze functionaliteit wordt op dit moment niet ondersteund.
+**A:** Nee.
 
-### <a name="administering-custom-list-forms"></a>Aangepaste lijstformulieren beheren
+### <a name="administer-your-custom-form"></a>Uw aangepaste formulier beheren
 
-**V:** Hoe kan ik mijn aangepaste lijstformulier delen met anderen?
+**Q:** Hoe kan ik mijn formulier delen?
 
 **A:** U hoeft zich geen zorgen te maken over het delen van het formulier: de machtigingen voor het formulier worden overgenomen van de SharePoint-lijst. Wanneer u alle gewenste aanpassingen hebt uitgevoerd, [publiceert u uw formulier weer naar SharePoint](customize-list-form.md#save-and-publish-the-list-form-back-to-sharepoint) zodat anderen dit kunnen gebruiken.
 
@@ -171,7 +198,7 @@ Zie [Formulieren aanpassen in PowerApps](customize-forms-sharepoint.md) voor sta
 
 **V:** Heb ik een PowerApps-licentie nodig om aangepaste lijstformulieren te maken en te gebruiken?
 
-**A:** als u een [Office 365-abonnement met PowerApps](../../administrator/pricing-billing-skus.md#licenses) hebt, kunt u aangepaste formulieren maken of gebruiken.
+**A:** U hebt een [Office 365-abonnement nodig dat PowerApps](../../administrator/pricing-billing-skus.md#licenses) bevat.
 
 **V:** Wat gebeurt er als gastgebruikers toegang krijgen tot een lijst dat een aangepast formulier bevat?
 
@@ -181,9 +208,9 @@ Zie [Formulieren aanpassen in PowerApps](customize-forms-sharepoint.md) voor sta
 
 **A:** Als u een tenantbeheerder voor PowerApps bent of omgevingsbeheerdersmachtigingen voor de standaard-PowerApps-omgeving van uw organisatie hebt, gaat u als volgt te werk:
 
-1. Ga naar het [PowerApps-beheercentrum](https://admin.powerapps.com) en selecteer de standaardomgeving voor uw organisatie in de lijst met omgevingen.
+1. Selecteer in het [PowerApps-beheercentrum](https://admin.powerapps.com) de standaardomgeving voor uw organisatie in de lijst met omgevingen.
 
-1. Klik of tik boven aan de pagina met de standaardomgeving op **Resources**.
+1. Selecteer bovenaan de pagina met de standaardomgeving **Resources**.
 
 1. Zoek in de lijst met apps de apps met app-type **SharePoint-formulier** (dit zijn de aangepaste formulieren).
 

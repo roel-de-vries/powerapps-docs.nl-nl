@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: 78615949ab5c05b4cf7da56eae23dd1a0194c7ff
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ac74f459c35e7b2ec123540a5cf55c1ad6a21c0a
+ms.sourcegitcommit: 8d9e5f44bcd5cecd24de2c99d5ba04df9ea67275
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838689"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37406018"
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>Besturingselementen Formulier weergeven en Formulier bewerken in PowerApps
 Een record weergeven, bewerken en maken in een gegevensbron.
@@ -151,9 +151,9 @@ Het formulier wordt overgeschakeld van de modus **Nieuw** naar de modus **Bewerk
 
 * Deze eigenschap is alleen van toepassing op het besturingselement **Formulier bewerken**.
 * De eigenschap **Valid** van een besturingselement **Formulier** is een verzameling van de eigenschappen **Valid** van alle besturingselementen **[Kaart](control-card.md)** in het formulier. De eigenschap **Valid** van een formulier is alleen **true** als de gegevens in alle kaarten in het formulier geldig zijn; anders heeft de eigenschap **Valid** van het formulier de waarde **false**.
-* Als u een knop zo wilt instellen dat hiermee alleen gegevens in een formulier kunnen worden opgeslagen als de gegevens geldig zijn maar nog niet zijn verzonden, stelt u de eigenschap **Enabled** van de knop in op deze formule:
+* Als u een knop zo wilt instellen dat hiermee alleen gegevens in een formulier kunnen worden opgeslagen als de gegevens geldig zijn maar nog niet zijn verzonden, stelt u de eigenschap **DisplayMode** van de knop in op deze formule:
   
-    **SubmitButton.Enabled = IsBlank( Form.Error ) || Form.Valid**
+    **SubmitButton.DisplayMode = If(IsBlank( Form.Error ) || Form.Valid, DisplayMode.Edit, DisplayMode.Disabled)**
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.

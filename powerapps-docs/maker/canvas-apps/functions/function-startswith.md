@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: c01a69f311378e8e818036c866b96a78f223baf9
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: f2c1807f221d3134bbf39c74ae2939babbdd256e
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837120"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899359"
 ---
 # <a name="endswith-and-startswith-functions-in-powerapps"></a>Functies EndsWith en StartsWith in PowerApps
 Test of een tekenreeks begint of eindigt met een andere tekenreeks.
@@ -29,7 +29,7 @@ De functie **StartsWith** test of een tekenreeks begint met een andere tekenreek
 
 De tests zijn voor beide functies niet hoofdlettergevoelig.  De resulterende waarde van beide is de booleaanse waarde **true** of **false**.  
 
-Gebruik **EndsWith** en **StartsWith** met de functie **[Filter](function-filter-lookup.md)** om te zoeken naar de gegevens in uw app. U kunt ook de operator **[in](operators.md#in-and-exactin-operators)** of de functie **[Search](function-filter-lookup.md)** gebruiken om ergens in tekenreeksen te zoeken, niet alleen aan het begin of einde.  Uw keuze van functies is afhankelijk van de behoeften van uw app en de functie die kan worden [gedelegeerd](../delegation-overview.md) voor uw specifieke gegevensbron.  Als een van deze functies kan niet worden gedelegeerd, wordt er tijdens het ontwerpen een blauwe stip weergegeven om u te waarschuwen over deze beperking.
+Gebruik **EndsWith** en **StartsWith** met de functie **[Filter](function-filter-lookup.md)** om te zoeken naar de gegevens in uw app. U kunt ook de operator **[in](operators.md#in-and-exactin-operators)** of de functie **[Search](function-filter-lookup.md)** gebruiken om ergens in tekenreeksen te zoeken, niet alleen aan het begin of einde.  Uw keuze van functies is afhankelijk van de behoeften van uw app en de functie die kan worden [gedelegeerd](../delegation-overview.md) voor uw specifieke gegevensbron.  Als een van deze functies kan niet worden gedelegeerd, wordt er tijdens het ontwerpen een delegeringswaarschuwing weergegeven om u te waarschuwen over deze beperking.
 
 ## <a name="syntax"></a>Syntaxis
 **EndsWith**( *Text*, *EndText* )
@@ -43,6 +43,7 @@ Gebruik **EndsWith** en **StartsWith** met de functie **[Filter](function-filter
 * *StartText* - vereist.  De tekst waarnaar moet worden gezocht aan het begin van *Text*.  Als *StartText* een lege tekenreeks is, geeft **StartsWith** de uitkomst *true*.
 
 ## <a name="examples"></a>Voorbeelden
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **EndsWith( "Hallo wereld", "wereld" )** |Test of **"Hallo wereld"** eindigt met **"wereld"**.  De test is niet hoofdlettergevoelig. |**true** |

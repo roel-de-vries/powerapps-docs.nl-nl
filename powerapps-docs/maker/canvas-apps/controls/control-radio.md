@@ -1,40 +1,42 @@
 ---
 title: 'Besturingselement voor keuzerondje: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Keuzerondje
-documentationcenter: na
 author: fikaradz
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
-ms.date: 10/25/2016
+ms.date: 07/06/2018
 ms.author: fikaradz
-ms.openlocfilehash: 8a95e84449828e77152206817f3d964315074b90
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 4b24d016eb97ca5670a1705adfe063315cb7ebca
+ms.sourcegitcommit: 16a2eeaa4ad9218682143411b609cb961dbcfa91
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837683"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37886350"
 ---
 # <a name="radio-control-in-powerapps"></a>Besturingselement voor keuzerondje in PowerApps
-Een lijst met alle beschikbare opties, maar de gebruiker kan maar één optie selecteren.
+
+Een besturingselement voor invoer dat meerdere opties toont, waarvan gebruikers slechts één bewerking tegelijk kunnen selecteren.
 
 ## <a name="description"></a>Beschrijving
-Een besturingselement **Keuzerondje**, inmiddels al tientallen jaren bekend bij veel gebruikers, kan het beste worden gebruikt met een paar opties die elkaar wederzijds uitsluiten.
+
+Een **Radio**-besturingselement, een standaard HTML-besturingselement voor invoer, kan het beste worden gebruikt met maar enkele, elkaar uitsluitende, opties.
+
+Het besturingselement kan een horizontale of verticale indeling hebben.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
-**[Default](properties-core.md)**: de aanvankelijke waarde van een besturingselement voordat deze door de gebruiker wordt gewijzigd.
+
+**[Standaard](properties-core.md)**: de waarde van een besturingselement voordat de gebruiker het wijzigt.
 
 **[Items](properties-core.md)**: de gegevensbron die wordt weergegeven in een besturingselement zoals een galerie, een lijst of een grafiek.
 
-[!INCLUDE [long-items](../../../includes/long-items.md)]
+**Lay-out**: bepaalt of de opties verticaal of horizontaal worden weergegeven.
 
 **[Value](properties-core.md)**: de waarde van een besturingselement voor invoer.
 
 ## <a name="all-properties"></a>Alle eigenschappen
+
 **[Align](properties-text.md)**: de locatie van tekst in verhouding tot het horizontale midden van het besturingselement.
 
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
@@ -118,37 +120,44 @@ Een besturingselement **Keuzerondje**, inmiddels al tientallen jaren bekend bij 
 **[Y](properties-size-location.md)**: de afstand tussen de bovenrand van een besturingselement en de bovenrand van de bovenliggende container (het scherm als er geen bovenliggende container is).
 
 ## <a name="related-functions"></a>Verwante functies
+
 [**Distinct**( *Gegevensbron*, *Kolomnaam* )](../functions/function-distinct.md)
 
 ## <a name="example"></a>Voorbeeld
-1. Voeg een besturingselement **Keuzerondje** toe, geef het de naam **Prijzen** en stel de eigenschap **[Items](properties-core.md)** van het besturingselement in op deze formule:
-   <br>**["Normaal", "Premium"]**
-   
-    Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
-2. Voeg een besturingselement **[Label](control-text-box.md)** toe, plaats dit onder het besturingselement **Keuzerondje** en stel de eigenschap **[Text](properties-core.md)** van het besturingselement **[Label](control-text-box.md)** in op deze formule:
-   <br>**If("Premium" in Prijzen.Selected.Value, "€ 200 per dag", "€ 150 per dag")**
-   
-    Wilt u meer informatie over de functie **[If](../functions/function-if.md)** of [andere functies](../formula-reference.md)?
-3. Druk op F5 en kies vervolgens een van beide opties in het besturingselement **Keuzerondje**.
-   
-    In het besturingselement **[Label](control-text-box.md)** wordt de juiste tekst voor de gekozen optie weergegeven.
-4. (Optioneel) Kies in het besturingselement **Keuzerondje** de andere optie om te controleren of de juiste tekst wordt weergegeven.
-5. Druk op Esc om terug te gaan naar de standaardwerkruimte.
 
+1. Voeg een besturingselement **Keuzerondje** toe, geef het de naam **Prijzen** en stel de eigenschap **[Items](properties-core.md)** van het besturingselement in op deze formule:
+
+    **["Normaal", "Premium"]**
+
+    Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
+
+2. Voeg een besturingselement **[Label](control-text-box.md)** toe, plaats dit onder het besturingselement **Keuzerondje** en stel de eigenschap **[Text](properties-core.md)** van het besturingselement **[Label](control-text-box.md)** in op deze formule:
+
+    **If("Premium" in Prijzen.Selected.Value, "€ 200 per dag", "€ 150 per dag")**
+
+    Wilt u meer informatie over de functie **[If](../functions/function-if.md)** of [andere functies](../formula-reference.md)?
+
+3. Houd de Alt-toets ingedrukt en selecteer een van beide opties in het besturingselement **Radio**.
+
+    In het besturingselement **[Label](control-text-box.md)** wordt de juiste tekst voor de gekozen optie weergegeven.
+
+4. (Optioneel) Houd de Alt-toets ingedrukt en selecteer de andere optie om te controleren of de juiste tekst wordt weergegeven.
 
 ## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+
 ### <a name="color-contrast"></a>Kleurcontrast
-Er moet voldoende kleurcontrast zijn tussen:
+
+Naast de [standaardvereisten voor kleurcontrast](../accessible-apps-color.md) moet u zorgen voor voldoende kleurcontrast tussen:
+
 * **RadioSelectionFill** en **RadioBackgroundFill**
 * **RadioBackgroundFill** en **[Fill](properties-color-border.md)**
 
-Dit komt bovenop de [standaardvereisten voor kleurcontrast](../accessible-apps-color.md).
-
 ### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
-* Er moet een **[Waarde](properties-core.md)** zijn voor elke optie van de keuzerondjes.
+
+* Controleer of elke optie heeft een **[waarde](properties-core.md)** heeft.
 * U kunt een **[Label](control-text-box.md)** toevoegen direct vóór het besturingselement **Radio** dat dient als de kop.
 
 ### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
-* **[TabIndex](properties-accessibility.md)** moet nul of groter zijn, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
-* De focusindicatoren moeten duidelijk zichtbaar zijn. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
- 
+
+* Stel de eigenschap **[TabIndex](properties-accessibility.md)** in op nul of groter, zodat toetsenbordgebruikers ernaartoe kunnen navigeren.
+* Stel de eigenschappen **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)** in, zodat focusindicatoren duidelijk zichtbaar zijn.

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: 80d06a30dbe334f7fa9691d2a56805d53876693c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 29d0399de5404e6bd8995e3aecaedcfd7f1db6e8
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838551"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898600"
 ---
 # <a name="blank-coalesce-isblank-and-isempty-functions-in-powerapps"></a>Functies Blank, Samenvoegen, IsBlank en IsEmpty in PowerApps
 Hiermee wordt getest of een waarde leeg is of een [tabel](../working-with-tables.md) geen [records](../working-with-tables.md#records) bevat. Dit biedt een manier om *lege* waarden te maken.
@@ -46,7 +46,7 @@ De functie **IsBlank** test op een *blank*-waarde. Deze *lege* waarden worden ge
 * Het *anders*-gedeelte van een **[Als](function-if.md)**-functie was niet gespecificeerd en alle voorwaarden waren **false**.
 * U gebruikte de functie **[Update](function-update-updateif.md)**, maar gaf geen waarde op voor alle kolommen. Daardoor werden geen waarden geplaatst in de kolommen die u niet hebt gespecificeerd.
 
-De functie **Samenvoegen** evalueert de argumenten op volgorde en retourneert de eerste waarde die niet *leeg* is.  Gebruik deze functie om een *lege* waarde te vervangen door een andere waarde, waarbij niet-*lege* waarden niet worden gewijzigd.  De functie retourneert *leeg* als alle argumenten *leeg* zijn.  Alle argumenten voor **Samenvoegen** moeten van hetzelfde type zijn. U kunt bijvoorbeeld geen cijfers combineren met tekenreeksen.  **Samenvoegen( waarde1, waarde2 )** is de meer beknopte equivalent van **If( IsBlank( waarde1 ) waarde1, waarde2 )** en vereist geen dubbele evaluatie van **waarde1**.  
+De functie **Samenvoegen** evalueert de argumenten op volgorde en retourneert de eerste waarde die niet *leeg* is.  Gebruik deze functie om een *lege* waarde te vervangen door een andere waarde, waarbij niet-*lege* waarden niet worden gewijzigd.  De functie retourneert *leeg* als alle argumenten *leeg* zijn.  Alle argumenten voor **Samenvoegen** moeten van hetzelfde type zijn. U kunt bijvoorbeeld geen cijfers combineren met tekenreeksen.  **Samenvoegen( waarde1, waarde2 )** is de meer beknopte equivalent van **If( Not( IsBlank( waarde1 ) ), waarde1, waarde2 )** en vereist geen dubbele evaluatie van **waarde1**.  
 
 De functie **IsEmpty** test of een tabel records bevat. Hij is gelijk aan het gebruik van de functie **[CountRows](function-table-counts.md)** en controleren op nul. U kunt controleren op fouten in een gegevensbron door **IsEmpty** te combineren met de functie **[Errors](function-errors.md)**.
 
@@ -74,32 +74,33 @@ De resulterende waarde voor zowel **IsBlank** als **IsEmpty** is de booleaanse w
 
 1. Maak een volledig nieuwe app en voeg een besturingselement van het type **Knop** toe.
 2. Stel de eigenschap **[OnSelect](../controls/properties-core.md)** van de knop in op deze formule:
-   
+
     **ClearCollect( Steden, { Naam: "Seattle", Weer: "Regenachtig" } )**
 3. Klik of tik op de knop die u hebt toegevoegd om een voorbeeld te bekijken van uw app en sluit vervolgens het voorbeeld.  
 4. Klik of tik in het menu **File** op **Verzamelingen**.
-   
+
      De verzameling **Steden** wordt weergegeven, met daarin één record met "Seattle" en "Regenachtig":
-   
+
     ![Verzameling met Seattle en weer Regenachtig](./media/function-isblank-isempty/seattle-rainy.png)
 5. Klik of tik op de pijl naar links om terug te gaan naar de standaardwerkruimte.
 6. Voeg een besturingselement van het type **Label** toe en stel de eigenschap **Text** in op deze formule:
-   
+
     **IsBlank( First( Steden ).Weer )**
-   
+
     Het label heeft de status **false**, omdat het veld **Weer** een waarde bevat ("Regenachtig").
 7. Voeg een tweede knop toe en stel de eigenschap **OnSelect** ervan in op deze formule:
-   
+
     **Patch( Steden, First( Steden ), { Weer: Blank() } )**
 8. Klik of tik op de knop die u hebt toegevoegd om een voorbeeld te bekijken van uw app en sluit vervolgens het voorbeeld.  
-   
+
     Het veld **Weer** van de eerste record in **Steden** is vervangen door een *leeg* veld, waardoor "Regenachtig" is verwijderd.
-   
+
     ![Verzameling met Seattle en veld Weer leeg](./media/function-isblank-isempty/seattle-blank.png)
-   
+
     Het label heeft de status **true**, omdat het veld **Weer** geen waarde bevat.
 
 ### <a name="coalesce"></a>Samenvoegen
+
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
 | **Samenvoegen( Blank(), 1 )** |De geretourneerde waarde van de functie **Blank** wordt getest. Deze retourneert altijd een *lege* waarde. Omdat het eerste argument *leeg* is, wordt de evaluatie van het volgende argument voortgezet totdat een niet-*lege* waarde is gevonden. |**1** |
@@ -108,12 +109,12 @@ De resulterende waarde voor zowel **IsBlank** als **IsEmpty** is de booleaanse w
 ### <a name="isblank"></a>IsBlank
 1. Maak een hele nieuwe app en voeg een besturingselement voor tekstinvoer toe met de naam **Voornaam**.
 2. Voeg een label toe en stel de eigenschap **[Text](../controls/properties-core.md)** in op deze formule:
-   
+
     **If( IsBlank( Voornaam.Text ), "Voornaam is een verplicht veld." )**
-   
+
     De eigenschap **[Text](../controls/properties-core.md)** van een besturingselement voor tekstinvoer is standaard ingesteld op **"Tekstinvoer"**. Omdat de eigenschap een waarde bevat, is deze niet leeg en toont het label geen bericht.
 3. Verwijder alle tekens, inclusief eventuele spaties, uit het besturingselement voor tekstinvoer.
-   
+
     Omdat de eigenschap **[Text](../controls/properties-core.md)** geen tekens meer bevat, is deze *leeg* en heeft **IsBlank( Voornaam.Text )** de status **true**. Het bericht voor een verplicht veld wordt weergegeven.
 
 Zie de functie **[Validate](function-validate.md)** en [werken met gegevensbronnen](../working-with-data-sources.md) voor meer informatie over het uitvoeren van validatie met behulp van andere hulpprogramma's.  
@@ -132,24 +133,24 @@ Andere voorbeelden:
 ### <a name="isempty"></a>IsEmpty
 1. Maak een volledig nieuwe app en voeg een besturingselement van het type **Knop** toe.
 2. Stel de eigenschap **[OnSelect](../controls/properties-core.md)** van de knop in op deze formule:
-   
+
     **Collect( IJs, { Smaak: "Aardbei", Hoeveelheid: 300 }, { Smaak: "Chocola", Hoeveelheid: 100 } )**
 3. Klik of tik op de knop die u hebt toegevoegd om een voorbeeld te bekijken van uw app en sluit vervolgens het voorbeeld.  
-   
+
     Er wordt een verzameling met de naam **IJs** gemaakt die de volgende gegevens bevat:
-   
+
     ![](media/function-isblank-isempty/icecream-strawberry-chocolate.png)
-   
+
     Deze verzameling heeft twee records en is niet leeg. **IsEmpty( IJs )** retourneert **false** en **CountRows( IJs )** retourneert **2**.
 4. Voeg een tweede knop toe en stel de eigenschap **[OnSelect](../controls/properties-core.md)** ervan in op deze formule:
-   
+
     **Clear( IJs )**
 5. Klik of tik op de tweede knop om een voorbeeld te bekijken van uw app en sluit vervolgens het voorbeeld.  
-   
+
     De verzameling is nu leeg:
-   
+
     ![](media/function-isblank-isempty/icecream-clear.png)
-   
+
     De functie **[Wissen](function-clear-collect-clearcollect.md)** verwijdert alle records uit een verzameling, wat een lege verzameling oplevert. **IsEmpty( IJs )** retourneert **true** en **CountRows( IJs )** retourneert **0**.
 
 U kunt, zoals deze voorbeelden aantonen, **IsEmpty** ook gebruiken om te testen of een berekende tabel leeg is:

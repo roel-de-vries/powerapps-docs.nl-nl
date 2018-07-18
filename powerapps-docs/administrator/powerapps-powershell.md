@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: reference
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 788f9ec1ce1ac8604606d2d2ad836a0cd12360d4
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 2cb1e1b83cffee2ccea0a4d4b563de44aaa3e68c
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552985"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37896185"
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>PowerShell-ondersteuning voor PowerApps (preview-versie)
 U kunt met de preview-introductie van de PowerShell-cmdlets voor app-ontwerpers en -beheerders een groot deel van de bewakings- en beheertaken automatiseren die nu alleen handmatig kunnen worden uitgevoerd in [PowerApps](https://web.powerapps.com) of het [PowerApps-beheercentrum](https://admin.powerapps.com).
@@ -58,6 +58,7 @@ Ga als volgt te werk om de PowerShell-cmdlets voor app-ontwerpers uit te voeren:
 Gebruikers met een geldige PowerApps-licentie kunnen de bewerkingen in deze cmdlets uitvoeren, maar ze hebben alleen toegang tot de bronnen (bijvoorbeeld apps, stromen, enzovoort) die ze zelf hebben gemaakt of met hen zijn gedeeld.
 
 ### <a name="cmdlet-list"></a>Lijst met cmdlets
+
 | Doel | Cmdlet |
 | --- | --- |
 | Omgevingen lezen | Get-PowerAppsEnvironment <br> Get-FlowEnvironment
@@ -90,13 +91,15 @@ Om de beheerbewerkingen in de beheer-cmdlets uit te voeren, hebt u het volgende 
 * [Globale beheerder voor Office 365](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504)- of [globale beheerder Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)-machtigingen als u in de resources van een andere gebruiker wilt zoeken. (Let op: omgevingsbeheerders hebben alleen toegang tot de omgevingen en omgevingsresources waarvoor ze machtigingen hebben.)
 
 ### <a name="cmdlet-list"></a>Lijst met cmdlets
+
 | Doel | Cmdlets
 | --- | ---
 | Omgevingen lezen en verwijderen | Get-AdminEnvironment <br> Remove-AdminEnvironment
 | Machtigingen voor omgevingen lezen, bijwerken en verwijderen <br><br> *Deze cmdlets werken alleen voor omgevingen waarin geen CDS voor apps-database aanwezig is.* | Get-AdminEnvironmentRoleAssignment <br> Set-AdminEnvironmentRoleAssignment <br> Remove-AdminEnvironmentRoleAssignment
 | Canvas-apps lezen en verwijderen | Get-AdminApp <br> Remove-AdminApp
 | Machtigingen voor canvas-apps lezen, bijwerken en verwijderen | Get-AdminAppRoleAssignment <br> Remove-AdminAppRoleAssignment <br> Set-AdminAppRoleAssignment <br> Set-AdminAppOwner
-| Stromen lezen, bijwerken en verwijderen | Get-AdminFlow <br> Enable-AdminFlow <br> Disable-AdminFlow <br> Remove-AdminFlow  <br> Remove-AdminFlowOwnerRole
+| Stromen lezen, bijwerken en verwijderen | Get-AdminFlow <br> Enable-AdminFlow <br> Disable-AdminFlow <br> Remove-AdminFlow
+| Machtigingen voor stromen lezen, bijwerken en verwijderen | Get-AdminFlowOwnerRole <br> Set-AdminFlowOwnerRole <br> Remove-AdminFlowOwnerRole
 | Verbindingen lezen en verwijderen | Get-AdminConnection <br> Remove-AdminConnection
 | Machtigingen voor verbindingen lezen, bijwerken en verwijderen | Get-AdminConnectionRoleAssignment <br> Set-AdminConnectionRoleAssignment <br> Remove-AdminConnectionRoleAssignment
 | Aangepaste connectors lezen en verwijderen | Get-AdminConnector <br> Remove-AdminConnector

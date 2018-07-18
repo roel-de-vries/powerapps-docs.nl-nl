@@ -1,23 +1,19 @@
 ---
 title: Functies, signalen en opsommingen | Microsoft Docs
 description: Verwijzingsgegevens voor functies, signalen en opsommingen in PowerApps.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 06/05/2018
 ms.author: gregli
-ms.openlocfilehash: af089f81b8fd96ec022fe32495cb14f2827f28b5
-ms.sourcegitcommit: 045c96df42405c60c7675edbadac93455270a021
+ms.openlocfilehash: b131f9da9dbf0624185fc837c5582c9ef0477089
+ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34822576"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37948591"
 ---
 # <a name="formula-reference-for-powerapps"></a>Formuleverwijzingen voor PowerApps
 Formules combineren veel elementen.  Hieronder worden vermeld:
@@ -65,7 +61,9 @@ Andere elementen zijn:
 
 **[Char](functions/function-char.md)**: vertaalt een tekencode naar een tekenreeks.
 
-**[Wissen](functions/function-clear-collect-clearcollect.md)**: verwijdert alle gegevens van een [verzameling](working-with-data-sources.md#collections).
+**[Choices](functions/function-choices.md)**: hiermee wordt een tabel met de mogelijke waarden van een opzoekkolom geretourneerd.
+
+**[Clear](functions/function-clear-collect-clearcollect.md)**: verwijdert alle gegevens van een [verzameling](working-with-data-sources.md#collections).
 
 **[ClearCollect](functions/function-clear-collect-clearcollect.md)**: verwijdert alle gegevens van een verzameling en voegt vervolgens een set [records](working-with-tables.md#records) toe.
 
@@ -85,7 +83,9 @@ Andere elementen zijn:
 
 **[Concat](functions/function-concatenate.md)**: voegt tekenreeksen in een gegevensbron samen.  
 
-**[Samenvoegen](functions/function-concatenate.md)**: voegt tekenreeksen samen.
+**[Concatenate](functions/function-concatenate.md)**: voegt tekenreeksen samen.
+
+**[Concurrent](functions/function-concurrent.md)**: hiermee evalueert u meerdere formules gelijktijdig met elkaar. 
 
 **[Connection](functions/signals.md)**: retourneert informatie over uw netwerkverbinding.
 
@@ -280,7 +280,9 @@ Andere elementen zijn:
 
 **[Second](functions/function-datetime-parts.md)**: haalt het secondegedeelte op uit een datum/tijd-waarde.
 
-**[Instellen](functions/function-set.md)**: stelt de waarde van een globale variabele in.
+**[Select](functions/function-select.md)**: hiermee simuleert u een select-actie op een besturingselement, waardoor de formule **OnSelect** wordt geëvalueerd.
+
+**[Set](functions/function-set.md)**: stelt de waarde van een globale variabele in.
 
 **[ShowColumns](functions/function-table-shaping.md)**: retourneert een tabel met alleen geselecteerde kolommen.
 

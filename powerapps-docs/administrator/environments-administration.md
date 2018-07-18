@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 3e3cd3b7339303e23411f3ef977cc33db6e5e8e0
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 7fb35c1c59062b892fdd8e3a905d3ee485f6cf61
+ms.sourcegitcommit: 26932abc6fcdc5e6723b64b506532bb182ab3f8d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445678"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37026229"
 ---
 # <a name="administer-environments-in-powerapps"></a>Omgevingen beheren in PowerApps
 In het [PowerApps-beheercentrum][1] kunt u omgevingen beheren die u hebt gemaakt en waarvoor u bent toegevoegd aan de rol Omgevingsbeheerder of Systeembeheerder. Vanuit het beheercentrum kunt u de volgende beheeracties uitvoeren:
@@ -57,6 +57,10 @@ Wanneer u het beheercentrum opent, wordt standaard het tabblad Omgevingen weerge
 Als u lid bent van de rol Algemeen beheerder van uw Azure AD- of Office 365-tenant, worden alle omgevingen weergegeven die zijn gemaakt door gebruikers in uw tenant, omdat u automatisch omgevingsbeheerder bent voor al deze omgevingen.
 
 ## <a name="rename-your-environment"></a>De naam van uw omgeving wijzigen
+
+> [!IMPORTANT]
+> Volg de stappen in deze sectie om de naam te wijzigen van een productieomgeving die geen database bevat. U kunt namen van proefomgevingen niet wijzigen en u moet het Dynamics 365-beheercentrum gebruiken om de naam te wijzigen van een productieomgeving met een database.
+
 1. Open het [PowerApps-beheercentrum][1], zoek de omgeving waarvan u de naam wilt wijzigen in de lijst en klik of tik erop.
 
     ![](./media/environment-admin/environment-list-updated3.png)
@@ -191,10 +195,6 @@ In de volgende scenario’s kunt u een foutmelding krijgen terwijl u probeert ee
 1. **Standaardomgeving**: Het maken van een database wordt momenteel niet ondersteund in de standaardomgeving van de tenant. 
 
 2. **Omgeving voor individueel gebruik**: U krijgt een omgeving voor individueel gebruik door u aan te melden voor het PowerApps Community-abonnement. Als u de database nog niet hebt gemaakt kunt u momenteel geen database inrichten in de omgeving voor individueel gebruik. 
-
-3. **Omgeving in een andere regio dan de basisregio van uw AAD-tenant**: Momenteel kunt u alleen een database inrichten in de omgevingen die zijn gemaakt in uw basisregio van de Azure Active Directory-tenant. De mogelijkheid om een database in te richten in de andere regio’s komt binnenkort. Zorg er dus voor dat u de regio hetzelfde houdt als de standaardlocatie van de tenant als u er een database in wilt maken.
-
-4. **Databases maken niet ondersteund in bepaalde regio’s**: Er zijn bepaalde regio’s waar het maken van databasis nog steeds niet beschikbaar is. bijv. landen in Zuid-Amerika. Dus als de basislocatie van uw tenant Zuid-Amerika is kunt u momenteel in geen enkele omgeving een database inrichten. 
     
 We werken er aan om alle bovenstaande scenario’s mogelijk te maken.
 Neem [hier][5] contact met ons op indien u een andere foutmelding krijgt of meer vragen hebt

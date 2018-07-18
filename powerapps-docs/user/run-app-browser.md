@@ -5,19 +5,29 @@ author: Mattp123
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: quickstart
-ms.date: 03/07/2018
+ms.date: 07/09/2018
 ms.author: matp
-ms.openlocfilehash: 4aed5f0d34bf88bca706c1c6421ac3b692308ebb
-ms.sourcegitcommit: 63351b1bda5a8dd00786912f95aba9fb3ebfe75c
+manager: kvivek
+ms.custom: ''
+ms.reviewer: ''
+ms.assetid: ''
+ms.openlocfilehash: b0b0cb39cf0a7d49ca24d31c2803ae463df2f97e
+ms.sourcegitcommit: bcfefb30b12cf94815dd9a0fd8cad29a8272d96e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36261713"
+ms.lasthandoff: 07/09/2018
+ms.locfileid: "37925634"
 ---
 # <a name="quickstart-run-an-app-in-a-web-browser"></a>Snelstartgids: Een app in een webbrowser uitvoeren
 Wanneer u een app maakt, of iemand een app met u deelt, kunt u die app uitvoeren in Windows, iOS, Android of in een webbrowser. In deze snelstartgids leert u hoe u een canvas-app of modelgestuurde app uitvoert in een webbrowser vanuit de [Startpagina van Dynamics 365](https://home.dynamics.com).
 
-Als u deze snelstartgids wilt volgen, moet u over een [Microsoft Office 365-abonnement](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1) beschikken met Dynamics 365, en toegang hebben tot een [ondersteunde browser en ondersteund besturingssysteem](../maker/canvas-apps/limits-and-config.md). Zorg er ook voor dat u toegang hebt tot een app die u hebt gemaakt of die iemand anders heeft gemaakt en met u heeft gedeeld.
+Als u deze Snelstartgids wilt volgen, hebt u het volgende nodig:
+- Een PowerApps-licentie. Dit is beschikbaar met een PowerApps-abonnement, zoals de [proefversie van PowerApps Plan 2](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps) of een [Microsoft Office 365](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1)- of [Dynamics 365](https://dynamics.microsoft.com/pricing/)-abonnement met PowerApps. 
+- Toegang tot een app die u hebt gemaakt of die iemand anders heeft gemaakt en met u heeft gedeeld.
+- Toegang tot een ondersteunde webbrowser en ondersteund besturingssysteem.
+   - Raadpleeg voor canvas-apps: [Systeemvereisten, limieten en configuratiewaarden](../maker/canvas-apps/limits-and-config.md)
+   - Raadpleeg voor modelgestuurde apps: [Ondersteunde webbrowsers en mobiele apparaten](https://docs.microsoft.com/dynamics365/customer-engagement/admin/supported-web-browsers-and-mobile-devices)
+
 
 ## <a name="sign-in-to-dynamics-365"></a>Aanmelden bij Dynamics 365
 Meld u aan bij Dynamics 365 op [https://home.dynamics.com](https://home.dynamics.com).

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 03/08/2018
 ms.author: caburk
-ms.openlocfilehash: c9525827c7e8e48c0f5e68e3608c9b6b9f630121
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 36e5efec10a3f849b6366368eed7b3b9e7af3f8c
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31831258"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37898370"
 ---
 # <a name="model-driven-sample-apps"></a>Modelgestuurde voorbeeld-apps
 
@@ -70,7 +70,7 @@ Als u modelgestuurde voorbeeld-apps wilt afspelen of bewerken, moeten de apps ee
 
     ![Oplossing verwijderen](media/overview-model-driven-samples/delete-solution.png)
 
-*U kunt ook naar de lijst met oplossingen navigeren door te klikken op **Geavanceerd** in de portal van de maker en alles in de URL verwijderen na .dynamics.com/*
+<em>U kunt ook naar de lijst met oplossingen navigeren door te klikken op **Geavanceerd</em>* in de portal van de maker en alles in de URL verwijderen na .dynamics.com/*
 
 > [!IMPORTANT]
 > Verwijder geen andere systeemoplossingen, tenzij u van het effect op de hoogte bent.

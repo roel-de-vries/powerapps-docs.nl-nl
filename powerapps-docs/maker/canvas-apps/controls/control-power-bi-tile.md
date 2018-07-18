@@ -1,41 +1,50 @@
 ---
 title: 'Tegelbesturingselement voor Power BI: verwijzing | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het tegelbesturingselement voor Power BI
-documentationcenter: na
 author: fikaradz
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 07/07/2016
 ms.author: fikaradz
-ms.openlocfilehash: e7bc2e7e0aafa4d933c47bcf47300dc243c38523
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9df201f5d2fd4017debe47626aedaaa2c735682f
+ms.sourcegitcommit: 16a2eeaa4ad9218682143411b609cb961dbcfa91
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827138"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37886373"
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>Tegelbesturingselement voor Power BI in PowerApps
+
 Een besturingselement dat een [Power BI](https://powerbi.microsoft.com)-tegel in een app weergeeft.
 
+Hebt u geen Power BI? [Meld u aan](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi).
+
 ## <a name="description"></a>Beschrijving
-Profiteer van uw bestaande gegevensanalyse en -rapportage door uw **[Power BI-tegels](https://docs.microsoft.com/power-bi/service-dashboard-tiles)** in uw apps weer te geven.  Kies de tegel die u wilt weergeven door op het tabblad **Gegevens** in het deelvenster met opties de eigenschappen voor de **Werkruimte**, het **Dashboard** en de **Tegel** in te stellen.
+
+Profiteer van uw bestaande gegevensanalyse en -rapportage door uw **[Power BI-tegels](https://docs.microsoft.com/power-bi/service-dashboard-tiles)** in uw apps weer te geven. Geef de tegel op die u wilt weergeven door op het tabblad **Gegevens** in het deelvenster met opties de eigenschappen voor de **Werkruimte**, het **Dashboard** en de **Tegel** in te stellen.
 
 ## <a name="sharing-and-security"></a>Delen en beveiliging
-Als de PowerApp is gedeeld, is deze toegankelijk voor alle gebruikers die zijn gemachtigd om de app te openen.  Om de Power BI-inhoud voor deze gebruikers zichtbaar te maken, moet het dashboard waarop de tegel is gebaseerd echter met de gebruiker zijn [gedeeld](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports) in Power BI.  Dit zorgt ervoor dat de machtigingen voor het delen in Power BI worden gerespecteerd wanneer Power BI-inhoud in een app wordt geopend.
+
+Wanneer u een app deelt die Power BI-inhoud bevat, moet u niet alleen de app zelf delen, maar ook het [dashboard](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports) waarop de tegel is gebaseerd. Anders wordt de Power BI-inhoud niet weergegeven, zelfs niet voor gebruikers die de app openen. Apps die Power BI-inhoud bevatten, respecteren de machtigingen voor die inhoud.
+
+## <a name="performance"></a>Prestaties
+
+Het wordt niet aangeraden meer dan drie Power BI-tegels op hetzelfde moment in een app te hebben geladen. U kunt het laden en verwijderen van de tegel beheren door de eigenschap **LoadPowerBIContent** in te stellen.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
+
 **Werkruimte** – De Power BI-werkruimte waarop de tegel is gebaseerd.
 
 **Dashboard** – Het Power BI-dashboard waarop de tegel is gebaseerd.
 
-**Tegel** – De naam van de Power BI-tegel die u wilt weergeven.
+**Tegel**: de naam van de Power BI-tegel die u wilt weergeven.
+
+**LoadPowerBIContent**: wanneer deze is ingesteld op true, wordt de Power BI-inhoud geladen en weergegeven. Wanneer deze is ingesteld op false, wordt de Power BI-inhoud verwijderd, waardoor geheugen wordt vrijgegeven en prestaties worden geoptimaliseerd.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
+
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
 
 **[BorderStyle](properties-color-border.md)**: hiermee wordt aangegeven of de rand van een besturingselement **effen**, **onderbroken** of **gestippeld** is, of dat er **geen** rand is.
@@ -46,7 +55,7 @@ Als de PowerApp is gedeeld, is deze toegankelijk voor alle gebruikers die zijn g
 
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
 
-**[OnSelect](properties-core.md)**: de manier waarop de app reageert wanneer de gebruiker op een besturingselement tikt of klikt. Standaardgedrag brengt de gebruiker naar het Power BI-rapport dat aan de tegel is gekoppeld.
+**[OnSelect](properties-core.md)**: de manier waarop de app reageert wanneer de gebruiker op een besturingselement tikt of klikt. Standaard wordt het Power BI-rapport geopend dat is gekoppeld aan de tegel.
 
 **[Visible](properties-core.md)**: hiermee wordt aangegeven of een besturingselement zichtbaar of verborgen is.
 
@@ -57,18 +66,19 @@ Als de PowerApp is gedeeld, is deze toegankelijk voor alle gebruikers die zijn g
 **[Y](properties-size-location.md)**: de afstand tussen de bovenrand van een besturingselement en de bovenrand van de bovenliggende container (het scherm als er geen bovenliggende container is).
 
 ## <a name="example"></a>Voorbeeld
-1. Voeg een **Power BI-tegelbesturingselement** toe via het menu **Besturingselementen** op het tabblad **Invoegen**.  
-2. Kies op het tabblad **Gegevens** in het deelvenster met opties 'Mijn werkruimte' voor de instelling **Werkruimte**.  Kies een dashboard in de lijst met dashboards en een tegel in de lijst met tegels.
-   
-    Het besturingselement zorgt dat de Power BI-tegel wordt weergegeven.
-   
-    Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
-   
-   Hebt u geen Power BI? [Meld u aan](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi).
 
+1. Open op het tabblad **Invoegen** het menu **Besturingselementen** en voeg een **Power BI-tegel**-besturingselement toe.
+
+    Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
+
+2. Klik of tik op het tabblad **Gegevens** in het deelvenster met opties op **Mijn werkruimte** voor de instelling **Werkruimte**.
+
+3. Selecteer een dashboard in de lijst met dashboards en selecteer vervolgens een tegel in de lijst met tegels.
+
+    Het besturingselement zorgt dat de Power BI-tegel wordt weergegeven.
 
 ## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+
 De **Power BI-tegel** is eenvoudig een container voor Power BI-inhoud. Informatie over het maken van toegankelijke inhoud met deze [toegankelijkheidstips voor Power BI](https://docs.microsoft.com/power-bi/desktop-accessibility).
 
-### <a name="screen-reader-support"></a>Ondersteuning voor schermlezers
-* U kunt een koptekst met een **[Label](control-text-box.md)** toevoegen, als de Power BI-inhoud niet over een titel beschikt. De kop kan direct vóór de **Power BI-tegel** worden geplaatst.
+Als de Power BI-inhoud niet beschikt over een titel, kunt u een koptekst toevoegen met een **[Label](control-text-box.md)**-besturingselement om schermlezers te ondersteunen. U kunt het label direct vóór de Power BI-tegel plaatsen.

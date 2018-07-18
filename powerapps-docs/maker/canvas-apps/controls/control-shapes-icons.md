@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: e2c5d384c29766d6c30db8aa85ad4d7d45b48e04
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 8b6ec4ac944e8527bda508f4f005361d681be8e0
+ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838143"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37899612"
 ---
 # <a name="shape-controls-and-icon-controls-in-powerapps"></a>Besturingselementen voor vormen en pictogrammen in PowerApps
 Grafische elementen waarvan u het uiterlijk en gedrag kunt configureren met behulp van verschillende eigenschappen.
@@ -58,24 +58,29 @@ Het gaat hier om besturingselementen zoals pijlen, geometrische vormen, actiepic
 **[Y](properties-size-location.md)**: de afstand tussen de bovenrand van een besturingselement en de bovenrand van de bovenliggende container (het scherm als er geen bovenliggende container is).
 
 ## <a name="related-functions"></a>Verwante functies
+
 [**Navigate**( *Schermnaam*, *Schermovergang* )](../functions/function-navigate.md)
 
 ## <a name="example"></a>Voorbeeld
+
 1. Geef het standaardbesturingselement **[Scherm](control-screen.md)** de naam **Doel**, voeg een besturingselement **[Label](control-text-box.md)** toe en stel de eigenschap **[Text](properties-core.md)** van het vak in op **Doel**.
-   
+
     Weet u niet hoe u [een besturingselement kunt toevoegen of configureren](../add-configure-controls.md)?
+
 2. Voeg een besturingselement **[Scherm](control-screen.md)** toe en geef het de naam **Bron**.
-3. Voeg aan **Bron** een besturingselement **Vorm** toe en stel de eigenschap **[OnSelect](properties-core.md)** van het besturingselement in op deze formule:
-   <br>**Navigate(Doel, Schermovergang.Fade)**
+3. Voeg aan **Bron** een besturingselement **Vorm** toe en stel de eigenschap **[OnSelect](properties-core.md)** van het besturingselement in op deze formule:<br>**Navigate(Doel, Schermovergang.Fade)**
 4. Druk op F5 en klik of tik op het besturingselement **Vorm**.
-   
+
     Het scherm **Doel** wordt weergegeven.
+
 5. (Optioneel) Druk op Esc om terug te gaan naar de standaardwerkruimte, voeg een besturingselement **Vorm** toe aan **Doel** en stel de eigenschap **[OnSelect](properties-core.md)** van het besturingselement **Vorm** in op deze formule:
    <br>**Navigate(Bron, Schermovergang.Fade)**
 
 
 ## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
+
 ### <a name="color-contrast"></a>Kleurcontrast
+
 Het volgende geldt alleen voor afbeeldingen die worden gebruikt als knoppen en voor afbeeldingen die niet alleen voor de sier zijn.
 
 Voor pictogrammen:
@@ -95,14 +100,15 @@ Voor vormen zonder randen:
 * **[AccessibleLabel](properties-accessibility.md)** moet aanwezig zijn als de afbeelding wordt gebruikt als een knop of als de afbeelding niet alleen voor de sier is.
 * **[AccessibleLabel](properties-accessibility.md)** moet leeg zijn of de lege tekenreeks **""** bevatten als de afbeelding alleen voor de sier is. Hierdoor wordt de afbeelding genegeerd door de schermlezer.
 * **[AccessibleLabel](properties-accessibility.md)** kan leeg zijn of de lege tekenreeks **""** bevatten als de afbeelding redundante informatie bevat.
-    * Bijvoorbeeld: een pictogram **Instellingen** waarvoor **[AccessibleLabel](properties-accessibility.md)** is ingesteld op **Instellingen**. Dit pictogram wordt niet gebruikt als een knop. Het staat naast een **[label](control-text-box.md)** dat ook **Instellingen** heet. Het pictogram wordt door schermlezers gelezen als **Instellingen** en het label ook als **Instellingen**. Dit is onnodig. In dit geval heeft het pictogram geen **[AccessibleLabel](properties-accessibility.md)** nodig.
+
+    Bijvoorbeeld: een pictogram **Instellingen** waarvoor **[AccessibleLabel](properties-accessibility.md)** is ingesteld op **Instellingen**. Dit pictogram wordt niet gebruikt als een knop. Het staat naast een **[label](control-text-box.md)** dat ook **Instellingen** heet. Het pictogram wordt door schermlezers gelezen als **Instellingen** en het label ook als **Instellingen**. Dit is onnodig. In dit geval heeft het pictogram geen **[AccessibleLabel](properties-accessibility.md)** nodig.
 
     > [!IMPORTANT]
-> Schermlezers lezen alle pictogrammen of vormen waarvoor **[TabIndex](properties-accessibility.md)** nul of groter is, zelfs als **[AccessibleLabel](properties-accessibility.md)** leeg is. Dit is omdat deze als knoppen worden weergegeven. Als er geen **[AccessibleLabel](properties-accessibility.md)** is opgegeven, lezen schermlezers de afbeelding als een **knop**.
+    > Schermlezers lezen alle pictogrammen of vormen waarvoor **[TabIndex](properties-accessibility.md)** nul of groter is, zelfs als **[AccessibleLabel](properties-accessibility.md)** leeg is. Dit is omdat deze als knoppen worden weergegeven. Als er geen **[AccessibleLabel](properties-accessibility.md)** is opgegeven, lezen schermlezers de afbeelding als een **knop**.
 
 ### <a name="keyboard-support"></a>Ondersteuning voor toetsenbord
 * **[TabIndex](properties-accessibility.md)** moet nul of groter zijn als de afbeelding wordt gebruikt als een knop. Hierdoor kunnen toetsenbordgebruikers naar de afbeelding navigeren.
 * Focusindicatoren moet duidelijk zichtbaar zijn als de afbeelding wordt gebruikt als een knop. Gebruik hiervoor **[FocusedBorderColor](properties-color-border.md)** en **[FocusedBorderThickness](properties-color-border.md)**.
 
     > [!NOTE]
-> Wanneer **[TabIndex](properties-accessibility.md)** nul of groter is, wordt het pictogram of de vorm weergegeven als een knop. Het uiterlijk van de afbeelding verandert niet, maar de afbeelding wordt door schermlezers juist geïdentificeerd als een knop. Wanneer **[TabIndex](properties-accessibility.md)** kleiner is dan nul, wordt het pictogram of de vorm geïdentificeerd als een afbeelding.
+  > Wanneer **[TabIndex](properties-accessibility.md)** nul of groter is, wordt het pictogram of de vorm weergegeven als een knop. Het uiterlijk van de afbeelding verandert niet, maar de afbeelding wordt door schermlezers juist geïdentificeerd als een knop. Wanneer **[TabIndex](properties-accessibility.md)** kleiner is dan nul, wordt het pictogram of de vorm geïdentificeerd als een afbeelding.

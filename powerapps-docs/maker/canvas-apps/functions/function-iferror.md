@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 03/21/2018
 ms.author: gregli
-ms.openlocfilehash: 2bd8ba7dc9b764399165c75361215cee2edb4e7b
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ebd4454184f684dbf85ec2b8a9056395b92dc47f
+ms.sourcegitcommit: 234de505a0e8c42459d87053fa00ea3e0ea0b909
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31831441"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092778"
 ---
 # <a name="iferror-function-in-powerapps"></a>De functie IfError in PowerApps
 Hiermee worden fouten gedetecteerd en wordt er een alternatieve waarde opgegeven of actie ondernomen.
@@ -30,7 +30,7 @@ Met de functie **IfError** worden alle argumenten getest om te controleren of er
 
 Gebruik **IfError** om foutwaarden door een geldige waarde te vervangen.  Als het bijvoorbeeld mogelijk is dat de invoer van een gebruiker wordt gedeeld door nul, vervangt u de waarde door een 0 of een andere geldige waarde die geschikt is voor uw app. Op die manier kunnen de downstreamberekeningen doorgaan.
 
-Gebruik **IfError** in [gedragsformules](../working-with-formulas-in-depth.md) om acties uit te voeren, de resultaten te controleren op fouten en indien nodig verdere actie te ondernemen of een foutbericht weer te geven aan de gebruiker met [ **ShowError**](function-showerror.md).
+Gebruik **IfError** in [gedragsformules](../working-with-formulas-in-depth.md) om acties uit te voeren, de resultaten te controleren op fouten en indien nodig verdere actie te ondernemen of een foutbericht weer te geven aan de gebruiker met [**Notify**](function-showerror.md).
 
 Als alle argumenten voor **IfError** resulteren in een fout, wordt de waarde van het laatste argument geretourneerd (een foutwaarde). 
 
@@ -46,7 +46,7 @@ Als alle argumenten voor **IfError** resulteren in een fout, wordt de waarde van
 | --- | --- | --- |
 | **IfError( 1, 2 )** |Het eerste argument retourneert geen foutwaarde.  Het wordt geretourneerd en de volgende argumenten worden niet geëvalueerd.   | 1 |
 | **IfError( 1/0, 2 )** | Het eerste argument retourneert een foutwaarde (als gevolg van een deling door nul).  Het tweede argument wordt geëvalueerd, wat erin resulteert dat een niet-foutwaarde wordt geretourneerd. | 2 | 
-| **IfError( 1/0, ShowError( "Division by Zero" ) )** | Het eerste argument retourneert een foutwaarde (als gevolg van een deling door nul).  Het tweede argument wordt geëvalueerd. Hiermee worden berichten aan de gebruiker weergegeven.  De retourwaarde van **IfError** is de retourwaarde van **ShowError**, veranderd in hetzelfde type als bij het eerste argument voor **IfError** (een getal). | 1 |
+| **IfError( 1/0, Notify( "Er is een intern probleem opgetreden", NotificationType.Error ) )** | Het eerste argument retourneert een foutwaarde (als gevolg van een deling door nul).  Het tweede argument wordt geëvalueerd. Hiermee worden berichten aan de gebruiker weergegeven.  De retourwaarde van **IfError** is de retourwaarde van **Notify**, verandert in hetzelfde type als bij het eerste argument voor **IfError** (een getal). | 1 |
 | **IfError( 1/0, 1/0, 2, 1/0, 3 )** | Het eerste argument retourneert een foutwaarde (als gevolg van een deling door nul).  Het tweede argument wordt geëvalueerd, waardoor ook een foutwaarde wordt geretourneerd (nog een deling door nul).  Het derde argument wordt geëvalueerd. Hierbij wordt er geen foutwaarde geretourneerd.  Het vierde en vijfde argument worden genegeerd.  | 2 |
 
 ### <a name="step-by-step"></a>Stap voor stap

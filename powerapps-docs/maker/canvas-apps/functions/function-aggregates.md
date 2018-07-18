@@ -12,12 +12,12 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 08/15/2017
 ms.author: gregli
-ms.openlocfilehash: e488383acbd163383079b5078e464cab89e677ad
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: a8cd998744d609c253a31271aab34a30b1e998f3
+ms.sourcegitcommit: a622db0fb3d44fa5e7ebc4bfdc77cd6acb3646be
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31829043"
+ms.lasthandoff: 07/05/2018
+ms.locfileid: "37843222"
 ---
 # <a name="average-max-min-stdevp-sum-and-varp-functions-in-powerapps"></a>De functies Average, Max, Min, StdevP, Sum en VarP in PowerApps
 Statistische functies die een groep getallen samenvatten.
@@ -44,7 +44,7 @@ U kunt de waarden voor deze functies als volgt opgeven:
 
 Deze functies worden alleen op numerieke waarden toegepast. Andere typen waarden, zoals tekenreeksen of records, worden genegeerd. Gebruik de functie **[Value](function-value.md)** om een tekenreeks naar een getal te converteren.
 
-De functies **Average**, **Max**, **Min** en **Sum** kunnen worden gedelegeerd wanneer ze worden gebruikt in combinatie met een [gegevensbron die het delegeren van deze functies ondersteunt](../delegation-list.md).  **StdevP** en **VarP** kunnen voor geen enkele gegevensbron worden overgedragen.  Als de delegering niet wordt ondersteund, wordt alleen het eerste gedeelte van de gegevens opgehaald, waarna de functie lokaal wordt toegepast.  Het resultaat geeft daardoor mogelijk geen volledig beeld.  U ziet tijdens het maken van de app een blauwe stip om u te herinneren aan deze beperking, zodat u waar mogelijk nog kunt overschakelen naar delegeerbare alternatieven. Zie [Overzicht van delegeren](../delegation-overview.md) voor meer informatie.
+De functies **Average**, **Max**, **Min** en **Sum** kunnen worden gedelegeerd wanneer ze worden gebruikt in combinatie met een [gegevensbron die het delegeren van deze functies ondersteunt](../delegation-list.md).  **StdevP** en **VarP** kunnen voor geen enkele gegevensbron worden overgedragen.  Als de delegering niet wordt ondersteund, wordt alleen het eerste gedeelte van de gegevens opgehaald, waarna de functie lokaal wordt toegepast.  Het resultaat geeft daardoor mogelijk geen volledig beeld.  U ziet tijdens het maken van de app een delegeringswaarschuwing om u te herinneren aan deze beperking, zodat u waar mogelijk nog kunt overschakelen naar delegeerbare alternatieven. Zie [Overzicht van delegeren](../delegation-overview.md) voor meer informatie.
 
 ## <a name="syntax"></a>Syntaxis
 **Average**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**Max**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**Min**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**Sum**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**StdevP**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**VarP**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )
