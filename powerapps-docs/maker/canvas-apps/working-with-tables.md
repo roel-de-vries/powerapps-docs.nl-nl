@@ -1,23 +1,18 @@
 ---
 title: Over tabellen | Microsoft Docs
 description: Naslaginformatie voor het werken met tabellen, kolommen en records
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
 ms.component: canvas
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 42a7c0db6aaf46d8cdbd112cf72c6f95f58dc9ec
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 6144d66849316dc2b355b0cb9a56959e10f8a319
+ms.sourcegitcommit: 76ffec3b4d9c18a01f19c583435541ae165a8234
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31839172"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864256"
 ---
 # <a name="understand-tables-and-records-in-powerapps"></a>Over tabellen en records in PowerApps
 U kunt een app maken die toegang heeft tot informatie in Microsoft Excel, SharePoint, SQL Server en enkele andere bronnen die gegevens opslaan in records en tabellen. Om zo efficiënt mogelijk met dit soort gegevens te werken, moet u de concepten doornemen die ten grondslag liggen aan deze structuren.
@@ -91,26 +86,28 @@ Net zoals met getallen worden formules die betrekking hebben op tabellen en reco
 
 Hieronder volgen een aantal eenvoudige voorbeelden.
 
-1. Voeg een besturingselement **Tekstgalerie** toe en stel de eigenschap **[Items](controls/properties-core.md)** in op de naam van een tabel.
-   
-    Standaard toont de galerie tekst van een tijdelijke aanduiding uit een tabel met de naam **TextualGallerySample**. De eigenschap **[Items](controls/properties-core.md)** van de galerie wordt automatisch ingesteld op die tabel.
-   
-    > [!NOTE]
-> Sommige besturingselementen zijn anders gerangschikt en vergroot voor illustratiedoeleinden.
-   
+1. Maak een lege app voor een telefoon en voeg een verticaal besturingselement **[Galerie](controls/control-gallery.md)** toe dat andere besturingselementen bevat.
+
+    Standaard toont het scherm tekst van een tijdelijke aanduiding uit een tabel met de naam **CustomGallerySample**. De eigenschap **[Items](controls/properties-core.md)** van het besturingselement **[Galerie](controls/control-gallery.md)** van het scherm wordt automatisch ingesteld op die tabel.
+
     ![](media/working-with-tables/gallery-items.png)
+
+    > [!NOTE]
+    > Sommige besturingselementen zijn anders gerangschikt en vergroot voor illustratiedoeleinden.
+
 2. In plaats van de eigenschap **[Items](controls/properties-core.md)** in te stellen op de naam van een tabel, stelt u deze in op een formule met de naam van de tabel als een argument, zoals in het volgende voorbeeld:<br>
-   **Sort(TextualGallerySample, Heading, Descending)**
-   
+    **Sort(CustomGallerySample, SampleHeading, Descending)**
+
     Deze formule omvat de functie **[Sort](functions/function-sort.md)**, waarbij de naam van een tabel als het eerste argument en de naam van een kolom in die tabel als tweede argument worden genomen. De functie ondersteunt ook een optioneel derde argument waarin wordt bepaald dat u de gegevens in aflopende volgorde wilt sorteren.
-   
+
     ![](media/working-with-tables/gallery-items-sort.png)
+
 3. Stel de eigenschap **[Items](controls/properties-core.md)** in op een formule die de formule van de vorige stap als een argument neemt en een tabel retourneert, zoals in het volgende voorbeeld:<br>
-   **FirstN(Sort(TextualGallerySample, Heading, Descending), 2)**
-   
+   **FirstN(Sort(CustomGallerySample, SampleHeading, Descending), 2)**
+
     In deze formule gebruikt u de functie **[FirstN](functions/function-first-last.md)** om een bepaald aantal records in een tabel weer te geven. U gebruikt de functie **[Sort](functions/function-sort.md)** als het eerste argument voor **[FirstN](functions/function-first-last.md)** en een getal (in dit geval **2**) als het tweede argument, dat aangeeft hoeveel records er worden weergegeven.
    
-    De gehele formule retourneert een tabel met de eerste twee records van de tabel **TextualGallerySample** gesorteerd op de kolom **Kop** in aflopende volgorde.
+    De gehele formule retourneert een tabel met de eerste twee records van de tabel **CustomGallerySample** gesorteerd op de kolom **SampleHeading** in aflopende volgorde.
    
     ![](media/working-with-tables/gallery-items-sort-firstn.png)
 
@@ -139,7 +136,7 @@ Als u een gegevensbron als argument voor een van deze functies opgeeft, worden d
 * **[Bijwerken](functions/function-update-updateif.md)**, **[UpdateIf](functions/function-update-updateif.md)**: werkt records bij die overeenkomen met een of meer criteria die u hebt opgegeven.
 * **[Verwijderen](functions/function-remove-removeif.md)**, **[RemoveIf](functions/function-remove-removeif.md)**: verwijdert records die overeenkomen met een of meer criteria die u hebt opgegeven.
 
-De volgende besturingselementen hebben eigenschappen die tabellen zijn:
+Deze eigenschappen worden ingesteld op waarden die tabellen zijn:
 
 * **Items**: is van toepassing op galerieën en keuzelijsten. Tabel om in de galerie weer te geven.
 * **SelectedItems**: is van toepassing op keuzelijsten. Tabel van de items die de gebruiker heeft geselecteerd.
@@ -150,24 +147,27 @@ U kunt ook een formule maken die gegevens voor een afzonderlijke record berekent
 1. Voeg een knop toe en stel de eigenschap **[BijSelecteren](controls/properties-core.md)** ervan in op deze formule:<br>
     **Verzamelen( SelectedRecord, Gallery1.Selected)**
 
-2. Als de knop niet is geselecteerd, klikt u hierop om deze te selecteren. Klik hier opnieuw op om de formule uit te voeren.
+2. Selecteer de knop terwijl u de Alt-toets ingedrukt houdt.
 
 3. Selecteer **Verzamelingen** in het menu **Bestand**.
 
-![](media/working-with-tables/selected-collection.png)
+    ![](media/working-with-tables/selected-collection.png)
 
-Deze formule retourneert een record met de gegevens van de record die momenteel in de galerie is geselecteerd en ook elk besturingselement in die galerie. De record bevat bijvoorbeeld zowel een kolom **Body**, die overeenkomt met de kolom **Body** in de oorspronkelijke tabel als een kolom **Body1**, die het label aanduidt waarin de gegevens van die kolom worden weergegeven. Selecteer het tabelpictogram in de kolom **Body1** om die gegevens te bekijken.
+Deze formule retourneert een record met de gegevens van de record die momenteel in de galerie is geselecteerd en ook elk besturingselement in die galerie. De record bevat bijvoorbeeld zowel een kolom **SampleText**, die overeenkomt met de kolom **SampleText** in de oorspronkelijke tabel als een kolom **Subtitle1**, die het label aanduidt waarin de gegevens van die kolom worden weergegeven. Selecteer het tabelpictogram in de kolom **Subtitle1** om die gegevens te bekijken.
+
+> [!NOTE]
+> De kolom **Subtitle1** kan de naam **Subtitle2** of iets vergelijkbaars hebben als u andere elementen hebt toegevoegd dan de elementen die in dit onderwerp worden behandeld.
 
 Nu u de geselecteerde record hebt, kunt u hieruit afzonderlijke velden halen met de **.** .
 
-1. Druk op Esc om terug te keren naar de standaardwerkruimte en voeg vervolgens een label toe onder de galerie.
+1. Voeg een besturingselement **[Label](controls/control-text-box.md)** toe en plaats dit onder de galerie en de knop.
 
-2. Stel de eigenschap **[Text](controls/properties-core.md)** van het label in op deze formule:<br>
-    **Gallery.Selected.Heading**
+1. Stel de eigenschap **[Text](controls/properties-core.md)** van het label in op deze expressie:<br>
+    **"Selected: " & Gallery1.Selected.SampleHeading**
    
     ![](media/working-with-tables/gallery-selected.png)
 
-U hebt de eigenschap **Selected** genomen, die een record is, en de eigenschap **Heading** uitgepakt.  
+U hebt de eigenschap **Selected** genomen, die een record is, en de eigenschap **SampleHeading** uitgepakt.
 
 U kunt ook een record gebruiken als een container voor algemeen gebruik voor verwante naamwaarden.
 
@@ -235,10 +235,10 @@ Houd er rekening mee dat we in het bovenstaande voorbeeld op sommige plekken dub
 ### <a name="disambiguation"></a>Ondubbelzinnigheid
 Veldnamen waarbij het recordbereik is toegevoegd, overschrijven dezelfde namen elders in de app.  Als dit gebeurt, kunt u nog steeds toegang krijgen tot waarden buiten het recordbereik met de operator voor ondubbelzinnigheid [**@**](functions/operators.md):
 
-* Als u toegang wilt krijgen tot waarden van geneste recordbereiken, gebruikt u de operator **@** met de naam van de tabel die wordt bewerkt met behulp van het patroon ***Tabel *[@* Veldnaam*]**.  
-* Als u toegang wilt krijgen tot globale waarden, zoals gegevensbronnen, verzamelingen en contextvariabelen, gebruikt u het patroon **[@*Objectnaam*]** (zonder een tabelaanduiding).
+* Als u toegang wilt krijgen tot waarden van geneste recordbereiken, gebruikt u de operator **@** met de naam van de tabel die wordt bewerkt met behulp van dit patroon:<br>_Tabel_**[@**_VeldNaam_**]**
+* Als u toegang wilt krijgen tot globale waarden, zoals gegevensbronnen, verzamelingen en contextvariabelen, gebruikt u het patroon **[@**_Objectnaam_**]** (zonder een tabelaanduiding).
 
-Als de tabel die wordt bewerkt een expressie is, zoals een **Filter( *tabel*, ... )**, kan de operator voor ondubbelzinnigheid niet worden gebruikt.  Alleen het binnenste recordbereik kan velden openen vanuit deze tabelexpressie door de operator voor ondubbelzinnigheid niet te gebruiken.
+Als de tabel die wordt bewerkt een expressie is, zoals een **Filter(** _Tabel_**,** ... **)**, kan de operator voor ondubbelzinnigheid niet worden gebruikt.  Alleen het binnenste recordbereik kan velden openen vanuit deze tabelexpressie door de operator voor ondubbelzinnigheid niet te gebruiken.
 
 Stelt u zich bijvoorbeeld een verzameling **X** voor:
 
