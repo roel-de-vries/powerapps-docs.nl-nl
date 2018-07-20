@@ -1,23 +1,20 @@
 ---
 title: Een besturingselement toevoegen en configureren | Microsoft Docs
 description: Stapsgewijze instructies voor het rechtstreeks toevoegen en configureren van besturingselementen, via de werkbalk, op het tabblad Eigenschappen of de formulebalk.
-documentationcenter: na
-author: aftowen
-manager: kfile
-editor: ''
-tags: ''
+author: AFTOwen
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 07/10/2017
 ms.author: anneta
-ms.openlocfilehash: c3b1fb9802541159726a33cacd07c6f9743de0e2
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 8a2849c32eaf474d1aa5bb981a09a3594cead600
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896691"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020119"
 ---
 # <a name="add-and-configure-a-control-in-powerapps"></a>Een besturingselement toevoegen en configureren in PowerApps
 U kunt een groot aantal verschillende UI-elementen toevoegen aan uw app en vervolgens direct aspecten van hun uiterlijk en gedrag configureren. Dit kan via de werkbalk, in het tabblad **Eigenschappen** of de formulebalk. Deze UI-elementen worden besturingselementen genoemd en de aspecten eigenschappen.

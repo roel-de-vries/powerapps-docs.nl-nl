@@ -1,23 +1,20 @@
 ---
 title: Formulieren aanpassen | Microsoft Docs
 description: Geef op welke gegevens u wilt tonen, in welke volgorde en in welke besturingselementen.
-documentationcenter: na
 author: AFTOwen
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 03/17/2018
 ms.author: anneta
-ms.openlocfilehash: 98162ce4d291b976c816326efc5d4c6d4d18c870
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 842e19360c5f1536489f978cf880d941a6dee7d6
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31829591"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39019981"
 ---
 # <a name="customize-forms-in-powerapps"></a>Formulieren aanpassen in PowerApps
 Pas de besturingselementen **Formulier weergeven** en **Formulier bewerken** zodanig aan dat de belangrijkste gegevens worden getoond, in de meest logische volgorde. Op die manier kunnen gebruikers de gegevens gemakkelijk begrijpen en bijwerken.

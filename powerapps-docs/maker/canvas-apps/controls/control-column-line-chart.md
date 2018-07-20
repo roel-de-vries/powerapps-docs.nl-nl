@@ -1,23 +1,20 @@
 ---
 title: 'Besturingselementen voor kolomdiagram en lijndiagram: naslaginformatie | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over de besturingselementen Kolomdiagram en Lijndiagram
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 5397c99d02e824a86147af053e1f907f83ce3543
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.reviewer: anneta
+ms.openlocfilehash: ef7bd648b103755d724481225e726a9faab863dc
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898262"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018118"
 ---
 # <a name="column-chart-and-line-chart-controls-in-powerapps"></a>Besturingselementen Kolomdiagram en Lijndiagram in PowerApps
 Besturingselementen die gegevens weergeven als grafieken met x- en y-assen.
