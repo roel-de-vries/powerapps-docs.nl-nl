@@ -2,17 +2,19 @@
 title: Een sessie-id of een app-id ophalen | Microsoft Docs
 description: Lees hoe u een sessie-id of een app-id ophaalt voor het oplossen van problemen in PowerApps
 author: AFTOwen
+manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 06/18/2018
-ms.author: anneta, brimcg
-ms.openlocfilehash: add591d1bf565f3ad89e0138257fdf365d6add8e
-ms.sourcegitcommit: 1126caa4c7516cd4dffcff7e0c3eca440a333a58
+ms.author: anneta
+ms.openlocfilehash: 2e9b1a38de104ce1bf5a17969ca2c79792ac6fd4
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36304679"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39022258"
 ---
 # <a name="get-a-session-id-or-an-app-id"></a>Een sessie-id of een app-id ophalen
 Als er een probleem is met een app die is gemaakt in PowerApps, kan Microsoft het probleem veel efficiënter oplossen als u beschikt over een sessie-id, een app-id of beide id's.

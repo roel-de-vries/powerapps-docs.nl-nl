@@ -1,22 +1,20 @@
 ---
 title: Afbeeldingen opslaan in een Excel-bestand | Microsoft Docs
 description: Afbeeldingen opslaan in een Excel-tabel in een cloudopslagaccount
-documentationcenter: ''
 author: AFTOwen
-manager: kfile
-editor: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 06/15/2016
 ms.author: anneta
-ms.openlocfilehash: c9a70a362071558e415b3077e8ff536088edd2db
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 5c84da8bb0873fd42f5d352ae463f013113d8fcd
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31835680"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023868"
 ---
 # <a name="how-to-save-images-in-an-excel-file-and-then-add-these-images-to-your-app"></a>Afbeeldingen in een Excel-bestand opslaan en deze afbeeldingen vervolgens toevoegen aan uw app
 

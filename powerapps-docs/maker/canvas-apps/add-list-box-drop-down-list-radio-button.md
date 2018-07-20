@@ -1,22 +1,20 @@
 ---
 title: Een keuzelijst, een vervolgkeuzelijst en keuzerondjes toevoegen | Microsoft Docs
 description: Opties voor meervoudige selectie maken of configureren in PowerApps
-documentationcenter: ''
 author: lonu
-manager: kfile
-editor: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/23/2016
 ms.author: lonu
-ms.openlocfilehash: 1fbaf4f9d740084a1ed0d630b94d1cd41713ba03
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ecdd1cc5aa9ccbad7c2973f8ad899b213dcd96f3
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31825551"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023822"
 ---
 # <a name="add-a-list-box-a-drop-down-list-or-radio-buttons"></a>Een keuzelijst, een vervolgkeuzelijst of keuzerondjes toevoegen
 PowerApps bevat opties voor meervoudige en enkelvoudige selectie, waaronder keuzelijsten, vervolgkeuzelijsten en keuzerondjes. In dit onderwerp worden deze besturingselementen toegevoegd en wordt de formule **Table** gebruikt om de lijsten te creëren. Wanneer een item in de lijst wordt geselecteerd, worden de andere besturingselementen bijgewerkt.

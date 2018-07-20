@@ -1,23 +1,20 @@
 ---
 title: Een pushmelding verzenden | Microsoft Docs
 description: Informatie over het verzenden van native pushmeldingen naar een app in PowerApps.
-documentationcenter: na
 author: jamesol-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 08/08/2017
 ms.author: jamesol
-ms.openlocfilehash: 1ab3b17d03b2fd21fceb0675ca55d33302f67d31
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 45311aefca51d8d1a4fc6c8cc6dabc33872842df
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37897750"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020832"
 ---
 # <a name="send-a-push-notification-in-powerapps"></a>Een pushmelding verzenden in PowerApps
 Pushmeldingen worden gebruikt in mobiele apps voor zakelijk en consumentengebruik, voornamelijk om app-gebruikers te benaderen en hun aandacht te trekken naar belangrijke taken. Het verzenden van meldingen in PowerApps vindt plaats via de PowerApps-meldingsconnector. U kunt native pushmeldingen verzenden naar alle apps die u in PowerApps maakt. We zullen in de toekomst meer meldingstypen toevoegen.

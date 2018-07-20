@@ -1,23 +1,20 @@
 ---
 title: Een record uit een tabel weergeven, bewerken of toevoegen | Microsoft Docs
 description: Gebruik een formulier om een record uit een tabel in uw gegevensbron weer te geven, te bewerken of toe te voegen.
-documentationcenter: na
 author: karthik-1
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/06/2017
 ms.author: sharik
-ms.openlocfilehash: a68986c39ffe251f55c10a26386c8430398d2718
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: b98c5d165ba6de983a874f0a34fb92c5db8a69cd
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37895817"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018946"
 ---
 # <a name="show-edit-or-add-a-record-from-a-table-in-powerapps"></a>Een record uit een tabel weergeven, bewerken of toevoegen in PowerApps
 Als u alle velden in een record wilt weergeven, voegt u het besturingselement **[Weergaveformulier](controls/control-form-detail.md)** toe en configureert u dit. Als u een veld in een record wilt bewerken (of als u een record wilt toevoegen) en u de wijzigingen wilt opslaan in een gegevensbron, voegt u het besturingselement **[Formulier](controls/control-form-detail.md)** bewerken toe en configureert u dit.

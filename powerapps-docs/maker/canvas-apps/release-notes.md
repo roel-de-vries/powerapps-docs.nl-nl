@@ -9,18 +9,18 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/21/2018
 ms.author: anneta
-ms.openlocfilehash: e68614f2624a0d60e09563f92bf027fdf03d77b5
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 55b60abd9dc07d5b6c1979190f20ef893265475f
+ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023891"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39094697"
 ---
 # <a name="whats-new-in-powerapps"></a>Wat is er nieuw in PowerApps?
 > [!IMPORTANT]
 > **Aankondiging van de release-opmerkingen**<br>
 > Hebt u vragen over geplande en onlangs uitgebrachte mogelijkheden in PowerApps?<br>
-[Bekijk de release-opmerkingen](https://docs.microsoft.com/en-us/business-applications-release-notes/april18/powerapps/overview). We hebben alle details van a tot z vastgelegd om in uw planning te gebruiken.
+[Bekijk de release-opmerkingen](https://docs.microsoft.com/business-applications-release-notes/april18/powerapps/overview). We hebben alle details van a tot z vastgelegd om in uw planning te gebruiken.
 
 Zie [Veelvoorkomende problemen en oplossingen](common-issues-and-resolutions.md) voor meer informatie over bekende beperkingen.
 

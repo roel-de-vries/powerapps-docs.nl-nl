@@ -1,23 +1,20 @@
 ---
 title: De functies Abs, Exp Ln, Macht en Wortel | Microsoft Docs
 description: Referentie-informatie, inclusief syntaxis en voorbeelden, voor de functies Abs, Wortel en andere functies in PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 09/13/2016
 ms.author: gregli
-ms.openlocfilehash: 8b9e6d7b55eac51d9bf22d28945cfd4349fc957c
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: e1e50b589f301aaeda944074fe7766b79db6a3c2
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37897763"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39015933"
 ---
 # <a name="abs-exp-ln-power-and-sqrt-functions-in-powerapps"></a>De functies Abs, Exp Ln, Macht en Wortel in PowerApps
 Berekent absolute waarden, natuurlijke logaritmen, vierkantswortels en het resultaat van het machtsverheffen van *e* of een willekeurig getal tot opgegeven machten.

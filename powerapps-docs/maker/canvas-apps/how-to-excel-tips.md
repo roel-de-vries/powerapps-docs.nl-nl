@@ -1,23 +1,20 @@
 ---
 title: Een tabel in Excel opmaken | Microsoft Docs
 description: Als u Excel-gegevens wilt gebruiken, moet u de gegevens opmaken in een tabel. Het trefwoord 'afbeelding' in kolomnamen toevoegen
-documentationcenter: na
 author: yifwang
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/03/2018
 ms.author: yifwang
-ms.openlocfilehash: fd458fe6c8962bbc4443c1de7aad0f1c4eea7fac
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ddc6b9715a3282dbfcce9ae5f63be50ea1406e69
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31826611"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023661"
 ---
 # <a name="format-a-table-in-excel-and-naming-tips"></a>Een tabel in Excel opmaken en tips voor namen
 Om Excel-gegevens te kunnen gebruiken in PowerApps, moet u deze opmaken als een tabel. In dit onderwerp leert u hoe u een tabel in Excel opmaakt en vindt u tips voor namen van Excel-kolommen.

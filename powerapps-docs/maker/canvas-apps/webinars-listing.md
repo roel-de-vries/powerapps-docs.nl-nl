@@ -2,17 +2,19 @@
 title: Webinaroverzicht | Microsoft Docs
 description: Hier ziet u een overzicht van eerdere en toekomstige webinars, inclusief tijd/datum en de besproken onderwerpen.
 author: audrieMSFT
+manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 4/18/2018
 ms.author: audrie
-ms.openlocfilehash: bffc102ad61a05ae8f2b6a26276cbeec718483f6
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 76abd84afc5b4814cfbf2ef14923c1c13e87befb
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898186"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021821"
 ---
 # <a name="powerapps-webinar-listing"></a>Overzicht van PowerApps-webinars #
 In deze webinars ziet u hoe u kunt gebruikmaken van de functies en voorzieningen van Microsoft PowerApps. Webinars zijn on-demand beschikbaar na de live-uitzending. U moet hiervoor in sommige gevallen uw registratiegegevens opnieuw opgeven, waarna u per mail een koppeling naar de opname ontvangt. 

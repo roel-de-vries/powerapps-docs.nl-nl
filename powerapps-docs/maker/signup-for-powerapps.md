@@ -1,23 +1,20 @@
 ---
 title: Aanmelden voor een licentie voor een gratis proefversie | Microsoft Docs
 description: Aanmelden voor een gratis licentie om PowerApps 30 dagen lang te proberen als individu.
-documentationcenter: na
 author: AFTOwen
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
 ms.date: 03/12/2018
 ms.author: anneta
-ms.openlocfilehash: 651862e23a2c3741952106c27e3d37315175402c
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.reviewer: ''
+ms.openlocfilehash: ddbd2f610ecba6d801efde2a00a9cb492e2382e3
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898232"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021545"
 ---
 # <a name="sign-up-for-a-free-license-to-try-powerapps"></a>Aanmelden voor een gratis licentie om PowerApps te proberen
 Als u een app wilt maken in PowerApps, hebt u een van de verschillende typen licenties nodig die verschillende functionaliteitniveaus bieden. U hebt al een licentie voor PowerApps als uw organisatie een van verschillende versies van Office 365 of Dynamics 365 voor u heeft gekocht, of als uw organisatie licenties voor PowerApps-abonnement 1 of 2 voor u heeft aangeschaft.

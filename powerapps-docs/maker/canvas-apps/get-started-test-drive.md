@@ -1,23 +1,20 @@
 ---
 title: Een app maken op basis van een sjabloon | Microsoft Docs
 description: Stapsgewijze instructies voor het automatisch maken van apps op basis van een PowerApps-sjabloon.
-documentationcenter: na
 author: AFTOwen
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 03/19/2018
 ms.author: anneta
-ms.openlocfilehash: 29010630412de78945d9d35212210b7ce1a8407f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: fba57fb26b023dcce771951953aea2eafa6b28e9
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827891"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39016301"
 ---
 # <a name="create-an-app-from-a-powerapps-template"></a>Een app maken op basis van een PowerApps-sjabloon
 Maak automatisch een app op basis van een sjabloon voor een specifiek scenario, zoals het bijhouden van budgetten en plannen van vakanties, en voer vervolgens de app uit om meer inzicht te krijgen in het standaardgedrag.

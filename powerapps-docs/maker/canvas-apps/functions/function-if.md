@@ -1,23 +1,20 @@
 ---
 title: De functies If en Switch | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis en voorbeelden, voor de functies If en Switch in PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/24/2017
 ms.author: gregli
-ms.openlocfilehash: f4e5510224d5abc7a6d2ccaa286d08c8f170fa10
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 5293cd448d96633e2d8d2cda9dfbd6d3c162c953
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838390"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017382"
 ---
 # <a name="if-and-switch-functions-in-powerapps"></a>De functies If en Switch in PowerApps
 Hiermee wordt bepaald of een voorwaarde in een set true is (**If**) of dat het resultaat van een formule overeenkomt met een willekeurige waarde in een set (**Switch**). Vervolgens wordt een resultaat geretourneerd of een actie uitgevoerd.

@@ -1,23 +1,20 @@
 ---
 title: Een app verwijderen | Microsoft Docs
 description: Een bestaande app verwijderen in PowerApps
-documentationcenter: na
 author: jamesol-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: ed454b6656971adb4c209d2dd9a59e5258ef8eac
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: df7c43a0044ac7b56666f06eb3ebf773dcb16b67
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898140"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023615"
 ---
 # <a name="delete-an-app-from-powerapps"></a>Een app verwijderen uit PowerApps
 In dit artikel wordt beschreven hoe u een app verwijdert uit uw PowerApps-account en uit de accounts van iedereen met wie de app is gedeeld.

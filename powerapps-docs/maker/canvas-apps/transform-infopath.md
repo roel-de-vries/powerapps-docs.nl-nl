@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/05/2018
 ms.author: rriley
-ms.openlocfilehash: 74445d4a9398afe00407e7b1a1eae5b7d773dd22
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: b57d62d3e64ea08905ddcc8627cf6921d421fb18
+ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020395"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39094720"
 ---
 # <a name="transform-your-infopath-forms-to-powerapps"></a>Uw InfoPath-formulieren transformeren naar PowerApps
 
@@ -134,6 +134,6 @@ Met PowerApps kunt u de ene app vanuit de andere aanroepen. Dus in plaats van ee
 
 Met de bovenstaande informatie bent u klaar om krachtige PowerApps te maken. Hieronder vindt u enkele handige koppelingen om verder te gaan. Een van de koppelingen brengt u naar de site van de PowerApps-community. Sluit u aan bij de community, zodat u uw vaardigheden veel sneller kunt ontwikkelen dan in uw eentje.
 
-[**Referentie formule** ](https://docs.microsoft.com/en-us/powerapps/formula-reference) Een uitstekende manier om inspiratie op te doen door enkele standaardfuncties te bekijken.
+[**Referentie formule** ](https://docs.microsoft.com/powerapps/formula-reference) Een uitstekende manier om inspiratie op te doen door enkele standaardfuncties te bekijken.
 
 [**PowerApps-community** ](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1) Voorbeelden, samenwerken met anderen, vragen stellen en de PowerApps-community verder laten groeien.

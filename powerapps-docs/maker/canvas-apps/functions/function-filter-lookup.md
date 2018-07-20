@@ -1,23 +1,20 @@
 ---
 title: Functies Filter, Zoeken en Opzoeken | Microsoft Docs
 description: Referentie-informatie, inclusief syntaxis en voorbeelden, voor de functies Filter, Zoeken en Opzoeken in PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 02/05/2017
 ms.author: gregli
-ms.openlocfilehash: 35dec320b52dd934d616ba067932228b0e15ee3d
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: dc93c1a753b74cd5c1160eaff9e353c00335d563
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838804"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020809"
 ---
 # <a name="filter-search-and-lookup-functions-in-powerapps"></a>Functies Filter, Zoeken en LookUp in PowerApps
 Zoekt een of meer [records](../working-with-tables.md#records) in een [tabel](../working-with-tables.md).

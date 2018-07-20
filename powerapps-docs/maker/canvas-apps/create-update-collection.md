@@ -1,22 +1,20 @@
 ---
 title: Een verzameling maken en bijwerken | Microsoft Docs
 description: Verzamelingen maken en kolommen toevoegen aan bestaande verzamelingen in PowerApps
-documentationcenter: ''
 author: lonu
-manager: kfile
-editor: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/30/2015
 ms.author: lonu
-ms.openlocfilehash: b3bf7c2227d3321a581eb1a568de1ce78ead92ee
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 27b5a3453c2c0a89239d3e319ee6f39afd034492
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899888"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023270"
 ---
 # <a name="create-and-update-a-collection-in-your-app"></a>Een verzameling in uw app maken en bijwerken
 U kunt een verzameling gebruiken om gegevens op te slaan die in uw app kunnen worden gebruikt. Een verzameling is een groep met items die vergelijkbaar zijn. U maakt bijvoorbeeld een verzameling MijnAfbeeldingen waarin alle foto's worden opgeslagen van producten die uw bedrijf verkoopt. U kunt uw verzameling MijnAfbeeldingen in PowerApps toevoegen en een app maken die alle foto's van deze producten weergeeft. Ander voorbeeld: u kunt een verzameling Prijslijst maken die een overzicht bevat van de producten en de prijs van elk product.

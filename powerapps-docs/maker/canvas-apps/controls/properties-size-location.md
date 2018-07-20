@@ -1,23 +1,20 @@
 ---
 title: Grootte- en locatie-eigenschappen | Microsoft Docs
 description: Naslagmateriaal voor eigenschappen als Height en Width
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 7df2782bc18d1c999383226e31033035fb59cea1
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 9c4ab469ef95dcb0dbb6f108ebbd111f585ded2d
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31839080"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018854"
 ---
 # <a name="size-and-location-properties-in-powerapps"></a>Grootte- en locatie-eigenschappen in PowerApps
 ## <a name="overview"></a>Overzicht

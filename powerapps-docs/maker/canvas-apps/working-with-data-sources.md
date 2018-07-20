@@ -1,23 +1,20 @@
 ---
 title: Gegevensbronnen begrijpen | Microsoft Docs
 description: Referentie-informatie voor het werken met verbindingen en gegevensbronnen in Microsoft PowerApps.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 03/08/2017
 ms.author: gregli
-ms.openlocfilehash: 4cdc1116de5882b69814bd91b4006debb8c5f5cf
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: d8fd771d9407d0ca2601471a06c727b16a751f2a
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899336"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020878"
 ---
 # <a name="understand-data-sources-in-powerapps"></a>Gegevensbronnen begrijpen in PowerApps
 Voor de meeste PowerApps-apps wordt externe informatie gebruikt die is opgeslagen in cloudservices. Deze worden **Gegevensbronnen** genoemd. Een veel voorkomend voorbeeld is bijvoorbeeld een tabel in een Excel-bestand die is opgeslagen in OneDrive voor Bedrijven. Apps krijgen toegang tot deze gegevensbronnen via **Verbindingen**.

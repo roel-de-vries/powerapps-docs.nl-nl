@@ -1,23 +1,20 @@
 ---
 title: Informatie over on-premises gegevensgateways | Microsoft Docs
 description: Naslaginformatie, inclusief installatie en probleemoplossing, voor on-premises gegevensgateways
-documentationcenter: na
-author: aftowen
-manager: kfile
-editor: ''
-tags: ''
+author: AFTOwen
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
-ms.topic: conceptual
-ms.component: canvas
+ms.topic: reference
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 10/20/2017
 ms.author: anneta
-ms.openlocfilehash: 2c754fa8e479494ae1002e5339d2d8d5eeb2480f
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: f39bebd27aad378a5bbf8bff592fa50ea44db679
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32330440"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017750"
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-powerapps"></a>Informatie over on-premises gegevensgateways voor Microsoft PowerApps
 ## <a name="installation-and-configuration"></a>Installatie en configuratie
@@ -172,7 +169,7 @@ Er is momenteel geen enkele locatie waar tenantbeheerders alle gateways kunnen b
 **Antwoord:** Nee. De gateway maakt verbinding met de gegevensbron met behulp van de opgegeven verbindingsgegevens. U kunt de gateway in dit opzicht beschouwen als een clienttoepassing. De gateway moet enkel verbinding kunnen maken met de opgegeven servernaam.
 
 **Vraag:** Wat de latentie voor het uitvoeren van query's in een gegevensbron vanuit de gateway? Wat is de beste architectuur?  
-**Antwoord:** U kunt de netwerklatentie beperken door de gateway zo dicht mogelijk bij de gegevensbron te installeren. Als u de gateway op de daadwerkelijke gegevensbron kunt installeren, is de latentie minimaal. Datacenters zijn ook een overweging waard. Als uw service bijvoorbeeld het datacenter VS - west gebruikt en u SQL Server host in een virtuele machine van Azure, kunt u de Azure VM het beste ook in VS - west plaatsen. Zo wordt de latentie tot het minimum beperkt en voorkomt u kosten voor uitgaand verkeer op de virtuele Azure-machine.
+**Antwoord:** U kunt de netwerklatentie beperken door de gateway zo dicht mogelijk bij de gegevensbron te installeren. Als u de gateway op de daadwerkelijke gegevensbron kunt installeren, is de latentie minimaal. Datacenters zijn ook een overweging waard. Als uw service bijvoorbeeld het datacenter US - west gebruikt en u SQL Server host in een virtuele machine van Azure, kunt u de Azure VM het beste ook in US - west plaatsen. Zo wordt de latentie tot het minimum beperkt en voorkomt u kosten voor uitgaand verkeer op de virtuele Azure-machine.
 
 **Vraag:** Zijn er vereisten voor de netwerkbandbreedte?  
 **Antwoord:** Het wordt aanbevolen een netwerkverbinding met een goede doorvoer te gebruiken. Elke omgeving is anders en de hoeveelheid verzonden gegevens is van invloed op de resultaten. Door ExpressRoute te gebruiken, kunt u een bepaalde doorvoer garanderen tussen on-premises en de Azure-datacenters.

@@ -2,18 +2,19 @@
 title: De functie IsMatch | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis, voor de functie IsMatch in PowerApps
 author: gregli-msft
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 02/05/2017
 ms.author: gregli
-ms.openlocfilehash: 908602af84c94d4a14dcd2017c2791ee5c25e6ad
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: ac13b62e77b5d8ed35939983b3989b5edb13361c
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899244"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018003"
 ---
 # <a name="ismatch-function-in-powerapps"></a>De functie IsMatch in PowerApps
 Test of een teksttekenreeks overeenkomt met een patroon.

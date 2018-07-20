@@ -1,23 +1,20 @@
 ---
 title: De functies First, FirstN, Last en LastN | Microsoft Docs
 description: Referentie-informatie, inclusief syntaxis en voorbeelden, voor de functies First, FirstN, Last en LastN in PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 947a6c369c41b1ff67c611fa734f927227dde991
-ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
+ms.openlocfilehash: 3d94a3a250041ec7524460640f0bca4351ddcacf
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38095868"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021108"
 ---
 # <a name="first-firstn-last-and-lastn-functions-in-powerapps"></a>De functies First, FirstN, Last en LastN in PowerApps
 Retourneert de eerste of laatste set [records](../working-with-tables.md#records) van een tabel.

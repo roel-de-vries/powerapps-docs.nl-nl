@@ -1,23 +1,21 @@
 ---
 title: Functies Blank, Samenvoegen, IsBlank en IsEmpty | Microsoft Docs
 description: Referentie-informatie, inclusief syntaxis en voorbeelden, voor de functies Blank, Samenvoegen, IsBlank en IsEmpty in PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
+ms.custom: canvas
+ms.reviewer: anneta
 ms.component: canvas
 ms.date: 07/24/2017
 ms.author: gregli
-ms.openlocfilehash: 29d0399de5404e6bd8995e3aecaedcfd7f1db6e8
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 7922f286f9d1c1c3af8876b2cd8547b441b29585
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898600"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023914"
 ---
 # <a name="blank-coalesce-isblank-and-isempty-functions-in-powerapps"></a>Functies Blank, Samenvoegen, IsBlank en IsEmpty in PowerApps
 Hiermee wordt getest of een waarde leeg is of een [tabel](../working-with-tables.md) geen [records](../working-with-tables.md#records) bevat. Dit biedt een manier om *lege* waarden te maken.

@@ -1,23 +1,20 @@
 ---
 title: Laat klanten uw apps uitproberen op AppSource | Microsoft Docs
 description: Gebruik AppSource om apps te delen met klanten en leads te genereren voor uw bedrijf.
-documentationcenter: na
 author: linhtranms
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 05/08/2017
 ms.author: litran
-ms.openlocfilehash: 11f0e0b8a0aa0dce59588c2e1eea21885f19b741
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: fb51ab2c671d695350e452dc6fb29efa583adfea
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31836374"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023684"
 ---
 # <a name="let-customers-test-drive-your-apps-on-appsource"></a>Klanten uw apps laten uitproberen op AppSource
 Houdt u van het bouwen van apps in PowerApps? Hebt u een app die u met klanten wilt delen? We ondersteunen nu PowerApps Test Drive-oplossingen op [AppSource.com](https://appsource.microsoft.com), zodat u apps met klanten kunt delen en leads voor uw bedrijf kunt genereren.

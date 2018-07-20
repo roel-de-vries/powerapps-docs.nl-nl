@@ -1,23 +1,20 @@
 ---
 title: Een on-premises gegevensgateway beheren | Microsoft Docs
 description: Een on-premises gegevensgateway en de bijbehorende verbindingen beheren
-documentationcenter: na
 author: archnair
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/30/2016
 ms.author: archanan
-ms.openlocfilehash: 939758c1550f1006f00bd9a386eb4b9cbcd69af0
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: e7dc9a2386d75a6f03744286b7ed265a8d385370
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899911"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39018532"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-powerapps"></a>Een on-premises gegevensgateway beheren in PowerApps
 Installeer een on-premises gegevensgateway om gegevens snel en veilig over te dragen tussen PowerApps en een gegevensbron die zich niet in de cloud bevindt, zoals een on-premises SQL Server-database of een on-premises SharePoint-site. Bekijk alle gateways waarvoor u beheerdersmachtigingen hebt en beheer machtigingen en verbindingen voor deze gateways.

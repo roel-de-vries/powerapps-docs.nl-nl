@@ -1,23 +1,20 @@
 ---
 title: 'Besturingselement voor timer: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Timer
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: c175b1b35d063f4e20321c494d5472afa2776990
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 666bb231aa9f0b6c6338cf5f3dc5adec48111768
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899566"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39022695"
 ---
 # <a name="timer-control-in-powerapps"></a>Besturingselement voor timer in PowerApps
 Een besturingselement dat kan bepalen hoe uw app reageert nadat een bepaalde hoeveelheid tijd is verstreken.

@@ -1,23 +1,20 @@
 ---
 title: Functies Kleine letters, Hoofdletters en Juiste | Microsoft Docs
 description: Referentie-informatie, inclusief syntaxis en voorbeelden, voor de functies Kleine letters, Hoofdletters en Juiste in PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: e57ea9208f0ea3b7dd9ada7ebd9055a99ddc141c
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: dbfc53352b0e22db1e809cd9c1ced2001f732051
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31831772"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39019954"
 ---
 # <a name="lower-upper-and-proper-functions-in-powerapps"></a>Functies Kleine letters, Hoofdletters en Juiste in PowerApps
 Converteert letters in een tekenreeks met tekst naar allemaal kleine letters, allemaal hoofdletters of een beginhoofdletter, gevolgd door allemaal kleine letters.

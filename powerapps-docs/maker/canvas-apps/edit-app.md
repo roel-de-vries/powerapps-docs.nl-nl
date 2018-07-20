@@ -1,23 +1,20 @@
 ---
 title: Een app bewerken | Microsoft Docs
 description: Stapsgewijze instructies voor het bewerken van apps en scenario's voor het vergrendelen van een sessie.
-documentationcenter: na
 author: karthik-1
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 05/19/2017
 ms.author: sharik
-ms.openlocfilehash: d6c857a75a21123cdd0e826682fc595a503d67fd
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: b1e9f514973313a1028aa3b1958bf8e01ff2c167
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32328784"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023776"
 ---
 # <a name="edit-an-app-in-powerapps"></a>Een app bewerken in PowerApps
 U kunt elke app bewerken die u hebt ontwikkeld, waarvan u de eigenaar bent of waarvoor u de machtiging **Kan bewerken** hebt. U kunt een app bewerken in PowerApps Studio. Als u probeert een app te bewerken die ergens anders is geopend voor bewerken, ziet u een bericht met de mededeling dat de app al door uzelf of door iemand anders is geopend.

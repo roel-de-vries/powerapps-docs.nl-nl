@@ -1,23 +1,20 @@
 ---
 title: Functies En, Of en Niet | Microsoft Docs
 description: Referentie-informatie, inclusief syntaxis en voorbeelden, voor de functies En, Of en Not in PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: a2e62ef2aa0a52bde33ea3e40faf96889597b09b
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 05e77c97d74312c91f501bfa7a8baa22eff00632
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31825896"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021637"
 ---
 # <a name="and-or-and-not-functions-in-powerapps"></a>Functies En, Of en Niet in PowerApps
 Booleaanse logische functies, meestal gebruikt om de resultaten van vergelijkingen en tests te manipuleren.

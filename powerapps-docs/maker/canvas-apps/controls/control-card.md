@@ -1,23 +1,20 @@
 ---
 title: 'Besturingselement voor kaart: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Kaart
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: 7d44ba120a68d08f5779b8383df5b2263f228438
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.reviewer: anneta
+ms.openlocfilehash: 6b1b2f246f8cb598b1f20f5a1418651491f73bd5
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31838574"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021913"
 ---
 # <a name="card-control-in-powerapps"></a>Besturingselement voor kaart in PowerApps
 Gebruik dit besturingselement voor het weergeven en bewerken van één veld van een besturingselement **[Formulier weergeven](control-form-detail.md)** of **[Formulier bewerken](control-form-detail.md)**.

@@ -1,23 +1,20 @@
 ---
 title: Overzicht connectors | Microsoft Docs
 description: Overzicht van alle beschikbare verbindingen die u kunt gebruiken om apps te bouwen
-documentationcenter: ''
 author: lancedMicrosoft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 08/28/2017
 ms.author: lanced
-ms.openlocfilehash: baa4c71efb54cea6f04cd45b895009a3c3ce17c7
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 6ca9b6d873d4d5266486bc1c7b8b876e4f08574a
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899290"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39020924"
 ---
 # <a name="overview-of-connectors-for-powerapps"></a>Overzicht van connectors voor PowerApps
 Gegevens vormen de kern van de meeste apps, inclusief de oplossingen die u zelf in PowerApps bouwt. Gegevens worden opgeslagen in een *gegevensbron* en u brengt die gegevens naar uw app door een *verbinding* te maken. De verbinding maakt gebruikt van een specifieke *connector* om te communiceren met de gegevensbron. PowerApps bevat connectors voor veel populaire services en on-premises gegevensbronnen, waaronder SharePoint, SQL Server, Office 365, Salesforce, Twitter en meer. Om te gegevens toe te voegen aan een app, raadpleegt u [Een gegevensverbinding toevoegen in PowerApps](add-data-connection.md).

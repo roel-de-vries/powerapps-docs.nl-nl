@@ -1,23 +1,20 @@
 ---
 title: 'Besturingselement voor camera: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Camera
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 78cf8d73758e931d009080f03962c3450088a553
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.reviewer: anneta
+ms.openlocfilehash: a25776238d58f2410d8cf85dc70796156f54870f
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "32329934"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021936"
 ---
 # <a name="camera-control-in-powerapps"></a>Besturingselement voor camera in PowerApps
 Een besturingselement waarmee de gebruiker foto's kan maken met behulp van de camera van het apparaat.

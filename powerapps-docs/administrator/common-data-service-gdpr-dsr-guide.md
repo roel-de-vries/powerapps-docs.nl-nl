@@ -9,12 +9,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: ef5d646e30f5d09dbfe5f111a3ad018b030f79d9
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 2a393bb2ebedde2a08f1ed1534d815e64325077b
+ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168223"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39094743"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-common-data-service-for-apps-customer-data"></a>Reageren op aanvragen van betrokkenen voor CDS for Apps-klantgegevens (Common Data Service)
 
@@ -102,8 +102,8 @@ U vindt persoonsgegevens uit CDS for Apps-gebruikers in de volgende bronnen:
 
 |Bron | Doel | Website-toegang | Toegang op programmeerniveau
 | --- | --- | --- | ---
-| Entiteitsrecord | Dit is de entiteit Gebruiker van het systeem, waarin persoonsgegevens van een gebruiker worden opgeslagen. | [PowerApps-beheercentrum](https://admin.powerapps.com) | Via de [Web-API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update)
-| Controlegeschiedenis | Biedt klanten de mogelijkheid om resources te identificeren die gebruikers op entiteitsniveau hebben gemaakt, geopend, gewijzigd of verwijderd. | [PowerApps-beheercentrum](https://admin.powerapps.com) | Via de [Web-API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update)
+| Entiteitsrecord | Dit is de entiteit Gebruiker van het systeem, waarin persoonsgegevens van een gebruiker worden opgeslagen. | [PowerApps-beheercentrum](https://admin.powerapps.com) | Via de [Web-API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update)
+| Controlegeschiedenis | Biedt klanten de mogelijkheid om resources te identificeren die gebruikers op entiteitsniveau hebben gemaakt, geopend, gewijzigd of verwijderd. | [PowerApps-beheercentrum](https://admin.powerapps.com) | Via de [Web-API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update)
 
 #### <a name="user"></a>User
 Persoonsgegevens van een gebruiker worden opgeslagen in de Azure Active Directory. Ze worden automatisch gesynchroniseerd naar alle CDS for Apps-omgevingen. Systeembeheerders kunnen deze persoonsgegevens niet rechtstreeks in CDS for Apps bijwerken wanneer de gebruiker actief is &mdash; ze moeten de gegevens in het Office 365-beheercentrum bijwerken. Systeembeheerders kunnen persoonsgegevens (bijvoorbeeld aangepaste kenmerken) rechtstreeks aan CDS for Apps toevoegen, maar ze moeten deze gegevens handmatig beheren.
@@ -199,7 +199,7 @@ In het [PowerApps-beheercentrum](https://admin.powerapps.com/) gaat u als volgt 
 
 3. Ga naar **Instellingen** > **Beveiliging** > **Gebruikers** en selecteer **Uitgeschakelde gebruikersweergave**.
 
-4. Maak en download een Excel-sjabloonbestand van de persoonsgegevens van de gebruiker. Zie [Een nieuwe Excel-sjabloon maken](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/analyze-your-data-with-excel-templates#create-a-new-excel-template) voor stapsgewijze instructies.
+4. Maak en download een Excel-sjabloonbestand van de persoonsgegevens van de gebruiker. Zie [Een nieuwe Excel-sjabloon maken](https://docs.microsoft.com/dynamics365/customer-engagement/admin/analyze-your-data-with-excel-templates#create-a-new-excel-template) voor stapsgewijze instructies.
 
 8. Open het gedownloade Excel-sjabloonbestand, verwijder de persoonsgegevens van de gebruiker en sla het bestand op.
 

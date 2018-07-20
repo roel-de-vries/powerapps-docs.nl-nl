@@ -1,23 +1,20 @@
 ---
 title: PowerApps integreren in websites en andere services | Microsoft Docs
 description: Apps insluiten in websites en andere services.
-documentationcenter: na
 author: mgblythe
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 10/20/2017
 ms.author: mblythe
-ms.openlocfilehash: 0f4ea37d93b20a768fa16d1dcdb41f921336f043
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ed0863d8d7987e7e7f129a9804b35e00e76aad36
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31827046"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023799"
 ---
 # <a name="integrate-powerapps-into-websites-and-other-services"></a>PowerApps integreren in websites en andere services
 De apps die u bouwt zijn vaak het best te gebruiken als ze beschikbaar zijn op de plek waar het werk wordt uitgevoerd. Met PowerApps kunt u apps insluiten in een iframe, zodat u deze apps kunt integreren in websites en andere services, zoals Power BI of SharePoint.

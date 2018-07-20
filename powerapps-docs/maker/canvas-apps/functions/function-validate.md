@@ -1,23 +1,20 @@
 ---
 title: Functie Validate | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis en voorbeelden, voor de functie Validate in PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/01/2015
 ms.author: gregli
-ms.openlocfilehash: d1c0a8bdcab3f8a3ba74414ab902092432a34fff
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 6a8bff341484139e6d16092fc2ea3cbacb384777
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899198"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39022833"
 ---
 # <a name="validate-function-in-powerapps"></a>De functie Validate in PowerApps
 De functie **Validate** controleert of de waarde van één [kolom](../working-with-tables.md#columns) of een volledige [record](../working-with-tables.md#records) geldig is voor een [gegevensbron](../working-with-data-sources.md).  

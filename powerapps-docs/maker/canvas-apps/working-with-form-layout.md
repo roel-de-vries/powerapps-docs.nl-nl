@@ -1,23 +1,20 @@
 ---
 title: De indeling van een gegevensformulier begrijpen | Microsoft Docs
 description: Overzichtelijke formulieren maken met behulp van rijen en kolommen.
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 06/17/2017
 ms.author: gregli
-ms.openlocfilehash: 45baa2450dbb081b800263a9119729e1c2846008
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 050e665a7a5c2a05ab9abfc989134028d303da4d
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899438"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017727"
 ---
 # <a name="understand-data-form-layout-in-microsoft-powerapps"></a>De indeling van een gegevensformulier begrijpen in Microsoft PowerApps
 Met PowerApps kunt u gemakkelijk formulieren maken die er mooi uitzien en efficiënt te gebruiken zijn. Neem bijvoorbeeld dit eenvoudige verkooporderformulier:

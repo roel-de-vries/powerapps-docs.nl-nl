@@ -1,23 +1,20 @@
 ---
 title: Delegering | Microsoft Docs
 description: Gebruik delegering om grote gegevenssets efficiënt te verwerken.
-documentationcenter: na
-author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+author: lancedMicrosoft
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 07/05/2018
-ms.author: gregli
-ms.openlocfilehash: 7e9a6aac1e0df32fa83edaa0b8042dd2df143bf2
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.author: lanced
+ms.openlocfilehash: 484d7b1149f158840238fc3d54713a1e6e33443b
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37897473"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39023592"
 ---
 # <a name="understand-delegation"></a>Delegering
 PowerApps bevat een krachtige set functies voor het filteren, sorteren en structureren van gegevenstabellen: **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)** en **[AddColumns](functions/function-table-shaping.md)** om er maar een paar te noemen. Met behulp van deze functies kunt u uw gebruikers gerichte toegang bieden tot de informatie die zij nodig hebben. Voor lezers met een databaseachtergrond is het gebruiken van deze functies vergelijkbare met het schrijven van een databasequery.

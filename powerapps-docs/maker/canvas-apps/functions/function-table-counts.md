@@ -1,23 +1,20 @@
 ---
 title: Functies Count, CountA, CountIf en CountRows | Microsoft Docs
 description: Naslaginformatie, inclusief syntaxis en een voorbeeld, voor de functies Count, CountA, CountIf en CountRows in PowerApps
-documentationcenter: na
 author: gregli-msft
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 762fa0ae7afe6b3693f74f308ba0a776aa27ed15
-ms.sourcegitcommit: 6d9fe9967841e381b108a7fb53c9057e295336ea
+ms.openlocfilehash: df972b02408373b48a028b3ec6d98fdfd6f940fe
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38079539"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39016370"
 ---
 # <a name="count-counta-countif-and-countrows-functions-in-powerapps"></a>De functies Count, CountA, CountIf en CountRows in PowerApps
 Hiermee worden alle [records](../working-with-tables.md#records) in een [tabel](../working-with-tables.md) geteld of worden alle records geteld die aan een voorwaarde voldoen.

@@ -1,23 +1,20 @@
 ---
 title: 'Besturingselement voor keuzelijst met invoervak: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over het besturingselement Selectievakje
-documentationcenter: na
 author: fikaradz
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: reference
-ms.component: canvas
+ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 649ebff0c6ce78d317cfeaf8978bcd97f4a68b11
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.reviewer: anneta
+ms.openlocfilehash: 5f36c6e07f1f1c507f5734e51c23ba6af83eca4b
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31837890"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39017198"
 ---
 # <a name="check-box-control-in-powerapps"></a>Besturingselement voor selectievakje in PowerApps
 Een besturingselement dat de gebruiker kan in- of uitschakelen om de waarde ervan in te stellen op **true** of **false**.

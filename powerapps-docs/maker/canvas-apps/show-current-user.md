@@ -1,22 +1,20 @@
 ---
 title: Details over de huidige gebruiker weergeven | Microsoft Docs
 description: Voeg de functie Gebruiker toe om de naam en het e-mailadres van de aangemelde gebruiker weer te geven in PowerApps
-documentationcenter: ''
 author: lonu
-manager: kfile
-editor: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: lonu
-ms.openlocfilehash: 11177ffa8913afe4d0245708dd8c9b2b0b50c8c2
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 90a7ca39626e8eec8151bc3d5ced25a5701a126e
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31826655"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39016255"
 ---
 # <a name="show-information-about-a-powerapps-user"></a>Gegevens over een PowerApps-gebruiker weergeven
 De functie Gebruiker kan de volledige naam, het e-mailadres en de afbeelding die gekoppeld zijn aan de aangemelde gebruiker weergeven. U kunt deze informatie gebruiken om automatisch formulieren in te vullen.
@@ -36,7 +34,7 @@ U kunt deze functie eigenlijk overal gebruiken waar gebruikers er baat bij hebbe
    
    ![][2]
 2. Stel de eigenschap **[Image](controls/properties-visual.md)** in op deze formule:
-   <br>**Gebruiker().Afbeelding**
+   <br>**User().image**
    
     ![][3]
 3. Ga naar het tabblad **Invoegen** en klik of tik op **Tekst** en vervolgens op **Label**:  
@@ -51,7 +49,7 @@ U kunt deze functie eigenlijk overal gebruiken waar gebruikers er baat bij hebbe
    
    ![][5]
 5. Voeg nog een label toe en stel de eigenschap **[Text](controls/properties-core.md)** in op deze formule:
-   <br>**Gebruiker().E-mail**  
+   <br>**User().Email**  
    
     ![][8]
    

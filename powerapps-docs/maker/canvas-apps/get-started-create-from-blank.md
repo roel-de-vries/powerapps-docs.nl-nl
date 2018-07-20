@@ -1,17 +1,19 @@
 ---
 title: Een volledig nieuwe Excel-app maken | Microsoft Docs
 author: AFTOwen
+manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 04/23/2018
 ms.author: anneta
-ms.openlocfilehash: bf802668ff56729c1d28fc460495a680fc3c6570
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 267480158d7e44afd06962779b98c0468436841a
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896806"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39022603"
 ---
 # <a name="create-an-excel-app-from-scratch"></a>Een volledig nieuwe Excel-app maken
 Maak uw eigen volledig nieuwe app op basis van Excel-gegevens, opgemaakt als een tabel, en voeg vervolgens desgewenst gegevens uit andere bronnen toe. Wanneer u deze zelfstudie volgt, maakt u een app met twee schermen. In het ene scherm kunnen gebruikers bladeren door een set records. In het andere scherm kunnen gebruikers een record maken, een of meer velden in een record bijwerken of een heel record verwijderen. Deze benadering kost meer tijd dan [een app automatisch genereren](get-started-create-from-data.md), maar ervaren app-makers kunnen hiermee de beste app voor hun wensen maken.
