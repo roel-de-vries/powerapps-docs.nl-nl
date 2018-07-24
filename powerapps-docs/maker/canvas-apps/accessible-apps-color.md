@@ -2,19 +2,22 @@
 title: Toegankelijke kleuren | Microsoft Docs
 description: Richtlijnen voor kleurcontrast voor PowerApps
 author: tahoon
+manager: kvivek
 ms.service: powerapps
 ms.topic: article
+ms.custom: canvas
+ms.reviewer: anneta
 ms.date: 04/23/2018
 ms.author: tahoon
-ms.openlocfilehash: 56a11edcd1c43313e9b380ca8ac1c8a68d85772d
-ms.sourcegitcommit: 45fac73f04aa03b5796ae6833d777f4757e67945
+ms.openlocfilehash: 289026f18d341381d64423e76effb1abf586557c
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2018
-ms.locfileid: "32329911"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39014806"
 ---
 # <a name="accessible-colors-in-powerapps"></a>Toegankelijke kleuren in PowerApps
-Kleuren die worden gebruikt in een app moeten toegankelijk zijn voor gebruikers die kleurenblind zijn of een beperkt gezichtsvermogen hebben. Alle PowerApps-thema's zijn standaard toegankelijk. Volg wanneer u kleuren wijzigt die in een app worden gebruikt deze richtlijnen om ervoor te zorgen dat ze toegankelijk blijven.
+Kleuren die worden gebruikt in een app moeten toegankelijk zijn voor gebruikers die kleurenblind zijn of een beperkt gezichtsvermogen hebben. Alle PowerApps-thema's zijn standaard toegankelijk. Volg wanneer u kleuren wijzigt die in een app worden gebruikt deze richtlijnen om ervoor te zorgen dat ze toegankelijk blijven. Er zijn online verschillende hulpprogramma's beschikbaar, waarmee u problemen met het kleurcontrast kunt vaststellen.
 
 ## <a name="minimum-contrast-for-text"></a>Minimumcontrast voor tekst
 * Tekst en de achtergrond moeten een contrastverhouding hebben van minimaal 4,5:1
@@ -58,4 +61,4 @@ Zorg ervoor dat de app geen informatie geeft met alleen kleur. Gebruikers die kl
 Extra hints, zoals een **[pictogram](controls/control-shapes-icons.md)** of tekststijlen, zoals **[cursief](controls/properties-text.md)** en **[onderstreping](controls/properties-text.md)**, kunnen helpen om de betekenis over te brengen.
 
 ## <a name="next-steps"></a>Volgende stappen
-Lees meer over [toegankelijkheidseigenschappen](controls/properties-accessibility.md) in PowerApps-besturingselementen.
+Ontdek meer over [toegankelijkheidseigenschappen](controls/properties-accessibility.md) in PowerApps-besturingselementen en [probeer de toegankelijkheidscontrole uit](accessibility-checker.md).

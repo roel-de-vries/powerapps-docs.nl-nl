@@ -1,23 +1,20 @@
 ---
-title: Een app maken om projecten te beheren  | Microsoft Docs
+title: Een app maken om projecten te beheren | Microsoft Docs
 description: In deze taak gaan we een volledig nieuwe app bouwen. Met deze app kan een gebruiker een manager toewijzen aan projecten en kunnen de details van een project worden bijgewerkt.
-documentationcenter: na
 author: mgblythe
-manager: kfile
-editor: ''
-tags: ''
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: fcf1bcec976e34f07745c315d75569bbc86e583f
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: b4daabf019236a4245db324121a6745290c8b3ab
+ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899520"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39021614"
 ---
 # <a name="create-an-app-to-manage-projects"></a>Een app maken om projecten te beheren
 > [!NOTE]

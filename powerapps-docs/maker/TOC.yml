@@ -49,6 +49,11 @@
               href: ./canvas-apps/get-started-create-from-blank.md
         - name: Een app delen
           href: ./canvas-apps/share-app.md
+          items:
+            - name: Excel-gegevens delen
+              href: ./canvas-apps/share-app-data.md
+            - name: App-resources delen
+              href: ./canvas-apps/share-app-resources.md
         - name: Een app insluiten in Power BI
           href: ./canvas-apps/embed-powerapps-powerbi.md
     - name: Voorbeelden

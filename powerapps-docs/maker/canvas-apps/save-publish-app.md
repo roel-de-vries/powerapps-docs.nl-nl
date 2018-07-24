@@ -1,23 +1,20 @@
 ---
 title: Een app opslaan en publiceren | Microsoft Docs
 description: Stapsgewijze instructies voor makers van apps om apps op te slaan en te publiceren
-documentationcenter: na
-author: aftowen
-manager: kfile
-editor: ''
-tags: ''
+author: AFTOwen
+manager: kvivek
 ms.service: powerapps
-ms.devlang: na
 ms.topic: conceptual
-ms.component: canvas
+ms.custom: canvas
+ms.reviewer: ''
 ms.date: 09/14/2017
 ms.author: anneta
-ms.openlocfilehash: 0192abca52f3ca3d28b911e24a9ca9cd07c95393
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: a605467b1d7448e3f53cccd49d025cdaca3f8f25
+ms.sourcegitcommit: 0d69781f6f9362ffd4bb0b61aab14371968fbb46
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37895840"
+ms.lasthandoff: 07/18/2018
+ms.locfileid: "39119446"
 ---
 # <a name="save-and-publish-an-app-in-powerapps"></a>Een app opslaan en publiceren in PowerApps
 Wanneer u wijzigingen in een app opslaat, publiceert u deze automatisch alleen voor uzelf en voor anderen die bevoegd zijn om de app te bewerken. Als u klaar bent met het maken van wijzigingen, moet u de wijzigingen expliciet publiceren om deze beschikbaar te maken voor iedereen met wie de app wordt gedeeld.
@@ -47,7 +44,7 @@ PowerApps kan de app ook met regelmatige intervallen van 2 minuten opslaan. Als 
    ![Publicatie controleren](./media/save-publish-app/publish-review.png)
 
    > [!NOTE]
-   > We raden u aan uw app binnen zes maanden na de laatste publicatie bij te werken en/of opnieuw te publiceren, zodat deze synchroon blijft met de nieuwste versie van PowerApps. Als u de app niet binnen zes maanden bijwerkt en/of opnieuw publiceert, werkt de app mogelijk opeens niet meer zonder dat u daarvoor bent gewaarschuwd.
+   > Wanneer u een canvas-app publiceert, wordt uw app geüpgraded zodat deze in de nieuwste versie van PowerApps wordt uitgevoerd. Op die manier kan de app profiteren van alle nieuwste functies en prestatie-upgrades die zijn toegevoegd sinds u voor het laatst hebt gepubliceerd. Als u gedurende enkele maanden geen update hebt gepubliceerd, zult u waarschijnlijk onmiddellijk een verbetering in de prestaties waarnemen als u de app nu opnieuw publiceert.
 
 ## <a name="identify-the-live-version"></a>De live-versie identificeren
 Klik of tik op [powerapps.com](https://web.powerapps.com) op **Apps** in het menu **Bestand** (aan de linkerkant), klik of tik op het detailpictogram voor een app en klik of tik vervolgens op het tabblad **Versies**.
