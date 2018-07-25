@@ -18,7 +18,7 @@ ms.locfileid: "35250818"
 # <a name="what-is-common-data-service-for-apps"></a>Wat is Common Data Service for Apps?
 Met Common Data Service (CDS) voor apps kunt u veilig gegevens die door zakelijke toepassingen worden gebruikt, opslaan en beheren. De gegevens in CDS voor apps worden opgeslagen in een set entiteiten. Een *entiteit* is een set records waarin gegevens worden opgeslagen, vergelijkbaar met de manier waarop met een tabel gegevens in een database worden opgeslagen. CDS voor apps bevat een basisset met standaardentiteiten die voor de gebruikelijke scenario's, maar u kunt ook aangepaste entiteiten maken die specifiek voor uw organisatie zijn en deze invullen met gegevens met behulp van Power Query. App-makers kunnen vervolgens PowerApps gebruiken om uitgebreide toepassingen te bouwen aan de hand van deze gegevens.
 
-![Schermafbeelding van een overzicht van het Platform voor zakelijke toepassingen. ] (./media/data-platform-cds-intro/platform.png "Platform-overzicht")
+![Schermafbeelding van een overzicht van het Platform voor zakelijke toepassingen.](./media/data-platform-cds-intro/platform.png "Platform-overzicht")
 
 Zie [Prijzen](../../administrator/pricing-billing-skus.md) voor informatie over het aanschaffen van een abonnement voor het gebruik van CDS voor apps.
 
