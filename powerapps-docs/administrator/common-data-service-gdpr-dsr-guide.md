@@ -9,12 +9,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 2a393bb2ebedde2a08f1ed1534d815e64325077b
-ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
+ms.openlocfilehash: b550d5fe7e36c36177fff017adcf9d9034c93dd4
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39094743"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218045"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-common-data-service-for-apps-customer-data"></a>Reageren op aanvragen van betrokkenen voor CDS for Apps-klantgegevens (Common Data Service)
 
@@ -52,7 +52,7 @@ In dit artikel komen de volgende acties aan bod:
 
 CDS for Apps en de vorige versie van CDS (Common Data Service) hebben verschillende processen voor interactie met persoonsgegevens.
 
-U kunt achterhalen welk type CDS-omgeving u gebruikt door u aan te melden bij [PowerApps](https://web.powerapps.com) en deze stappen te volgen:
+U kunt achterhalen welk type CDS-omgeving u gebruikt door u aan te melden bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en deze stappen te volgen:
 
 1. Selecteer uw omgeving in de vervolgkeuzelijst **Omgeving**.
 2. Klik of tik in het navigatievenster op **Gegevens** om de sectie uit te vouwen en klik of tik op **Entiteiten**.
@@ -308,7 +308,7 @@ U vindt de persoonsgegevens van gebruikers van de vorige versie van CDS in de vo
 
 |Bron | Doel | Website-toegang |  Toegang op programmeerniveau
 | --- | --- | --- | ---
-|Entiteitsrecords | Voor het vastleggen van zakelijke transacties in de respectieve bedrijfsentiteit. | [PowerApps](https://web.powerapps.com) |      Nee
+|Entiteitsrecords | Voor het vastleggen van zakelijke transacties in de respectieve bedrijfsentiteit. | [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) |    Nee
 
 #### <a name="entity-records"></a>Entiteitsrecords
 Persoonsgegevens van een persoon kunnen worden opgeslagen in elke bedrijfsentiteit.

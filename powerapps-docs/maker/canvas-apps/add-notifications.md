@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 08/08/2017
 ms.author: jamesol
-ms.openlocfilehash: 45311aefca51d8d1a4fc6c8cc6dabc33872842df
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: f9b606246b0b1114aec1bec2fc2767b518215148
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020832"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195560"
 ---
 # <a name="send-a-push-notification-in-powerapps"></a>Een pushmelding verzenden in PowerApps
 Pushmeldingen worden gebruikt in mobiele apps voor zakelijk en consumentengebruik, voornamelijk om app-gebruikers te benaderen en hun aandacht te trekken naar belangrijke taken. Het verzenden van meldingen in PowerApps vindt plaats via de PowerApps-meldingsconnector. U kunt native pushmeldingen verzenden naar alle apps die u in PowerApps maakt. We zullen in de toekomst meer meldingstypen toevoegen.
@@ -56,7 +56,7 @@ Voeg de PowerApps-meldingsconnector toe aan een app waarvoor u rechten als **Inz
 ## <a name="send-a-notification-from-an-app"></a>Een pushmelding verzenden vanuit een app
 U kunt een pushmelding verzenden van een app naar een andere app of binnen dezelfde app.
 
-1. Ga in [PowerApps](https://web.powerapps.com/) naar de app die u wilt gebruiken om pushmeldingen te verzenden.
+1. Ga in [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) naar de app die u wilt gebruiken om pushmeldingen te verzenden.
 2. Kopieer op het tabblad **Details** de **App-id** van deze app.
 
     ![App-id ophalen](./media/add-notifications/grab-id.png)

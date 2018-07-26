@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/08/2018
 ms.author: anneta
-ms.openlocfilehash: 796d23be4c8b69a6f901b4338bda0000f8afb452
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 25a06525fba038dda2deebb333f53583301540f7
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023086"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195149"
 ---
 # <a name="create-or-edit-apps-in-powerapps-studio-for-web"></a>Apps maken of bewerken in PowerApps Studio voor internet
 Maak en bewerk apps in PowerApps Studio voor internet, dat in een browser wordt geopend op Windows of andere platforms.
@@ -34,7 +34,7 @@ PowerApps Studio voor internet wordt in een nieuw tabblad in uw browser geopend.
 ## <a name="known-limitations"></a>Bekende beperkingen
 1. **Een verbinding maken.**
 
-    Gebruik [powerapps.com](https://web.powerapps.com) om [verbinding te maken](add-manage-connections.md) met een gegevensbron die serviceverificatie vereist en [voeg de verbinding](add-data-connection.md) vervolgens toe aan een app in PowerApps Studio voor internet.
+    Gebruik [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) om [verbinding te maken](add-manage-connections.md) met een gegevensbron die serviceverificatie vereist en [voeg de verbinding](add-data-connection.md) vervolgens toe aan een app in PowerApps Studio voor internet.
 2. **Een app lokaal bewerken en opslaan**.
 
     Gebruik voor de beste resultaten PowerApps Studio voor Windows om apps lokaal te bewerken en op te slaan. In een browser kunt u geen wijzigingen in een lokale app opslaan of moet u een nieuw bestaand opslaan in plaats van het bestand dat u hebt geopend.

@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/02/2015
 ms.author: lonu
-ms.openlocfilehash: d3a56d146982965eaa07247ef57d3e2d67db2b9a
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 51a93009f187b31cd0d3159f97c78ff5bd60ae33
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021844"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195537"
 ---
 # <a name="show-sort-and-filter-data-in-a-powerapps-gallery"></a>Gegevens weergeven, sorteren en filteren in een PowerApps-galerie
 Maak een galerie om afbeeldingen en tekst over verschillende producten weer te geven en sorteer en filter deze informatie.
@@ -27,7 +27,7 @@ In PowerApps kunt u een galerie gebruiken om meerdere verwante items weer te gev
 > 
 
 ### <a name="prerequisites"></a>Vereisten
-* [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com) met dezelfde referenties die u hebt gebruikt om u te registreren.
+* [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) met dezelfde referenties die u hebt gebruikt om u te registreren.
 * Maak een tablet-app op basis van een [sjabloon](get-started-test-drive.md), op basis van [gegevens](get-started-create-from-data.md) of maak een [volledig nieuwe](get-started-create-from-blank.md) app.
 * Lees hoe u [een besturingselement kunt configureren](add-configure-controls.md).
 * Deze stappen gebruiken de inhoud van de map [CreateFirstApp](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip) als voorbeeld van invoergegevens, welke ook JPG-afbeeldingen bevat. Het zip-bestand bevat een XML-bestand dat naar Excel kan worden geconverteerd. Anders leest PowerApps automatisch de bestanden in de .zip-bestanden, waarna deze worden geïmporteerd. U kunt deze voorbeeldgegevens downloaden en gebruiken of uw eigen gegevens importeren.

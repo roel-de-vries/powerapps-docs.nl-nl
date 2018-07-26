@@ -49,11 +49,6 @@
               href: ./canvas-apps/get-started-create-from-blank.md
         - name: Een app delen
           href: ./canvas-apps/share-app.md
-          items:
-            - name: Excel-gegevens delen
-              href: ./canvas-apps/share-app-data.md
-            - name: App-resources delen
-              href: ./canvas-apps/share-app-resources.md
         - name: Een app insluiten in Power BI
           href: ./canvas-apps/embed-powerapps-powerbi.md
     - name: Voorbeelden
@@ -78,8 +73,6 @@
           href: ./canvas-apps/working-with-variables.md
         - name: formules
           href: ./canvas-apps/working-with-formulas-in-depth.md
-        - name: Experimentele en previewfuncties
-          href: ./canvas-apps/working-with-experimental.md
         - name: Datums en tijden
           href: ./canvas-apps/show-text-dates-times.md
         - name: Gegevensbronnen
@@ -141,9 +134,7 @@
             - name: Een toegankelijke app maken
               href: ./canvas-apps/accessible-apps.md
               items:
-                - name: Toegankelijkheidsproblemen vinden
-                  href: ./canvas-apps/accessibility-checker.md
-                - name: Kleur gebruiken voor toegankelijkheid
+                - name: Kleur
                   href: ./canvas-apps/accessible-apps-color.md
         - name: Uw app beheren
           items:
@@ -623,6 +614,13 @@
 - name: Common Data Service for Apps
   href: ./common-data-service/data-platform-intro.md
   items:
+    - name: Licentieverlening
+      href: ./common-data-service/data-platform-entity-licenses.md
+      items:
+        - name: Entiteiten met complexe bedrijfslogica
+          href: ./common-data-service/data-platform-complex-entities.md
+        - name: Beperkte entiteiten waarvoor Dynamics 365-licenties vereist zijn
+          href: ./common-data-service/data-platform-restricted-entities.md
     - name: Snelstartgidsen
       items:
         - name: Een entiteit maken
@@ -633,10 +631,6 @@
           href: ./common-data-service/create-custom-entity.md
     - name: Voorbeelden en resources
       href: ./common-data-service/samples-resources.md
-    - name: Concepten
-      items:
-        - name: Licentievereisten voor entiteiten
-          href: ./common-data-service/data-platform-entity-licenses.md
     - name: Procedures
       items:
         - name: Aangepaste velden in een entiteit beheren
@@ -657,10 +651,6 @@
           href: ./common-data-service/data-platform-excel-addin.md
         - name: Een Power BI-rapport maken
           href: ./common-data-service/data-platform-powerbi-connector.md
-    - name: Referentie
-      items:
-        - name: Beperkte entiteiten waarvoor Dynamics 365-licenties vereist zijn
-          href: ./common-data-service/data-platform-restricted-entities.md
     - name: Voor ontwikkelaars
       href: ../developer/common-data-service/TOC.yml
 - name: Common Data Model

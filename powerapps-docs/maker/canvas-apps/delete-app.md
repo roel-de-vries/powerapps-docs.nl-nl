@@ -9,18 +9,18 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: df7c43a0044ac7b56666f06eb3ebf773dcb16b67
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: c8d5d5f5fbb9453ad9afeffda8383be0dae4eebc
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023615"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39194928"
 ---
 # <a name="delete-an-app-from-powerapps"></a>Een app verwijderen uit PowerApps
 In dit artikel wordt beschreven hoe u een app verwijdert uit uw PowerApps-account en uit de accounts van iedereen met wie de app is gedeeld.
 
 ## <a name="delete-an-app-from-your-account"></a>Een app uit uw account verwijderen
-1. Open [powerapps.com](https://web.powerapps.com) en klik of tik in de linkernavigatiebalk op **Apps**.
+1. Open [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en klik of tik in de linkernavigatiebalk op **Apps**.
    
     ![](./media/delete-app/file-apps.png)
 2. (optioneel) In de linkerbovenhoek kunt u de lijst met apps filteren, zodat alleen uw eigen apps worden weergegeven, of alleen de apps waaraan u hebt bijgedragen.

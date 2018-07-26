@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 05/01/2016
 ms.author: anneta
 ms.reviewer: ''
-ms.openlocfilehash: 533234c7a0ca3cc69e30eb077ff0bd39d1d50a11
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: a187e50bd4d1819d1579c6db219588e3582f5c25
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017083"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195675"
 ---
 # <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>PowerApps Community-abonnement: een gratis ontwikkelingsomgeving voor individueel gebruik
 Als u vaardigheden wilt opdoen en meer informatie wilt over PowerApps, Microsoft Flow en Common Data Service, is het PowerApps Community-abonnement het juiste abonnement voor u. Het PowerApps Community-abonnement geeft u een gratis ontwikkelingsomgeving voor individueel gebruik, waarin u het volgende kunt doen:
@@ -33,7 +33,7 @@ Iedereen met een [werk- of schoolaccount](signup-for-powerapps.md#faq) kan zich 
 ## <a name="where-can-i-sign-up-for-the-powerapps-community-plan"></a>Waar kan ik me aanmelden voor het PowerApps Community-abonnement?
 Meld u aan op de [website voor PowerApps Community-abonnementen](https://powerapps.microsoft.com/communityplan). Als u een bestaande gebruiker van PowerApps met Office 365 of Dynamics 365 bent, kunt u ook [een omgeving voor individueel gebruik maken](https://web.powerapps.com/community/signup).
 
-Nadat u zich hebt aangemeld voor het Community-abonnement, wordt u naar de [PowerApps-site](https://web.powerapps.com) geleid en komt u in uw individuele omgeving terecht. De omgeving krijgt uw naam, bijvoorbeeld 'John Doe's omgeving'. Als er al een omgeving met die naam bestaat, krijgt de individuele omgeving de naam 'John Doe's (1) omgeving'.  De volgende afbeelding toont hoe de omgeving eruitziet.
+Nadat u zich hebt aangemeld voor het Community-abonnement, wordt u naar de [PowerApps-site](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) geleid en komt u in uw individuele omgeving terecht. De omgeving krijgt uw naam, bijvoorbeeld 'John Doe's omgeving'. Als er al een omgeving met die naam bestaat, krijgt de individuele omgeving de naam 'John Doe's (1) omgeving'.  De volgende afbeelding toont hoe de omgeving eruitziet.
 
 ![Individuele omgeving voor Community-abonnement](./media/dev-community-plan/individual-environment.png)
 

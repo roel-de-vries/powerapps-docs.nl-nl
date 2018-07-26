@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 4e12faf91b0ce19a4d2ef2ba2e4d9bbca8fb7093
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: b38f0d1b029708e8130363d54ccc1354084b0ae4
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896300"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218160"
 ---
 # <a name="environments-overview"></a>Overzicht van omgevingen
 Een omgeving is een ruimte om de bedrijfsgegevens, -apps en -stromen van uw organisatie op te slaan, te beheren en te delen. Een omgeving doet ook dienst als container voor het scheiden van apps met verschillende rollen, beveiligingsvereisten of doelgroepen. Hoe u voordeel haalt uit omgevingen, is afhankelijk van uw organisatie en de apps die u probeert te maken. Bijvoorbeeld:
@@ -75,7 +75,7 @@ De standaardomgeving heet: "{naam van Azure AD-tenant} (standaard)"
 U kunt voor verschillende doeleinden omgevingen maken. Een evaluatieomgeving is bedoeld voor het proberen van de omgeving en de database met Common Data Service-ervaring. Deze omgeving verloopt na een bepaalde periode. Zie [Omgevingen beheren in PowerApps](environments-administration.md) voor meer informatie.
 
 ## <a name="choosing-an-environment"></a>Een omgeving kiezen
-Door de introductie van omgevingen ziet u een nieuwe ervaring wanneer u naar [https://web.powerapps.com](https://web.powerapps.com) gaat.  De apps, verbindingen en andere items die zichtbaar zijn op de site worden nu gefilterd op basis van de huidige omgeving die is geselecteerd.  Uw huidige omgeving is vermeld in de omgevingskiezer rechts van de kop. Als u een andere omgeving wilt kiezen, klikt of tikt u op de kiezer om een lijst met beschikbare omgevingen weer te geven. Klik of tik op de omgeving waartoe u toegang wenst.
+Door de introductie van omgevingen ziet u een nieuwe ervaring wanneer u naar [https://web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) gaat.  De apps, verbindingen en andere items die zichtbaar zijn op de site worden nu gefilterd op basis van de huidige omgeving die is geselecteerd.  Uw huidige omgeving is vermeld in de omgevingskiezer rechts van de kop. Als u een andere omgeving wilt kiezen, klikt of tikt u op de kiezer om een lijst met beschikbare omgevingen weer te geven. Klik of tik op de omgeving waartoe u toegang wenst.
 
 In de kiezer worden omgevingen weergegeven als u aan een van de volgende voorwaarden voldoet:
 

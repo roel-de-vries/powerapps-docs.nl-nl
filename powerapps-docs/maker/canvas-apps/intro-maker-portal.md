@@ -9,15 +9,15 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/28/2016
 ms.author: litran
-ms.openlocfilehash: 400df9944b21788e08b0a55e3e0a148f2eccb972
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 9c1b6bde62f0260dca7eba1d723049aadc3e72c9
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017336"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195330"
 ---
 # <a name="introduction-to-powerappscom"></a>Inleiding tot powerapps.com
-Het team van PowerApps introduceert [powerapps.com](http://web.powerapps.com) opnieuw als het nieuwe platform voor app-ontwikkelaars. We hebben de pagina opnieuw ingericht als de primaire site waarop ontwikkelaars aan de slag kunnen met hun apps, toegang hebben tot Microsoft Common Data Service en hun apps op één plek kunnen beheren. In dit artikel bespreken we de volgende aspecten:
+Het team van PowerApps introduceert [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) opnieuw als het nieuwe platform voor app-ontwikkelaars. We hebben de pagina opnieuw ingericht als de primaire site waarop ontwikkelaars aan de slag kunnen met hun apps, toegang hebben tot Microsoft Common Data Service en hun apps op één plek kunnen beheren. In dit artikel bespreken we de volgende aspecten:
 
 * De kop
 * De startpagina
@@ -45,7 +45,7 @@ Naast de instellingen ziet u een vraagteken voor hulp. Klik of tik op dit pictog
 ![Help in kop](./media/intro-maker-portal/help_items2.png)
 
 ## <a name="homepage"></a>Startpagina
-Nadat u zich hebt aangemeld op [powerapps.com](http://web.powerapps.com), komt u standaard op de startpagina. We hebben de indeling van deze startpagina gewijzigd, zodat u snel aan de slag kunt, of u nu apps wilt maken of meer informatie over Common Data Service zoekt.
+Nadat u zich hebt aangemeld op [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), komt u standaard op de startpagina. We hebben de indeling van deze startpagina gewijzigd, zodat u snel aan de slag kunt, of u nu apps wilt maken of meer informatie over Common Data Service zoekt.
 
 Als u zich al eerder hebt aangemeld bij PowerApps en een aantal apps hebt uitgevoerd of gemaakt, ziet u in de eerste sectie van uw startpagina een lijst van **recente apps**. Ze worden gesorteerd op de datum waarop ze het laatst zijn geopend.
 
@@ -96,7 +96,7 @@ Onder de banner **Microsoft Common Data Service gebruiken** ziet u een aantal vo
     ![Verbonden voorbeeldapps](./media/intro-maker-portal/connectedsampleapps2.png)
 
 ## <a name="new-apps-page"></a>Pagina Nieuwe apps
-U kunt de pagina **Apps** openen via de linkernavigatiebalk op [powerapps.com](http://web.powerapps.com).
+U kunt de pagina **Apps** openen via de linkernavigatiebalk op [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 ![Linkernavigatiebalk](./media/intro-maker-portal/leftnav2.png)
 

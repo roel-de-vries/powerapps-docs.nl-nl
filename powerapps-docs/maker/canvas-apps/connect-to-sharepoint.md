@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 09/03/2016
 ms.author: anneta
-ms.openlocfilehash: 1b9ff639e053218c74515be574f92146fc8ced36
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 0e0b98277548d188071bcd29b9e3168de5818321
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020510"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195859"
 ---
 # <a name="create-a-connection-to-sharepoint-from-powerapps"></a>Een verbinding met SharePoint maken vanuit PowerApps
 Maak een verbinding naar SharePoint Online of naar on-premises SharePoint zodat u automatisch een app kunt genereren of om een volledig nieuwe app te bouwen.
@@ -26,7 +26,7 @@ Op het moment van schrijven ondersteunt PowerApps aangepaste lijsten, maar geen 
 ## <a name="specify-a-sharepoint-connection"></a>Een SharePoint-verbinding opgeven
 1. [Registreer u voor PowerApps](../signup-for-powerapps.md) als u dat nog niet hebt gedaan.
 
-2. Meld u aan bij [powerapps.com](https://web.powerapps.com) met dezelfde referenties die u hebt gebruikt om u te registreren.
+2. Meld u aan bij [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) met dezelfde referenties die u hebt gebruikt om u te registreren.
 
 3. Klik of tik in de linker navigatiebalk op **Beheren** en vervolgens op **Verbindingen**.
 

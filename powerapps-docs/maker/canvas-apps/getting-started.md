@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 04/26/2018
 ms.author: anneta
-ms.openlocfilehash: 965396dbeb087e2dfb52a151825884fc5a98c6e1
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 005bc37baea420ba1734789d1ef36fd0bbcc3b8f
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016393"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195422"
 ---
 # <a name="what-are-canvas-apps-in-powerapps"></a>Wat zijn de canvas-apps in PowerApps?
 Ontwerp en bouw een zakelijke app via een canvas in Microsoft PowerApps, zonder code te schrijven in een traditionele programmeertaal zoals C#. U ontwerpt de app door elementen naar een canvas te slepen, net zoals u een dia ontwerpt in PowerPoint. Maak Excel-achtige expressies voor het opgeven van logica en het werken met gegevens. Bouw apps die zakelijke gegevens uit [een grote verscheidenheid aan bronnen binnen Microsoft en van derden](connections-list.md) integreren. Deel uw app zodat gebruikers deze kunnen uitvoeren in een browser of op een mobiel apparaat en de app kunnen insluiten zodat deze kan worden uitgevoerd in SharePoint, Power BI of Teams.
@@ -54,5 +54,5 @@ U kunt uw eigen apps en alle apps die met u worden gedeeld, uitvoeren in Windows
 
 ## <a name="next-steps"></a>Volgende stappen
 - [Meld u aan voor een gratis licentie.](../signup-for-powerapps.md)
-- [Meld u aan bij PowerApps.](https://web.powerapps.com)
+- [Meld u aan bij PowerApps.](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)
 - [Open een voorbeeld-app.](open-and-run-a-sample-app.md)

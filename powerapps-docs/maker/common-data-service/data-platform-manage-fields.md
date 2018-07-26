@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: a4ec386ef6a7eee02c2ac608bb6e00ed9ee39c19
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: a9fff4cc61f6416ef8dbc3c03d96be7082fe3a51
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168131"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218735"
 ---
 # <a name="manage-custom-fields-in-an-entity"></a>Aangepaste velden in een entiteit beheren
 U kunt een of meer aangepaste velden in een entiteit maken en bijwerken. Als u een aangepast veld maakt, geeft u een aantal eigenschappen op, bijvoorbeeld de naam en de weergavenaam van het veld, en het type gegevens dat het kan bevatten. Zie voor meer informatie [Metagegevens entiteitkenmerk](../../developer/common-data-service/entity-attribute-metadata.md).
@@ -22,7 +22,7 @@ U kunt een of meer aangepaste velden in een entiteit maken en bijwerken. Als u e
 > Elke entiteit bevat systeemvelden, zoals velden die aangeven wanneer een record voor het laatst is bijgewerkt en door wie dit is gedaan. Daarnaast bevatten standaardentiteiten standaardvelden. U kunt systeemvelden en standaardvelden niet wijzigen of verwijderen. Als u een aangepast veld maakt, moet dit naast deze ingebouwde velden extra functionaliteit bieden.
 
 ## <a name="create-a-field"></a>Een veld maken
-1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
+1. Vouw op [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
 
     ![Entiteitsgegevens](./media/data-platform-cds-create-entity/entitylist.png "Entiteitslijst")
 
@@ -71,7 +71,7 @@ Met berekende velden kunt u handmatige berekeningen automatiseren die worden geb
 Zie [Berekende velden definiëren](/dynamics365/customer-engagement/customize/define-calculated-fields) voor meer informatie over de verschillende typen expressies die worden ondersteund en voor voorbeelden
 
 ## <a name="update-or-delete-a-field"></a>Een veld bijwerken of verwijderen
-1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Gegevens** uit, klik of tik op **Entiteiten** in het linkernavigatiedeelvenster en klik of tik op een entiteit.
+1. Vouw op [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) de sectie **Gegevens** uit, klik of tik op **Entiteiten** in het linkernavigatiedeelvenster en klik of tik op een entiteit.
 2. Klik of tik in de lijst met velden voor de geselecteerde entiteit op een veld en volg een van de volgende twee stappen:
    
    * Wijzig een of meer eigenschappen van het veld.

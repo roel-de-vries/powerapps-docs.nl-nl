@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/17/2018
 ms.author: anneta
-ms.openlocfilehash: 842e19360c5f1536489f978cf880d941a6dee7d6
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: aefe350c2294f9d8cbae32eee1db1f600c8a65da
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019981"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195100"
 ---
 # <a name="customize-forms-in-powerapps"></a>Formulieren aanpassen in PowerApps
 Pas de besturingselementen **Formulier weergeven** en **Formulier bewerken** zodanig aan dat de belangrijkste gegevens worden getoond, in de meest logische volgorde. Op die manier kunnen gebruikers de gegevens gemakkelijk begrijpen en bijwerken.
@@ -27,7 +27,7 @@ Zie [Introduction to PowerApps](getting-started.md) (Inleiding tot PowerApps) al
 [Genereer een app](data-platform-create-app.md) via Common Data Service en [pas vervolgens de galerie in die app aan](customize-layout-sharepoint.md).
 
 ## <a name="show-and-hide-cards"></a>Kaarten weergeven en verbergen
-1. Meld u aan bij [PowerApps](http://web.powerapps.com).
+1. Meld u aan bij [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
     ![Startpagina van de PowerApps-site](./media/customize-forms-sharepoint/sign-in.png)
 

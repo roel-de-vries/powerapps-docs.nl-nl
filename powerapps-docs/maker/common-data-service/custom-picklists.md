@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 188add46a8e52cfeb75ef1bb670ca3b457963024
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: b2b472ae33bd16761d25fc965f24afc6bb9b957e
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168591"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218413"
 ---
 # <a name="create-an-option-set"></a>Een optieset maken
 
@@ -23,7 +23,7 @@ Optiesets kunnen op twee manieren worden gemaakt: vanuit de lijst met optiesets 
 
 ## <a name="creating-an-option-set-while-adding-a-field"></a>Een optieset maken tijdens het toevoegen van een veld.
 
-1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
+1. Vouw op [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
 
     ![Entiteitsgegevens](./media/data-platform-cds-create-entity/entitylist.png "Entiteitslijst")
 
@@ -61,7 +61,7 @@ Optiesets kunnen op twee manieren worden gemaakt: vanuit de lijst met optiesets 
 
 ## <a name="creating-an-option-set-from-the-option-set-list"></a>Een optieset maken vanuit de lijst met optiesets
 
-1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Gegevens** uit en klik of tik op **Optiesets** in het linkernavigatiedeelvenster.
+1. Vouw op [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) de sectie **Gegevens** uit en klik of tik op **Optiesets** in het linkernavigatiedeelvenster.
 
     ![Optiesets](./media/data-platform-cds-newoptionset/optionsetlist.png "Lijst met optiesets")
 

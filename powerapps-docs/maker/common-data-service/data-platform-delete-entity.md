@@ -8,17 +8,17 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 6ef9dc3a1c82fdee9927ffd533ed41386345eaf7
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: b17da30916b06b5b76b16cc6bf9758b988549f6f
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34167556"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218643"
 ---
 # <a name="delete-a-custom-entity"></a>Een aangepaste entiteit verwijderen
 U kunt aangepaste entiteiten verwijderen, maar u kunt standaardentiteiten niet verwijderen.
 
-1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
+1. Vouw op [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
 
     ![Entiteitsgegevens](./media/data-platform-cds-create-entity/entitylist.png "Entiteitslijst")
 

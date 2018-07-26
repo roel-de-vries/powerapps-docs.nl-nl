@@ -7,12 +7,12 @@ ms.component: cds
 ms.topic: quickstart
 ms.date: 05/01/2018
 ms.author: matp
-ms.openlocfilehash: 45a341d28b4138ce03ce50d7325f9daa0f159d1a
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: a7fed26dafcf0b1d73ae6ba362964de5e9fd1ad5
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37897427"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218712"
 ---
 # <a name="quickstart-create-a-custom-entity"></a>Snelstartgids: Een aangepaste entiteit maken
 In PowerApps definieert een *entiteit* de gegevens die u wilt bijhouden in de vorm van records, waaronder doorgaans eigenschappen zoals de bedrijfsnaam, locatie, producten, e-mailadres en telefoonnummer. Vervolgens kunt u die gegevens weergeven door een app te ontwikkelen die naar de entiteit verwijst. PowerApps biedt kant-en-klare standaardentiteiten die geschikt zijn voor gebruikelijke scenario's binnen een organisatie (zoals het volgen van afspraken), maar er zijn situaties waarin u wellicht aangepaste entiteiten wilt maken om specifieke gegevens van uw organisatie op te slaan.
@@ -25,7 +25,7 @@ Als u de stappen in deze snelstartgids wilt volgen, zijn de volgende items verei
 * Ofwel de beveiligingsrol van systeembeheerder of systeemaanpasser binnen Common Data Service voor apps.
 
 ## <a name="sign-in-to-powerapps"></a>Meld u aan bij PowerApps
-Meld u aan bij PowerApps in [https://web.powerapps.com](https://web.powerapps.com).
+Meld u aan bij PowerApps in [https://web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 ## <a name="create-an-entity"></a>Een entiteit maken
 1. Klik of tik in het navigatiedeelvenster op **Gegevens** om de sectie uit te vouwen en klik of tik vervolgens op **Entiteiten**.

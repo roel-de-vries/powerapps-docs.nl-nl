@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 8dbf6088104270d9251b70eec9adf0642de2f879
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: ad1a2de5491a1725ada2e95c3eccc6513de9e304
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445854"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218482"
 ---
 # <a name="open-entity-data-in-excel"></a>Entiteitsgegevens openen in Excel
 Als u entiteitsgegevens opent in Microsoft Excel, kunt u snel en eenvoudig gegevens weergeven en bewerken met behulp van de Excel-invoegtoepassing van Microsoft PowerApps. Voor de Excel-invoegtoepassing van PowerApps is Microsoft Excel 2016 vereist.
@@ -21,12 +21,12 @@ Als u entiteitsgegevens opent in Microsoft Excel, kunt u snel en eenvoudig gegev
 ![Excel-invoegtoepassing](./media/data-platform-cds-excel-addin/ExcelAddin.png "Excel-invoegtoepassing van PowerApps")
 
 ## <a name="open-entity-data-in-excel"></a>Entiteitsgegevens openen in Excel
-1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster. Alle entiteiten worden weergegeven.
+1. Vouw op [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster. Alle entiteiten worden weergegeven.
 2. Klik op de drie puntjes (...) aan de rechterkant van de entiteit waarin u geïnteresseerd bent.
 3. Klik op **Openen in Excel** en open de werkmap die is gegenereerd. De werkmap bevat bindende informatie voor de entiteit, een verwijzing naar de omgeving en een verwijzing naar de Excel-invoegtoepassing van PowerApps.  
 4. Klik in Excel op **Bewerken inschakelen** om de Excel-invoegtoepassing van PowerApps uit te kunnen voeren. De Excel-invoegtoepassing wordt uitgevoerd in een deelvenster aan de rechterkant van het Excel-venster.
 5. Als u de Excel- invoegtoepassing van PowerApps voor het eerst uitvoert, klikt u op **Deze invoegtoepassing vertrouwen** om de Excel-invoegtoepassing uit te kunnen voeren.
-6. Als u wordt gevraagd u aan te melden, klikt u op **Aanmelden** en meldt u zich aan met dezelfde referenties die u hebt gebruikt voor [powerapps.com](https://web.powerapps.com). De Excel-invoegtoepassing maakt gebruik van een vorige context voor aanmelden en meldt u automatisch aan als dat mogelijk is. Controleer daarom de gebruikersnaam rechtsboven in de Excel-invoegtoepassing.
+6. Als u wordt gevraagd u aan te melden, klikt u op **Aanmelden** en meldt u zich aan met dezelfde referenties die u hebt gebruikt voor [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). De Excel-invoegtoepassing maakt gebruik van een vorige context voor aanmelden en meldt u automatisch aan als dat mogelijk is. Controleer daarom de gebruikersnaam rechtsboven in de Excel-invoegtoepassing.
 
 De gegevens voor de door u gekozen entiteit worden automatisch gelezen. Houd er rekening mee dat de werkmap geen gegevens bevat totdat deze door de Excel-invoegtoepassing worden ingelezen.
 

@@ -9,18 +9,18 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/12/2017
 ms.author: sharik
-ms.openlocfilehash: 8c04681f3d39a6022f8f962e7a76673fb90ad65b
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 5c6c7b2973f85c1ebc3040e41d83653250599717
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017658"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195008"
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>Multimediabestanden gebruiken in PowerApps
 In dit onderwerp wordt beschreven hoe u multimediabestanden insluit in uw app, hoe u pentekeningen uploadt naar een gegevensbron en hoe u afbeeldingen van een gegevensbron weergeeft in uw app. De gegevensbron die in dit onderwerp wordt gebruikt is een Excel-bestand in OneDrive voor Bedrijven.
 
 ## <a name="prerequisites"></a>Vereisten
-[Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com) met dezelfde referenties die u hebt gebruikt om u te registreren.
+[Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) met dezelfde referenties die u hebt gebruikt om u te registreren.
 
 ## <a name="add-media-from-a-file-or-the-cloud"></a>Media uit een bestand of de cloud toevoegen
 U kunt kiezen welk type mediabestand u toevoegt (bijvoorbeeld afbeeldingen, video's of audio).

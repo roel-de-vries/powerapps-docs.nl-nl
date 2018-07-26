@@ -9,12 +9,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 3343e8cd81e23d4938466d12ddca2e0a85dc12c8
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: ccd2b03f5f71b2a5037274363ddf9c4082f7071c
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168476"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218689"
 ---
 # <a name="create-a-common-data-service-for-apps-database"></a>Een Common Data Service voor Apps database maken
 U kunt een database maken en apps bouwen met gebruik van Common Data Service (CDS) voor Apps als gegevensopslag. U kunt uw eigen aangepaste entiteiten maken of de vooraf gedefinieerde entiteiten gebruiken. Als u een database wilt maken, moet u eerst een omgeving maken of als **omgevingsbeheerder** aan een bestaande omgeving worden toegewezen. Daarnaast moet u aan de juiste licentie zijn toegewezen. Zie [Prijzen](pricing-billing-skus.md) voor informatie over het aanschaffen van een abonnement voor het gebruik van CDS for Apps.
@@ -42,7 +42,7 @@ Er zijn diverse manieren om een database te maken:
 
 
 ## <a name="create-a-database-in-the-entities-pane-of-powerapps"></a>Een database maken in het venster Entiteiten in PowerApps
-1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
+1. Vouw op [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
 
 2. Klik op **Database maken** om de database te maken.
 

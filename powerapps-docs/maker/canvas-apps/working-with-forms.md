@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/27/2016
 ms.author: gregli
-ms.openlocfilehash: ec6526ff4cd690d6bcf5cbf3dcc98c6ee7b8ae28
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: b2eb001ee426dc3449b440a357c67bc47b702d42
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018141"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195744"
 ---
 # <a name="understand-data-forms-in-microsoft-powerapps"></a>Gegevensformulieren begrijpen in Microsoft PowerApps
 Voer drie typen besturingselementen toe zodat de gebruiker naar een record kan bladeren, details over deze record kan weergeven, en een record kan bewerken of maken:
@@ -33,7 +33,7 @@ Zoals in dit onderwerp wordt beschreven, kunt u deze besturingselementen combine
 
 ## <a name="prerequisites"></a>Vereisten
 
-* [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
+* [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
 * Lees hoe u [een besturingselement kunt configureren](add-configure-controls.md) in PowerApps.
 
 ## <a name="explore-a-generated-app"></a>Een gegenereerde app verkennen

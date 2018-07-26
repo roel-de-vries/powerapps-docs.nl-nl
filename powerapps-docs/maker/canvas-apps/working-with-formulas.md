@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: b40abdc4c8d5d8a33a9aec32a1826476500405c8
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 7f9a724b61404ac0947a9c75f91396b35328086b
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017865"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195261"
 ---
 # <a name="get-started-with-formulas"></a>Aan de slag met formules
 Configureer de app met formules die niet alleen waarden kunnen berekenen en andere taken uitvoeren (zoals in Excel), maar ook reageren op invoer van gebruikers (zoals van een app vereist).
@@ -30,7 +30,7 @@ Dit onderwerp geeft slechts een overzicht van het werken met formules. Blader do
 
 ## <a name="prerequisites"></a>Vereisten
 
-* [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
+* [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
 * Lees hoe u [een besturingselement kunt configureren](add-configure-controls.md) in PowerApps.
 
 ## <a name="show-a-simple-value"></a>Een eenvoudige waarde weergeven

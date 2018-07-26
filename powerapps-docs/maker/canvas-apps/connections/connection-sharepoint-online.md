@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/12/2017
 ms.author: ankitsar
-ms.openlocfilehash: d74fdd20db63f6d617db48e09319a84775553f9f
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 8019068155c88465f0f4202807fe763f2e4787b6
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017129"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195514"
 ---
 # <a name="connect-to-sharepoint-from-powerapps"></a>Verbinding maken met Sharepoint vanuit PowerApps
 ![SharePoint](./media/connection-sharepoint-online/sharepointicon.png)
@@ -49,7 +49,7 @@ Kolommen die spaties bevatten, kunnen door PowerApps worden gelezen. De spaties 
 ## <a name="prerequisites"></a>Vereisten
 1. [Meld u aan](../../signup-for-powerapps.md) voor PowerApps.
 
-1. [Meld u aan](http://web.powerapps.com) bij PowerApps door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
+1. [Meld u aan](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) bij PowerApps door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
 
 1. Selecteer aan de linkerkant **Apps** en selecteer vervolgens **Een app maken** in de banner.
 

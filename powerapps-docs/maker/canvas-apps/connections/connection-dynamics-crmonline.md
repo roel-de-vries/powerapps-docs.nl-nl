@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 07/12/2017
 ms.author: matp
 ms.reviewer: ''
-ms.openlocfilehash: e29688f52da411d57daa920437d1f0708c9f663e
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 9bd73487d744f5597f934603bbf1d742ff08baea
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017014"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195399"
 ---
 # <a name="connect-to-dynamics-365-from-powerapps"></a>Verbinding maken met Dynamics 365 vanuit PowerApps
 Met PowerApps kunt u snel mobiele apps genereren, aanpassen, delen en uitvoeren, waarbij u slechts weinig of geen code hoeft te gebruiken. Met de Dynamics 365-connector maakt u in slechts enkele minuten handige mobiele apps om te delen met uw hele organisatie.
@@ -25,7 +25,7 @@ Als u de stappen in dit onderwerp volgt, maakt u een app waarmee gebruikers cont
 Als u deze zelfstudie wilt volgen, hebt u een Microsoft Office 365-account nodig met een Dynamics 365-abonnement.
 
 ## <a name="create-a-connection"></a>Een verbinding maken
-1. [Meld u aan bij PowerApps](https://web.powerapps.com/).
+1. [Meld u aan bij PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 2. Klik in het linkernavigatiedeelvenster op **Verbindingen**.
    
     ![Optie Verbinding in menu Bestand](./media/connection-dynamics-crmonline/file-connections.png)
@@ -43,7 +43,7 @@ Als u deze zelfstudie wilt volgen, hebt u een Microsoft Office 365-account nodig
     Er wordt een verbinding gemaakt.
 
 ## <a name="generate-an-app-automatically"></a>Automatisch een app genereren
-1. [Meld u aan bij PowerApps](https://web.powerapps.com/) en klik linksonder op **Nieuwe app**.
+1. [Meld u aan bij PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en klik linksonder op **Nieuwe app**.
    
     ![Nieuwe app](./media/connection-dynamics-crmonline/new-app.png)
 2. Klik onder **Beginnen met uw gegevens** op **Telefoonindeling** op de tegel **Dynamics 365**.

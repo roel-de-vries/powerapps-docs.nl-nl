@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/19/2018
 ms.author: anneta
-ms.openlocfilehash: fba57fb26b023dcce771951953aea2eafa6b28e9
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 3827255726be017fe594a2c54389df7c622f7307
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016301"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195238"
 ---
 # <a name="create-an-app-from-a-powerapps-template"></a>Een app maken op basis van een PowerApps-sjabloon
 Maak automatisch een app op basis van een sjabloon voor een specifiek scenario, zoals het bijhouden van budgetten en plannen van vakanties, en voer vervolgens de app uit om meer inzicht te krijgen in het standaardgedrag.
@@ -24,7 +24,7 @@ Als u een app wilt maken op basis van een sjabloon, hebt u een cloudopslagaccoun
 Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../signup-for-powerapps.md).
 
 ## <a name="create-an-app"></a>Een app maken
-1. Meld u aan bij [PowerApps](http://web.powerapps.com).
+1. Meld u aan bij [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
     ![PowerApps-startpagina](./media/get-started-test-drive/sign-in.png)
 

@@ -8,12 +8,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 04/23/2018
 ms.author: anneta
-ms.openlocfilehash: 267480158d7e44afd06962779b98c0468436841a
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 330751210322190fddefb6c399025578bb9878b5
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39022603"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195284"
 ---
 # <a name="create-an-excel-app-from-scratch"></a>Een volledig nieuwe Excel-app maken
 Maak uw eigen volledig nieuwe app op basis van Excel-gegevens, opgemaakt als een tabel, en voeg vervolgens desgewenst gegevens uit andere bronnen toe. Wanneer u deze zelfstudie volgt, maakt u een app met twee schermen. In het ene scherm kunnen gebruikers bladeren door een set records. In het andere scherm kunnen gebruikers een record maken, een of meer velden in een record bijwerken of een heel record verwijderen. Deze benadering kost meer tijd dan [een app automatisch genereren](get-started-create-from-data.md), maar ervaren app-makers kunnen hiermee de beste app voor hun wensen maken.
@@ -42,7 +42,7 @@ Als u de onderstaande stappen in deze zelfstudie precies wilt volgen, maakt u ee
 > U kunt uw eigen Excel-bestand gebruiken en deze zelfstudie raadplegen voor informatie over algemene concepten. De gegevens in het Excel-bestand moet echter zijn opgemaakt als een tabel. Zie voor meer informatie [Een tabel opmaken in Excel](how-to-excel-tips.md).
 
 ## <a name="open-a-blank-app"></a>Een lege app openen
-1. Meld u aan bij [PowerApps](http://web.powerapps.com).
+1. Meld u aan bij [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
     ![PowerApps-startpagina](./media/get-started-create-from-blank/sign-in.png)
 

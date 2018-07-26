@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 07/12/2016
 ms.author: lanced
 ms.reviewer: anneta
-ms.openlocfilehash: 3d7813280f0d17eca327e86a827da72e33f191e3
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 8e6aa988344c1ac04c2ff11eaa9d828cc8b929bc
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021016"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195652"
 ---
 # <a name="connect-to-cloud-storage-from-powerapps"></a>Verbinding maken met cloudopslag vanuit PowerApps
 PowerApps biedt diverse verbindingen met cloudopslag. Bij elk van deze verbindingen kunt u een Excel-bestand opslaan en de gegevens erin overal in uw app gebruiken. Deze verbindingen zijn onder andere:  
@@ -33,7 +33,7 @@ PowerApps biedt diverse verbindingen met cloudopslag. Bij elk van deze verbindin
   4. Sla uw wijzigingen op.
 
 ## <a name="connect-to-the-cloud-storage-connection"></a>Verbinding maken met de cloudopslagverbinding
-1. Ga naar [powerapps.com](https://web.powerapps.com), vouw **Beheren** uit en selecteer **Verbindingen**:  
+1. Ga naar [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), vouw **Beheren** uit en selecteer **Verbindingen**:  
    
     ![Verbindingen selecteren](./media/cloud-storage-blob-connections/connections.png)
 2. Selecteer **Nieuwe verbinding** en selecteer uw verbinding met cloudopslag. Selecteer bijvoorbeeld **OneDrive**.

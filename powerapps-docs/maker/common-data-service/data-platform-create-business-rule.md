@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 13e00081ce01b44feeea6fc1d6fff9556c020298
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 5cf2a312ddba83312805f6b3b517738f1bc1da78
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168269"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218022"
 ---
 # <a name="create-a-business-rule"></a>Een bedrijfsregel maken
 
@@ -42,7 +42,7 @@ Als u dit onderwerp wilt volgen, moet u overschakelen naar een [omgeving](../can
 
 ## <a name="create-a-business-rule"></a>Een bedrijfsregel maken
   
-1. Meld u aan bij [PowerApps](https://web.powerapps.com) en klik of tik vervolgens op de pijl omlaag op **Gegevens** bij de linkerrand.
+1. Meld u aan bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en klik of tik vervolgens op de pijl omlaag op **Gegevens** bij de linkerrand.
 
 2. In de lijst die wordt weergegeven klikt of tikt u op **Entiteiten**.
   

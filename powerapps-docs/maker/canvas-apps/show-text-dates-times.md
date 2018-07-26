@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/16/2016
 ms.author: anneta
-ms.openlocfilehash: 625d76af5acc554ff9ab6c20d69f542cf959cd95
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: d6f88534b4839381037243400ef69f292df8fb97
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018049"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195698"
 ---
 # <a name="show-text-and-format-dates-and-times-in-powerapps"></a>Tekst weergeven en de datum- en tijdnotatie instellen in PowerApps
 Voeg datums en tijden toe en pas de notatie aan aan het gewenste detailniveau of uw taalgebied. Bereken de tijd tussen twee datums of geef een bepaalde datum op en bereken wat de datum een bepaalde periode voor of na die datum is. Converteer datums van of naar afzonderlijke waarden voor dagen, maanden en jaren en converteer tijden van of naar afzonderlijke waarden voor uren, minuten en seconden.
@@ -23,7 +23,7 @@ Voeg bijvoorbeeld gebruikersgegevens toe over aandelentransacties of cliëntverg
 
 ## <a name="prerequisites"></a>Vereisten
 
-* [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
+* [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
 * Maak een app of open een bestaande app in PowerApps.
 * Lees hoe u [een besturingselement kunt configureren](add-configure-controls.md) in PowerApps.
 

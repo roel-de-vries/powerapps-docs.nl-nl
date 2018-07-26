@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 4830721ba697f78987abd972dd1122250bacb9e8
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 2af0c39aca43d316e79b4f928e114dcfb88caf31
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020234"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39194847"
 ---
 # <a name="generate-an-app-from-excel-in-powerapps"></a>Een app genereren vanuit Excel in PowerApps
 In dit onderwerp genereert u uw eerste app automatisch in PowerApps met gegevens uit een Excel-tabel. U selecteert een Excel-bestand, genereert een app en voert vervolgens de app uit die u hebt gegenereerd. Elke gegenereerde app bevat schermen om te bladeren in records, recordgegevens weer te geven en records te maken of bij te werken. Door het genereren van een app kunt u snel een werkende app krijgen met Excel-gegevens. Vervolgens kunt u de app aan uw eigen behoeften aanpassen. 
@@ -30,7 +30,7 @@ Download het bestand [Flooring Estimates](https://az787822.vo.msecnd.net/documen
 > U kunt uw eigen Excel-bestand gebruiken maar de gegevens moeten zijn opgemaakt als tabel. Zie voor meer informatie [Een tabel opmaken](how-to-excel-tips.md). 
 
 ## <a name="generate-the-app"></a>De app genereren
-1. Meld u aan bij [PowerApps](https://web.powerapps.com).
+1. Meld u aan bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
     ![PowerApps-startpagina](./media/get-started-create-from-data/sign-in.png)
 

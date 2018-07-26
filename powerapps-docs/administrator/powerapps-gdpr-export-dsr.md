@@ -8,17 +8,17 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 8eb651bcd4ad9320dc8995864249f619bb76ab77
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 417b44cd992a6ff00cb9a8d17443338825e31d9f
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37896852"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218804"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-export-powerapps-customer-data"></a>Reageren op AVG-aanvragen voor het exporteren van PowerApps-gegevens van de klant
 Op basis van het ‘recht op overdraagbaarheid van gegevens’ heeft een betrokkene het recht een kopie van zijn of haar persoonlijke gegevens in elektronische vorm (dat wil zeggen een gestructureerde, gangbare en machineleesbare vorm) op te vragen, die kan worden overgedragen aan een andere verwerkingsverantwoordelijke:
 
-* Websitetoegang: [PowerApps-portal](https://web.powerapps.com), [PowerApps-beheercentrum](https://admin.powerapps.com/) en [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/)
+* Websitetoegang: [PowerApps-portal](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), [PowerApps-beheercentrum](https://admin.powerapps.com/) en [Office 365 Service Trust Portal](https://servicetrust.microsoft.com/)
 
 * PowerShell-toegang: PowerApps [cmdlets voor app-ontwikkelaars](https://go.microsoft.com/fwlink/?linkid=871448), [Admin-cmdlets](https://go.microsoft.com/fwlink/?linkid=871804) en [On-premises gateway-cmdlets](https://go.microsoft.com/fwlink/?linkid=872238)
 
@@ -40,12 +40,12 @@ PowerApps-gebruikersinstellingen, gebruikers-app-instellingen en meldingen | | A
 
 > **Als er, na de introductie van de Common Data Service (CDS) for Apps, een database wordt gemaakt binnen de omgeving, worden omgevingsmachtigingen en machtigingen voor modelgestuurde apps opgeslagen als records in de CDS for Apps-database-instantie. Zie [Responding to Data Subject Rights (DSR) requests for Common Data Service for Apps customer data](common-data-service-gdpr-dsr-guide.md) (Reageren op AVG-aanvragen voor Common Data Service for Apps-gegevens van de klant) voor instructies over het reageren op AVG-aanvragen van gebruikers die CDS for Apps gebruiken.
 > 
-> *** Een beheerder heeft alleen toegang tot deze resources uit de [PowerApps-portal](https://web.powerapps.com) als de eigenaar van de resource hem of haar expliciet toegang heeft verleend. Als er geen toegang aan de beheerder is verleend, moet hij of zij gebruikmaken van de [PowerApps-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804).
+> *** Een beheerder heeft alleen toegang tot deze resources uit de [PowerApps-portal](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) als de eigenaar van de resource hem of haar expliciet toegang heeft verleend. Als er geen toegang aan de beheerder is verleend, moet hij of zij gebruikmaken van de [PowerApps-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804).
 
 ## <a name="prerequisites"></a>Vereisten
 
 ### <a name="for-users"></a>Voor gebruikers
-Elke gebruiker met een geldige PowerApps-licentie kan de in dit document beschreven gebruikersbewerkingen uitvoeren met de [PowerApps-portal](https://web.powerapps.com) of de [cmdlets voor app-ontwikkelaars](https://go.microsoft.com/fwlink/?linkid=871448).
+Elke gebruiker met een geldige PowerApps-licentie kan de in dit document beschreven gebruikersbewerkingen uitvoeren met de [PowerApps-portal](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) of de [cmdlets voor app-ontwikkelaars](https://go.microsoft.com/fwlink/?linkid=871448).
 
 ### <a name="for-admins"></a>Voor beheerders
 Als u met het PowerApps-beheercentrum, Microsoft Flow-beheercentrum of [PowerShell-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804) de beheerbewerkingen wilt uitvoeren die in dit document worden beschreven, hebt u het volgende nodig:
@@ -126,7 +126,7 @@ Als er, na de introductie van CDS for Apps, een database wordt gemaakt binnen de
 ## <a name="step-3-export-personal-data-contained-within-canvas-apps-created-by-the-user"></a>Stap 3: persoonlijke gegevens exporteren uit canvas-apps die door de gebruiker zijn gemaakt
 
 ### <a name="powerapps-portal"></a>PowerApps-portal
-Een gebruiker kan een app exporteren uit de [PowerApps-portal](https://web.powerapps.com). Zie [Een app exporteren](environment-and-tenant-migration.md#exporting-an-app) voor stapsgewijze instructies voor het exporteren van een app.
+Een gebruiker kan een app exporteren uit de [PowerApps-portal](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). Zie [Een app exporteren](environment-and-tenant-migration.md#exporting-an-app) voor stapsgewijze instructies voor het exporteren van een app.
 
 ### <a name="powerapps-admin-center"></a>PowerApps-beheercentrum
 Een beheerder kan alle apps die zijn gemaakt door een gebruiker vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) exporteren door de volgende stappen te volgen:
@@ -147,7 +147,7 @@ Een beheerder kan alle apps die zijn gemaakt door een gebruiker vanuit het [Powe
 
     ![Een gebruiker toegang geven](./media/powerapps-gdpr-export-dsr/grant-access.png)
 
-5. Zodra u voor alle apps van de gebruiker toegang hebt, kunt u een app exporteren uit de [PowerApps-portal](https://web.powerapps.com). Zie [Een app exporteren](environment-and-tenant-migration.md#exporting-an-app) voor stapsgewijze instructies voor het exporteren van een app.
+5. Zodra u voor alle apps van de gebruiker toegang hebt, kunt u een app exporteren uit de [PowerApps-portal](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). Zie [Een app exporteren](environment-and-tenant-migration.md#exporting-an-app) voor stapsgewijze instructies voor het exporteren van een app.
 
 ### <a name="powershell-cmdlets-for-admins"></a>PowerShell-cmdlets voor beheerders
 Beheerders kunnen apps die zijn gemaakt door een gebruiker exporteren met de functie **Get-AdminApp** in de [PowerShell-cmdlets voor PowerApps-beheerders](https://go.microsoft.com/fwlink/?linkid=871804):
@@ -274,7 +274,7 @@ Get-AdminConnectorRoleAssignment -PrincipalObjectId $userId | ConvertTo-Json | O
 ~~~~
  
 ## <a name="step-9-export-powerapps-notifications-user-settings-and-user-app-settings"></a>Stap 9: meldingen van PowerApps, gebruikersinstellingen en gebruikers-app-instellingen exporteren
-PowerApps verzendt verschillende typen meldingen aan gebruikers, zoals wanneer een app met hen wordt gedeeld en wanneer een CDS for Apps-exportbewerking is voltooid. De meldingsgeschiedenis van een gebruiker is voor de gebruiker zichtbaar binnen de [PowerApps-portal](https://web.powerapps.com).
+PowerApps verzendt verschillende typen meldingen aan gebruikers, zoals wanneer een app met hen wordt gedeeld en wanneer een CDS for Apps-exportbewerking is voltooid. De meldingsgeschiedenis van een gebruiker is voor de gebruiker zichtbaar binnen de [PowerApps-portal](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 In PowerApps worden tevens verschillende gebruikersvoorkeuren en -instellingen opgeslagen die worden gebruikt om de PowerApps-runtime- en portalervaringen te delen, waaronder wanneer een gebruiker voor het laatst een toepassing heeft geopend, een app heeft vastgemaakt, enzovoort.
 
@@ -298,9 +298,9 @@ Get-AdminPowerAppsUserDetails -WriteToFile -OutputFilePath "UserDetails.json" -U
 ## <a name="step-10-export-personal-data-contained-for-a-user-stored-gateway-or-in-the-users-gateway-permissions"></a>Stap 10: persoonlijke gegevens exporteren die zijn opgeslagen in door een gebruiker opgeslagen gateway of in de gebruikersmachtigingen voor de gateway
 
 ### <a name="powerapps-portal"></a>PowerApps-portal
-Gebruikers kunnen uit de [PowerApps-portal](https://web.powerapps.com) persoonsgegevens exporteren die zijn opgeslagen in de gatewayservice door de volgende stappen te volgen:
+Gebruikers kunnen uit de [PowerApps-portal](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) persoonsgegevens exporteren die zijn opgeslagen in de gatewayservice door de volgende stappen te volgen:
 
-1. Selecteer uit de [PowerApps-portal](https://web.powerapps.com), binnen de standaardomgeving voor uw tenant, de optie **Gateways** en selecteer vervolgens **Details** voor elke gateway waartoe u toegang hebt.
+1. Selecteer uit de [PowerApps-portal](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), binnen de standaardomgeving voor uw tenant, de optie **Gateways** en selecteer vervolgens **Details** voor elke gateway waartoe u toegang hebt.
 
     ![Landingspagina van de gateway](./media/powerapps-gdpr-export-dsr/gateway-select-details.png)
 

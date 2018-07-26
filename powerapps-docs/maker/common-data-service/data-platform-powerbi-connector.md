@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: clwesene
-ms.openlocfilehash: bb0bec7cf459eb9084aea4db7264350b7913e578
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 5fffcbcd8f58ae05f3fe5b3b4f871cf39d003321
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898741"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218183"
 ---
 # <a name="create-a-power-bi-report"></a>Een Power BI-rapport maken
 Met Common Data Service voor apps kunt u met behulp van Power BI Desktop rechtstreeks verbinding maken met uw gegevens om rapporten te maken en deze te publiceren in Power BI. Vanuit Power BI kunnen rapporten worden gebruikt in dashboards, gedeeld met andere gebruikers en platformoverschrijdend worden geopend op mobiele Power BI-apps.
@@ -29,7 +29,7 @@ Als u Power BI wilt gebruiken met de Common Data Service voor apps, hebt u het v
 
 ## <a name="finding-your-common-data-service-for-apps-environment-url"></a>De URL voor de omgeving van Common Data Service voor apps vinden
 
-1. Open [PowerApps](https://web.powerapps.com) en selecteer de omgeving waarmee u verbinding wilt maken. Klik op het **instellingentandwiel** in de rechterbovenhoek en klik op **Geavanceerde aanpassingen**
+1. Open [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en selecteer de omgeving waarmee u verbinding wilt maken. Klik op het **instellingentandwiel** in de rechterbovenhoek en klik op **Geavanceerde aanpassingen**
 
     ![Omgeving CDS voor apps](./media/data-platform-cds-powerbi-connector/CDSEnv1.png "Omgeving CDS voor apps")
 

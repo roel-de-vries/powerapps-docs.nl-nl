@@ -8,12 +8,12 @@ ms.topic: overview
 ms.component: cds
 ms.date: 05/01/2018
 ms.author: matp
-ms.openlocfilehash: 586750edf476a9145e2822522cc0b4b5ad729539
-ms.sourcegitcommit: 7296649d03ebc33dc5ddb9e7c551869dc781f154
+ms.openlocfilehash: 6a8bc8f24ce0f772f5c98852838095f233c4317f
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250818"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218068"
 ---
 # <a name="what-is-common-data-service-for-apps"></a>Wat is Common Data Service for Apps?
 Met Common Data Service (CDS) voor apps kunt u veilig gegevens die door zakelijke toepassingen worden gebruikt, opslaan en beheren. De gegevens in CDS voor apps worden opgeslagen in een set entiteiten. Een *entiteit* is een set records waarin gegevens worden opgeslagen, vergelijkbaar met de manier waarop met een tabel gegevens in een database worden opgeslagen. CDS voor apps bevat een basisset met standaardentiteiten die voor de gebruikelijke scenario's, maar u kunt ook aangepaste entiteiten maken die specifiek voor uw organisatie zijn en deze invullen met gegevens met behulp van Power Query. App-makers kunnen vervolgens PowerApps gebruiken om uitgebreide toepassingen te bouwen aan de hand van deze gegevens.
@@ -70,7 +70,7 @@ Entiteiten in CDS voor apps kunnen gebruikmaken van uitgebreide logica en valida
 * **Bedrijfslogica met code** biedt ondersteuning voor geavanceerde scenario's van ontwikkelaars bij het rechtstreeks uitbreiden van de toepassing via code. Zie [Bedrijfslogica toepassen met code](../../developer/common-data-service/apply-business-logic-with-code.md) voor meer informatie.
 
 ## <a name="developer-capabilities"></a>Mogelijkheden voor ontwikkelaars
-Naast de functies die beschikbaar zijn via de [PowerApps](https://web.powerapps.com)-portal, bevat CDS for Apps ook functies voor ontwikkelaars om programmatisch toegang te krijgen tot metagegevens en gegevens voor het maken van entiteiten en zakelijke logica, evenals interactie met gegevens. Zie [Overzicht van Common Data Service for Apps voor ontwikkelaars](../../developer/common-data-service/overview.md) voor meer informatie
+Naast de functies die beschikbaar zijn via de [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)-portal, bevat CDS for Apps ook functies voor ontwikkelaars om programmatisch toegang te krijgen tot metagegevens en gegevens voor het maken van entiteiten en zakelijke logica, evenals interactie met gegevens. Zie [Overzicht van Common Data Service for Apps voor ontwikkelaars](../../developer/common-data-service/overview.md) voor meer informatie
 
 ## <a name="next-steps"></a>Volgende stappen
 U gaat als volgt aan de slag met behulp van CDS voor apps:

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.component: cds
 ms.date: 03/21/2018
 ms.author: anneta
-ms.openlocfilehash: 60d1843e48a1dc1d310d877bcba67460da557993
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: c5da71198f33661766d8fc214816c2e714736360
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168292"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218758"
 ---
 # <a name="add-data-to-an-entity-in-common-data-service-for-apps-by-using-power-query"></a>Gegevens toevoegen aan een entiteit in Common Data Service (CDS) voor Apps met gebruik van Power Query
 In deze procedure maakt u een entiteit in [Common Data Service (CDS) voor Apps](data-platform-intro.md) en vult u die entiteit met gegevens van een OData-feed met Power Query. U kunt dezelfde technieken gebruiken om gegevens vanuit deze online en on-premises gegevensbronnen te integreren, waaronder:
@@ -37,7 +37,7 @@ Als u dit onderwerp wilt volgen, moet u overschakelen naar een [omgeving](../can
 
 ## <a name="specify-the-source-data"></a>De brongegevens opgeven
 
-1. Meld u aan bij **PowerApps** en klik of tik vervolgens op de pijl omlaag op [Gegevens](https://web.powerapps.com) bij de linkerrand.
+1. Meld u aan bij **PowerApps** en klik of tik vervolgens op de pijl omlaag op [Gegevens](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) bij de linkerrand.
 
     ![PowerApps-startpagina](./media/data-platform-cds-newentity-pq/sign-in.png)
 

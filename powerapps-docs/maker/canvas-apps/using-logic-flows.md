@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/05/2017
 ms.author: sharik
-ms.openlocfilehash: c395a548d0a920a21e8d4128f75a3b01deb9de3a
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 9d681cc889a3f39fb0785ab0cba86e37ebe185b3
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019360"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195882"
 ---
 # <a name="start-a-flow-in-an-app"></a>Start een stroom in een app
 U kunt Microsoft Flow gebruiken om logica te maken die een of meer taken uitvoert wanneer er een gebeurtenis optreedt in een app. U kunt bijvoorbeeld een knop zo configureren dat, wanneer een gebruiker deze selecteert, er een item wordt gemaakt in een SharePoint-lijst, een e-mailbericht of vergaderverzoek wordt verzonden, een bestand wordt toegevoegd aan de cloud of zelfs al deze dingen. U kunt elk besturingselement in de app configureren om de stroom te starten, die zelfs blijft lopen als u PowerApps sluit.
@@ -25,7 +25,7 @@ U kunt Microsoft Flow gebruiken om logica te maken die een of meer taken uitvoer
 * Lees hoe u [een besturingselement kunt configureren](add-configure-controls.md).
 
 ## <a name="create-a-flow"></a>Een stroom maken
-1. Meld u aan bij [powerapps.com](http://web.powerapps.com) en selecteer vervolgens **Flows** op de linkernavigatiebalk.
+1. Meld u aan bij [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en selecteer vervolgens **Flows** op de linkernavigatiebalk.
 
 2. Selecteer op de pagina **Mijn stromen** de optie **Leeg item maken**.
 

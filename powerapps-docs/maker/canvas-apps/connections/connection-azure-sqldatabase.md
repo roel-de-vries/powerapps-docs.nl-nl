@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 07/12/2016
 ms.author: lanced
 ms.reviewer: anneta
-ms.openlocfilehash: e1a07bc9c166ac37ad0efa7ae50dca87332cb3e2
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: a3862dbd0210d2975b276d86741709b24d6d08f6
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020894"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195468"
 ---
 # <a name="connect-to-sql-server-from-powerapps"></a>Verbinding maken met SQL Server vanuit PowerApps
 ![SQL Server-pictogram](./media/connection-azure-sqldatabase/sqlicon.png)
@@ -23,7 +23,7 @@ Maak in Azure of een on-premises database verbinding met SQL Server, zodat u geg
 
 ## <a name="prerequisites"></a>Vereisten
 
-* [Registreer u](../../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](http://web.powerapps.com) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
+* [Registreer u](../../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
 * Verzamel de volgende informatie voor een database die ten minste één tabel met een primaire sleutel bevat:
   
   * de naam van de database
@@ -64,7 +64,7 @@ Maak in Azure of een on-premises database verbinding met SQL Server, zodat u geg
 8. Pas de app aan met behulp van technieken die vergelijkbaar zijn met de technieken die worden beschreven in [Een app maken vanuit Excel](../get-started-create-from-data.md), te beginnen met het wijzigen van de app-indeling.
 
 ## <a name="build-an-app-from-scratch"></a>Een volledig nieuwe app bouwen
-1. Meld u aan bij [powerapps.com](https://web.powerapps.com) met hetzelfde account dat u hebt gebruikt om u te registreren voor PowerApps.
+1. Meld u aan bij [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) met hetzelfde account dat u hebt gebruikt om u te registreren voor PowerApps.
 2. Klik of tik in de linkernavigatiebalk op **Connections**:  
    
     ![Verbindingen beheren](./media/connection-azure-sqldatabase/manage-connections.png)

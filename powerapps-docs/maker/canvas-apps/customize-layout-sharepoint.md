@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/06/2018
 ms.author: anneta
-ms.openlocfilehash: bb02f12bf452d1928408ea7c266469b524607b5f
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: fa5aa70beba25130144c5da9dac4fbaa383dfc67
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016784"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195606"
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>Zelfstudie: Een galerie aanpassen in PowerApps
 
@@ -39,7 +39,7 @@ U voegt ook een schuifbalk toe zodat gebruikers die geen aanraakschermen of muis
 
 Deze zelfstudie begint met een app die is gegenereerd op basis van een specifieke gegevensbron. Dezelfde concepten gelden echter voor elke app die u in PowerApps genereert, of dit nu vanaf een SharePoint-lijst, een Excel-tabel of een andere gegevensbron is.
 
-Als u zich niet hebt geregistreerd voor PowerApps, kunt u zich hier [gratis registreren](https://web.powerapps.com) voordat u begint.
+Als u zich niet hebt geregistreerd voor PowerApps, kunt u zich hier [gratis registreren](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) voordat u begint.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -47,7 +47,7 @@ Als u zich niet hebt geregistreerd voor PowerApps, kunt u zich hier [gratis regi
 
 ## <a name="open-the-generated-app"></a>De gegenereerde app openen
 
-1. Meld u aan bij [PowerApps](https://web.powerapps.com) en selecteer bij de linkerrand **Apps**.
+1. Meld u aan bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en selecteer bij de linkerrand **Apps**.
 
     [![PowerApps-startpagina](./media/customize-layout-sharepoint/sign-in.png)](./media/customize-layout-sharepoint/sign-in.png#lightbox)
 

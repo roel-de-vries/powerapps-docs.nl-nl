@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/30/2015
 ms.author: lonu
-ms.openlocfilehash: 27b5a3453c2c0a89239d3e319ee6f39afd034492
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 98407181bc654874d749bb57da22c9fde1259fb6
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023270"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195491"
 ---
 # <a name="create-and-update-a-collection-in-your-app"></a>Een verzameling in uw app maken en bijwerken
 U kunt een verzameling gebruiken om gegevens op te slaan die in uw app kunnen worden gebruikt. Een verzameling is een groep met items die vergelijkbaar zijn. U maakt bijvoorbeeld een verzameling MijnAfbeeldingen waarin alle foto's worden opgeslagen van producten die uw bedrijf verkoopt. U kunt uw verzameling MijnAfbeeldingen in PowerApps toevoegen en een app maken die alle foto's van deze producten weergeeft. Ander voorbeeld: u kunt een verzameling Prijslijst maken die een overzicht bevat van de producten en de prijs van elk product.
@@ -22,7 +22,7 @@ U kunt een verzameling gebruiken om gegevens op te slaan die in uw app kunnen wo
 U kunt verzamelingen maken en gebruiken in PowerApps. Aan de slag.
 
 ### <a name="prerequisites"></a>Vereisten
-* [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
+* [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
 * Maak een app of open een bestaande app in PowerApps.
 * Lees hoe u [een besturingselement kunt configureren](add-configure-controls.md) in PowerApps.
 * Deze stappen gebruiken het bestand [PriceList.zip](http://pwrappssamples.blob.core.windows.net/samples/PriceList.zip) als voorbeeld voor invoergegevens. Het zip-bestand bevat een XML-bestand dat naar Excel kan worden geconverteerd. Anders leest PowerApps automatisch de bestanden in de .zip-bestanden, waarna deze worden geïmporteerd. U kunt deze voorbeeldgegevens downloaden en gebruiken of uw eigen gegevens importeren.

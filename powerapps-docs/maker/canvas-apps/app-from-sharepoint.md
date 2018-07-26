@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/12/2018
 ms.author: anneta
-ms.openlocfilehash: b9404b2ac7d67f9594b77ee73de55b46a94e7afa
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: fd3e1e293b3c10b25351ba3958af46b887447e26
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016807"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195376"
 ---
 # <a name="quickstart-for-generating-an-app-in-powerapps-from-sharepoint"></a>Snelstartgids voor het genereren van een app in PowerApps vanuit SharePoint
 
@@ -27,7 +27,7 @@ U kunt een lijst maken die veel complexer is, met veel kolommen van verschillend
 Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../signup-for-powerapps.md).
 
 ## <a name="generate-an-app"></a>Een app genereren
-1. Meld u aan bij [PowerApps](https://web.powerapps.com).
+1. Meld u aan bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
     ![PowerApps-startpagina](./media/app-from-sharepoint/sign-in.png)
 

@@ -8,12 +8,12 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: f1952c2349eb54f2c6348f5abc4dee9a4645348a
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 8562219c373a8880f7cc89f791b6c6373b6df0b3
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168430"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39217930"
 ---
 # <a name="create-a-relationship-between-entities"></a>Een relatie tussen entiteiten maken
 Gegevens in de ene entiteit zijn vaak gekoppeld aan gegevens in een andere entiteit. Als u bijvoorbeeld een entiteit **Docenten** en een entiteit **Klas** hebt, kan de entiteit **Klas** een opzoekrelatie met de entiteit **Docenten** hebben om te laten zien welke docent de klas lesgeeft. U kunt via een opzoekveld gegevens weergeven van de entiteit **Docenten**. Dit wordt vaak aangeduid als een opzoekveld.
@@ -29,7 +29,7 @@ U kunt verschillende typen relaties vanuit de ene entiteit naar de andere (of tu
 
 Als u een opzoekrelatie wilt toevoegen aan een entiteit, maakt u een relatie op het tabblad **Relaties** tabblad en geeft u de entiteit op waarmee u een relatie wilt maken.
 
-1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
+1. Vouw op [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
 
     ![Entiteitsgegevens](./media/data-platform-cds-create-entity/entitylist.png "Entiteitslijst")
 
@@ -53,7 +53,7 @@ Als u een opzoekrelatie wilt toevoegen aan een entiteit, maakt u een relatie op 
 
 Als u een één-op-veel-relatie wilt toevoegen, maakt u een relatie onder het tabblad **Relaties** en geeft u de entiteit op waarmee u een relatie wilt maken.
 
-1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
+1. Vouw op [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
 
     ![Entiteitsgegevens](./media/data-platform-cds-create-entity/entitylist.png "Entiteitslijst")
 

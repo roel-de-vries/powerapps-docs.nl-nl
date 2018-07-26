@@ -8,12 +8,12 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 14fe0c749a17a1a28ebc7c8680ff55df2392999e
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 5bc3951f767677c2b8b35166d16c089259eec1ce
+ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552939"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "39218666"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-powerapps-customer-data"></a>Reageren op aanvragen van betrokkenen voor PowerApps-klantgegevens
 
@@ -68,7 +68,7 @@ Modelgestuurde apps en modelgestuurde app-machtigingen  | Het ontwerp van modelg
 
 PowerApps biedt de volgende ervaringen om persoonsgegevens voor een specifieke gebruiker te zoeken:
 
-- **Website-toegang**: [PowerApps-site](https://web.powerapps.com), [PowerApps-beheercentrum](https://admin.powerapps.com/) en [Office 365 Trust Portal](https://servicetrust.microsoft.com/)
+- **Website-toegang**: [PowerApps-site](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), [PowerApps-beheercentrum](https://admin.powerapps.com/) en [Office 365 Trust Portal](https://servicetrust.microsoft.com/)
 - **PowerShell-toegang**: PowerApps-cmdlets (voor [app-ontwerpers](https://go.microsoft.com/fwlink/?linkid=871448) en [beheerders](https://go.microsoft.com/fwlink/?linkid=871804)) en [cmdlets voor on-premises gateways](https://go.microsoft.com/fwlink/?linkid=872238)
 
 Zie [Reageren op aanvragen van betrokkenen om PowerApps-klantgegevens te exporteren](powerapps-gdpr-export-dsr.md) voor gedetailleerde stappen over het gebruik van deze ervaringen om persoonsgegevens voor een specifieke gebruiker te zoeken voor elk van deze typen resources.

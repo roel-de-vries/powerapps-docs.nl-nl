@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 56a46493ef15eff7d65d19f12affb2a58dbba0b6
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 68b02c1dd2b6c22f5b1ec049f753a175ad8c09db
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023431"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195054"
 ---
 # <a name="customize-a-card-in-powerapps"></a>Een kaart aanpassen in PowerApps
 Basisaanpassingen uitvoeren (zonder een kaart te ontgrendelen) door bijvoorbeeld het besturingselement te wijzigen. Geavanceerde aanpassingen uitvoeren door de kaart te ontgrendelen en bijvoorbeeld een besturingselement toe te voegen dat niet standaard beschikbaar is voor die kaart.
@@ -33,7 +33,7 @@ Zie [Informatie over gegevenskaarten](working-with-cards.md) voor een overzicht.
 ## <a name="customize-a-locked-card"></a>Een vergrendelde kaart aanpassen
 In deze procedure gaat u een besturingselement **[Tekstinvoer](controls/control-text-input.md)** vervangen door een besturingselement **[Schuifelement](controls/control-slider.md)** zonder de kaart te ontgrendelen.
 
-1. Meld u aan bij [PowerApps](http://web.powerapps.com).
+1. Meld u aan bij [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
     ![Startpagina van PowerApps](./media/customize-card/sign-in.png)
 

@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 03/12/2018
 ms.author: anneta
 ms.reviewer: ''
-ms.openlocfilehash: ddbd2f610ecba6d801efde2a00a9cb492e2382e3
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 62afc8fc0ce754ed797683a61c061db16370f904
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021545"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195192"
 ---
 # <a name="sign-up-for-a-free-license-to-try-powerapps"></a>Aanmelden voor een gratis licentie om PowerApps te proberen
 Als u een app wilt maken in PowerApps, hebt u een van de verschillende typen licenties nodig die verschillende functionaliteitniveaus bieden. U hebt al een licentie voor PowerApps als uw organisatie een van verschillende versies van Office 365 of Dynamics 365 voor u heeft gekocht, of als uw organisatie licenties voor PowerApps-abonnement 1 of 2 voor u heeft aangeschaft.
@@ -74,7 +74,7 @@ Anders wordt u gevraagd uw e-mail te controleren.
 
 Selecteer in het e-mailbericht de koppeling om uw e-mailadres te verifiëren en verstrek meer informatie (indien u erom wordt gevraagd).
 
-Als dit dialoogvenster wordt weergegeven, selecteert u **Start**, waarna u vervolgens kunt [PowerApps](http://web.powerapps.com) kunt gaan gebruiken.
+Als dit dialoogvenster wordt weergegeven, selecteert u **Start**, waarna u vervolgens kunt [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) kunt gaan gebruiken.
 
 ![Klik op Start](./media/signup-for-powerapps/almost-there.png)
 
@@ -118,7 +118,7 @@ Na 30 dagen wordt u gevraagd om een verlenging voor de proefversie aan te vragen
 * Als u alleen toegang tot PowerApps kunt krijgen via de proefversie (waarvoor u zich hebt geregistreerd op de [PowerApps-site](http://powerapps.microsoft.com/) of de [pagina met prijzen](http://powerapps.microsoft.com/pricing)), kunt u een 30-daagse verlenging van de proeflicentie aanvragen om toegang tot PowerApps te behouden.
 
 ### <a name="when-will-my-trial-license-expire"></a>Wanneer is mijn proeflicentie is verlopen?
-Als u wilt bepalen wanneer uw proeflicentie verloopt, selecteert u het tandwielpictogram bij de rechterbovenhoek van de [PowerApps-site](http://web.powerapps.com) en selecteert u vervolgens **Abonnement(en)**.
+Als u wilt bepalen wanneer uw proeflicentie verloopt, selecteert u het tandwielpictogram bij de rechterbovenhoek van de [PowerApps-site](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en selecteert u vervolgens **Abonnement(en)**.
 
 ![](./media/signup-for-powerapps/show-duration.png)
 

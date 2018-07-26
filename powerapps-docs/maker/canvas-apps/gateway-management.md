@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/30/2016
 ms.author: archanan
-ms.openlocfilehash: e7dc9a2386d75a6f03744286b7ed265a8d385370
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: fb561ca5458a22880d93c712aa2e2b2ada884605
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018532"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39194872"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-powerapps"></a>Een on-premises gegevensgateway beheren in PowerApps
 Installeer een on-premises gegevensgateway om gegevens snel en veilig over te dragen tussen PowerApps en een gegevensbron die zich niet in de cloud bevindt, zoals een on-premises SQL Server-database of een on-premises SharePoint-site. Bekijk alle gateways waarvoor u beheerdersmachtigingen hebt en beheer machtigingen en verbindingen voor deze gateways.
@@ -35,7 +35,7 @@ Met een gateway kunt u verbinding maken met on-premises gegevens via deze verbin
 * Gateways en on-premises verbindingen kunnen alleen worden gemaakt en gebruikt in de [standaardomgeving](working-with-environments.md) van de gebruiker.
 
 ## <a name="install-a-gateway"></a>Een gateway installeren
-1. Klik of tik in de linkernavigatiebalk op [powerapps.com](https://web.powerapps.com) op **Gateways**.
+1. Klik of tik in de linkernavigatiebalk op [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) op **Gateways**.
 
     ![Gateways in linkernavigatiebalk](./media/gateway-management/manage-gateway.png)
 
@@ -46,7 +46,7 @@ Met een gateway kunt u verbinding maken met on-premises gegevens via deze verbin
     Zie [Wat zijn on-premises gegevensgateways?](gateway-reference.md) voor meer informatie over het installeren van een gateway.
 
 ## <a name="view-and-manage-gateway-permissions"></a>Gatewaymachtigingen weergeven en beheren
-1. Klik of tik in de linkernavigatiebalk van [powerapps.com](https://web.powerapps.com) op **Gateways** en klik of tik vervolgens op een gateway.
+1. Klik of tik in de linkernavigatiebalk van [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) op **Gateways** en klik of tik vervolgens op een gateway.
 
 2. Voeg een gebruiker toe aan een gateway door te klikken of tikken op **Users**, een gebruiker of groep op te geven en vervolgens een machtigingsniveau op te geven:
 
@@ -57,7 +57,7 @@ Met een gateway kunt u verbinding maken met on-premises gegevens via deze verbin
 Voor het machtigingsniveau **Mag gebruiken** en **Mag gebruiken + delen**, selecteert u de gegevensbronnen waarmee de gebruiker via de gateway verbinding kan maken.
 
 ## <a name="view-and-manage-gateway-connections"></a>Gatewayverbindingen weergeven en beheren
-1. Klik of tik in de linkernavigatiebalk van [powerapps.com](https://web.powerapps.com) op **Gateways** en klik of tik vervolgens op een gateway.
+1. Klik of tik in de linkernavigatiebalk van [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) op **Gateways** en klik of tik vervolgens op een gateway.
 
 2. Klik of tik op **Verbindingen** en klik of tik op een verbinding om de details ervan weer te geven, de instellingen ervan te wijzigen of de verbinding te verwijderen.
 

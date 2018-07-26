@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/14/2016
 ms.author: litran
-ms.openlocfilehash: 04ed5dfb76cb26f629f36514a05eda9690669926
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 865e5f419d5ff318ce232fff16b9240039129a29
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020625"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39194985"
 ---
 # <a name="working-with-environments-and-microsoft-powerapps"></a>Werken met omgevingen en Microsoft PowerApps
 U kunt met PowerApps in verschillende omgevingen werken en eenvoudig schakelen tussen omgevingen. Zie [Overzicht van omgevingen](../../administrator/environments-overview.md) voor een overzicht van omgevingen. Daarin wordt in detail uitgelegd waarom u omgevingen gebruikt en hoe u omgevingen kunt maken en beheren. In dit artikel komen de volgende onderwerpen over omgevingen aan bod:
@@ -39,7 +39,7 @@ U kunt apps maken in een omgeving die u maakt of waarvoor u toegang hebt gekrege
 
 Voer een van de volgende handelingen uit om een app te maken in de juiste omgeving:
 
-- Als PowerApps Studio niet is geopend, [meld u zich aan](http://web.powerapps.com), selecteert u de omgeving waarin u uw app wilt maken, selecteert u **Apps** aan de linkerkant en selecteert u vervolgens **Een app maken**.
+- Als PowerApps Studio niet is geopend, [meld u zich aan](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), selecteert u de omgeving waarin u uw app wilt maken, selecteert u **Apps** aan de linkerkant en selecteert u vervolgens **Een app maken**.
 
 - Als PowerApps Studio is geopend, selecteert u de omgeving opnieuw in de rechterbovenhoek.
 
@@ -54,6 +54,6 @@ Voer een van de volgende handelingen uit om een app te maken in de juiste omgevi
     ![Overschakelen naar een andere omgeving in Studio](./media/working-with-environments/new-app.PNG)
 
 ## <a name="view-apps-in-the-right-environment"></a>Apps weergeven in de juiste omgeving
-Of u nu werkt in [powerapps.com](http://web.powerapps.com) of PowerApps Studio, de lijst met apps, verbindingen, enzovoort die u ziet, wordt altijd gefilterd op basis van de omgeving die in de vervolgkeuzelijst is geselecteerd. Controleer altijd of de juiste omgeving is geselecteerd als u de gewenste app(s) niet ziet.
+Of u nu werkt in [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) of PowerApps Studio, de lijst met apps, verbindingen, enzovoort die u ziet, wordt altijd gefilterd op basis van de omgeving die in de vervolgkeuzelijst is geselecteerd. Controleer altijd of de juiste omgeving is geselecteerd als u de gewenste app(s) niet ziet.
 
 Zie [dit overzicht](../../administrator/environments-overview.md) voor meer informatie over omgevingen.

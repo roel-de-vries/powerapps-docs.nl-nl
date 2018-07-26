@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 07/11/2018
 ms.author: anneta
-ms.openlocfilehash: 197eb5223c0945a7cb80d8b187aaf44c871e798c
-ms.sourcegitcommit: 79a58f1b6880cbc512b64cde71a4d532cebe5bed
+ms.openlocfilehash: 9c4bdc6e56f84b6724fcbe44cfe1f3e4c065edb3
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39137017"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195307"
 ---
 # <a name="share-an-app-in-powerapps"></a>Een app delen in PowerApps
 
@@ -33,7 +33,7 @@ Voordat u een app deelt, moet u deze in de cloud (niet lokaal) opslaan en vervol
 
 ## <a name="share-an-app"></a>Een app delen
 
-1. [Meld u aan](https://web.powerapps.com) bij PowerApps en selecteer vervolgens bij de linkerrand **Apps**.
+1. [Meld u aan](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) bij PowerApps en selecteer vervolgens bij de linkerrand **Apps**.
 
     ![Lijst met apps weergeven](./media/share-app/file-apps.png)
 
@@ -59,7 +59,7 @@ Voordat u een app deelt, moet u deze in de cloud (niet lokaal) opslaan en vervol
 
     Als u gebruikers machtigt om de app te wijzigen, bevat het bericht ook een aparte koppeling om de app in PowerApps Studio te openen en te bewerken.
 
-    Gebruikers kunnen de app vanuit AppSource in [Dynamics 365](http://home.dynamics.com) uitvoeren, ongeacht of u een uitnodiging verzendt. Gebruikers die over de machtiging **Kan bewerken** beschikken, kunnen de app ook in [PowerApps](http://web.powerapps.com) zelf bewerken.
+    Gebruikers kunnen de app vanuit AppSource in [Dynamics 365](http://home.dynamics.com) uitvoeren, ongeacht of u een uitnodiging verzendt. Gebruikers die over de machtiging **Kan bewerken** beschikken, kunnen de app ook in [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) zelf bewerken.
 
 1. Geef de machtiging voor elke gebruiker of beveiligingsgroep op en selecteer vervolgens **Opslaan**.
 
@@ -85,7 +85,7 @@ Als u een app maakt op basis van Common Data Service for Apps, moet u er ook voo
 
 #### <a name="create-a-security-role"></a>Een beveiligingsrol maken
 
-1. [Meld u aan bij PowerApps](https://web.powerapps.com) en zorg ervoor dat u zich in dezelfde omgeving bevindt als de app die u wilt delen.
+1. [Meld u aan bij PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en zorg ervoor dat u zich in dezelfde omgeving bevindt als de app die u wilt delen.
 
 1. Selecteer in de rechterbovenhoek het tandwielpictogram en selecteer vervolgens **Geavanceerde aanpassingen**.
 
