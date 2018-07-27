@@ -9,18 +9,18 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 07/10/2017
 ms.author: anneta
-ms.openlocfilehash: 8a2849c32eaf474d1aa5bb981a09a3594cead600
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 24f0479db0707e667263f5b160d6785560fe604b
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020119"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195583"
 ---
 # <a name="add-and-configure-a-control-in-powerapps"></a>Een besturingselement toevoegen en configureren in PowerApps
 U kunt een groot aantal verschillende UI-elementen toevoegen aan uw app en vervolgens direct aspecten van hun uiterlijk en gedrag configureren. Dit kan via de werkbalk, in het tabblad **Eigenschappen** of de formulebalk. Deze UI-elementen worden besturingselementen genoemd en de aspecten eigenschappen.
 
 ## <a name="prerequisites"></a>Vereisten
-1. [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
+1. [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
 
 2. Klik of tik in PowerApps Studio op **Nieuw** in het menu **Bestand** (aan de linkerkant).
 
