@@ -1,46 +1,30 @@
 - name: PowerApps beheren
-  href: index.md
-- name: Snelstartgidsen
+  href: admin-guide.md
   items:
-    - name: Een omgeving maken
-      href: create-environment.md
-    - name: Een DLP-beleid maken
-      href: create-dlp-policy.md
-    - name: Actieve gebruikers in uw tenant weergeven
-      href: admin-view-user-licenses.md
-    - name: Apps in uw omgevingen weergeven
-      href: admin-view-apps.md
-- name: Concepten
-  items:
-    - name: Licentieoverzicht
-      href: pricing-billing-skus.md
-    - name: Overzicht van omgevingen
-      href: environments-overview.md
-    - name: Inleiding tot gegevensgroepen
-      href: introduction-to-data-groups.md
-    - name: Regio-overzicht
-      href: regions-overview.md
-- name: Procedures
-  items:
-    - name: PowerApps kopen
-      href: signup-for-powerapps-admin.md
-    - name: Licenties in uw organisatie beheren
-      href: signup-question-and-answer.md
-    - name: DLP-beleid beheren
-      href: prevent-data-loss.md
-    - name: Een database maken
-      href: create-database.md
-    - name: Omgevingen beheren
-      href: environments-administration.md
-    - name: Omgevingsbeveiliging configureren
-      href: database-security.md
-    - name: Apps in uw organisatie beheren
-      href: admin-manage-apps.md
-    - name: Een app verplaatsen tussen tenants of omgevingen
-      href: environment-and-tenant-migration.md
-    - name: Resources exporteren en importeren
-      href: export-import-packages.md
+    - name: Aan de slag
+      items:
+        - name: Wat is de rol van een PowerApps-beheerder?
+          href: overview-role-powerapps-admin.md
+    - name: Licentieverlening
+      items:
+        - name: Licentieoverzicht
+          href: pricing-billing-skus.md
+        - name: Licenties in uw organisatie beheren
+          href: signup-question-and-answer.md
+        - name: PowerApps kopen
+          href: signup-for-powerapps-admin.md
+    - name: PowerApps beheren
+      items:
+        - name: Apps in uw omgevingen weergeven
+          href: admin-view-apps.md
+        - name: Apps in uw organisatie beheren
+          href: admin-manage-apps.md
+        - name: Een app verplaatsen tussen tenants of omgevingen
+          href: environment-and-tenant-migration.md
+        - name: PowerShell-ondersteuning voor PowerApps (preview-versie)
+          href: powerapps-powershell.md
     - name: Reageren op DSR-aanvragen
+      href: powerapps-gdpr-dsr-guide-systemlogs.md
       items:
         - name: Door het systeem gegenereerde logboeken
           href: powerapps-gdpr-dsr-guide-systemlogs.md
@@ -53,9 +37,27 @@
               href: powerapps-gdpr-delete-dsr.md
         - name: Klantgegevens voor CDS voor Apps
           href: common-data-service-gdpr-dsr-guide.md
-        - name: Gegevensintegratie voor CDS voor Apps
-          href: data-integration-gdpr-dsr-guide.md
-- name: Referentie
-  items:
-    - name: PowerShell-ondersteuning voor PowerApps (preview-versie)
-      href: powerapps-powershell.md
+    - name: Omgevingen beheren
+      href: environments-administration.md
+      items:
+        - name: Overzicht van omgevingen
+          href: environments-overview.md
+        - name: Regio-overzicht
+          href: regions-overview.md
+        - name: Een omgeving maken
+          href: create-environment.md
+        - name: Een database maken
+          href: create-database.md
+    - name: Omgevingsbeveiliging configureren
+      href: database-security.md
+      items:
+        - name: Inleiding tot gegevensgroepen
+          href: introduction-to-data-groups.md
+        - name: Een DLP-beleid maken
+          href: create-dlp-policy.md
+        - name: DLP-beleid beheren
+          href: prevent-data-loss.md
+    - name: Abonnementen en gebruikersaccounts beheren
+      items:
+        - name: Actieve gebruikers in uw tenant weergeven
+          href: admin-view-user-licenses.md
