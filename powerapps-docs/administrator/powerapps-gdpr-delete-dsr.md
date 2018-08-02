@@ -2,18 +2,18 @@
 title: Reageren op AVG-aanvragen voor het verwijderen van klantgegevens | Microsoft Docs
 description: Instructies voor hoe u moet reageren op aanvragen van betrokkenen voor het verwijderen van PowerApps-gegevens van de klant.
 author: jamesol-msft
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 05/23/2018
 ms.author: jamesol
-ms.openlocfilehash: 501c5468291041eafd2147c102484ab81cabbe37
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
+ms.openlocfilehash: 9cde5c7b2127359ab21a9e89aa83841d87cae49e
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218781"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349059"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-to-delete-powerapps-customer-data"></a>Reageren op AVG-aanvragen voor het verwijderen van PowerApps-gegevens van de klant
 
@@ -40,7 +40,7 @@ Machtigingen voor aangepaste connector |
 
 Voor de gegevens en resources waarvoor handmatige controle vereist is, biedt PowerApps de volgende ervaringen voor het opnieuw toewijzen (indien van toepassing) of verwijderen van persoonlijke gegevens voor een specifieke gebruiker:
 
-* Website-toegang: [PowerApps-site](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), [PowerApps-beheercentrum](https://admin.powerapps.com/) en [Office 365 Trust Portal](https://servicetrust.microsoft.com/)
+* Website-toegang: [PowerApps-site](https://web.powerapps.com), [PowerApps-beheercentrum](https://admin.powerapps.com/) en [Office 365 Trust Portal](https://servicetrust.microsoft.com/)
 
 * PowerShell-toegang: PowerApps-cmdlets voor [app-ontwikkelaars](https://go.microsoft.com/fwlink/?linkid=871448) en [beheerders](https://go.microsoft.com/fwlink/?linkid=871804) en cmdlets voor [on-premises gateways](https://go.microsoft.com/fwlink/?linkid=872238).
 
@@ -62,7 +62,7 @@ Machtigingen voor aangepaste connector | | App-ontwikkelaar: beschikbaar <br> Be
 ## <a name="prerequisites"></a>Vereisten
 
 ### <a name="for-users"></a>Voor gebruikers
-Elke gebruiker met een geldige PowerApps-licentie kan de in dit document beschreven gebruikersbewerkingen uitvoeren met [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) of de [PowerShell-cmdlets voor app-ontwikkelaars](https://go.microsoft.com/fwlink/?linkid=871448).
+Elke gebruiker met een geldige PowerApps-licentie kan de in dit document beschreven gebruikersbewerkingen uitvoeren met [PowerApps](https://web.powerapps.com) of de [PowerShell-cmdlets voor app-ontwikkelaars](https://go.microsoft.com/fwlink/?linkid=871448).
 
 #### <a name="unmanaged-tenant"></a>Onbeheerde tenant
 Als u lid bent van een [onbeheerde tenant](https://docs.microsoft.com/azure/active-directory/domains-admin-takeover), wat betekent dat uw Azure AD-tenant geen algemene beheerder heeft, kunt u nog steeds de in dit artikel beschreven stappen volgen voor het verwijderen van uw eigen persoonsgegevens.  Omdat er echter geen algemene beheerder voor uw tenant is, moet u de instructies volgen die in [Stap 11: de gebruiker uit Azure Active Directory verwijderen](#step-11-delete-the-user-from-azure-active-directory) hieronder zijn beschreven om uw eigen account uit de tenant te verwijderen.
@@ -72,15 +72,15 @@ Bepaal aan de hand van de volgende stappen of u lid bent van een onbeheerde tena
 1. Open de volgende URL in een browser en let daarbij op dat u uw e-mailadres in de URL vervangt: https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1
 
 2. Als u lid bent van een **onbeheerde tenant**, ziet u een `"IsViral": true` in het antwoord.
-   ```
-   {
-   ...
-   "Login": "foobar@unmanagedcontoso.com",
-   "DomainName": "unmanagedcontoso.com",
-   "IsViral": true,
-   ...
-   }
-   ```
+```
+{
+  ...
+  "Login": "foobar@unmanagedcontoso.com",
+  "DomainName": "unmanagedcontoso.com",
+  "IsViral": true,
+  ...
+}
+```
 
 3. Anders behoort u toe aan een **beheerde tenant**.
 
@@ -210,7 +210,7 @@ Get-AdminApp -Owner $deleteDsrUserId | Set-AdminAppOwner -AppOwner $newAppOwnerU
 ```
 
 ### <a name="delete-a-users-canvas-app-using-the-powerapps-site"></a>De canvas-app van een gebruiker verwijderen via de PowerApps-site
-Een gebruiker kan een app van verwijderen van de [PowerApps-site](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). Zie Een app verwijderen voor instructies voor het verwijderen van een app.
+Een gebruiker kan een app van verwijderen van de [PowerApps-site](https://web.powerapps.com). Zie Een app verwijderen voor instructies voor het verwijderen van een app.
 
 ### <a name="delete-a-users-canvas-app-using-the-powerapps-admin-center"></a>De canvas-app van een gebruiker verwijderen via het PowerApps-beheercentrum
 Een beheerder kan apps die zijn gemaakt door een gebruiker vanuit het [PowerApps-beheercentrum](https://admin.powerapps.com/) verwijderen door de volgende stappen te volgen:

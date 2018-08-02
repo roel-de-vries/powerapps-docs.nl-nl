@@ -3,18 +3,18 @@ title: Reageren op aanvragen van betrokkenen voor Common Data Service (CDS) for 
 description: Overzicht van hoe te reageren op aanvragen van betrokkenen voor Common Data Service (CDS) for Apps-klantgegevens
 author: jamesol-msft
 ms.reviewer: paulliew
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: b550d5fe7e36c36177fff017adcf9d9034c93dd4
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
+ms.openlocfilehash: de7af5aa10f2f39057806c6ad170dc32e85c9f02
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218045"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349013"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-common-data-service-for-apps-customer-data"></a>Reageren op aanvragen van betrokkenen voor CDS for Apps-klantgegevens (Common Data Service)
 
@@ -52,7 +52,7 @@ In dit artikel komen de volgende acties aan bod:
 
 CDS for Apps en de vorige versie van CDS (Common Data Service) hebben verschillende processen voor interactie met persoonsgegevens.
 
-U kunt achterhalen welk type CDS-omgeving u gebruikt door u aan te melden bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en deze stappen te volgen:
+U kunt achterhalen welk type CDS-omgeving u gebruikt door u aan te melden bij [PowerApps](https://web.powerapps.com) en deze stappen te volgen:
 
 1. Selecteer uw omgeving in de vervolgkeuzelijst **Omgeving**.
 2. Klik of tik in het navigatievenster op **Gegevens** om de sectie uit te vouwen en klik of tik op **Entiteiten**.
@@ -102,8 +102,8 @@ U vindt persoonsgegevens uit CDS for Apps-gebruikers in de volgende bronnen:
 
 |Bron | Doel | Website-toegang | Toegang op programmeerniveau
 | --- | --- | --- | ---
-| Entiteitsrecord | Dit is de entiteit Gebruiker van het systeem, waarin persoonsgegevens van een gebruiker worden opgeslagen. | [PowerApps-beheercentrum](https://admin.powerapps.com) | Via de [Web-API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update)
-| Controlegeschiedenis | Biedt klanten de mogelijkheid om resources te identificeren die gebruikers op entiteitsniveau hebben gemaakt, geopend, gewijzigd of verwijderd. | [PowerApps-beheercentrum](https://admin.powerapps.com) | Via de [Web-API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update)
+| Entiteitsrecord | Dit is de entiteit Gebruiker van het systeem, waarin persoonsgegevens van een gebruiker worden opgeslagen. | [PowerApps-beheercentrum](https://admin.powerapps.com) | Via de [Web-API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update)
+| Controlegeschiedenis | Biedt klanten de mogelijkheid om resources te identificeren die gebruikers op entiteitsniveau hebben gemaakt, geopend, gewijzigd of verwijderd. | [PowerApps-beheercentrum](https://admin.powerapps.com) | Via de [Web-API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/update-delete-entities-using-web-api#basic-update)
 
 #### <a name="user"></a>User
 Persoonsgegevens van een gebruiker worden opgeslagen in de Azure Active Directory. Ze worden automatisch gesynchroniseerd naar alle CDS for Apps-omgevingen. Systeembeheerders kunnen deze persoonsgegevens niet rechtstreeks in CDS for Apps bijwerken wanneer de gebruiker actief is &mdash; ze moeten de gegevens in het Office 365-beheercentrum bijwerken. Systeembeheerders kunnen persoonsgegevens (bijvoorbeeld aangepaste kenmerken) rechtstreeks aan CDS for Apps toevoegen, maar ze moeten deze gegevens handmatig beheren.
@@ -199,7 +199,7 @@ In het [PowerApps-beheercentrum](https://admin.powerapps.com/) gaat u als volgt 
 
 3. Ga naar **Instellingen** > **Beveiliging** > **Gebruikers** en selecteer **Uitgeschakelde gebruikersweergave**.
 
-4. Maak en download een Excel-sjabloonbestand van de persoonsgegevens van de gebruiker. Zie [Een nieuwe Excel-sjabloon maken](https://docs.microsoft.com/dynamics365/customer-engagement/admin/analyze-your-data-with-excel-templates#create-a-new-excel-template) voor stapsgewijze instructies.
+4. Maak en download een Excel-sjabloonbestand van de persoonsgegevens van de gebruiker. Zie [Een nieuwe Excel-sjabloon maken](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/analyze-your-data-with-excel-templates#create-a-new-excel-template) voor stapsgewijze instructies.
 
 8. Open het gedownloade Excel-sjabloonbestand, verwijder de persoonsgegevens van de gebruiker en sla het bestand op.
 
@@ -308,7 +308,7 @@ U vindt de persoonsgegevens van gebruikers van de vorige versie van CDS in de vo
 
 |Bron | Doel | Website-toegang |  Toegang op programmeerniveau
 | --- | --- | --- | ---
-|Entiteitsrecords | Voor het vastleggen van zakelijke transacties in de respectieve bedrijfsentiteit. | [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) |    Nee
+|Entiteitsrecords | Voor het vastleggen van zakelijke transacties in de respectieve bedrijfsentiteit. | [PowerApps](https://web.powerapps.com) |      Nee
 
 #### <a name="entity-records"></a>Entiteitsrecords
 Persoonsgegevens van een persoon kunnen worden opgeslagen in elke bedrijfsentiteit.

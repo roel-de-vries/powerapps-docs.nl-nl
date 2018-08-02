@@ -2,18 +2,18 @@
 title: Omgevingsbeveiliging configureren | Microsoft Docs
 description: In dit onderwerp wordt uitgelegd hoe u omgevingsbeveiliging kunt configureren.
 author: manasmams
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 620152a684e5bf0399bd938172f328892b137325
-ms.sourcegitcommit: 44ecb3ace4c865bc592dfb7f0b5fffa289d3b035
+ms.openlocfilehash: af7c4bd051d7fd822b74b43bec6e8110df24a450
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "36306115"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349496"
 ---
 # <a name="configure-environment-security"></a>Omgevingsbeveiliging configureren
 Common Data Service (CDS) for Apps gebruikt een op rollen gebaseerd beveiligingsmodel om de toegang tot de database te beveiligen. In dit onderwerp wordt uitgelegd hoe u de beveiligingsartefacten maakt die u nodig hebt om een app te beveiligen. De gebruikersrollen bepalen de runtime-toegang tot gegevens en staan los van de omgevingsrollen voor omgevingsbeheerders en omgevingsmakers. Zie [Environments overview](environments-overview.md) (Overzicht van omgevingen) voor een overzicht van omgevingen.
@@ -60,7 +60,7 @@ De PowerApps-omgeving bevat vooraf gedefinieerde beveiligingsrollen die overeenk
 |Systeembeheerder     |  Maken, Lezen, Schrijven, Verwijderen, Aanpassingen, Beveiligingsrollen       | Personen met deze rol hebben volledige machtiging voor het aanpassen of beheren van de omgeving, inclusief het maken, wijzigen en toewijzen van beveiligingsrollen. Hiermee kunt u alle gegevens in de omgeving weergeven. Zie [Vereiste bevoegdheden voor aanpassen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization) voor meer informatie        |
 |Systeemaanpasser     | Maken (zelf), Lezen (zelf), Schrijven (zelf), Verwijderen (zelf), Aanpassingen         | Hiermee hebt u volledige machtiging voor het aanpassen van de omgeving. De systeemaanpasser kan echter alleen records weergeven voor de omgevingsentiteiten die de aanpasser maakt. Zie [Vereiste bevoegdheden voor aanpassen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization) voor meer informatie.        |
 |Omgevingsmaker     |  Geen       | Hiermee kunt u met Microsoft Flow nieuwe aan een omgeving gekoppelde resources maken, waaronder apps, verbindingen, aangepaste API's, gateways en stromen. Hiermee hebt u echter geen toegang tot gegevens in een omgeving. Zie [Overzicht van omgevingen](https://powerapps.microsoft.com/blog/powerapps-environments/) voor meer informatie.        |
-|Common Data Service-gebruiker     |  Lezen, Maken (zelf), Schrijven (zelf), Verwijderen (zelf)       | Hiermee kunt u een app uitvoeren in de omgeving en veelvoorkomende taken uitvoeren, zoals het lezen van alle [Application- en Crm Common-entiteiten](https://github.com/Microsoft/CDM/tree/master/schemaDocuments#click-this-image-to-explore-the-cdm-entities-using-the-entity-navigator), en het maken, schrijven en verwijderen van eigen records uit deze entiteiten (behalve Account, Contactpersoon en Verbinding, waarbij kan worden geschreven naar alle records ongeacht wie de eigenaar ervan is).          |
+|Common Data Service-gebruiker     |  Lezen, Maken (zelf), Schrijven (zelf), Verwijderen (zelf)       | Hiermee kunnen gebruikers een app in de omgeving uitvoeren en veelvoorkomende taken uitvoeren voor de records waarvan ze eigenaar zijn.        |
 |Delegeren     | Handelen namens een andere gebruiker        | Hiermee kunt u code uitvoeren als een andere gebruiker of door een andere gebruiker te imiteren.  Deze rol wordt doorgaans gebruikt met een andere beveiligingsrol zodat toegang tot records kan worden verkregen. Zie [Een andere gebruiker imiteren](https://docs.microsoft.com/dynamics365/customer-engagement/developer/org-service/impersonate-another-user) voor meer informatie        |
 
 * Bevoegdheid heeft globaal bereik, tenzij anders aangegeven.
@@ -107,6 +107,7 @@ Zie [Beveiligingsrollen](https://docs.microsoft.com/dynamics365/customer-engagem
 9. Selecteer de bevoegdheden **Lezen, Schrijven, Toevoegen**.
 
 10. Selecteer **Opslaan en sluiten**.
+
 
 
 <!--Reference links in article-->

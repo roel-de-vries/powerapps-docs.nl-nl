@@ -3,18 +3,18 @@ title: Een Common Data Service (CDS) voor Apps database maken| Microsoft Docs
 description: Stapsgewijze handleiding voor het maken van een Common Data Service (CDS) voor Apps database.
 services: powerapps
 author: manasmams
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: ccd2b03f5f71b2a5037274363ddf9c4082f7071c
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
+ms.openlocfilehash: 940789049a345c9f03bc008dc87b60e84b61af70
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218689"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39348806"
 ---
 # <a name="create-a-common-data-service-for-apps-database"></a>Een Common Data Service voor Apps database maken
 U kunt een database maken en apps bouwen met gebruik van Common Data Service (CDS) voor Apps als gegevensopslag. U kunt uw eigen aangepaste entiteiten maken of de vooraf gedefinieerde entiteiten gebruiken. Als u een database wilt maken, moet u eerst een omgeving maken of als **omgevingsbeheerder** aan een bestaande omgeving worden toegewezen. Daarnaast moet u aan de juiste licentie zijn toegewezen. Zie [Prijzen](pricing-billing-skus.md) voor informatie over het aanschaffen van een abonnement voor het gebruik van CDS for Apps.
@@ -42,7 +42,7 @@ Er zijn diverse manieren om een database te maken:
 
 
 ## <a name="create-a-database-in-the-entities-pane-of-powerapps"></a>Een database maken in het venster Entiteiten in PowerApps
-1. Vouw op [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
+1. Vouw op [powerapps.com](https://web.powerapps.com) de sectie **Gegevens** uit en klik of tik op **Entiteiten** in het linkernavigatiedeelvenster.
 
 2. Klik op **Database maken** om de database te maken.
 

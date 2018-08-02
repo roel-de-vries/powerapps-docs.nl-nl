@@ -2,18 +2,18 @@
 title: Licenties in uw organisatie beheren | Microsoft Docs
 description: Veelgestelde vragen en antwoorden over licenties, beheer en het aanmelden van gebruikers voor PowerApps in uw Office 365-tenant
 author: jamesol-msft
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: jamesol
-ms.openlocfilehash: 8a734ef57a3820e38d52ad2bd87a2ab8979c0348
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: 1f46541fcfe485bf497a59d25432ac1dec8d7b3e
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168039"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349772"
 ---
 # <a name="manage-powerapps-licenses-in-your-organization"></a>PowerApps-licenties in uw organisatie beheren
 In dit artikel wordt beschreven hoe gebruikers in uw organisatie toegang kunnen krijgen tot PowerApps en hoe u de toegang tot de PowerApps-service kunt beheren.

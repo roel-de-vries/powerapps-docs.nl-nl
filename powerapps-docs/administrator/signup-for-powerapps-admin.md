@@ -2,18 +2,18 @@
 title: PowerApps aanschaffen voor uw organisatie | Microsoft Docs
 description: Instructies voor hoe u zich registreert als beheerder voor PowerApps.
 author: manasmams
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 4b26c16259a7699f1178641ead8c1b5908106468
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
+ms.openlocfilehash: bfba09ace77fb0ab62a4c5b4cb6a01e040f07d2f
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34168499"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349427"
 ---
 # <a name="purchase-powerapps-for-your-organization"></a>PowerApps aanschaffen voor uw organisatie
 In dit artikel wordt beschreven hoe u PowerApps voor uw organisatie kunt aanschaffen als beheerder. U kunt PowerApps rechtstreeks aanschaffen via de website van PowerApps, het Office 365-beheercentrum of uw Microsoft-vertegenwoordiger of -partner. In dit artikel vindt u ook de beschikbare opties voor een proefabonnement op PowerApps-abonnement 1 of 2 en wordt uitgelegd hoe u PowerApps-abonnement 1 of 2 kunt aanschaffen voor een organisatie. Zie voor meer informatie [Veelgestelde vragen over PowerApps in uw organisatie](signup-question-and-answer.md).

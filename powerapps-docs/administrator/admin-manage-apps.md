@@ -6,15 +6,15 @@ ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
-ms.author: jimh
-ms.openlocfilehash: 8ef92fec0245bbe27529be0acb214cad7d2b928e
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.author: jimholtz
+ms.openlocfilehash: 9d900d2ebceb2ad3cca0c567b80d5d1fac4963ff
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552548"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349956"
 ---
-# <a name="manage-apps-created-in-your-organization"></a>De apps beheren die in uw organisatie zijn gemaakt
+# <a name="manage-apps-created-in-your-organization"></a>De apps beheren die in uw organisatie zijn gemaakt 
 Als u een omgevingsbeheerder, globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory bent, kunt u de apps beheren die in uw organisatie zijn gemaakt.
 
 Beheerders kunnen in het PowerApps-beheercentrum het volgende doen:

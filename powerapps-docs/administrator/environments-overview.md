@@ -2,18 +2,18 @@
 title: Overzicht van omgevingen | Microsoft Docs
 description: Meer informatie over omgevingen in PowerApps en hoe u ze kunt gebruiken
 author: manasmams
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: b38f0d1b029708e8130363d54ccc1354084b0ae4
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
+ms.openlocfilehash: 3e954db3ed224afa100d89be6aa03d7a2139a9d7
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218160"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349933"
 ---
 # <a name="environments-overview"></a>Overzicht van omgevingen
 Een omgeving is een ruimte om de bedrijfsgegevens, -apps en -stromen van uw organisatie op te slaan, te beheren en te delen. Een omgeving doet ook dienst als container voor het scheiden van apps met verschillende rollen, beveiligingsvereisten of doelgroepen. Hoe u voordeel haalt uit omgevingen, is afhankelijk van uw organisatie en de apps die u probeert te maken. Bijvoorbeeld:
@@ -39,13 +39,13 @@ Omgevingen hebben twee ingebouwde rollen die toegang bieden tot machtigingen in 
 
 * Personen met de rol Environment Admin (omgevingsbeheerder) kunnen in een omgeving alle beheerderstaken uitvoeren, met inbegrip van:
 
-  * Een gebruiker of groep toevoegen aan of verwijderen uit de rol Environment Admin of Environment Maker
+    * Een gebruiker of groep toevoegen aan of verwijderen uit de rol Environment Admin of Environment Maker
 
-  * Een Common Data Service-database voor de omgeving inrichten
+    * Een Common Data Service-database voor de omgeving inrichten
 
-  * Alle resources die in een omgeving zijn gemaakt, weergeven en beheren
+    * Alle resources die in een omgeving zijn gemaakt, weergeven en beheren
 
-  * Beleid instellen ter preventie van gegevensverlies. Zie [Data loss prevention policies (Beleid ter preventie van gegevensverlies)](prevent-data-loss.md) voor meer informatie.
+    * Beleid instellen ter preventie van gegevensverlies. Zie [Data loss prevention policies (Beleid ter preventie van gegevensverlies)](prevent-data-loss.md) voor meer informatie.
 
     Nadat de database in de omgeving is gemaakt, kunt u de rol Systeembeheerder gebruiken in plaats van de rol Omgevingsbeheerder.
 
@@ -75,7 +75,7 @@ De standaardomgeving heet: "{naam van Azure AD-tenant} (standaard)"
 U kunt voor verschillende doeleinden omgevingen maken. Een evaluatieomgeving is bedoeld voor het proberen van de omgeving en de database met Common Data Service-ervaring. Deze omgeving verloopt na een bepaalde periode. Zie [Omgevingen beheren in PowerApps](environments-administration.md) voor meer informatie.
 
 ## <a name="choosing-an-environment"></a>Een omgeving kiezen
-Door de introductie van omgevingen ziet u een nieuwe ervaring wanneer u naar [https://web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) gaat.  De apps, verbindingen en andere items die zichtbaar zijn op de site worden nu gefilterd op basis van de huidige omgeving die is geselecteerd.  Uw huidige omgeving is vermeld in de omgevingskiezer rechts van de kop. Als u een andere omgeving wilt kiezen, klikt of tikt u op de kiezer om een lijst met beschikbare omgevingen weer te geven. Klik of tik op de omgeving waartoe u toegang wenst.
+Door de introductie van omgevingen ziet u een nieuwe ervaring wanneer u naar [https://web.powerapps.com](https://web.powerapps.com) gaat.  De apps, verbindingen en andere items die zichtbaar zijn op de site worden nu gefilterd op basis van de huidige omgeving die is geselecteerd.  Uw huidige omgeving is vermeld in de omgevingskiezer rechts van de kop. Als u een andere omgeving wilt kiezen, klikt of tikt u op de kiezer om een lijst met beschikbare omgevingen weer te geven. Klik of tik op de omgeving waartoe u toegang wenst.
 
 In de kiezer worden omgevingen weergegeven als u aan een van de volgende voorwaarden voldoet:
 
