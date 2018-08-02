@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 12/08/2017
 ms.author: anneta
-ms.openlocfilehash: c47ddbbc2d50d05f1d4a913aaf7e9c743d5519e0
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 6175633b2fbec4e9949882c587916adb349290d4
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020648"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195445"
 ---
 # <a name="use-cognitive-services-in-powerapps"></a>Cognitive Services gebruiken in PowerApps
 In dit artikel leert u hoe u een eenvoudige app kunt maken die de tekstanalyse-API van [Microsoft Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview) gebruikt om tekst te analyseren. We laten u zien hoe u de tekstanalyse-API kunt instellen en hoe u deze aan de [connector voor tekstanalyse](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/) kunt koppelen. Vervolgens laten we u zien hoe u een app kunt maken die de API oproept.
@@ -71,7 +71,7 @@ U hebt nu de tekstanalyse-API aan de praat gekregen en kunt deze nu via PowerApp
 ### <a name="create-the-app-and-add-a-connection"></a>De app maken en een verbinding toevoegen
 U maakt eerst een lege telefoonapp en voegt een verbinding met de **Tekstanalyse**-connector toe. Raadpleeg [Een volledig nieuwe app maken](get-started-create-from-blank.md) en [Uw verbindingen beheren in PowerApps](add-manage-connections.md) als u meer informatie over deze taken wilt.
 
-1. In [web.powerapps.com](https://web.powerapps.com) kiest u **Beginnen met een lege app** > ![pictogram telefoon-app](./media/cognitive-services-api/icon-phone-app.png) (telefoonnummer) > **Deze app maken**.
+1. Op [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) kiest u **Beginnen met een lege app** > ![pictogram telefoon-app](./media/cognitive-services-api/icon-phone-app.png) (telefoon) > **Deze app maken**.
 
     ![Beginnen met een lege app](./media/cognitive-services-api/start-from-blank.png)
 

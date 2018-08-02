@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: 6145f321f3a9322433cdc32b779479871ab4dbf1
-ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
+ms.openlocfilehash: 4ee281e211891dab812c4ae447dff3d967ffeff3
+ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39094766"
+ms.lasthandoff: 07/22/2018
+ms.locfileid: "39195767"
 ---
 # <a name="install-and-configure-the-help-desk-powerapps-sample"></a>De voorbeeld-app Helpdesk van PowerApps installeren en configureren
 
@@ -36,7 +36,7 @@ Helpdesk biedt een gebruiksvriendelijke ervaring om eindgebruikers te verbinden 
 
 ## <a name="prerequisites"></a>Vereisten
 
-- [Meld u aan](https://web.powerapps.com/) voor PowerApps.
+- [Meld u aan](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) voor PowerApps.
 - Moet een geldige SharePoint Online-licentie hebben en machtiging om lijsten te maken.
 
 ## <a name="create-the-helpdesk-sharepoint-list"></a>De SharePoint-lijst Helpdesk maken
@@ -140,7 +140,7 @@ In deze lijst worden de Helpdesk-tickets opgeslagen.
 
 ## <a name="create-connections"></a>Verbindingen maken
 
-1.  Navigeer in een webbrowser naar https://web.powerapps.com.
+1.  Navigeer in een browser naar [web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 2.  Meld u aan met dezelfde referenties die u hebt gebruikt om u te registreren.
 3.  Selecteer **Gegevens** en vervolgens **Verbindingen** in het menu aan de linkerkant.
     

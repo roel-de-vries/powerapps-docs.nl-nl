@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/10/2018
 ms.author: anneta
-ms.openlocfilehash: 92153c1d7fc72f6905faf55817f7f785ffdaa1ce
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: d5603ffacc0246dcffd1c54ab63b4e404250a7d5
+ms.sourcegitcommit: fc235972d0d4661f55df7a71e2dcedafd42706b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016485"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39202293"
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>Veelvoorkomende problemen en oplossingen voor PowerApps
 In dit artikel staan enkele veelvoorkomende problemen die u mogelijk ondervindt bij het gebruik van PowerApps. Waar van toepassing worden oplossingen gegeven.
@@ -31,7 +31,7 @@ In dit artikel staan enkele veelvoorkomende problemen die u mogelijk ondervindt 
 
 1. **Een aangepaste afbeelding gebruiken als een app-pictogram**
 
-    In PowerApps Studio voor Windows versie 3.18043 kunt u geen aangepaste afbeelding uploaden om te gebruiken als een app-pictogram. U kunt dit probleem omzeilen door [PowerApps Studio voor internet](https://web.powerapps.com) te gebruiken om een aangepaste afbeelding te uploaden. U kunt eventueel ook een van de pictogrammen gebruiken die bij PowerApps Studio voor Windows wordt geleverd en de achtergrondkleur aanpassen.
+    In PowerApps Studio voor Windows versie 3.18043 kunt u geen aangepaste afbeelding uploaden om te gebruiken als een app-pictogram. U kunt dit probleem omzeilen door [PowerApps Studio voor internet](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) te gebruiken om een aangepaste afbeelding te uploaden. U kunt eventueel ook een van de pictogrammen gebruiken die bij PowerApps Studio voor Windows wordt geleverd en de achtergrondkleur aanpassen.
 
 1. **Schermen kopiëren en plakken over verschillende apps**
 
@@ -71,11 +71,15 @@ In dit artikel staan enkele veelvoorkomende problemen die u mogelijk ondervindt 
 
 6. **Een app uitvoeren in Windows 8.1**
 
-    Als u [deze update voor Windows 8.1](https://technet.microsoft.com/library/security/ms16-118) installeert, kunt u apps die u in PowerApps Studio opent, niet uitvoeren op dat besturingssysteem. U kunt nog wel apps uitvoeren in [powerapps.com](https://web.powerapps.com) of met behulp van PowerApps Mobile.
+    Als u [deze update voor Windows 8.1](https://technet.microsoft.com/library/security/ms16-118) installeert, kunt u apps die u in PowerApps Studio opent, niet uitvoeren op dat besturingssysteem. U kunt nog wel apps uitvoeren in [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) of met behulp van PowerApps Mobile.
 
 7. **Kolomnamen met spaties**
 
     Als u een SharePoint-lijst of een Excel-tabel gebruikt waarin de naam van een kolom een spatie bevat, wordt deze door PowerApps vervangen door **'\_x0020\_'**. **'Kolom twaalf'** in SharePoint of Excel wordt bijvoorbeeld weergegeven als **'Kolom_x0020_twaalf'** in PowerApps wanneer de naam wordt weergegeven in de gegevensindeling of wordt gebruikt in een formule.
+
+8. <a name="out-of-memory"></a>**Browser met bijna onvoldoende geheugen**
+
+    Als u onvoldoende geheugen overhoudt tijdens het gebruik van PowerApps, downloadt u de 64-bits versie van Chrome, Edge of Internet Explorer.
 
 ## <a name="older"></a>Ouder
 1. **Een stroom wijzigen in een gedeelde app**
