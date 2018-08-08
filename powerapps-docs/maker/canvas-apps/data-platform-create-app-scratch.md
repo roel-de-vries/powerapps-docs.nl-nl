@@ -1,6 +1,6 @@
 ---
-title: Een volledig nieuwe app maken met behulp van Common Data Service voor apps| Microsoft Docs
-description: Een app maken voor het toevoegen, bijwerken en verwijderen van records.
+title: Een volledig nieuwe canvas-app maken met Common Data Service for Apps| Microsoft Docs
+description: Maak in PowerApps een canvas-app om records in Common Data Service for Apps toe te voegen, bij te werken en te verwijderen.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: b7506ff3380855c6e3c51b22918366dde9c8549c
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: df2ed422cdfbaf8689dae7c8f3e6b54eba093b74
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195123"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471346"
 ---
-# <a name="create-an-app-from-scratch-using-common-data-service-for-apps"></a>Een volledig nieuwe app maken met behulp van Common Data Service voor apps
+# <a name="create-a-canvas-app-from-scratch-using-common-data-service-for-apps"></a>Een volledig nieuwe canvas-app maken met Common Data Service for Apps
 
-Een app bouwen voor het beheren van gegevens die zijn opgeslagen in Common Data Service voor apps, met (ingebouwde) standaardentiteiten, (door uw organisatie gemaakte) aangepaste entiteiten, of beide.
+Ontwikkel een canvas-app om gegevens die zijn opgeslagen in Common Data Service for Apps te beheren met behulp van (ingebouwde) standaardentiteiten, (door uw organisatie gemaakte) aangepaste entiteiten of beide.
 
 Wanneer u een app bouwt op basis van de Common Data Service, hoeft u geen verbinding vanuit PowerApps te maken, zoals u dat wel doet met gegevensbronnen als SharePoint, Dynamics 365 en Salesforce. U hoeft alleen de entiteiten op te geven die u wilt weergeven, beheren of gebruiken voor beide activiteiten in de app.
 
