@@ -1,6 +1,6 @@
 ---
-title: Een app genereren vanuit een SharePoint-lijst | Microsoft Docs
-description: Genereer een app met drie schermen om items vanuit een SharePoint-lijst te beheren. De site kan on-premises of in de cloud staan.
+title: Een canvas-app genereren vanuit een SharePoint-lijst | Microsoft Docs
+description: Genereer een canvas-app met drie schermen om items vanuit een SharePoint-lijst te beheren. De site kan on-premises of in de cloud staan.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 46cf610351cf00d8d947c4006c31a3d5971951d0
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 9230c96c1b1c5e07ea5129f73a8edd95772aad84
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39022450"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471415"
 ---
-# <a name="generate-an-app-from-within-sharepoint-using-powerapps"></a>Een app genereren vanuit SharePoint met behulp van PowerApps
+# <a name="generate-a-canvas-app-from-within-sharepoint-by-using-powerapps"></a>Een canvas-app genereren vanuit SharePoint met behulp van PowerApps
 
-Genereer in PowerApps automatisch een app waarin gebruikers items in een aangepaste SharePoint Online-lijst kunnen beheren. De app heeft drie schermen waarmee gebruikers het volgende kunnen doen:
+Genereer in PowerApps automatisch een canvas-app waarin gebruikers items in een aangepaste SharePoint Online-lijst kunnen beheren. De app heeft drie schermen waarin gebruikers het volgende kunnen doen:
 
 * door alle records in de lijst bladeren (**BrowseScreen1**)
 * alle velden voor een bepaalde record weergeven (**DetailsScreen1**)

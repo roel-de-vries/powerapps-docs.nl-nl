@@ -1,6 +1,6 @@
 ---
-title: Tekst weergeven en de datum- of tijdnotatie instellen | Microsoft Docs
-description: Datums en tijden toevoegen en instellen met PowerApps
+title: Tekst, datums en tijden weergeven in een canvas-app | Microsoft Docs
+description: In PowerApps tekst, datums en tijden weergeven in een canvas-app
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,15 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/16/2016
 ms.author: anneta
-ms.openlocfilehash: d6f88534b4839381037243400ef69f292df8fb97
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 8f4bf8908b8e83fe5976a52356db163cbb3a9813
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195698"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470679"
 ---
-# <a name="show-text-and-format-dates-and-times-in-powerapps"></a>Tekst weergeven en de datum- en tijdnotatie instellen in PowerApps
-Voeg datums en tijden toe en pas de notatie aan aan het gewenste detailniveau of uw taalgebied. Bereken de tijd tussen twee datums of geef een bepaalde datum op en bereken wat de datum een bepaalde periode voor of na die datum is. Converteer datums van of naar afzonderlijke waarden voor dagen, maanden en jaren en converteer tijden van of naar afzonderlijke waarden voor uren, minuten en seconden.
+# <a name="show-text-dates-and-times-in-powerapps"></a>Tekst, datums en tijden weergeven in PowerApps
+Voeg in PowerApps datums en tijden toe aan een canvas-app en pas de notatie aan het gewenste detailniveau of uw taalgebied aan. Bereken de tijd tussen twee datums of geef een bepaalde datum op en bereken wat de datum een bepaalde periode voor of na die datum is. Converteer datums van of naar afzonderlijke waarden voor dagen, maanden en jaren en converteer tijden van of naar afzonderlijke waarden voor uren, minuten en seconden.
 
 Voeg bijvoorbeeld gebruikersgegevens toe over aandelentransacties of cliëntvergaderingen of gegevens uit een andere app die in PowerApps is gemaakt. Als deze gegevens tijden bevatten die tot de milliseconde nauwkeurig zijn, kunt u deze voor het gemak afronden naar de dichtstbijzijnde minuut. Bereken het aantal dagen tot een belangrijke mijlpaal. Als u plannen iedere vijf dagen vergaderingen met klanten wilt inplannen, kunnen deze datums automatisch worden berekend. Als de datum 10 mei 1985 is opgeslagen in afzonderlijke velden voor dag, maand en jaar, kunt u deze samenbrengen tot één waarde. Of, als uw app deze waarden apart beheert, kunt u elke datum ook in aparte waarden opsplitsen.
 

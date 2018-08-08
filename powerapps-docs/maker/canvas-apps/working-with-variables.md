@@ -1,6 +1,6 @@
 ---
-title: Over variabelen | Microsoft Docs
-description: Naslaginformatie voor het werken met status, contextvariabelen en verzamelingen
+title: Variabelen in canvas-apps | Microsoft Docs
+description: Naslaginformatie over het werken met status, contextvariabelen en verzamelingen in canvas-apps
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/06/2017
 ms.author: gregli
-ms.openlocfilehash: b5986c927b75ed7a6e38af913cbfb9877121d0a5
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: db7e770b2f2e7fa974dbf25a7a7fecf5b8229aa9
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017819"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469920"
 ---
-# <a name="understand-variables-in-powerapps"></a>Over variabelen in PowerApps
-Als u andere programmeerprogramma's zoals Visual Basic of JavaScript hebt gebruikt, vraagt u zich misschien het volgende af: **waar zijn de variabelen?** PowerApps is iets anders, en er is ook een andere benadering voor nodig. In plaats van dat u een variabele gebruikt, moet u zich afvragen: **wat zou ik doen in Excel?**
+# <a name="understand-canvas-app-variables-in-powerapps"></a>Variabelen in canvas-apps in PowerApps
+
+Als u andere programmeerprogramma's zoals Visual Basic of JavaScript hebt gebruikt, vraagt u zich misschien het volgende af: **waar zijn de variabelen?** PowerApps is iets anders, en er is ook een andere benadering voor nodig. In plaats van een variabele te gebruiken wanneer u een canvas-app ontwikkelt, moet u zich afvragen: **Wat zou ik doen in Excel?**
 
 In andere hulpprogramma's hebt u mogelijk expliciet een berekening uitgevoerd en het resultaat opgeslagen in een variabele. In PowerApps en Excel worden formules echter automatisch opnieuw berekend wanneer de invoergegevens worden gewijzigd, dus is het doorgaans niet nodig om variabelen te maken en bij te werken. Als u deze benadering zo vaak mogelijk gebruikt, wordt het eenvoudiger om uw app te maken, begrijpen en onderhouden.
 
@@ -26,6 +27,7 @@ In sommige gevallen moet u variabelen gebruiken in PowerApps. Hiermee wordt het 
 Over het algemeen is het beter om het gebruik van variabelen te vermijden. Toch is het gewenste resultaat soms alleen mogelijk met een variabele.
 
 ## <a name="translate-excel-into-powerapps"></a>Excel vertalen naar PowerApps
+
 ### <a name="excel"></a>Excel
 Laten we bekijken hoe Excel werkt. Een cel kan een waarde bevatten, zoals een getal of een tekenreeks, of een formule die is gebaseerd op de waarden van andere cellen. Nadat de gebruiker een andere waarde in een cel heeft ingevoerd, worden eventuele formules die afhankelijk zijn van de nieuwe waarde opnieuw berekend. Voor dit gedrag hoeft u niets te programmeren.
 

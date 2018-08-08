@@ -1,6 +1,6 @@
 ---
-title: De voorbeeld-app Helpdesk van PowerApps installeren en configureren | Microsoft Docs
-description: Stapsgewijze instructies voor het installeren en configureren van de voorbeeld-app Helpdesk van PowerApps.
+title: De voorbeeld-app Helpdesk voor canvas-apps installeren en configureren | Microsoft Docs
+description: Stapsgewijze instructies voor het in PowerApps installeren en configureren van de voorbeeld-app Helpdesk voor canvas-apps.
 author: caburk
 manager: kvivek
 ms.service: powerapps
@@ -9,24 +9,24 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: 4ee281e211891dab812c4ae447dff3d967ffeff3
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 3d6b418ac6738071f16ec4cf75c81c2850d67f74
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195767"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470403"
 ---
-# <a name="install-and-configure-the-help-desk-powerapps-sample"></a>De voorbeeld-app Helpdesk van PowerApps installeren en configureren
+# <a name="install-and-configure-the-help-desk-sample-in-powerapps"></a>De voorbeeld-app Helpdesk installeren en configureren in PowerApps
 
-Stapsgewijze instructies voor het installeren en configureren van de voorbeeld-app Helpdesk van PowerApps.
+Stapsgewijze instructies voor het in PowerApps installeren en configureren van de voorbeeld-app Helpdesk voor canvas-apps.
 
 Geschatte tijd voor het uitvoeren van deze stappen: **10-15 minuten**
 
 > [!TIP]
-> Bekijk deze [video](https://youtu.be/z4cdtD6hB_4) als u een demonstratie wilt zien van dit proces.
+> Bekijk in deze [video](https://youtu.be/z4cdtD6hB_4) een demonstratie van deze procedure.
 
+## <a name="overview-of-the-sample"></a>Overzicht van de voorbeeld-app
 
-## <a name="help-desk-powerapps-sample-overview"></a>Overzicht van de voorbeeld-app Helpdesk van PowerApps
 Helpdesk biedt een gebruiksvriendelijke ervaring om eindgebruikers te verbinden met ondersteuningsmedewerkers. Zoek snel antwoorden op uw belangrijkste vragen, houd openstaande tickets bij en controleer de details van eerdere aanvragen. U moet enkele instellingen opgeven voordat u met de app kunt werken.
 
 ![Openingsscherm van de PowerApp Helpdesk](./media/help-desk-install/Login-screen.png)

@@ -1,6 +1,6 @@
 ---
-title: Uw InfoPath-formulieren transformeren naar PowerApps | Microsoft Docs
-description: Ga aan de slag met het transformeren van uw InfoPath-formulieren naar PowerApps. U vindt hier meer informatie over algemene InfoPath-scenario's en over het maken van deze items in PowerApps.
+title: Uw InfoPath-formulier transformeren in een canvas-app | Microsoft Docs
+description: Begin met het transformeren van uw InfoPath-formulier in PowerApps met informatie over veelvoorkomende scenario's en het maken van deze items in een canvas-app.
 author: richardriley99
 manager: kvivek
 ms.service: powerapps
@@ -9,22 +9,22 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/05/2018
 ms.author: rriley
-ms.openlocfilehash: b57d62d3e64ea08905ddcc8627cf6921d421fb18
-ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
+ms.openlocfilehash: a249d0a9096117badfe3e4eb7ad9dcf6b75662a1
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39094720"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470104"
 ---
-# <a name="transform-your-infopath-forms-to-powerapps"></a>Uw InfoPath-formulieren transformeren naar PowerApps
+# <a name="transform-your-infopath-form-to-powerapps"></a>Uw InfoPath-formulier transformeren in PowerApps
 
 Maakt u geweldige dingen in InfoPath en wilt u weten hoe u deze op een robuuster platform kunt leveren?
 
 ## <a name="key-advantages-of-powerapps-over-infopath"></a>Belangrijke voordelen van PowerApps ten opzichte van InfoPath
 
-Als u net zo bent als de meeste InfoPath-gebruikers, maakt u al geweldige formulieren. Terwijl u zeer tevreden bent met de formulieren die u hebt gemaakt, kent u de beperkingen ervan: de &quot;klassieke&quot; weergave, een niet zo optimale ervaring voor mobiele apparaten, de onzekerheid of u uw formulieren ook in de toekomst kunt blijven gebruiken en de beperking met betrekking tot verbinding maken met andere services zonder code te schrijven.
+Net als de meeste InfoPath-hoofdgebruikers maakt u al een tijdje mooie formulieren. U bent zeer tevreden met de formulieren, maar u kent ook hun beperkingen: de &quot;klassieke&quot; weergave die niet optimaal overkomt op mobiele apparaten, de onzekerheid of u uw formulieren ook in de toekomst kunt blijven gebruiken en het feit dat u altijd code moet schrijven om verbinding te maken met andere services.
 
-Het PowerApps-team is hiervan op de hoogte. Ze hebben er daarom hard aan gewerkt om een betere ervaring voor u in PowerApps te integreren. Hun doel is dat u apps kunt maken door gebruik te maken van uw bedrijf en bestaande technologische vaardigheden. Met PowerApps kunt u snel de juiste bedrijfsoplossingen bouwen en implementeren zonder code te hoeven schrijven.
+Het PowerApps-team heeft kennisgenomen van deze en vele andere uitdagingen. Ze hebben hard gewerkt om een betere ervaring te realiseren en u in staat te stellen om canvas-apps te maken door gebruik te maken van uw zakelijke en technologische vaardigheden. Met PowerApps kunt u snel de juiste bedrijfsoplossingen ontwikkelen en implementeren zonder code te schrijven.
 
 **PowerApps voor een krachtige toekomst**  
 PowerApps is een SaaS-platform (software als een dienst) waarmee u snel werkende apps kunt bouwen die u online kunt implementeren of naar SharePoint, Dynamics 365, Teams, Power BI of mobiele apparaten, zonder extra stappen. En doordat de apps zo eenvoudig te implementeren zijn (u geeft alleen de URL naar de gepubliceerde app), zijn ze ook heel eenvoudig bij te werken.

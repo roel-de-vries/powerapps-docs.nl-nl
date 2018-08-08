@@ -1,6 +1,6 @@
 ---
-title: Koppelingen naar inhoud van aangepaste connectors | Microsoft Docs
-description: Koppelingen naar inhoud voor het maken, gebruiken, delen en certificeren van aangepaste connectors.
+title: Koppelingen naar inhoud over aangepaste connectors | Microsoft Docs
+description: Koppelingen naar inhoud voor het maken, gebruiken, delen en certificeren van aangepaste connectors in PowerApps.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,18 +9,18 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/05/2017
 ms.author: mblythe
-ms.openlocfilehash: 411082faef59516d9d6b660e08b5cbaf263da042
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 78a2dd6f9c5772a738ca38e79162be82f3a57139
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39022143"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471116"
 ---
 # <a name="custom-connectors-in-powerapps"></a>Aangepaste connectors in PowerApps
 
-Zonder code te schrijven, kunt u werkstromen en apps maken met [Azure Logic Apps](https://azure.microsoft.com/services/logic-apps), [Microsoft Flow](https://flow.microsoft.com) en [PowerApps](https://powerapps.microsoft.com). Deze services helpen u uw gegevens en bedrijfsprocessen te integreren met [meer dan 180 connectors](https://docs.microsoft.com/connectors/) voor Microsoft-services en -producten, evenals andere services zoals GitHub, Salesforce en Twitter. 
+U kunt zonder code te schrijven werkstromen en canvas-apps ontwikkelen met [Azure Logic Apps](https://azure.microsoft.com/services/logic-apps), [Microsoft Flow](https://flow.microsoft.com) en [PowerApps](https://powerapps.microsoft.com). Met deze services die [meer dan 180 connectors](https://docs.microsoft.com/connectors/) bieden voor Microsoft-services en -producten en andere services, zoals GitHub, Salesforce en Twitter, kunt u uw gegevens- en bedrijfsprocessen integreren.
 
-U wilt echter soms API's, services en systemen aanroepen die niet beschikbaar zijn als vooraf gemaakte connectors. Ter ondersteuning van meer op maat gemaakte scenario's kunt u *aangepaste connectors* maken met hun eigen triggers en acties. Er is een volledige reeks basale en geavanceerde zelfstudies voor aangepaste connectors beschikbaar op de site met documentatie over connectors. We raden u aan met het [overzicht van aangepaste connectors](https://docs.microsoft.com/connectors/custom-connectors/) te beginnen, maar u kunt ook meteen naar de volgende onderwerpen gaan voor informatie over specifieke gebieden:
+Misschien wilt u soms echter API's, services en systemen aanroepen die niet beschikbaar zijn als vooraf gemaakte connectors. Ter ondersteuning van meer op maat gemaakte scenario's kunt u *aangepaste connectors* maken met hun eigen triggers en acties. Er is een volledige reeks basale en geavanceerde zelfstudies voor aangepaste connectors beschikbaar op de site met documentatie over connectors. We raden u aan met het [overzicht van aangepaste connectors](https://docs.microsoft.com/connectors/custom-connectors/) te beginnen, maar u kunt ook meteen naar de volgende onderwerpen gaan voor informatie over specifieke gebieden:
 
 * [Een aangepaste connector maken op basis van een OpenAPI-definitie](https://docs.microsoft.com/connectors/custom-connectors/define-openapi-definition)
 

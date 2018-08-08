@@ -1,6 +1,6 @@
 ---
-title: Gegevensbronnen begrijpen | Microsoft Docs
-description: Referentie-informatie voor het werken met verbindingen en gegevensbronnen in Microsoft PowerApps.
+title: Gegevensbronnen voor canvas-apps | Microsoft Docs
+description: Naslaginformatie over het werken met verbindingen en gegevensbronnen voor canvas-apps.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,29 +9,33 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 03/08/2017
 ms.author: gregli
-ms.openlocfilehash: d8fd771d9407d0ca2601471a06c727b16a751f2a
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: a4dd3d2d21aa8e4f8501c9bc9812ba6658683f03
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020878"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470380"
 ---
-# <a name="understand-data-sources-in-powerapps"></a>Gegevensbronnen begrijpen in PowerApps
-Voor de meeste PowerApps-apps wordt externe informatie gebruikt die is opgeslagen in cloudservices. Deze worden **Gegevensbronnen** genoemd. Een veel voorkomend voorbeeld is bijvoorbeeld een tabel in een Excel-bestand die is opgeslagen in OneDrive voor Bedrijven. Apps krijgen toegang tot deze gegevensbronnen via **Verbindingen**.
+# <a name="understand-data-sources-for-canvas-apps-in-powerapps"></a>Gegevensbronnen voor canvas-apps in PowerApps
 
-In dit artikel worden de verschillende soorten gegevensbronnen besproken en het werken met gegevensbronnen van tabellen.
+In PowerApps maken de meeste canvas-apps gebruik van externe gegevens die zijn opgeslagen in cloudservices, **gegevensbronnen** genoemd. Een veel voorkomend voorbeeld is bijvoorbeeld een tabel in een Excel-bestand die is opgeslagen in OneDrive voor Bedrijven. Apps krijgen toegang tot deze gegevensbronnen via **Verbindingen**.
 
-Het is gemakkelijk om een app te maken die basale lees- en schrijfactiviteiten naar een gegevensbron kan uitvoeren. Maar soms wilt u meer controle over hoe gegevens in en uit uw app stromen.  In dit artikel wordt beschreven hoe de functies **[Patch](functions/function-patch.md)**, **[DataSourceInfo](functions/function-datasourceinfo.md)**, **[Validate](functions/function-validate.md)** en **[Errors](functions/function-errors.md)** u meer controle bieden.
+In dit artikel worden de verschillende soorten gegevensbronnen besproken en wordt beschreven hoe u tabelgegevensbronnen gebruikt.
+
+Het is gemakkelijk om een app te maken die eenvoudige lees- en schrijfopdrachten voor een gegevensbron kan uitvoeren. Maar soms wilt u meer controle over hoe gegevens in en uit uw app stromen.  In dit artikel wordt beschreven hoe de functies **[Patch](functions/function-patch.md)**, **[DataSourceInfo](functions/function-datasourceinfo.md)**, **[Validate](functions/function-validate.md)** en **[Errors](functions/function-errors.md)** u meer controle bieden.
 
 ## <a name="kinds-of-data-sources"></a>Soorten gegevensbronnen
+
 Gegevensbronnen kunnen worden verbonden met een cloudservice of lokaal in een app staan.
 
 ### <a name="connected-data-sources"></a>Verbonden gegevensbronnen
-De meestvoorkomende gegevensbron is een **tabel**, die u kunt gebruiken om informatie op te halen en op te slaan. U kunt **verbindingen** met gegevensbronnen gebruiken om gegevens te lezen en schrijven in Microsoft Excel-werkmappen, SharePoint-lijsten, SQL-tabellen en nog veel meer. U kunt de gegevens vervolgens opslaan in cloudservices zoals OneDrive voor Bedrijven, DropBox, SQL Server, enzovoort.
+
+De meestvoorkomende gegevensbron is een **tabel**, die u kunt gebruiken om informatie op te halen en op te slaan. U kunt **verbindingen** met gegevensbronnen gebruiken om gegevens te lezen en te schrijven in Microsoft Excel-werkmappen, SharePoint-lijsten, SQL-tabellen en nog veel meer. U kunt de gegevens vervolgens opslaan in cloudservices zoals OneDrive voor Bedrijven, DropBox en SQL Server.
 
 Voorbeelden van andere gegevensbronnen zijn e-mail, agenda's, Twitter en meldingen. Deze gegevensbronnen worden hier echter niet behandeld.
 
 ### <a name="local-data-sources"></a>Lokale gegevensbronnen
+
 Met de besturingselementen **[Galerie](controls/control-gallery.md)**, **[Formulier weergeven](controls/control-form-detail.md)** en **[Formulier bewerken](controls/control-form-detail.md)** kunt u eenvoudig een app maken die gegevens leest uit en schrijft naar een gegevensbron.  Lees het artikel [Gegevensformulieren begrijpen](working-with-forms.md) om aan de slag te gaan.  
 
 Als u PowerApps vraagt een app van gegevens te maken, worden deze besturingselementen gebruikt. Achter de schermen maakt de app gebruik van een interne tabel voor het opslaan en manipuleren van de gegevens die afkomstig zijn uit de gegevensbron.
@@ -39,6 +43,7 @@ Als u PowerApps vraagt een app van gegevens te maken, worden deze besturingselem
 Een speciaal soort gegevensbron is de [Verzameling](working-with-data-sources.md#collections). Deze staat lokaal in de app en wordt niet ondersteund door een verbinding met een service in de cloud. Daarom kunnen de gegevens niet worden gedeeld met apparaten voor dezelfde gebruiker of tussen gebruikers. Verzamelingen kunnen worden geladen en lokaal opgeslagen.
 
 ### <a name="kinds-of-tables"></a>Soorten tabellen
+
 Tabellen die intern in een PowerApps-app staan zijn vaste waarden, net zoals een getal of een tekenreeks een waarde is. Interne tabellen worden niet overal opgeslagen maar zijn alleen aanwezig in het geheugen van uw app. U kunt de structuur en gegevens van een tabel niet rechtstreeks wijzigen. U kunt in plaats daarvan een nieuwe tabel maken via een formule: u gebruikt die formule om een aangepaste kopie van de oorspronkelijke tabel te maken.
 
 Externe tabellen worden opgeslagen in een gegevensbron om later op te halen en te delen.  PowerApps bevat "verbindingen" om opgeslagen gegevens te lezen en te schrijven.  Binnen een verbinding kunt u meerdere tabellen met gegevens openen.  U selecteert welke tabellen u wilt gebruiken in uw app en elke tabel wordt een afzonderlijke *gegevensbron*.  

@@ -1,6 +1,6 @@
 ---
-title: Een keuzelijst, een vervolgkeuzelijst en keuzerondjes toevoegen | Microsoft Docs
-description: Opties voor meervoudige selectie maken of configureren in PowerApps
+title: Een keuzelijst, een vervolgkeuzelijst en keuzerondjes toevoegen aan een canvas-app | Microsoft Docs
+description: In PowerApps opties voor meervoudige selectie in een canvas-app maken of configureren
 author: lonu
 manager: kvivek
 ms.service: powerapps
@@ -9,19 +9,21 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/23/2016
 ms.author: lonu
-ms.openlocfilehash: ecdd1cc5aa9ccbad7c2973f8ad899b213dcd96f3
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: b4988157a8f194f7b1148cff79de1b5ce44add14
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023822"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471024"
 ---
-# <a name="add-a-list-box-a-drop-down-list-or-radio-buttons"></a>Een keuzelijst, een vervolgkeuzelijst of keuzerondjes toevoegen
-PowerApps bevat opties voor meervoudige en enkelvoudige selectie, waaronder keuzelijsten, vervolgkeuzelijsten en keuzerondjes. In dit onderwerp worden deze besturingselementen toegevoegd en wordt de formule **Table** gebruikt om de lijsten te creëren. Wanneer een item in de lijst wordt geselecteerd, worden de andere besturingselementen bijgewerkt.
+# <a name="add-a-list-box-a-drop-down-list-or-radio-buttons-to-a-canvas-app-in-powerapps"></a>In PowerApps een keuzelijst, een vervolgkeuzelijst of keuzerondjes toevoegen aan een canvas-app
+
+PowerApps bevat opties voor meervoudige en enkelvoudige selectie voor canvas-apps, zoals keuzelijsten, vervolgkeuzelijsten en keuzerondjes. In dit onderwerp worden deze besturingselementen toegevoegd en wordt de formule **Table** gebruikt om de lijsten te creëren. Wanneer een item in de lijst wordt geselecteerd, worden de andere besturingselementen bijgewerkt.
 
 [!INCLUDE [app-customization-requirements](../../includes/app-customization-requirements.md)]
 
 ## <a name="add-a-list-box"></a>Een keuzelijst toevoegen
+
 1. Selecteer op het tabblad **Invoegen** de optie **Besturingselementen** en selecteer vervolgens **Keuzelijst**:  
 
     ![][2]  

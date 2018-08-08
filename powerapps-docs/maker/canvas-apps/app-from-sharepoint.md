@@ -1,6 +1,6 @@
 ---
-title: Snelstartgids voor het genereren van een app in PowerApps vanuit SharePoint | Microsoft Docs
-description: Automatisch een app genereren in PowerApps voor het beheren van gegevens in een SharePoint-lijst
+title: In PowerApps een canvas-app genereren vanuit SharePoint | Microsoft Docs
+description: Automatisch een canvas-app genereren in PowerApps om gegevens in een SharePoint-lijst te beheren
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/12/2018
 ms.author: anneta
-ms.openlocfilehash: fd3e1e293b3c10b25351ba3958af46b887447e26
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: cb68c454053a36f49b72afa1718ca0d67ad364af
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195376"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469874"
 ---
-# <a name="quickstart-for-generating-an-app-in-powerapps-from-sharepoint"></a>Snelstartgids voor het genereren van een app in PowerApps vanuit SharePoint
+# <a name="generate-a-canvas-app-in-powerapps-from-sharepoint-data"></a>In PowerApps een canvas-app genereren uit SharePoint-gegevens
 
-In deze snelstartgids gebruikt u PowerApps voor het automatisch genereren van uw eerste app op basis van een lijst die u in SharePoint maakt. In deze app kunt u naar alle items in de lijst bladeren, details van een item weergeven en een item maken, bijwerken of verwijderen.
+In dit onderwerp gebruikt u PowerApps voor het automatisch genereren van uw eerste canvas-app op basis van een lijst die u in SharePoint maakt. In deze app kunt u naar alle items in de lijst bladeren, details van een item weergeven en een item maken, bijwerken of verwijderen.
 
 U kunt concepten en technieken uit deze snelstartgids opdoen als er een lijst in SharePoint aanwezig is. Als u deze snelstartgids exact wilt volgen, maakt u een lijst met de naam **SimpleApp**, die een kolom met de naam **Titel** bevat, in een SharePoint Online-site. Maak in de lijst vermeldingen voor **Vanille**, **Chocolade** en **Aardbeien**.
 

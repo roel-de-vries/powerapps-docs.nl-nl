@@ -1,7 +1,7 @@
 ---
-title: Een scherm toevoegen en tussen schermen navigeren | Microsoft Docs
-description: Een scherm toevoegen aan een app en de pijlen Vorige en Volgende gebruiken om in PowerApps tussen schermen te navigeren
-author: aftowen
+title: Een scherm toevoegen aan een canvas-app en tussen schermen navigeren | Microsoft Docs
+description: Een scherm toevoegen aan een canvas-app en de pijlen Vorige en Volgende gebruiken om in PowerApps tussen schermen te navigeren
+author: AFTOwen
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
@@ -9,21 +9,24 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 07/10/2017
 ms.author: anneta
-ms.openlocfilehash: c7a100b6df278812ea93da8c4f5c503a841d4109
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 17ec7dd0723e219e1eaf9ad3b112faf049cf7d12
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39022005"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469943"
 ---
-# <a name="add-a-screen-and-navigate-between-screens"></a>Een scherm toevoegen en tussen schermen navigeren
-Maak een app met meerdere schermen en voeg manieren toe waarop gebruikers ertussen kunnen navigeren.
+# <a name="add-a-screen-to-a-canvas-app-and-navigate-between-screens"></a>Een scherm toevoegen aan een canvas-app en tussen schermen navigeren
+
+Maak een canvas-app met meerdere schermen en voeg methoden toe waarmee gebruikers tussen deze schermen kunnen navigeren.
 
 ## <a name="prerequisites"></a>Vereisten
+
 * Lees hoe u [een besturingselement kunt configureren](add-configure-controls.md).
 * Maak of open een app.
 
 ## <a name="add-and-rename-a-screen"></a>Een scherm toevoegen en de naam wijzigen
+
 1. Op het tabblad **Startpagina** klikt of tikt u op **Nieuw scherm**.
 
     ![De optie Scherm toevoegen op het tabblad Startpagina](./media/add-screen-context-variables/add-screen.png)

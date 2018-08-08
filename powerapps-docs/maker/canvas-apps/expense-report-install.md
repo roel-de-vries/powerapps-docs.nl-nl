@@ -1,6 +1,6 @@
 ---
-title: De voorbeeld-app Onkostenrapporten van PowerApps installeren en configureren | Microsoft Docs
-description: Stapsgewijze instructies voor het installeren en configureren van de voorbeeld-app Onkostenrapporten van PowerApps.
+title: De voorbeeld-app Onkostenrapport voor canvas-apps installeren en configureren | Microsoft Docs
+description: Stapsgewijze instructies voor het in PowerApps installeren en configureren van de voorbeeld-app Onkostenrapport voor canvas-apps.
 author: caburk
 manager: kvivek
 ms.service: powerapps
@@ -9,24 +9,25 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: aca695c8c2ae90e0d5d843dcb0dfb562cbef5a05
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: f0fc0d9407511730145002bf109957b0878398bc
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195721"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470035"
 ---
-# <a name="install-and-configure-the-expense-report-powerapps-sample"></a>De voorbeeld-app Onkostenrapporten van PowerApps installeren en configureren
+# <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-powerapps"></a>De voorbeeld-app Onkostenrapport voor canvas-apps installeren en configureren in PowerApps
 
-Stapsgewijze instructies voor het installeren en configureren van de voorbeeld-app Onkostenrapporten van PowerApps.
+Stapsgewijze instructies voor het installeren en configureren van de voorbeeld-app Onkostenrapport.
 
 Geschatte tijd voor het uitvoeren van deze stappen: **10-15 minuten**
 
-Bekijk deze video als u een demonstratie wilt zien van dit proces.
+Bekijk deze video om een demonstratie van deze procedure te bekijken.
 
-[![Video over de installatie van Onkostenrapporten](./media/expense-report-install/expense-report-install-video.png)](https://youtu.be/DOR28V5kCkw)
+[![Video over de installatie van Onkostenrapport](./media/expense-report-install/expense-report-install-video.png)](https://youtu.be/DOR28V5kCkw)
 
-## <a name="expense-report-powerapps-sample-overview"></a>Overzicht van de voorbeeld-app Onkostenrapporten van PowerApps
+## <a name="overview-of-the-sample"></a>Overzicht van de voorbeeld-app
+
 Houd onkostenrapporten bij van indiening tot goedkeuring. Regelitems afstemmen wanneer individuele kosten toenemen en indienen voor goedkeuring indien gereed. U moet enkele instellingen opgeven voordat u met de app kunt werken.
 
 ![Openingsscherm van de PowerApp Onkosten](./media/expense-report-install/expense-report-powerapp.png)

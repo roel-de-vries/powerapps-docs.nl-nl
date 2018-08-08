@@ -1,6 +1,6 @@
 ---
-title: Een app delen | Microsoft Docs
-description: Deel uw app door anderen toestemming te geven die uit te voeren of te wijzigen
+title: Een canvas-app delen | Microsoft Docs
+description: Uw canvas-app delen door anderen te machtigen om deze uit te voeren of te wijzigen
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 07/11/2018
 ms.author: anneta
-ms.openlocfilehash: 9c4bdc6e56f84b6724fcbe44cfe1f3e4c065edb3
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: eaea8049b573b619881ae0a2b6ecb2618e4bf192
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195307"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470633"
 ---
-# <a name="share-an-app-in-powerapps"></a>Een app delen in PowerApps
+# <a name="share-a-canvas-app-in-powerapps"></a>Een canvas-app delen in PowerApps
 
-Nadat u een app hebt ontwikkeld die aansluit op een bedrijfsbehoefte, geeft u op welke gebruikers in uw organisatie de app kunnen uitvoeren en welke gebruikers de app kunnen wijzigen en zelfs opnieuw kunnen delen. U kunt elke gebruiker op naam opgeven of een beveiligingsgroep in Azure Active Directory opgeven. Als iedereen gebruikmaakt van uw app, geeft u op dat uw hele organisatie de app kan uitvoeren.
+Nadat u een canvas-app hebt ontwikkeld die aansluit op een bedrijfsbehoefte, geeft u op welke gebruikers in uw organisatie de app kunnen uitvoeren en welke gebruikers de app kunnen wijzigen en zelfs opnieuw kunnen delen. U kunt elke gebruiker op naam opgeven of een beveiligingsgroep in Azure Active Directory opgeven. Als iedereen gebruikmaakt van uw app, geeft u op dat uw hele organisatie de app kan uitvoeren.
 
 > [!IMPORTANT]
 > U moet ook de machtigingen voor de gegevensbron of -bronnen beheren waarop de app is gebaseerd, zoals [Common Data Service for Apps](#common-data-service-for-apps) of [Excel](share-app-data.md), zodat een gedeelde app naar behoren werkt. Mogelijk moet u ook [andere resources](share-app-resources.md) delen waarvan de app afhankelijk is, zoals stromen, gateways of verbindingen.

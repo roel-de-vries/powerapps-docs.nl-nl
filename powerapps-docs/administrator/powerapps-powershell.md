@@ -2,28 +2,28 @@
 title: PowerShell-ondersteuning (preview) | Microsoft Docs
 description: Beschrijving van de verschillende PowerShell-cmdlets en een overzicht van hoe u ze installeert en uitvoert.
 author: jamesol-msft
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: reference
-ms.date: 05/23/2018
+ms.date: 07/31/2018
 ms.author: jamesol
-ms.openlocfilehash: b6ee687fdfe6da8550d76193a7c9219aae5ae291
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
+ms.openlocfilehash: e45b23d4efc474bcd48069b9823d1ef80cf5ea4a
+ms.sourcegitcommit: a0a8782d3c8d24cecf0796d405a61f745f0ffd91
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218827"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39367610"
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>PowerShell-ondersteuning voor PowerApps (preview-versie)
-U kunt met de preview-introductie van de PowerShell-cmdlets voor app-ontwerpers en -beheerders een groot deel van de bewakings- en beheertaken automatiseren die nu alleen handmatig kunnen worden uitgevoerd in [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) of het [PowerApps-beheercentrum](https://admin.powerapps.com).
+U kunt met de preview-introductie van de PowerShell-cmdlets voor app-ontwerpers en -beheerders een groot deel van de bewakings- en beheertaken automatiseren die nu alleen handmatig kunnen worden uitgevoerd in [PowerApps](https://web.powerapps.com) of het [PowerApps-beheercentrum](https://admin.powerapps.com).
 
 ## <a name="installation"></a>Installatie
 Ga als volgt te werk om de PowerShell-cmdlets voor app-ontwerpers uit te voeren:
 
 1. Download het [bestand met PowerShell-scripts](https://go.microsoft.com/fwlink/?linkid=2006349).
 
-2. Pak het bestand uit in een map. 
+2. Pak het bestand uit in een map.
 
 3. Open in dezelfde map een PowerShell-opdrachtvenster (als beheerder).
 
@@ -71,7 +71,7 @@ Gebruikers met een geldige PowerApps-licentie kunnen de bewerkingen in deze cmdl
 | Doel | Cmdlet |
 | --- | --- |
 | Omgevingen lezen | Get-PowerAppEnvironment *(voorheen Get-PowerAppsEnvironment)* <br> Get-FlowEnvironment
-| Een canvas-app lezen, bijwerken en verwijderen | Get-App <br> Remove-App <br> Publish-App <br> Set-AppDisplayName <br> Get-AppVersion <br> Restore-AppVersion
+| Een canvas-app lezen, bijwerken en verwijderen | Get-PowerApp *(voorheen Get-App)* <br> Remove-PowerApp *(voorheen Remove-App)* <br> Publish-PowerApp *(voorheen Publish-App)* <br> Set-AppDisplayName *(voorheen Set-PowerAppDisplayName)*<br> Get-PowerAppVersion *(voorheen Get-AppVersion)* <br> Restore-PowerAppVersion *(voorheen Restore-AppVersion)*
 | Machtigingen voor canvas-apps lezen, bijwerken en verwijderen | Get-PowerAppRoleAssignment *(voorheen Get-AppRoleAssignment)* <br> Set-PowerAppRoleAssignment *(voorheen Set-AppRoleAssignment)* <br> Remove-PowerAppRoleAssignment *(voorheen Remove-AppRoleAssignment)*
 | Een stroom lezen, bijwerken en verwijderen | Get-Flow <br> Get-FlowRun <br> Enable-Flow <br> Disable-Flow <br> Remove-Flow
 | Machtigingen voor stromen lezen, bijwerken en verwijderen | Get-FlowOwnerRole <br> Set-FlowOwnerRole <br> Remove-FlowOwnerRole
@@ -122,9 +122,9 @@ Om de beheerbewerkingen in de beheer-cmdlets uit te voeren, hebt u het volgende 
 > [!NOTE]
 > Gebruik de volgende opdrachten om de syntaxis te begrijpen en om een voorbeeld voor elk van de cmdlets te bekijken:
 >```
->Get-Help Get-AdminEnvironment
->Get-Help Get-AdminEnvironment -Examples
->Get-Help Get-AdminEnvironment -Detailed
+>Get-Help Get-AdminPowerAppEnvironment
+>Get-Help Get-AdminPowerAppEnvironment -Examples
+>Get-Help Get-AdminPowerAppEnvironment -Detailed
 >```
 
 ## <a name="questions"></a>Vragen?

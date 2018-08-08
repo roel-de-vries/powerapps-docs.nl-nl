@@ -1,6 +1,6 @@
 ---
-title: Een relatie maken tussen SharePoint-lijsten via een opzoekveld | Microsoft Docs
-description: Maak een relatie tussen SharePoint-lijsten met behulp van een opzoekveld.
+title: Een relatie tussen SharePoint-lijsten maken via een opzoekveld in een canvas-app | Microsoft Docs
+description: Maak in PowerApps een relatie tussen SharePoint-lijsten met behulp van een opzoekveld in een canvas-app.
 author: skjerland
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 01/20/2017
 ms.author: sharik
-ms.openlocfilehash: 342fcc36fb8dba9cfaa42c94089329ad19501af8
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 9ad61bdf115a79fe8284dad520a2e9710a59648b
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39194922"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470518"
 ---
-# <a name="how-to-link-sharepoint-lists-using-lookup-fields"></a>SharePoint-lijsten koppelen met behulp van opzoekvelden
-In deze zelfstudie leert hoe u twee SharePoint-lijsten kunt koppelen met opzoekvelden.
+# <a name="how-to-link-sharepoint-lists-using-a-lookup-field-in-powerapps"></a>SharePoint-lijsten koppelen met behulp van een opzoekveld in PowerApps
+
+In deze zelfstudie wordt beschreven hoe u twee SharePoint-lijsten kunt koppelen met een opzoekveld in een canvas-app.
 
 ## <a name="overview"></a>Overzicht
+
 SharePoint biedt twee soorten opzoekvelden:
 
 * **Opzoeken**: maakt een koppeling met een andere lijst. Een lijst met *Orders* kan bijvoorbeeld zijn gekoppeld aan klanten in een lijst *Klanten*;
@@ -27,7 +29,8 @@ SharePoint biedt twee soorten opzoekvelden:
 
 In deze zelfstudie bouwt u een app die gebruikmaakt van dit soort opzoekvelden.
 
-### <a name="what-do-you-use-lookup-fields-for"></a>Waar gebruikt u opzoekvelden voor?
+### <a name="why-use-a-lookup-field"></a>Een opzoekveld gebruiken
+
 De gegevens in een onderneming zijn uitgebreid en complex. Gegevens in de ene SharePoint-lijst zijn vaak gekoppeld aan gegevens in een andere lijst. Opzoekvelden zijn de belangrijkste manier om dergelijke bedrijfsgegevens samen te brengen.
 
 Zo kunt u bijvoorbeeld een lijst met **Orders** hebben, met opzoekvelden die zijn gekoppeld aan een lijst met **Klanten**, om weer te geven welke klant een bestelling heeft geplaatst. Door het zoekveld in de lijst met **Orders** kunt u ook andere gegevens ophalen uit de lijst met **Klanten**. U zou ook een opzoekveld kunnen gebruiken om de lijst met **Orders** te koppelen aan een lijst met **Producten**, om zo de vereiste informatie over bestelde producten op te halen, zoals productafbeeldingen, specificaties, de details van de fabrikant, enzovoort.

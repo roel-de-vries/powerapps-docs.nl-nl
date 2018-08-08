@@ -1,6 +1,6 @@
 ---
-title: Details over de huidige gebruiker weergeven | Microsoft Docs
-description: Voeg de functie Gebruiker toe om de naam en het e-mailadres van de aangemelde gebruiker weer te geven in PowerApps
+title: Details over de huidige gebruiker in een canvas-app weergeven | Microsoft Docs
+description: In PowerApps de naam en het e-mailadres van de aangemelde gebruiker in een canvas-app weergeven
 author: lonu
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: lonu
-ms.openlocfilehash: 90a7ca39626e8eec8151bc3d5ced25a5701a126e
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 53d235a54aca1523cf243a315f5309bced1f15a9
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016255"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471185"
 ---
-# <a name="show-information-about-a-powerapps-user"></a>Gegevens over een PowerApps-gebruiker weergeven
-De functie Gebruiker kan de volledige naam, het e-mailadres en de afbeelding die gekoppeld zijn aan de aangemelde gebruiker weergeven. U kunt deze informatie gebruiken om automatisch formulieren in te vullen.
+# <a name="show-information-about-a-powerapps-user-in-a-canvas-app"></a>Gegevens over een PowerApps-gebruiker in een canvas-app weergeven
+
+Geef in PowerApps de volledige naam, het e-mailadres en de afbeelding die is gekoppeld aan de aangemelde gebruiker in een canvas-app weer. U kunt deze informatie bijvoorbeeld gebruiken om automatisch een formulier in te vullen.
 
 U kunt deze functie bijvoorbeeld gebruiken voor:
 
@@ -30,6 +31,7 @@ U kunt deze functie eigenlijk overal gebruiken waar gebruikers er baat bij hebbe
 [!INCLUDE [app-customization-requirements](../../includes/app-customization-requirements.md)]
 
 ## <a name="show-user-details"></a>Gebruikersdetails weergeven
+
 1. Klik of tik op het tabblad **Invoegen** op **Media** en klik of tik vervolgens op **Afbeelding**.
    
    ![][2]

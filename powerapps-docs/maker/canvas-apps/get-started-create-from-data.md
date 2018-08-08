@@ -1,6 +1,6 @@
 ---
-title: Een app genereren vanuit Excel | Microsoft Docs
-description: PowerApps gebruiken voor het automatisch genereren van een app met een Excel-bestand dat is opgeslagen in een cloud-opslagaccount
+title: Een canvas-app genereren vanuit Excel | Microsoft Docs
+description: PowerApps gebruiken voor het automatisch genereren van een canvas-app met behulp van een Excel-bestand dat is opgeslagen in een cloudopslagaccount
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/18/2018
 ms.author: anneta
-ms.openlocfilehash: 2af0c39aca43d316e79b4f928e114dcfb88caf31
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: f6051ca8348e8417302f49261d7ccac56a8aa9c9
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39194847"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470081"
 ---
-# <a name="generate-an-app-from-excel-in-powerapps"></a>Een app genereren vanuit Excel in PowerApps
-In dit onderwerp genereert u uw eerste app automatisch in PowerApps met gegevens uit een Excel-tabel. U selecteert een Excel-bestand, genereert een app en voert vervolgens de app uit die u hebt gegenereerd. Elke gegenereerde app bevat schermen om te bladeren in records, recordgegevens weer te geven en records te maken of bij te werken. Door het genereren van een app kunt u snel een werkende app krijgen met Excel-gegevens. Vervolgens kunt u de app aan uw eigen behoeften aanpassen. 
+# <a name="generate-a-canvas-app-from-excel-in-powerapps"></a>In PowerApps een canvas-app genereren vanuit Excel
+
+In dit onderwerp genereert u automatisch uw eerste canvas-app in PowerApps met gegevens uit een Excel-tabel. U selecteert een Excel-bestand, genereert een app en voert vervolgens de app uit die u hebt gegenereerd. Elke gegenereerde app bevat schermen om te bladeren in records, recordgegevens weer te geven en records te maken of bij te werken. Door het genereren van een app kunt u snel een werkende app krijgen met Excel-gegevens. Vervolgens kunt u de app aan uw eigen behoeften aanpassen. 
 
 Het Excel-bestand moet zich in een cloudopslagaccount bevinden, zoals OneDrive, Google Drive of Dropbox. In dit onderwerp wordt gebruikgemaakt van OneDrive voor bedrijven.
 

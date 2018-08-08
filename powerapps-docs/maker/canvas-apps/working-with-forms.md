@@ -1,6 +1,6 @@
 ---
-title: Wat zijn formulieren? | Microsoft Docs
-description: Gebruik formulieren voor het verzamelen en weergeven van informatie van een gegevensbron.
+title: Formulieren voor canvas-apps | Microsoft Docs
+description: Voeg in PowerApps een formulier toe aan een canvas-app zodat u gegevens uit een gegevensbron kunt verzamelen en weergeven.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/27/2016
 ms.author: gregli
-ms.openlocfilehash: b2eb001ee426dc3449b440a357c67bc47b702d42
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: c7bd68f37cc469b054a75012d4166c05375db6ff
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195744"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470242"
 ---
-# <a name="understand-data-forms-in-microsoft-powerapps"></a>Gegevensformulieren begrijpen in Microsoft PowerApps
-Voer drie typen besturingselementen toe zodat de gebruiker naar een record kan bladeren, details over deze record kan weergeven, en een record kan bewerken of maken:
+# <a name="understand-canvas-app-forms-in-microsoft-powerapps"></a>Formulieren voor canvas-apps in Microsoft PowerApps
+
+U kunt drie typen besturingselementen toevoegen aan een canvas-app zodat de gebruiker naar een record kan bladeren, details over deze record kan weergeven en een record kan bewerken of maken:
 
 | Activiteit | Besturingselement | Beschrijving |
 | --- | --- | --- |

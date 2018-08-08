@@ -1,6 +1,6 @@
 ---
-title: Een lijst met items weergeven | Microsoft Docs
-description: Gebruik een galerie om een lijst met items in uw app weer te geven, en filter de lijst door een criterium op te geven.
+title: Een lijst met items weergeven in een canvas-app | Microsoft Docs
+description: Gebruik een galerie om een lijst met items in uw canvas-app weer te geven en filter de lijst door een criterium op te geven.
 author: karthik-1
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 09/28/2017
 ms.author: sharik
-ms.openlocfilehash: 4806d65416816897542973644da592f7e6b2e252
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 753a4508890f5ab007bef2a1f4d81bb46043a089
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020970"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470495"
 ---
 # <a name="show-a-list-of-items-in-powerapps"></a>Een lijst met items weergeven in PowerApps
-U kunt een lijst met items van een gegevensbron weergeven door het besturingselement **[Galerie](controls/control-gallery.md)** toe te voegen aan uw app. In dit onderwerp wordt Excel gebruikt als gegevensbron. Filter de lijst door het besturingselement **Galerie** zodanig te configureren dat alleen de items die voldoen aan het filtercriterium worden weergegeven in een besturingselement **[Tekstinvoer](controls/control-text-input.md)**.
+
+U kunt een lijst met items uit een gegevensbron weergeven door het besturingselement **[Galerie](controls/control-gallery.md)** toe te voegen aan uw canvas-app. In dit onderwerp wordt Excel gebruikt als gegevensbron. Filter de lijst door het besturingselement **Galerie** zodanig te configureren dat alleen de items die voldoen aan het filtercriterium worden weergegeven in een besturingselement **[Tekstinvoer](controls/control-text-input.md)**.
 
 ## <a name="prerequisites"></a>Vereisten
+
 * Lees hoe u [een besturingselement kunt toevoegen en configureren](add-configure-controls.md) in PowerApps.
 
 * De voorbeeldgegevens instellen:

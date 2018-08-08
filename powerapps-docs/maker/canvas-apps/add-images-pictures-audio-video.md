@@ -1,6 +1,6 @@
 ---
-title: Multimediabestanden insluiten in een app en uploaden | Microsoft Docs
-description: Multimediabestanden weergeven in een app en ze uploaden naar een gegevensbron
+title: Multimediabestanden insluiten in een canvas-app en uploaden | Microsoft Docs
+description: Multimediabestanden weergeven in een canvas-app en deze uploaden naar een gegevensbron
 author: karthik-1
 manager: kvivek
 ms.service: powerapps
@@ -9,20 +9,23 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/12/2017
 ms.author: sharik
-ms.openlocfilehash: 5c6c7b2973f85c1ebc3040e41d83653250599717
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 1b0c830dd5d0fb625bc8ac407bda47023036ed7f
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195008"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470173"
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>Multimediabestanden gebruiken in PowerApps
-In dit onderwerp wordt beschreven hoe u multimediabestanden insluit in uw app, hoe u pentekeningen uploadt naar een gegevensbron en hoe u afbeeldingen van een gegevensbron weergeeft in uw app. De gegevensbron die in dit onderwerp wordt gebruikt is een Excel-bestand in OneDrive voor Bedrijven.
+
+In dit onderwerp wordt beschreven hoe u multimediabestanden insluit in uw canvas-app, pentekeningen uploadt naar een gegevensbron en afbeeldingen uit een gegevensbron weergeeft in uw canvas-app. De gegevensbron die in dit onderwerp wordt gebruikt is een Excel-bestand in OneDrive voor Bedrijven.
 
 ## <a name="prerequisites"></a>Vereisten
+
 [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) met dezelfde referenties die u hebt gebruikt om u te registreren.
 
 ## <a name="add-media-from-a-file-or-the-cloud"></a>Media uit een bestand of de cloud toevoegen
+
 U kunt kiezen welk type mediabestand u toevoegt (bijvoorbeeld afbeeldingen, video's of audio).
 
 1. Op het tabblad **Inhoud** selecteert u **Media**.

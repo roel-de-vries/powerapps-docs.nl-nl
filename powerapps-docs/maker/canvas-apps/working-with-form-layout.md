@@ -1,6 +1,6 @@
 ---
-title: De indeling van een gegevensformulier begrijpen | Microsoft Docs
-description: Overzichtelijke formulieren maken met behulp van rijen en kolommen.
+title: De opmaak van een gegevensformulier voor canvas-apps begrijpen | Microsoft Docs
+description: Maak in PowerApps met behulp van rijen en kolommen een goed ogende formulieropmaak in canvas-apps.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,29 +9,32 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/17/2017
 ms.author: gregli
-ms.openlocfilehash: 050e665a7a5c2a05ab9abfc989134028d303da4d
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 7676c2d93eb5bbf55620a4d36f1f4818d52472d0
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017727"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470610"
 ---
-# <a name="understand-data-form-layout-in-microsoft-powerapps"></a>De indeling van een gegevensformulier begrijpen in Microsoft PowerApps
-Met PowerApps kunt u gemakkelijk formulieren maken die er mooi uitzien en efficiënt te gebruiken zijn. Neem bijvoorbeeld dit eenvoudige verkooporderformulier:
+# <a name="understand-data-form-layout-for-canvas-apps-in-powerapps"></a>De opmaak van een gegevensformulier voor canvas-apps begrijpen
+
+Maak een goed ogend en efficiënt formulier wanneer u een canvas-app in PowerApps ontwikkelt. Neem bijvoorbeeld dit eenvoudige verkooporderformulier:
 
 ![Voorbeeld van verkooporderformulier](./media/working-with-form-layout/sales-order.png)
 
 In deze zelfstudie nemen we de stappen door die nodig zijn om dit formulier te maken. We kijken ook naar een paar geavanceerde onderwerpen, zoals het dynamisch schalen van velden om de beschikbare ruimte te vullen.
 
 ## <a name="before-you-start"></a>Voordat u begint
+
 Als u niet vertrouwd bent met PowerApps (of apps alleen automatisch hebt gegenereerd), moet u [ een volledig nieuwe app bouwen](get-started-create-from-blank.md) voordat u in dit onderwerp duikt. Door een volledig nieuwe app te bouwen raakt u vertrouwd met vereiste concepten, zoals het toevoegen van gegevensbronnen en besturingselementen, die in dit onderwerp worden genoemd, maar niet verder uitgelegd.
 
 ## <a name="add-a-gallery"></a>Een galerie toevoegen
+
 1. Maak een volledig nieuwe tablet-app.
-   
+
     Alles wat in dit onderwerp wordt besproken, geldt ook voor de telefoonindeling, maar telefoon-apps hebben vaak maar één verticale kolom.
 2. Voeg de entiteit **Sales order** in de [Common Data Service](../common-data-service/data-platform-intro.md) toe als gegevensbron voor de app.
-   
+
     Buiten deze zelfstudie kunt u elke gegevensbron gebruiken, met inbegrip van de SharePoint-lijsten en Excel-tabellen.
 3. Voeg een verticaal besturingselement **Galerie** toe en stel de eigenschap **Items** in op **'Verkooporder'**.
    

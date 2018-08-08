@@ -1,6 +1,6 @@
 ---
-title: Een record uit een tabel weergeven, bewerken of toevoegen | Microsoft Docs
-description: Gebruik een formulier om een record uit een tabel in uw gegevensbron weer te geven, te bewerken of toe te voegen.
+title: Een record uit een tabel in een canvas-app weergeven, bewerken of toevoegen | Microsoft Docs
+description: Gebruik een formulier voor een canvas-app om een record uit een tabel in uw gegevensbron weer te geven, te bewerken of toe te voegen.
 author: karthik-1
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/06/2017
 ms.author: sharik
-ms.openlocfilehash: b98c5d165ba6de983a874f0a34fb92c5db8a69cd
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: a8c786e499bdc1e4dacc0adbf2bee489d56229ce
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018946"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469966"
 ---
 # <a name="show-edit-or-add-a-record-from-a-table-in-powerapps"></a>Een record uit een tabel weergeven, bewerken of toevoegen in PowerApps
-Als u alle velden in een record wilt weergeven, voegt u het besturingselement **[Weergaveformulier](controls/control-form-detail.md)** toe en configureert u dit. Als u een veld in een record wilt bewerken (of als u een record wilt toevoegen) en u de wijzigingen wilt opslaan in een gegevensbron, voegt u het besturingselement **[Formulier](controls/control-form-detail.md)** bewerken toe en configureert u dit.
+
+Als u alle velden in een record wilt weergeven, voegt u het besturingselement **[Formulier weergeven](controls/control-form-detail.md)** toe in een canvas-app en configureert u dit. Als u een veld in een record wilt bewerken (of als u een record wilt toevoegen) en u de wijzigingen wilt opslaan in een gegevensbron, voegt u het besturingselement **[Formulier bewerken ](controls/control-form-detail.md)** toe in een canvas-app en configureert u dit.
 
 ## <a name="prerequisites"></a>Vereisten
 

@@ -1,6 +1,6 @@
 ---
-title: Apps ontwikkelen die geschikt zijn voor offlinegebruik | Microsoft Docs
-description: Bouw apps die geschikt zijn voor offlinegebruik, zodat uw gebruikers altijd productief kunnen zijn, online en offline.
+title: Canvas-apps ontwikkelen die geschikt zijn voor offlinegebruik | Microsoft Docs
+description: Ontwikkel canvas-apps die geschikt zijn voor offlinegebruik, zodat uw gebruikers altijd productief kunnen zijn, online en offline.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,22 +9,24 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/09/2017
 ms.author: mblythe
-ms.openlocfilehash: cb2ed2404f7270367b3a26bf8eccb733b09fee23
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 9035809f989ad4b0215d4a8eba5d693d145b7f66
+ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023132"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39471208"
 ---
-# <a name="develop-offline-capable-apps-with-powerapps"></a>Apps ontwikkelen die geschikt zijn voor offlinegebruik met PowerApps
-Een van de meest voorkomende scenario's waarmee u als ontwikkelaar van mobiele apps te maken hebt, is uw gebruikers productief te laten zijn wanneer er beperkte of helemaal geen connectiviteit is. PowerApps heeft een reeks functies en gedragingen waarmee u apps kunt ontwikkelen die geschikt zijn voor offlinegebruik. U kunt:
+# <a name="develop-offline-capable-canvas-apps-with-powerapps"></a>Canvas-apps die geschikt zijn voor offlinegebruik ontwikkelen met PowerApps
 
-* De mobiele PowerApps-app gebruiken wanneer u offline bent.
-* Apps die u ontwikkelt uitvoeren wanneer u offline bent.
+Een van de meest voorkomende scenario's waarmee u als ontwikkelaar van mobiele apps te maken hebt, is uw gebruikers productief te laten zijn wanneer er een beperkte of helemaal geen verbinding is. PowerApps beschikt over een aantal functies en gedragingen waarmee u canvas-apps kunt ontwikkelen die geschikt zijn voor offlinegebruik. U kunt:
+
+* PowerApps Mobile starten wanneer u offline bent.
+* Door u ontwikkelde apps uitvoeren wanneer u offline bent.
 * Het signaalobject [Verbinding](../canvas-apps/functions/signals.md#connection) gebruiken om te bepalen of een app offline is, online is of gebruikmaakt van een verbinding met een datalimiet.
 * [Verzamelingen](../canvas-apps/create-update-collection.md) en functies zoals [LoadData en SaveData](../canvas-apps/functions/function-savedata-loaddata.md) gebruiken voor basisgegevensopslag wanneer u offline bent.
 
 ## <a name="how-to-build-offline-capable-apps"></a>Apps bouwen die geschikt zijn voor offlinegebruik
+
 Het eerste waaraan u moet denken in offlinescenario's is hoe uw apps met gegevens werken. Apps in PowerApps krijgen voornamelijk toegang tot gegevens via een reeks [connectors](../canvas-apps/connections-list.md) die het platform biedt, zoals SharePoint, Office 365 en Common Data Service. U kunt ook aangepaste connectors bouwen waarmee apps toegang kunnen krijgen tot elke service die een RESTful-eindpunt biedt. Dit kan een web-API of een service zoals Azure Functions zijn. Al deze connectors gebruiken HTTPS via het internet, wat betekent dat uw gebruikers online moeten zijn om toegang te kunnen krijgen tot gegevens en andere functionaliteiten die een service biedt.
 
 ![PowerApps-app met connectors](./media/offline-apps/online-app.png)

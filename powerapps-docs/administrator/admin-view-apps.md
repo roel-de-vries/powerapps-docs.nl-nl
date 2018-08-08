@@ -1,26 +1,26 @@
 ---
-title: Snelstartgids voor het downloaden van een lijst met apps die in uw omgevingen zijn gemaakt | Microsoft Docs
+title: Een lijst downloaden met apps die in uw omgevingen zijn gemaakt | Microsoft Docs
 description: In deze snelstartgids leert u hoe u een lijst met apps kunt downloaden die in uw omgevingen zijn gemaakt.
 author: jimholtz
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: quickstart
 ms.date: 03/21/2018
-ms.author: jimh
-ms.openlocfilehash: d9c379ca95bb299c56639bb01803f45c1744d8f2
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.author: jimholtz
+ms.openlocfilehash: f5bf3cd5e4fb6be96b8b1853390df1ee8f9bd027
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552594"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349818"
 ---
-# <a name="quickstart-download-a-list-of-apps-created-in-your-environments"></a>Snelstartgids: een lijst downloaden met de apps die in uw omgevingen zijn gemaakt
+# <a name="download-a-list-of-apps-created-in-your-environments"></a>Een lijst downloaden met de apps die in uw omgevingen zijn gemaakt
 Als u een omgevingsbeheerder bent, kunt u een lijst bekijken en downloaden met de apps die zijn gemaakt in de omgevingen die u beheert. Als u een globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory bent, kunt u een lijst bekijken en downloaden met de apps die in alle omgevingen in uw organisatie zijn gemaakt.
 
-In deze snelstartgids leert u hoe u een lijst met de apps die in één omgeving zijn gemaakt, kunt downloaden naar een CSV-bestand, dat u vervolgens in Excel kunt bekijken.
+In dit onderwerp leest u hoe u een lijst met apps die in één omgeving zijn gemaakt, downloadt naar een CSV-bestand dat u vervolgens in Excel kunt bekijken.
 
 ## <a name="prerequisites"></a>Vereisten
- Als u de stappen in deze snelstartgids wilt volgen, zijn de volgende items vereist:
+ Als u de stappen wilt uitvoeren, zijn de volgende items vereist:
  * Een licentie voor PowerApps Plan 2 óf voor Microsoft Flow Plan 2. U kunt zich ook aanmelden voor een [gratis proefversie van een PowerApps-abonnement 2](https://web.powerapps.com/signup?redirect=marketing&email=).
  * Machtigingen voor omgevingsbeheerder van PowerApps, globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory. Zie het Engelstalige artikel [Environments administration in PowerApps](environments-administration.md) (Omgevingen beheren in PowerApps) voor meer informatie.
 
@@ -43,7 +43,7 @@ Nadat het CSV-bestand is gemaakt, opent u het in Excel. De lijst bevat de weerga
 ![Bestand en Delen](./media/admin-view-apps/excel-view.png)
 
 ## <a name="next-steps"></a>Volgende stappen
-In deze snelstartgids hebt u geleerd hoe u een lijst kunt downloaden en bekijken met de apps die in een omgeving binnen uw organisatie zijn gemaakt. Hierna leert u hoe u de apps kunt beheren die in uw organisatie zijn gemaakt.
+In dit onderwerp hebt u geleerd hoe u een lijst downloadt en weergeeft met de apps die in een omgeving in uw organisatie zijn gemaakt. Hierna leert u hoe u de apps kunt beheren die in uw organisatie zijn gemaakt.
 
 > [!div class="nextstepaction"]
 > [De apps beheren die in uw organisatie zijn gemaakt](admin-manage-apps.md)

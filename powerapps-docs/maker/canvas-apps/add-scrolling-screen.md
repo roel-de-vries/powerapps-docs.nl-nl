@@ -1,6 +1,6 @@
 ---
-title: Een scrollscherm toevoegen | Microsoft Docs
-description: Maak een scherm waardoor gebruikers kunnen scrollen om meer soorten inhoud te bekijken dan in één keer in het scherm kunnen worden weergegeven.
+title: Een schuifscherm toevoegen aan een canvas-app | Microsoft Docs
+description: Maak in PowerApps een scherm waarin gebruikers kunnen schuiven om meer inhoud weer te geven dan in één keer in het scherm in een canvas-app kan worden getoond.
 author: lonu
 manager: kvivek
 ms.service: powerapps
@@ -9,24 +9,27 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: lonu
-ms.openlocfilehash: 4a8b92e012f9669f2b445ef864d3360ef42fbc01
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 742710a3814c87d9888e70cb50c635dddab904d1
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39015979"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471254"
 ---
-# <a name="add-a-scrolling-screen-in-powerapps"></a>Een scrollscherm toevoegen in PowerApps
-Maak een scherm waardoor gebruikers kunnen scrollen om verschillende items te bekijken. Mogelijk wilt u bijvoorbeeld een app maken om gegevens in een kolomdiagram en lijndiagram weer te geven. Als u een scrollscherm toevoegt, kunt u meerdere besturingselementen toevoegen die gebruikers kunnen bekijken door te scrollen.
+# <a name="add-a-scrolling-screen-to-a-canvas-app-in-powerapps"></a>Een schuifscherm toevoegen aan een canvas-app in PowerApps
+
+Maak in een canvas-app een scherm waarin gebruikers kunnen schuiven om verschillende items weer te geven. Maak bijvoorbeeld een telefoon-app waarin gegevens worden weergegeven in verschillende diagrammen die gebruikers kunnen weergeven als ze schuiven.
 
 Als u meerdere besturingselementen in een sectie toevoegt, behouden de besturingselementen hun relatieve positie binnen die sectie, ongeacht of het om een telefoon-app of een tablet-app gaat. Het schermformaat en de weergaverichting kunnen doorslaggevend zijn bij het bepalen hoe secties worden ingedeeld.  
 
 [!INCLUDE [app-customization-requirements](../../includes/app-customization-requirements.md)]
 
 ## <a name="create-a-scrolling-screen"></a>Een scrollscherm maken
+
 1. Op het tabblad **Startpagina** klikt of tikt u op **Nieuw scherm**:
-   
+
     ![Optie om een scherm aan een app toe te voegen][1]
+
 2. Op het tabblad **Startpagina** klikt of tikt u op **Indelingen** en klikt of tikt u op de optie om een oneindig scrollcanvas toe te voegen:  
    
     ![Optie om een oneindig scrollcanvas toe te voegen][2]

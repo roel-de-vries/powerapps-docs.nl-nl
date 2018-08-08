@@ -1,6 +1,6 @@
 ---
-title: Een app maken op basis van een sjabloon | Microsoft Docs
-description: Stapsgewijze instructies voor het automatisch maken van apps op basis van een PowerApps-sjabloon.
+title: Een canvas-app maken op basis van een sjabloon | Microsoft Docs
+description: Stapsgewijze instructies voor het automatisch maken van een canvas-app op basis van een PowerApps-sjabloon.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,21 +9,23 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/19/2018
 ms.author: anneta
-ms.openlocfilehash: 3827255726be017fe594a2c54389df7c622f7307
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 8b750760ab10c33d17f0e73f8b90a59e6a7b84f7
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195238"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471231"
 ---
-# <a name="create-an-app-from-a-powerapps-template"></a>Een app maken op basis van een PowerApps-sjabloon
-Maak automatisch een app op basis van een sjabloon voor een specifiek scenario, zoals het bijhouden van budgetten en plannen van vakanties, en voer vervolgens de app uit om meer inzicht te krijgen in het standaardgedrag.
+# <a name="create-a-canvas-app-from-a-template-in-powerapps"></a>In PowerApps een canvas-app maken op basis van een sjabloon
+
+Maak automatisch een canvas-app op basis van een sjabloon voor een specifiek scenario, zoals het bijhouden van budgetten en plannen van vakanties, en voer vervolgens de app uit om meer inzicht te krijgen in het standaardgedrag.
 
 Als u een app wilt maken op basis van een sjabloon, hebt u een cloudopslagaccount (zoals DropBox, OneDrive of Google Drive) nodig voor het opslaan van de voorbeeldgegevens van de sjabloon.
 
 Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../signup-for-powerapps.md).
 
 ## <a name="create-an-app"></a>Een app maken
+
 1. Meld u aan bij [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
     ![PowerApps-startpagina](./media/get-started-test-drive/sign-in.png)

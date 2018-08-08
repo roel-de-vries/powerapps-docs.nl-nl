@@ -1,6 +1,6 @@
 ---
-title: Formulieren aanpassen | Microsoft Docs
-description: Geef op welke gegevens u wilt tonen, in welke volgorde en in welke besturingselementen.
+title: Een formulier in een canvas-app aanpassen | Microsoft Docs
+description: Geef in PowerApps op welke gegevens u in welke volgorde en in welke besturingselementen wilt weergeven.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,24 +9,27 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/17/2018
 ms.author: anneta
-ms.openlocfilehash: aefe350c2294f9d8cbae32eee1db1f600c8a65da
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 14ea731907624f882ae117a09c7f799a25389fe6
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195100"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471438"
 ---
-# <a name="customize-forms-in-powerapps"></a>Formulieren aanpassen in PowerApps
-Pas de besturingselementen **Formulier weergeven** en **Formulier bewerken** zodanig aan dat de belangrijkste gegevens worden getoond, in de meest logische volgorde. Op die manier kunnen gebruikers de gegevens gemakkelijk begrijpen en bijwerken.
+# <a name="customize-a-canvas-app-form-in-powerapps"></a>Een formulier in een canvas-app aanpassen in PowerApps
+
+Pas in een canvas-app de besturingselementen **Formulier weergeven** en **Formulier bewerken** zodanig aan dat de belangrijkste gegevens worden getoond, in de meest logische volgorde. Op die manier kunnen gebruikers de gegevens gemakkelijk begrijpen en bijwerken.
 
 Elk formulier bestaat uit een of meer kaarten en op elke kaart staan de gegevens uit een bepaalde kolom in de gegevensbron. Als u de stappen in dit onderwerp volgt, kunt u opgeven welke kaarten in een formulier moeten worden weergegeven en kaarten in een formulier omhoog en omlaag verplaatsen.
 
 Zie [Introduction to PowerApps](getting-started.md) (Inleiding tot PowerApps) als u onbekend bent met PowerApps.
 
 ## <a name="prerequisites"></a>Vereisten
+
 [Genereer een app](data-platform-create-app.md) via Common Data Service en [pas vervolgens de galerie in die app aan](customize-layout-sharepoint.md).
 
 ## <a name="show-and-hide-cards"></a>Kaarten weergeven en verbergen
+
 1. Meld u aan bij [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
     ![Startpagina van de PowerApps-site](./media/customize-forms-sharepoint/sign-in.png)

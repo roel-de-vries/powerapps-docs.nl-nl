@@ -1,6 +1,6 @@
 ---
-title: 'Snelstart: Een app genereren vanuit Common Data Service for apps | Microsoft Docs'
-description: In deze snelstart genereert u automatisch een app in PowerApps voor het beheren van gegevens in Common Data Service voor apps
+title: Een canvas-app genereren in Common Data Service for Apps | Microsoft Docs
+description: In PowerApps automatisch een canvas-app genereren voor het beheren van gegevens in Common Data Service for Apps
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,23 +9,25 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/06/2018
 ms.author: anneta
-ms.openlocfilehash: 3481bd697e29855a075598975e26d14121a49a0a
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 1acd93f2580ab583e58020ce9fbabde3c2e6a239
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195353"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470564"
 ---
-# <a name="quickstart-generate-an-app-from-common-data-service-for-apps-in-powerapps"></a>Snelstart: Een app genereren vanuit Common Data Service for apps in PowerApps
+# <a name="generate-a-canvas-app-from-common-data-service-for-apps-in-powerapps"></a>In PowerApps een canvas-app genereren in Common Data Service for Apps
 
-In deze snelstart gebruikt u Microsoft PowerApps voor het automatisch genereren van een app op basis van een lijst voorbeeldaccounts in [Common Data Service (CDS) for Apps](../common-data-service/data-platform-intro.md). In deze app kunt u naar alle accounts bladeren, details van een account weergeven en een account maken, bijwerken of verwijderen.
+Genereer in PowerApps automatisch een canvas-app op basis van een lijst met voorbeeldaccounts in [Common Data Service (CDS) for Apps](../common-data-service/data-platform-intro.md). In deze app kunt u naar alle accounts bladeren, details van een account weergeven en een account maken, bijwerken of verwijderen.
 
 Als u zich niet hebt geregistreerd voor PowerApps, kunt u zich hier [gratis registreren](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) voordat u begint.
 
 ## <a name="prerequisites"></a>Vereisten
+
 Als u deze snelstart wilt volgen, moet u [overschakelen naar een omgeving](working-with-environments.md) waarin een database is gemaakt in CDS for Apps die gegevens bevat en updates toestaat. Als er geen dergelijke omgeving bestaat en u administratorbevoegdheden hebt, kunt u [een omgeving maken](../../administrator/environments-administration.md#create-an-environment) die voldoet aan deze vereiste.
 
 ## <a name="generate-an-app"></a>Een app genereren
+
 1. Meld u aan bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en schakel, indien nodig, over van omgeving zoals eerder in dit onderwerp is aangegeven.
 
     ![PowerApps-startpagina](./media/data-platform-create-app/sign-in.png)

@@ -1,6 +1,6 @@
 ---
-title: Een gegevensverbinding toevoegen in een app | Microsoft Docs
-description: Een gegevensverbinding toevoegen in een bestaande app of lege app
+title: Een gegevensverbinding toevoegen in een canvas-app | Microsoft Docs
+description: Een gegevensverbinding toevoegen in een bestaande canvas-app of lege app
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/06/2018
 ms.author: lanced
-ms.openlocfilehash: 471f4b69b913236d99e6309c8b8bb4e12f85a7b9
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: bf53c71a5dfbbfecbf6a094f26c9866e7f94f84d
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195031"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471047"
 ---
-# <a name="add-a-data-connection-in-powerapps"></a>Een gegevensverbinding toevoegen in PowerApps
-In PowerApps voegt u een gegevensverbinding toe met een bestaande app, of met een app die u volledig nieuw bouwt. Uw app kan verbinding maken met SharePoint, Salesforce, OneDrive of [een van de vele andere gegevensbronnen](connections-list.md).
+# <a name="add-a-data-connection-to-a-canvas-app-in-powerapps"></a>Een gegevensverbinding toevoegen aan een canvas-app in PowerApps
+
+Voeg in PowerApps een gegevensverbinding toe aan een bestaande canvas-app of aan een app die u volledig nieuw ontwikkelt. Uw app kan verbinding maken met SharePoint, Salesforce, OneDrive of [een van de vele andere gegevensbronnen](connections-list.md).
 
 De [volgende stap](#next-steps) na het lezen van dit artikel is het bekijken en beheren van de gegevensbron in uw app, zoals in deze voorbeelden:
 
@@ -26,6 +27,7 @@ De [volgende stap](#next-steps) na het lezen van dit artikel is het bekijken en 
 * Verbinding maken met SQL Server en een tabel bijwerken vanuit uw app.
 
 ## <a name="prerequisites"></a>Vereisten
+
 [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
 
 ## <a name="add-a-data-source"></a>Een gegevensbron toevoegen

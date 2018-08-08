@@ -1,6 +1,6 @@
 ---
-title: Een nieuwe app insluiten in een Power BI-rapport | Microsoft Docs
-description: Een app insluiten die gebruikmaakt van dezelfde gegevensbron en waarop kan worden gefilterd, net als bij andere rapportitems
+title: Een nieuwe canvas-app insluiten in een Power BI-rapport | Microsoft Docs
+description: Een nieuwe canvas-app insluiten die gebruikmaakt van dezelfde gegevensbron en die net als andere rapportitems kan worden gefilterd
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/15/2018
 ms.author: mblythe
-ms.openlocfilehash: 05fe624be450dfcce0d16ae2f178c86ddf361201
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: a5239a5d7ca1600b281558461f2a08969cabb633
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018670"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470955"
 ---
-# <a name="tutorial-embed-a-new-app-in-a-power-bi-report"></a>Zelfstudie: een nieuwe app insluiten in een Power BI-rapport
+# <a name="embed-a-new-canvas-app-in-a-power-bi-report"></a>Een nieuwe canvas-app insluiten in een Power BI-rapport
 
-U kunt de mogelijkheden van Power BI uitbreiden door *aangepaste visuals* toe te voegen aan een rapport. In deze zelfstudie gebruikt u de aangepaste PowerApps-visual om een nieuwe app te maken die wordt ingesloten in een voorbeeldrapport. Deze app communiceert met andere items in het rapport.
+U kunt de mogelijkheden van Power BI uitbreiden door *aangepaste visuals* toe te voegen aan een rapport. In deze zelfstudie gebruikt u de aangepaste PowerApps-visual om een nieuwe canvas-app te maken die wordt ingesloten in een voorbeeldrapport. Deze app communiceert met andere items in het rapport.
 
 Als u geen PowerApps-abonnement hebt, [maakt u een gratis account](../signup-for-powerapps.md) voordat u begint.
 

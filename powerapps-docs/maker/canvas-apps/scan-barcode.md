@@ -1,5 +1,5 @@
 ---
-title: Een streepjescode scannen | Microsoft Docs
+title: Een streepjescode scannen in een canvas-app | Microsoft Docs
 description: Verschillende typen streepjescodes scannen, zoals UPC en Codabar
 author: AFTOwen
 manager: kvivek
@@ -9,19 +9,21 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/23/2016
 ms.author: anneta
-ms.openlocfilehash: befc72b875f7876bc0f9f907a094f0d97314c03c
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 631277dc533d9792f08bf6a94bf9c345889c6795
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023316"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470587"
 ---
 # <a name="scan-a-barcode-in-powerapps"></a>Een streepjescode scannen in PowerApps
-U kunt verschillende soorten streepjescodes scannen door een app te maken en deze uit te voeren op een apparaat dat is uitgerust met een camera, bijvoorbeeld een telefoon. Het numerieke equivalent van de streepjescode wordt weergegeven in een besturingselement **Label** en u kunt deze gegevens uploaden naar diverse [gegevensbronnen](connections-list.md).
+
+U kunt verschillende soorten streepjescodes scannen door een canvas-app te maken en deze uit te voeren op een apparaat dat is uitgerust met een camera, bijvoorbeeld een telefoon. Het numerieke equivalent van de streepjescode wordt weergegeven in een besturingselement **Label** en u kunt deze gegevens uploaden naar diverse [gegevensbronnen](connections-list.md).
 
 Zie [Aan de slag](getting-started.md) als u onbekend bent met PowerApps.
 
 ## <a name="known-limitations"></a>Bekende beperkingen
+
 * Streepjescodes moeten minimaal 2,5 cm hoog en 4 cm breed zijn.
 * Als u een streepjescode wilt scannen met een telefoon, houdt u de telefoon in verticale richting en beweegt u deze langzaam van een afstand van 18 cm tot 25 cm van de streepjescode af.
 * Lange soorten streepjescodes (zoals I2of5, die uit 15 of meer tekens bestaan) leveren soms afgekapte of anderszins onjuiste resultaten op, met name als de streepjescode niet duidelijk is afgedrukt.

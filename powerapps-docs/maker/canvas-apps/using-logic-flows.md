@@ -1,6 +1,6 @@
 ---
-title: Start een stroom in een app | Microsoft Docs
-description: Maak een stroom die een of meer taken uitvoert wanneer een gebeurtenis plaatsvindt in een app, zoals wanneer een gebruiker een knop selecteert.
+title: Een stroom starten in een canvas-app | Microsoft Docs
+description: Maak een stroom die een of meer taken uitvoert wanneer een gebeurtenis plaatsvindt in een canvas-app, zoals het selecteren van een knop door een gebruiker.
 author: stepsic-microsoft-com
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/05/2017
 ms.author: sharik
-ms.openlocfilehash: 9d681cc889a3f39fb0785ab0cba86e37ebe185b3
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 9096b00b7d1f08ebdb9e767ffcbcd9837aa797cf
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195882"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470449"
 ---
-# <a name="start-a-flow-in-an-app"></a>Start een stroom in een app
-U kunt Microsoft Flow gebruiken om logica te maken die een of meer taken uitvoert wanneer er een gebeurtenis optreedt in een app. U kunt bijvoorbeeld een knop zo configureren dat, wanneer een gebruiker deze selecteert, er een item wordt gemaakt in een SharePoint-lijst, een e-mailbericht of vergaderverzoek wordt verzonden, een bestand wordt toegevoegd aan de cloud of zelfs al deze dingen. U kunt elk besturingselement in de app configureren om de stroom te starten, die zelfs blijft lopen als u PowerApps sluit.
+# <a name="start-a-flow-in-a-canvas-app"></a>Een stroom starten in een canvas-app
+
+U kunt Microsoft Flow gebruiken om logica te maken waarmee een of meer taken worden uitgevoerd wanneer er een gebeurtenis plaatsvindt in een canvas-app. U kunt bijvoorbeeld een knop zo configureren dat, wanneer een gebruiker deze selecteert, er een item wordt gemaakt in een SharePoint-lijst, een e-mailbericht of vergaderverzoek wordt verzonden, een bestand wordt toegevoegd aan de cloud of zelfs al deze dingen. U kunt elk besturingselement in de app configureren om de stroom te starten, die zelfs blijft lopen als u PowerApps sluit.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -25,6 +26,7 @@ U kunt Microsoft Flow gebruiken om logica te maken die een of meer taken uitvoer
 * Lees hoe u [een besturingselement kunt configureren](add-configure-controls.md).
 
 ## <a name="create-a-flow"></a>Een stroom maken
+
 1. Meld u aan bij [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en selecteer vervolgens **Flows** op de linkernavigatiebalk.
 
 2. Selecteer op de pagina **Mijn stromen** de optie **Leeg item maken**.

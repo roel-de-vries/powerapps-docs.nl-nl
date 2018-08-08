@@ -2,25 +2,25 @@
 title: Beleid ter preventie van gegevensverlies (DLP) beheren | Microsoft Docs
 description: Overzicht van het beheren van het beleid ter preventie van gegevensverlies voor PowerApps.
 author: manasmams
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 158abc3969090e081df41b6b52036d71b6949150
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.openlocfilehash: 81117e352f3ad5131572cff2a61117042f47df38
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445701"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39349404"
 ---
 # <a name="manage-data-loss-prevention-dlp-policies"></a>Beleid ter preventie van gegevensverlies (DLP) beheren
 De gegevens van een organisatie zijn essentieel om succes te behalen. Gegevens moeten dus te allen tijde beschikbaar zijn om beslissingen te kunnen nemen, maar ze moeten ook worden beveiligd zodat ze niet worden gedeeld met doelgroepen die er geen toegang toe zouden mogen hebben. U kunt hiertoe in PowerApps een beleid ter preventie van gegevensverlies (DLP) instellen waarmee wordt bepaald met welke consumentenconnectors zakelijke gegevens mogen worden gedeeld. Een organisatie die gebruikmaakt van PowerApps wil bijvoorbeeld niet dat de zakelijke gegevens uit SharePoint automatisch worden gepubliceerd op Twitter.
 
 Om DLP-beleid te maken, bewerken of verwijderen moet u gemachtigd zijn als omgevingsbeheerder of als tenantbeheerder voor Azure Active Directory. Zie [Omgevingen beheren in PowerApps](environments-administration.md) voor meer informatie.
 
-Zie [Snelstartgids: een beleid ter preventie van gegevensverlies (DLP) maken](create-dlp-policy.md) voor instructies over het maken van een DLP-beleid.
+Zie [Een beleid ter preventie van gegevensverlies (DLP) maken](create-dlp-policy.md) voor instructies over het maken van een DLP-beleid.
 
 ## <a name="find-a-dlp-policy"></a>Een DLP-beleid zoeken
 1. Meld u aan bij het beheercentrum op [https://admin.powerapps.com]([https://admin.powerapps.com).

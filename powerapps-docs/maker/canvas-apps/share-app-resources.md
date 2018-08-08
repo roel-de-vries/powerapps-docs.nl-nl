@@ -1,6 +1,6 @@
 ---
-title: De resources delen die in uw app worden gebruikt | Microsoft Docs
-description: Informatie over de manier waarop de in uw app gebruikte resources worden gedeeld wanneer een app wordt gedeeld
+title: Resources delen die in uw canvas-app worden gebruikt | Microsoft Docs
+description: Begrijpen hoe u resources deelt die uw canvas-app gebruikt in PowerApps
 author: archnair
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 06/28/2016
 ms.author: archanan
-ms.openlocfilehash: 09d4f26139ae33195c666a2eb71d70e02b035f69
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 881a0eb85d252131d6249c171c95c0711e4887d4
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39194876"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471392"
 ---
-# <a name="share-app-resources"></a>App-resources delen
-Voordat u [een app deelt](share-app.md), moet u de typen resources in acht nemen waarvan de app gebruikmaakt, zoals:
+# <a name="share-canvas-app-resources-in-powerapps"></a>Resources in een canvas-app delen in PowerApps
+
+Voordat u [een canvas-app deelt](share-app.md), moet u de typen resources in acht nemen waarvan de app gebruikmaakt, zoals:
 
 * een verbinding met een gegevensbron
 * een on-premises gegevensgateway
@@ -30,6 +31,7 @@ Sommige van deze resources worden automatisch gedeeld wanneer u de app deelt. Vo
 U kunt ook uw verbindingen, aangepaste connectors en on-premises gegevensgateway met uw hele organisatie delen.
 
 ## <a name="connections"></a>Verbindingen
+
 Bepaalde typen verbindingen, zoals SQL Server, worden automatisch gedeeld, maar voor andere verbindingen moeten gebruikers hun eigen verbindingen met de gegevensbron of bronnen in de app maken.
 
 Op [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) kunt u bepalen of een verbinding automatisch wordt gedeeld, en kunt u machtigingen voor delen bijwerken. Klik of tik in de linkernavigatiebalk op **Manage**, klik of tik op **Connections** en klik of tik op een verbinding. Als het tabblad **Share** wordt weergegeven, wordt de verbinding automatisch gedeeld.

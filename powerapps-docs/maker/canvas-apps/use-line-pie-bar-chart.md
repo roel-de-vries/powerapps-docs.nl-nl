@@ -1,6 +1,6 @@
 ---
-title: Grafieken maken | Microsoft Docs
-description: Gegevenscategorieën weergeven als lijn-, cirkel- of staafdiagram weergeven
+title: Een diagram maken in een canvas-app | Microsoft Docs
+description: In PowerApps gegevenscategorieën weergeven als een lijn-, cirkel- of staafdiagram
 author: lonu
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/23/2016
 ms.author: lonu
-ms.openlocfilehash: 5fecc52a5100f2ed0d045fd0ebdc3834f83d5b39
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 63244a05d81f807609c965892f6a84e30577b490
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195905"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471139"
 ---
 # <a name="show-data-in-a-line-pie-or-bar-chart-in-powerapps"></a>Gegevens in PowerApps weergeven in een lijn-, cirkel- of staafdiagram
-Gebruik lijn-, cirkel- en staafdiagrammen om uw gegevens weer te geven. Als u werkt met diagrammen, moet u de gegevens die u importeert als volgt indelen:
+
+Gebruik lijn-, cirkel- en staafdiagrammen om uw gegevens weer te geven in een canvas-app. Wanneer u met diagrammen werkt, moet u de gegevens die u importeert aan de hand van de volgende criteria indelen:
 
 * Elke reeks moet zich in de eerste rij bevinden.
 * Labels moeten zich in de meest linkse kolom bevinden.
@@ -29,6 +30,7 @@ Uw gegevens zouden er ongeveer als volgt uit moeten zijn:
 U kunt dergelijke diagrammen maken en gebruiken in PowerApps. Aan de slag.
 
 ## <a name="prerequisites"></a>Vereisten
+
 * [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) met dezelfde referenties die u hebt gebruikt om u te registreren.
 * Maak een app op basis van een [sjabloon](get-started-test-drive.md) of op basis van [gegevens](get-started-create-from-data.md), of maak een [volledig nieuwe](get-started-create-from-blank.md) app.
 * Lees hoe u [een besturingselement kunt configureren](add-configure-controls.md) in PowerApps.

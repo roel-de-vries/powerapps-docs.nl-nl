@@ -1,6 +1,6 @@
 ---
 title: Gegevenskaarten begrijpen | Microsoft Docs
-description: Gebruik deze formulierkaarten voor het verzamelen en weergeven van informatie van een gegevensbron.
+description: Gebruik in PowerApps formulierkaarten voor het verzamelen en weergeven van gegevens uit een gegevensbron.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,23 +9,25 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 81e0213caee1d4eed466edebe3d13cbfa1c3e7e2
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: a229f77ea569c56e18fd955a66ce48a5e02f84a9
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39020763"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470932"
 ---
-# <a name="understand-data-cards"></a>Gegevenskaarten begrijpen
-Besturingselementen van **[kaarten](controls/control-card.md)** zijn de bouwstenen van de besturingselementen voor de formulieren **[Bewerken](controls/control-form-detail.md)** en  **[Weergeven](controls/control-form-detail.md)**. Het formulier vertegenwoordigt de volledige record en elke kaart één veld van dat record.
+# <a name="understand-data-cards-in-powerapps"></a>Gegevenskaarten in PowerApps
+
+**[Kaart](controls/control-card.md)** besturingselementen zijn de bouwstenen van de besturingselementen **[Formulier bewerken](controls/control-form-detail.md)** en  **[Formulier weergeven](controls/control-form-detail.md)** in canvas-apps. Het formulier vertegenwoordigt de volledige record en elke kaart één veld van dat record.
 
 U kunt het gemakkelijkst met kaarten werken in het rechterdeelvenster nadat u een formulierbesturingselement in de ontwerpwerkruimte hebt geselecteerd. In dit deelvenster kunt u kiezen welke velden u wilt weergeven, de weergave van elk veld en in welke volgorde deze moeten worden weergegeven. In dit voorbeeld ziet u een besturingselement **Formulier bewerken** in een app die is gebouwd op basis van een SharePoint-lijst met de naam **Assets**.
 
-![](./media/working-with-cards/first-screen.png)
+![Eerste scherm](./media/working-with-cards/first-screen.png)
 
 Als u wilt beginnen met kaarten, leest u [Een formulier toevoegen](add-form.md) en [Gegevensformulieren begrijpen](working-with-forms.md). In de rest van dit onderwerp krijgt u meer informatie over hoe kaarten werken en hoe u deze kunt aanpassen of zelf maken.
 
 ## <a name="predefined-cards"></a>Vooraf gedefinieerde kaarten
+
 PowerApps biedt een vooraf gedefinieerde set kaarten voor tekenreeksen, cijfers en andere gegevenstypen. U kunt in het rechterdeelvenster de beschikbare variaties zien en de kaart die wordt gebruikt voor een veld wijzigen:
 
 ![](./media/working-with-cards/selected-card.png)

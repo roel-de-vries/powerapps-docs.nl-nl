@@ -1,5 +1,6 @@
 ---
-title: Een volledig nieuwe Excel-app maken | Microsoft Docs
+title: Een volledig nieuwe canvas-app maken op basis van Excel-gegevens | Microsoft Docs
+description: In deze zelfstudie maakt u een canvas-app met twee schermen zodat gebruikers records in een Excel-bestand kunnen maken, bewerken en verwijderen.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -8,17 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 04/23/2018
 ms.author: anneta
-ms.openlocfilehash: 330751210322190fddefb6c399025578bb9878b5
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: dafd6e4aafdc8f4709d25b9de8e6b997665c3d4a
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195284"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469839"
 ---
-# <a name="create-an-excel-app-from-scratch"></a>Een volledig nieuwe Excel-app maken
-Maak uw eigen volledig nieuwe app op basis van Excel-gegevens, opgemaakt als een tabel, en voeg vervolgens desgewenst gegevens uit andere bronnen toe. Wanneer u deze zelfstudie volgt, maakt u een app met twee schermen. In het ene scherm kunnen gebruikers bladeren door een set records. In het andere scherm kunnen gebruikers een record maken, een of meer velden in een record bijwerken of een heel record verwijderen. Deze benadering kost meer tijd dan [een app automatisch genereren](get-started-create-from-data.md), maar ervaren app-makers kunnen hiermee de beste app voor hun wensen maken.
+# <a name="create-an-canvas-app-from-scratch-based-on-excel-data"></a>Een volledig nieuwe canvas-app maken op basis van Excel-gegevens
+
+Maak uw eigen volledig nieuwe canvas-app op basis van Excel-gegevens, opgemaakt als een tabel, en voeg vervolgens desgewenst gegevens uit andere bronnen toe. Wanneer u deze zelfstudie volgt, maakt u een app met twee schermen. In het ene scherm kunnen gebruikers bladeren door een set records. In het andere scherm kunnen gebruikers een record maken, een of meer velden in een record bijwerken of een heel record verwijderen. Deze benadering kost meer tijd dan [een app automatisch genereren](get-started-create-from-data.md), maar ervaren app-makers kunnen hiermee de beste app voor hun wensen maken.
 
 ## <a name="prerequisites"></a>Vereisten
+
 Als u de onderstaande stappen in deze zelfstudie precies wilt volgen, maakt u een Excel-bestand met deze voorbeeldgegevens.
 
 1. Kopieer deze gegevens en plak ze in een Excel-bestand.

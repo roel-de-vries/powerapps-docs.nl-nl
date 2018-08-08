@@ -9,20 +9,20 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/01/2017
 ms.author: mblythe
-ms.openlocfilehash: 79f0e852b62c41267224a2b3289b24fec65583a2
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 81949441e8fbb7881d21820e8bd4d5d790648fc2
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023845"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470817"
 ---
 # <a name="powerapps-for-enterprise-developers-partners-and-isvs"></a>PowerApps voor bedrijfsontwikkelaars, partners en ISV's
 
-Als ontwikkelaar kunt u PowerApps uitbreiden voor nog krachtigere oplossingen voor organisaties en klanten.
+Als ontwikkelaar kunt u canvas-apps uitbreiden in PowerApps, zodat organisaties en klanten over nog krachtigere oplossingen beschikken.
 
 ## <a name="powerapps-for-enterprise-developers"></a>PowerApps voor bedrijfsontwikkelaars
 
-Als bedrijfsontwikkelaar kunt u uw organisatie robuuste oplossingen op maat laten bouwen met PowerApps:
+Als bedrijfsontwikkelaar kunt u uw organisatie robuuste oplossingen op maat laten ontwikkelen met PowerApps:
 
 - **Ontwikkel aangepaste connectors**: ontwikkel aangepaste connectors die verbinding maken met de gegevens en webservices van uw organisatie via Microsoft Flow. [Meer informatie](https://docs.microsoft.com/connectors/custom-connectors/)
 

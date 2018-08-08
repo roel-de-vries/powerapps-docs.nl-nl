@@ -1,6 +1,6 @@
 ---
 title: Aangepast visueel PowerApps-element voor Power BI | Microsoft Docs
-description: Procedure en beperkingen voor het insluiten van een app die gebruikmaakt van dezelfde gegevensbron en kan worden gefilterd zoals andere rapportitems in Power BI
+description: Procedure en beperkingen voor het insluiten van een canvas-app die gebruikmaakt van dezelfde gegevensbron en kan worden gefilterd zoals andere rapportitems in Power BI
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/15/2018
 ms.author: mblythe
-ms.openlocfilehash: 8e50763f11d04db4e9c8e0a6a6ae8ff316bc185a
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 0da480a482415ad174f10204f14f31adbd3607f2
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39015887"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469989"
 ---
 # <a name="powerapps-custom-visual-for-power-bi"></a>Aangepast visueel PowerApps-element voor Power BI
 
-Power BI biedt inzicht in gegevens en maakt een betere besluitvorming mogelijk, terwijl met PowerApps iedereen apps kan bouwen en gebruiken die verbinding met zakelijke gegevens maken. U kunt met het aangepaste visuele PowerApps-element contextbewuste gegevens doorgeven aan een PowerApps-app die in realtime wordt bijgewerkt wanneer u wijzigingen in uw rapport aanbrengt. Nu kunnen uw app-gebruikers rechtstreeks vanuit hun Power BI-rapporten en dashboards zakelijke inzichten ontlenen en maatregelen nemen.
+Power BI biedt inzicht in gegevens en maakt een betere besluitvorming mogelijk, terwijl met PowerApps iedereen apps kan bouwen en gebruiken die verbinding met zakelijke gegevens maken. U kunt met de aangepaste visual van PowerApps contextafhankelijke gegevens doorgeven aan een canvas-app die in realtime wordt bijgewerkt wanneer u wijzigingen in uw rapport aanbrengt. Nu kunnen uw app-gebruikers rechtstreeks vanuit hun Power BI-rapporten en dashboards zakelijke inzichten ontlenen en maatregelen nemen.
 
 ## <a name="using-the-powerapps-custom-visual"></a>Het aangepaste visuele PowerApps-element gebruiken
 

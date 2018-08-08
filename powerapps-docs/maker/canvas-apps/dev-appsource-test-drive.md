@@ -1,6 +1,6 @@
 ---
-title: Laat klanten uw apps uitproberen op AppSource | Microsoft Docs
-description: Gebruik AppSource om apps te delen met klanten en leads te genereren voor uw bedrijf.
+title: Klanten uw canvas-app laten proberen in AppSource | Microsoft Docs
+description: Gebruik AppSource om een canvas-app te delen met klanten en leads te genereren voor uw bedrijf.
 author: linhtranms
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 05/08/2017
 ms.author: litran
-ms.openlocfilehash: fb51ab2c671d695350e452dc6fb29efa583adfea
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: 6499c0c2a7eb87ff56ec9e248f4a16e8b6c647f9
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023684"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470541"
 ---
-# <a name="let-customers-test-drive-your-apps-on-appsource"></a>Klanten uw apps laten uitproberen op AppSource
-Houdt u van het bouwen van apps in PowerApps? Hebt u een app die u met klanten wilt delen? We ondersteunen nu PowerApps Test Drive-oplossingen op [AppSource.com](https://appsource.microsoft.com), zodat u apps met klanten kunt delen en leads voor uw bedrijf kunt genereren.
+# <a name="let-customers-test-drive-your-canvas-app-on-appsource"></a>Klanten uw canvas-app laten proberen in AppSource
+
+Vindt u het ontwikkelen van canvas-apps in PowerApps leuk? Wilt u een canvas-app delen met klanten? [AppSource.com](https://appsource.microsoft.com) ondersteunt PowerApps Test Drive-oplossingen zodat u apps met klanten kunt delen en leads voor uw bedrijf kunt genereren.
 
 ## <a name="what-is-a-test-drive-solution"></a>Wat is een Test Drive-oplossing?
+
 Met een Test Drive-oplossing kunt u uw klanten een echte app laten uitproberen zonder dat ze zich hoeven aan te melden voor een PowerApps-abonnement of dat ze toepassingen hoeven te installeren. Klanten melden zich gewoon aan bij AppSource.com met hun Azure Active Directory (AAD)-account en voeren de app uit in een webbrowser. Zonder Test Drive kunnen klanten alleen over de app lezen of een video met een beschrijving ervan bekijken. Met Test Drive krijgen klanten een beter idee van wat de oplossing inhoudt en welke functionaliteit de app bevat. En ze kunnen de app zelf uitproberen. Klanten kunnen er niet achter komen hoe de app feitelijk werkt, dus uw intellectueel eigendom is beschermd. Wij verzamelen en delen informatie over leads voor gebruikers die uw Test Drive-app uitproberen, zodat uw bedrijf kan groeien.
 
 Hier ziet u een voorbeeld van een [app-beschrijving](https://go.microsoft.com/fwlink/?linkid=848867) op AppSource.com:

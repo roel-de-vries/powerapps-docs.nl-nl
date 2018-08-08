@@ -1,6 +1,6 @@
 ---
-title: Aan de slag met formules | Microsoft Docs
-description: Formules gebruiken voor het aanpassen van een app.
+title: Aan de slag met formules in een canvas-app | Microsoft Docs
+description: Gebruik in PowerApps formules om een canvas-app aan te passen.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 7f9a724b61404ac0947a9c75f91396b35328086b
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: 266949870403dbe0d8a90f096b811478ace90732
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195261"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470656"
 ---
-# <a name="get-started-with-formulas"></a>Aan de slag met formules
-Configureer de app met formules die niet alleen waarden kunnen berekenen en andere taken uitvoeren (zoals in Excel), maar ook reageren op invoer van gebruikers (zoals van een app vereist).
+# <a name="get-started-with-canvas-app-formulas-in-powerapps"></a>Aan de slag met formules in een canvas-app in PowerApps
+
+Configureer de canvas-app met formules die niet alleen waarden berekenen en andere taken uitvoeren (zoals in Excel), maar ook reageren op invoer van gebruikers (wanneer een app dit vereist).
 
 * In Excel construeert u formules waarmee u bijvoorbeeld cellen kunt vullen en tabellen en grafieken maken.
 * In PowerApps maakt u soortgelijke formules terwijl u besturingselementen in plaats van cellen configureert. Daarnaast maakt u formules die specifiek van toepassing zijn op apps in plaats van spreadsheets.

@@ -1,6 +1,6 @@
 ---
-title: Over tabellen | Microsoft Docs
-description: Naslaginformatie voor het werken met tabellen, kolommen en records
+title: Tabellen in canvas-apps | Microsoft Docs
+description: Naslaginformatie over het werken met tabellen voor canvas-apps, kolommen en records in PowerApps
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/26/2016
 ms.author: gregli
-ms.openlocfilehash: 6e1a87324c0a004390ceb5d1ce4846325fe18bc7
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: e0fce2e574644f8ec8077e86dc3a5b4ee5f2cd3a
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021177"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39469897"
 ---
-# <a name="understand-tables-and-records-in-powerapps"></a>Over tabellen en records in PowerApps
-U kunt een app maken die toegang heeft tot informatie in Microsoft Excel, SharePoint, SQL Server en enkele andere bronnen die gegevens opslaan in records en tabellen. Om zo efficiënt mogelijk met dit soort gegevens te werken, moet u de concepten doornemen die ten grondslag liggen aan deze structuren.
+# <a name="understand-canvas-app-tables-and-records-in-powerapps"></a>Tabellen en records voor canvas-apps in PowerApps
+
+U kunt in PowerApps een canvas-app maken die toegang heeft tot informatie in Microsoft Excel, SharePoint, SQL Server en enkele andere bronnen die gegevens opslaan in records en tabellen. Om zo efficiënt mogelijk met dit soort gegevens te werken, moet u de concepten doornemen die ten grondslag liggen aan deze structuren.
 
 * Een record bevat een of meer informatiecategorieën over een persoon, een plaats of een ding. Een record kan bijvoorbeeld de naam, het e-mailadres en het telefoonnummer van één klant bevatten. Andere hulpprogramma's verwijzen naar een record als een 'rij' of een 'item'.
 * Een tabel bevat een of meer records met dezelfde informatiecategorieën. Een tabel kan bijvoorbeeld de namen, de e-mailadressen en de telefoonnummers van 50 klanten bevatten.

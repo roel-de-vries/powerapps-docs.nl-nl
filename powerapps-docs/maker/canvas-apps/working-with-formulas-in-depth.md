@@ -1,6 +1,6 @@
 ---
-title: Over gedragsformules | Microsoft Docs
-description: Naslaginformatie voor het werken met gedragsformules
+title: Gedragsformules in een canvas-app | Microsoft Docs
+description: Naslaginformatie over het werken met gedragsformules die de status van een canvas-app in PowerApps wijzigen
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,18 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/10/2015
 ms.author: gregli
-ms.openlocfilehash: 8ac9cfc2a949cf059d84b5338220e0366094e24b
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+ms.openlocfilehash: e0e7aabc06014c69aae640b799463431b6800dad
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39015588"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39471461"
 ---
-# <a name="understand-behavior-formulas-in-powerapps"></a>Over gedragsformules in PowerApps
+# <a name="understand-behavior-formulas-for-canvas-apps-in-powerapps"></a>Gedragsformules voor canvas-apps in PowerApps
 
 Met de meeste formules wordt een waarde berekend.  Net als bij een Excel-werkblad vindt de herberekening automatisch plaats wanneer er waarden worden gewijzigd.  Stel dat u bijvoorbeeld de waarde in een besturingselement **[Label](controls/control-text-box.md)** rood wilt weergeven als de waarde lager is dan nul en zwart in andere gevallen. U kunt de eigenschap **[Color](controls/properties-color-border.md)** van dat besturingselement instellen op deze formule:
-<br>**If( Value(TextBox1.Text) >= 0, Color.Black, Color.Red )**
+
+**If( Value(TextBox1.Text) >= 0, Color.Black, Color.Red )**
 
 Wat betekent het in deze context wanneer de gebruiker een besturingselement **[Knop](controls/control-button.md)** selecteert?  Er is geen waarde gewijzigd, dus is er niets nieuws om te berekenen. Excel heeft geen equivalent van een **[knop](controls/control-button.md)** besturingselement.  
 

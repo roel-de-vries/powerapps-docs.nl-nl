@@ -1,25 +1,25 @@
 ---
-title: Snelstartgids voor het downloaden van een lijst met actieve gebruikers in uw tenant | Microsoft Docs
+title: Een lijst met actieve gebruikers in uw tenant downloaden | Microsoft Docs
 description: In deze snelstartgids leest u hoe u een lijst met actieve gebruikers in uw tenant kunt downloaden.
 author: jimholtz
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: quickstart
 ms.date: 03/21/2018
-ms.author: jimh
-ms.openlocfilehash: 1488b0231009ef3dd3b0b93e21a14a61f3d1c3cd
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.author: jimholtz
+ms.openlocfilehash: e2c00f4ab10b2dc6cecc63d9539ffcf86a5bfcb8
+ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34552479"
+ms.lasthandoff: 07/30/2018
+ms.locfileid: "39348852"
 ---
-# <a name="quickstart-download-a-list-of-active-users-in-your-tenant"></a>Snelstartgids: een lijst met actieve gebruikers in uw tenant downloaden
+# <a name="download-a-list-of-active-users-in-your-tenant"></a>Een lijst met actieve gebruikers in uw tenant downloaden
 Als u een globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory bent, kunt u een lijst met actieve gebruikers in uw tenant downloaden, zodat u niet alleen kunt zien wie toegang heeft gekregen tot PowerApps en/of Microsoft Flow, maar ook de licenties kunt zien die aan deze gebruikers zijn toegewezen.
 
-In deze snelstartgids leest u hoe u een lijst met actieve gebruikers kunt downloaden naar een CSV-bestand, dat u vervolgens in Excel kunt bekijken.
+In deze onderwerpen leest u hoe u een lijst met actieve gebruikers downloadt naar een CSV-bestand en vervolgens in Excel bekijkt.
 
-Als u de stappen in deze snelstartgids wilt volgen, moet u machtigingen voor een globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory hebben.
+Als u de stappen wilt uitvoeren, moet u over de machtiging voor een globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory beschikken.
 
 ## <a name="sign-in-to-the-powerapps-admin-center"></a>Aanmelden bij het PowerApps-beheercentrum
 Meld u aan bij het beheercentrum op [https://admin.powerapps.com]([https://admin.powerapps.com).
@@ -45,7 +45,7 @@ Als een gebruiker de organisatie heeft verlaten, wordt in de lijst de tekst **On
 Om gebruikerslicenties toe te voegen, opent u het [Office 365-beheercentrum](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
 
 ## <a name="next-steps"></a>Volgende stappen
-In deze snelstartgids hebt u gelezen hoe u een lijst met actieve gebruikers in uw tenant kunt downloaden. Als u wilt leren hoe u een lijst kunt downloaden met de apps die in uw omgevingen zijn gemaakt, gaat u door met de volgende snelstartgids.
+In dit onderwerp hebt u geleerd hoe u een lijst met actieve gebruikers in uw tenant downloadt en weergeeft. Als u wilt weten hoe u een lijst downloadt en weergeeft met de apps die in uw omgevingen zijn gemaakt, gaat u verder met het volgende onderwerp.
 
 > [!div class="nextstepaction"]
 > [Een lijst downloaden met de apps die in uw omgevingen zijn gemaakt](admin-view-apps.md)

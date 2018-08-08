@@ -1,6 +1,6 @@
 ---
-title: Een besturingselement toevoegen en configureren | Microsoft Docs
-description: Stapsgewijze instructies voor het rechtstreeks toevoegen en configureren van besturingselementen, via de werkbalk, op het tabblad Eigenschappen of de formulebalk.
+title: Een besturingselement voor een canvas-app toevoegen en configureren | Microsoft Docs
+description: Stapsgewijze instructies voor het rechtstreeks toevoegen en configureren van besturingselementen voor een canvas-app, via de werkbalk, het tabblad Eigenschappen of de formulebalk.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 07/10/2017
 ms.author: anneta
-ms.openlocfilehash: 24f0479db0707e667263f5b160d6785560fe604b
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.openlocfilehash: dca3ec23b436f96013e9f5102c8b63c6c7d44935
+ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195583"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39470357"
 ---
-# <a name="add-and-configure-a-control-in-powerapps"></a>Een besturingselement toevoegen en configureren in PowerApps
-U kunt een groot aantal verschillende UI-elementen toevoegen aan uw app en vervolgens direct aspecten van hun uiterlijk en gedrag configureren. Dit kan via de werkbalk, in het tabblad **Eigenschappen** of de formulebalk. Deze UI-elementen worden besturingselementen genoemd en de aspecten eigenschappen.
+# <a name="add-and-configure-a-canvas-app-control-in-powerapps"></a>Een besturingselement voor een canvas-app toevoegen en configureren in PowerApps
+
+Voeg een aantal UI-elementen toe aan uw canvas-app en configureer vervolgens direct aspecten van hun uiterlijk en gedrag. Dit kan via de werkbalk, het tabblad **Eigenschappen** of de formulebalk. Deze UI-elementen worden besturingselementen genoemd en de aspecten eigenschappen.
 
 ## <a name="prerequisites"></a>Vereisten
+
 1. [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
 
 2. Klik of tik in PowerApps Studio op **Nieuw** in het menu **Bestand** (aan de linkerkant).

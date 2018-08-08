@@ -1,59 +1,66 @@
 ---
-title: Overzicht van Common Data Model | Microsoft Docs
-description: Informatie over hoe Common Data Service for Apps met Common Data Service for Analytics is verbonden via Common Data Model.
+title: Wat is het Common Data Model? | Microsoft Docs
+description: Common Data Model is een gestandaardiseerde, modulaire, uitbreidbare verzameling gegevensschema's die door Microsoft is gepubliceerd en waarmee u eenvoudiger gegevens kunt samenstellen, gebruiken en analyseren.
 author: RobertBruckner
 ms.service: powerapps
 ms.topic: article
-ms.date: 03/14/2018
-ms.author: jdaly
-ms.openlocfilehash: 4e9b929558de0b2451bb2df4add4b300d7115848
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+ms.date: 07/24/2018
+ms.author: robruc
+ms.openlocfilehash: 1469646301c273067ad035428f03c452ae223604
+ms.sourcegitcommit: abe4d4728db7f56088f618af5b820af78e7099c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34803232"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "39331989"
 ---
-# <a name="common-data-model-overview"></a>Overzicht van Common Data Model
+# <a name="what-is-the-common-data-model"></a>Wat is het Common Data Model?
 
-**Common Data Model** (CDM) is een open-sourcedefinitie van standaardentiteiten waarmee veelgebruikte concepten en activiteiten voor verschillende zakelijke en toepassingsdomeinen worden aangeduid. Common Data Model biedt *goed gedefinieerde, modulaire en uitbreidbare* zakelijke entiteiten (zoals Account, Bedrijfsonderdeel, Case, Contact, Potentiële klant, Verkoopkans en Product) en interacties en relaties tussen leveranciers, medewerkers en klanten (zoals activiteiten en serviceovereenkomsten). 
+Als u ooit te maken hebt gehad met gegevens die *bijna* hetzelfde zijn of die met elkaar *moeten* worden gebruikt en u vervolgens veel tijd hebt besteed aan het transformeren van velden en tabellen zodat deze in combinatie met andere gegevens kunnen worden gebruikt, weet u er alles van: met gemeenschappelijke gegevenselementen bespaart u zichzelf veel moeite, stroomlijnt u toekomstige ontwikkeling en maakt u snellere analyses mogelijk. Het Common Data Model (CDM) biedt deze mogelijkheden en nog meer.
 
-Op basis van [Common Data Service for Apps](../maker/common-data-service/data-platform-intro.md) en Common Data Service for Analytics<!-- TODO add link when available  --> van Microsoft wordt Common Data Model geïmplementeerd. Deze services bevatten gegevens die voldoen aan de definitie van Common Data Model. Omdat deze services de basis vormen voor standaardtoepassingen en analytische oplossingen, kunt u hierin gebruikmaken van goed gedefinieerde entiteitsvormen en kunnen gegevens worden gedeeld, ongeacht de locatie waarvan de gegevens afkomstig zijn of worden beheerd. Aangepaste Line-Of-Business-apps en analytische oplossingen kunnen gebruikmaken van dezelfde entiteiten voor het delen van gegevens, waardoor tegemoet kan worden gekomen aan uw specifieke behoeften en zakelijke vereisten. 
+Het **Common Data Model (CDM)** is een gestandaardiseerde, modulaire, uitbreidbare verzameling gegevensschema's die door Microsoft is gepubliceerd en waarmee u eenvoudiger gegevens kunt samenstellen, gebruiken en analyseren. Deze verzameling van vooraf gedefinieerde schema's, die bestaan uit *entiteiten*, *kenmerken*, *semantische metagegevens* en *relaties*, staan voor gemeenschappelijke concepten en activiteiten, zoals Account en Campagne, zodat u eenvoudiger gegevens kunt samenstellen, samenvoegen en analyseren. Meer informatie: [CDM-opslagplaats op GitHub](https://aka.ms/cdmrepo)
 
-Microsoft en de partners van Microsoft streven ernaar toepassingen te baseren op Common Data Service en zakelijke gegevens in CDM-indeling op te slaan. Er zijn steeds *meer oplossingen die efficiënt samenwerken wanneer gegevens worden opgeslagen in de CDM-indeling*, wat betekent dat u snel en eenvoudig nieuwe bedrijfsprocessen kunt implementeren en inzicht kunt krijgen in uw zakelijke activiteiten. In het volgende diagram ziet u toepassingen die zijn gebaseerd op Common Data Services en waarin gebruik wordt gemaakt van Common Data Model-entiteiten.
+![Common Data Model](media/cdm-entities.png)
 
-![Toepassingen die zijn gebaseerd op Common Data Services en waarin gebruik wordt gemaakt van Common Data Model-entiteiten](media/cdm-overview.png)
+Meer informatie: [CDM-overzicht](https://aka.ms/cdmposter)
 
-Met Common Data Model wordt gegevensbeheer vereenvoudigd doordat gegevens worden samengevoegd in een bekende indeling met *structurele en semantische consistentie in alle toepassingen en implementaties*. Gegevens die zijn verzameld uit onder meer bedrijfsprocessen, digitale interacties, producttelemetrie en interactie tussen personen, kunt u met CDM *ondubbelzinnig* maken en integreren. 
+## <a name="why-use-the-common-data-model"></a>Waarom zou ik het Common Data Model gebruiken?
 
-Gegevens die zijn opgeslagen in Common Data Service for Apps kunnen *eenvoudig en automatisch worden geïntegreerd* met Common Data Service for Analytics (als klanten beide services gebruiken). Als basis kunt u de zakelijke en transactiegegevens gebruiken die u al in uw bezit hebt (zoals potentiële klanten, campagnegegevens, eerdere aankopen van klanten) en deze combineren met gegevens uit andere bronnen (zoals weblogs of producttelemetrie).
+Met het CDM wordt het gegevensbeheer en de toepassingsontwikkeling vereenvoudigd doordat gegevens in een bekende vorm worden samengevoegd en doordat structurele en semantische consistentie wordt toegepast voor meerdere toepassingen en implementaties. Met andere woorden, wanneer uw gegevens in het CDM zijn opgenomen, kunt u deze in veel verschillende toepassingen gebruiken, het maken of gebruiken van andere toepassingen stroomlijnen zodat hierin die bestaande gegevens kunnen worden gebruikt en eenvoudig rapporten voor elk van die toepassingen (of alle) maken. Daarnaast kunnen gegevensintegrators die gegevens uit verschillende systemen leveren zich richten op het implementeren van de gegevens in het CDM en hoeven ze niet voor elke toepassing een nieuw model te maken.
 
-Common Data Model is ook *uitbreidbaar*. Dit betekent dat u velden kunt toevoegen aan de aanpasbare entiteiten die worden meegeleverd met CDM. Daarnaast hebt u de mogelijkheid uw eigen aangepaste entiteiten te maken. Op basis van de CDM-standaard wordt een standaardtaal gedefinieerd voor bedrijfsentiteiten die betrekking heeft op alle bedrijfsprocessen op het gebied van verkoop, services, marketing, bedrijfsactiviteiten, financiën, talent en handel, en van toepassing is op de klanten, personen en productentiteiten die de kern van de bedrijfsprocessen van een organisatie vormen. Common Data Model vereenvoudigt gegevensinteroperabiliteit doordat meerdere kanalen, service-implementaties en leveranciers worden bereikt.
+Stel dat u over drie bedrijfstoepassingen beschikt; een app voor materialen, een app voor de productie en een app voor de verkoop. Vaak wordt elke toepassing afzonderlijk gemaakt, met verschillende structuren die staan voor een entiteit, zoals *Account*, die vrijwel identiek zijn (maar niet helemaal). Met het CDM kunt u de gegevens samenstellen in een standaardopmaak (met behulp van de CDM-entiteiten, -kenmerken en -relaties) en vervolgens kan elk van deze drie apps dezelfde gegevens als uitgangspunt gebruiken. Elke app kan natuurlijk eigen aanvullende gegevens en schema's bevatten, op basis van de functionaliteit van elke app. Maar als het gaat om het ontwikkelen, kunnen de standaardgegevenselementen snel, correct en gemakkelijk door de toepassingen en rapporten worden opgehaald.
 
-Common Data Model en Common Data Service bieden een uitgebreid en productief ontwikkelplatform via de volgende functies:
+En als ik een vierde app wil maken? Uw gegevens zijn gereed, in het CDM-schema, zodat u zich bij het ontwikkelen kunt richten op de bedrijfslogica, en niet op gegevensvraagstukken en tijdrovende transformaties.
 
-- **Definitie van standaardentiteiten**: Common Data Model biedt een definitie van entiteiten die de meest gebruikte entiteiten in zakelijke en productiviteitstoepassingen vertegenwoordigen. De openbare GitHub-opslagplaats voor CDM [ (https://github.com/Microsoft/CDM)](https://github.com/Microsoft/CDM) wordt continu uitgebreid met kernentiteiten die ondersteuning bieden voor alle bedrijfsprocessen in de organisatie, aanvullende verticale gegevensmodellen voor de branche en bronnen die in verschillende gebieden kunnen worden gebruikt, zoals enquêtes, zoekmachines en producttelemetrie.
-- **Gegevensintegratie**: u kunt Power Query als geïntegreerde webervaring gebruiken om gegevens uit uw bestaande systemen te importeren en visueel te transformeren, en gegevens samen te voegen uit online- en on-premises bronnen zonder code of code van laag niveau. Uw Excel- en Power BI-vaardigheden voor het transformeren van gegevens sluiten hier naadloos op aan. Zie het Engelstalige artikel [Add data to an entity in the Common Data Service by using Power Query](../maker/common-data-service/data-platform-cds-newentity-pq.md) (Gegevens aan een entiteit in Common Data Service toevoegen met Power Query) voor meer informatie.
-    
-    Wanneer u gegevens in Common Data Service importeert, kunt u deze toewijzen aan standaardentiteiten in Common Data Model. U kunt ook gegevens maken en deze toewijzen aan nieuwe entiteiten. Dankzij gebruiksklare sjablonen voor gegevensintegratie en -toewijzing kunt u eenvoudig verbinding maken met algemene gegevensbronnen zoals Salesforce. Deze toewijzingssjablonen kunt u volledig aanpassen en uitbreiden. In de volgende schermafbeelding ziet u het proces voor het importeren van externe gegevens en het toewijzen van deze gegevens aan standaardentiteiten in Power Query. 
-    
-    ![Externe gegevens importeren en deze toewijzen aan standaardentiteiten in Power Query ](media/cdm-mapping-entities.png)<br />
+Met andere woorden, het CDM heeft het volgende te bieden voor uw gegevens:
 
-- **Uitbreidbaarheid**: u kunt de entiteiten uitbreiden, zonder dat hierbij de mogelijkheid tot het delen van gegevens met andere apps verloren gaat.
-- **Betrouwbaarheid**: omdat u kunt vertrouwen op algemene entiteiten, kunt u herbruikbare onderdelen maken die aan de entiteiten zijn gebonden. Common Data Model biedt ondersteuning voor uitbreidbaarheid en versiebeheer voor onderdelen waardoor de waarde van uw ontwikkelinvestering behouden blijft.
-- **Consistentie van entiteiten binnen implementaties**: in uw oplossingen kan verbinding worden gemaakt tussen gegevens uit productiviteitsplatformen en gegevens uit zakelijke toepassingen. U kunt bijvoorbeeld een agenda-afspraak of een taak in Microsoft Outlook verbinden met een verkoopkans. 
+-   **Structurele en semantische consistentie** tussen toepassingen en implementaties.
 
-Op basis van [Common Data Service for Apps](../maker/common-data-service/data-platform-intro.md) wordt Common Data Model geïmplementeerd, waardoor het volgende mogelijk wordt als het gaat om de ontwikkeling van zakelijke toepassingen:
+-   **Vereenvoudigde integratie en ondubbelzinnigheid van gegevens** die zijn verzameld uit onder meer processen, digitale interacties, producttelemetrie en interactie tussen personen.
 
-- **Gebruikmaken van een pakket met zakelijke toepassingen**: de toepassingen Dynamics 365 for Marketing, Sales, Service, Talent, Finance and Operations, en toepassingen van derden gebruiken en/of zijn gebaseerd op Common Data Service for Apps.
-- **Toepassingen aanpassen en systeemeigen uitbreidingen bouwen**: aanpassers en ontwikkelaars distribueren oplossingen voor toepassingen met een goed gedefinieerde levenscyclus van toepassingen. Oplossingen hebben betrekking op de manier waarop toepassingen en uitbreidingen worden gedistribueerd. Zie [Inleiding tot oplossingen](../developer/common-data-service/introduction-solutions.md) voor meer informatie.
-- **Apps zonder code of met code van laag niveau, modelgestuurde apps en WYSIWYG-canvas-apps bouwen met PowerApps**: u kunt gebruikmaken van dezelfde gedeelde entiteiten als de entiteiten die met de pakkettoepassingen of toepassingen van derden zijn gemaakt of worden gebruikt, en u kunt aanvullende zelfstandige apps maken. Zie voor meer informatie: 
-    - [Build a model-driven app](../maker/model-driven-apps/model-driven-app-overview.md) (Een modelgestuurde app bouwen)
-    - [Build a canvas app](../maker/canvas-apps/getting-started.md) (Een canvas-app bouwen) 
-- **Bedrijfsprocessen automatiseren met Flow**: u kunt een bedrijfsprocesstroom gebruiken om een aantal fasen en stappen te definiëren om het gewenste resultaat te bereiken. Zie [Een stroom maken die gebruikmaakt van de Common Data Service](/flow/common-data-model-intro) voor meer informatie.
- 
-Met de geplande openbare preview van **Common Data Service for Analytics** <!-- TODO add link when available  --> wordt ook Common Data Model geïmplementeerd, waarmee in een gestandaardiseerde vorm ondersteuning kan worden geboden voor gegevensanalyses van zakelijke gegevens:
+-   **Een gemeenschappelijke vorm** waarin door gegevensintegraties **bestaande bedrijfsgegevens kunnen worden gecombineerd met andere bronnen** en die gegevens als geheel kunnen worden gebruikt om nieuwe toepassingen te ontwikkelen of inzichten op te doen.
 
-- **Analytische pakketoplossingen en aangepaste analytische oplossingen zijn gebaseerd op standaardgegevensentiteiten**: analytische toepassingen zoals Sales Insights, waarmee historische verkoopprestaties worden bijgehouden, bieden consistente inzichten, ongeacht de plek waar de gegevens oorspronkelijk worden beheerd. Dit komt doordat gegevens uit andere bronnen (zoals Salesforce.com) dankzij de gegevensintegratie-ervaring zijn toegewezen aan Common Data Model-entiteitsvormen. Hiermee kan de nadruk in uw analytische oplossingen eenvoudiger worden gelegd op de semantiek van gegevens van goed gedefinieerde entiteiten zoals Potentiële klanten en Verkoopkansen.
-- **Power Query-gegevensintegratie zonder code of met code van laag niveau**: u kunt de geïntegreerde ervaring gebruiken om entiteiten te maken, in te vullen, te transformeren en te verrijken. 
-- **Gebruikmaken van uw eigen Azure-opslag**: u kunt profiteren van de Azure-gegevensstack om gegevens beschikbaar te maken voor Common Data Service for Analytics. De entiteiten worden opgeslagen in dezelfde Common Data Model-indeling, die door de analytische oplossingen wordt herkend.
+-   **Mogelijkheid om het schema en de CDM-entiteiten uit te breiden** om het Common Data Model af te stemmen op uw organisatie.
 
+U kunt met het CDM nieuwe gegevensopslagplaatsen maken die overeenkomen met het schema en ook uw bestaande gegevens transformeren in het Common Data Model-schema. In ieder geval zorgt de standaardisering voor een efficiënte werkwijze, waarmee u de verwerking en bewerking van gegevens versnelt en stroomlijnt.
+
+## <a name="who-uses-the-common-data-model"></a>Wie gebruikt het Common Data Model?
+
+Het CDM wordt gebruikt door verschillende klanten, partners en producten. Hierbij is het doel altijd hetzelfde: de gegevens samenbrengen in een bekende vorm op basis van semantiek.
+
+-   **Ontwikkelaars van toepassingen**: of deze gebruikers nu gebruikmaken van platforms op basis van code of van een platform met weinig of geen code, zoals PowerApps, ze moeten gegevens voor hun toepassingen opslaan en beheren.
+
+-   **Gegevensintegrators**: deze gebruikers zijn verantwoordelijk voor het leveren van gegevens uit een aantal systemen zodat deze door toepassingen kunnen worden gebruikt.
+
+In het verleden was het ontwikkelen van een toepassing nauw verweven met gegevensintegratie, maar met het CDM en de platforms die dit ondersteunen kunnen beide onafhankelijk plaatsvinden.
+
+## <a name="common-data-model-in-action"></a>Common Data Model in actie
+
+Microsoft en haar partners gebruiken het CDM voor hun eigen toepassingen en producten, en ontwikkelen aanvullende services en producten op basis van CDM-schema's. In de volgende voorbeelden ziet u hoe organisaties het CDM toepassen:
+
+-   **Common Data Service (CDS) for Apps** die ondersteuning biedt voor Dynamics en PowerApps, slaat gegevens op in overeenstemming met de CDM-definitie. In feite zijn veel van de oorspronkelijke bedrijfsentiteiten die zijn opgenomen in het CDM afkomstig uit Dynamics-producten zoals Dynamics 365 for Sales en Dynamics 365 for Marketing.
+
+-   **Verticale markten**, zoals de gezondheidszorg, werken nauw samen met Microsoft om het CDM uit te breiden naar hun specifieke bedrijfsconcepten, zoals *Patiënt* en *Zorgverzekering*, zodat ze de gegevens kunnen delen en services kunnen ontwikkelen. Op die manier kunnen partners eenvoudig gegevens uitwisselen, apps en services maken die onderling kunnen worden gebruikt en snelle analyses uitvoeren die eenvoudig kunnen worden gedeeld.
+
+## <a name="next-step"></a>Volgende stap
+
+[Het Common Data Model gebruiken](use-common-data-model.md): in dit onderwerp wordt het CDM in detail beschreven en worden scenario's besproken voor het maken van nieuwe gegevens in het CDM of het transformeren van uw bestaande gegevens naar het CDM.
