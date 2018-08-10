@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 08/02/2018
 ms.author: anneta
-ms.openlocfilehash: 34932178930e36d686c0e040dc707e2aacb083c2
-ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
+ms.openlocfilehash: ef2a7a040edefcbffff9283a95afbce60bb7ed53
+ms.sourcegitcommit: f9857749d74e97b400acc7ee42b8d6ab2025f344
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 08/02/2018
-ms.locfileid: "39470334"
+ms.locfileid: "39476916"
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>Veelvoorkomende problemen en oplossingen voor PowerApps
 
@@ -31,7 +31,7 @@ In dit artikel staan enkele veelvoorkomende problemen die u mogelijk ondervindt 
 
 1. **Apps opnieuw publiceren** (2 aug. 2018)
 
-    Als u uw app gedurende enkele maanden niet hebt bijgewerkt, moet u deze opnieuw publiceren. De app wordt dan gesynchroniseerd met de meest recente versie van PowerApps die prestatieverbeteringen en nieuwe foutoplossingen bevat.
+    Als u uw app enkele maanden niet hebt bijgewerkt, moet u deze opnieuw publiceren. De app wordt dan gesynchroniseerd met de meest recente versie van PowerApps die prestatieverbeteringen en nieuwe foutoplossingen bevat.
 
 1. <a name="out-of-memory"></a>**Er is weinig geheugen beschikbaar voor de browser** (23 juli 2018)
 
