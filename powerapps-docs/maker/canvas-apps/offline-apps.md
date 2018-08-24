@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/09/2017
 ms.author: mblythe
-ms.openlocfilehash: 9035809f989ad4b0215d4a8eba5d693d145b7f66
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+ms.openlocfilehash: 9f02b752444153681e30b39c3fa9d8a8b9e0cd6d
+ms.sourcegitcommit: 521a7b8e6ae72a211045b54d153a8a8c8f59172e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39471208"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "40021382"
 ---
 # <a name="develop-offline-capable-canvas-apps-with-powerapps"></a>Canvas-apps die geschikt zijn voor offlinegebruik ontwikkelen met PowerApps
 
@@ -103,7 +103,7 @@ Deze formule controleert of het apparaat online is:
 
 3. Voeg vier besturingselementen van het type **Label** toe om gegevens uit elke tweet weer te geven en stel de **Text**-eigenschappen in op:
    * **ThisItem.TweetText**
-   * **ThisItem.UserDetails.FullName & " @" & ThisItem.UserDetails.UserName**
+   * **ThisItem.UserDetails.FullName & " \@" & ThisItem.UserDetails.UserName**
    * **"RT: " & ThisItem.RetweetCount**
    * **Text(DateTimeValue(ThisItem.CreatedAtIso), DateTimeFormat.ShortDateTime)**
 4. Voeg een besturingselement van het type **Afbeelding** toe en stel de eigenschap **Image** in op **ThisItem.UserDetails.ProfileImageUrl**.

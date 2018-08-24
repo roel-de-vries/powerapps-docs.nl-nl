@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: c2b4cff0cc9d579cd76dad97a3ab1b160f4089ea
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+ms.openlocfilehash: 66fad5a1afd9086bf07da88a93ac68b756dfb3d6
+ms.sourcegitcommit: 521a7b8e6ae72a211045b54d153a8a8c8f59172e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39022051"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "40021313"
 ---
 # <a name="hashtags-function-in-powerapps"></a>De functie HashTags in PowerApps
 Pakt de hashtags (#strings) van een tekenreeks uit.
@@ -38,7 +38,7 @@ De functie **HashTags** scant een tekenreeks op hashtags. Hashtags beginnen met 
 ### <a name="step-by-step"></a>Stap voor stap
 1. Voeg een besturingselement **[Tekstinvoer](../controls/control-text-input.md)** toe, geef dit de naam **Tweet** en typ de volgende zin erin:
    
-    **Deze #app is #GEWELDIG en kan #123teLLen of #123abc bevatten, maar niet #1-23 of #$\*(#@")**
+    **Deze #app is #GEWELDIG en kan #123teLLen of #123abc bevatten, maar niet #1-23 of #$\*(#\@")**
 2. Voeg een verticale aangepaste galerie toe en stel de eigenschap **[Items](../controls/properties-core.md)** ervan in op deze functie:
    
     **HashTags(Tweet.Text)**

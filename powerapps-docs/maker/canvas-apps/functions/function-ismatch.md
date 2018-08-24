@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 02/05/2017
 ms.author: gregli
-ms.openlocfilehash: ac13b62e77b5d8ed35939983b3989b5edb13361c
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+ms.openlocfilehash: 281e94f959fc87aae53e6881cf86ee0db5e53115
+ms.sourcegitcommit: 521a7b8e6ae72a211045b54d153a8a8c8f59172e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39018003"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "40021290"
 ---
 # <a name="ismatch-function-in-powerapps"></a>De functie IsMatch in PowerApps
 Test of een teksttekenreeks overeenkomt met een patroon.
@@ -68,7 +68,7 @@ Vooraf gedefinieerde patronen bieden een eenvoudige manier om een reeks tekens o
 | **Alle** |Komt overeen met een willekeurig teken. |**,** |
 | **Komma** |Komt overeen met een komma. |**,** |
 | **Cijfer** |Komt overeen met één cijfer ("0" tot en met "9"). |**\\d** |
-| **E-mail** |Komt overeen met een e-mailadres dat een apenstaartje ("@") en een domeinnaam met een punt (".") bevat. |**.+@.+\\.[^\\.]{2,}** |
+| **E-mail** |Komt overeen met een e-mailadres dat een apenstaartje ("\@") en een domeinnaam met een punt (".") bevat |**.+\@.+\\.[^\\.]{2,}** |
 | **Afbreekstreepje** |Komt overeen met een afbreekstreepje. |**\\-** |
 | **LeftParen** |Komt overeen met een haakje openen "(". |**\\(** |
 | **Letter** |Komt overeen met een letter. |**\\p{L}** |
