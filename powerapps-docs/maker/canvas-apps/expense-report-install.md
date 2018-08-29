@@ -9,32 +9,32 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/08/2018
 ms.author: caburk
-ms.openlocfilehash: f0fc0d9407511730145002bf109957b0878398bc
-ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 5c2d9e2b815d1ff2c3dc80bc6c37f1c2e78364ac
+ms.sourcegitcommit: b35470285b96750d660335284d830b4d0028befb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39470035"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "42859499"
 ---
 # <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-powerapps"></a>De voorbeeld-app Onkostenrapport voor canvas-apps installeren en configureren in PowerApps
 
-Stapsgewijze instructies voor het installeren en configureren van de voorbeeld-app Onkostenrapport.
+Stapsgewijze instructies voor het installeren en configureren van de voorbeeld-app Onkostenrapport. U kunt [hier](https://aka.ms/previewmyexpenses) een preview van de voorbeeld-app bekijken.
 
 Geschatte tijd voor het uitvoeren van deze stappen: **10-15 minuten**
 
-Bekijk deze video om een demonstratie van deze procedure te bekijken.
-
-[![Video over de installatie van Onkostenrapport](./media/expense-report-install/expense-report-install-video.png)](https://youtu.be/DOR28V5kCkw)
-
-## <a name="overview-of-the-sample"></a>Overzicht van de voorbeeld-app
+> [!TIP]
+> Bekijk [deze video](https://youtu.be/kJXZPILfbwU) voor een demonstratie van het gebruik van de voorbeeld-app Onkosten. 
 
 Houd onkostenrapporten bij van indiening tot goedkeuring. Regelitems afstemmen wanneer individuele kosten toenemen en indienen voor goedkeuring indien gereed. U moet enkele instellingen opgeven voordat u met de app kunt werken.
 
 ![Openingsscherm van de PowerApp Onkosten](./media/expense-report-install/expense-report-powerapp.png)
 
-Bekijk deze video om te zien hoe u de voorbeeld-app Onkostenrapporten van PowerApps gebruikt.
-
-[![Video over de installatie van Onkostenrapporten](./media/expense-report-install/expense-report-demo-video.png)](https://youtu.be/h6E9cdrOvMU)
+> [!TIP]
+> Bekijk [deze](https://youtu.be/h6E9cdrOvMU) video om te zien hoe u de voorbeeld-app Onkosten van PowerApps gebruikt.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -377,9 +377,6 @@ In deze lijst worden de regelitems opgeslagen die zijn gekoppeld aan onkostenrap
 2. Klik op het **beletselteken** naast de PowerApp Onkostenrapporten.
 3. Klik op **Openen**.
 
-Bekijk deze video om te zien hoe u de voorbeeld-app Onkostenrapporten van PowerApps gebruikt.
-
-[![Video over de installatie van Onkostenrapporten](./media/expense-report-install/expense-report-demo-video.png)](https://youtu.be/h6E9cdrOvMU)
 
 ## <a name="next-steps"></a>Volgende stappen
 - [Een SharePoint-lijstformulier aanpassen](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form)
