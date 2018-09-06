@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/25/2016
 ms.author: anneta
-ms.openlocfilehash: cc3609991ffb68f6846cb73b7ccfa37227d0c8e7
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 89b05b5e1e8073b082e73564f744b7b85fc70426
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019478"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42863937"
 ---
 # <a name="add-images-to-excel-from-powerapps"></a>Afbeeldingen toevoegen aan Excel via PowerApps
 Maak automatisch een app waarin gebruikers afbeeldingen uit bestanden of tekeningen kunnen toevoegen, weergeven of verwijderen met het besturingselement **Pen**. De app is gebaseerd op een Excel-bestand dat u maakt en uploadt naar een cloudopslagaccount.

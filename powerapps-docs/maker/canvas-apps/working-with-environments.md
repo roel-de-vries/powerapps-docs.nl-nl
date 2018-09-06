@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/14/2016
 ms.author: litran
-ms.openlocfilehash: 865e5f419d5ff318ce232fff16b9240039129a29
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: c4e02adfdd5c1c4e49bb1a605ccfff463369f750
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39194985"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42835285"
 ---
 # <a name="working-with-environments-and-microsoft-powerapps"></a>Werken met omgevingen en Microsoft PowerApps
 U kunt met PowerApps in verschillende omgevingen werken en eenvoudig schakelen tussen omgevingen. Zie [Overzicht van omgevingen](../../administrator/environments-overview.md) voor een overzicht van omgevingen. Daarin wordt in detail uitgelegd waarom u omgevingen gebruikt en hoe u omgevingen kunt maken en beheren. In dit artikel komen de volgende onderwerpen over omgevingen aan bod:

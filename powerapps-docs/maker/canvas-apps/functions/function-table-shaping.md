@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/07/2015
 ms.author: gregli
-ms.openlocfilehash: 47e17c440e1bb0ae880769dabd9130fb10d3cbbe
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 6a7d511143a0b16e04ae31263dec9f6a4e04689e
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39016209"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864351"
 ---
 # <a name="addcolumns-dropcolumns-renamecolumns-and-showcolumns-functions-in-powerapps"></a>De functies AddColumns, DropColumns RenameColumns en ShowColumns in PowerApps
 Hiermee geeft u een [tabel](../working-with-tables.md) vorm door [kolommen](../working-with-tables.md#columns) op te nemen, uit te sluiten, te selecteren of door de naam ervan te wijzigen.

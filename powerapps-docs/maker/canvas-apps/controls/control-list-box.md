@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 30c55591e410b5526fc85b76b06002c2266e1867
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: a2cb87cf68457771605e78970b8d7a923af61fce
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016577"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42835167"
 ---
 # <a name="list-box-control-in-powerapps"></a>Besturingselement voor keuzelijst in PowerApps
 Een lijst waarin de gebruiker een of meer items kan selecteren.
@@ -27,7 +31,7 @@ Een besturingselement **Keuzelijst** toont altijd alle beschikbare opties (in te
 
 **[Items](properties-core.md)**: de gegevensbron die wordt weergegeven in een besturingselement zoals een galerie, een lijst of een grafiek.
 
-[!INCLUDE [long-items](../../../includes/long-items.md)]
+Wanneer u een galerie, lijst of diagram toevoegt, wordt in de eigenschappenlijst standaard **Items** weergegeven zodat u eenvoudig de gegevens kunt opgeven die met het nieuwe besturingselement moeten worden weergegeven. U kunt bijvoorbeeld de eigenschap **Items** van een galerie instellen op de tabel **Account** in Salesforce, een tabel met de naam **Inventory** die u hebt gemaakt in Excel en is geüpload naar de cloud of een SharePoint-lijst met de naam **ConferenceSpeakers**.
 
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
 **[AccessibleLabel](properties-accessibility.md)**: label voor schermlezers.

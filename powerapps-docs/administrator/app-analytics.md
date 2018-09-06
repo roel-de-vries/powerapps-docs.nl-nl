@@ -8,17 +8,23 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 08/29/2017
 ms.author: jamesol
-ms.openlocfilehash: d114630b9716c98079274f30c9b78f02b70576d4
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 0f376d8e6b86a7abf65e744275fc4e90beabde43
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349726"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42850025"
 ---
 # <a name="view-analytics-reports-for-your-app"></a>Analyserapporten voor uw app weergeven
 Hebt u een app gebouwd en deze gedeeld in uw organisatie?  Bent u benieuwd hoeveel collega’s deze dagelijks gebruiken?
 
-Maak kennis met het eerste PowerApps-analyserapport dat nu beschikbaar is op [web.powerapps.com](https://web.powerapps.com): het **gebruiksrapport voor apps**.
+Maak kennis met het eerste PowerApps-analyserapport dat nu beschikbaar is op [web.powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc): het **gebruiksrapport voor apps**.
 
 Het gebruiksrapport voor apps biedt u de mogelijkheid om bij te houden hoeveel gebruikers uw app in de achterliggende 30 dagen gebruikten, opgedeeld per dag, apparaatplatform en locatie.
 
@@ -30,7 +36,7 @@ Alle rapporten zijn beschikbaar voor alle gebruikers met 'Kan bewerken’-machti
 ## <a name="where-do-i-find-my-apps-reports"></a>Waar kan ik de rapporten voor mijn app vinden?
 U kunt de rapporten voor uw app bekijken door de volgende stappen te volgen:
 
-1. Ga naar [web.powerapps.com](https://web.powerapps.com).
+1. Ga naar [web.powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 2. Selecteer **Apps** in de linkernavigatiebalk
    
     ![Linkernavigatiebalk](./media/app-analytics/left-nav.png)

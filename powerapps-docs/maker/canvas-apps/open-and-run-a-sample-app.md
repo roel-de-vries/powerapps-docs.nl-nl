@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/11/2018
 ms.author: anneta
-ms.openlocfilehash: 293c5874e47d740d645b331aade04df662500db8
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 5d4e88ca0a1e683d2f72e02625e6228d1063352f
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39194824"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42831802"
 ---
 # <a name="quickstart-create-a-canvas-app-from-a-sample-in-powerapps"></a>Snelstartgids: Een canvas-app maken vanuit een voorbeeld in PowerApps
 In deze snelstartgids maakt u een canvas-app op basis van een voorbeeld, zodat u uw ontwerpmogelijkheden kunt verkennen en concepten kunt ontdekken die u kunt toepassen tijdens het ontwikkelen van uw eigen canvas-apps.
