@@ -9,12 +9,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: jamesol
-ms.openlocfilehash: de7af5aa10f2f39057806c6ad170dc32e85c9f02
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: df7ea7bd8a32354191d12d63881988dfd1c8e49e
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349013"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42843746"
 ---
 # <a name="responding-to-data-subject-rights-dsr-requests-for-common-data-service-for-apps-customer-data"></a>Reageren op aanvragen van betrokkenen voor CDS for Apps-klantgegevens (Common Data Service)
 
@@ -52,7 +58,7 @@ In dit artikel komen de volgende acties aan bod:
 
 CDS for Apps en de vorige versie van CDS (Common Data Service) hebben verschillende processen voor interactie met persoonsgegevens.
 
-U kunt achterhalen welk type CDS-omgeving u gebruikt door u aan te melden bij [PowerApps](https://web.powerapps.com) en deze stappen te volgen:
+U kunt achterhalen welk type CDS-omgeving u gebruikt door u aan te melden bij [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en deze stappen te volgen:
 
 1. Selecteer uw omgeving in de vervolgkeuzelijst **Omgeving**.
 2. Klik of tik in het navigatievenster op **Gegevens** om de sectie uit te vouwen en klik of tik op **Entiteiten**.
@@ -308,12 +314,12 @@ U vindt de persoonsgegevens van gebruikers van de vorige versie van CDS in de vo
 
 |Bron | Doel | Website-toegang |  Toegang op programmeerniveau
 | --- | --- | --- | ---
-|Entiteitsrecords | Voor het vastleggen van zakelijke transacties in de respectieve bedrijfsentiteit. | [PowerApps](https://web.powerapps.com) |      Nee
+|Entiteitsrecords | Voor het vastleggen van zakelijke transacties in de respectieve bedrijfsentiteit. | [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) |   Nee
 
 #### <a name="entity-records"></a>Entiteitsrecords
 Persoonsgegevens van een persoon kunnen worden opgeslagen in elke bedrijfsentiteit.
 
-Deze versie van CDS heeft een eigen databaseschema en infrastructuur. Deze versie van CDS heeft eigen entiteiten en u beheert deze entiteiten in [PowerApps](http://web.powerapps.com/).
+Deze versie van CDS heeft een eigen databaseschema en infrastructuur. Deze versie van CDS heeft eigen entiteiten en u beheert deze entiteiten in [PowerApps](http://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 Ga als volgt te werk om een lijst van uw entiteiten te bekijken:
 
@@ -348,7 +354,7 @@ Om persoonsgegevens in de CDS-omgeving te corrigeren, kunt u de entiteitsgegeven
 
 CDS-systeembeheerders moeten alle entiteiten kunnen identificeren die persoonsgegevens van een persoon bevatten en moeten de volgende stappen kunnen uitvoeren voor elk van de entiteiten.
 
-Ga in [PowerApps](http://web.powerapps.com/) als volgt te werk:
+Ga in [PowerApps](http://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) als volgt te werk:
 
 1. Klik of tik in het navigatievenster op **Gegevens** om de sectie uit te vouwen en klik of tik op **Entiteiten**.
 
@@ -379,7 +385,7 @@ Ga in [PowerApps](http://web.powerapps.com/) als volgt te werk:
 ### <a name="export"></a>Exporteren
 U kunt persoonsgegevens vanuit elke entiteit in een Excel-werkblad exporteren en weergeven.
 
-Ga in [PowerApps](http://web.powerapps.com/) als volgt te werk:
+Ga in [PowerApps](http://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) als volgt te werk:
 
 1. Klik of tik in het navigatievenster op **Gegevens** om de sectie uit te vouwen en klik of tik op **Entiteiten**.
 
@@ -404,7 +410,7 @@ Met de functie Exporteren/importeren kunt u persoonsgegevens verwijderen die zij
 
 CDS-systeembeheerders moeten alle entiteiten kunnen identificeren die persoonsgegevens van een persoon bevatten en moeten de volgende stappen kunnen uitvoeren voor elk van de entiteiten.
 
-Ga in [PowerApps](http://web.powerapps.com/) als volgt te werk:
+Ga in [PowerApps](http://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) als volgt te werk:
 
 1. Klik of tik in het navigatievenster op **Gegevens** om de sectie uit te vouwen en klik of tik op **Entiteiten**.
 

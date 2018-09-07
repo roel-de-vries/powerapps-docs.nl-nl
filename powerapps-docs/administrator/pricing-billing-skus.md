@@ -8,12 +8,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: jamesol
-ms.openlocfilehash: 475b1f9b1aace4dc9632379e8a4e3522a90f42b2
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 4eb1cdb3fb54780c693bb764bdf6d9de1e7088b5
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349036"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864374"
 ---
 # <a name="licensing-overview"></a>Licentieoverzicht
 PowerApps wordt gelicentieerd op gebruikersbasis. Elke gebruiker die toegang heeft tot de service voor het maken en uitvoeren van apps, heeft een licentie nodig. Office 365- en Dynamics 365-klanten kunnen onmiddellijk profiteren van de mogelijkheden van PowerApps en Microsoft Flow die deze aanbiedingen omvatten. Klanten die apps en stromen willen maken die toegang nodig hebben tot gegevensbronnen buiten Office 365 en Dynamics 365, of die aanvullende functionaliteit nodig hebben, kunnen een zelfstandig abonnement voor PowerApps en Flow Microsoft aanschaffen. Er zijn belangrijke verschillen in de functionaliteit tussen deze groepen met licenties.

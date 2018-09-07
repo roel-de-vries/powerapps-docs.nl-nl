@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 05/24/2018
 ms.author: fikaradz
-ms.openlocfilehash: 604b48a70f54a011e803342191e51dda12cbca3a
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: e469cc3769c8deeb5046dc79f34b9ae42788b2d2
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39016140"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42865169"
 ---
 # <a name="rich-text-editor-control-experimental-in-powerapps"></a>Besturingselement voor editor van tekst met opmaak (experimenteel) in PowerApps
 Dit is een experimenteel bedieningselement waarmee eindgebruikers tekst kunnen opmaken in een WYSIWYG-bewerkingsvak.  De uitvoerindeling is HTML.

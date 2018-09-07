@@ -7,12 +7,18 @@ ms.component: pa-admin
 ms.topic: quickstart
 ms.date: 03/30/2018
 ms.author: jimholtz
-ms.openlocfilehash: 49898aed97e2361704c88bcc1cd098a8fc0f101e
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 2ebacd128846e45cc936e3f66560f6fcf27d50b8
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349450"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42840675"
 ---
 # <a name="create-a-data-loss-prevention-dlp-policy"></a>Een beleid ter preventie van gegevensverlies (DLP) maken
 Als u de gegevens in uw organisatie wilt beschermen, kunt u in PowerApps een beleid ter preventie van gegevensverlies (DLP) maken waarmee wordt bepaald met welke consumentenconnectors zakelijke gegevens mogen worden gedeeld. Met dit beleid wordt gedefinieerd hoe gegevens mogen worden gedeeld. Het beleid wordt aangeduid als beleid ter preventie van gegevensverlies (DLP). Met een DLP-beleid zorgt u ervoor dat gegevens in uw organisatie op uniforme wijze worden beheerd en voorkomt u dat belangrijke zakelijke gegevens onbedoeld naar connectors zoals socialemediasites worden gepubliceerd.

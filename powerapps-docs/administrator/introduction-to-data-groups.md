@@ -8,12 +8,18 @@ ms.component: pa-admin
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: manasma
-ms.openlocfilehash: 6a6217c0a344d0501c8a856b0632397044ceb465
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: e2424207cdc70f2f8135fa6ef5559cec2fc637d9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349634"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42833993"
 ---
 # <a name="data-groups"></a>Gegevensgroepen
 Gegevensgroepen zijn een eenvoudige manier om services te categoriseren binnen een [DLP-beleid](prevent-data-loss.md). DLP staat voor Data Loss Prevention, ofwel preventie van gegevensverlies. Deze twee groepen zijn beschikbaar: **Alleen zakelijke gegevens** en **Geen zakelijke gegevens toegestaan**. Organisaties kunnen zelf bepalen welke services ze in een van deze gegevensgroepen willen plaatsen. Een goede manier om services te categoriseren is door ze in groepen te plaatsen op basis van de impact op de organisatie. Standaard worden alle services opgenomen in de groep **Geen zakelijke gegevens toegestaan**. U beheert de services in een gegevensgroep wanneer u in het beheercentrum de eigenschappen van een DLP-beleid maakt of wijzigt.

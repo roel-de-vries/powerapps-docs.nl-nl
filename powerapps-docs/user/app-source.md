@@ -11,12 +11,17 @@ ms.author: matp
 ms.custom: ''
 ms.reviewer: ''
 ms.assetid: ''
-ms.openlocfilehash: ce7494e136c3cc4e0ff6e841f5145fee8a9185c2
-ms.sourcegitcommit: bcfefb30b12cf94815dd9a0fd8cad29a8272d96e
+search.audienceType:
+- enduser
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: 512d45a92bf4fe3a8f5acb9d4bd5617bcdbaa4ca
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2018
-ms.locfileid: "37925473"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42844657"
 ---
 # <a name="discover-apps-via-appsource"></a>Apps ontdekken via AppSource
 De apps die u bouwt en publiceert met PowerApps worden ontdekt en gebruikt in Dynamics 365 for Web. Hier worden al uw apps weergegeven: de apps die u hebt gekozen om ze te gebruiken (door ze te openen via een deele-mail of door ze via AppSource te openen) en de apps die beheerders voor u hebben ingericht. Dit omvat al uw apps uit PowerApps, alsmede Dynamics 365-toepassingen van Microsoft. U kunt zoeken naar apps en filteren op omgeving en de apps die u het vaakst gebruikt vastmaken aan de bovenkant van de pagina.
