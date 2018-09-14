@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 09/11/2018
 ms.author: jamesol
 search.audienceType:
 - admin
@@ -14,12 +14,12 @@ search.app:
 - D365CE
 - PowerApps
 - Powerplatform
-ms.openlocfilehash: 4eb1cdb3fb54780c693bb764bdf6d9de1e7088b5
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 301592978d483d1b6ff5930a01f6c6c0119c779e
+ms.sourcegitcommit: 87122dba00b4177ef736d87ecdde79581649ba42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42864374"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44499540"
 ---
 # <a name="licensing-overview"></a>Licentieoverzicht
 PowerApps wordt gelicentieerd op gebruikersbasis. Elke gebruiker die toegang heeft tot de service voor het maken en uitvoeren van apps, heeft een licentie nodig. Office 365- en Dynamics 365-klanten kunnen onmiddellijk profiteren van de mogelijkheden van PowerApps en Microsoft Flow die deze aanbiedingen omvatten. Klanten die apps en stromen willen maken die toegang nodig hebben tot gegevensbronnen buiten Office 365 en Dynamics 365, of die aanvullende functionaliteit nodig hebben, kunnen een zelfstandig abonnement voor PowerApps en Flow Microsoft aanschaffen. Er zijn belangrijke verschillen in de functionaliteit tussen deze groepen met licenties.
@@ -92,7 +92,7 @@ Als u vaardigheden wilt opdoen en meer informatie wilt over PowerApps, Microsoft
 PowerApps-licenties omvatten altijd Microsoft Flow-mogelijkheden.  Behalve dat Microsoft Flow is opgenomen in PowerApps-licenties, is Microsoft Flow ook beschikbaar als een zelfstandige service. Zie de pagina met [PowerApps-prijzen][2] voor meer informatie over de specifieke Microsoft Flow-mogelijkheden die elke PowerApps-licentie bevat.
 
 ## <a name="resource-capacity-is-included-with-each-license"></a>Elke licentie bevat resourcecapaciteit
-De bovenstaande gebruikerslicenties worden geleverd inclusief capaciteit voor resources die worden gebruikt wanneer een app of stroom wordt uitgevoerd. Dit zijn resources voor gegevensopslag, bestandsopslag en stroomuitvoeringen. De capaciteiten in de licenties per gebruiker worden gegroepeerd op tenantniveau. Wanneer de capaciteit van de tenant is uitgeput, kunnen klanten extra capaciteit aanschaffen via invoegtoepassingslicenties. De maximale capaciteit voor de Common Data Service is 10 GB per database en 5 TB voor bestandsopslag per omgeving. Als u extra capaciteit koopt en de beschikbare capaciteit (met licenties en invoegtoepassingen) groter is dan de maximale capaciteit, kunt u de totale hoeveelheid in meerdere omgevingen gebruiken. Raadpleeg de pagina met [PowerApps-prijzen][2] voor de capaciteitshoeveelheden van elke PowerApps-licentie.
+De bovenstaande gebruikerslicenties worden geleverd inclusief capaciteit voor resources die worden gebruikt wanneer een app of stroom wordt uitgevoerd. Dit zijn resources voor gegevensopslag, bestandsopslag en stroomuitvoeringen. De capaciteiten in de licenties per gebruiker worden gegroepeerd op tenantniveau. Wanneer de capaciteit van de tenant is uitgeput, kunnen klanten extra capaciteit aanschaffen via invoegtoepassingslicenties. Als u extra capaciteit koopt en de beschikbare capaciteit (met licenties en invoegtoepassingen) groter is dan de maximale capaciteit, kunt u de totale hoeveelheid in meerdere omgevingen gebruiken. Raadpleeg de pagina met [PowerApps-prijzen][2] voor de capaciteitshoeveelheden van elke PowerApps-licentie.
 
 ## <a name="powerapps-licensing-examples"></a>Voorbeelden van PowerApps-licenties
 Een voorbeeld. ABC Inc. heeft 1000 werknemers. 700 werknemers hebben een licentie voor Office 365 Enterprise 3. Eerder heeft een hoofdgebruiker een line-of-business-toepassing gemaakt die de manier vereenvoudigt waarop klantorders kunnen worden gevolgd. Later werkt de HR-afdeling samen met IT aan de invoering van een app voor het rapporteren van vrije dagen en afwezigheid, en die app is gebouwd op Common Data Service.
