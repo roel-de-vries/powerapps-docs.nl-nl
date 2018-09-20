@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 03/12/2018
 ms.author: anneta
 ms.reviewer: ''
-ms.openlocfilehash: 62afc8fc0ce754ed797683a61c061db16370f904
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+ms.openlocfilehash: cfe9dd8d7a1a1342e7db4fb2786f68942bec7784
+ms.sourcegitcommit: 967812754d8e5b1ff72baa35ffbe548f3b9b0085
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39195192"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45726901"
 ---
 # <a name="sign-up-for-a-free-license-to-try-powerapps"></a>Aanmelden voor een gratis licentie om PowerApps te proberen
 Als u een app wilt maken in PowerApps, hebt u een van de verschillende typen licenties nodig die verschillende functionaliteitniveaus bieden. U hebt al een licentie voor PowerApps als uw organisatie een van verschillende versies van Office 365 of Dynamics 365 voor u heeft gekocht, of als uw organisatie licenties voor PowerApps-abonnement 1 of 2 voor u heeft aangeschaft.
@@ -93,7 +93,7 @@ Als dit dialoogvenster wordt weergegeven, selecteert u **Start**, waarna u vervo
     In de [volledige lijst met connectors](./canvas-apps/connections-list.md), worden de premium-connectors met een badge weergegeven:
 
     ![](./media/signup-for-powerapps/premium-badge.png)
-* **Toegang tot het PowerApps-beheercentrum**, waar u uw omgevingen, databases, gebruikersmachtigingen en gegevensbeleid kunt beheren. [Meer informatie](../administrator/introduction-to-the-admin-center.md)
+* **Toegang tot het PowerApps-beheercentrum**, waar u uw omgevingen, databases, gebruikersmachtigingen en gegevensbeleid kunt beheren. [Meer informatie](../administrator/admin-guide.md)
 * **Maak apps in de modelgestuurde modus** waarin u onderdelen toevoegt aan een app en PowerApps de indeling en andere interface-elementen ervoor laat maken. 
 
 Zie de [pagina met prijzen](https://powerapps.microsoft.com/pricing/) voor meer informatie over de functionaliteit en capaciteit van de proeflicentie.
