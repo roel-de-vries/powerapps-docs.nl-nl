@@ -15,18 +15,25 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: jdaly
-ms.openlocfilehash: c07a6505c0a08eca706c08cc2e4d607cd5322dfe
-ms.sourcegitcommit: 91a102426f1bc37504142cc756884f3670da5110
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: 3b0e2d70a9295bdf1a8a6d6a71cb6075677bb991
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36949232"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42844049"
 ---
 # <a name="common-data-service-for-apps-developer-overview"></a>Overzicht van Common Data Service for Apps voor ontwikkelaars
+
 PowerApps biedt gebruikers, bedrijven, onafhankelijke softwareleveranciers (ISV's) en systeemintegrators (SI's) een krachtig platform voor het bouwen van Line-Of-Business-apps. De nieuwe toevoeging aan PowerApps in deze release is de uitbreiding van Common Data Service, nu Common Data Service for Apps genoemd. Deze service bevat nu de kernfunctionaliteit van het Dynamics 365-platform voor Dynamics 365 for Sales, Marketing en Customer Service.
 
 
 ## <a name="get-started"></a>Aan de slag
+
 Als u al ervaring hebt met de Dynamics 365 for Sales-, Marketing- of Customer Service-apps, zult u merken dat uw ervaring goed van pas komt bij het aanpassen en uitbreiden van Common Data Service for Apps.
 
 Als u nog geen ervaring hebt met de Dynamics 365 for Sales-, Marketing- en Customer Service-apps, bieden de volgende onderwerpen een algemeen overzicht van de belangrijke concepten die u op weg helpen bij het werken met Common Data Service for Apps.
@@ -52,7 +59,7 @@ De volgende hulpprogramma's worden gedistribueerd in NuGet-pakketten. In het Eng
 |Registratiehulpprogramma voor invoegtoepassingen `PluginRegistration.exe`|Een hulpprogramma dat wordt gebruikt om invoegtoepassingsklassen van .NET-assembly aan te melden bij servergebeurtenissen. <br />Meer informatie: <br />[Een invoegtoepassing maken](apply-business-logic-with-code.md#create-a-plug-in)<br />[Dynamics 365 Customer Engagement Developer Guide: Walkthrough: Register a plug-in using the plug-in registration tool](/dynamics365/customer-engagement/developer/walkthrough-register-plugin-using-plugin-registration-tool) (Ontwikkelaarshandleiding voor Dynamics 365 Customer Engagement: Overzicht: Een invoegtoepassing registreren met het registratiehulpprogramma voor invoegtoepassingen)|
 |Hulpprogramma SolutionPackager `SolutionPackager.exe`|Een hulpprogramma waarmee u een gecomprimeerd oplossingsbestand in Common Data Service for Apps omkeerbaar kunt splitsen in meerdere XML-bestanden en andere bestanden, zodat deze bestanden eenvoudig kunnen worden beheerd in een bronbeheersysteem.<br /> Meer informatie: <br />[Teamontwikkeling van oplossingen](introduction-solutions.md#team-development-of-solutions)<br />[Dynamics 365 Customer Engagement Developer Guide: Use the SolutionPackager tool to compress and extract a solution file](/dynamics365/customer-engagement/developer/compress-extract-solution-file-solutionpackager) (Ontwikkelaarshandleiding voor Dynamics 365 Customer Engagement: Het hulpprogramma SolutionPackager gebruiken om een oplossingsbestand te comprimeren en uit te pakken)|
 
-### <a name="net-sdk-assemblies"></a>.NET SDK-assembly's 
+### <a name="net-sdk-assemblies"></a>.NET SDK-assembly's
 
 Hieronder vindt u een overzicht met assembly's die .NET-ontwikkelaars kunnen gebruiken. De meest recente versies kunnen worden gedownload via de bijbehorende NuGet-pakketten.
 

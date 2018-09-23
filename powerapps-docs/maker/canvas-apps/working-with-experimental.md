@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/16/2018
 ms.author: gregli
-ms.openlocfilehash: d976a81603d48d72ecb2dc7c279b59d0e70800eb
-ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 741cec402c6a5b5ea30700badd265f5e950203e9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39094807"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42858470"
 ---
 # <a name="understand-experimental-and-preview-features-in-powerapps"></a>Experimentele functies en preview-functies in PowerApps
 
@@ -51,9 +55,9 @@ Tegen het einde van de preview-fase is het mogelijk dat we de functie voor alle 
 ## <a name="documentation"></a>Documentatie
 
 Waar vindt u informatie over deze functies?  We behandelen preview-functies als voltooide functies en u kunt hierover, net als voor alle andere productfuncties, meer informatie vinden: 
-- [PowerApps-documentatie](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/getting-started). Wij stellen de basisinformatie voor de nieuwe functie beschikbaar: de voordelen, hoe u aan de slag gaat en naslaginformatie.
+- [PowerApps-documentatie](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started). Wij stellen de basisinformatie voor de nieuwe functie beschikbaar: de voordelen, hoe u aan de slag gaat en naslaginformatie.
 - [Forum van de PowerApps-community](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1).  U gaat de nieuwe functie samen met anderen verkennen. Leer van hun ervaringen en deel uw ervaringen met hen.
-- [PowerApps-blog](https://powerapps.microsoft.com/en-us/blog/).  Wanneer er een nieuwe functie in gebruik wordt genomen, wordt hierover vaak, maar niet altijd, een blogpost geplaatst.
+- [PowerApps-blog](https://powerapps.microsoft.com/blog/).  Wanneer er een nieuwe functie in gebruik wordt genomen, wordt hierover vaak, maar niet altijd, een blogpost geplaatst.
 
 Experimentele functies zijn anders.  Het zijn functies waaraan wordt gewerkt en we beschouwen ze niet als voltooid. De korte beschrijving in het deelvenster **App-instellingen** (zie hieronder) is mogelijk de enige informatie over de functie. Experimentele functies worden normaal gesproken niet in de documentatie beschreven. Het communityforum is waarschijnlijk uw beste informatiebron.  In sommige gevallen wordt de functie in een vroegtijdige blogpost beschreven.  Als u onvoldoende informatie vindt, kunt u vragen stellen in de forums of wachten totdat de functie naar de preview-fase overgaat.
 

@@ -1,0 +1,1 @@
+Vertrouwenscentrum van Microsoft Azure
