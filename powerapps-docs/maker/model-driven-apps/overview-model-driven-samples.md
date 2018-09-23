@@ -3,19 +3,19 @@ title: Modelgestuurde voorbeeld-apps
 description: Krijg inzicht in het ophalen, aanpassen en verwijderen van modelgestuurde voorbeeld-apps.
 documentationcenter: na
 author: caburk
-manager: kfile
+manager: kvivek
 ms.service: powerapps
 ms.devlang: na
 ms.topic: conceptual
 ms.component: model
 ms.date: 03/08/2018
 ms.author: caburk
-ms.openlocfilehash: 36e5efec10a3f849b6366368eed7b3b9e7af3f8c
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 0b34a32281fb4f64bc918de81b3920edf5a7000b
+ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37898370"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39664422"
 ---
 # <a name="model-driven-sample-apps"></a>Modelgestuurde voorbeeld-apps
 
@@ -70,7 +70,7 @@ Als u modelgestuurde voorbeeld-apps wilt afspelen of bewerken, moeten de apps ee
 
     ![Oplossing verwijderen](media/overview-model-driven-samples/delete-solution.png)
 
-<em>U kunt ook naar de lijst met oplossingen navigeren door te klikken op **Geavanceerd</em>* in de portal van de maker en alles in de URL verwijderen na .dynamics.com/*
+*U kunt ook naar de lijst met oplossingen navigeren door te klikken op **Geavanceerd** in de portal van de maker en alles in de URL verwijderen na .dynamics.com/*
 
 > [!IMPORTANT]
 > Verwijder geen andere systeemoplossingen, tenzij u van het effect op de hoogte bent.

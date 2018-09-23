@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.component: model
 ms.date: 03/21/2018
 ms.author: matp
-ms.openlocfilehash: 134ae4dfb5fe111c4c40e96efa1e79a3993c4a46
-ms.sourcegitcommit: 79b8842fb0f766a0476dae9a537a342c8d81d3b3
+ms.openlocfilehash: 5c166f7fffa217a918d690c9176058d8e81b3f99
+ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37899750"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39663042"
 ---
 # <a name="tutorial-share-a-model-driven-app-with-powerapps"></a>Zelfstudie: Een modelgestuurde app delen met PowerApps
 
@@ -56,7 +56,7 @@ Zie [Beveiligingsrollen](https://docs.microsoft.com/dynamics365/customer-engagem
 4. U kunt in de ontwerper voor beveiligingsrollen de acties (zoals lezen, schrijven of verwijderen) en het bereik voor deze acties selecteren. Met het bereik bepaalt u hoe diep of hoog binnen de hiërarchie van omgevingen de gebruiker een bepaalde actie kan uitvoeren. Geef in het vak **Rolnaam** de optie *Dierverzorgers* op.
 5. Selecteer het tabblad **Aangepaste entiteiten** en zoek vervolgens de gewenste aangepaste entiteit op. Voor dit voorbeeld wordt de aangepaste entiteit met de naam **Huisdier** gebruikt. 
 6. Op de rij **Huisdier** selecteert u elk van de volgende bevoegdheden vier keer tot het globale bereik voor de organisatie, ![Organization global scope](media/share-model-driven-app/organizational-scope-privilege.png), is geselecteerd: **Lezen, Schrijven, Toevoegen**
-   ![Nieuwe beveiligingsrol](media/share-model-driven-app/custom-security-role.png)
+![Nieuwe beveiligingsrol](media/share-model-driven-app/custom-security-role.png)
 7. Aangezien de dierverzorgings-app tevens betrekking heeft met de accountentiteit, selecteert u het tabblad **Kernrecords** en selecteert u op de rij **Account** de optie **Lezen** vier keer tot het globale bereik voor de organisatie, ![Organization global scope](media/share-model-driven-app/organizational-scope-privilege.png), is geselecteerd. 
 8. Selecteer **Opslaan en sluiten**. 
 9. Geef bij de ontwerper van de beveiligingsrol in het vak **Rolnaam** *Dierverzorgingsplanners*  op. 
@@ -67,11 +67,7 @@ Zie [Beveiligingsrollen](https://docs.microsoft.com/dynamics365/customer-engagem
 13. Selecteer **Opslaan en sluiten**.
 
 ## <a name="assign-security-roles-to-users"></a>Beveiligingsrollen aan gebruikers toewijzen
-Met beveiligingsrollen kunt u de toegang van een gebruiker tot gegevens beheren met een set met toegangsniveaus en -machtigingen. De toegangsniveaus en -machtigingen die zijn opgenomen in een bepaalde beveiligingsrol, zorgen ervoor dat er limieten gelden voor de weergave van gegevens aan de gebruiker en de interactie van de gebruiker met deze gegevens.
-
-> [!IMPORTANT]
-> Als u een modelgestuurde app wilt gebruiken, moet aan alle app-gebruikers in uw omgeving ten minste de Common Data Service User-beveiligingsrol zijn toegekend, ongeacht aanvullende beveiligingsrollen die u toewijst. In de meeste gevallen biedt de beveiligingsrol van Common Data Service User voldoende rechten om de basistaken uit te voeren die zijn vereist om een app te gebruiken.
-> Merk op dat gebruikers die beschikken over de beveiligingsrol Common Data Service User lees- en schrijftoegang hebben tot alle account-, contact- en verbindingsstandaardentiteitrecords, ongeacht wie de eigenaar ervan is. Als u niet wilt dat app-gebruikers machtigingen hebben voor deze records, maakt u een aangepaste beveiligingsrol. De eenvoudigste manier is om de beveiligingsrol van Common Data Service User te kopiëren en de desbetreffende machtigingen te verwijderen. Meer informatie: [Een beveiligingsrol kopiëren](https://docs.microsoft.com/dynamics365/customer-engagement/admin/copy-security-role)
+Met beveiligingsrollen kunt u de toegang van een gebruiker tot gegevens beheren met een set met toegangsniveaus en -machtigingen. De gecombineerde toegangsniveaus en -machtigingen die zijn opgenomen in een bepaalde beveiligingsrol, zorgen ervoor dat er limieten gelden voor de weergave van gegevens van de gebruiker en de interactie van de gebruiker met deze gegevens.
 
 ### <a name="assign-a-security-role-to-pet-grooming-technicians"></a>Een beveiligingsrol toewijzen aan dierverzorgers
 1. Selecteer in het dialoogvenster **Deze app delen** onder **Gebruikers toewijzen aan de beveiligingsrol** **Beveiligingsgebruikers**.
@@ -129,7 +125,7 @@ Deze vooraf gedefinieerde rollen zijn beschikbaar met een [!INCLUDE [powerapps](
 * Deze bevoegdheid heeft een globaal bereik, tenzij anders aangegeven.
 
 ## <a name="next-steps"></a>Volgende stappen
-[Snelstartgids: Een modelgestuurde app uitvoeren op een mobiel apparaat](../../user/run-app-client-model-driven.md)
+[Een modelgestuurde app uitvoeren op een mobiel apparaat](../../user/run-app-client-model-driven.md)
 
 
 
