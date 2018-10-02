@@ -1,6 +1,6 @@
 ---
-title: Een bedrijfsregel maken in Common Data Service for Apps | Microsoft Docs
-description: Stapsgewijze instructies voor het maken van een bedrijfsregel in Common Data Service (CDS) for Apps.
+title: Een bedrijfsregel maken in Common Data Service voor Apps | Microsoft Docs
+description: Stapsgewijze instructies voor het maken van een bedrijfsregel in Common Data Service (CDS) voor Apps.
 author: clwesene
 manager: kfile
 ms.service: powerapps
@@ -8,116 +8,116 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: clwesene
-ms.openlocfilehash: 5cf2a312ddba83312805f6b3b517738f1bc1da78
-ms.sourcegitcommit: 0b051bba173353d7ceda3b60921e7e009eb00709
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39218022"
+search.audienceType:
+  - maker
+search.app:
+  - PowerApps
+  - D365CE
 ---
-# <a name="create-a-business-rule"></a>Een bedrijfsregel maken
 
-U kunt bedrijfsregels en aanbevelingen maken voor het toepassen van logica en het uitvoeren van validaties zonder dat u daarvoor code hoeft te schrijven of plug-ins hoeft te maken.  Bedrijfsregels bieden een eenvoudige manier om snel veranderende en veelgebruikte regels te implementeren en onderhouden. 
+# <a name="create-a-business-rule-for-an-entity"></a>Een bedrijfsregel maken voor een entiteit
+
+U kunt bedrijfsregels en aanbevelingen maken om logica en validaties toe te passen zonder code te schrijven of invoegtoepassingen te maken. Bedrijfsregels bieden een eenvoudige interface om snelveranderende en veelgebruikte regels te implementeren en te onderhouden. 
   
-Als u voorwaarden en acties combineert, kunt u de volgende zaken doen met bedrijfsregels:  
+Door voorwaarden en acties te combineren kunt u het volgende doen met bedrijfsregels:  
   
 * Veldwaarden instellen  
 * Veldwaarden wissen  
-* Vereisteniveaus voor velden instellen  
+* Veldvereistenniveaus instellen  
 * Velden weergeven of verbergen  
-* Velden in- of uitschakelen  
+* Velden inschakelen of uitschakelen  
 * Gegevens valideren en foutberichten weergeven  
-* Maak zakelijke aanbevelingen op basis van business intelligence.  
+* Bedrijfsaanbevelingen maken op basis van bedrijfsinformatie.  
   
-## <a name="differences-between-canvas-and-model-driven-apps"></a>Verschillen tussen canvas- en modelgestuurde apps
+## <a name="differences-between-canvas-and-model-driven-apps"></a>Verschillen tussen canvasapps en modelgestuurde apps
 
-Voor modelgestuurde apps kunt u alle acties gebruiken die ook voor bedrijfsregels beschikbaar zijn. Voor canvas-apps zijn momenteel niet alle bedrijfsregelacties beschikbaar. De volgende acties zijn **niet** beschikbaar via canvas-apps:
+Modelgestuurde apps kunnen alle acties gebruiken die beschikbaar zijn voor bedrijfsregels, maar momenteel zijn niet alle bedrijfsregelacties beschikbaar in canvasapps. De volgende acties zijn **niet** beschikbaar in canvasapps:
 
 * Velden weergeven of verbergen  
-* Velden in- of uitschakelen  
-* Maak zakelijke aanbevelingen op basis van business intelligence.  
+* Velden inschakelen of uitschakelen  
+* Bedrijfsaanbevelingen maken op basis van bedrijfsinformatie.  
 
 ## <a name="prerequisites"></a>Vereisten
 Als u dit onderwerp wilt volgen, moet u overschakelen naar een [omgeving](../canvas-apps/working-with-environments.md) waarin u entiteiten kunt maken en bewerken.
 
 ## <a name="create-a-business-rule"></a>Een bedrijfsregel maken
   
-1. Meld u aan bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en klik of tik vervolgens op de pijl omlaag op **Gegevens** bij de linkerrand.
+1. Meld u aan bij [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en klik of tik vervolgens op de pijl-omlaag voor **Gegevens** nabij de linkerrand.
 
-2. In de lijst die wordt weergegeven klikt of tikt u op **Entiteiten**.
+2. Klik of tik in de lijst die verschijnt op **Entiteiten**.
   
 3. Open de entiteit waarvoor u de bedrijfsregel wilt maken (open bijvoorbeeld de entiteit **Account**) en klik vervolgens op het tabblad **Bedrijfsregels**.  
 
 4. Klik op **Nieuw**.  
   
-    Het venster Bedrijfsregelontwerper wordt geopend. Hierin is één voorwaarde alvast voor u gemaakt. Elke regel begint met een voorwaarde. De bedrijfsregel leidt tot één of meer acties op basis van die voorwaarde.  
+    Het ontwerpvenster Bedrijfsregel wordt geopend met één voorwaarde die al voor u is gemaakt. Elke regel start aan een voorwaarde. De bedrijfsregel bestaat uit een of meer acties die op deze voorwaarde zijn gebaseerd.  
 
     > [!TIP]
-    > Als u een bestaande bedrijfsregel wilt bewerken, moet u deze eerst deactiveren. Pas daarna kan de regel worden bewerkt.  
+    > Als u een bestaande bedrijfsregel wilt wijzigen, moet u deze deactiveren voordat u deze kunt bewerken.  
   
-5. Voeg indien gewenst een beschrijving toe in het beschrijvingsvak in de linkerbovenhoek van het venster.
+5. Voeg eventueel een beschrijving toe in het veld Beschrijving in de linkerbovenhoek van het venster.
   
-6. Stel het bereik in op basis van de volgende elementen:  
+6. Voer het bereik in, op basis van het volgende opties:  
   
     |||  
     |-|-|  
     |**Als u dit item selecteert...**|**Wordt het bereik ingesteld op...**|  
-    |**Entiteit**|Modelgestuurde formulieren en servers|  
+    |**Entiteit**|Modelgestuurde formulieren en server|  
     |**Alle formulieren**|Modelgestuurde formulieren|  
-    |Specifiek formulier (het formulier **Account**, bijvoorbeeld)|Alleen dat modelgestuurde formulier|  
+    |Bepaald formulier (bijvoorbeeld **Account** )|Alleen dat modelgestuurde formulier|  
 
     > [!TIP]
-    > Als u een canvas-app bouwt, moet u Entiteit gebruiken als bereik.
+    > Als u een canvasapp maakt, moet u entiteit als het bereik gebruiken.
   
-7. **Voeg voorwaarden toe.** Meer voorwaarden toevoegen aan uw bedrijfsregel:  
+7. **Voorwaarde toevoegen.** Meer voowaarden aan uw bedrijfsregel toevoegen:  
   
-    1. Sleep het onderdeel **Voorwaarde** van het tabblad **Onderdelen** naar een plusteken in de ontwerpfunctie.  
+    1. Sleep het onderdeel **Voorwaarde** van het tabblad **Onderdelen**naar een plusteken in de ontwerper.  
   
-        ![Een voorwaarde toevoegen in een bedrijfsregel](./media/data-platform-cds-create-business-rule/add-condition-business-rule.png "Een voorwaarde toevoegen in een bedrijfsregel")  
+        ![Een voorwaarde aan een bedrijfsregel toevoegen](./media/data-platform-cds-create-business-rule/add-condition-business-rule.png "Een voorwaarde aan een bedrijfsregel toevoegen")  
   
-    2. Als u eigenschappen wilt instellen voor de voorwaarde, klikt u op het onderdeel **Voorwaarde** in het ontwerpfunctievenster. Stel daarna de eigenschappen in op het tabblad **Eigenschappen** aan de rechterzijde van het scherm. Wanneer u eigenschappen instelt, maakt Common Data Service onder aan het tabblad **Eigenschappen** een expressie.  
+    2. Als u eigenschappen voor de voorwaarde wilt instellen, klikt u op het onderdeel **Voorwaarde** in het onttwerpvenster en stelt u eigenschappen in op het tabblad **Eigenschappen** aan de rechterkant van het venster. Als u eigenschappen instelt, wordt in Common Data Service een expressie gemaakt onder aan het tabblad **Eigenschappen**.  
   
-    3. Als u een aanvullend component (EN of OF) wilt toevoegen aan de voorwaarde, klikt u op **Nieuw** op het tabblad **Eigenschappen** om een nieuwe regel te maken. Daarna stelt u de eigenschappen voor die regel in. In het veld **Regellogica** kunt u opgeven of de nieuwe regel als EN of OF wordt toegevoegd.  
+    3. Als u een extra component (EN of OF) aan de voorwaarde wilt toevoegen, klikt u op **Nieuw** in het tabblad **Eigenschappen** om een nieuwe regel te maken en stelt u de eigenschappen voor deze regel in. In het veld **Regellogica** kunt u opgeven of u de nieuwe regel wilt toevoegen als EN of OF.  
   
         ![Een nieuwe regel toevoegen aan een voorwaarde](./media/data-platform-cds-create-business-rule/add-new-rule-condition.png "Een nieuwe regel toevoegen aan een voorwaarde")  
   
-    4. Wanneer u klaar bent met het instellen van eigenschappen voor de voorwaarde klikt u op **Toepassen**.  
+    4. Als u de eigenschappen voor de voorwaarde hebt ingesteld, klikt u op **Toepassen**.  
   
-8. **Voeg acties toe.** Een actie toevoegen:  
+8. **Acties toevoegen.** Een actie toevoegen:  
   
-    1. Sleep een van de actieonderdelen van het tabblad **Onderdelen** naar een plusteken naast het onderdeel **Voorwaarde**. Sleep de actie naar een plusteken naast een vinkje als u wilt dat de bedrijfsregel die actie activeert wanneer aan de voorwaarde wordt voldaan, of naar een plustaken naast een x als u wilt dat de bedrijfsregel die actie activeert als er niet aan de voorwaarde wordt voldaan.
+    1. Sleep een van de actie-onderdelen van het tabblad **Onderdelen** naar een plusteken naast **Voorwaarde**. Sleep de actie naar een plusteken naast een vinkje als u wilt dat de bedrijfsregel die actie uitvoert wanneer aan de voorwaarde is voldaan. Of naar een plusteken naast een x als u wilt dat de bedrijfsregel actie onderneemt als niet aan de voorwaarde wordt voldaan.
   
-        ![Een actie verslepen naar een bedrijfsregel](./media/data-platform-cds-create-business-rule/drag-an-action-business-rule.png "Een actie verslepen naar een bedrijfsregel")  
+        ![Sleep een actie naar een bedrijfsregel](./media/data-platform-cds-create-business-rule/drag-an-action-business-rule.png "Sleep een actie naar een bedrijfsregel")  
   
-    2. Als u eigenschappen wilt instellen voor de actie, klikt u op het onderdeel **Actie** in het ontwerpfunctievenster. Stel daarna de eigenschappen in op het tabblad **Eigenschappen**.  
+    2. Als u eigenschappen voor de actie wilt instellen, klikt u op het onderdeel **Actie** in het onttwerpvenster en stelt u eigenschappen in op het tabblad **Eigenschappen**.  
   
-    3. Wanneer u klaar bent met het instellen van eigenschappen klikt u op **Toepassen**.  
+    3. Als u de eigenschappen hebt ingesteld, klikt u op **Toepassen**.  
   
-9. **Voeg een bedrijfsaanbeveling toe. (Alleen modelgestuurd)** Een bedrijfsaanbeveling toevoegen:  
+9. **Een bedrijfsaanbeveling toevoegen. (alleen modelgestuurd)** Een bedrijfsaanbeveling toevoegen:  
   
-    1. Sleep het onderdeel **Aanbeveling** op het tabblad **Onderdelen** naar een plusteken naast een onderdeel **Voorwaarde**. Sleep het onderdeel **Aanbeveling** naar een plusteken naast een vinkje als u wilt dat de bedrijfsregel die actie activeert wanneer aan de voorwaarde wordt voldaan, of naar een plustaken naast een x als u wilt dat de bedrijfsregel die actie activeert als er niet aan de voorwaarde wordt voldaan.  
+    1. Sleep het onderdeel **Aanbeveling** van het tabblad **Onderdelen** naar een plusteken naast een onderdeel **Voorwaarde**. Sleep onderdeel **Aanbeveling** naar een plusteken naast een vinkje als u wilt dat de bedrijfsregel die actie uitvoert wanneer aan de voorwaarde is voldaan. Of naar een plusteken naast een x als u wilt dat de bedrijfsregel actie onderneemt als niet aan de voorwaarde wordt voldaan.  
   
-    2. Als u eigenschappen wilt instellen voor de aanbeveling, klikt u op het onderdeel **Aanbeveling** in het ontwerpfunctievenster. Stel daarna de eigenschappen in op het tabblad **Eigenschappen**.  
+    2. Als u eigenschappen voor de aanbeveling wilt instellen, klikt u op het onderdeel **Aanbeveling** in het onttwerpvenster en stelt u eigenschappen in op het tabblad **Eigenschappen**.  
   
-    3. Als u meer acties wilt toevoegen aan de aanbeveling, versleept u ze vanaf het tabblad **Onderdelen** en stelt u de eigenschappen voor elke actie in op het tabblad **Eigenschappen**.  
+    3. Om meer acties aan de aanbeveling toe te voegen, sleept u deze van het tabblad **Onderdelen**, en stelt u vervolgens eigenschappen in voor elke actie in het tabblad **Eigenschappen**.  
   
         > [!NOTE]
-        >  Wanneer u een aanbeveling maakt, voegt Common Data Service standaard één actie toe. Als u alle acties in een aanbeveling wilt bekijken, klikt u op **Details** in het onderdeel **Aanbeveling**.  
+        >  Als u een aanbeveling maakt, wordt in Common Data Service standaard één actie toegevoegd. Als u alle acties in een aanbeveling wilt zien, klikt u op **Details** in het onderdeel **Aanbeveling**.  
   
-    4. Wanneer u klaar bent met het instellen van eigenschappen klikt u op **Toepassen**.  
+    4. Als u de eigenschappen hebt ingesteld, klikt u op **Toepassen**.  
   
-10. Voor het valideren van de bedrijfsregel klikt u op **Valideren** in de actiebalk.  
+10. Als u de bedrijfsregel wilt valideren, klikt u op **Valideren** op de actiebalk.  
   
-11. Voor het opslaan van de bedrijfsregel klikt u op **Opslaan** in de actiebalk.  
-12. Als u de bedrijfsregel wilt activeren, selecteert u deze in het Solution Explorer-venster en klikt u op **Activeren**. U kunt de bedrijfsregel niet activeren vanuit het ontwerpfunctievenster.  
+11. Als u de bedrijfsregel wilt opslaan, klikt u op **Opslaan** op de actiebalk.  
+12. Om de bedrijfsregel te activeren, selecteert u deze in het venster Oplossingenverkenner en klikt u vervolgens op **Activeren**. U kunt de bedrijfsregel niet uit het ontwerpvenster activeren.  
   
     > [!TIP]
-    >  Enkele tips om rekening mee te houden wanneer u in het ontwerpfunctievenster werkt aan bedrijfsregels:  
+    >  Hier volgt een aantal tips om rekening mee te houden terwijl u in het ontwerpervenster aan bedrijfsregels werkt:  
     >   
-    > - Als u een momentopname wilt maken van alles in het venster Bedrijfsregel, klikt u op **Momentopname** op de actiebalk. Dit is bijvoorbeeld handig als u een bedrijfsregel wilt delen en de mening van een teamlid over de regel wilt verkrijgen.  
-    > - Gebruik het minioverzicht om snel naar verschillende onderdelen van het proces te navigeren. Dit is handig als u gebruikmaakt van een gecompliceerd proces dat niet volledig in het scherm past.  
-    > - Als u voorwaarden, acties en bedrijfsaanbevelingen aan uw bedrijfsregel toevoegt, bouwt Common Data Service onder aan het ontwerpfunctievenster de code voor de bedrijfsregel. Deze code heeft het kenmerk Alleen-lezen.  
+    > - Als u een momentopname van alles in het venster Bedrijfsregels wilt maken, klikt u op de actiebalk op **Momentopname**. Dit is bijvoorbeeld nuttig als u de opmerkingen op de bedrijfsregel van een teamlid wilt delen en ontvangen.  
+    > - Met de minikaart navigeert u snel naar de verschillende onderdelen van het proces. Dit is handig als u een gecompliceerd proces hebt dat van het scherm schuift.  
+    > - Als u voorwaarden, acties en bedrijfsaanbevelingen toevoegt aan uw bedrijfsregel, wordt in Common Data Service de code voor de bedrijfsregel onder aan de ontwerper gemaakt. Deze code is alleen-lezen.  
   
-## <a name="localize-error-messages-used-in-business-rules"></a>Foutberichten lokaliseren die in bedrijfsregels worden gebruikt  
- Als u meer dan één taal gebruikt voor uw organisatie, is het een goed idee om de foutberichten die u hebt ingesteld te lokaliseren. Elke keer dat u een bericht instelt, wordt er een label gegenereerd door het systeem. Als u de vertalingen in uw organisatie exporteert, kunt u gelokaliseerde versies van uw berichten toevoegen en de labels daarna weer importeren naar Common Data Service. Op die manier kunnen de mensen die een andere taal dan uw basistaal gebruiken de vertaalde berichten bekijken.  
+## <a name="localize-error-messages-used-in-business-rules"></a>Foutberichten die in bedrijfsregels worden gebruikt lokaliseren  
+ Als u meer dan één taal hebt voor uw organisatie, dan wilt u foutberichten lokaliseren die u hebt ingesteld. Telkens wanneer u een bericht instelt, wordt een label een door het systeem gemaakt. Als u in uw organisatie de vertalingen exporteert, dan kunt u gelokaliseerde versies van uw berichten toevoegen en vervolgens deze labels weer importeren in Common Data Service, zodat de gebruikers die andere talen dan uw standaardtaal gebruiken, de vertaalde berichten kunnen zien.  
   

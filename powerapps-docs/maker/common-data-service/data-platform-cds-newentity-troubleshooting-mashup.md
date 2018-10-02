@@ -1,6 +1,6 @@
 ---
-title: Problemen met Power Query oplossen | Microsoft Docs
-description: Problemen oplossen met Power Query om een aangepaste entiteit in Common Data Service (CDS) voor Apps te maken.
+title: Problemen oplossen met Power Query | Microsoft Docs
+description: Problemen oplossen met Power Query om een aangepaste entiteit te maken in Common Data Service voor Apps.
 author: mllopis
 manager: kfile
 ms.service: powerapps
@@ -8,63 +8,78 @@ ms.component: cds
 ms.topic: conceptual
 ms.date: 05/16/2018
 ms.author: millopis
-ms.openlocfilehash: b89d7a59406d19759b84c34dbda84b98b10d5e58
-ms.sourcegitcommit: 68fc13fdc2c991c499ad6fe9ae1e0f8dab597139
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34445724"
+search.audienceType:
+  - maker
+search.app:
+  - PowerApps
+  - D365CE
 ---
-# <a name="troubleshooting-power-query"></a>Problemen met Power Query oplossen
-Als u Power Query gebruikt om een aangepaste entiteit te maken die gegevens uit externe bronnen bevat, kan deze fout worden weergegeven:
 
-`Your Azure Active Directory administrator has set a policy that prevents you from using this feature. Please contact your administrator, who can grant permissions for this feature on your behalf.`
+# <a name="troubleshoot-power-query"></a>Problemen met Power Query oplossen
+Als u Power Query voor Excel gebruikt om een aangepaste entiteit te maken die gegevens van externe bronnen bevat, kan de volgende fout mogelijk worden weergegeven:
 
-De foutmelding verschijnt wanneer Power Query geen toegang heeft tot de gegevens van de organisatie in PowerApps of Common Data Service (CDS) voor Apps. Deze situatie doet zich voor onder twee sets omstandigheden:
+>"Uw Azure Active Directory-beheerder heeft een beleid ingesteld dat u deze functie niet kunt gebruiken. Neem contact op met uw beheerder die machtigingen voor deze functie namens u kan verlenen."
 
-* Een tenantbeheerder van Azure Active Directory (AAD) staat niet toe dat gebruikers apps toestemming geven om namens hen bedrijfsgegevens te benaderen.
-* Er wordt gebruik gemaakt van een niet-beheerde Active Directory-tenant. Een niet-beheerde tenant is een directory zonder globale beheerder, die is gemaakt om een selfservice-aanbod tot inschrijving te doorlopen. Om dit scenario op te lossen, dienen gebruikers eerst omgezet te worden naar een beheerde tenant, om vervolgens een van de twee oplossingen voor dit probleem te volgen die in de volgende sectie worden beschreven.
+De fout verschijnt als Power Query geen toegang kan krijgen tot de gegevens van de organisatie in PowerApps of Common Data Service voor Apps. Deze situatie doet zich in twee soorten omstandigheden voor:
 
-Om dit probleem op te lossen moet de beheerder van Azure Active Directory de stappen volgen in één van de procedures die later in dit onderwerp worden genoemd.
+* Een beheerder van de Azure Active Directory-tenant (Azure AD) heeft de mogelijkheid van gebruikers uitgeschakeld om toestemming te geven aan apps die namens hen toegang kunen krijgen tot bedrijfsgegevens.
+* Een onbeheerde Active Directory-tenant gebruiken. Een onbeheerde tenant is een directory zonder een algemene beheerder die is gemaakt om een aanbieding van een selfserviceaanmelding te voltooien. Als u dit scenario wilt herstellen, moeten gebruikers eerst converteren naar een beheerde tenant en vervolgens een van de twee oplossingen voor dit probleem volgen. De oplossingen worden beschreven in het volgende gedeelte.
 
-## <a name="allow-users-to-consent-to-apps-that-access-company-data"></a>Toestaan dat gebruikers toestemming geven voor apps geven die toegang hebben tot bedrijfsgegevens
-Deze aanpak is mogelijk eenvoudiger dan de volgende, maar geeft ruimere machtigingen.
+Als u dit probleem wilt oplossen, moet de Azure Active Directory-beheerder een van de twee procedures volgen die verderop in dit artikel worden weergegeven.
 
-1. Open in [https://portal.azure.com](https://portal.azure.com) de blade **Azure Active Directory** en selecteer vervolgens **Gebruikersinstellingen**.
-2. Selecteer **Ja** bij **Gebruikers kunnen apps namens hen toegang geven tot bedrijfsgegevens** en selecteer vervolgens **Opslaan**.
+## <a name="allow-users-to-consent-to-apps-that-access-company-data"></a>Gebruikers toestaan om toestemming te verlenen aan apps die toegang hebben tot bedrijfsgegevens
+Deze methode is misschien gemakkelijker dan de volgende, maar hiermee zijn ruimere machtigingen mogelijk.
 
-## <a name="allow-power-query-to-access-company-data"></a>Power Query toestaan bedrijfsgegevens te openen
-Als alternatief kan de tenantbeheerder Power Query toestemming geven zonder de machtigingen voor de gehele tenant te wijzigen.
+1. Open in [Azure portal](https://portal.azure.com) het deelvenster **Azure Active Directory** en selecteer vervolgens **Gebruikersinstellingen**.
+2. Selecteer naast **Gebruikers kunnen toestemming verlenen aan apps om namens hen toegang te krijgen tot bedrijfsgegevens** **Ja** en selecteer vervolgens **Opslaan**.
+
+## <a name="allow-power-query-to-access-company-data"></a>Power Query toestaan om toegang te krijgen tot bedrijfsgegevens
+Als alternatief kan de de tenantbeheerder aan Power Query toestemming verlenen zonder tenantbrede machtigingen te wijzigen.
 
 1. Installeer [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-azurerm-ps).
 2. Voer de volgende PowerShell-opdrachten uit:
    * Login-AzureRmAccount (en meld u aan als de tenantbeheerder)
    * New-AzureRmADServicePrincipal -ApplicationId f3b07414-6bf4-46e6-b63f-56941f3f4128
 
-Het voordeel van deze benadering (in tegenstelling tot de tenant-brede oplossing) is dat deze oplossing zeer afgebakend is. Het heeft alleen gevolgen voor de service-principal van **Power Query**, maar er worden geen andere machtigingen gewijzigd voor de tenant.
+Het voordeel van deze methode (versus de tenantbrede oplossing) is dat deze oplossing zeer gericht is. Het verschaft alleen de **Power Query**-serviceprincipal, maar er worden geen andere machtigingswijzigingen in de tenant aangebracht.
 
-## <a name="updating-personal-data"></a>Persoonlijke gegevens bijwerken
+## <a name="update-personal-data"></a>Persoonlijke gegevens bijwerken
 
-Gebruikers kunnen mashups en andere gegevens (zoals querynamen en mashup-metagegevens) bijwerken via de Query Editor en via het `Options`-dialoogvenster dat toegankelijk is vanuit de Query Editor.
+Gebruikers kunnen mashups en andere informatie (zoals querynamen en mashupmetagegevens) bijwerken met de query-editor en via het dialoogvenster **Opties** dat via de query-editor toegankelijk is.
 
-In PowerApps kan de Query Editor nu worden geopend via het gegevensvenster, door dit uit te vouwen en te klikken op het menu-item in het deelvenster Entiteiten. Klik hier op het menu '...' en kies Query's bewerken. Klik vervolgens op de knop `Options` in het lint en klik op de knop `Export Diagnostics`.
-
-
-## <a name="deleting-personal-data"></a>Persoonlijke gegevens verwijderen
-
-De meeste gegevens worden automatisch binnen 30 dagen verwijderd. Voor gegevens en metagegevens rond mashups moet de gebruiker alle mashups verwijderen via PowerApps. Alle gerelateerde gegevens en metagegevens worden binnen 30 dagen verwijderd.
-
-Mashups kunnen vanuit Power Apps worden verwijderd door de Data Integrator-projecten te verwijderen. U kunt deze verwijderen door op het gelijknamige tabblad te klikken op de knop ... en de optie `Delete` te kiezen.
-
-Als u een mashup hebt gemaakt via de functie Nieuwe entiteiten van gegevens (Technical Preview), kunt u deze verwijderen door te klikken op de knop ..., vervolgens Query's bewerken te kiezen en tenslotte op de knop Alle query's verwijderen te klikken. Zodra u bevestigt dat u uw query's wilt verwijderen, worden deze verwijderd.
+In PowerApps hebt u toegang tot de query-editor door het volgende te doen:
+1. Ga naar het deelvenster **Gegevens**, vouw het uit en selecteer **Entiteiten**. 
+2. Selecteer de drie puntjes (...) en selecteer vervolgens **Query´s bewerken**.
+3. Selecteer in het lint de knop **Opties** en selecteer vervolgens de knop **Diagnose exporteren**.
 
 
-## <a name="exporting-personal-data"></a>Persoonlijke gegevens exporteren
+## <a name="delete-personal-data"></a>Persoonlijke gegevens verwijderen
 
-Gebruikers kunnen de Query Editor openen, vervolgens klikken op de knop `Options` in het lint en op de knop `Export Diagnostics` te klikken.
+De meeste gegevens worden automatisch binnen 30 dagen verwijderd. Voor gegevens en metagegevens over mashups moeten gebruikers al hun mashups via PowerApps verwijderen. Alle gekoppelde gegevens en metagegevens worden binnen 30 dagen verwijderd.
 
-In PowerApps kan de Query Editor nu worden geopend via het gegevensvenster, door dit uit te vouwen en te klikken op het menu-item in het deelvenster Entiteiten. Klik hier op het menu '...' en kies Query's bewerken. Klik vervolgens op de knop `Options` in het lint en klik op de knop `Export Diagnostics`.
+Mashups van PowerApps verwijderen:
+1. Verwijder de Data Integrator-projecten die van het tabblad kunnen worden verwijderd.
+2. Selecteer de drie puntjes (...) en selecteer vervolgens de optie **Verwijderen**.
 
-Door het systeem gegenereerde logboeken met betrekking tot gebruikersacties in de gebruikersinterface (UI) kunnen worden geopend in Azure Portal.
+Als u een mashup hebt gemaakt via de functie "Nieuwe entiteiten van gegevens (technische proefversie)", kunt u deze verwijderen door het volgende te doen:
+1. Selecteer de drie puntjes (...) en selecteer vervolgens **Query´s bewerken**.
+2. Selecteer de knop **Opties** in het lint.
+3. Selecteer de knop **Alle query's verwijderen**.  
+    Nadat u hebt bevestigd dat u uw query´s wilt verwijderen, worden ze verwijderd.
+
+## <a name="export-personal-data"></a>Persoonlijke gegevens exporteren
+
+Als u persoonlijke gegevens wilt exporteren, kunnen gebruikers het volgende doen:
+1. Open de query-editor.
+2. Selecteer de knop **Opties** in het lint.
+3. Selecteer de knop **Diagnose exporteren**.
+
+In PowerApps kunt u toegang verkrijgen tot de query-editor door het volgende te doen:
+1. Ga naar het deelvenster **Gegevens**, vouw het uit en selecteer **Entiteiten**.
+2. Selecteer de drie puntjes (...) en selecteer vervolgens **Query´s bewerken**. 
+3. Selecteer in het lint de knop **Opties** en selecteer vervolgens de knop **Diagnose exporteren**.
+
+Tot de door het systeem gegenereerde logboeken over gebruikersacties in de gebruikersinterface (UI) kan toegang worden verkregen in de Azure-portal.
+
 
 
