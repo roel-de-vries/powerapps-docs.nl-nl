@@ -1,6 +1,0 @@
-- name: Aan de slag
-  href: get-started.yml?tutorial-step=1
-- name: Een app maken vanuit SharePoint
-  href: create-app-sharepoint.yml?tutorial-step=1
-- name: Apps beheren
-  href: manage-apps.yml?tutorial-step=1
