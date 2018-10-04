@@ -7,7 +7,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
-ms.date: 03/21/2018
+ms.date: 10/03/2018
 ms.author: manasma
 search.audienceType:
 - admin
@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - PowerApps
 - Powerplatform
-ms.openlocfilehash: 9b62d72cf04b56c945d0c85038e2264e9685828b
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: c7de26bff38ee0425e8bb3f9bc0da72317f0a6cf
+ms.sourcegitcommit: 6e2fa2665ded6ac6fd271e1a12f4e3227ebc8865
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42837580"
+ms.lasthandoff: 10/03/2018
+ms.locfileid: "48246115"
 ---
 # <a name="create-a-common-data-service-for-apps-database"></a>Een Common Data Service voor Apps database maken
 U kunt een database maken en apps bouwen met gebruik van Common Data Service (CDS) voor Apps als gegevensopslag. U kunt uw eigen aangepaste entiteiten maken of de vooraf gedefinieerde entiteiten gebruiken. Als u een database wilt maken, moet u eerst een omgeving maken of als **omgevingsbeheerder** aan een bestaande omgeving worden toegewezen. Daarnaast moet u aan de juiste licentie zijn toegewezen. Zie [Prijzen](pricing-billing-skus.md) voor informatie over het aanschaffen van een abonnement voor het gebruik van CDS for Apps.
@@ -68,7 +68,7 @@ U kunt extra gebruikers aan de vooraf gedefinieerde rollen toewijzen of [aangepa
 
 
 ## <a name="license-and-security-permissions"></a>Licentie en beveiligingsmachtigingen
-Om een database te maken, moet u een beheerder in de geselecteerde omgeving zijn. Ook moet de juiste licentie aan u zijn toegewezen. In de omgeving kunt u de beveiligingsmachtigingen verder configureren voor andere gebruikers via het tabblad **Beveiliging**. Zie [Databasebeveiliging configureren](database-security.md) en [Beveiligingsmodel](https://docs.microsoft.c../maker/common-data-service/entity-reference/security-model) voor meer informatie.
+Om een database te maken, moet u een beheerder in de geselecteerde omgeving zijn. Ook moet de juiste licentie aan u zijn toegewezen. In de omgeving kunt u de beveiligingsmachtigingen verder configureren voor andere gebruikers via het tabblad **Beveiliging**. Zie [Configure database security (Databasebeveiliging configureren)](database-security.md) voor meer informatie.
 
 ## <a name="privacy-notice"></a>Privacyverklaring
 Met Common Data Model van Microsoft PowerApps worden aangepaste entiteits- en veldnamen in onze diagnostische systemen verzameld en bewaard.  We gebruiken die kennis om Common Data Model voor onze klanten te verbeteren. De entiteits- en veldnamen die u maakt, geven ons inzicht in veelgebruikte scenario's binnen de Microsoft PowerApps-community. Met behulp daarvan kunnen we bepalen wat er ontbreekt bij de standaardentiteiten van de service, zoals schema's voor organisaties. De gegevens in de databasetabellen die aan deze entiteiten zijn gekoppeld, zijn niet toegankelijk voor en worden niet gebruikt door Microsoft. Ook worden de gegevens niet gerepliceerd buiten de regio waarin de database is ingericht. De aangepaste entiteits- en veldnamen worden echter mogelijk wel gerepliceerd in andere regio's. Ze worden verwijderd in overeenstemming met ons bewaarbeleid voor gegevens. Microsoft hecht veel waarde aan uw privacy, zoals beschreven in ons [Vertrouwenscentrum](https://www.microsoft.com/trustcenter/Privacy/default.aspx).
