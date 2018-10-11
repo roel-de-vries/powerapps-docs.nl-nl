@@ -1,6 +1,6 @@
 ---
-title: Een app verwijderen | Microsoft Docs
-description: Een bestaande app verwijderen in PowerApps
+title: Een canvas-app verwijderen | Microsoft Docs
+description: Een bestaande canvas-app verwijderen in PowerApps
 author: jamesol-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: jamesol
-ms.openlocfilehash: c8d5d5f5fbb9453ad9afeffda8383be0dae4eebc
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 5fd2551ff0fac40acf54c77d6750ab983ee5819e
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39194928"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42834751"
 ---
-# <a name="delete-an-app-from-powerapps"></a>Een app verwijderen uit PowerApps
-In dit artikel wordt beschreven hoe u een app verwijdert uit uw PowerApps-account en uit de accounts van iedereen met wie de app is gedeeld.
+# <a name="delete-a-canvas-app-from-powerapps"></a>Een canvas-app verwijderen uit PowerApps
+In dit artikel wordt beschreven hoe u een canvas-app verwijdert uit uw PowerApps-account en uit de accounts van iedereen met wie de app is gedeeld.
 
 ## <a name="delete-an-app-from-your-account"></a>Een app uit uw account verwijderen
 1. Open [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en klik of tik in de linkernavigatiebalk op **Apps**.

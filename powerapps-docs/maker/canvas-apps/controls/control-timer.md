@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9497d257372181323a920bd2c1098601021e4f79
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 934ab9bddfb429ae3ed96706420af002a87697fb
+ms.sourcegitcommit: 87122dba00b4177ef736d87ecdde79581649ba42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42863662"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44499517"
 ---
 # <a name="timer-control-in-powerapps"></a>Besturingselement voor timer in PowerApps
 Een besturingselement dat kan bepalen hoe uw app reageert nadat een bepaalde hoeveelheid tijd is verstreken.
@@ -38,9 +38,9 @@ U moet een voorbeeld van de app bekijken om Timer in de ontwerpomgeving te kunne
 ## <a name="additional-properties"></a>Aanvullende eigenschappen
 **[Align](properties-text.md)**: de locatie van tekst in verhouding tot het horizontale midden van het besturingselement.
 
-**AutoPause**: bepaalt of een audio- of videoclip automatisch moet worden onderbroken als de gebruiker naar een ander scherm navigeert.
+**AutoPause**: hiermee wordt bepaald of het besturingselement voor de timer automatisch moet worden onderbroken als de gebruiker naar een ander scherm navigeert.
 
-**AutoStart**: bepaalt of een besturingselement voor audio of video automatisch een clip moet afspelen wanneer de gebruiker naar het scherm navigeert dat dit besturingselement bevat.
+**AutoStart**: hiermee wordt bepaald of een besturingselement voor de timer automatisch moet afspelen wanneer de gebruiker naar het scherm navigeert dat dit besturingselement bevat.
 
 **[BorderColor](properties-color-border.md)**: de kleur van de rand van een besturingselement.
 
@@ -92,7 +92,7 @@ U moet een voorbeeld van de app bekijken om Timer in de ontwerpomgeving te kunne
 
 **[Size](properties-text.md)**: de tekengrootte van de tekst die in een besturingselement wordt weergegeven.
 
-**Start**: bepaalt of een geluidsfragment of een videoclip wordt afgespeeld.
+**Start**: hiermee wordt bepaald of de timer wordt gestart.
 
 **[Strikethrough](properties-text.md)**: hiermee wordt aangegeven of een streep door de tekst van een besturingselement wordt weergegeven.
 

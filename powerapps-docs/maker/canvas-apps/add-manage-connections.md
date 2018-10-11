@@ -1,6 +1,6 @@
 ---
-title: Verbindingen met gegevensbronnen toevoegen en beheren in cloudservices | Microsoft Docs
-description: Verbindingen met gegevensbronnen, zoals SharePoint, SQL Server, OneDrive voor Bedrijven, Salesforce en Office 365 toevoegen, verwijderen en bijwerken
+title: Verbindingen toevoegen en beheren van canvas-apps | Microsoft Docs
+description: Verbindingen van canvas-apps met gegevensbronnen als SharePoint, SQL Server, OneDrive voor Bedrijven toevoegen, verwijderen en bijwerken
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,21 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 03/09/2017
 ms.author: lanced
-ms.openlocfilehash: c114b803539c2d64695a0bd8c9d976d2604569eb
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: d2a7da93835e5fbe588a8683bbdb0393d5b76ee5
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195215"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42834038"
 ---
-# <a name="manage-your-connections-in-powerapps"></a>Uw verbindingen beheren in PowerApps
-Via [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) maakt u een verbinding tussen PowerApps en één of meer gegevensbronnen, verwijdert u een verbinding of werkt u de referenties bij.
+# <a name="manage-canvas-app-connections-in-powerapps"></a>Canvas-app-verbindingen beheren in PowerApps
+Via [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) maakt u een verbinding met één of meer gegevensbronnen, verwijdert u een verbinding of werkt u de referenties bij.
 
-U kunt met uw app verbinding maken met SharePoint, SQL Server, Office 365, OneDrive voor Bedrijven, Salesforce, Excel en nog vele andere [gegevensbronnen](connections-list.md).
+U kunt met uw canvas-app verbinding maken met SharePoint, SQL Server, Office 365, OneDrive voor Bedrijven, Salesforce, Excel en nog vele andere [gegevensbronnen](connections-list.md).
 
 De volgende stap na het lezen van dit artikel is het bekijken en beheren van de gegevensbron in uw app, zoals in deze voorbeelden:
 

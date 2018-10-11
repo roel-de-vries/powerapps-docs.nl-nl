@@ -15,11 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/26/2018
 ms.author: jdaly
-ms.openlocfilehash: 12925c57103b1ecc00dc19205af5f32d165bdc63
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: 9abcbf25d2376e28f83988ceb3797d3891ca53bc
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42843332"
 ---
 # <a name="apply-business-logic-with-code"></a>Bedrijfslogica toepassen met code
 
@@ -35,7 +41,7 @@ Zie [Dynamics 365 Customer Engagement Developer Guide: Custom workflow activitie
 
 ## <a name="create-a-plug-in"></a>Een invoegtoepassing maken
 
-U kunt een .NET-assembly schrijven die u als invoegtoepassing voor de gegevenstransactiestroom kunt gebruiken om de bedrijfslogica op de server toe te passen. Met het Common Data Service voor Apps-platform beschikt u over een framework waarmee u specifieke gebeurtenissen kunt registreren voor het uitvoeren van code die is gedefinieerd binnen klasse in een assembly. Deze klasse neemt een specifieke interface over waarmee een [Execute-methode](/dotnet/api/microsoft.xrm.sdk.iplugin.execute) beschikbaar wordt gemaakt. Wanneer de geregistreerde gebeurtenis plaatsvindt, wordt de `Execute`-methode voor de klasse aangeroepen en worden contextuele gegevens over de gebeurtenis doorgegeven.
+U kunt een .NET-assembly schrijven die u als invoegtoepassing voor de gegevenstransactiestroom kunt gebruiken om de bedrijfslogica op de server toe te passen. Met Common Data Service voor Apps beschikt u over een framework waarmee u specifieke gebeurtenissen kunt registreren voor het uitvoeren van code die is gedefinieerd binnen klasse in een assembly. Deze klasse neemt een specifieke interface over waarmee een [Execute-methode](/dotnet/api/microsoft.xrm.sdk.iplugin.execute) beschikbaar wordt gemaakt. Wanneer de geregistreerde gebeurtenis plaatsvindt, wordt de `Execute`-methode voor de klasse aangeroepen en worden contextuele gegevens over de gebeurtenis doorgegeven.
 
 U gebruikt het *registratieprogramma voor invoegtoepassingen* om uw assembly's te registreren.
 

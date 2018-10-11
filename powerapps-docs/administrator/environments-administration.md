@@ -6,14 +6,20 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
-ms.date: 07/30/2018
+ms.date: 08/15/2018
 ms.author: manasma
-ms.openlocfilehash: 02b25dd627e85b638a113c1c0aceee16d7df6275
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 976ecbd9eeaff0ee5a274b943d4d35c21568201d
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349082"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864263"
 ---
 # <a name="administer-environments-in-powerapps"></a>Omgevingen beheren in PowerApps
 In het [PowerApps-beheercentrum][1] kunt u omgevingen beheren die u hebt gemaakt en waarvoor u bent toegevoegd aan de rol Omgevingsbeheerder of Systeembeheerder. Vanuit het beheercentrum kunt u de volgende beheeracties uitvoeren:
@@ -178,7 +184,7 @@ U kunt maximaal twee evaluatieomgevingen en twee productieomgevingen maken, afha
 PowerApps-abonnement 2.  Zie de [PowerApps-pagina met prijzen][3] voor meer informatie over de abonnementen met deze licentie.
 
 ### <a name="while-trying-to-create-a-new-environment-i-am-getting-an-error-how-should-i-resolve-it"></a>Bij het maken van een nieuwe omgeving krijg ik een foutmelding. Hoe moet ik deze oplossen?
-Als u de volgende foutmelding krijgt: Uw abonnement ondersteunt niet het omgevingstype dat u hebt geselecteerd of u hebt de limiet bereikt voor dat omgevingstype. , kan het één van de twee dingen betekenen
+Als u de volgende foutmelding krijgt: Uw abonnement ondersteunt niet het omgevingstype dat u hebt geselecteerd of u hebt de limiet bereikt voor dat omgevingstype, kan dit een van de volgende twee dingen betekenen:
 
 1. U hebt uw quotum om een specifiek omgevingstype te maken bereikt. Stel dat u een evaluatieomgeving aan het maken was en deze foutmelding kreeg. Dat betekent dat u al twee eveluatieomgevingen hebt ingericht. U kunt alle omgevingen in [PowerApps-beheercentrum][1]bekijken.
 Als u dat wilt kun u een bestaande omgeving van dat specifieke type verwijderen en een nieuwe maken. Maar zorg er voor dat u geen gegevens, apps, stromen of andere bronnen die u wilt behouden kwijtraakt.
@@ -190,14 +196,8 @@ Neem [hier][5] contact met ons op indien u een andere foutmelding krijgt of meer
 ### <a name="while-trying-to-create-a-database-in-an-environment-i-am-getting-an-error-how-should-i-resolve-it"></a>Bij het proberen een database in een omgeving te maken krijg ik een foutmelding. Hoe moet ik deze oplossen?
 In de volgende scenario’s kunt u een foutmelding krijgen terwijl u probeert een database te maken:
 
-1. **Standaardomgeving**: Het maken van een database wordt momenteel niet ondersteund in de standaardomgeving van de tenant. 
-
-2. **Omgeving voor individueel gebruik**: U krijgt een omgeving voor individueel gebruik door u aan te melden voor het PowerApps Community-abonnement. Als u de database nog niet hebt gemaakt kunt u momenteel geen database inrichten in de omgeving voor individueel gebruik. 
-
-3. **Omgeving in een andere regio dan de basisregio van uw AAD-tenant**: Momenteel kunt u alleen een database inrichten in de omgevingen die zijn gemaakt in uw basisregio van de Azure Active Directory-tenant. De mogelijkheid om een database in te richten in de andere regio’s komt binnenkort. Zorg er dus voor dat u de regio hetzelfde houdt als de standaardlocatie van de tenant als u er een database in wilt maken.
-
-4. **Databases maken niet ondersteund in bepaalde regio’s**: Er zijn bepaalde regio’s waar het maken van databasis nog steeds niet beschikbaar is. bijv. landen in Zuid-Amerika. Dus als de basislocatie van uw tenant Zuid-Amerika is kunt u momenteel in geen enkele omgeving een database inrichten. 
-    
+**Standaardomgeving**: Het maken van een database wordt momenteel niet ondersteund in de standaardomgeving van de tenant. 
+  
 We werken er aan om alle bovenstaande scenario’s mogelijk te maken.
 Neem [hier][5] contact met ons op indien u een andere foutmelding krijgt of meer vragen hebt
 

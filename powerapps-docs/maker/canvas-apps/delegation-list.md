@@ -1,6 +1,6 @@
 ---
-title: Delegeerbare gegevensbronnen | Microsoft Docs
-description: Een lijst met alle ondersteunde delegeerbare gegevensbronnen
+title: Delegeerbare gegevensbronnen voor canvas-apps | Microsoft Docs
+description: Een lijst met alle ondersteunde delegeerbare gegevensbronnen voor canvas-apps
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 08/15/2017
 ms.author: lanced
-ms.openlocfilehash: e8863d8e260ecaafd407e93d710917848ce184ad
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 98931d4692a61839e0530682bd2d40258c07b7df
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018601"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42825758"
 ---
-# <a name="delegable-data-sources"></a>Delegeerbare gegevensbronnen
-Zoals uitvoerig wordt beschreven in het artikel [Delegering](delegation-overview.md), vindt delegering plaats als PowerApps de verwerking van gegevens overdraagt aan de gegevensbron in plaats van gegevens over te brengen naar de app om ze daar lokaal te verwerken.
+# <a name="delegable-data-sources-in-canvas-apps"></a>Delegeerbare gegevensbronnen voor canvas-apps
+Zoals uitvoerig wordt beschreven in het artikel [Delegering](delegation-overview.md), vindt delegering plaats als PowerApps de verwerking van gegevens overdraagt aan de gegevensbron in plaats van gegevens over te brengen naar de canvas-app om ze daar lokaal te verwerken.
 
 Delegering wordt alleen ondersteund voor tabelgegevensbronnen. Deze lijst vermeldt de verschillende tabelgegevensbronnen en geeft aan of ze ondersteuning bieden voor delegering. Meer details vindt u in de volgende sectie.
 

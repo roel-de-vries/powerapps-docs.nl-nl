@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/12/2017
 ms.author: ankitsar
-ms.openlocfilehash: 8019068155c88465f0f4202807fe763f2e4787b6
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 0a13d2602f06f436d4b805669b004f1ee63daeb9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195514"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42836730"
 ---
 # <a name="connect-to-sharepoint-from-powerapps"></a>Verbinding maken met Sharepoint vanuit PowerApps
 ![SharePoint](./media/connection-sharepoint-online/sharepointicon.png)
@@ -103,7 +107,7 @@ Kolommen die spaties bevatten, kunnen door PowerApps worden gelezen. De spaties 
 
     ![Tabellen in SharePoint selecteren](./media/connection-sharepoint-online/select-sp-tables.png)
 
-    Niet alle soorten lijsten worden standaard weergegeven. Als de naam van de lijst die u wilt gebruiken niet wordt weergegeven, scrolt u naar beneden en typt u de lijstnaam in het vak **Een aangepaste lijstnaam invoeren**.
+    Niet alle soorten lijsten worden standaard weergegeven. PowerApps biedt ondersteuning voor aangepaste lijsten, niet op sjablonen gebaseerde lijsten.  Als de naam van de lijst die u wilt gebruiken niet wordt weergegeven, scrolt u naar beneden en typt u de lijstnaam in het vak **Een aangepaste lijstnaam invoeren**.
 
     ![Aangepaste lijst in SharePoint](./media/connection-sharepoint-online/custom-list.png)
 

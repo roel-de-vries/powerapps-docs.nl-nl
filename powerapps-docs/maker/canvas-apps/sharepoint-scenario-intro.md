@@ -1,6 +1,6 @@
 ---
 title: PowerApps, Microsoft Flow en Power BI integreren met SharePoint Online (inleiding) | Microsoft Docs
-description: 'In deze reeks zelfstudies wordt uitgelegd hoe u een app voor eenvoudig projectbeheer ontwikkelt op basis van SharePoint-lijsten en drie primaire technologieën die integreren met SharePoint Online: PowerApps, Microsoft Flow en Power BI.'
+description: 'In deze reeks zelfstudies wordt uitgelegd hoe u een eenvoudige canvas-app voor projectbeheer ontwikkelt op basis van SharePoint-lijsten en drie primaire technologieën die integreren met SharePoint Online: PowerApps, Microsoft Flow en Power BI.'
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 12/19/2017
 ms.author: mblythe
-ms.openlocfilehash: e8a7860920f25572ec899ee93d501ed553ee62f9
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: fa2631d065425ab57e47dccbb470f577d6474f23
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019567"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42831018"
 ---
 # <a name="integrate-powerapps-microsoft-flow-and-power-bi-with-sharepoint-online"></a>PowerApps, Microsoft Flow en Power BI integreren met SharePoint Online
-Hebt u SharePoint Online en wilt u uw bedrijfsprocessen beter automatiseren en stroomlijnen? Hebt u gewerkt met PowerApps, Microsoft Flow of Power BI, maar u weet niet hoe u deze met SharePoint Online kunt gebruiken? Dan bent u hier op de juiste plaats. In deze reeks zelfstudies wordt uitgelegd hoe u een app voor eenvoudig projectbeheer ontwikkelt op basis van SharePoint-lijsten en drie primaire technologieën die integreren met SharePoint Online: PowerApps, Microsoft Flow en Power BI. Deze technologieën werken met elkaar samen, waardoor u uw bedrijfsresultaten eenvoudig kunt *meten*, op de resultaten *reageren* en uw werkstromen *automatiseren*. Als u deze reeks hebt voltooid, dan beschikt u over een prima scenario. Bijvoorbeeld het volgende:
+Hebt u SharePoint Online en wilt u uw bedrijfsprocessen beter automatiseren en stroomlijnen? Hebt u gewerkt met PowerApps, Microsoft Flow of Power BI, maar u weet niet hoe u deze met SharePoint Online kunt gebruiken? Dan bent u hier op de juiste plaats. In deze reeks zelfstudies wordt uitgelegd hoe u een eenvoudige canvas-app voor projectbeheer ontwikkelt op basis van SharePoint-lijsten en drie primaire technologieën die integreren met SharePoint Online: PowerApps, Microsoft Flow en Power BI. Deze technologieën werken met elkaar samen, waardoor u uw bedrijfsresultaten eenvoudig kunt *meten*, op de resultaten *reageren* en uw werkstromen *automatiseren*. Als u deze reeks hebt voltooid, dan beschikt u over een prima scenario. Bijvoorbeeld het volgende:
 
 ![Diagram van voltooid scenario](./media/sharepoint-scenario-intro/composite-with-background.png)
 

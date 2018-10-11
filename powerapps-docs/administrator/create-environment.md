@@ -5,14 +5,20 @@ author: jimholtz
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: quickstart
-ms.date: 03/21/2018
+ms.date: 08/29/2018
 ms.author: jimholtz
-ms.openlocfilehash: eefcd30e4f5e6ec7441147c157cbb46864ebf718
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 9d7a2093c938658d6717157fc6bd683aa3a55bb6
+ms.sourcegitcommit: b8eee36e680036accb0e7d9fc7a434906af1c4d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349243"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43297469"
 ---
 # <a name="create-an-environment"></a>Een omgeving maken
 Een omgeving is een ruimte om de bedrijfsgegevens, -apps en -stromen van uw organisatie op te slaan, te beheren en te delen. Een omgeving doet ook dienst als container voor het scheiden van apps met verschillende rollen, beveiligingsvereisten of doelgroepen. PowerApps maakt automatisch één standaardomgeving voor elke tenant, die door alle gebruikers in die tenant wordt gedeeld.
@@ -36,6 +42,8 @@ Meld u aan bij het beheercentrum op [https://admin.powerapps.com](https://admin.
 2. Voer in het dialoogvenster **Nieuwe omgeving** een naam in voor de omgeving en selecteer een regio en omgevingstype in de vervolgkeuzelijsten. De regio wordt standaard ingesteld op de basisregio van de Azure Active Directory-tenant, maar u kunt de gewenste regio in de vervolgkeuzelijst selecteren. Als de omgeving eenmaal is gemaakt, kunt u de regio niet meer wijzigen. Klik of tik op **Omgeving maken** als u klaar bent.
 
     ![Bestand en Delen](./media/create-environment/new-environment-dialog.png)
+
+    Selecteer **Preview (Verenigde Staten)** om vroegtijdig toegang te krijgen tot de toekomstige PowerApps-functies. Meer informatie over het [PowerApps Preview-programma](preview-environments.md).
 3. Zodra de omgeving is gemaakt, verschijnt een bevestigingsbericht in het dialoogvenster en wordt u gevraagd of u een database wilt maken. Klik of tik op **Database maken** om toegang tot Common Data Service in te schakelen.
 
     **Opmerking:** op dit moment kunt u alleen een database maken in de basisregio van de Azure Active Directory-tenant.

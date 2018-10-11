@@ -1,6 +1,6 @@
 ---
 title: Cognitive Services gebruiken in PowerApps | Microsoft Docs
-description: Maak een eenvoudige app die de tekstanalyse-API van Microsoft Cognitive Services gebruikt om tekst te analyseren.
+description: Maak een eenvoudige canvas-app die de tekstanalyse-API van Microsoft Cognitive Services gebruikt om tekst te analyseren.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 12/08/2017
 ms.author: anneta
-ms.openlocfilehash: 6175633b2fbec4e9949882c587916adb349290d4
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: daaea74ede5f9818453b1d4ff32f3c46ef87b0fb
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195445"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42859577"
 ---
 # <a name="use-cognitive-services-in-powerapps"></a>Cognitive Services gebruiken in PowerApps
-In dit artikel leert u hoe u een eenvoudige app kunt maken die de tekstanalyse-API van [Microsoft Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview) gebruikt om tekst te analyseren. We laten u zien hoe u de tekstanalyse-API kunt instellen en hoe u deze aan de [connector voor tekstanalyse](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/) kunt koppelen. Vervolgens laten we u zien hoe u een app kunt maken die de API oproept.
+In dit artikel leert u hoe u een eenvoudige canvas-app kunt maken die de tekstanalyse-API van [Microsoft Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview) gebruikt om tekst te analyseren. We laten u zien hoe u de tekstanalyse-API kunt instellen en hoe u deze aan de [connector voor tekstanalyse](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/) kunt koppelen. Vervolgens laten we u zien hoe u een canvas-app kunt maken die de API oproept.
 
 > [!NOTE]
 > We raden u aan om [Een volledig nieuwe app maken](get-started-create-from-blank.md) te lezen voordat u dit artikel leest als u nog niet eerder apps in PowerApps hebt gemaakt.

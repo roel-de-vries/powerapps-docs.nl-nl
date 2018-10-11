@@ -15,21 +15,27 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: jdaly
-ms.openlocfilehash: b9e06888a23426a44eeaf4354bf456dd8b15cfad
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: bcf89d9c52e1e277f65f7f02013885f30862aa56
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864974"
 ---
 # <a name="introduction-to-solutions"></a>Inleiding tot oplossingen
 
-*Oplossingen* geven aan hoe aanpassers en ontwikkelaars de software-eenheden maken, verpakken en onderhouden die een uitbreiding vormen van Common Data Service for Apps. Aanpassers en ontwikkelaars distribueren oplossingen zodat organisaties Common Data Service for Apps kunnen gebruiken om de bedrijfsfunctionaliteit te installeren en te verwijderen die op basis van de oplossing wordt gedefinieerd.
+*Oplossingen* geven aan hoe aanpassers en ontwikkelaars de software-eenheden maken, verpakken en onderhouden die een uitbreiding vormen van Common Data Service for Apps. De apps Dynamics 365 for Sales, Marketing en Customer Service bestaan bijvoorbeeld uit oplossingen. Aanpassers en ontwikkelaars distribueren oplossingen zodat organisaties Common Data Service for Apps kunnen gebruiken om de bedrijfsfunctionaliteit te installeren en te verwijderen die op basis van de oplossing wordt gedefinieerd.
 
-Elke aanpassing die u in Common Data Service for Apps aanbrengt, maakt deel uit van een oplossing. Elke wijziging die u toepast, wordt bijgehouden en eventuele afhankelijkheden kunnen worden berekend. Wanneer u een beheerde oplossing exporteert, worden alle wijzigingen die u voor die oplossing hebt toegepast, in een bestand opgenomen. Dit bestand kunt u vervolgens in een andere Common Data Service for Apps-omgeving importeren.
+Elke aanpassing die u in Common Data Service for Apps of in een eerder geïnstalleerde oplossing aanbrengt, maakt deel uit van een oplossing. Elke wijziging die u toepast, wordt bijgehouden en eventuele afhankelijkheden kunnen worden berekend. Wanneer u een beheerde oplossing exporteert, worden alle wijzigingen die u voor die oplossing hebt toegepast, in een bestand opgenomen. Dit bestand kunt u vervolgens in een andere Common Data Service for Apps-omgeving importeren.
 
 Als u van plan bent aanpassingen of uitbreidingen tussen verschillende Common Data Service for Apps-omgevingen te transporteren of oplossingen te distribueren met AppSource, is het belangrijk dat u het oplossingsframework begrijpt.
 
-## <a name="unmanaged-and-managed-solutions"></a>Onbeheerde en beheerde oplossingen
+## <a name="managed-and-unmanaged-solutions"></a>Beheerde en onbeheerde oplossingen
 
 Er zijn twee typen oplossingen: *beheerde* en *onbeheerde* oplossingen.
 
@@ -39,8 +45,8 @@ Een **beheerde** oplossing is een voltooide oplossing die bedoeld is om te worde
 - U kunt onbeheerde aanpassingen toevoegen aan de onderdelen van een beheerde oplossing. Als u dit doet, maakt u een afhankelijkheid tussen uw onbeheerde aanpassingen en de beheerde oplossing. Als een afhankelijkheid bestaat, kan de beheerde oplossing pas worden verwijderd als u de afhankelijkheid verwijdert.
 - Wanneer een beheerde oplossing wordt verwijderd (als de installatie ongedaan wordt gemaakt), worden alle aanpassingen en uitbreidingen van de oplossing verwijderd.
 
- > [!IMPORTANT]
- > De volgende gegevens gaan verloren wanneer u een beheerde oplossing verwijdert: gegevens die zijn opgeslagen in aangepaste entiteiten die deel uitmaken van de beheerde oplossing en gegevens die zijn opgeslagen in aangepaste kenmerken die deel uitmaken van de beheerde oplossing voor andere entiteiten die geen deel uitmaken van de beheerde oplossing.
+  > [!IMPORTANT]
+  > De volgende gegevens gaan verloren wanneer u een beheerde oplossing verwijdert: gegevens die zijn opgeslagen in aangepaste entiteiten die deel uitmaken van de beheerde oplossing en gegevens die zijn opgeslagen in aangepaste kenmerken die deel uitmaken van de beheerde oplossing voor andere entiteiten die geen deel uitmaken van de beheerde oplossing.
 
 Een **onbeheerde** oplossing is een oplossing die nog wordt ontwikkeld en niet is bedoeld om te worden gedistribueerd. 
 - Als een oplossing onbeheerd is, kunt u doorgaan met het toevoegen van onderdelen aan de oplossing of het verwijderen van onderdelen uit de oplossing. 
@@ -48,10 +54,11 @@ Een **onbeheerde** oplossing is een oplossing die nog wordt ontwikkeld en niet i
 - Wanneer een onbeheerde oplossing wordt verwijderd, wordt alleen de oplossingscontainer met eventuele aanpassingen verwijderd. Alle onbeheerde aanpassingen blijven van kracht en maken deel uit van dezelfde standaardoplossing. 
 - Wanneer de onbeheerde oplossing is voltooid en u deze wilt distribueren, exporteert u de oplossing als een beheerde oplossing.
 
- > [!NOTE]
- > U kunt een beheerde oplossing niet importeren in dezelfde omgeving als die waarin de oorspronkelijke onbeheerde oplossing is opgeslagen. Als u een beheerde oplossing wilt testen, moet u een afzonderlijke omgeving maken en de oplossing hierin importeren.
+  > [!NOTE]
+  > U kunt een beheerde oplossing niet importeren in dezelfde omgeving als die waarin de oorspronkelijke onbeheerde oplossing is opgeslagen. Als u een beheerde oplossing wilt testen, moet u een afzonderlijke omgeving maken en de oplossing hierin importeren.
 
 ## <a name="solution-publishers"></a>Oplossingsuitgevers
+
 Elke oplossing is gekoppeld aan een oplossingsuitgever. De oplossingsuitgever levert informatie over de manier waarop contact met de uitgever kan worden opgenomen en een waarde voor het aanpassingsvoorvoegsel. De standaardwaarde is `new`.
 
 Wanneer alle schemawijzigingen als onderdeel van een oplossing zijn opgenomen, wordt het aanpassingsvoorvoegsel van de oplossingsuitgever vóór de naam van de schema-items geplaatst. Ook aan aangepaste acties wordt deze waarde toegevoegd. Dit is nuttig omdat u hiermee eenvoudig kunt zien door welke oplossing het schema-item of de aangepaste actie is toegevoegd. Hoewel het niet vereist is voor alle schema-items en aangepaste acties in een oplossing hetzelfde aanpassingsvoorvoegsel te gebruiken, wordt dit wel aangeraden.
@@ -67,12 +74,12 @@ Zie [Dynamics 365 Customer Engagement Developer Guide: Maintain managed solution
 
 Als u een oplossingsuitgever en een oplossing wilt maken, navigeert u naar het gebied voor het aanpassen van Dynamics 365.
 
-Via [powerapps.com](https://web.powerapps.com)
+Via [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)
 
 1. Selecteer het pictogram van de *wafel* in de linkerbovenhoek.
 2. Selecteer **Alle apps** in het fly-outmenu.
 3. Zoek **Dynamics 365 - aangepaste app**.
- U kunt op het beletselteken (...) klikken en **Deze app vastmaken** kiezen zodat u de volgende keer eenvoudiger naar het item kunt navigeren.
+ U kunt op het beletselteken (...) klikken en **Deze app vastmaken** kiezen, zodat u de volgende keer eenvoudiger naar het item kunt navigeren.
 4. Selecteer de app **Dynamics 365 - aangepaste app**.
 5. Navigeer naar **Instellingen** > **Aanpassing** > **Aanpassingen**.
 
@@ -116,7 +123,7 @@ In het volgende diagram ziet u hoe beheerde oplossingen en onbeheerde aanpassing
 
 In dit voorbeeld wordt het standaardgedrag dat in de systeemoplossing is gedefinieerd, overschreven of toegevoegd door beheerde oplossingen. Aanpassingen die vervolgens zichtbaar zijn in de toepassing, kunnen worden overschreven of worden toegevoegd door onbeheerde aanpassingen.
 
-Zie [Dynamics 365 Customer Engagement Developer Guide: Introduction to solutions > Unmanaged and managed solutions](/dynamics365/customer-engagement/developer/introduction-solutions#unmanaged-and-managed-solutions) (Ontwikkelaarshandleiding voor Dynamics 365 Customer Engagement: Inleiding tot oplossingen > Beheerde en onbeheerde oplossingen) voor meer informatie.
+Zie [Dynamics 365 Customer Engagement Developer Guide: Introduction to solutions > Unmanaged and managed solutions](/dynamics365/customer-engagement/developer/introduction-solutions#managed-and-unmanaged-solutions) (Ontwikkelaarshandleiding voor Dynamics 365 Customer Engagement: Inleiding tot oplossingen > Beheerde en onbeheerde oplossingen) voor meer informatie.
 
 ## <a name="managed-properties"></a>Beheerde eigenschappen
 

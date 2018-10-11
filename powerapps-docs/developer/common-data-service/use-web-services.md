@@ -15,15 +15,21 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/26/2018
 ms.author: jdaly
-ms.openlocfilehash: 7f89a74b37ebf322137d680e165c007cd8fa6d26
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: 7e9e14a9d44a3326fb8ac32b11e46b61cc119c27
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42854433"
 ---
 # <a name="use-common-data-service-for-apps-web-services"></a>Common Data Service for Apps-webservices gebruiken
 
-De Common Data Service for Apps biedt twee webservices waarmee u gegevens kunt beheren. Kies de service die het beste overeenkomt met de vereisten en uw vaardigheden. Zie [Dynamics 365 Customer Engagement Developer Guide: Choose your development style for Dynamics 365 Customer Engagement](/dynamics365/customer-engagement/developer/choose-development-style) (Ontwikkelaarshandleiding voor Dynamics 365 Customer Engagement: Uw ontwikkelingsstijl voor Dynamics 365 Customer Engagement kiezen) voor meer informatie.
+Common Data Service for Apps biedt twee webservices waarmee u gegevens kunt beheren. Kies de service die het beste overeenkomt met de vereisten en uw vaardigheden. Zie [Dynamics 365 Customer Engagement Developer Guide: Choose your development style for Dynamics 365 Customer Engagement](/dynamics365/customer-engagement/developer/choose-development-style) (Ontwikkelaarshandleiding voor Dynamics 365 Customer Engagement: Uw ontwikkelingsstijl voor Dynamics 365 Customer Engagement kiezen) voor meer informatie.
 
 ## <a name="web-api"></a>Web-API
 De Web API is een OData v4 RESTful-eindpunt. Dit kunt u gebruiken voor elke programmeertaal die HTTP-aanvragen en -verificatie met behulp van OAuth 2.0 ondersteunt.

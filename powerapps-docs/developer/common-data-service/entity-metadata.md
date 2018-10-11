@@ -15,15 +15,21 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/19/2018
 ms.author: jdaly
-ms.openlocfilehash: eb908978eee8d6473a46ca3894cee55ce4b036df
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: 60fafa90df656bb6d135a8cf7e2c2f3b4f8457da
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42840741"
 ---
 # <a name="entity-metadata"></a>Entiteitsmetagegevens
 
-Elke entiteit biedt de mogelijkheid voor het opslaan van gestructureerde gegevens. Voor ontwikkelaars komen de entiteiten overeen met de klassen die u wilt gebruiken tijdens het werken met gegevens in Common Data Service.
+Elke entiteit biedt de mogelijkheid voor het opslaan van gestructureerde gegevens. Voor ontwikkelaars komen de entiteiten overeen met de klassen die u wilt gebruiken tijdens het werken met gegevens in Common Data Service for Apps.
 
 ## <a name="entity-names"></a>Entiteitsnamen
 Elke entiteit heeft een unieke naam die tijdens het maken van de entiteit wordt gedefinieerd. Deze naam wordt op verschillende manieren weergegeven:
@@ -170,7 +176,7 @@ Sommige entiteiten beschikken over andere sets met opties.
 **Bijvoorbeeld**: de opties `StateCode` en `StatusCode` voor de entiteit `PhoneCall`.
 
 
-|Kolom 1  |Kolom 2  |
+|`StateCode`|`StatusCode`|
 |---------|---------|
 |0: Open|1: Open|
 |1: Voltooid|2: Gemaakt <br />4: Ontvangen|

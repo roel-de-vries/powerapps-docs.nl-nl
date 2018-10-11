@@ -1,6 +1,6 @@
 ---
-title: Een verbinding met SharePoint maken vanuit PowerApps | Microsoft Docs
-description: Maak op powerapps.com verbinding met SharePoint om een app automatisch te kunnen genereren of om een volledig nieuwe app te bouwen.
+title: Een verbinding maken vanuit PowerApps met SharePoint | Microsoft Docs
+description: Maak in PowerApps verbinding met SharePoint om een canvas-app automatisch te kunnen genereren of om een volledig nieuwe app te bouwen.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 09/03/2016
 ms.author: anneta
-ms.openlocfilehash: 0e0b98277548d188071bcd29b9e3168de5818321
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 170115f07da57878c553a1776fc26a9cd27a8258
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195859"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42844150"
 ---
 # <a name="create-a-connection-to-sharepoint-from-powerapps"></a>Een verbinding met SharePoint maken vanuit PowerApps
-Maak een verbinding naar SharePoint Online of naar on-premises SharePoint zodat u automatisch een app kunt genereren of om een volledig nieuwe app te bouwen.
+Maak een verbinding naar SharePoint Online of naar on-premises SharePoint zodat u automatisch een canvas-app kunt genereren of om een volledig nieuwe app kunt bouwen.
 
 Zie [Introduction to PowerApps](getting-started.md) (Inleiding tot PowerApps) als u onbekend bent met PowerApps.
 

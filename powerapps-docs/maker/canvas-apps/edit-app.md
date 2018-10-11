@@ -1,6 +1,6 @@
 ---
-title: Een app bewerken | Microsoft Docs
-description: Stapsgewijze instructies voor het bewerken van apps en scenario's voor het vergrendelen van een sessie.
+title: Een canvas-app bewerken | Microsoft Docs
+description: Stapsgewijze instructies voor het bewerken van canvas-apps en scenario's voor het vergrendelen van een sessie in PowerApps.
 author: karthik-1
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 05/19/2017
 ms.author: sharik
-ms.openlocfilehash: b5678437ea1e604ce2932307d897f280f4633fc0
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 97dc8b245da9dc48a67f22243f11cf26b7bd6d8e
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39194927"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42835070"
 ---
-# <a name="edit-an-app-in-powerapps"></a>Een app bewerken in PowerApps
-U kunt elke app bewerken die u hebt ontwikkeld, waarvan u de eigenaar bent of waarvoor u de machtiging **Kan bewerken** hebt. U kunt een app bewerken in PowerApps Studio. Als u probeert een app te bewerken die ergens anders is geopend voor bewerken, ziet u een bericht met de mededeling dat de app al door uzelf of door iemand anders is geopend.
+# <a name="edit-a-canvas-app-in-powerapps"></a>Een canvas-app bewerken in PowerApps
+U kunt elke canvas-app bewerken die u hebt ontwikkeld, waarvan u de eigenaar bent of waarvoor u de machtiging **Mag bewerken** hebt. U kunt een app bewerken in PowerApps Studio. Als u probeert een app te bewerken die ergens anders is geopend voor bewerken, ziet u een bericht met de mededeling dat de app al door uzelf of door iemand anders is geopend.
 
 ## <a name="verify-your-permissions"></a>Uw machtigingen controleren
 1. Meld u aan bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en klik of tik op **Apps** in het menu **Bestand** (aan de linkerkant).

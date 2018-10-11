@@ -6,14 +6,20 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
-ms.date: 03/21/2018
+ms.date: 08/29/2018
 ms.author: manasma
-ms.openlocfilehash: 3e954db3ed224afa100d89be6aa03d7a2139a9d7
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: e160098075b78a0a4de98da9c9915d0bef26d183
+ms.sourcegitcommit: b8eee36e680036accb0e7d9fc7a434906af1c4d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349933"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43297323"
 ---
 # <a name="environments-overview"></a>Overzicht van omgevingen
 Een omgeving is een ruimte om de bedrijfsgegevens, -apps en -stromen van uw organisatie op te slaan, te beheren en te delen. Een omgeving doet ook dienst als container voor het scheiden van apps met verschillende rollen, beveiligingsvereisten of doelgroepen. Hoe u voordeel haalt uit omgevingen, is afhankelijk van uw organisatie en de apps die u probeert te maken. Bijvoorbeeld:
@@ -22,6 +28,7 @@ Een omgeving is een ruimte om de bedrijfsgegevens, -apps en -stromen van uw orga
 * U kunt afzonderlijke omgevingen maken waarin de test- en productieversies van uw apps worden gegroepeerd.
 * U kunt afzonderlijke omgevingen maken die overeenkomen met de specifieke teams of afdelingen in uw bedrijf, en die elk de relevante gegevens en apps voor elke doelgroep bevatten.
 * U kunt ook afzonderlijke omgevingen maken voor de verschillende algemene vertakkingen van uw bedrijf.  
+* Krijg vroegtijdig toegang tot de toekomstige PowerApps-functies door lid te worden van [PowerApps Preview-programma](preview-environments.md).
 
 ## <a name="environment-scope"></a>Bereik van omgeving
 Elke omgeving wordt gemaakt onder een Azure AD-tenant en alleen gebruikers binnen die tenant hebben toegang tot de bronnen in die omgeving. Een omgeving is ook gebonden aan een geografische locatie, zoals de Verenigde Staten. Wanneer u een app in een omgeving maakt, wordt deze app rondgestuurd naar alleen datacenters in die geografische locatie. De items die u in die omgeving maakt (inclusief verbindingen, gateways, stromen met behulp van Microsoft Flow en nog veel meer) zijn ook gebonden aan de locatie van de omgeving.
@@ -75,7 +82,7 @@ De standaardomgeving heet: "{naam van Azure AD-tenant} (standaard)"
 U kunt voor verschillende doeleinden omgevingen maken. Een evaluatieomgeving is bedoeld voor het proberen van de omgeving en de database met Common Data Service-ervaring. Deze omgeving verloopt na een bepaalde periode. Zie [Omgevingen beheren in PowerApps](environments-administration.md) voor meer informatie.
 
 ## <a name="choosing-an-environment"></a>Een omgeving kiezen
-Door de introductie van omgevingen ziet u een nieuwe ervaring wanneer u naar [https://web.powerapps.com](https://web.powerapps.com) gaat.  De apps, verbindingen en andere items die zichtbaar zijn op de site worden nu gefilterd op basis van de huidige omgeving die is geselecteerd.  Uw huidige omgeving is vermeld in de omgevingskiezer rechts van de kop. Als u een andere omgeving wilt kiezen, klikt of tikt u op de kiezer om een lijst met beschikbare omgevingen weer te geven. Klik of tik op de omgeving waartoe u toegang wenst.
+Door de introductie van omgevingen ziet u een nieuwe ervaring wanneer u naar [https://web.powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) gaat.  De apps, verbindingen en andere items die zichtbaar zijn op de site worden nu gefilterd op basis van de huidige omgeving die is geselecteerd.  Uw huidige omgeving is vermeld in de omgevingskiezer rechts van de kop. Als u een andere omgeving wilt kiezen, klikt of tikt u op de kiezer om een lijst met beschikbare omgevingen weer te geven. Klik of tik op de omgeving waartoe u toegang wenst.
 
 In de kiezer worden omgevingen weergegeven als u aan een van de volgende voorwaarden voldoet:
 

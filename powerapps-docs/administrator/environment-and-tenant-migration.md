@@ -8,12 +8,18 @@ ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
 ms.author: jamesol
-ms.openlocfilehash: 3a4aeda30f8d4f01e2a85e186a769fa19ac29883
-ms.sourcegitcommit: 2e7b621066cdc3e7be329d5213ecfee0b4223641
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 651301dafa17c6ec159d462f018d6ec1984485ba
+ms.sourcegitcommit: 7403ea7f103564fa7d1ae73a08a7dbdfeba7d999
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/30/2018
-ms.locfileid: "39349588"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43263439"
 ---
 # <a name="environment-and-tenant-app-migration-through-packaging"></a>Apps migreren tussen omgevingen en tenants via pakketten
 Lees hoe u resources van de ene omgeving naar de andere migreert met pakketten. Deze omgevingen kunnen zich in dezelfde tenant bevinden of in andere tenants.
@@ -112,11 +118,11 @@ Voor het importeren van een CDS-oplossingspakket is in de ervaring helaas een ha
 
 3. Kopieer de URL in uw browser, breng de volgende wijzigingen aan en navigeer vervolgens naar de nieuwe URL in uw browser:
 
-    * Huidige URL-structuur: https://{uniekenaamvanorganisatie}.crm.dynamics.com/tools/solution/edit.aspx?id={naamvanoplossing}
+    * Huidige URL-structuur: `https://{orguniquename}.crm.dynamics.com/tools/solution/edit.aspx?id={solutionname}`
 
         ![URL bewerken](./media/environment-and-tenant-migration/edit-url.png)
 
-    * Nieuwe URL-structuur: https://{uniekenaamvanorganisatie}.crm.dynamics.com/tools/solution/SolutionImportWizard.aspx
+    * Nieuwe URL-structuur: `https://{orguniquename}.crm.dynamics.com/tools/solution/SolutionImportWizard.aspx`
 
         ![Pakket selecteren](./media/environment-and-tenant-migration/select-package.png)
 

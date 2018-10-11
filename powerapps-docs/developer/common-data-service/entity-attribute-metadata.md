@@ -15,11 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/12/2018
 ms.author: jdaly
-ms.openlocfilehash: efe04d9bd9c761f432d16d4c9304c52e55503aeb
-ms.sourcegitcommit: 59785e9e82da8f5bd459dcb5da3d5c18064b0899
+search.audienceType:
+- developer
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: f6fcf3ba1e8e9773df65ac566a9d5c798f4d13a9
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42859156"
 ---
 # <a name="attribute-metadata"></a>Kenmerkmetagegevens
 
@@ -121,7 +127,7 @@ Voor deze eigenschap kunnen de volgende waarden worden ingesteld:
 |`ApplicationRequired`|2|**Onderneming vereist**|Het bedrijf heeft aangegeven dat een waarde is vereist voor het kenmerk.|
 |`Recommended`|3|**Onderneming aangeraden**|Een waarde voor het kenmerk wordt aangeraden.|
 
-In Common Data Service wordt de optie `SystemRequired` alleen afgedwongen voor kenmerken die door het systeem zijn gemaakt. Aangepaste kenmerken kunnen niet worden ingesteld voor het gebruik van de optie `SystemRequired`. 
+In Common Data Service for Apps wordt de optie `SystemRequired` alleen afgedwongen voor kenmerken die door het systeem zijn gemaakt. Aangepaste kenmerken kunnen niet worden ingesteld voor het gebruik van de optie `SystemRequired`. 
 
 In modelgestuurde apps wordt de optie `ApplicationRequired` afgedwongen en een andere weergave voor de optie `Recommended` gebruikt. Makers van aangepaste clients kunnen deze informatie gebruiken om soortgelijke validatie- of weergaveopties te vereisen.
 
@@ -206,6 +212,7 @@ In de organisatieservice zijn aanvraagklassen aanwezig die u kunt gebruiken om d
 Alle kenmerken met opties nemen waarden over van [EnumAttributeMetadata](/dotnet/api/microsoft.xrm.sdk.metadata.enumattributemetadata) en bevatten een [OptionSet-eigenschap](/dotnet/api/microsoft.xrm.sdk.metadata.enumattributemetadata.optionset). Deze eigenschap bevat de [OptionSetMetadata](/dotnet/api/microsoft.xrm.sdk.metadata.optionsetmetadata) die de opties binnen de [Options-eigenschap](/dotnet/api/microsoft.xrm.sdk.metadata.optionsetmetadata.options) bevatten. 
 
 In de organisatieservice kunt u de volgende berichten gebruiken om informatie over optiesets op te halen:
+
 |Aanvraagklasse|Beschrijving|
 |--|--|
 |[RetrieveAllOptionSetsRequest](/dotnet/api/microsoft.xrm.sdk.messages.retrievealloptionsetsrequest) |Hiermee worden gegevens opgehaald over alle *algemene* optiesets.|
