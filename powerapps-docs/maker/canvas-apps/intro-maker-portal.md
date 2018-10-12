@@ -1,132 +1,133 @@
 ---
-title: Inleiding tot powerapps.com | Microsoft Docs
+title: Voor de eerste keer aanmelden | Microsoft Docs
 description: Een nieuw platform voor alle ontwikkelaars van apps.
-author: linhtranms
+author: AFTOwen
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
-ms.date: 10/28/2016
-ms.author: litran
-ms.openlocfilehash: 9c1b6bde62f0260dca7eba1d723049aadc3e72c9
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+ms.reviewer: ''
+ms.date: 08/06/2018
+ms.author: anneta
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 3ecf468f8c1b15d20b144aa127fe31c13dba484e
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195330"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42849744"
 ---
-# <a name="introduction-to-powerappscom"></a>Inleiding tot powerapps.com
-Het team van PowerApps introduceert [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) opnieuw als het nieuwe platform voor app-ontwikkelaars. We hebben de pagina opnieuw ingericht als de primaire site waarop ontwikkelaars aan de slag kunnen met hun apps, toegang hebben tot Microsoft Common Data Service en hun apps op één plek kunnen beheren. In dit artikel bespreken we de volgende aspecten:
+# <a name="sign-in-to-powerapps-for-the-first-time"></a>Voor de eerste keer aanmelden bij PowerApps
 
-* De kop
-* De startpagina
-* De pagina **Apps**
+Wanneer u zich aanmeldt bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), ziet u op de site verschillende opties voor het maken van uw eigen apps, het openen van apps die u hebt gemaakt en die anderen hebben gemaakt en voor het uitvoeren van aan apps gerelateerde taken. Dit kunnen eenvoudige taken zijn zoals het identificeren van de licentie(s) waarmee u toegang hebt, of ingewikkeldere functies, zoals het maken van aangepaste verbindingen met specifieke gegevensbronnen.
 
-## <a name="header"></a>Kop
-Wanneer u zich aanmeldt voor PowerApps en u zich voor het eerst aanmeldt op powerapps.com, zal u de nieuwe kop opvallen. Aan de linkerkant van de kop vindt u de Office-wafel. Via dit menu hebt u snel toegang tot alle andere Office-producten, zoals PowerPoint, OneNote, Word, Microsoft Flow en Dynamics 365.
+U kunt opties in drie algemene gedeelten selecteren:
 
-![Kopwafel](./media/intro-maker-portal/waffle.png)
+- de header aan de bovenkant van de pagina
 
-Aan de rechterkant van de kop ziet u ten eerste een vervolgkeuzelijst. Hiermee kunt u snel schakelen tussen omgevingen. **Standaardomgeving** is waarschijnlijk standaard geselecteerd. [Meer informatie over omgevingen](../../administrator/environments-overview.md).
+    ![Kop](media/intro-maker-portal/header.png)
 
-![Omgevingslijst in kop](./media/intro-maker-portal/environment.png)
+- de navigatiebalk aan de linkerkant van de pagina
 
-Naast de vervolgkeuzelijst voor omgeving ziet u een downloadpictogram. Klik of tik op dit pictogram om een dialoogvenster weer te geven met koppelingen om PowerApps Mobile te downloaden (voor iOS- of Android-apparaten).
+    ![Navigatiebalk](media/intro-maker-portal/nav-bar.png)
 
-![Downloadknop in kop](./media/intro-maker-portal/downloads2.png)
+- de grote pictogrammen die duidelijk zichtbaar zijn in het midden van de pagina
 
-Naast het downloadpictogram ziet u een tandwielpictogram voor instellingen. Klik of tik op dit pictogram om koppelingen weer te geven naar verbindingen, gateways en het beheercentrum.
+    ![Middelste gedeelte van de startpagina](media/intro-maker-portal/center-area.png)
 
-![Instellingen in kop](./media/intro-maker-portal/settings_items2.png)
+Voor de beste resultaten zorgt u er direct voor dat de startpagina is ingesteld op de juiste omgeving.
 
-Naast de instellingen ziet u een vraagteken voor hulp. Klik of tik op dit pictogram om koppelingen naar Gestuurd leren, Documentatie, Ondersteuning, Community, Blog, Legal en Privacy weer te geven.
+## <a name="choose-an-environment"></a>Een omgeving kiezen
 
-![Help in kop](./media/intro-maker-portal/help_items2.png)
+Of u nu een app, een stroom, een gegevensverbinding of een entiteit in Common Data Service for Apps maakt, veel van wat u in PowerApps doet, speelt zich af in een specifieke omgeving. Met omgevingen kunt u grenzen stellen tussen verschillende soorten werk. Zo kan een organisatie beschikken over verschillende omgevingen voor verschillende afdelingen. Veel organisaties maken gebruik van omgevingen om apps die nog in ontwikkeling zijn te scheiden van apps die al gereed zijn voor algemeen gebruik. Mogelijk hebt u toegang nodig tot meerdere omgevingen (of slechts één) en mogelijk kunt u zelfs uw eigen omgevingen maken, als u over de juiste machtigingen beschikt.
 
-## <a name="homepage"></a>Startpagina
-Nadat u zich hebt aangemeld op [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc), komt u standaard op de startpagina. We hebben de indeling van deze startpagina gewijzigd, zodat u snel aan de slag kunt, of u nu apps wilt maken of meer informatie over Common Data Service zoekt.
+Als u wilt controleren in welke omgeving u zich bevindt, gaat u naar de omgevingsschakelaar aan de rechterkant van de header.
 
-Als u zich al eerder hebt aangemeld bij PowerApps en een aantal apps hebt uitgevoerd of gemaakt, ziet u in de eerste sectie van uw startpagina een lijst van **recente apps**. Ze worden gesorteerd op de datum waarop ze het laatst zijn geopend.
+![Schakelen tussen omgevingen](media/intro-maker-portal/environment-switcher.png)
 
-![Recente apps](./media/intro-maker-portal/recentapps2.png)
+Als u in een bepaalde omgeving een app maakt, kunt u die app vanuit een andere omgeving niet zien. Ook mensen die uw app willen uitvoeren, moeten toegang hebben tot de omgeving waarin u de app hebt gemaakt.
 
-In de rechterbovenhoek ziet u een pijl genaamd **Apps**. Deze leidt u rechtstreeks naar de pagina **Apps**, waar u al uw apps terugvindt.
+> [!IMPORTANT]
+> Zorg er *voordat* u een app, stroom of vergelijkbaar onderdeel maakt voor dat u zich in de juiste omgeving bevindt. Het is niet eenvoudig om onderdelen van de ene omgeving naar de andere te verplaatsen.
 
-Als u nog niet eerder zich hebt aangemeld of een app hebt gemaakt of uitgevoerd, ziet u de sectie **Recente apps** niet. In plaats daarvan ziet u de banner **Een app maken**.
+Zie voor meer informatie [Overzicht van omgevingen](../../administrator/environments-overview.md).
 
-![Een app maken](./media/intro-maker-portal/createapp.png)
+## <a name="choose-an-app-type"></a>Een app-type selecteren
 
-Klik of tik in deze banner op **Aan de slag** om opties weer te geven voor het maken van een app met behulp van **PowerApps Studio**.
+U kunt in PowerApps de volgende typen apps maken en uitvoeren:
 
-![Modaal venster app maken](./media/intro-maker-portal/createmodal2.png)
+- **Canvas-apps** bieden ondersteuning voor het ontwerpen van een aangepaste gebruikersinterface en het verbinden met gegevens van verschillende bronnen.
+- **Modelgestuurde apps** beschikken over een standaardgebruikersinterface en kunnen alleen in Common Data Service (CDS) for Apps met gegevens worden verbonden. U kunt hiermee echter wel eenvoudiger andere elementen maken, zoals weergaven, dashboards en verschillende typen zakelijke logica.
 
-Naast **Aan de slag** staan koppelingen naar onze zelfstudievideo's. Hiermee leert u snel een app te maken met gegevens (in SharePoint of PowerApps) en vervolgens de app te delen. De koppeling **Meer informatie** brengt u naar een onderwerp over het maken van een app op basis van bestaande gegevens.
+Op de pagina **Start** worden standaard opties gemaakt voor het maken en uitvoeren van canvas-apps. Als u in plaats daarvan modelgestuurde opties wilt weergeven, kiest u een omgeving met een CDS for Apps-database. Open vervolgens het menu in de linkerbenedenhoek.
 
-Onder de banner **Een app maken** staat de banner **Microsoft Common Data Service gebruiken**.
+![Schakelen tussen canvas- en modelgestuurde apps](media/intro-maker-portal/mode-switcher.png)
 
-![Microsoft Common Data Service](./media/intro-maker-portal/cds2.png)
+## <a name="play-or-edit-an-app"></a>Een app gebruiken of bewerken
 
-Onder **Common Data Service** wordt nog een knop weergegeven, afhankelijk van uw licentie of machtiging.
+Als u al een app hebt gemaakt (of iemand anders heeft een app gemaakt en deze met u gedeeld), kunt u deze gebruiken of bewerken via de pagina **Apps**.
 
-* Als de knop **Proefversie starten** wordt weergegeven, hebt u geen PowerApps P2-licentie, wat wel nodig is voor Common Data Service. Klik of tik op deze knop om de pagina te openen waar u zich kunt aanmelden voor een gratis proeflicentie van 90 dagen. [Meer informatie over PowerApps-licenties](../signup-for-powerapps.md).
-* Als de knop **Aan de slag** wordt weergegeven, bevindt u zich in een omgeving die geen Common Data Service-database bevat of hebt u er geen toegang toe. Klik of tik op deze knop om tegelijkertijd een omgeving en database te maken, zodat u Common Data Services kunt gebruiken voor uw apps. [Meer informatie over het maken van omgevingen](../../administrator/environments-administration.md).
-  
-    ![Een omgeving en database maken](./media/intro-maker-portal/createenvanddb2.png)
-  
-    Als u geen omgeving wilt maken, kunt u altijd overschakelen naar een omgeving waar u wel toegang toe hebt.
-* Als de knop **Database maken** wordt weergegeven, bevindt u zich in een omgeving die geen Common Data Service-database bevat, maar hebt u wel de mogelijkheid om er een te maken.
-  
-    ![Een database maken](./media/intro-maker-portal/cds-createdb2.png)
-  
-    Als u op deze knop klikt of tikt, wordt er een database voor deze omgeving ingericht.
-  
-    ![Een database maken](./media/intro-maker-portal/cds_createdb22.png)
-* Als de knop **Bladeren in entiteiten** wordt weergegeven, bevindt u zich in een omgeving waarvoor al een Common Data Service-database is ingericht en hebt u er toegang toe. Klik of tik op deze knop om de pagina **entiteiten** te openen.
-  
-    ![Een database maken](./media/intro-maker-portal/cds_browseentities2.png)
+- U kunt canvas-apps zoeken door te filteren op basis van criteria. Zo kunt u bijvoorbeeld apps zoeken die u recent hebt geopend.
 
-Onder de banner **Microsoft Common Data Service gebruiken** ziet u een aantal voorbeeldapps en verbonden voorbeeldapps die u kunt gebruiken.
+    ![Lijst met canvas-apps](media/intro-maker-portal/org-apps.png)
 
-* **Voorbeeldapps**: voorbeeldapps zijn gemaakt voor verschillende bedrijfsscenario's waarbij een telefoon- dan wel tabletindeling wordt gebruikt. Klik op een app voor een korte beschrijving van wat de app doet, de indeling waarvoor de app is gemaakt en de mogelijkheden die de app biedt, zoals camera, GPS of keuzerondjes. Op deze manier leren nieuwe gebruikers de mogelijkheden van PowerApps snel kennen. Met een sjabloon kunt u bovendien een identieke app maken in PowerApps Studio.
-  
-    ![Voorbeeld-apps](./media/intro-maker-portal/sampleapps2.png)
-* **Verbonden voorbeeldapps**: deze apps maken verbinding met uw gegevens via een gegevensverbinding, zoals Office 365, Salesforce, Trello en Wunderlist. Deze reeks apps wijkt af van de bovenstaande voorbeeldapps. Wanneer u op een verbonden voorbeeldapp klikt of tikt, richt u daadwerkelijk een nieuw exemplaar van de app in (als een soort sjabloon). U wordt gevraagd uw referenties in te voeren om verbinding te maken met uw gegevens. Het mooie van een verbonden voorbeeldapp is dat in de huidige omgeving een exemplaar voor u wordt ingericht, dat u in PowerApps Studio kunt openen om te zien hoe de bijbehorende app is gemaakt. Het nadeel is dat het maken vrij lang kan duren (tot een minuut). Wacht dus rustig af en laat de browser laden wanneer u op een verbonden voorbeeldapp klikt of tikt.
-  
-    ![Verbonden voorbeeldapps](./media/intro-maker-portal/connectedsampleapps2.png)
+    U kunt ook zoeken naar een app door een of meer tekens te typen in het zoekvak in de rechterbovenhoek. Wanneer u de gewenste app hebt gevonden, selecteert u het beletselteken om de opties voor het openen en bewerken van de app te tonen.
 
-## <a name="new-apps-page"></a>Pagina Nieuwe apps
-U kunt de pagina **Apps** openen via de linkernavigatiebalk op [powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
+    ![Beletseltekenmenu](media/intro-maker-portal/ellipsis-menu.png)
 
-![Linkernavigatiebalk](./media/intro-maker-portal/leftnav2.png)
+- U kunt de lijst modelgestuurde apps niet filteren, maar u kunt wel zoeken naar een app door een of meer tekens te typen in het zoekvak in de rechterbovenhoek. Wanneer u de gewenste app hebt gevonden, selecteert u het beletselteken om de opties voor het openen en bewerken van de app te tonen.
 
-Op de pagina **Apps** kon u voorheen schakelen tussen de tegel- en lijstweergave. Sinds 26 oktober 2016 wordt alleen de lijstweergave ondersteund.
+    ![Lijst met modelgestuurde apps, met een geopend beletseltekenmenu](media/intro-maker-portal/model-driven-list.png)
 
-![Lijstweergave van apps](./media/intro-maker-portal/listview2.png)
+## <a name="create-an-app"></a>Een app maken
 
-In de lijstweergave ziet u alleen de apps in de geselecteerde omgeving. Als u apps in een andere omgeving wilt weergeven, schakelt u over naar de gewenste omgeving via de vervolgkeuzelijst in de kop. [Meer informatie over schakelen tussen omgevingen](working-with-environments.md).
+Op de pagina **Start** kunt u op verschillende manieren apps maken:
 
-## <a name="whats-new"></a>Wat is er nieuw?
+- [automatisch een canvas-app maken op basis van een set gegevens](data-platform-create-app.md)
+- [een vooraf gebouwd voorbeeld van een canvas-app aanpassen](open-and-run-a-sample-app.md)
+- [een geheel nieuwe canvas-app bouwen](data-platform-create-app-scratch.md)
+- [een eigen modelgestuurde app maken](../model-driven-apps/overview-model-driven-samples.md)
+- [een vooraf gebouwd voorbeeld van een modelgestuurde app aanpassen](../model-driven-apps/build-first-model-driven-app.md)
 
-* Als u op een app klikt of tikt, wordt deze nu in een nieuw tabblad geopend in PowerApps Studio.
-* De pagina **Apps** geeft standaard alle apps weer waarvoor u een bewerkingsmachtiging hebt. Selecteer **Alle apps** in het filter om **alle apps** (inclusief apps die u alleen kunt gebruiken) weer te geven.
-  
-   ![Appfilter](./media/intro-maker-portal/allapps_filter.png)
+## <a name="learn-more"></a>Meer informatie
 
-De overige opties zijn:
+U kunt op twee manieren meer informatie vinden over canvas-apps en modelgestuurde apps:
 
-* **Apps I can use**: hiermee krijgt u een lijst van alle apps die met u zijn gedeeld met de machtiging Gebruiker (u kunt de app alleen uitvoeren). Deze apps kunt u ook verkrijgen in [Dynamics 365](http://home.dynamics.com).
-* **Apps in mijn bezit**: hiermee krijgt u een lijst van alle apps die u hebt gemaakt.
-* **Apps waaraan ik een bijdrage lever**: hiermee krijgt u een lijst van alle apps die met u zijn gedeeld met de machtiging Inzender.
-* **Voorbeeldapps**: hiermee krijgt u een lijst van alle voorbeeldapps (niet verbonden voorbeeldapps).
+- Selecteer **Meer** in de navigatiebalk links.
+- Selecteer het vraagtekenpictogram in de header.
 
-Als u op het informatierondje klikt of tikt, wordt de app-detailpagina geopend.
+    ![Lijst met modelgestuurde apps, met een geopend beletseltekenmenu](media/intro-maker-portal/help-icon.png)
 
-![App-details](./media/intro-maker-portal/ibubble.png)
+Bij beide opties worden er koppelingen getoond naar deze documentatieset, de PowerApps-community (hier kunt u informatie delen met gebruikers in andere organisaties) en de PowerApps-blog (waar de nieuwste functies worden aangekondigd).
 
-Als u op de knop met weglatingstekens van een app klikt of tikt, worden opties als Afspelen, Bewerken, Delen en Details weergegeven.
+## <a name="other-common-tasks"></a>Andere algemene taken
 
-![App-opties](./media/intro-maker-portal/ellipsis.png)
+Met de opties in de header en navigatiebalk links kunt u meer doen dan alleen apps maken en openen.
 
-Dit is in grote lijnen wat er nieuw is op powerapps.com, die is afgestemd op app-ontwikkelaars. We hopen dat de informatie nuttig is. Laat ons weten wat u tot nu toe aanspreekt en wat u verder zou willen zien. We horen graag uw feedback.
+### <a name="from-the-header"></a>Vanuit de header
 
+- Selecteer de pijl omlaag om mobiele en andere clients te downloaden voor het uitvoeren van apps.
+
+    Zie [Apps zoeken en uitvoeren](../../user/index.md) voor meer informatie.
+
+- Selecteer het tandwielpictogram om taken uit te voeren als: verbinding maken met gegevensbronnen, uw PowerApps-licentie(s) identificeren en de pagina openen waarop u beheertaken kunt uitvoeren.
+
+    Zie deze onderwerpen voor meer informatie:
+
+  - [Overzicht van canvas-app-connectors](connections-list.md)
+  - [Aangepaste connectors bouwen en certificeren voor canvas-apps](register-custom-api.md)
+  - [Een on-premises gegevensgateway beheren](gateway-management.md)
+  - [PowerApps beheren](../../administrator/index.md)
+  - [Licentieoverzicht](../../administrator/pricing-billing-skus.md)
+  - [Overzicht van het bouwen van een modelgestuurde app](../model-driven-apps/model-driven-app-overview.md)
+
+### <a name="from-the-left-navigation-bar"></a>In de navigatiebalk links
+
+Met de volgende taken kunt u de functionaliteit van uw apps uitbreiden:
+
+- Entiteiten, optiesets en gegevensintegratie beheren in [Common Data Service for Apps](../common-data-service/data-platform-intro.md).
+- Zakelijke logica configureren in [Microsoft Flow](https://docs.microsoft.com/flow/getting-started).
+- [Oplossingen](../../developer/common-data-service/introduction-solutions.md) schrijven, verpakken en onderhouden.

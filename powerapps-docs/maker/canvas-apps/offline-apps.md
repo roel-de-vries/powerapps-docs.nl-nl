@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/09/2017
 ms.author: mblythe
-ms.openlocfilehash: 9f02b752444153681e30b39c3fa9d8a8b9e0cd6d
-ms.sourcegitcommit: 521a7b8e6ae72a211045b54d153a8a8c8f59172e
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: a255489f243ca8586f349e617e5af2023e88732b
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/09/2018
-ms.locfileid: "40021382"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864397"
 ---
 # <a name="develop-offline-capable-canvas-apps-with-powerapps"></a>Canvas-apps die geschikt zijn voor offlinegebruik ontwikkelen met PowerApps
 
@@ -24,6 +28,11 @@ Een van de meest voorkomende scenario's waarmee u als ontwikkelaar van mobiele a
 * Door u ontwikkelde apps uitvoeren wanneer u offline bent.
 * Het signaalobject [Verbinding](../canvas-apps/functions/signals.md#connection) gebruiken om te bepalen of een app offline is, online is of gebruikmaakt van een verbinding met een datalimiet.
 * [Verzamelingen](../canvas-apps/create-update-collection.md) en functies zoals [LoadData en SaveData](../canvas-apps/functions/function-savedata-loaddata.md) gebruiken voor basisgegevensopslag wanneer u offline bent.
+
+> [!NOTE]
+> Deze functie is nog in ontwikkeling en werkt niet optimaal in alle huidige scenario's. De functies SaveData() op een lokaal apparaat en LoadData() vanaf een apparaat werken het beste in hun huidige implementatie en met relatief kleine hoeveelheden gegevens, zoals tientallen tekstrecords in een tabel waarvan de totale grootte de 2 MB niet overschrijdt. Dit is handig in sommige eenvoudige 'offlinescenario's' en om de opstartprestaties van een canvas-app te verbeteren (omdat gegevens lokaal in de cache worden opgeslagen). Met deze functie voor het opslaan van grote hoeveelheden gegevens (bijvoorbeeld duizenden rijen opslaan in een tabel of grote afbeeldingen of video's opslaan in de cache) kunnen er echter fouten of onverwachte gedragingen optreden met de huidige implementatie. Gebruik de functie dan ook niet. Met de functies worden samenvoegconflicten ook niet automatisch verholpen wanneer een apparaat weer verbinding maakt na offline te zijn geweest. De maker moet tijdens het schrijven van expressies configureren welke gegevens worden opgeslagen en wat er gebeurt wanneer er opnieuw verbinding wordt gemaakt.
+>
+> Er wordt aan gewerkt om de mogelijkheden van offline-apps uit te breiden, om de stabiliteit en groottelimieten te verhogen en om (in de toekomst) automatisch beslissingen te nemen over wat er moet worden opgeslagen en wat er wordt gedaan bij conflicten. Kom hier regelmatig terug en bekijk de [PowerApps-blog](https://powerapps.microsoft.com/blog/) om te controleren op updates.
 
 ## <a name="how-to-build-offline-capable-apps"></a>Apps bouwen die geschikt zijn voor offlinegebruik
 

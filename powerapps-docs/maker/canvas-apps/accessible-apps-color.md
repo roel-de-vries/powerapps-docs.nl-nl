@@ -1,6 +1,6 @@
 ---
-title: Toegankelijke kleuren | Microsoft Docs
-description: Richtlijnen voor kleurcontrast voor PowerApps
+title: Toegankelijke kleuren in canvas-apps | Microsoft Docs
+description: Richtlijnen voor kleurcontrast voor canvas-apps in PowerApps
 author: tahoon
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/23/2018
 ms.author: tahoon
-ms.openlocfilehash: 289026f18d341381d64423e76effb1abf586557c
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 96a04cdda99f379c799ccd68e2442572ac929d39
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39014806"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42862905"
 ---
-# <a name="accessible-colors-in-powerapps"></a>Toegankelijke kleuren in PowerApps
-Kleuren die worden gebruikt in een app moeten toegankelijk zijn voor gebruikers die kleurenblind zijn of een beperkt gezichtsvermogen hebben. Alle PowerApps-thema's zijn standaard toegankelijk. Volg wanneer u kleuren wijzigt die in een app worden gebruikt deze richtlijnen om ervoor te zorgen dat ze toegankelijk blijven. Er zijn online verschillende hulpprogramma's beschikbaar, waarmee u problemen met het kleurcontrast kunt vaststellen.
+# <a name="accessible-colors-for-canvas-apps-in-powerapps"></a>Toegankelijke kleuren voor canvas-apps in PowerApps
+Kleuren die worden gebruikt in een canvas-app moeten toegankelijk zijn voor gebruikers die kleurenblind zijn of een beperkt gezichtsvermogen hebben. Alle PowerApps-thema's zijn standaard toegankelijk. Volg wanneer u kleuren wijzigt die in een app worden gebruikt deze richtlijnen om ervoor te zorgen dat ze toegankelijk blijven. Er zijn online verschillende hulpprogramma's beschikbaar, waarmee u problemen met het kleurcontrast kunt vaststellen.
 
 ## <a name="minimum-contrast-for-text"></a>Minimumcontrast voor tekst
 * Tekst en de achtergrond moeten een contrastverhouding hebben van minimaal 4,5:1

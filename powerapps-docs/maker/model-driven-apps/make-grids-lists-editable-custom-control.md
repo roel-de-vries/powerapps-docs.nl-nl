@@ -1,6 +1,6 @@
 ---
-title: Rasters van modelgestuurde apps (lijsten) bewerkbaar maken met het aangepaste besturingselement Bewerkbaar raster met PowerApps | MicrosoftDocs
-description: Lees hoe u het aangepaste besturingselement Bewerkbaar raster kunt gebruiken
+title: Modelgestuurde app-rasters (lijsten) bewerkbaar maken met het aangepaste besturingselement voor bewerkbaar raster met PowerApps | MicrosoftDocs
+description: Meer informatie over hoe u het aangepaste besturingselement voor bewerkbaar raster gebruikt
 ms.custom: ''
 ms.date: 06/27/2018
 ms.reviewer: ''
@@ -9,132 +9,133 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 ms.assetid: cefbc0c2-769b-4230-ab5a-b28a84630a42
 caps.latest.revision: 8
 author: Mattp123
 ms.author: matp
 manager: kvivek
-search.audienceType:
-  - maker
-search.app:
-  - PowerApps
-  - D365CE
+ms.openlocfilehash: 704280dbed2177ba9a5467e2897980f78c31b050
+ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39680556"
 ---
-# <a name="make-model-driven-app-grids-lists-editable-using-the-editable-grid-custom-control"></a>Rasters van modelgestuurde apps (lijsten) bewerkbaar maken met het aangepaste besturingselement Bewerkbaar raster
+# <a name="make-model-driven-app-grids-lists-editable-using-the-editable-grid-custom-control"></a>Modelgestuurde app-rasters (lijsten) bewerkbaar maken met het aangepaste besturingselement voor bewerkbaar raster
 
-In eerdere versies van Dynamics CRM konden gebruikers niet rechtstreeks gegevens invoeren in rasters (ook wel aangeroepen lijsten) of subrasters van formulieren. Zij moesten op record in het raster selecteren om een formulier te openen, de gegevens bewerken en opslaan, wat meerdere stappen vereiste. Met bewerkbare rasters kunnen gebruikers de opmaak rechtstreeks in-line bewerken vanuit rasters en subrasters wanneer zij een web-app,telefoon of tablet gebruiken.  
+In eerdere versies van Dynamics CRM konden gebruikers gegevens niet rechtstreeks invoeren in rasters (soms ook wel lijsten genoemd) of subrasters op formulieren. Ze moesten de record in het raster selecteren om een formulier te openen, de gegevens bewerken en vervolgens opslaan; een handeling waarvoor meerdere stappen vereist waren. Met bewerkbare rasters kunnen gebruikers uitgebreide inline bewerkingen rechtstreeks vanuit rasters en subrasters uitvoeren, of ze nu een web-app, tablet of telefoon gebruiken.  
   
- ![Voorbeelden bewerkbare rasters](media/editable-grid-examples.png "Voorbeelden bewerkbare rasters")  
+ ![Voorbeelden van bewerkbare rasters](media/editable-grid-examples.png "Voorbeelden van bewerkbare rasters")  
   
- Wanneer bewerkbare rasters door het besturingselement Bewerkbare rasters zijn ingeschakeld, kunnen gebruikers de meeste veldtypen, inclusief basisopzoekvelden en optiesets, bewerken.  
+ Wanneer bewerkbare rasters worden ingeschakeld via het aangepaste besturingselement voor bewerkbare rasters, kunnen gebruikers de meeste typen velden bewerken, waaronder eenvoudige opzoekvelden en optiesets.  
 
-**Bewerkbare rasters ondersteunen:**
+**Ondersteuning voor bewerkbare rasters:**
   
--   Inline bewerken van records op het entiteits- of subrasterniveau (inclusief aangepaste entiteiten)  
+-   Records op het niveau van de entiteit of het subraster (inclusief aangepaste entiteiten) inline bewerken  
   
 -   Systeemweergaven en persoonlijke weergaven  
   
--   Web- en mobiele clients  
+-   Clients voor web en mobiel  
   
--   Navigatie met een toetsenbord of de muis  
+-   Navigatie met een toetsenbord of muis  
   
 -   Groeperen en sorteren (u kunt groeperen/sorteren op elke kolom in de huidige weergave)  
   
 -   Filteren  
   
--   Kolommen verplaatsen en het formaat wijzigen  
+-   Kolommen verplaatsen en het formaat ervan wijzigen  
   
 -   Paginering  
   
--   Wijzigingen van de ene naar de andere sessie opslaan voor groeperen, sorteren, filteren, paginering en het verplaatsen en formaat wijzigen van de kolommen  
+-   Wijzigingen opslaan van een sessie naar een andere voor groeperen, sorteren, filteren en pagineren, en kolommen verplaatsen en het formaat ervan wijzigen  
   
 -   Opzoekconfiguratie  
   
--   Berekende velden en roll-upvelden  
+-   Berekende velden en samengetelde velden  
   
--   Bedrijfsregels (foutbericht weergeven, veldwaarde instellen, vereisen van onderneming instellen, standaardwaarde instellen, veld vergrendelen of ontgrendelen)  
+-   Bedrijfsregels (Foutbericht weergeven, Veldwaarde instellen, Instellen bedrijf vereist, Standaardwaarde instellen, Veld vergrendelen of ontgrendelen)  
   
 -   JavaScript-gebeurtenissen  
   
--   Het inschakelen of uitschakelen van cellen op basis van beveiligingsrol  
+-   Cellen in- of uitschakelen op basis van de beveiligingsrol  
   
--   Gebruikers kunnen zoekopdrachten en grafieken blijven gebruiken en hebben toegang tot de actiebalk met alleen-lezen rasters  
+-   Gebruikers kunnen zoeken en grafieken blijven gebruiken, en hebben toegang tot de actiebalk zoals met alleen-lezen rasters  
   
-## <a name="make-main-grids-editable"></a>Hoofdrasters bewerkbaar maken  
+## <a name="make-main-grids-editable"></a>Belangrijkste rasters bewerkbaar maken  
   
-1.  Open [oplossingenverkenner](advanced-navigation.md#solution-explorer).  
+1.  Open [Solution Explorer](advanced-navigation.md#solution-explorer).  
   
-2.  Open in de lijst **Entiteiten** de betreffende entiteit, selecteer het tabblad **Besturingselementen** en selecteer vervolgens **Besturingselement toevoegen**.  
+2.  Open in de lijst **Entiteiten** de gewenste entiteit, selecteer het tabblad **Besturingselementen** en selecteer vervolgens **Besturingselement toevoegen**.  
   
-     ![Aangepast besturingselement voor bewerkbaar raster toevoegen](media/add-editable-grids-custom-control.png "Aangepast besturingselement voor bewerkbaar raster toevoegen")  
+     ![Aangepast besturingselement voor bewerkbare rasters toevoegen](media/add-editable-grids-custom-control.png "Aangepast besturingselement voor bewerkbare rasters toevoegen")  
   
-3.  Selecteer in het dialoogvenster **Besturingselement toevoegen** de optie **Bewerkbaar raster** en selecteer vervolgens **Toevoegen**.  
+3.  Selecteer in het dialoogvenster**Besturingselement toevoegen** de optie **Bewerkbaar raster** en selecteer vervolgens **Toevoegen**.  
   
-4.  Selecteer in de toegevoegde rij **Bewerkbaar raster** de formulierfactor die u wilt toepassen in het raster. Hierdoor maakt u het besturingselement bewerkbaar raster tot het standaard besturingselement voor de geselecteerde formulierfactor(en).  
+4.  Selecteer in de rij **Bewerkbaar raster** die is toegevoegd, de vormfactor(en) die u op het raster wilt toepassen. Hierdoor wordt het besturingselement voor het bewerkbare raster het standaardbesturingselement voor de geselecteerde vormfactor(en).  
   
-     ![De rij uit bewerkbaar raster met selectie van formulierfactor](media/editable-grid-row-wit-factor-selection.png "De rij uit bewerkbaar raster met selectie van formulierfactor")    
+     ![Rij Bewerkbaar raster met vormfactorselectie](media/editable-grid-row-wit-factor-selection.png "Rij Bewerkbaar raster met vormfactorselectie")    
 
    > [!NOTE]
-   >  Bij het uitvoeren kunnen gebruikers schakelen tussen bewerkbare rasters en alleen-lezen rasters.  
+   >  Tijdens runtime kunnen gebruikers schakelen tussen bewerkbare rasters en alleen-lezen rasters.  
       
-5.  Als u een opzoekactie wilt toevoegen, selecteert u in het groepsvak **Bewerkbaar raster** de optie **Opzoekveld toevoegen** en vervolgens in het dialoogvenster **Eigenschap configureren Opzoekveld toevoegen**:  
+5.  Als u een opzoekopdracht wilt toevoegen, selecteert u in de optiegroep **Bewerkbaar raster** de optie **Opzoeken toevoegen** en in het dialoogvenster **Eigenschap 'Opzoeken toevoegen' configureren** doet u vervolgens het volgende:  
   
-    1.  Selecteer in de lijst **Beschikbare weergaven** de weergave die u wilt toevoegen aan het opzoekveld (bijvoorbeeld **Mijn actieve accounts**).  
+    1.  In de lijst **Beschikbare weergaven** selecteert u de weergave waaraan u de opzoekopdracht wilt toevoegen (selecteer bijvoorbeeld **Mijn actieve accounts**).  
   
-    2.  Selecteer in de lijst **Beschikbare kolommen** de opzoekkolom die u wilt toevoegen (bijvoorbeeld **Primaire contactpersoon**).  
+    2.  Selecteer in de lijst **Beschikbare kolommen** de opzoekkolom die u wilt toevoegen (selecteer bijvoorbeeld **Primaire contactpersoon**).  
   
     3.  Selecteer in de lijst **Standaardweergave** de gegevensbron voor het opzoekveld.  
   
-    4.  Als u de weergegeven records wilt beperken, sschakelt u het selectievakje **Alleen records weergeven waar**, selecteert u de criteria in de lijst en selecteert u **OK**.  
+    4.  Als u de weergegeven records wilt beperken, schakelt u het selectievakje **Alleen records weergeven waarin** in en selecteert u vervolgens uw criteria in de lijst. Klik daarna op **OK**.  
   
-         ![Opzoeken toevoegen besturingselement voor bewerkbare rasters](media/add-lookup-in-editable-grid-control.png "Opzoeken toevoegen besturingselement voor bewerkbare rasters")  
+         ![Opzoeken toevoegen in een besturingselement voor bewerkbaar raster](media/add-lookup-in-editable-grid-control.png "Opzoeken toevoegen in een besturingselement voor bewerkbaar raster")  
      
-6.  Als u een genest raster hebt, selecteert u de potloodknop voor **Geneste rasterweergave** en selecteert u vervolgens de entiteit en weergave voor het geneste raster. Selecteer voor **Bovenliggende id van genest raster** de relatie voor de entiteiten. Het veld ParentAccountID-veld verbindt bijvoorbeeld de entiteiten **Account** en **Contactpersoon**.  
+6.  Als u een genest raster hebt, selecteert u het potloodpictogram voor **Geneste rasterweergave** en selecteert u vervolgens de entiteit en de weergave voor het geneste raster. Voor **Bovenliggende id van genest raster** selecteert u de relatie voor de entiteiten. Het veld ParentAccountID verbindt bijvoorbeeld de entiteiten **Account** en **Contactpersoon**.  
   
     > [!NOTE]
-    >  De geneste rasters zijn alleen beschikbaar voor telefoons en tablets, niet voor internet.  
+    >  Geneste rasters zijn alleen beschikbaar voor telefoons en tablets, niet voor het web.  
   
-7.  Als u de gebruiker niet wilt toestaan om gegevens te groeperen op een kolom in de weergave (u wilt bijvoorbeeld ruimte besparen), selecteert u in de rij **Groeperen op kolom** de potloodknop en daarna in het dialoogvenster **Eigenschap confirugeren Groeperen op kolom** de optie **Uitgeschakeld**, waarna u **OK** selecteert.  
+7.  Als u niet wilt dat de gebruiker gegevens groepeert op een kolom in de weergave (bijvoorbeeld om ruimte te besparen), selecteert u in de rij **Groeperen op kolom** het potloodpictogram en in het dialoogvenster **Eigenschap 'Groeperen op kolom' configureren** selecteert u **Uitgeschakeld** en vervolgens **OK**.  
   
     > [!TIP]
     >  Dit is vooral handig voor subrasters in formulieren.  
   
-8.  Als u JavaScript-gebeurtenissen wilt toevoegen, selecteert u het tabblad **Gebeurtenissen** en selecteert u vervolgens de benodigde entiteiten, velden en gebeurtenissen. Meer informatie: [Documentatie voor ontwikkelaars: Bewerkbare rasters gebruiken](/dynamics365/customer-engagement/developer/customize-dev/use-editable-grids-dynamics-365.md)  
+8.  Als u JavaScript-gebeurtenissen wilt toevoegen, selecteert u het tabblad **Gebeurtenissen** en selecteert u vervolgens de juiste entiteiten, velden en gebeurtenissen. Meer informatie: [Documentatie voor ontwikkelaars: bewerkbare rasters gebruiken](/dynamics365/customer-engagement/developer/customize-dev/use-editable-grids-dynamics-365.md)  
   
-     ![Gebeurtenissen toevoegen besturingselement voor bewerkbare rasters](media/add-events-in-editable-grid-control.png "Gebeurtenissen toevoegen besturingselement voor bewerkbare rasters")  
+     ![Gebeurtenissen toevoegen in een besturingselement voor bewerkbaar raster](media/add-events-in-editable-grid-control.png "Gebeurtenissen toevoegen in een besturingselement voor bewerkbaar raster")  
   
-9. Selecteer **Opslaan** op de actiebalk om uw werk op te slaan.  
+9. Als u uw werk wilt opslaan, selecteert u **Opslaan** in de actiebalk.  
   
-10. Wanneer u klaar bent om de wijzigingen aan uw team beschikbaar te stellen, selecteert u **Publiceren** op de actiebalk.  
+10. Wanneer u er klaar voor bent om de wijzigingen voor uw team beschikbaar te stellen, selecteert u **Publiceren** in de actiebalk.  
   
-11. Om uw wijzigingen te testen gaat u naar de weergave die u in stap 5 hebt ogpegeven, en brengt u in-line wijzigingen aan.  
+11. Als u uw wijzigingen wilt testen, gaat u naar de weergave die u in stap 5 hebt opgegeven en brengt u enkele inline bewerkwijzigingen aan.  
   
-## <a name="make-a-sub-grid-on-a-form-editable"></a>Een subraster bewerkbaar maken in een formulier
+## <a name="make-a-sub-grid-on-a-form-editable"></a>Een subraster op een formulier bewerkbaar maken
 
 > [!NOTE] 
-> - Als u een wijziging in een bewerkbaar raster wilt opslaan in een subraster, moet u expliciet opslaan voordat u het formulier verlaat.
-> - Als u oude formulieren (versies voor Dynamics CRM 2016) gebruikt en een bewerkbaar raster in een subraster inschakelt, wordt het bewerkbare raster niet weergegeven. Systeembeheerders kunnen oude formulieren zo nodig uitschakelen in systeeminstellingen.
+> - Als u een wijziging in een bewerkbaar raster binnen een subraster wilt opslaan, moet de gebruiker expliciet opslaan voordat hij het formulier verlaat.
+> - Als u verouderde formulieren gebruikt (versies voorafgaand aan Dynamics CRM 2016) en een bewerkbaar raster in een subraster inschakelt, wordt het bewerkbare subraster niet weergegeven. Systeembeheerders kunnen, indien nodig, verouderde formulieren uitschakelen in systeeminstellingen.
   
-1.  Open [oplossingenverkenner](advanced-navigation.md#solution-explorer).  
+1.  Open [Solution Explorer](advanced-navigation.md#solution-explorer).  
   
 2.  Open het formulier dat het subraster bevat.  
   
-3.  Selecteer het besturingselement en selecteer vervolgens **Eigenschappen wijzigen** op het lint.  
+3.  Selecteer het betreffende besturingselement en selecteer vervolgens **Eigenschappen wijzigen** op het lint.  
   
-4.  Selecteer in het dialoogvenster **Eigenschappen instellen** de optie **Besturingselementen**, **Besturingselement toevoegen** en voer vervolgens de bovenstaande stappen uit.  
+4.  Selecteer in het dialoogvenster **Eigenschappen instellen** de optie **Besturingselementen**, selecteer **Besturingselement toevoegen** en volg dezelfde stappen die hierboven ook worden vermeld.  
   
 ## <a name="supported-standard-entities"></a>Ondersteunde standaardentiteiten  
   
 ||||  
 |-|-|-|  
-|**Internet/tablet/telefoon**|**Alleen tablet/telefoon**|**Alleen internet**|  
-|Account<br /><br /> Afspraak<br /><br /> Boekbare resource<br /><br /> Boeking van boekbare resources<br /><br /> Header boeking van boekbare resource<br /><br /> Categorie van boekbare resources<br /><br /> Toewijzing van categorie van boekbare resources<br /><br /> Kenmerk van boekbare resources<br /><br /> Boekbare resourcegroep<br /><br /> Boekingsstatus<br /><br /> Aanvraag<br /><br /> Categorie<br /><br /> Kenmerk<br /><br /> Concurrent<br /><br /> Contactpersoon<br /><br /> E-mail<br /><br /> Recht<br /><br /> Feedback<br /><br /> Factuur<br /><br /> Knowledge-artikel<br /><br /> Weergaven van Knowledge Base-artikelen<br /><br /> Knowledge Base-record<br /><br /> Potentiële klant<br /><br /> Verkoopkans<br /><br /> Order<br /><br /> Telefoongesprek<br /><br /> Prijslijst<br /><br /> Product<br /><br /> Wachtrij<br /><br /> Prijsopgave<br /><br /> Beoordelingsmodel<br /><br /> Beoordelingswaarde<br /><br /> SLA-KPI-exemplaar<br /><br /> Sociale activiteit<br /><br /> Sociaal profiel<br /><br /> Synchronisatiefout<br /><br /> Taak<br /><br /> Team<br /><br /> Gebruiker|Activiteit<br /><br /> Bijlage<br /><br /> Methodetoegangsprofielregelitem<br /><br /> Adres van concurrent<br /><br /> Verbinding<br /><br /> Verbindingsrol<br /><br /> E-mailhandtekening<br /><br /> E-mailsjabloon<br /><br /> Verlopen proces<br /><br /> Factuurproduct<br /><br /> Knowledge-artikel-incident<br /><br /> Verkoop voor potentiële klant naar verkoopkans<br /><br /> Proces<br /><br /> Postvak<br /><br /> Nieuw proces<br /><br /> Notitie<br /><br /> Verkoopkansproduct<br /><br /> Verkoopproces verkoopkans<br /><br /> Orderproduct<br /><br /> Organisatie<br /><br /> Telefoneren om aanvraag te verwerken<br /><br /> Prijslijstitem<br /><br /> Wachtrij-item<br /><br /> Offerteproduct<br /><br /> SharePoint-document<br /><br /> Vertaalproces|Campagne<br /><br /> Campagneactiviteit<br /><br /> Campagnerespons<br /><br /> Methodetoegangsprofiel<br /><br /> Methodetoegangsprofiel-regel<br /><br /> Contract<br /><br /> Rechtsjabloon<br /><br /> Externe partij<br /><br /> Fax<br /><br /> Brief<br /><br /> Marketinglijst<br /><br /> Positie<br /><br /> Snelle campagne<br /><br /> Terugkerende afspraak<br /><br /> Verkoopdocumentatie<br /><br /> SLA (Service Level Agreement)|  
+|**Web/tablet/telefoon**|**Alleen tablet/telefoon**|**Alleen web**|  
+|Account<br /><br /> Afspraak<br /><br /> Boekbare resource<br /><br /> Boekbare resourcereservering<br /><br /> Header boekbare resourcereservering<br /><br /> Categorie boekbare resource<br /><br /> Toegewezen categorie boekbare resource<br /><br /> Kenmerk boekbare resource<br /><br /> Boekbare resourcegroep<br /><br /> Boekingsstatus<br /><br /> Case<br /><br /> Categorie<br /><br /> Kenmerk<br /><br /> Concurrent<br /><br /> Contact<br /><br /> E-mail<br /><br /> Recht<br /><br /> Feedback<br /><br /> Factuur<br /><br /> Kennisartikel<br /><br /> Weergaven kennisartikel<br /><br /> Knowledge Base-record<br /><br /> Lead<br /><br /> Verkoopkans<br /><br /> Bestelling<br /><br /> Telefoongesprek<br /><br /> Prijslijst<br /><br /> Product<br /><br /> Wachtrij<br /><br /> Offerte<br /><br /> Beoordelingsmodel<br /><br /> Beoordelingswaarde<br /><br /> SLA KPI-exemplaar<br /><br /> Sociale activiteit<br /><br /> Sociaal profiel<br /><br /> Synchronisatiefout<br /><br /> Taak<br /><br /> Team<br /><br /> User|Activiteit<br /><br /> Bijlage<br /><br /> Item profielregel kanaaltoegang<br /><br /> Adres van de concurrent<br /><br /> Verbinding<br /><br /> Verbindingsrol<br /><br /> E-mailhandtekening<br /><br /> E-mailsjabloon<br /><br /> Verlopen proces<br /><br /> Factuurproduct<br /><br /> Kennisartikelincident<br /><br /> Lead naar verkoopkans<br /><br /> Proces<br /><br /> Postvak<br /><br /> Nieuw proces<br /><br /> Opmerking<br /><br /> Product verkoopkans<br /><br /> Proces verkoopkans<br /><br /> Productbestelling<br /><br /> Organisatie<br /><br /> Telefoon-naar-case-proces<br /><br /> Item van prijslijst<br /><br /> Wachtrij-item<br /><br /> Productofferte<br /><br /> SharePoint-document<br /><br /> Vertaalproces|Campagne<br /><br /> Campagneactiviteit<br /><br /> Reactie op campagne<br /><br /> Profiel kanaaltoegang<br /><br /> Profielregel kanaaltoegang<br /><br /> Contract<br /><br /> Rechtensjabloon<br /><br /> Externe partij<br /><br /> Fax<br /><br /> Letter<br /><br /> Marketinglijst<br /><br /> Positie<br /><br /> Snelle campagne<br /><br /> Terugkerende afspraak<br /><br /> Documentatie over verkoop<br /><br /> SLA|  
  
 ##  <a name="data-types-that-arent-editable-in-an-editable-grid"></a>Gegevenstypen die niet bewerkbaar zijn in een bewerkbaar raster
-De volgende gegevenstypen kunnen niet worden bewerkt in bewerkbare rasters: opzoekvelden Klant en Partylist; Samengestelde (adres)velden; statusvelden; aan de entiteit van de opzoekweergave gerelateerde velden (bijvoorbeeld bij de opzoekweergave Contactpersonen voor de entiteit Account is het veld Contactpersoon bewerkbaar, maar E-mailadres (contactpersoon) niet).  
+De volgende gegevenstypen zijn niet bewerkbaar in bewerkbare rasters: opzoekvelden Klant en Partylist; samengestelde (adres-) velden; velden Status/Toestand; entiteit-gerelateerde opzoekvelden (de accountentiteit bevat bijvoorbeeld een opzoekcontactpersoon, waarbij het veld Contactpersoon kan worden bewerkt, maar het veld EmailAdress(Contact) niet bewerkbaar is).  
  
 ## <a name="next-steps"></a>Volgende stappen  
  [Sneltoetsen gebruiken in bewerkbare rasters](https://docs.microsoft.com/dynamics365/customer-engagement/basics/keyboard-shortcuts#editable-grids-views)

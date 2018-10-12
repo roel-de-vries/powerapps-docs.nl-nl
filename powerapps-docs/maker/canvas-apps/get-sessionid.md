@@ -1,6 +1,6 @@
 ---
-title: Een sessie-id of een app-id ophalen | Microsoft Docs
-description: Lees hoe u een sessie-id of een app-id ophaalt voor het oplossen van problemen in PowerApps
+title: Een sessie-id of een canvas-app-id ophalen | Microsoft Docs
+description: Informatie over het ophalen van een sessie-id of een canvas-app-id voor het oplossen van problemen in PowerApps
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 06/18/2018
 ms.author: anneta
-ms.openlocfilehash: 2e9b1a38de104ce1bf5a17969ca2c79792ac6fd4
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 67cfe4ac6c53797e6a18a68d3fbcf29b088f3da8
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39022258"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42848650"
 ---
-# <a name="get-a-session-id-or-an-app-id"></a>Een sessie-id of een app-id ophalen
-Als er een probleem is met een app die is gemaakt in PowerApps, kan Microsoft het probleem veel efficiënter oplossen als u beschikt over een sessie-id, een app-id of beide id's.
+# <a name="get-a-session-id-or-a-canvas-app-id"></a>Een sessie-id of een canvas-app-id ophalen
+Als er een probleem is met een canvas-app die is gemaakt in PowerApps, kan Microsoft het probleem veel efficiënter oplossen als u beschikt over een sessie-id, een app-id of beide id's.
 
 ## <a name="get-the-session-id"></a>De sessie-id ophalen
 

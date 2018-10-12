@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 73279ba8fc0b640c24deb179a3737874bc0a55bf
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 8a7c52962c23df5f2efcf76c04aeba528e94217c
+ms.sourcegitcommit: 464ee88a958dda11c5de5603c608deab6c9cdcab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42835749"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48578737"
 ---
 # <a name="collect-clear-and-clearcollect-functions-in-powerapps"></a>De functies Collect, Clear en ClearCollect in PowerApps
 Maakt en wist [verzamelingen](../working-with-data-sources.md#collections) en voegt [records](../working-with-tables.md#records) toe aan elke [gegevensbron](../working-with-data-sources.md).
@@ -82,10 +82,27 @@ In deze voorbeelden gaat u records wissen en toevoegen aan een verzameling met d
 | **Collect( IJs, {&nbsp;Smaak:&nbsp;"Pistache",&nbsp;Hoeveelheid:&nbsp;40&nbsp;}, {&nbsp;Smaak:&nbsp;"Sinaasappel",&nbsp;Hoeveelheid:&nbsp;200&nbsp;}  )** |Hiermee worden twee records toegevoegd aan de verzameling **IJs** die hoeveelheden voor pistache- en sinaasappelijs bevatten. |![](media/function-clear-collect-clearcollect/icecream-collect.png)<br><br>De gegevensbron **IJs** is ook gewijzigd. |
 | **Clear( IJs )** |Hiermee verwijdert u alle records uit de verzameling **IJs**. |![](media/function-clear-collect-clearcollect/icecream-clear.png)<br><br>De gegevensbron **IJs** is ook gewijzigd. |
 
-### <a name="step-by-step"></a>Stap voor stap
+### <a name="collect-a-static-list"></a>Een statische lijst verzamelen
+
 1. Voeg een knop toe en stel de eigenschap **[OnSelect](../controls/properties-core.md)** ervan in op deze functie:<br>**Collect(Producten, &quot;Europa&quot;, &quot;Ganymede&quot;, &quot;Callisto&quot;)**
    
-    Deze functie maakt een verzameling met de naam **Producten** die een rij bevat voor elk van de drie productnamen.
-2. Druk op F5, klik op de knop en druk op Esc om terug te keren naar de ontwerpwerkruimte.
-3. Optioneel: als u een voorbeeld wilt weergeven van de verzameling die u hebt gemaakt, klikt u op **Verzamelingen** op het tabblad **Inhoud**.
+    Met deze functie wordt een verzameling met de naam **Producten** gemaakt, die een rij bevat voor elk van de drie productnamen.
+    
+1. Selecteer de knop terwijl u de Alt-toets ingedrukt houdt.
 
+1. (optioneel) Als u een voorbeeld wilt bekijken van de gemaakte verzameling, selecteert u **Verzamelingen** in het **menu Bestand**.
+
+### <a name="put-a-sharepoint-list-into-a-collection"></a>Een SharePoint-lijst in een verzameling plaatsen
+
+1. [Maak verbinding met een SharePoint-lijst](../connect-to-sharepoint.md). 
+
+1. Voeg een knop toe en stel de eigenschap **[OnSelect](../controls/properties-core.md)** in op deze functie. Vervang *ListName* door de naam van uw SharePoint-lijst:<br>
+**Verzamelen**(**MySPCollection**, *ListName*)
+
+    Met deze functie wordt een verzameling met de naam **MySPCollection** gemaakt. De verzameling bevat dezelfde gegevens als de SharePoint-lijst.
+    
+1. Selecteer de knop terwijl u de Alt-toets ingedrukt houdt.
+
+1. (optioneel) Als u een voorbeeld wilt bekijken van de gemaakte verzameling, selecteert u **Verzamelingen** in het **menu Bestand**.
+
+Zie [Gegevens weergeven in een galerie](../connections/connection-sharepoint-online.md#show-data-in-a-gallery) voor meer informatie over het in een galerie bekijken van gegevens uit een SharePoint-lijst (zoals data, keuzes en mensen). Zie [De formulierbesturingselementen Formulier bewerken en Formulier weergeven](../controls/control-form-detail.md) voor meer informatie over het weergeven van gegevens in een formulier (met vervolgkeuzelijsten, datumkeuze en mensenkeuze).

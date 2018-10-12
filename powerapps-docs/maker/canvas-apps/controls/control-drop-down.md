@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.openlocfilehash: 9b26af9a2a1fb9b187023ec3ccc9cd86580aa4cf
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 5fc53e4bfc302819a7899395af4f8f269d6754ef
+ms.sourcegitcommit: 5db6e3ac3a622de313a1102417397e126c3f92f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39017911"
+ms.lasthandoff: 09/15/2018
+ms.locfileid: "45640372"
 ---
 # <a name="drop-down-control-in-powerapps"></a>Besturingselement voor vervolgkeuzelijst in PowerApps
 Een lijst waarin alleen het eerste item wordt weergegeven, tenzij de gebruiker de lijst opent.
@@ -23,11 +27,11 @@ Een lijst waarin alleen het eerste item wordt weergegeven, tenzij de gebruiker d
 Een besturingselement **Vervolgkeuzelijst** bespaart schermruimte, zeker als de lijst een groot aantal opties bevat. Het besturingselement neemt slechts één regel in beslag, tenzij de gebruiker de pijl-omlaag selecteert om andere opties weer te geven.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
-**[Default](properties-core.md)**: de aanvankelijke waarde van een besturingselement voordat deze door de gebruiker wordt gewijzigd.
+**[Standaard](properties-core.md)**: de beginwaarde van een besturingselement voordat de gebruiker een andere waarde opgeeft.
 
-**[Items](properties-core.md)**: de gegevensbron die wordt weergegeven in een besturingselement zoals een galerie, een lijst of een grafiek.
-
-[!INCLUDE [long-items](../../../includes/long-items.md)]
+**[Items](properties-core.md)** : de gegevensbron met de items die worden weergegeven in het besturingselement. Als de bron meerdere kolommen heeft, stelt u de eigenschap **Waarde** van het besturingselement in op de kolom met gegevens die u wilt weergeven.
+  
+**Waarde** : de kolom met gegevens die u wilt weergeven in het besturingselement (bijvoorbeeld als een gegevensbron meerdere kolommen heeft).
 
 **Selected**: het geselecteerde item.
 
@@ -117,24 +121,33 @@ Een besturingselement **Vervolgkeuzelijst** bespaart schermruimte, zeker als de 
 **[Y](properties-size-location.md)**: de afstand tussen de bovenrand van een besturingselement en de bovenrand van de bovenliggende container (het scherm als er geen bovenliggende container is).
 
 ## <a name="example"></a>Voorbeeld
-1. Voeg een besturingselement **[Knop](control-button.md)** toe en stel de eigenschap **[Text](properties-core.md)** ervan in op **Verzamelen**.
-   
-    Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
-2. Stel de eigenschap **[OnSelect](properties-core.md)** van het besturingselement **[Knop](control-button.md)** in op deze formule:
-   <br>**ClearCollect(Inwonersaantallen, {Stad:"Londen", Land:"Engeland", Inwonersaantal:8615000}, {Stad:"Berlijn", Land:"Duitsland", Inwonersaantal:3562000}, {Stad:"Madrid", Land:"Spanje", Inwonersaantal:3165000}, {Stad:"Rome", Land:"Italië", Inwonersaantal:2874000}, {Stad:"Parijs", Land:"Frankrijk", Inwonersaantal:2273000}, {Stad:"Hamburg", Land:"Duitsland", Inwonersaantal:1760000}, {Stad:"Barcelona", Land:"Spanje", Inwonersaantal:1602000}, {Stad:"München", Land:"Duitsland", Inwonersaantal:1494000}, {Stad:"Milaan", Land:"Italië", Inwonersaantal:1344000})**
-   
-    Wilt u meer informatie over de functie **[ClearCollect](../functions/function-clear-collect-clearcollect.md)** of een [andere functie](../formula-reference.md)?
-3. Druk op F5, klik of tik op het besturingselement **[Button](control-button.md)** en druk vervolgens op Esc.
-4. Voeg een besturingselement **Vervolgkeuzelijst** toe, geef het de naam **Landen** en stel de eigenschap **[Items](properties-core.md)** van het besturingselement in op deze formule:
-   <br>**Distinct(Inwonersaantallen, Land)**
-5. Voeg een besturingselement **Tekstgalerie** toe in verticale/staande richting en stel de eigenschap **[Items](properties-core.md)** van de galerie in op deze formule:
-   <br>**Filter(Inwonersaantallen, Landen.Selected.Value in Land)**
-6. Stel in het eerste item van het besturingselement **Tekstgalerie** de eigenschap **[Text](properties-core.md)** van het bovenste besturingselement **[Label](control-text-box.md)** in op **ThisItem.Stad** en verwijder het onderste besturingselement **[Label](control-text-box.md)**.
-7. Stel de eigenschap **[TemplateSize](control-gallery.md)** van het besturingselement **Tekstgalerie** tot in op **80**.
-8. Druk op F5, klik of tik op de pijl-omlaag van de lijst **Landen** en kies vervolgens een optie in de lijst.
-   
-    Het besturingselement **Tekstgalerie** toont alleen de plaatsen in het land dat u hebt gekozen.
 
+### <a name="simple-list"></a>Eenvoudige lijst
+
+1. Voeg een besturingselement **Vervolgkeuzelijst** toe, stel de eigenschap **[Items](properties-core.md)** van het besturingselement daarna in op deze expressie:
+
+    ```["Seattle", "Tokyo", "London", "Johannesburg", "Rio de Janeiro"]```
+
+    Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
+
+1. Geef de items in de lijst weer door de pijl-omlaag van het besturingselement te selecteren terwijl u op de Alt-toets drukt.
+
+### <a name="list-from-a-data-source"></a>Lijst van een gegevensbron
+De principes in deze procedure zijn van toepassing op [gegevensbronnen die tabellen opleveren](../connections-list.md#tables), maar als u deze stappen exact wilt volgen, opent u een omgeving waarvoor een Common Data Service for Apps-database is gemaakt en de voorbeeldgegevens zijn toegevoegd.
+
+1. [Open een lege app](../data-platform-create-app-scratch.md#open-a-blank-app) en [geef vervolgens de entiteit **Accounts** op](../data-platform-create-app-scratch.md#specify-an-entity).
+
+1. Voeg een besturingselement **Vervolgkeuzelijst** toe en stel de eigenschap **[Items](properties-core.md)** van het besturingselement in op deze formule:
+
+    ```Distinct(Accounts, address1_city)```
+
+    Deze formule toont alle plaatsen in de entiteit **Accounts**. Als meer dan één record dezelfde plaats bevat, wordt door de functie **[Distinct](../functions/function-distinct.md)** de duplicatie in de vervolgkeuzelijst verborgen.
+
+1. (optioneel) Wijzig de naam van het besturingselement **Vervolgkeuzelijst** in **Plaatsen**, voeg een verticaal besturingselement **Galerie** toe en stel de eigenschap **[Items](properties-core.md)** van de galerie in op deze formule:
+
+    ```Filter(Accounts, address1_city = Cities.Selected.Value)```
+
+    Deze **[Filter](../functions/function-filter-lookup.md)**-functie toont alleen die records in de entiteit **Accounts** waarvoor de plaats overeenkomt met de geselecteerde waarde in het besturingselement **Plaatsen**.
 
 ## <a name="accessibility-guidelines"></a>Richtlijnen voor toegankelijkheid
 ### <a name="color-contrast"></a>Kleurcontrast

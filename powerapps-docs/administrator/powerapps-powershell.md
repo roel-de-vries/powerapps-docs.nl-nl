@@ -6,17 +6,23 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: reference
-ms.date: 07/31/2018
+ms.date: 08/23/2018
 ms.author: jamesol
-ms.openlocfilehash: e45b23d4efc474bcd48069b9823d1ef80cf5ea4a
-ms.sourcegitcommit: a0a8782d3c8d24cecf0796d405a61f745f0ffd91
+search.audienceType:
+- admin
+search.app:
+- D365CE
+- PowerApps
+- Powerplatform
+ms.openlocfilehash: 0d5d2cee770e03c4e587db0bff624f34395ed92c
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39367610"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42864423"
 ---
 # <a name="powershell-support-for-powerapps-preview"></a>PowerShell-ondersteuning voor PowerApps (preview-versie)
-U kunt met de preview-introductie van de PowerShell-cmdlets voor app-ontwerpers en -beheerders een groot deel van de bewakings- en beheertaken automatiseren die nu alleen handmatig kunnen worden uitgevoerd in [PowerApps](https://web.powerapps.com) of het [PowerApps-beheercentrum](https://admin.powerapps.com).
+U kunt met de preview-introductie van de PowerShell-cmdlets voor app-ontwerpers en -beheerders een groot deel van de bewakings- en beheertaken automatiseren die nu alleen handmatig kunnen worden uitgevoerd in [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) of het [PowerApps-beheercentrum](https://admin.powerapps.com).
 
 ## <a name="installation"></a>Installatie
 Ga als volgt te werk om de PowerShell-cmdlets voor app-ontwerpers uit te voeren:
@@ -126,6 +132,15 @@ Om de beheerbewerkingen in de beheer-cmdlets uit te voeren, hebt u het volgende 
 >Get-Help Get-AdminPowerAppEnvironment -Examples
 >Get-Help Get-AdminPowerAppEnvironment -Detailed
 >```
+
+## <a name="version-history"></a>Versiegeschiedenis
+| Versie | Date | Updates |
+| --- | --- | --- |
+| 1.0 | 23-04-2018 | <ol> <li> Initiële start van de PowerApps-cmdlets voor app-makers (preview), inclusief beheer-cmdlets voor omgevingen, apps, stromen, goedkeuringen voor stromen, verbindingen en aangepaste connectors </li> <li> Initiële start van de PowerApps-cmdlets voor beheerders (preview) inclusief administratieve cmdlets voor omgevingen, apps en stromen </li></ol>|
+| 2.0 | 24-05-2018 | <ol> <li> Correcties van kleine problemen in zowel de cmdlets voor app-makers als die voor beheerders </li> <li> De volgende nieuwe administratieve cmdlets zijn toegevoegd: <br> Get-AdminConnection <br> Remove-AdminConnection <br> Get-AdminConnectionRoleAssignment <br> Set-AdminConnectionRoleAssignment <br>Remove-AdminConnectionRoleAssignment <br>Get-AdminConnector  <br>Remove-AdminConnector <br>Set-AdminConnectorRoleAssignment  <br>Get-AdminConnectorRoleAssignment  <br>Remove-AdminConnectorRoleAssignment <br>Get-AdminPowerAppsUserDetails <br>Get-AdminFlowUserDetails <br>Remove-AdminFlowUserDetails <br>Get-AdminApiPolicy  <br>Add-AdminApiPolicy <br>Remove-AdminApiPolicy <br>Set-AdminApiPolicy <br>Add-ConnectorToBusinessDataGroup  <br>Remove-ConnectorFromBusinessDataGroup </li> </ol>
+| 3.0 | 30-07-2018 | <ol> <li> Er is een mogelijkheid toegevoegd om referenties in te voegen aan Add-PowerAppsAccount (om herhalende scripts in te schakelen) </li> <li>  Correcties van kleine problemen in zowel de cmdlets voor app-makers als die voor beheerders </li> <li> Het voorvoegsel 'PowerApp' of 'Flow' is aan elke cmdlet voor app-makers toegevoegd </li> <li>  Het voorvoegsel 'AdminPowerApp' of 'AdminFlow' is aan elke cmdlet voor beheerders toegevoegd </li> <li> De volgende nieuwe administratieve cmdlets zijn toegevoegd: <br> New-AdminPowerAppEnvironment <br> Set-AdminPowerAppEnvironmentDisplayName <br> New-AdminPowerAppCdsDatabase <br> Get-AdminPowerAppCdsDatabaseLanguages <br> Get-AdminPowerAppCdsDatabaseCurrencies <br> Get-AdminPowerAppEnvironmentLocations <br> Get-AdminPowerAppConnectionReferences <br> Set-AdminPowerAppAsFeatured <br> Clear-AdminPowerAppAsFeatured <br> Set-AdminPowerAppAsHero <br> Clear-AdminPowerAppAsHero <br> Set-AdminPowerAppApisToBypassConsent <br> Clear-AdminPowerAppApisToBypassConsent <br> Remove-AdminFlowApprovals </li></ol>
+| 4.0 | 15-08-2018 | Er is een optionele parameter toegevoegd aan de New-AdminPowerAppCdsDatabase om de functie standaard synchroon te maken (d.w.z. deze wordt pas geretourneerd als de database is ingericht)
+| 5.0 | 24-08-2018 | Er is een probleem opgelost waarbij de admin-cdmlets voor de stroom niet alle gegevens retourneerden op basis van hun beveiligingsinstellingen
 
 ## <a name="questions"></a>Vragen?
 
