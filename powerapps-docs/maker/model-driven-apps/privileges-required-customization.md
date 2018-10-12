@@ -1,5 +1,5 @@
 ---
-title: Vereiste bevoegdheden voor aanpassing van modelgestuurde apps | MicrosoftDocs
+title: Vereiste bevoegdheden voor modelgestuurde app-aanpassing | MicrosoftDocs
 ms.custom: ''
 ms.date: 06/18/2018
 ms.reviewer: ''
@@ -8,51 +8,52 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 ms.assetid: 43cf7f3a-7e26-4990-8b5a-c817ac6d51bb
 caps.latest.revision: 13
 ms.author: matp
 manager: kvivek
 author: Mattp123
-search.audienceType:
-  - maker
-search.app:
-  - PowerApps
-  - D365CE
+ms.openlocfilehash: dd0c7e05d756145a701bb6bfb137dc07cb8c45fb
+ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39675964"
 ---
-# <a name="privileges-required-for-model-driven-app-customization"></a>Vereiste bevoegdheden voor aanpassing van modelgestuurde apps
+# <a name="privileges-required-for-model-driven-app-customization"></a>Vereiste bevoegdheden voor modelgestuurde app-aanpassing
 
-Appgebruikers kunnen het systeem aanpassen en zelfs bepaalde aanpassingen met anderen delen, maar alleen gebruikers met de juiste bevoegdheden kunnen wijzigingen toepassen voor iedereen.  
+App-gebruikers kunnen het systeem personaliseren en zelfs sommige van hun aanpassingen delen met anderen, maar alleen gebruikers met de juiste bevoegdheden kunnen wijzigingen voor iedereen toepassen.  
   
 > [!NOTE]
->  In dit gedeelte wordt ervan uitgegaan dat u weet hoe u met beveiligingsrollen werkt. Voor meer informatie over het werken met beveiligingsrollen raadpleegt u [Gebruikers maken en beveiligingsrollen toewijzen](https://docs.microsoft.com/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles).  
+>  In deze sectie wordt ervan uitgegaan dat u weet hoe u met beveiligingsrollen moet werken. Zie voor meer informatie over het werken met beveiligingsrollen [Gebruikers maken en beveiligingsrollen toewijzen](https://docs.microsoft.com/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles).  
   
 <a name="BKMK_SysAdminAndSysCustomizer"></a>   
-## <a name="system-administrator-and-system-customizer-security-roles"></a>Beveiligingsrollen van systeembeheerder en systeemaanpasser  
- Voor iedereen die aanpassingen doorvoert, is de beveiligingsrol Systeembeheerder of Systeemaanpasser gekoppeld aan de account. Deze beveiligingsrollen geven u de machtigingen die u nodig hebt om de app aan te passen.  
+## <a name="system-administrator-and-system-customizer-security-roles"></a>De beveiligingsrollen Systeembeheerder en Systeemaanpasser  
+ Iedereen die aanpast moet de beveiligingsrol Systeembeheerder of Systeemaanpasser hebben gekoppeld aan zijn/haar account. Deze beveiligingsrollen geven u de machtigingen die u nodig hebt om de app aan te passen.  
   
 |Systeembeheerder|Systeemaanpasser|  
 |--------------------------|-----------------------|  
-|Heeft volledige bevoegdheid om het systeem aan te passen|Heeft volledige bevoegdheid om het systeem aan te passen|  
-|Kan alle gegevens in het systeem weergeven|Kan alleen records voor systeementiteiten weergeven die zij maken|  
+|Heeft alle machtigingen voor het aanpassen van het systeem|Heeft alle machtigingen voor het aanpassen van het systeem|  
+|Kan alle gegevens in het systeem weergeven|Kan alleen records weergeven voor systeementiteiten die hij/zij maakt|  
   
- Het verschil tussen de beveiligingsrollen systeembeheerder en systeemaanpasser is dat een systeembeheerder leesbevoegdheden op de meeste records in het systeem heeft en alles kan zien. Wijs de rol systeemaanpasser aan iemand toe die aanpassingstaken moet uitvoeren, maar geen gegevens in de systeementiteiten hoeft te bekijken. Het testen is echter een belangrijk aspect van het aanpassen van het systeem. Als systeemaanpassers geen gegevens kunnen zien, moeten ze records maken om hun aanpassingen testen. Systeemaanpassers hebben gewoonlijk volledige toegang tot aangepaste entiteiten. Als u dezelfde beperkingen wilt hebben die voor systeementiteiten bestaan, dan moet u de beveiligingsrol Systeemaanpasser aanpassen zodat het toegangsniveau **Gebruiker** is in plaats van **Organisatie** voor aangepaste entiteiten.  
+ Het verschil tussen de beveiligingsrollen Systeembeheerder en Systeemaanpassing is dat een systeembeheerder leesrechten heeft voor de meeste records in het systeem en alles kan zien. Wijs de functie Systeemaanpasser toe aan iemand die aanpassingstaken moet uitvoeren, maar geen gegevens in de systeementiteiten mag zien. Testen is echter een belangrijk onderdeel van het aanpassen van het systeem. Als systeemaanpassers geen gegevens kunnen zien, moeten ze records maken om hun aanpassingen te testen. Systeemaanpassers hebben standaard volledige toegang tot aangepaste entiteiten. Als u dezelfde beperkingen wilt hebben als voor systeementiteiten, moet u de beveiligingsrol Systeemaanpasser zo aanpassen dat het toegangsniveau voor aangepaste entiteiten **Gebruiker** in plaats van **Organisatie** is.  
   
 <a name="BKMK_DelegatingCustomizationTasks"></a>   
 ## <a name="delegate-customization-tasks"></a>Aanpassingstaken delegeren  
- U kunt een aantal taken aan betrouwbare mensen delegeren, zodat zij wijzigingen kunnen toepassen die ze nodig hebben. Houd er rekening mee dat iedereen meerdere beveiligingsrollen gekoppeld kan hebben aan hun gebruikersaccount en dat bevoegdheden en toegangsrechten toegekend door de beveiligingsrollen worden gebaseerd op de *minst beperkende* niveau van bevoegdheden.  
+ Misschien wilt u sommige taken delegeren aan vertrouwde mensen, zodat ze de benodigde wijzigingen kunnen toepassen. Houd er rekening mee dat aan iedereens account meerdere beveiligingsrollen kunnen zijn gekoppeld, en dat de bevoegdheden en toegangsrechten die beveiligingsrollen bieden, gebaseerd zijn op het *minst beperkende* beveiligingsniveau.  
   
- Dit betekent dat u de beveiligingsrol van systeemaanpasser aan iemand kunt geven die al een andere beveiligingsrol heeft, zoals een verkoopdirecteur. Hierdoor kunnen ze het systeem aanpassen naast andere bevoegdheden die ze al hebben. U hoeft de beveiligingsrol die ze al hebben niet te bewerken, en u kunt de beveiligingsrol systeemaanpasser van de gebruikersaccount van de persoon verwijderen wanneer u wilt.  
+ Dit betekent dat u de beveiligingsrol van Systeemaanpasser kunt geven aan iemand die al een andere beveiligingsrol heeft, bijvoorbeeld een verkoopmanager. Hierdoor kan deze het systeem aanpassen naast andere privileges die hij/zij al heeft. U hoeft de beveiligingsrol die deze persoon al heeft niet te bewerken, en u kunt de beveiligingsrol van Systeemaanpasser verwijderen van het gebruikersaccount van de persoon wanneer u dat wilt.  
   
 <a name="BKMK_UsingTwoUserAccounts"></a>   
-## <a name="test-customizations-without-customization-privileges"></a>Testaanpassingen zonder aanpassingsbevoegdheden  
- U zou elke aanpassing die u maakt met een gebruikersaccount dat geen aanpassingsbevoegdheden heeft, altijd moeten testen. Zo kunt u ervoor zorgen dat personen zonder de beveiligingsrollen systeembeheerder of systeemaanpasser uw aanpassingen kunnen gebruiken. U hebt toegang tot twee gebruikersaccounts nodig om dit te doen: één account met de beveiligingsrol systeembeheerder en een andere met de beveiligingsrollen die de personen vertegenwoordigen die de aanpassingen zullen gebruiken.  
+## <a name="test-customizations-without-customization-privileges"></a>Aanpassingen testen zonder aanpassingsbevoegdheden  
+ U moet alle aanpassingen die u maakt, altijd testen met een gebruikersaccount zonder aanpassingsrechten. Op deze manier kunt u ervoor zorgen dat mensen zonder de beveiligingsrol Systeembeheerder of Systeemaanpasser uw aanpassingen kunnen gebruiken. Om dit effectief te doen, hebt u toegang nodig tot twee gebruikersaccounts: één account met de beveiligingsrol Systeembeheerder en één met de beveiligingsrollen die de mensen vertegenwoordigen die de aanpassingen zullen gebruiken.  
   
 > [!IMPORTANT]
->  Probeer uw beveiligingsrol systeembeheerder niet te verwijderen als u maar één gebruikersaccount hebt. Het systeem geeft u een waarschuwing als u dat probeert, maar als u verder gaat, zou het kunnen dat u dit niet terug kunt krijgen. De meeste beveiligingsrollen staan het bewerken van beveiligingsrollen van een gebruiker niet toe.  
+>  Probeer niet de beveiligingsrol Systeembeheerder te verwijderen als u slechts één gebruikersaccount hebt. Het systeem zal u waarschuwen als u dat probeert, maar als u doorgaat, zou u kunnen merken dat u deze rol niet meer terug kunt krijgen. Met de meeste beveiligingsrollen is het niet toegestaan de beveiligingsrollen van een gebruiker te bewerken.  
   
 ## <a name="next-steps"></a>Volgende stappen  
-[Inzicht krijgen in onderdelen van modelgestuurde apps](model-driven-app-components.md)
+ [Aan de slag met aanpassen](getting-started-customization.md)
 

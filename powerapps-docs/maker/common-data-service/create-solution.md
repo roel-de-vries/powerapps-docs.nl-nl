@@ -1,6 +1,6 @@
 ---
-title: Een oplossing maken | MicrosoftDocs
-description: Leren hoe u een oplossing maakt
+title: Een oplossing maken | Microsoft Docs
+description: Ontdek hoe u een oplossing kunt maken
 ms.custom: ''
 ms.date: 06/18/2018
 ms.reviewer: ''
@@ -9,55 +9,56 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 author: Mattp123
 ms.assetid: e21a4876-08b4-417a-a644-c577a27c5cf1
 caps.latest.revision: 12
 ms.author: matp
 manager: kvivek
-search.audienceType:
-  - maker
-search.app:
-  - PowerApps
-  - D365CE
+ms.openlocfilehash: 26ecc9b2f83375ba10e6b32dfc12d6cc37342cf4
+ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39681207"
 ---
 # <a name="create-a-solution"></a>Een oplossing maken
 
-Aangezien de standaardoplossing alle oplossingsonderdelen bevat, is het misschien gemakkelijker om alleen de oplossingsonderdelen te zoeken die u hebt aangepast als u een afzonderlijke oplossing maakt en daar al uw aanpassingen doet. Dit maakt het ook gemakkelijk om een back-up van uw oplossing als een kleiner bestand te exporteren. Als u dit wilt doen, moet u er altijd aan denken om de oplossingsonderdelen die u bewerkt toe te voegen aan deze oplossing. Wanneer u nieuwe oplossingsonderdelen maakt, moet u deze altijd in de context van deze oplossing maken. Op deze manier wordt het voorvoegsel van de oplossingsuitgeveraanpassing consistent toegepast. Nadat u oplossingsonderdelen in uw oplossing hebt gemaakt, of bestaande oplossingsonderdelen aan die oplossing hebt toegevoegd, kunt u ze, als u dat wilt, ook bewerken in de standaardoplossing.  
+Omdat de standaardoplossing alle oplossingsonderdelen bevat, is het wellicht eenvoudiger om alleen de oplossingsonderdelen te zoeken die u hebt aangepast, als u een afzonderlijke oplossing maakt, en alle aanpassingen daar aan te brengen. Hierdoor kunt u ook eenvoudig een back-up van de oplossing exporteren als een kleiner bestand. Als u hiervoor kiest, moet u alleen nooit vergeten om alle oplossingsonderdelen die u bewerkt, toe te voegen aan de oplossing. Als u nieuwe oplossingsonderdelen maakt, moet u deze altijd in de context van deze oplossing maken. Op deze manier wordt het aanpassingsvoorvoegsel van de uitgever van de oplossing consistent toegepast. Nadat u oplossingsonderdelen hebt gemaakt in uw oplossing, of bestaande oplossingsonderdelen aan deze oplossing hebt toegevoegd, kunt u ze ook bewerken in de standaardoplossing, als u wilt.  
   
- Voor meer informatie over oplossingsconcepten raadpleegt u [Werken met oplossingen](solutions-overview.md).  
+ Zie [Werken met oplossingen](solutions-overview.md) voor meer informatie over concepten voor oplossingen.  
   
 1.  Navigeer naar **[Instellingen](../model-driven-apps/advanced-navigation.md#settings)** > **Oplossingen**. 
   
-2.  Klik op **Nieuw** en vul de vereiste velden in voor de oplossing.  
+2.  Kies **Nieuw** en vul de vereiste velden voor de oplossing in  
   
     |Veld|Beschrijving|  
     |-----------|-----------------|  
-    |**Weergavenaam**|De naam die in de lijst met oplossingen wordt weergegeven. U kunt dit later wijzigen.|  
-    |**Naam**|De unieke naam van de oplossing. Dit wordt gegenereerd met behulp van de waarde die u in het Weergavenaamveld invoert. U kunt dit bewerken voordat u de oplossing opslaat, maar nadat u de oplossing hebt opgeslagen, kunt u het niet wijzigen.|  
-    |**Uitgever**|U kunt de standaarduitgever selecteren of een nieuwe uitgever maken. U moet de standaarduitgever voor uw organisatie gebruiken, tenzij u van plan bent uw oplossing te distribueren.|  
-    |**Versie**|Voer een nummer in voor de versie van uw oplossing. Dit is alleen belangrijk als u uw oplossing exporteert. Het versienummer wordt opgenomen in de bestandsnaam als u de oplossing exporteert.|  
+    |**Weergavenaam**|De naam die wordt weergegeven in de lijst met oplossingen. U kunt deze later wijzigen.|  
+    |**Naam**|De unieke naam van de oplossing. Deze wordt gegenereerd met behulp van de waarde die u invoert in het veld Weergavenaam. U kunt deze naam bewerken voordat u de oplossing opslaat, maar nadat u de oplossing hebt opgeslagen, kunt u de naam niet meer wijzigen.|  
+    |**Uitgever**|U kunt de standaarduitgever selecteren of een nieuwe uitgever maken. Tenzij u van plan bent om de oplossing te distribueren, kunt u het beste de standaarduitgever voor uw organisatie gebruiken.|  
+    |**Versie**|Voer een versienummer voor de oplossing in. Dit is alleen van belang als u de oplossing gaat exporteren. Het versienummer wordt opgenomen in de bestandsnaam wanneer u de oplossing exporteert.|  
   
 3.  Kies **Opslaan**.  
   
- Nadat u de oplossing hebt opgeslagen, wilt u misschien informatie toevoegen aan velden die niet vereist zijn. Deze stappen zijn optioneel. Gebruik het veld **Beschrijving** om de oplossing te beschrijven en kies een HTML-webresource als een **Configuratiepagina** voor de oplossing. De configuratiepagina wordt meestal gebruikt door ISV's die oplossingen distribueren. Als dit is ingesteld, ziet u een nieuw **Configuratie**-knooppunt onder het knooppunt **Informatie** om deze webresource weer te geven. Ontwikkelaars zullen deze pagina gebruiken om instructies of besturingselementen op te nemen waarmee u configuratiegegevens kunt instellen of hun oplossing kunt starten.  
+ Nadat u de oplossing hebt opgeslagen, wilt u misschien gegevens toevoegen aan velden die niet zijn vereist. Deze stappen zijn optioneel. Gebruik het veld **Beschrijving** om de oplossing te beschrijven en kies een HTML-webresource als een **Configuratiepagina** voor de oplossing. De configuratiepagina wordt doorgaans gebruikt door ISV’s die de oplossingen distribueren. Wanneer dit is ingesteld, verschijnt er een nieuw knooppunt **Configuratie** onder het knooppunt **Gegevens** om deze webresource weer te geven. Ontwikkelaars gebruiken deze pagina om instructies of besturingselementen op te nemen waarmee u configuratiegegevens kunt instellen of hun oplossing kunt starten.  
   
 <a name="BKMK_AddSolutionComponents"></a>   
 
 ## <a name="add-solution-components"></a>Oplossingsonderdelen toevoegen  
- Nadat u uw oplossing hebt gemaakt, bevat die geen oplossingsonderdelen. U kunt nieuwe oplossingsonderdelen maken of de knop **Bestaande onderdelen toevoegen** in het lijstmenu gebruiken om oplossingsonderdelen van de standaardoplossing toe te voegen.  
+ Nadat u de oplossing hebt gemaakt, bevat deze nog geen oplossingsonderdelen. U kunt nieuwe oplossingsonderdelen maken of de knop **Bestaande toevoegen** in het lijstmenu gebruiken om oplossingsonderdelen uit de standaardoplossing toe te voegen.  
   
- Als u dit doet, verschijnt er misschien een **Er ontbreken vereiste onderdelen**-dialoogvenster.  
+ Als u dit doet, ziet u mogelijk het dialoogvenster **Vereiste onderdelen ontbreken**.  
    
- ![Dialoog Vereiste onderdelen toevoegen](media/crm-itpro-cust-addrequiredcomponents.PNG "Dialoog Vereiste onderdelen toevoegen")  
+ ![Dialoogvenster Vereiste onderdelen toevoegen](media/crm-itpro-cust-addrequiredcomponents.PNG "Dialoogvenster Vereiste onderdelen toevoegen")  
   
- Dit dialoogvenster waarschuwt u dat het oplossingsonderdeel afhankelijk is van andere oplossingsonderdelen. Als u **Nee, vereiste onderdelen niet toevoegen** selecteert, kan de oplossing mislukken als u die in een andere organisatie importeert waar al die vereiste componenten niet aanwezig zijn. Als de oplossingsimport slaagt, is het gedrag in de andere oplossing misschien niet hetzelfde als de oorspronkelijke organisatie, doordat de onderdelen anders zijn geconfigureerd dan die in de bronoplossing.  
+ Dit dialoogvenster laat u weten dat het oplossingsonderdeel afhankelijkheden heeft in andere oplossingsonderdelen. Als u **Nee, vereiste onderdelen niet opnemen** selecteert, kan de oplossing mislukken als u deze importeert in een andere organisatie waar al deze vereiste onderdelen niet bestaan. Als het importeren van de oplossing is geslaagd, is het gedrag van de andere oplossing mogelijk niet hetzelfde als in de oorspronkelijke organisatie, omdat de onderdelen in de bronoplossing anders zijn geconfigureerd.  
   
- Over het algemeen is het een goed idee om de vereiste onderdelen op te nemen als u van plan bent de oplossing naar een andere organisatie te exporteren. Als u deze onderdelen niet toevoegt wanneer u een afzonderlijk oplossingsonderdeel toevoegt, kunt u later weer verdergaan, het oplossingsonderdeel dat u hebt toegevoegd selecteren, en klikken op **Vereiste onderdelen toevoegen** in het menu.  
+ Over het algemeen is het veiliger om de vereiste onderdelen op te nemen als u van plan bent om de oplossing te exporteren in een andere organisatie. Als u deze onderdelen niet toevoegt wanneer u een afzonderlijk oplossingsonderdeel toevoegt, kunt u later terugkomen, het toegevoegde oplossingsonderdeel selecteren, en in het menu de optie **Vereiste onderdelen toevoegen** kiezen.  
   
- Als u niet van plan bent de oplossing te exporteren, of alleen als u van plan bent deze te exporteren als een onbeheerde oplossing en weer te importeren in dezelfde organisatie, is het niet noodzakelijk om vereiste onderdelen op te nemen. Als u ooit de oplossing exporteert, ziet u nog een waarschuwing die aangeeft er bepaalde vereiste onderdelen ontbreken. Als u deze oplossing alleen terug gaat importeren in dezelfde organisatie, kunt u deze waarschuwing negeren. De stappen voor het bewerken van de toepassingsnavigatie of het lint zonder een extern bewerkingsprogramma te gebruiken, verwachten dat u de oplossing terugexporteert naar dezelfde organisatie.  
+ Als u niet van plan bent om de oplossing te exporteren, of als u deze alleen wilt exporteren als een onbeheerde oplossing en weer wilt importeren in dezelfde organisatie, hoeft u de vereiste onderdelen niet op te nemen. Als u de oplossing ooit exporteert, verschijnt er nog een waarschuwing dat bepaalde vereiste onderdelen ontbreken. Als u deze oplossing alleen wilt weer importeren in dezelfde organisatie, kunt u deze waarschuwing negeren. Bij de stappen voor het bewerken van de navigatie of het lint van de toepassing, zonder een hulpprogramma voor bewerken van derden, wordt ervan uitgegaan dat u de oplossing weer gaat exporteren in dezelfde organisatie.  
 
 > [!IMPORTANT]
->  Als u afspraken in oplossingen wilt opnemen, raden wij sterk aan niet alleen afspraken en alleen terugkerende afspraken in afzonderlijke oplossingen op te nemen. Als u afzonderlijke oplossingen met verschillende typen afspraken installeert en verwijdert, treedt een SQL Server-fout op en moet u de afspraken opnieuw maken. 
+>  Als u van plan bent om afspraken op te nemen in oplossingen, raden we u sterk aan om alleen afspraken of alleen terugkerende afspraken op te nemen in afzonderlijke oplossingen. Als u afzonderlijke oplossingen met verschillende typen afspraken installeert en verwijdert, treedt er een fout op in SQL Server en moet u de afspraken opnieuw maken. 
