@@ -1,0 +1,1 @@
+Microsoft biedt geen ondersteuning voor deze preview-functie. De technische ondersteuning van Microsoft Dynamics 365 zal u niet kunnen helpen met problemen of vragen. Preview-functies zijn niet bedoeld voor productiegebruik en zijn onderhevig aan aparte [aanvullende gebruiksvoorwaarden](http://go.microsoft.com/fwlink/p/?LinkId=511446).
