@@ -1,6 +1,6 @@
 ---
-title: Een app opslaan en publiceren | Microsoft Docs
-description: Stapsgewijze instructies voor makers van apps om apps op te slaan en te publiceren
+title: Een canvas-app opslaan en publiceren | Microsoft Docs
+description: Stapsgewijze instructies voor makers van apps om canvas-apps op te slaan en te publiceren
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 09/14/2017
 ms.author: anneta
-ms.openlocfilehash: faaf3ef6eefc41ad5b1d7cb2e6e34db57632cfaf
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: f52338d4eed8942259e7ae15a8df3b05c45a703d
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39194801"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42837007"
 ---
-# <a name="save-and-publish-an-app-in-powerapps"></a>Een app opslaan en publiceren in PowerApps
-Wanneer u wijzigingen in een app opslaat, publiceert u deze automatisch alleen voor uzelf en voor anderen die bevoegd zijn om de app te bewerken. Als u klaar bent met het maken van wijzigingen, moet u de wijzigingen expliciet publiceren om deze beschikbaar te maken voor iedereen met wie de app wordt gedeeld.
+# <a name="save-and-publish-a-canvas-app-in-powerapps"></a>Een canvas-app opslaan en publiceren in PowerApps
+Wanneer u wijzigingen in een canvas-app opslaat, publiceert u deze automatisch alleen voor uzelf en voor anderen die bevoegd zijn om de app te bewerken. Als u klaar bent met het maken van wijzigingen, moet u de wijzigingen expliciet publiceren om deze beschikbaar te maken voor iedereen met wie de app wordt gedeeld.
 
 Zie [Een app delen](share-app.md) voor informatie over het delen van een app.
 

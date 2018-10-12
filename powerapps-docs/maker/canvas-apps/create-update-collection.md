@@ -9,17 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 11/30/2015
 ms.author: lonu
-ms.openlocfilehash: 98407181bc654874d749bb57da22c9fde1259fb6
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: c1043d32fc4ab4213d2ac2e690ef69e13fec8ed3
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195491"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42831644"
 ---
 # <a name="create-and-update-a-collection-in-your-app"></a>Een verzameling in uw app maken en bijwerken
 U kunt een verzameling gebruiken om gegevens op te slaan die in uw app kunnen worden gebruikt. Een verzameling is een groep met items die vergelijkbaar zijn. U maakt bijvoorbeeld een verzameling MijnAfbeeldingen waarin alle foto's worden opgeslagen van producten die uw bedrijf verkoopt. U kunt uw verzameling MijnAfbeeldingen in PowerApps toevoegen en een app maken die alle foto's van deze producten weergeeft. Ander voorbeeld: u kunt een verzameling Prijslijst maken die een overzicht bevat van de producten en de prijs van elk product.
-
-U kunt verzamelingen maken en gebruiken in PowerApps. Aan de slag.
 
 ### <a name="prerequisites"></a>Vereisten
 * [Registreer u](../signup-for-powerapps.md) voor PowerApps en [meld u vervolgens aan](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) door dezelfde referenties in te voeren die u hebt gebruikt om u te registreren.
@@ -28,23 +30,30 @@ U kunt verzamelingen maken en gebruiken in PowerApps. Aan de slag.
 * Deze stappen gebruiken het bestand [PriceList.zip](http://pwrappssamples.blob.core.windows.net/samples/PriceList.zip) als voorbeeld voor invoergegevens. Het zip-bestand bevat een XML-bestand dat naar Excel kan worden geconverteerd. Anders leest PowerApps automatisch de bestanden in de .zip-bestanden, waarna deze worden geïmporteerd. U kunt deze voorbeeldgegevens downloaden en gebruiken of uw eigen gegevens importeren.
 
 ## <a name="create-a-single-column-collection"></a>Een verzameling met één kolom maken
-De volgende stappen laten u zien hoe u een verzameling binnen uw app kunt maken met de functie Collect, en hoe u items aan uw verzameling kunt toevoegen.
+Gebruik de functie **Verzamelen** om een verzameling te maken en er items aan toe te voegen.
 
-1. Open uw app.
-2. Selecteer op het tabblad **Invoegen** de optie **Tekst** en selecteer vervolgens **Tekstinvoer**:  
-   ![][1]  
-3. Selecteer in de linkerbovenhoek **Tekst1** en wijzig de naam van het besturingselement in **Bestemming**:  
-   ![][2]  
-4. Selecteer **Knop** op het tabblad **Invoegen** om een knopbesturingselement aan uw ontwerpomgeving toe te voegen. In de vervolgkeuzelijst wordt de eigenschap **[OnSelect](controls/properties-core.md)** weergegeven. Stel deze in op de volgende functie:  
+1. Selecteer in een app op het tabblad **Invoegen** de optie **Tekst** en selecteer vervolgens **Tekstinvoer**:
+
+   ![][1]
+
+1. Selecteer in de linkerbovenhoek **Tekst1** en wijzig de naam van het besturingselement in **Bestemming**:
+
+   ![][2]
+
+1. Selecteer **Knop** op het tabblad **Invoegen** om een knopbesturingselement aan uw ontwerpomgeving toe te voegen. In de vervolgkeuzelijst wordt de eigenschap **[OnSelect](controls/properties-core.md)** weergegeven. Stel deze in op de volgende functie:  
    
     ```Collect(Destinations, Destination!Text)```
    
-    De eigenschap moet er als volgt uitzien:  
-    ![][3]  
-5. Selecteer de knoptekst en vul **Toevoegen** in:  
-   ![][5]  
-6. Selecteer de knop **Toevoegen** en verplaats deze onder uw tekstbesturingselement. U kunt de knop op elke gewenste plek plaatsen:  
-   ![][6]  
+    De eigenschap moet er als volgt uitzien:
+
+    ![][3]
+
+5. Selecteer de knoptekst en vul **Toevoegen** in:
+
+   ![][5]
+
+1. Selecteer de knop **Toevoegen** en verplaats deze onder uw tekstbesturingselement. U kunt de knop op elke gewenste plek plaatsen:  
+   ![][6]
 
 In deze stappen gebruikte u de functie Collect om een collectie met de naam **Bestemmingen** te maken. U hebt ook een knopbesturingselement toegevoegd. Wanneer deze wordt geselecteerd, worden hiermee nieuwe items aan uw verzameling toegevoegd. Bekijk nu wat u hebt gemaakt:
 

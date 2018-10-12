@@ -1,6 +1,6 @@
 ---
-title: Delegering | Microsoft Docs
-description: Gebruik delegering om grote gegevenssets efficiënt te verwerken.
+title: Informatie over overdracht in een canvas-app | Microsoft Docs
+description: Gebruik overdracht om grote gegevenssets efficiënt te verwerken in een canvas-app.
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/05/2018
 ms.author: lanced
-ms.openlocfilehash: 484d7b1149f158840238fc3d54713a1e6e33443b
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 0ac78340f344ce42fd68d18940b1aaca41412a96
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023592"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42829746"
 ---
-# <a name="understand-delegation"></a>Delegering
-PowerApps bevat een krachtige set functies voor het filteren, sorteren en structureren van gegevenstabellen: **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)** en **[AddColumns](functions/function-table-shaping.md)** om er maar een paar te noemen. Met behulp van deze functies kunt u uw gebruikers gerichte toegang bieden tot de informatie die zij nodig hebben. Voor lezers met een databaseachtergrond is het gebruiken van deze functies vergelijkbare met het schrijven van een databasequery.
+# <a name="understand-delegation-in-a-canvas-app"></a>Informatie over overdracht in een canvas-app
+PowerApps bevat een krachtige set functies voor het filteren, sorteren en structureren van gegevenstabellen in een canvas-app: **[Filter](functions/function-filter-lookup.md)**, **[Sort](functions/function-sort.md)** en **[AddColumns](functions/function-table-shaping.md)** om er maar een paar te noemen. Met behulp van deze functies kunt u uw gebruikers gerichte toegang bieden tot de informatie die zij nodig hebben. Voor lezers met een databaseachtergrond is het gebruiken van deze functies vergelijkbare met het schrijven van een databasequery.
 
 Het geheim voor het maken van efficiënte apps is de hoeveelheid gegevens te minimaliseren die moeten worden overgebracht naar een apparaat. Misschien zijn er slechts enkele records uit de totale hoeveelheid van miljoenen records nodig of kan één cumulatieve waarde duizenden records vertegenwoordigen. Het kan ook voldoende zijn om alleen de eerste set records op te halen en de rest pas als de gebruiker daar om vraagt. Een goede focus kan betekenen dat uw app aanzienlijk minder verwerkingskracht, geheugen en netwerkbandbreedte nodig heeft. Het resultaat hiervan is dat de responstijden voor uw gebruikers laag zijn, zelfs op telefoons die zijn verbonden via een mobiel netwerk. 
 

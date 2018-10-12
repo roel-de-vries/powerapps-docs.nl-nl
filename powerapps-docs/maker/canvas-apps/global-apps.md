@@ -1,6 +1,6 @@
 ---
-title: Wereldwijde ondersteuning | Microsoft Docs
-description: Ontwikkel apps die overal ter wereld worden gebruikt.
+title: Wereldwijde ondersteuning inbouwen in canvas-apps | Microsoft Docs
+description: Gebruik PowerApps om apps te bouwen die wereldwijd worden gebruikt.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/25/2016
 ms.author: gregli
-ms.openlocfilehash: dbca12ff3acc4327f88269a2333fe066c7f2fbec
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 7ccd505d53377617bd13cda775cce489c554bc64
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39019797"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42862571"
 ---
-# <a name="global-support"></a>Wereldwijde ondersteuning
-PowerApps is een wereldwijd product.  Hiermee kunt u apps in verschillende talen en voor verschillende regio's maken en gebruiken.
+# <a name="build-global-support-into-canvas-apps"></a>Wereldwijde ondersteuning inbouwen in canvas-apps
+PowerApps is een wereldwijd product. Hiermee kunt u canvas-apps in verschillende talen en voor verschillende regio's maken en gebruiken.
 
 De tekst die u in PowerApps ziet tijdens de ontwikkeling en de uitvoering van apps, is vertaald in verschillende talen.  Menu-items, dialoogvensters, linttabbladen en andere teksten worden in uw eigen taal weergegeven.  De invoer en weergave van datums en getallen zijn ook aangepast aan uw taal en regio.  Zo gebruiken sommige delen van de wereld '.' als decimaalteken, terwijl in andere delen ',' wordt gebruikt.  
 

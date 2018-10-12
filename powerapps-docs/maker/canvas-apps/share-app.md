@@ -9,12 +9,16 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 07/11/2018
 ms.author: anneta
-ms.openlocfilehash: eaea8049b573b619881ae0a2b6ecb2618e4bf192
-ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 926d2b4b0d24f07a9a4cd42216e7d737db57308c
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39470633"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42853837"
 ---
 # <a name="share-a-canvas-app-in-powerapps"></a>Een canvas-app delen in PowerApps
 
@@ -81,7 +85,11 @@ Voordat u een app deelt, moet u deze in de cloud (niet lokaal) opslaan en vervol
 
 ### <a name="common-data-service-for-apps"></a>Common Data Service for Apps
 
-Als u een app maakt op basis van Common Data Service for Apps, moet u er ook voor zorgen dat de gebruikers die de app uitvoeren over de juiste machtigingen beschikken voor de entiteit of entiteiten waarop de app is gebaseerd. Die gebruikers moeten met name behoren tot een beveiligingsrol, waarmee taken kunnen worden gevoerd als het maken, lezen, schrijven en/of verwijderen van de betreffende records. Als u over machtigingen voor **Systeembeheerder** of **Systeemaanpasser** beschikt voor de database in deze omgeving, kunt u een aangepaste rol maken en hieraan vervolgens gebruikers toevoegen.
+Als u een app maakt op basis van Common Data Service (CDS) for Apps, moet u er ook voor zorgen dat de gebruikers die de app uitvoeren over de juiste machtigingen beschikken voor de entiteit of entiteiten waarop de app is gebaseerd. Die gebruikers moeten met name behoren tot een beveiligingsrol, waarmee taken kunnen worden gevoerd als het maken, lezen, schrijven en/of verwijderen van de betreffende records. In veel gevallen moet u een of meer aangepaste beveiligingsrollen maken met de exacte machtigingen die gebruikers nodig hebben om uw apps te gebruiken. U kunt die rol of rollen vervolgens naar wens toewijzen aan gebruikers. 
+
+#### <a name="prerequisite"></a>Vereisten
+
+Voor het uitvoeren van de volgende twee procedures moet u beschikken over machtigingen voor **systeembeheerders** voor een CDS for Apps-database.
 
 #### <a name="create-a-security-role"></a>Een beveiligingsrol maken
 

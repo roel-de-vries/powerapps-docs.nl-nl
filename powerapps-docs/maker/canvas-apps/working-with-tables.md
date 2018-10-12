@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 19199ade5c7f89f9d3d113b41ac9651a9b007ef6
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 38745810321807e69d5eba8e1f2c281dafa73ae5
+ms.sourcegitcommit: 5db6e3ac3a622de313a1102417397e126c3f92f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42847891"
+ms.lasthandoff: 09/15/2018
+ms.locfileid: "45640441"
 ---
 # <a name="understand-canvas-app-tables-and-records-in-powerapps"></a>Tabellen en records voor canvas-apps in PowerApps
 
@@ -40,7 +40,7 @@ Net zoals een formule in Excel een of meer celverwijzingen als argumenten heeft,
 ### <a name="records"></a>Records
 Elke record bevat ten minste één informatiecategorie voor een persoon, een plaats of een ding. In het bovenstaande voorbeeld ziet u een record voor elk product (**Chocolade**, **Brood** en **Water**) en een kolom voor elke informatiecategorie (**Prijs**, **Hoeveelheid in voorraad** en **Hoeveelheid in bestelling**).
 
-In een formule kunt u naar een record zelf verwijzen, buiten de context van een tabel, met behulp van accolades. Deze record **{Naam: "Aardbeien", Prijs: 7,99}** is bijvoorbeeld niet gekoppeld aan een tabel.
+In een formule kunt u naar een record zelf verwijzen, buiten de context van een tabel, met behulp van accolades. Deze record **{Naam: "Aardbeien", Prijs: 7,99}** is bijvoorbeeld niet gekoppeld aan een tabel. Houd er rekening mee dat veldnamen zoals **Naam** en **Prijs** (in dit voorbeeld) niet tussen dubbele aanhalingstekens komen te staan.
 
 ### <a name="fields"></a>Velden
 Een veld is een individueel gedeelte met informatie in een record. U kunt een dergelijk veld visualiseren als een waarde in een kolom voor een bepaalde record.

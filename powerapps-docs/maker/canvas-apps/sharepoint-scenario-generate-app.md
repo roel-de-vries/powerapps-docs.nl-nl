@@ -1,6 +1,6 @@
 ---
-title: Een app genereren om projectaanvragen af te handelen | Microsoft Docs
-description: In deze taak genereren we een eenvoudige *app met drie schermen* rechtstreeks vanuit een SharePoint-lijst.
+title: Een canvas-app genereren om projectaanvragen af te handelen | Microsoft Docs
+description: In deze taak genereren we een eenvoudige canvas-app met drie schermen rechtstreeks vanuit een SharePoint-lijst.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,14 +9,18 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 7072d78b79adff65aac33c888bf0f980f953ef84
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 4466d8f42a0ba9c9a162353bc214abf6d9d9ef83
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39023937"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42834254"
 ---
-# <a name="generate-an-app-to-handle-project-requests"></a>Een app genereren om projectaanvragen af te handelen
+# <a name="generate-a-canvas-app-to-handle-project-requests"></a>Een canvas-app genereren om projectaanvragen af te handelen
 > [!NOTE]
 > Dit artikel maakt deel uit van een reeks zelfstudies over het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint Online. Lees de [inleiding tot de reeks](sharepoint-scenario-intro.md) zodat u een idee van het geheel krijgt en van de betreffende downloads.
 

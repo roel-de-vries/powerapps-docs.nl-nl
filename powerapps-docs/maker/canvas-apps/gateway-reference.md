@@ -1,6 +1,6 @@
 ---
-title: Informatie over on-premises gegevensgateways | Microsoft Docs
-description: Naslaginformatie, inclusief installatie en probleemoplossing, voor on-premises gegevensgateways
+title: Informatie over on-premises gegevensgateways voor canvas-apps | Microsoft Docs
+description: Naslaginformatie over on-premises gegevensgateways, inclusief informatie over installatie in PowerApps en probleemoplossing
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,14 +9,18 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/20/2017
 ms.author: anneta
-ms.openlocfilehash: f39bebd27aad378a5bbf8bff592fa50ea44db679
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 5dcc07f3ba9b9b4baca39cf2090a2c57cb7e67b7
+ms.sourcegitcommit: 967812754d8e5b1ff72baa35ffbe548f3b9b0085
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39017750"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45726924"
 ---
-# <a name="understand-on-premises-data-gateways-for-microsoft-powerapps"></a>Informatie over on-premises gegevensgateways voor Microsoft PowerApps
+# <a name="understand-on-premises-data-gateways-for-canvas-apps"></a>Informatie over on-premises gegevensgateways voor canvas-apps
 ## <a name="installation-and-configuration"></a>Installatie en configuratie
 **Vereisten**
 
@@ -26,7 +30,6 @@ Minimum:
 * 64-bits versie van Windows 7 of Windows Server 2008 R2 (of hoger)
 
 Aanbevolen:
-
 * 8-core CPU
 * 8 GB geheugen
 * 64-bits versie van Windows 2012 R2 (of hoger)
@@ -50,7 +53,7 @@ Bijkomstige overwegingen:
 
 4. Klik of tik in de dialoogvensters van **Gebruikersaccountbeheer** op **Ja** om door te gaan.
 
-5. Klik of tik op het volgende scherm van de wizard **Aanmelden**.
+5. Klik of tik in het volgende scherm van de wizard op **Aanmelden** en geef de referenties op die u ook gebruikt voor aanmelding bij PowerApps.
 
     ![Aanmelden](./media/gateway-reference/sign-in.png)
 
@@ -190,7 +193,7 @@ U kunt een hulpprogramma, de app [Azure Speed Test](http://azurespeedtest.azurew
 
 #### <a name="high-availabilitydisaster-recovery"></a>Hoge beschikbaarheid/herstel na noodgevallen
 **Vraag:** Zijn er plannen om scenario’s voor van hoge beschikbaarheid mogelijk te maken met de gateway?  
-**Antwoord:** Dit staat op de roadmap, maar we hebben momenteel nog geen tijdlijn hiervoor.
+**Antwoord:** hoge beschikbaarheid wordt ingeschakeld door twee of meer gateways te koppelen aan hetzelfde cluster.  Voor gatewayclusters met een hoge beschikbaarheid is de update van november 2017 voor on-premises gegevensgateways nodig (of nieuwer).  Bekijk de [blogberichtaankondiging](https://powerapps.microsoft.com/en-us/blog/gateway-high-availability-for-powerapps-and-flow) voor meer informatie.
 
 **Vraag:** Welke opties zijn er beschikbaar voor herstel na noodgevallen?  
 **Antwoord:** U kunt de herstelsleutel gebruiken om een gateway te herstellen of te verplaatsen. Geef de herstelsleutel op tijdens de installatie van de gateway.

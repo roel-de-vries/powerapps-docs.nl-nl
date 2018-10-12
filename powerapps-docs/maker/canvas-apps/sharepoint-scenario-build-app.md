@@ -1,6 +1,6 @@
 ---
-title: Een app maken om projecten te beheren | Microsoft Docs
-description: In deze taak gaan we een volledig nieuwe app bouwen. Met deze app kan een gebruiker een manager toewijzen aan projecten en kunnen de details van een project worden bijgewerkt.
+title: Een canvas-app maken om projecten te beheren | Microsoft Docs
+description: In deze taak gaat u een volledig nieuwe canvas-app bouwen. Met deze app kan een gebruiker een manager toewijzen aan projecten en kunnen de details van een project worden bijgewerkt.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -9,18 +9,22 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: b4daabf019236a4245db324121a6745290c8b3ab
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 6b55fe94e7d781147e3e3511769c4d72ca3d90de
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39021614"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42842366"
 ---
-# <a name="create-an-app-to-manage-projects"></a>Een app maken om projecten te beheren
+# <a name="create-a-canvas-app-to-manage-projects"></a>Een canvas-app maken om projecten te beheren
 > [!NOTE]
 > Dit artikel maakt deel uit van een reeks zelfstudies over het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint Online. Lees de [inleiding tot de reeks](sharepoint-scenario-intro.md) zodat u een idee van het geheel krijgt en van de betreffende downloads.
 
-In deze taak gaan we een volledig nieuwe app bouwen. Met deze app kan een gebruiker een manager toewijzen aan projecten en kunnen de details van een project worden bijgewerkt. U ziet enkele zelfde besturingselementen en formules die u in de eerste app hebt gezien, maar u gaat deze keer zelf meer van de app bouwen. Het proces is wat ingewikkelder, maar u leert ook meer, dus dat lijkt een goed compromis.
+In deze taak gaat u een volledig nieuwe canvas-app bouwen. Met deze app kan een gebruiker een manager toewijzen aan projecten en kunnen de details van een project worden bijgewerkt. U ziet enkele zelfde besturingselementen en formules die u in de eerste app hebt gezien, maar u gaat deze keer zelf meer van de app bouwen. Het proces is wat ingewikkelder, maar u leert ook meer, dus dat lijkt een goed compromis.
 
 > [!TIP]
 > Het [downloadpakket](https://aka.ms/o4ia0f) voor dit scenario omvat een voltooide versie van deze app: project-details-app.msapp.

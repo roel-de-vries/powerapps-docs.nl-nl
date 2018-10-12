@@ -1,6 +1,6 @@
 ---
-title: Snelstartgids voor het uitvoeren van apps in een webbrowser | Microsoft Docs
-description: In deze snelstartgids leert u hoe u apps kunt uitvoeren in een webbrowser
+title: Apps uitvoeren in een webbrowser | Microsoft Docs
+description: In dit onderwerp leert u hoe u apps kunt uitvoeren in een webbrowser
 author: Mattp123
 ms.service: powerapps
 ms.component: pa-user
@@ -11,15 +11,20 @@ manager: kvivek
 ms.custom: ''
 ms.reviewer: ''
 ms.assetid: ''
-ms.openlocfilehash: b0b0cb39cf0a7d49ca24d31c2803ae463df2f97e
-ms.sourcegitcommit: bcfefb30b12cf94815dd9a0fd8cad29a8272d96e
+search.audienceType:
+- enduser
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: f72d4b5192bd30da676e65e232bc2a3090cb77bb
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2018
-ms.locfileid: "37925634"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42832420"
 ---
-# <a name="quickstart-run-an-app-in-a-web-browser"></a>Snelstartgids: Een app in een webbrowser uitvoeren
-Wanneer u een app maakt, of iemand een app met u deelt, kunt u die app uitvoeren in Windows, iOS, Android of in een webbrowser. In deze snelstartgids leert u hoe u een canvas-app of modelgestuurde app uitvoert in een webbrowser vanuit de [Startpagina van Dynamics 365](https://home.dynamics.com).
+# <a name="run-an-app-in-a-web-browser"></a>Een app in een webbrowser uitvoeren
+Wanneer u een app maakt, of iemand een app met u deelt, kunt u die app uitvoeren in Windows, iOS, Android of in een webbrowser. In dit onderwerp leert u hoe u een canvas-app of modelgestuurde app uitvoert in een webbrowser vanuit de [Startpagina van Dynamics 365](https://home.dynamics.com).
 
 Als u deze Snelstartgids wilt volgen, hebt u het volgende nodig:
 - Een PowerApps-licentie. Dit is beschikbaar met een PowerApps-abonnement, zoals de [proefversie van PowerApps Plan 2](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps) of een [Microsoft Office 365](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1)- of [Dynamics 365](https://dynamics.microsoft.com/pricing/)-abonnement met PowerApps. 
@@ -62,7 +67,7 @@ Als een app verbinding moet maken met een gegevensbron of toestemming nodig heef
 U sluit de app door u af te melden bij de startpagina van Dynamics 365 of door een andere app te openen.
 
 ## <a name="next-steps"></a>Volgende stappen
-In deze snelstartgids hebt u geleerd hoe u een canvas-app of modelgestuurde app kunt uitvoeren in een webbrowser. Als u informatie wilt over het uitvoeren van een canvas-app op een mobiel apparaat, gaat u verder naar de volgende snelstartgids.
+In dit onderwerp hebt u geleerd hoe u een canvas-app of modelgestuurde app kunt uitvoeren in een webbrowser. Als u informatie wilt over het uitvoeren van een canvas-app op een mobiel apparaat, gaat u verder naar het volgende onderwerp.
 
 > [!div class="nextstepaction"]
 > [Een canvas-app op een mobiel apparaat uitvoeren](run-app-client.md)

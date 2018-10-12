@@ -1,6 +1,6 @@
 ---
-title: De naam en tegel van een app wijzigen | Microsoft Docs
-description: Stapsgewijze instructies voor het wijzigen van instellingen, zoals de naam en het pictogram
+title: De app-naam en het -pictogram wijzigen voor een canvas-app | Microsoft Docs
+description: Stapsgewijze instructies voor het wijzigen van instellingen zoals de app-naam en het -pictogram van een canvas-app in PowerApps
 author: lonu
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 10/16/2016
 ms.author: lonu
-ms.openlocfilehash: ae78a86578032d5110a5558d60274fd6728438b9
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 74e56e5819ff4171f5f16a4ebc8b5da39c8c0c8a
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39014921"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42825321"
 ---
-# <a name="change-app-name-and-icon-in-powerapps"></a>De naam en het pictogram wijzigen in PowerApps
-Een app aanpassen door de naam en tegel te wijzigen.
+# <a name="change-app-name-and-icon-for-a-canvas-app-in-powerapps"></a>De app-naam en het -pictogram wijzigen voor een canvas-app in PowerApps
+Een canvas-app aanpassen door de naam en het pictogram te wijzigen.
 
 ## <a name="prerequisites"></a>Vereisten
 1. Maak een app of open er een om te bewerken.

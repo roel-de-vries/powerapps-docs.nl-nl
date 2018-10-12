@@ -1,6 +1,6 @@
 ---
-title: Snelstartgids voor het uitvoeren van een canvas-app op een mobiel apparaat | Microsoft Docs
-description: In deze snelstartgids leert u hoe u een canvas-app kunt uitvoeren op een mobiel apparaat.
+title: Een canvas-app uitvoeren op een mobiel apparaat | Microsoft Docs
+description: Ontdek hoe u een canvas-app uitvoert op een mobiel apparaat.
 author: Mattp123
 ms.service: powerapps
 ms.component: pa-user
@@ -10,17 +10,22 @@ ms.author: matp
 ms.custom: ''
 ms.reviewer: ''
 ms.assetid: ''
-ms.openlocfilehash: a80042065a830bb9d34007131cccbd995279e3dd
-ms.sourcegitcommit: bcfefb30b12cf94815dd9a0fd8cad29a8272d96e
+search.audienceType:
+- enduser
+search.app:
+- PowerApps
+- D365CE
+ms.openlocfilehash: ace1a40e8d7900d93e2ff902705f6f50e1d7a193
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2018
-ms.locfileid: "37925703"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42851879"
 ---
-# <a name="quickstart-run-a-canvas-app-on-a-mobile-device"></a>Snelstartgids: Een canvas-app op een mobiel apparaat uitvoeren
-Wanneer u een app maakt, of iemand een app met u deelt, kunt u die app uitvoeren in Windows, iOS, Android of in een webbrowser. In deze snelstartgids leert u hoe u een canvas-app kunt uitvoeren op een mobiel apparaat. Met apps die op een mobiel apparaat worden uitgevoerd, kunt u profiteren van de functionaliteit van het apparaat, zoals de locatieservices en camera.
+# <a name="run-a-canvas-app-on-a-mobile-device"></a>Een canvas-app uitvoeren op een mobiel apparaat
+Wanneer u een app maakt, of iemand een app met u deelt, kunt u die app uitvoeren in Windows, iOS, Android of in een webbrowser. In dit onderwerp leert u hoe u een canvas-app kunt uitvoeren op een mobiel apparaat. Met apps die op een mobiel apparaat worden uitgevoerd, kunt u profiteren van de functionaliteit van het apparaat, zoals de locatieservices en camera.
 
-Als u deze snelstartgids wilt volgen, maar u hebt zich niet geregistreerd voor PowerApps, [kunt u zich gratis registreren](https://web.powerapps.com/signup?redirect=marketing&email=) voordat u begint en vervolgens PowerApps downloaden vanuit de [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) of [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps) naar een iPhone, iPad of Android-apparaat met een [ondersteund besturingssysteem](../maker/canvas-apps/limits-and-config.md). Zorg er ook voor dat u toegang hebt tot een canvas-app die u hebt gemaakt of die iemand anders heeft gemaakt en die met u is gedeeld.
+Als u deze procedure wilt volgen, maar u hebt zich niet geregistreerd voor PowerApps, [kunt u zich gratis registreren](https://web.powerapps.com/signup?redirect=marketing&email=) voordat u begint en vervolgens PowerApps downloaden vanuit de [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) of [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps) naar een iPhone-, iPad- of Android-apparaat met een [ondersteund besturingssysteem](../maker/canvas-apps/limits-and-config.md). Zorg er ook voor dat u toegang hebt tot een canvas-app die u hebt gemaakt of die iemand anders heeft gemaakt en die met u is gedeeld.
 
 ## <a name="open-powerapps-and-sign-in"></a>PowerApps openen en aanmelden
 Open PowerApps op uw mobiele apparaat en meld u aan met uw Azure Active Directory-referenties.
@@ -77,7 +82,7 @@ U kunt een app aan het startscherm van uw apparaat vastmaken voor snelle toegang
 U kunt een app sluiten door met uw vinger vanaf de linkerkant van de app naar rechts te vegen. U kunt op Android-apparaten op de knop Terug drukken en daarna bevestigen dat u de app inderdaad wenst af te sluiten.
 
 ## <a name="next-steps"></a>Volgende stappen
-In deze snelstartgids hebt u geleerd hoe u een canvas-app kunt uitvoeren op een mobiel apparaat. U kunt ook modelgestuurde apps uitvoeren op een mobiel apparaat.
+In dit onderwerp hebt u geleerd hoe u een canvas-app kunt uitvoeren op een mobiel apparaat. U kunt ook modelgestuurde apps uitvoeren op een mobiel apparaat.
 
 > [!div class="nextstepaction"]
 > [Een modelgestuurde app uitvoeren op een mobiel apparaat](run-app-client-model-driven.md)

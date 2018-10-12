@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a0ffeded77bf08958aaa22c21d33f7063009b4bd
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: d8cb7bdfa995d2289f881b6d21074efd6cf11ac4
+ms.sourcegitcommit: 5db6e3ac3a622de313a1102417397e126c3f92f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42868399"
+ms.lasthandoff: 09/15/2018
+ms.locfileid: "45640395"
 ---
 # <a name="label-control-in-powerapps"></a>Besturingselement voor label in PowerApps
 Een vak waarin gegevens zoals tekst, getallen, datums of valuta worden weergegeven.
@@ -75,6 +75,8 @@ Een label bevat gegevens die u opgeeft als een letterlijke tekenreeks (deze gege
 **[Italic](properties-text.md)**: hiermee wordt aangegeven of de tekst in een besturingselement cursief is.
 
 **[LineHeight](properties-text.md)**: de afstand tussen bijvoorbeeld regels tekst of items in een lijst.
+
+**Live** : de manier waarop de schermlezer wijzigingen aan de tekst van het label aankondigt.  Waarden kunnen zijn **Off**, **Assertive** en **Polite**. Deze eigenschap is handig voor het op een toegankelijke manier aankondigen van dynamische wijzigingen in de gebruikersinterface van de app.
 
 **[OnSelect](properties-core.md)**: de manier waarop de app reageert wanneer de gebruiker op een besturingselement tikt of klikt.
 

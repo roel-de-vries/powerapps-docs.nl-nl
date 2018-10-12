@@ -9,18 +9,22 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 06/12/2017
 ms.author: mblythe
-ms.openlocfilehash: 6c362c39aa99490c8c2043b36a05e107b94e0a26
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: df3c186bb41621e7ec6087a9da55fc037e286b1a
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39014944"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42850185"
 ---
 # <a name="walk-end-to-end-through-the-completed-sharepoint-online-integration-scenario"></a>Het voltooide SharePoint Online-integratiescenario van begin tot eind doorlopen
 > [!NOTE]
 > Dit artikel maakt deel uit van een reeks zelfstudies over het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint Online. Lees de [inleiding tot de reeks](sharepoint-scenario-intro.md) zodat u een idee van het geheel krijgt en van de betreffende downloads.
 
-In deze reeks zelfstudies hebben we heel veel stof behandeld, van het bouwen van apps en stromen tot het maken van rapporten en het insluiten ervan in SharePoint. Hopelijk hebt u veel geleerd en genoeg ervaring opgedaan om deze technologieën te kunnen integreren, zodat u apps, stromen en rapporten in SharePoint kunt integreren op basis van uw eigen behoeften. Voordat we de reeks besluiten, willen we het scenario nog eens van begin tot eind doorlopen en zien hoe alle onderdelen met elkaar samenwerken.
+In deze reeks zelfstudies hebben we heel veel stof behandeld, van het bouwen van canvas-apps en stromen tot het maken van rapporten en het insluiten ervan in SharePoint. Hopelijk hebt u veel geleerd en genoeg ervaring opgedaan om deze technologieën te kunnen integreren, zodat u canvas-apps, stromen en rapporten in SharePoint kunt integreren op basis van uw eigen behoeften. Voordat we de reeks besluiten, willen we het scenario nog eens van begin tot eind doorlopen en zien hoe alle onderdelen met elkaar samenwerken.
 
 ## <a name="step-1-add-a-project-to-the-project-requests-list"></a>Stap 1: Een project toevoegen aan de lijst Projectaanvragen
 1. Klik of tik in de lijst **Projectaanvragen** op **Alle items** en vervolgens op **App Projectaanvragen**.

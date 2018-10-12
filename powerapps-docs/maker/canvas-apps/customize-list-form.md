@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fc2940f726c23c79bcf894bb61c3e6b884ca7112
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 218fb97f6cd523275c0ba296ea120d487cf67e4c
+ms.sourcegitcommit: c26976af24a3e510e4eced78cf5c48cc2f71cae2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865772"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48025666"
 ---
 # <a name="customize-a-sharepoint-list-form-by-using-powerapps"></a>Een SharePoint-lijstformulier aanpassen met PowerApps
 
@@ -31,7 +31,7 @@ Als u de stappen in dit onderwerp wilt volgen, maakt u een eenvoudige lijst zoda
 
 ## <a name="prerequisites"></a>Vereisten
 
-Maak op een SharePoint-site een lijst die deze kolommen bevat:
+Maak op een SharePoint-site een lijst en voeg daarna deze kolommen toe:
 
 - **ProductNaam** (één tekstregel)
 - **Details** (ja/nee)
@@ -53,18 +53,11 @@ Maak op een SharePoint-site een lijst die deze kolommen bevat:
 
 ## <a name="hide-extra-fields"></a>Extra velden verbergen
 
-In het midden van het scherm geeft PowerApps uw formulier weer. Het bevat echter enkele velden die u mogelijk niet wilt weergeven.
+In het midden van het scherm geeft PowerApps uw formulier weer. Het bevat echter velden die u niet nodig hebt.
 
-- Schakel in het deelvenster **Gegevens** de selectievakjes voor deze velden uit.
+- Wis in het deelvenster **Gegevens** de selectievakjes voor de velden **Titel** en **Bijlagen**.
 
-  - **Title**
-  - **Gewijzigd**
-  - **Gemaakt**
-  - **Gemaakt door**
-  - **Gewijzigd door**
-  - **Id**
-
-    Deze velden verdwijnen van het formulier, zodat alleen de velden overblijven die u hebt gemaakt.
+    Deze velden verdwijnen van het formulier, zodat alleen de velden overblijven die u hebt toegevoegd.
 
     ![Lijst met velden](./media/customize-list-form/field-list.png)
 
@@ -109,6 +102,8 @@ U kunt instellen dat de velden **Prijs**, **Beschikbaarheid** en **Kleuren** all
 1. Selecteer de wisselknop **Details** meerdere keren om de laatste drie velden te verbergen en weer te geven.
 
 Als u [uw formulier verder wilt aanpassen](sharepoint-form-integration.md), opent u het en selecteert u **Aanpassen** bovenaan het formulier. Maak, bewaar en publiceer uw wijzigingen vervolgens.
+
+Als u een of meer items met dit formulier maakt, blijft het veld **Titel** leeg. U kunt dit veld verbergen door de standaardweergave te wijzigen.
 
 ## <a name="use-the-default-form"></a>Het standaardformulier gebruiken
 

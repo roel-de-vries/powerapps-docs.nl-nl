@@ -1,6 +1,6 @@
 ---
-title: Toegankelijke apps maken | Microsoft Docs
-description: Hoe u apps toegankelijk maakt voor mensen met beperkingen
+title: Toegankelijke canvas-apps maken | Microsoft Docs
+description: Canvas-apps toegankelijk maken voor mensen met een beperking
 author: fikaradz
 manager: kvivek
 ms.service: powerapps
@@ -9,15 +9,19 @@ ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/03/2018
 ms.author: fikaradz
-ms.openlocfilehash: 909f71a61ca3df73b41eb9e1fe0f3dc3f52d1527
-ms.sourcegitcommit: dfa0e1a7981814e15e6ca4720e2a5f930e859db1
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 119b7e6ff590f63ad938016c5f0127f5d6521d65
+ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39018716"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42834377"
 ---
-# <a name="create-accessible-apps"></a>Toegankelijke apps maken
-Een toegankelijke app stelt gebruikers met visuele, gehoor- of andere beperkingen in staat de app goed te kunnen gebruiken.  Toegankelijkheid is een vereiste voor veel regeringen en organisaties. Daarnaast kunt u door onderstaande richtlijnen te volgen uw app beter bruikbaar maken voor alle gebruikers.
+# <a name="create-accessible-canvas-apps-in-powerapps"></a>Toegankelijke canvas-apps maken in PowerApps
+Een toegankelijke canvas-app stelt gebruikers met visuele, gehoor- of andere beperkingen in staat de app goed te kunnen gebruiken.  Toegankelijkheid is een vereiste voor veel regeringen en organisaties. Daarnaast kunt u door onderstaande richtlijnen te volgen uw app beter bruikbaar maken voor alle gebruikers.
 
 Gebruik de **[Toegankelijkheidscontrole](accessibility-checker.md)** om mogelijke toegankelijkheidsproblemen in uw app te controleren. 
 

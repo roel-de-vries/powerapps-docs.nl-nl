@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ab5542adb68bbd07e2725197230000bdd02b320f
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: ba7d48104d9fdf85573029cc510af2c29d3f6ca0
+ms.sourcegitcommit: 5db6e3ac3a622de313a1102417397e126c3f92f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42833756"
+ms.lasthandoff: 09/15/2018
+ms.locfileid: "45640349"
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>Tegelbesturingselement voor Power BI in PowerApps
 
@@ -61,6 +61,8 @@ Het wordt niet aangeraden meer dan drie Power BI-tegels op hetzelfde moment in e
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
 
 **[OnSelect](properties-core.md)**: de manier waarop de app reageert wanneer de gebruiker op een besturingselement tikt of klikt. Standaard wordt het Power BI-rapport geopend dat is gekoppeld aan de tegel.
+
+**TileUrl** : de URL waarmee de tegel wordt aangevraagd bij de Power BI-service. U kunt één parameter doorgeven voor de Power BI-tegel door de parameter toe te voegen aan de URL (bijvoorbeeld: ... & "&$filter=Town/Province eq '" & ListBox1.Selected.Abbr & "'"). U kunt alleen de operator Is gelijk aan gebruiken in de parameter.
 
 **[Visible](properties-core.md)**: hiermee wordt aangegeven of een besturingselement zichtbaar of verborgen is.
 
