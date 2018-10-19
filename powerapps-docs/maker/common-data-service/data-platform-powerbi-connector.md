@@ -38,7 +38,8 @@ Als u Power BI wilt gebruiken met Common Data Service voor Apps, hebt u het volg
 
 3. Kopieer de hoofdmap van de URL naar het nieuwe tabblad. Dit is de unieke URL voor uw omgeving. De URL heeft de indeling **https://yourenvironmentid.crm.dynamics.com/**. Kopieer de rest van de URL niet. Bewaar deze op een handige locatie, zodat u deze kunt gebruiken wanneer u uw PowerBI-rapport gaat maken.
 
-    ![Omgeving van CDS voor Apps](./media/data-platform-cds-powerbi-connector/CDSEnv3.png "Omgeving van CDS voor Apps")
+    > [!div class="mx-imgBorder"] 
+    > ![Omgeving van CDS voor Apps](./media/data-platform-cds-powerbi-connector/CDSEnv3.png "Omgeving van CDS voor Apps")
 
 ## <a name="connecting-to-common-data-service-for-apps-from-power-bi-desktop"></a>Verbinding met Common Data Service voor Apps maken vanuit Power BI Desktop
 

@@ -35,13 +35,15 @@ U kunt een of meer aangepaste velden in een entiteit maken en bijwerken. Als u e
     > [!NOTE]
     > De velden **Weergavenaam** kunnen op elk gewenst moment worden bijgewerkt zodat deze anders worden weergegeven in uw apps. Het veld **Naam** kan niet worden gewijzigd nadat de entiteit is opgeslagen, aangezien dit kan leiden tot het verbreken van een bestaande app.
 
-    ![Nieuw veld](./media/data-platform-cds-create-entity/newfieldpanel.png "Paneel Nieuw veld")
+    > [!div class="mx-imgBorder"] 
+    > ![Nieuw veld](./media/data-platform-cds-create-entity/newfieldpanel.png "Paneel Nieuw veld")
 
 5. Selecteer het **gegevenstype** van het veld. Hiermee bepaalt u de manier waarop de informatie wordt opgeslagen en in apps wordt aangeboden. Tekst wordt bijvoorbeeld anders opgeslagen dan een decimaal getal of een URL. Zie [Metagegevens entiteitkenmerk](../../developer/common-data-service/entity-attribute-metadata.md) voor meer gedetailleerde informatie over de beschikbare gegevenstypen.
 
     Wanneer u daarom wordt gevraagd, geeft u aanvullende informatie op over het opgegeven gegevenstype. Afhankelijk van het gegevenstype worden verschillende velden weergegeven. Als u een veld maakt van het type Optieset of Optieset voor meervoudige selectie, kunt u **Nieuwe optieset** selecteren en een nieuwe optieset maken tijdens het maken van het veld. Zie [Een optieset maken](custom-picklists.md) voor meer informatie
 
-    ![Nieuw veld](./media/data-platform-cds-create-entity/newfieldpanel-2.png "Paneel Nieuw veld")
+    > [!div class="mx-imgBorder"] 
+    > ![Nieuw veld](./media/data-platform-cds-create-entity/newfieldpanel-2.png "Paneel Nieuw veld")
 
 
 7. Onder **Vereist** schakelt u het selectievakje in als u dit veld als vereist wilt aanbevelen in uw apps. Dit biedt geen strikte afdwinging via alle verbindingen met Common Data Service. Als u wilt controleren of het veld wordt ingevuld, maakt u een [bedrijfsregel](data-platform-create-business-rule.md).

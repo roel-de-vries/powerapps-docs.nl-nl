@@ -1,6 +1,6 @@
 ---
-title: Modelgestuurde app-timer control in PowerApps | MicrosoftDocs
-description: Informatie over het gebruik van de timer control
+title: Timerbesturingselement voor modelgestuurde apps in PowerApps | MicrosoftDocs
+description: Verkrijg inzicht in hoe u het timerbesturingselement kunt gebruiken
 ms.custom: ''
 ms.date: 06/06/2018
 ms.reviewer: ''
@@ -9,54 +9,54 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
-- powerapps
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
+  - powerapps
 author: Mattp123
 ms.assetid: b2b64771-083b-42f9-a3d5-2218f9d8a713
 caps.latest.revision: 63
 ms.author: matp
 manager: kvivek
-ms.openlocfilehash: 7df13482e7773abc3e6762f80bd9f6b99c7ba9e6
-ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39674975"
+search.audienceType:
+  - maker
+search.app:
+  - PowerApps
+  - D365CE
 ---
-# <a name="model-driven-app-timer-control-overview"></a>Overzicht van de modelgestuurde app-timer control
+# <a name="model-driven-app-timer-control-overview"></a>Overicht van timerbesturingselement voor modelgestuurde apps
 
- Gebruik een timer control voor formulieren waarvoor records aan een specifieke mijlpaal op tijdbasis moeten voldoen. Met een timer control kunnen mensen zien hoeveel tijd beschikbaar is voor het voltooien van een actie in de resolutie van een actieverecord of hoeveel tijd is verstreken sinds de tijd voor het voltooien van de actie is verstreken. Timer controls moeten zo worden geconfigureerd dat in ieder geval te zien is of het voltooien van de actie is gelukt of mislukt. Daarnaast kunt u configureren of waarschuwingen moeten worden weergegeven als de actie dreigt te mislukken.  
+ Gebruik een timerbesturingselement met formulieren waar records moeten voldoen aan een specifieke op tijd gebaseerde mijlpaal. Een timerbesturingselement laat zien hoeveel tijd beschikbaar is om een actie te voltooien bij de oplossing van een actieve record of hoeveel tijd is verlopen sinds de tijd om de actie te voltooien is verstreken. Timerbesturingselementen moeten ten minste worden geconfigureerd om succes of mislukking te tonen bij het uitvoeren van de actie. Bovendien kunnen ze worden geconfigureerd om waarschuwingen weer te geven wanneer zich een mislukking lijkt te gaan voordoen.  
   
- Timer controls kunnen worden toegevoegd aan formulieren van alle entiteiten. Ze worden voornamelijk gebruikt voor de case-entiteit, met name wanneer ze zijn gekoppeld aan velden die serviceovereenkomsten bijhouden. U kunt meerdere timer controls toevoegen in de hoofdtekst van een formulier. U kunt ze niet toevoegen aan de koptekst of voettekst.  
+ Een timerbesturingselement kan voor een entiteit aan een formulier worden toegevoegd, maar ze worden het meest gebruikt voor de entiteit aanvraag, vooral als ze zijn gekoppeld aan velden die serviceniveau-overeenkomsten bijhouden. U kunt meerdere timerbesturingselementen aan de tekst van een formulier toevoegen. U kunt ze niet toevoegen aan de kop- of voettekst.  
   
- Voor de eigenschappen van de **gegevensbron** van timer controls worden velden voor de entiteit gebruikt.  
+ **Gegevensbron**-eigenschappen van timerbesturingselementen gebruiken velden voor de entiteit.  
   
--   Voor het **veld voor tijd van mislukte poging** wordt een datum-/tijdveld gebruikt om de tijd in te stellen.  
+-   Het **Veld voor tijd van storing** gebruikt een datum/tijd-veld om de tijd in te stellen.  
   
--   Voor de drie voorwaardevelden wordt een van de velden **Optieset**, **Twee opties**, **Status** of **Reden van status** voor de entiteit gebruikt.  
+-   De drie voorwaardevelden gebruiken een van de velden **Optieset**, **Twee opties**, **Status**, of **Reden van status** voor de entiteit.  
 
-Als u een timer control wilt maken, selecteert u in de formulierontwerper het tabblad **Invoegen** en selecteert u vervolgens op de werkbalk **Timer**. 
+Als u een timerbesturingselement wilt maken, selecteert u in de formulierontwerper het tabblad **Invoegen** en selecteert u **Timer** op de werkbalk. 
 
-  ![Timer control invoegen](media/insert-timer-control.png)
+  > [!div class="mx-imgBorder"] 
+  > ![Timerbesturingselement invoegen](media/insert-timer-control.png)
 
-Op de eigenschappenpagina van de timer control voert u de gewenste eigenschappen in of selecteert u deze. Selecteer vervolgens **OK**. 
+Op de eigenschappenpagina van het timerbesturingselement kunt u de gewenste eigenschappen invoeren of selecteren en vervolgens selecteert u **OK**. 
 
   
 <a name="BKMK_TimerControlProperties"></a>   
 
-## <a name="timer-control-properties"></a>Eigenschappen van de timer control  
- In de volgende tabel worden de eigenschappen van een timer control beschreven.  
+## <a name="timer-control-properties"></a>Eigenschappen van timerbesturingselementen  
+ In de volgende tabel worden de eigenschappen van een timerbesturingselement beschreven.  
   
 |Groep|Naam|Beschrijving|  
 |-----------|----------|-----------------|  
-|Naam|Naam|**Vereist**. Een unieke naam voor de control.|  
-||Label|**Vereist**. Het label dat voor de timer control wordt weergegeven.|  
-|Gegevensbron|Veld voor tijd van mislukte poging|**Vereist**. Kies een van de datum-/tijdvelden voor de entiteit die weergegeven wanneer een mijlpaal moet zijn voltooid.|  
-||Slagingsvoorwaarde|**Vereist**. Selecteer een veld voor de entiteit om het succes van de mijlpaal te beoordelen. Kies vervolgens welke optie aangeeft of de actie is geslaagd.|  
-||Waarschuwingsvoorwaarde|Selecteer een veld voor de entiteit om te beoordelen of het slagen van de mijlpaal dreigt te mislukken, zodat een waarschuwing kan worden weergegeven. Kies vervolgens welke optie aangeeft of een waarschuwing moet worden weergegeven.|  
-||Annuleringsvoorwaarde|Selecteer een veld voor de entiteit om te beoordelen of het bereiken de mijlpaal moet worden geannuleerd. Kies vervolgens welke optie aangeeft dat de mijlpaal is geannuleerd.|  
+|Naam|Naam|**Vereist**. Een unieke naam voor het besturingselement.|  
+||Etiket|**Vereist**. Het label dat moet worden weergegeven voor het timerbesturingselement.|  
+|Gegevensbron|Veld voor tijd van storing|**Vereist**. Kies een van de datum/tijd-velden voor de entiteit om aan te geven wanneer een mijlpaal met succes kan worden voltooid.|  
+||Slagingsvoorwaarde|**Vereist**. Selecteer een veld voor de entiteit om het succes van de mijlpaal te evalueren en kies vervolgens welke optie succes aangeeft.|  
+||Waarschuwingsvoorwaarde|Selecteer een veld voor de entiteit om te evalueren of het succes van de mijlpaal gevaar loopt zodat een waarschuwing moet worden weergegeven. Kies vervolgens welke optie aangeeft dat een waarschuwing moet worden weergegeven.|  
+||Voorwaarde annuleren|Selecteer een veld voor de entiteit om te evalueren of de voltooiing van de mijlpaal moet worden geannuleerd. Kies vervolgens welke optie aangeeft dat de mijlpaal is geannuleerd.|  
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Overzicht van gebruikersinterface van de formuliereneditor](form-editor-user-interface-legacy.md)
+[Overzicht van de gebruikersinterface van de formuliereneditor](form-editor-user-interface-legacy.md)

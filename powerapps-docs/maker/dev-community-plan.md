@@ -1,6 +1,6 @@
 ---
-title: 'PowerApps Community-abonnement: een gratis ontwikkelingsomgeving voor individueel gebruik | Microsoft Docs'
-description: Registreer u om vaardigheden op te doen en meer informatie te krijgen over PowerApps, Microsoft Flow en Common Data Service.
+title: Plan voor PowerApps Community -- een gratis ontwikkelomgeving voor individueel gebruik | Microsoft Docs
+description: 'Meld u aan om vaardigheden op te bouwen en meer te weten te komen over PowerApps, Microsoft Flow en de Common Data Service.'
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -8,121 +8,115 @@ ms.topic: conceptual
 ms.custom: canvas
 ms.date: 05/01/2016
 ms.author: anneta
-ms.reviewer: ''
-ms.openlocfilehash: a187e50bd4d1819d1579c6db219588e3582f5c25
-ms.sourcegitcommit: 0e9af8cace2bdc04750f4c5a70a3c4af8e3d2292
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2018
-ms.locfileid: "39195675"
+ms.reviewer: null
 ---
-# <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>PowerApps Community-abonnement: een gratis ontwikkelingsomgeving voor individueel gebruik
-Als u vaardigheden wilt opdoen en meer informatie wilt over PowerApps, Microsoft Flow en Common Data Service, is het PowerApps Community-abonnement het juiste abonnement voor u. Het PowerApps Community-abonnement geeft u een gratis ontwikkelingsomgeving voor individueel gebruik, waarin u het volgende kunt doen:
+# <a name="powerapps-community-plan-a-free-development-environment-for-individual-use"></a>Plan voor PowerApps Community: een gratis ontwikkelomgeving voor individueel gebruik
+Als u vaardigheden wilt opbouwen en meer te weten wilt komen over PowerApps, Microsoft Flow en de Common Data Service, is het plan voor PowerApps Community precies wat u nodig hebt. Het plan voor PowerApps Community biedt u een gratis ontwikkelomgeving voor individueel gebruik waar u het volgende kunt doen:
 
-* Leren hoe u zakelijke apps en werkstromen bouwt met de volledige functionaliteit van PowerApps en Microsoft Flow.
-* Verbinding maken met elke gegevensbron door onze 100+ [kant-en-klare connectors](./canvas-apps/connections-list.md) te gebruiken of door uw eigen [aangepaste connectors](./canvas-apps/register-custom-api.md) te maken.
-* Ontdekken hoe u [Common Data Service](https://docs.microsoft.com/common-data-service/entity-reference/introduction) kunt gebruiken om krachtige zakelijke apps te bouwen met het Common Data Model en [de SDK](https://aka.ms/eek20s).
-* De oplossingen die u in uw individuele omgeving maakt exporteren, en [deze vermelden op AppSource](./canvas-apps/dev-appsource-test-drive.md) zodat uw klanten ze kunnen uitproberen.
+* Meer te weten komen over het bouwen van apps en werkstromen met de volledige functionaliteit van PowerApps en Microsoft Flow.
+* Verbinding maken met een willekeurige gegevensbron via een van onze meer dan 100 [standaardconnectors](./canvas-apps/connections-list.md) of door uw eigen [aangepaste connectors](./canvas-apps/register-custom-api.md) te ontwikkelen.
+* Bekijk hoe u de [Common Data Service](https://docs.microsoft.com/common-data-service/entity-reference/introduction) kunt gebruiken om krachtige bedrijfsapps te bouwen met het gemeenschappelijke gegevensmodel en de [SDK](https://aka.ms/eek20s).
+* Exporteer de oplossingen die u maakt in uw eigen omgeving en [vermeld ze in AppSource](./canvas-apps/dev-appsource-test-drive.md) zodat uw klanten ze kunnen uitproberen.
 
-## <a name="who-can-sign-up-for-the-powerapps-community-plan"></a>Wie kan zich aanmelden voor het PowerApps Community-abonnement?
-Iedereen met een [werk- of schoolaccount](signup-for-powerapps.md#faq) kan zich aanmelden voor het PowerApps Community-abonnement. Maar we raden dit abonnement vooral aan als u:
+## <a name="who-can-sign-up-for-the-powerapps-community-plan"></a>Wie kan zich aanmelden voor het plan voor PowerApps Community?
+Iedereen met een [werk- of schoolaccount](signup-for-powerapps.md#faq) kan zich aanmelden voor het plan voor PowerApps Community. Maar wij raden dit plan met name aan als u:
 
-* Vaardigheden wilt opdoen en meer informatie wilt over PowerApps, Microsoft Flow en Common Data Service.
-* Geïnteresseerd bent in het bouwen van zakelijke apps en werkstromen voor distributie op AppSource.
+* Vaardigheden wilt opbouwen en meer te weten wilt komen over PowerApps, Microsoft Flow en de Common Data Service.
+* Geïnteresseerd bent in het bouwen van bedrijfsapps en werkstromen om op AppSource te distribueren.
 
-## <a name="where-can-i-sign-up-for-the-powerapps-community-plan"></a>Waar kan ik me aanmelden voor het PowerApps Community-abonnement?
-Meld u aan op de [website voor PowerApps Community-abonnementen](https://powerapps.microsoft.com/communityplan). Als u een bestaande gebruiker van PowerApps met Office 365 of Dynamics 365 bent, kunt u ook [een omgeving voor individueel gebruik maken](https://web.powerapps.com/community/signup).
+## <a name="where-can-i-sign-up-for-the-powerapps-community-plan"></a>Waar kan ik me aanmelden voor het plan voor PowerApps Community?
+Meld u aan op de [website van het plan voor PowerApps Community](https://powerapps.microsoft.com/communityplan). Als u een bestaande gebruiker van PowerApps met Office 365 of Dynamics 365 bent, kunt u ook [een omgeving voor individueel gebruik maken](https://web.powerapps.com/community/signup).
 
-Nadat u zich hebt aangemeld voor het Community-abonnement, wordt u naar de [PowerApps-site](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) geleid en komt u in uw individuele omgeving terecht. De omgeving krijgt uw naam, bijvoorbeeld 'John Doe's omgeving'. Als er al een omgeving met die naam bestaat, krijgt de individuele omgeving de naam 'John Doe's (1) omgeving'.  De volgende afbeelding toont hoe de omgeving eruitziet.
+Nadat u hebt aangemeld voor het plan voor PowerApps Community, wordt u omgeleid naar de [site voor PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en komt u in uw eigen omgeving terecht. De omgeving draagt uw naam, bijvoorbeeld 'Omgeving van Jan Pieters'. Als er al een omgeving met die naam is, krijgt de individuele omgeving de naam 'Omgeving van Jan Pieters (1)'.  De onderstaande figuur laat zien hoe de omgeving wordt weergegeven.
 
-![Individuele omgeving voor Community-abonnement](./media/dev-community-plan/individual-environment.png)
+![Individuele omgeving voor plan voor PowerApps Community](./media/dev-community-plan/individual-environment.png)
 
-### <a name="get-the-community-plan-with-visual-studio-dev-essentials"></a>Neem het Community-abonnement met Visual Studio Dev Essentials
-Als u een gebruiker van Visual Studio Dev Essentials bent, is PowerApps inbegrepen in uw voordelen. Ga naar [Mijn voordelen](https://my.visualstudio.com/benefits) en klik of tik op de PowerApps-tegel om u aan te melden voor het PowerApps Community-abonnement.
+### <a name="get-the-community-plan-with-visual-studio-dev-essentials"></a>Het plan voor PowerApps Community gebruiken met Visual Studio Dev Essentials
+Als u een gebruiker van Visual Studio Dev Essentials bent, maakt PowerApps deel uit van uw voordelen. Ga naar [Mijn voordelen](https://my.visualstudio.com/benefits) en klik of tik op de PowerApps-tegel om zich aan te melden voor het plan voor PowerApps Community.
 
-![Community-abonnement in Visual Studio](./media/dev-community-plan/visual-studio.png)
+![Plan voor PowerApps Community in Visual Studio](./media/dev-community-plan/visual-studio.png)
 
-## <a name="which-features-are-included-in-the-powerapps-community-plan"></a>Welke functies zijn inbegrepen in het PowerApps Community-abonnement?
-Met de individuele omgeving krijgt u de volgende functionaliteit:
+## <a name="which-features-are-included-in-the-powerapps-community-plan"></a>Welke functies maken deel uit van het plan voor PowerApps Community?
+De individuele omgeving biedt u de volgende functies:
 
-| **Functionaliteiten** | **Omgeving voor individueel gebruik** |
+| **Functies** | **Omgeving voor individueel gebruik** |
 | --- | --- |
 | **Belangrijke functies** | |
 | Apps maken en uitvoeren |Ja. U kunt een onbeperkt aantal apps maken |
 | Apps delen\* |Nee |
-| Common Data Service gebruiken |Ja** |
-| Uw gegevens modelleren met behulp van Common Data Service |Ja** |
-| Omgevingsbeheer en gebruikersbeleid van ondernemingsniveau |Ja |
+| De Common Data Service gebruiken |Ja** |
+| Uw gegevens modelleren met de Common Data Service |Ja** |
+| Beheer van omgeving en gebruikersbeleid van ondernemingsniveau |Ja |
 | **Connectiviteit** | |
 | Verbinding maken met Office 365, Dynamics 365 en andere connectors |Ja |
-| Verbinding maken met cloudservices zoals Azure SQL, Dropbox, Twitter en nog vele andere |Ja |
-| Premium-connectors zoals Salesforce, DB2 en nog vele andere gebruiken |Ja |
-| Toegang tot on‐premises gegevens met behulp van een on-premises gateway |Ja |
-| Aangepaste connectors maken voor verbinding met uw eigen systemen |Ja. U kunt een onbeperkt aantal aangepaste connectors maken |
+| Verbinding maken met cloudservices zoals Azure SQL, Dropbox, Twitter en vele andere |Ja |
+| Premium connectors gebruiken zoals Salesforce, DB2 en nog vele andere |Ja |
+| On‐premises gegevens gebruiken via een on-premises gateway |Ja |
+| Aangepaste connectors maken om met uw eigen systemen te verbinden |Ja. U kunt een onbeperkt aantal aangepaste connectors maken |
 | **Common Data Service** | |
-| Toepassingen maken en uitvoeren in Common Data Service |Ja** |
-| Uw gegevens modelleren in Common Data Service |Ja** |
-| Een database maken in Common Data Service |Ja** |
+| Toepassingen maken en uitvoeren in de Common Data Service |Ja** |
+| Uw gegevens modelleren in de Common Data Service |Ja** |
+| Een database maken in de Common Data Service |Ja** |
 | **Beheer** | |
-| Collega's als omgevingsmakers en -beheerders toevoegen |Nee |
-| Collega's aan de databaserollen toevoegen |Nee |
-| Ondersteunt door de Office 365-beheerder bepaald gegevensbeleid |Ja |
-| Gegevensbeleid voor de individuele omgeving opstellen |Ja |
+| Collega's toevoegen als omgevingsmakers en beheerders |Nee |
+| Collega's toevoegan aan de databaserollen |Nee |
+| Ondersteuning bieden voor gegevensbeleid dat is opgesteld door de Office 365-beheerder |Ja |
+| Gegevensbeleid opstellen voor de individuele omgeving |Ja |
 
-*U kunt apps, stromen, verbindingen, enz. niet met andere gebruikers van uw tenant delen. U kunt een andere gebruiker ook niet als een omgevingsbeheerders of -maker toevoegen of aan de databaserollen toevoegen vanuit het beheercentrum.
+*U kunt apps, stromen, verbindingen enzovoort niet met andere gebruikers van uw tenant delen. U kunt ook geen andere gebruiker toevoegen als omgevingsbeheerder of -maker, of aan de databaserollen vanuit het beheercentrum.
 
-\*\*Het maken van een database met de Common Data Service is momenteel niet beschikbaar in een afzonderlijke omgeving. Binnenkort is deze mogelijkheid weer beschikbaar. Als u eerder een database hebt gemaakt, kunt u deze zonder problemen blijven gebruiken. 
+\*\*Een database maken met de Common Data Service is momenteel niet mogelijk in een individuele omgeving, maar komt snel opnieuw beschikbaar. Als u eerder een database hebt gemaakt, kunt u deze zonder problemen blijven gebruiken. 
 
 ## <a name="what-are-the-capacity-limits-for-the-individual-environment"></a>Wat zijn de capaciteitslimieten voor de individuele omgeving?
 
 | **Capaciteit** |  |
 | --- | --- |
-| Stroomuitvoeringen/maand |750 |
-| Databasegrootte |200 MB |
-| File-opslag |2 GB |
+| Flowruns per maand |750 |
+| Grootte van database |200 MB |
+| Bestandsopslag |2 GB |
 
-U kunt geen invoegtoepassingen op de inbegrepen aantallen toepassen. Als u de capaciteitslimieten bereikt, raden we aan PowerApps-abonnement 2 te kopen. Meer informatie vindt u op de [PowerApps-pagina met prijzen](https://powerapps.microsoft.com/pricing/).
+U kunt geen invoegtoepassingen toevoegen aan de aantallen die wij meeleveren. Als u tegen capaciteitslimieten aanloopt, adviseren wij u PowerApps Plan 2 aan te schaffen. Meer informatie hierover vindt u op de [pagina met prijzen voor PowerApps](https://powerapps.microsoft.com/pricing/).
 
 > [!NOTE]
-> De capaciteit van de individuele omgeving, ongeacht of deze wordt gebruikt, draagt niet bij aan het algehele quotum van uw bedrijf.
+> De capaciteit van de individuele omgeving, ongeacht of deze wordt gebruikt, telt niet mee met de algehele target van uw bedrijf.
 
-## <a name="publishing-to-appsource"></a>Publiceren op AppSource
-Hebt u een app die u met klanten wilt delen? We ondersteunen nu een PowerApps Test Drive-oplossing op [AppSource.com](https://appsource.microsoft.com), zodat u apps en stromen met klanten kunt delen en leads voor uw bedrijf kunt genereren. Zie [Klanten uw apps laten uitproberen op AppSource](./canvas-apps/dev-appsource-test-drive.md) voor meer informatie.
+## <a name="publishing-to-appsource"></a>Publiceren naar AppSource
+Hebt u een app die u met klanten wilt delen? Wij bieden nu een Test Drive-oplossing voor PowerApps aan op [AppSource.com](https://appsource.microsoft.com) als manier om apps en flows te delen met klanten en potentiële klanten voor uw bedrijf te genereren. Zie [Klanten uw apps in AppSource laten uitproberen](./canvas-apps/dev-appsource-test-drive.md) voor meer informatie.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
-**V:** Wat moet ik doen als ik de capaciteitslimieten van de omgeving heb bereikt?
+**V:** Wat moet ik doen als ik de capaciteitslimieten van de omgeving bereik?
 
-**A:** Er wordt maar beperkte capaciteit geboden, omdat deze omgeving bedoeld is voor individueel gebruik en niet voor team- of productiegebruik. De geboden capaciteit is:
+**A:** Er is beperkte capaciteit beschikbaar omdat deze omgeving bedoeld is voor individueel gebruik, niet voor gebruik door teams of voor productie. De beschikbare capaciteit bedraagt:
 
 | **Capaciteit** |  |
 | --- | --- |
-| Stroomuitvoeringen/maand |750 |
-| Databasegrootte |200 MB |
-| File-opslag |2 GB |
+| Flowruns per maand |750 |
+| Grootte van database |200 MB |
+| Bestandsopslag |2 GB |
 
-Als u een of meer capaciteitslimieten hebt bereikt, raden we aan dat u een abonnement koopt dat productiegebruik ondersteunt. Meer informatie over onze abonnementen en hun limieten vindt u op de [PowerApps-pagina met prijzen](https://powerapps.microsoft.com/pricing/).
+Als u een of meer capaciteitslimieten bereikt, adviseren we u een plan aan te schaffen dat productiegebruik ondersteunt. Meer informatie over onze plannen en hun limieten kunt u vinden op de [pagina met prijzen voor PowerApps](https://powerapps.microsoft.com/pricing/).
 
-**V:** Kan ik de apps, stromen en andere resources die in de individuele omgeving zijn gemaakt, overdragen naar een andere omgeving?
+**V:** Kan ik de apps, stromen en andere resources die in de individuele omgeving zijn gemaakt overbrengen naar een andere omgeving?
 
-**A:** Ja, u moet de resources uit deze omgeving naar andere omgevingen kunnen exporteren. Zie [Apps migreren tussen omgevingen en tenants](../administrator/environment-and-tenant-migration.md) voor meer informatie.
+**A:** Ja, u zou in staat moeten zijn de resources vanuit deze omgeving naar andere omgevingen te exporteren. Raadpleeg [Apps migreren vanuit omgeving en tenant](../administrator/environment-and-tenant-migration.md) voor meer informatie.
 
-**V:** Zal mijn PowerApps Community-abonnement ooit verlopen?
+**V:** Verloopt mijn abonnement op het plan voor PowerApps Community ooit?
 
-**A:** U kunt uw PowerApps Community-abonnement altijd gratis blijven gebruiken. Als u een individuele omgeving actief gebruikt, zult u de toegang tot alle resources en functionaliteit in die omgeving niet verliezen. Er kan echter een vertraging zijn wanneer u uw Common Data Service-database na een lange periode van inactiviteit voor het eerst weer gebruikt.  Deze vertraging heeft geen invloed op de gegevens of entiteiten die in Common Data Service zijn opgeslagen.
+**A:** U kunt uw abonnement op het plan voor PowerApps Community onbeperkt kostenloos blijven gebruiken. Als u actief gebruiktmaakt van een individuelde omgeving, raakt u de toegang tot de resources of functies in deze omgeving niet kwijt. U zult mogelijk echter wel een vertraging opmerken bij het openen van uw Common Data Service-database als u deze voor het eerst weer gebruikt na langdurige inactiviteit.  Deze vertraging heeft geen invloed op de gegevens of entiteiten die zijn opgeslagen in de Common Data Service.
 
 **V:** Kan ik meerdere individuele omgevingen krijgen of maken?
 
-**A:** Nee, u mag slechts één individuele omgeving hebben, die PowerApps voor u maakt wanneer u zich registreert voor het Community-abonnement.
+**A:** Nee, u kunt slechts één individuele omgeving hebben, die speciaal voor u is gemaakt door PowerApps bij aanmelding voor het plan voor PowerApps Community.
 
-**V:** Wat is het verschil tussen de proefversie van PowerApps-abonnement 2 en het PowerApps Community-abonnement en voor welke moet ik me aanmelden?
+**V:** Wat is het verschil tussen de proefversie voor PowerApps Plan 2 en het plan voor PowerApps Community en voor welk plan kan ik me het beste aanmelden?
 
-**A:** Zowel de proefversie van PowerApps-abonnement 2 als het PowerApps Community-abonnement is gratis, maar ze zijn voor verschillende doeleinden gemaakt:
+**A:** Zowel de proefversie van PowerApps Plan 2 als het plan voor PowerApps Community is gratis, maar beide zijn voor verschillende doeleinden gemaakt:
 
-Met de **proefversie van PowerApps-abonnement 2** krijgt u 30 dagen lang PowerApps-abonnement 2. Het is bedoeld om PowerApps, Common Data Service en Microsoft Flow uit te proberen. Wanneer uw proefversie is verlopen, kunt u een abonnement kopen. Als u PowerApps al gebruikt met Office 365 of Dynamics 365, is dit het juiste abonnement om de premium-functies van PowerApps uit te proberen, die beschikbaar zijn met PowerApps-abonnement 2.
+**Proefversie PowerApps Plan 2** biedt u 30 dagen lang toegang tot PowerApps Plan 2. Dit is bedoeld voor het uitproberen van PowerApps, Common Data Service en Microsoft Flow. Wanneer uw proefperiode is afgelopen, kunt u een plan kopen. Als u al gebruikmaakt van PowerApps met Office 365 of Dynamics 365, is dit het juiste plan om de premium functies van PowerApps uit te proberen, die beschikbaar zijn in PowerApps Plan 2.
 
-Met het **PowerApps Community-abonnement** krijgt u toegang tot de premium-functies van PowerApps, Common Data Service en Microsoft Flow voor individueel gebruik. Dit abonnement is voornamelijk bedoeld voor leerdoeleinden of het maken van zakelijke oplossingen om te distribueren voor [AppSource Test Drive](./canvas-apps/dev-appsource-test-drive.md). Dit abonnement is altijd beschikbaar, maar alleen voor het aanleren en ontwikkelen van uw vaardigheden in PowerApps, Common Data Services en Microsoft Flow.
+**Het plan voor PowerApps Community** biedt toegang tot premium functies van PowerApps, Common Data Service en Microsoft Flow voor individueel gebruik. Dit plan is in de eerste plaats bedoeld voor leerdoeleinden of voor het maken van bedrijfsoplossingen die moeten worden gedistribueerd voor [AppSource Test Drive](./canvas-apps/dev-appsource-test-drive.md) Dit plan is onbeperkt beschikbaar, maar alleen voor het leren en opbouwen van uw vaardigheden met PowerApps, Common Data Services en Microsoft Flow.
 
-**V:** Kan ik me aanmelden met mijn persoonlijke account?
+**V:** Kan ik me aanmelden met mijn persoonlijk account?
 
 **A:** Nee, u kunt zich alleen aanmelden met uw [werk- of schoolaccount](signup-for-powerapps.md#faq). We bieden momenteel geen ondersteuning voor aanmelding met een persoonlijk account.
 

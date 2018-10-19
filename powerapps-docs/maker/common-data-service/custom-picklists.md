@@ -33,7 +33,8 @@ Optiesets kunnen op twee manieren worden gemaakt: via de lijst met optiesets in 
 
 4. Voer in het nieuwe veldpaneel de **Weergavenaam** voor uw veld in. De **Naam** wordt automatisch ingevuld en wordt gebruikt als de unieke naam voor uw veld. De **Weergavenaam** wordt gebruikt wanneer dit veld aan uw gebruikers wordt gepresenteerd. De **Naam** wordt gebruikt bij het bouwen van uw app, in expressies en formules.
 
-    ![Nieuw veld](./media/data-platform-cds-create-entity/newfieldpanel.png "Paneel Nieuw veld")
+    > [!div class="mx-imgBorder"] 
+    > ![Nieuw veld](./media/data-platform-cds-create-entity/newfieldpanel.png "Paneel Nieuw veld")
 
 5. Klik op de vervolgkeuzelijst **Gegevenstype** en selecteer **Optieset** of **Optieset voor meervoudige selectie**.
 
@@ -46,34 +47,40 @@ Optiesets kunnen op twee manieren worden gemaakt: via de lijst met optiesets in 
 
 7. Een nieuw paneel wordt geopend waarin u de optieset kunt maken. **Weergavenaam** en **Naam** worden standaard overgenomen van de naam van het veld, maar kan zo nodig worden gewijzigd. Klik op **Nieuw item toevoegen** om met het maken van uw lijst met opties te starten. Herhaal deze stap totdat al uw items zijn gemaakt.
 
-    ![Nieuwe optieset](./media/data-platform-cds-newoptionset/field-optionsetpanel.png "Nieuwe optieset")
+    > [!div class="mx-imgBorder"] 
+    > ![Nieuwe optieset](./media/data-platform-cds-newoptionset/field-optionsetpanel.png "Nieuwe optieset")
 
 8. Zodra u uw items hebt ingevoerd, klikt u op **Opslaan** om uw optieset te maken.
 
-    ![Nieuwe optieset](./media/data-platform-cds-newoptionset/field-optionsetpanel-values.png "Nieuwe optieset")
+    > [!div class="mx-imgBorder"] 
+    > ![Nieuwe optieset](./media/data-platform-cds-newoptionset/field-optionsetpanel-values.png "Nieuwe optieset")
 
 9. Klik op **Gereed** om het veldpaneel wilt sluiten en vervolgens op **Entiteit opslaan** om uw entiteit op te slaan voor de Common Data Service.
 
     > [!NOTE]
     > U kunt een van uw items als de **Standaard** voor dit veld selecteren, en het wordt standaard geselecteerd wanneer gebruikers nieuwe records in uw entiteit maken.
 
-    ![Nieuw veld](./media/data-platform-cds-newoptionset/fieldpanel-2.png "Paneel Nieuw veld")
+    > [!div class="mx-imgBorder"] 
+    > ![Nieuw veld](./media/data-platform-cds-newoptionset/fieldpanel-2.png "Paneel Nieuw veld")
 
 ## <a name="creating-an-option-set-from-the-option-set-list"></a>Een optieset maken via de optiesetlijst
 
 1. Vouw in [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) de sectie **Gegevens** uit en klik of tik op **Optiesets** in het linkernavigatiedeelvenster.
 
-    ![Optiesets](./media/data-platform-cds-newoptionset/optionsetlist.png "Optiesetlijst")
+    > [!div class="mx-imgBorder"] 
+    > ![Optiesets](./media/data-platform-cds-newoptionset/optionsetlist.png "Optiesetlijst")
 
 2. Klik op **Nieuwe optieset**
 
 3. Een nieuw paneel wordt geopend waarin u de optieset kunt maken. Voer de **Weergavenaam** en **Naam** in. Klik op **Nieuw item toevoegen** om met het maken van uw lijst met opties te starten. Herhaal deze stap totdat al uw items zijn gemaakt.
 
-    ![Optieset maken](./media/data-platform-cds-newoptionset/optionset-create.png "Optieset maken")
+    > [!div class="mx-imgBorder"] 
+    > ![Optieset maken](./media/data-platform-cds-newoptionset/optionset-create.png "Optieset maken")
 
 4. Zodra u uw items hebt ingevoerd, klikt u op **Opslaan** om uw optieset te maken.
 
-    ![Nieuwe optieset](./media/data-platform-cds-newoptionset/optionset-create-values.png "Nieuwe optieset")
+    > [!div class="mx-imgBorder"] 
+    > ![Nieuwe optieset](./media/data-platform-cds-newoptionset/optionset-create-values.png "Nieuwe optieset")
 
 5. U kunt nu deze optieset gebruiken door een nieuw veld in een entiteit te maken.
 

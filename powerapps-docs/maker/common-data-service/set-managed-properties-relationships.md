@@ -1,6 +1,6 @@
 ---
 title: Beheerde eigenschappen voor relaties instellen in PowerApps | MicrosoftDocs
-description: Instructies voor het instellen van beheerde eigenschappen voor een entiteitsrelatie
+description: Leer hoe u beheerde eigenschappen voor een entiteitsrelatie kunt instellen
 ms.custom: ''
 ms.date: 06/20/2018
 ms.reviewer: ''
@@ -9,29 +9,28 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
-- powerapps
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
+  - powerapps
 author: Mattp123
 ms.assetid: 914c5694-9c80-4424-be89-9f63256b4811
 caps.latest.revision: 33
 ms.author: matp
 manager: kvivek
-tags: ''
-ms.openlocfilehash: c5005a0910998b54e47a658b073318c354e0e1f5
-ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39674764"
+tags: null
+search.audienceType:
+  - maker
+search.app:
+  - PowerApps
+  - D365CE
 ---
-# <a name="set-managed-properties-for-relationships"></a>Beheerde eigenschappen voor relaties instellen
+# <a name="set-managed-properties-for-relationships"></a>Het instellen van beheerde eigenschappen voor relaties
 
 <a name="BKMK_ManagedProperties"></a>   
 
- Beheerde eigenschappen zijn alleen van toepassing wanneer u een veld met een beheerde oplossing insluit en deze in een andere organisatie importeert. Met deze instellingen heeft de maker van een oplossing enige controle over het aanpassingsniveau dat deze wil hebben voor gebruikers die hun beheerde oplossing installeren bij het aanpassen van een entiteitsrelatie. Als u beheerde eigenschappen voor een relatie wilt instellen, vouwt u in de oplossingsverkenner de entiteit uit, opent u de relatie en selecteert u vervolgens **Beheerde eigenschappen** in de menubalk.  
+ Beheerde eigenschappen is alleen van toepassing wanneer u een veld opneemt met een beheerde oplossing en deze importeert naar een andere organisatie. Met deze instellingen kan een oplossingsmaker enige invloed hebben op het niveau van aanpassing dat ze willen toestaan voor mensen die hun beheerde oplossing zullen installeren wanneer ze een entiteitsrelatie aanpassen. Als u beheerde eigenschappen wilt instellen voor een relatie, vouwt u de entiteit uit in de oplossingsverkenner, opent u de relatie en selecteert u vervolgens **Beheerde eigenschappen** op de menubalk.  
   
- Met relaties is **Kan worden aangepast** de enige beheerde eigenschap. Met deze ene instelling regelt u alle wijzigingen die aan de entiteitsrelatie kunnen worden aangebracht.  
+ Bij relaties is de enige beheerde eigenschap **Kan worden aangepast**. Deze instelling beheert alle wijzigingen die kunnen worden toegepast op de entiteitsrelatie.  
   
 ## <a name="next-steps"></a>Volgende stappen
 

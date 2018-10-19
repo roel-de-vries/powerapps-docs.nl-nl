@@ -8,125 +8,124 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
-- PowerApps
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
+  - PowerApps
 ms.author: matp
 manager: brycho
-ms.openlocfilehash: 4faf195f1c751e3796267d52725c1cb753c4889d
-ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39679916"
+search.audienceType:
+  - maker
+search.app:
+  - PowerApps
+  - D365CE
 ---
 # <a name="configure-connection-roles"></a>Verbindingsrollen configureren
 
-Met Common Data Service voor apps kunt u **verbindingen** definiëren tussen entiteitsrecords zonder een entiteitsrelatie te maken. In modelgestuurde apps kunnen mensen een benoemde koppeling tot stand brengen tussen records om een minder formele relatie tot stand te brengen die het maken van een daadwerkelijke entiteitsrelatie niet rechtvaardigt. Enkele voorbeelden zijn *vriend*, *bloedverwant*, *partner*, *deelnemer* en *belanghebbende*. Sommige verbindingen kunnen ook wederzijds zijn, zoals *kind* en *ouder*, *man* en *vrouw* of *dokter* en *patiënt*.
+Met Common Data Service voor Apps kunt u **verbindingen** tussen entiteitsrecords definiëren zonder een entiteitsrelatie te maken. In modelgestuurde apps kunnen mensen een benoemde koppeling maken tussen records om een minder formele relatie in te stellen waarvoor het niet nodig is een werkelijke entiteitsrelatie te maken. Enkele voorbeelden zijn *vriend*, *broer/zus*, *partner*, *genodigde* en *belanghebbende*. Sommige verbindingen kunnen ook wederzijds zijn, zoals *kind* en *ouder*, *echtgenoot* en *echtgenote* of *arts* en *patiënt*.
 
-Wanneer mensen een verbinding tussen twee records instellen, kunnen ze ook een beschrijving en aanvullende informatie toevoegen, zoals begin- en einddatums voor de relatie. Meer informatie: [Verbindingen tot stand brengen om relaties tussen records te definiëren en weer te geven](/dynamics365/customer-engagement/basics/create-connections-view-relationships-between-records)
+Wanneer mensen een verbinding tussen twee records instellen, kunnen zij ook een beschrijving en aanvullende informatie toevoegen, zoals begin- en einddatums voor de relatie. Meer informatie: [Verbindingen maken om relaties tussen records te definiëren en weer te geven](/dynamics365/customer-engagement/basics/create-connections-view-relationships-between-records).
 
-Iedereen met schrijftoegang tot de entiteit **Verbindingsrol** kan bepalen welke verbindingen mensen kunnen gebruiken.
+Iedereen met schrijftoegang tot de entiteit **Verbindingsrol** kan instellen welke verbindingen beschikbaar zijn voor gebruik door personen.
 
 ## <a name="view-connection-roles"></a>Verbindingsrollen weergeven
 
-Er is een aantal standaardverbindingsrollen vooraf geconfigureerd in CDS for Apps. Als u deze wilt weergeven, gaat u naar het instellingengedeelte. 
+Er is al een aantal standaardverbindingsrollen in CDS voor Apps geconfigureerd. Als u deze wilt weergeven, moet u naar het gebied met instellingen gaan. 
 
-### <a name="navigate-to-the-settings-area"></a>Naar het instellingengedeelte navigeren
+### <a name="navigate-to-the-settings-area"></a>Navigeren naar het gebied met instellingen
 
-1. Bewerk de URL tijdens het weergeven van een modelgestuurde app om alles na `dynamics.com` te verwijderen en vernieuw de pagina.
-1. Navigeer naar **Instellingen** > **Zakelijk** > **Ondernemingsbeheer** en selecteer vervolgens **Verbindingsrollen**.
+1. Bewerk tijdens het weergeven van een modelgestuurde app de URL om alles na `dynamics.com` te verwijderen en de pagina te vernieuwen.
+1. Navigeer naar **Instellingen** > **Bedrijf** > **Bedrijfsbeheer** en selecteer vervolgens **Verbindingsrollen**.
 
-![Verbindingsrollen in de instellingen voor Ondernemingsbeheer](media/navigate-settings-connection-roles.png)
+![Verbindingsrollen in de Bedrijfsbeheer-instellingen](media/navigate-settings-connection-roles.png)
 
-In deze weergave ziet u alle verbindingsrollen die beschikbaar zijn voor deze omgeving. U kunt ze hier bewerken.
+In deze weergave kunt u alle verbindingsrollen zien die voor deze omgeving beschikbaar zijn en u kunt ze hier bewerken.
 
 > [!NOTE]
-> Als u verbindingsrollen wilt distribueren met een oplossing, controleert u of ze zijn opgenomen in de oplossing die u wilt distribueren. Meer informatie: [Verbindingsrollen toevoegen aan een oplossing](#add-connection-roles-to-a-solution)
+> Als u verbindingsrollen met een oplossing wilt distribueren, moet u ervoor zorgen dat ze in de oplossing zijn opgenomen die u wilt distribueren. Meer informatie: [Verbindingsrollen aan een oplossing toevoegen](#add-connection-roles-to-a-solution)
 
-## <a name="view-connection-roles-in-the-solution-explorer"></a>U kunt verbindingsrollen weergeven in de Solution Explorer.
+## <a name="view-connection-roles-in-the-solution-explorer"></a>Geef verbindingsrollen in de oplossingenverkenner weer.
 
-Omdat verbindingsrollen *oplossingen ondersteunen*, wat betekent dat ze kunnen worden opgenomen in een oplossing, kunt u verbindingsrollen ook toevoegen aan een oplossing die u distribueert.
+Omdat verbindingsrollen *oplossingen ondersteunen*, wat betekent dat ze in een oplossing kunnen worden opgenomen, kunt u verbindingsrollen ook toevoegen aan een oplossing die u distribueert.
 
 [!INCLUDE [cc_navigate-solution-from-powerapps-portal](../../includes/cc_navigate-solution-from-powerapps-portal.md)]
 
-De meeste verbindingsrollen die u kunt zien in het gedeelte **Instellingen**, zijn gedefinieerd in de *interne* **Standaardoplossing** (niet te verwarren met de **Common Data Services-standaardoplossing**). Deze interne **Standaardoplossing** bevat alle aanpassingen in het systeem. Als u de **Standaardoplossing** wilt weergeven, kiest u de weergave **Alle oplossingen - Intern**.
+De meeste verbindingsrollen die u kunt zien in het gebied **Instellingen**, worden gedefinieerd in de *interne* **Standaardoplossing** (niet te verwarren met de **Common Data Service-standaardoplossing**). Deze interne **Standaardoplossing** bevat alle aanpassingen in het systeem. Als u de **Standaardoplossing** wilt weergeven, kiest u de weergave **Alle oplossingen - intern**.
 
-## <a name="add-connection-roles-to-a-solution"></a>Verbindingsrollen toevoegen aan een oplossing
+## <a name="add-connection-roles-to-a-solution"></a>Verbindingsrollen aan een oplossing toevoegen
 
-Over het algemeen wordt het niet aanbevolen om onderdelen te bewerken in de interne **Standaardoplossing**. Binnen de **Common Data Services-standaardoplossing** of een oplossing die u hebt gemaakt om in te werken, kunt u de opdracht **Bestaand item toevoegen** om een van de standaardverbindingsrollen in uw oplossing te brengen.
+In het algemeen wordt het afgeraden om onderdelen in de interne **Standaardoplossing** te bewerken. Binnen de **Common Data Service-standaardoplossing** of een oplossing die u hebt gemaakt om in te werken, kunt u de opdracht **Bestaande toevoegen** gebruiken om standaardverbindingsrollen in uw oplossing te halen.
 
 ![Bestaande verbindingsrol toevoegen](media/add-existing-connection-role.png)
 
-Als u de verbindingsrol eenmaal hebt toegevoegd aan uw oplossing, kunt u deze bewerken daar waar de rol zichtbaar is.
+Zodra u de verbindingsrol aan uw oplossing toevoegt, kunt u deze bewerken waar deze zichtbaar is.
 
 ## <a name="create-or-edit-connection-roles"></a>Maak of bewerk verbindingsrollen.
 
 > [!IMPORTANT]
-> Als u van plan bent een oplossing te distribueren die nieuwe verbindingsrollen of wijzigingen in de bestaande verbindingsrollen bevat, moet u deze rollen toevoegen aan de oplossing die u wilt distribueren. Wanneer u verbindingsrollen bewerkt of nieuwe verbindingsrollen toevoegt met behulp van het gedeelte **Instellingen**, worden deze verbindingsrollen toegevoegd aan de interne **standaardoplossing** en worden ze niet opgenomen in de oplossing die u wilt distribueren, tenzij u ze eerst toevoegt aan uw oplossing. Meer informatie: [Verbindingsrollen toevoegen aan een oplossing](#add-connection-roles-to-a-solution)
+> Als u van plan bent een oplossing te distribueren die nieuwe verbindingsrollen of wijzigingen in de bestaande verbindingsrollen bevat, moet u deze aan de oplossing toevoegen die u distribueert. Als u nieuwe verbindingsrollen met het gebied **Instellingen** bewerkt of maakt, worden deze verbindingsrollen toegevoegd aan de interne **Standaardoplossing** en worden ze niet opgenomen in de oplossing die u distribueert, tenzij u deze eerst aan uw oplossing toevoegt. Meer informatie [Verbindingsrollen aan een oplossing toevoegen](#add-connection-roles-to-a-solution)
 
-In de lijst **Verbindingsrollen** selecteert u een van de verbindingsrollen om te bewerken.
-Er zijn drie stappen om een verbindingsrol te definiëren die duidelijk in het formulier worden genoemd.
+Selecteer in de lijst **Verbindingsrollen** een van de verbindingsrollen om deze te bewerken.
+Er zijn drie stappen om een verbindingsrol te definiëren. Deze stappen worden duidelijk in het formulier genoemd.
 
 ![Formulier Verbindingsrol maken](media/create-connection-role-form.png)
 
-### <a name="describe-the-connection-role"></a>De verbindingsrol beschrijven
+### <a name="describe-the-connection-role"></a>De verbindingsrol omschrijven
 
 Stel de volgende velden in:
 
 |Veld|Beschrijving|
 |--|--|
-|**Naam**|(Vereist) De tekst die de verbinding beschrijft.|
-|**Categorie van verbindingsrol**|Een groep die de categorie van de verbinding beschrijft. Meer informatie: [Waarden van de verbindingsrolcategorie](#connection-role-category-values)|
-|**Description**|Geef een definitie op voor de rol.|
+|**Name**|(Vereist) De tekst waarmee de verbinding wordt beschreven.|
+|**Categorie van verbindingsrol**|Een groep waarmee de categorie van de verbinding wordt beschreven. Meer informatie: [Waarden van categorie van verbindingsrol](#connection-role-category-values)|
+|**Beschrijving**|Geef een definitie op voor de rol.|
 
-#### <a name="connection-role-category-values"></a>Waarden voor de verbindingsrolcategorie
+#### <a name="connection-role-category-values"></a>Waarden van Categorie van verbindingsrol
 
-De standaardwaarden voor **Categorie van verbindingsrol** zijn:
-- Business
-- Familie
+De standaardwaarden **Categorie van verbindingsrol** zijn:
+- Onderneming
+- Gezin
 - Sociaal
-- Verkoop
-- Overige
+- Sales
+- Overig
 - Belanghebbende
-- Verkoopteam
+- VERKOOPTEAM
 - Service
 
-U kunt nieuwe categorieën toevoegen of bestaande wijzigen door de globale optieset **Categorie** te bewerken. Meer informatie: [Globale optiesets maken en bewerken voor Common Data Service for Apps (selectielijsten)](create-edit-global-option-sets.md)
+U kunt nieuwe categorieën toevoegen of bestaande categorieën aanpassen door de algemene optieset **Categorie** te bewerken. Meer informatie: [Algemene optiesets maken en bewerken voor Common Data Service voor Apps (selectielijsten)](create-edit-global-option-sets.md)
 
 ### <a name="select-record-types"></a>Recordtypen selecteren
 
-Selecteer welke recordtypen beschikbaar moeten zijn om verbinding mee te maken.
+Selecteer welke recordtypen beschikbaar moeten zijn om te verbinden.
 
 > [!NOTE]
-> Hoewel **Alle** standaard is geselecteerd, moet u wel kijken welke typen geschikt zijn voor de verbindingsrol die u wilt toevoegen.
+> Hoewel **Alle** standaard is geselecteerd, moet u nagaan welke typen geschikt zijn voor de verbindingsrol die u toevoegt.
 
 ### <a name="matching-connection-roles"></a>Overeenkomende verbindingsrollen
 
-In deze optionele stap kunt u rollen definiëren die op een wederkerige manier worden toegepast. Dit is niet vereist, maar verbindingen zijn duidelijker als ze zijn gedefinieerd.
+In deze optionele stap kunt u alle rollen definiëren die op een wederzijdse manier worden toegepast. Het is niet vereist, maar verbindingen hebben meer betekenis als deze worden gedefinieerd.
 
-Mensen kunnen bijvoorbeeld instellen dat Glen een *Vriend* is van Mary, maar betekent dit dat Mary een *Vriend* is van Glen? Dat hopen we. Maar als Glen de *vader* is van Mary, betekent dit niet dat Mary de *vader* van Glen is. Deze extra stap is vereist om de juiste wederkerigheid tot stand te brengen.
+Zo kunnen mensen instellen dat Gerard een *Vriend* van Maria is, maar betekent dit dat Maria een *Vriend* van Gerard is? We hopen het maar. Maar als Gerard de *Vader* is van Maria, betekent dit niet dat Maria de *Vader* is van Gerard. Voor een juiste instelling hiervan is deze extra stap vereist.
 
-Wanneer mensen een verbindingsrol instellen die geen overeenkomende verbindingsrol heeft, wordt de rol alleen weergegeven wanneer de verbinding wordt weergegeven van de record waarop de verbinding is toegepast. Wanneer deze wordt bekeken vanaf de verbonden record, is de rol leeg, tenzij een overeenkomende rol is ingesteld.
+Als mensen een verbindingsrol instellen die geen overeenkomende verbindingsrol heeft, wordt de rol alleen weergegeven wanneer de verbinding wordt weergegeven vanuit de record waarop de verbinding is toegepast. Wanneer de rol wordt weergegeven vanuit de verbonden record, is de rol leeg tenzij een overeenkomende rol is ingesteld.
 
-Voor roldefinities als *Vriend*, *Partner*, *Collega* of *Bloedverwant* kunt u de overeenkomende rol het beste toewijzen aan zichzelf. Als één overeenkomende verbindingsrol is geconfigureerd, wordt de enkele overeenkomende verbindingsrol toegepast in beide richtingen.
+Voor roldefinities zoals *Vriend*, *Echtgenoot*, *Collega* of *Broer/zus* kunt u het beste de overeenkomende rol aan de rol zelf toewijzen. Als één overeenkomende verbindingsrol is geconfigureerd, wordt deze enige overeenkomende verbindingsrol in beide richtingen toegepast.
 
 > [!IMPORTANT]
-> U moet een nieuwe verbindingsrol opslaan zonder deze overeenkomende verbindingsrol voordat u de overeenkomende verbindingsrol kunt instellen op zichzelf.
+> U moet een nieuwe verbindingsrol opslaan zonder deze overeenkomende verbindingsrol voordat u de overeenkomende verbindingsrol aan de rol zelf kunt toewijzen.
 
-U zult merken dat sommige verbindingsrollen al zijn geconfigureerd met de bijbehorende verbindingsrollen. *Voormalig werknemer* komt overeen met *Voormalige werkgever* en vice versa. Dit type een-op-een overeenkomende verbindingsrol is het meest voorkomende.
+U ziet dat sommige verbindingsrollen al zijn geconfigureerd met overeenkomende verbindingsrollen. *Voormalige werknemer* hoort bij *Voormalige werkgever* en omgekeerd. Dit type van een een-op-een overeenkomende verbindingsrol komt heel vaak voor.
 
-U kunt meerdere overeenkomende verbindingsrollen configureren om complexe relaties te beschrijven. Als u een verbindingsrol zou maken als *Vader*, kunt u nog twee andere rollen configureren, zoals *Dochter* en *Zoon*, en beide toepassen als overeenkomende verbindingsrollen met  *Vader*. Op hun beurt moeten zowel de verbindingsrol *Dochter* als de verbindingsrol *Zoon* worden afgestemd op *Vader*. U moet dan natuurlijk een gelijkwaardige rol instellen voor *Moeder* die op een vergelijkbare manier overeenkomen met *Dochter* en *Zoon*.
+U kunt meerdere overeenkomende verbindingsrollen configureren om complexe relaties te beschrijven. Als u een verbindingsrol maakt zoals *Vader*, kunt u nog twee rollen configureren zoals *Dochter* en *Zoon* en beide als overeenkomende verbindingsrollen toepassen op *Vader*. Zo ook horen beide verbindingsrollen *Dochter* en *Zoon* bij *Vader*. Uiteraard moet u vervolgens een equivalente rol voor *Moeder* instellen die op dezelfde manier hoort bij *Dochter* en *Zoon*.
 
 > [!TIP]
-> Voordat u een complexe reeks verbindingsrollen maakt, kunt u kijken of een eenvoudiger reeks rollen niet volstaat. In plaats van bijvoorbeeld een complexe reeks verbindingsrollen als *Vader*, *Moeder*, *Zoon* en *Dochter* te maken, kunt u ook kijken of *Ouder* en *Kind* voor u werken.
+> Voordat u een complexe set verbindingsrollen maakt, kunt u bekijken of een eenvoudigere set van rollen voldoende is. Zo kunt u bijvoorbeeld in plaats van een complexe set verbindingsrollen te maken, zoals *Vader*, *Moeder*, *Zoon*, en *Dochter*, eenvoudigweg *Ouder* en *Kind* gebruiken.
 
-Als meer dan één overeenkomende verbindingsrol is geconfigureerd, vertegenwoordigen die verbindingsrollen de enige geldige wederzijdse rollen. De eerste wordt automatisch toegepast als de standaardwaarde. Als de standaardwaarde niet juist is, moeten mensen de verbinding handmatig bewerken en kiezen tussen geldige opties die zijn gedefinieerd in de configuratie.
+Als meerdere overeenkomende verbindingsrollen zijn geconfigureerd, vertegenwoordigen deze verbindingsrollen de enige geldige wederzijdse rollen. De eerste wordt automatisch als de standaardwaarde toegepast. Als de standaardwaarde niet correct is, moeten mensen de verbinding handmatig bewerken en kiezen tussen geldige opties die in de configuratie zijn gedefinieerd.
 
 ### <a name="see-also"></a>Zie ook
 <!-- This is in the basics guide. It needs to be migrated -->
-[Verbindingen tot stand brengen om relaties tussen records te definiëren en weer te geven](/dynamics365/customer-engagement/basics/create-connections-view-relationships-between-records)<br />
-[Globale optiesets maken en bewerken voor Common Data Service voor apps (selectielijsten)](create-edit-global-option-sets.md)<br />
+[Verbindingen maken om relaties tussen records te definiëren en weer te geven](/dynamics365/customer-engagement/basics/create-connections-view-relationships-between-records)<br />
+[Algemene optiesets maken en bewerken voor Common Data Service voor Apps (selectielijsten)](create-edit-global-option-sets.md)<br />
 [Relaties tussen entiteiten maken en bewerken](create-edit-entity-relationships.md)
 
 

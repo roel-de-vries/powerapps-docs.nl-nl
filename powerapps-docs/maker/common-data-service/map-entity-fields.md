@@ -1,6 +1,6 @@
 ---
-title: Entiteitsvelden koppelen in PowerApps | Microsoft Docs
-description: Meer informatie over het koppelen van entiteitsvelden
+title: Entiteitsvelden toewijzen in PowerApps | MicrosoftDocs
+description: Lees hoe u entiteitsvelden kunt toewijzen
 ms.custom: ''
 ms.date: 05/29/2018
 ms.reviewer: ''
@@ -9,114 +9,113 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
-- powerapps
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
+  - powerapps
 author: Mattp123
 ms.assetid: 7c5aa1c3-bde9-43f1-a369-fdcdbf14dec0
 caps.latest.revision: 33
 ms.author: matp
 manager: kvivek
-tags: ''
-ms.openlocfilehash: 7e84e10a824ea218063cb2dccdc15ed7ae2340da
-ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39680620"
+tags: null
+search.audienceType:
+  - maker
+search.app:
+  - PowerApps
+  - D365CE
 ---
-# <a name="map-entity-fields"></a>Entiteitsvelden koppelen
+# <a name="map-entity-fields"></a>Entiteitsvelden toewijzen
  
-U kunt kenmerken koppelen tussen entiteiten waarvoor een entiteitsrelatie bestaat. Hiermee kunt u standaardwaarden instellen voor een record die wordt gemaakt in de context van een andere record. 
+U kunt kenmerken toewijzen tussen entiteiten met een entiteitsrelatie. Hiermee kunt u standaardwaarden instellen voor een record die is gemaakt in de context van een andere record. 
 
-## <a name="easier-way-to-create-new-records-in-model-driven-apps"></a>Een eenvoudigere manier om nieuwe records te maken in modelgestuurde apps
+## <a name="easier-way-to-create-new-records-in-model-driven-apps"></a>Eenvoudigere manier om nieuwe records te maken in modelgestuurde apps
 
-Stel dat iemand een nieuwe contactpersonenrecord wil toevoegen voor een persoon een werknemer voor een specifiek account. Dit kan op twee verschillende manieren:  
+Stel dat mensen een nieuwe contactpersoonrecord willen toevoegen voor een persoon die een werknemer voor een bepaalde account is. Dit kan op twee verschillende manieren:  
   
 ### <a name="the-hard-way"></a>De moeilijke manier
 
-Deze persoon kan in de app naar de gebruikelijke plek gaan om een volledig nieuwe contactpersonenrecord te maken. Maar in dit geval zullen het bovenliggende account en verschillende andere gegevens (zoals adres en telefoonnummer) moeten worden ingesteld, die waarschijnlijk hetzelfde zijn als het bovenliggende account. Dit kan veel tijd kosten en er kunnen fouten worden gemaakt.  
+Mensen kunnen navigeren in de app om een nieuwe contactpersoonrecord te maken. Maar daarna moeten ze de bovenliggende account instellen en meerdere gegevensitems selecteren (zoals adres- en telefoongegevens) die waarschijnlijk overeenkomen met die van de bovenliggende account. Dit kan tijdrovend zijn en verhoogt het risico op fouten.  
   
 ### <a name="the-easier-way"></a>De eenvoudigere manier
 
-Het is eenvoudiger om te beginnen met de accountentiteit en vervolgens, met behulp van het subraster **Contactpersonen** in het formulier, **+** te selecteren om een contactpersoon toe te voegen. Hierbij wordt eerst gestimuleerd dat mensen bestaande gerelateerde contactpersonen zoeken, zodat ze niet per ongeluk een dubbele record maken. Als er geen bestaande record wordt gevonden, kan de gebruiker **Nieuw** selecteren en een nieuwe contactpersonenrecord maken. 
+Een eenvoudigere manier is met de accountentiteit te beginnen en, met behulp van het subraster **Contactpersonen** op het formulier, **+** te selecteren om een contactpersoon toe te voegen. Mensen worden dan eerst verzocht om reeds bestaande verwante contactpersonen op te zoeken zodat ze niet per ongeluk een dubbele record maken. Als ze geen bestaande record vinden, kunnen ze **Nieuw** selecteren en een nieuwe contactpersoonrecord maken. 
 
-Het formulier voor de nieuwe contactpersonenrecord bevat dan eventuele toegewezen kenmerkwaarden van het account (zoals adres en telefoonnummer) als standaardwaarden. Gebruikers kunnen deze waarden bewerken voordat ze de record opslaan.
+Het formulier met de nieuwe contactpersoonrecord bevat alle toegewezen kenmerkwaarden uit de account (zoals adres- en telefoongegevens) als standaardwaarden. Deze waarden kunnen worden bewerkt voordat de record wordt opgeslagen.
 
 ## <a name="how-this-works"></a>Hoe dit werkt
 
-Wanneer u entiteitsvelden koppelt voor een 1:N-relatie tussen entiteiten worden bepaalde gegevensitems uit de primaire entiteitsrecord gekopieerd naar het formulier voor de nieuwe gerelateerde entiteit, waarmee standaardwaarden worden ingesteld die gebruikers kunnen bewerken voordat ze de record opslaan.
+Als u entiteitsvelden voor een 1:N-entiteitsrelatie toewijst, worden bepaalde gegevensitems uit de record van de primaire entiteit naar het formulier voor de nieuwe gerelateerde entiteit gekopieerd om standaardwaarden in te stellen die mensen kunnen bewerken voordat ze opslaan.
  
   
 > [!NOTE]
-> Deze toewijzingen kopiëren alleen standaardwaarden naar een record voordat deze wordt opgeslagen. Mensen kunnen de waarden bewerken voordat ze de record opslaan. De gegevens die worden verzonden zijn de gegevens zoals ze op dat moment zijn. Ze worden niet gesynchroniseerd als de brongegevens later worden gewijzigd.
+> Met deze toewijzingen worden alleen standaardwaarden op een record ingesteld voordat de record wordt opgeslagen. Mensen kunnen de waarden wijzigen alvorens ze op te slaan. De gegevens die worden overgebracht zijn de gegevens op dat moment. Deze worden niet gesynchroniseerd als de brongegevens later worden gewijzigd.
 >   
-> Deze toewijzingen worden niet toegepast op gerelateerde records die worden gemaakt met behulp van een werkstroom of een dialoogproces. Ze worden niet automatisch toegepast op nieuwe records die worden gemaakt met behulp van code, hoewel ontwikkelaars een speciaal bericht kunnen gebruiken, `InitializeFrom` ([functie InitializeFrom](/dynamics365/customer-engagement/web-api/initializefrom?view=dynamics-ce-odata-9) of [klasse InitializeFromRequest](/dotnet/api/microsoft.crm.sdk.messages.initializefromrequest?view=dynamics-general-ce-9)), om een nieuwe record te maken met behulp van de beschikbare toewijzingen.  
+> Deze toewijzingen worden niet toegepast op de verwante records die zijn gemaakt met een werkstroom of dialoogvensterproces. Ze worden niet automatisch toegepast op nieuwe records die gemaakt zijn met code, maar ontwikkelaars kunnen een speciaal bericht gebruiken dat `InitializeFrom` ([InitializeFrom Function](/dynamics365/customer-engagement/web-api/initializefrom?view=dynamics-ce-odata-9) of [InitializeFromRequest Class](/dotnet/api/microsoft.crm.sdk.messages.initializefromrequest?view=dynamics-general-ce-9)) heet om een nieuwe record te maken met behulp van beschikbare toewijzingen.  
 
-## <a name="open-solution-explorer"></a>Solution Explorer openen
+## <a name="open-solution-explorer"></a>Open de oplossingenverkenner.
 
-De enige manier om entiteitsvelden toe te wijzen is met behulp van Solution Explorer.
+U kunt entiteitsvelden alleen toewijzen met de oplossingenverkenner.
 
 [!INCLUDE [cc_navigate-solution-from-powerapps-portal](../../includes/cc_navigate-solution-from-powerapps-portal.md)]
   
-Het toewijzen van velden vindt plaats in de context van een 1:N- of N:1-entiteitsrelatie, dus u moet eerst de [1:N- of N:1-entiteitsrelaties weergeven](create-edit-1n-relationships-solution-explorer.md#view-entity-relationships).
+De toewijzing van velden wordt gedaan in de context van 1:N- of N:1-entiteitsrelatie, dus eerst moet u [1:N- of N:1-entiteitsrelaties weergeven](create-edit-1n-relationships-solution-explorer.md#view-entity-relationships).
 
 ## <a name="view-mappable-fields"></a>Toewijsbare velden weergeven
 
-Veldtoewijzingen worden in feite niet gedefinieerd binnen de entiteitsrelaties, maar deze worden inzichtelijk gemaakt in de gebruikersinterface van de relatie. Niet elke 1:N-entiteitsrelatie heeft ze. Wanneer u een lijst met 1:N (of N:1)-entiteitsrelaties voor een entiteit bekijkt, kunt u de weergegeven relaties filteren op type. U kunt hiervoor kiezen uit **Alle**, **Aangepast**, **Aanpasbaar** of **Toewijsbaar**. Toewijsbare entiteitsrelaties bieden toegang om entiteitsvelden toe te wijzen. 
+Veldtoewijzingen worden niet daadwerkelijk gedefinieerd in de entiteitsrelaties, maar ze zijn beschikbaar in de relatiegebruikersinterface. Niet elke 1:N-entiteitsrelatie heeft ze. Als u een lijst met 1:N (or N:1)-entiteitsrelaties voor een entiteit weergeeft, kunt u de weergegeven relaties op type filteren. U kunt **Alle**, **Aangepast**, **Aanpasbaar** of **Kan worden toegewezen** selecteren. Entiteitsrelaties die kunnen worden toegewezen, bieden de mogelijkheid om entiteitsvelden toe te wijzen. 
 
-![Toewijsbare entiteitsrelaties bekijken](media/mappable-entity-relationships.png) 
+![Toewijsbare entiteitsrelaties weergeven](media/mappable-entity-relationships.png) 
 
-Wanneer u een toewijsbare entiteitsrelatie opent, selecteert u **Toewijzingen** in het linkernavigatievenster.
+Wanneer u een toewijsbare entiteitsrelatie wilt openen, selecteert u **Toewijzingen** in de linkernavigatie.
 
-![Toewijzingen voor de entiteitsrelatie selecteren](media/map-entity-fields-ui-solution-explorer.png)
+![Toewijzingen selecteren voor de entiteitsrelatie](media/map-entity-fields-ui-solution-explorer.png)
 
 ## <a name="delete-mappings"></a>Toewijzingen verwijderen
 
-Als er toewijzingen zijn die u niet wilt toepassen, kunt u deze selecteren en klikken op het pictogram ![Pictogram voor verwijderen](media/delete.gif) .
+Als er toewijzingen zijn die u niet wilt toepassen, kunt u deze selecteren en klikken op het ![pictogram Verwijderen](media/delete.gif) .
 
 ## <a name="add-new-mappings"></a>Nieuwe toewijzingen toevoegen
 
-Klik in de werkbalk op **Nieuw** om een nieuwe toewijzing te maken. Hiermee opent u het dialoogvenster **Veldtoewijzing maken**.
+Als u een nieuwe toewijzing wilt maken, klikt u op de werkbalk op **Nieuw**. Het dialoogvenster **Veldtoewijzing maken** wordt geopend.
 
 ![Dialoogvenster Veldtoewijzing maken](media/create-field-mapping-dialog.png)
 
-Selecteer een bronentiteitsveld en een doelentiteitsvelden met waarden die u wilt koppelen. 
+Selecteer een bronentiteitsveld en een doelentiteitsveld met waarden die u wilt toewijzen. 
 
 ![Veldtoewijzing configureren](media/configure-field-mapping.png)
 
-Selecteer vervolgens **OK** om het dialoogvenster te sluiten.
+Selecteer **OK** om het dialoogvenster te sluiten.
 
-De volgende regels laten zien welke soorten gegevens kunnen worden gekoppeld.  
+In de volgende regels ziet u welke soorten gegevens kunnen worden toegewezen.  
   
-- Beide velden moeten hetzelfde type en in de dezelfde indeling zijn.  
-- De lengte van het doelveld moet gelijk aan of groter dan de lengte van het bronveld zijn.  
-- Het doelveld mag nog niet aan een ander veld zijn gekoppeld.  
-- Het bronveld moet worden weergegeven op het formulier.  
-- Het doelveld moet een veld zijn waarin een gebruiker gegevens kan invoeren.  
-- Id-waarden voor adressen kunnen niet worden toegewezen.
-- Als u een toewijzing maakt naar of van een veld dat niet wordt weergegeven op een formulier, wordt de toewijzing niet uitgevoerd totdat het veld wordt toegevoegd aan een formulier.
-- Als de velden Optiesets zijn, moeten de waarden (in gehele getallen) voor elke optie identiek zijn.  
+- Beide velden moeten van hetzelfde type zijn en dezelfde opmaak hebben.  
+- De lengte van het doelveld moet gelijk zijn aan of groter zijn dan de lengte van het bronveld.  
+- Het doelveld mag nog niet aan een ander veld zijn toegewezen.  
+- Het bronveld moet zichtbaar zijn op het formulier.  
+- Het doelveld moet een veld zijn waarin de gebruiker gegevens kan invoeren.  
+- Adres-id-waarden kunnen niet worden toegewezen.
+- Als u toewijst vanuit of naar een veld dat niet in een formulier wordt weergegeven, wordt de toewijzing pas uitgevoerd wanneer het veld aan een formulier is toegevoegd.
+- Als de velden optiesets zijn, moet de geheel-getalwaarde voor alle opties identiek zijn.  
   
 > [!NOTE]
->  Als u velden voor optiesets moet toewijzen, raden wij aan dat u beide velden zo configureert dat ze dezelfde algemene optieset gebruiken. Anders kan het lastig zijn om twee verschillende sets met opties handmatig gesynchroniseerd te houden. Als de waarden voor elke optie (in gehele getallen) niet correct worden toegewezen, kunt u problemen in uw gegevens veroorzaken. Meer informatie: [Globale optiesets maken en bewerken voor Common Data Service voor apps (selectielijsten)](create-edit-global-option-sets.md)  
+>  Als u optiesetvelden moet toewijzen, raden we u aan beide velden te configureren zodat ze dezelfde algemene optieset. Anders is het wellicht moeilijk om twee verschillende optiesets handmatig te gesynchroniseren. Als de waarden met gehele getallen voor elke optie niet correct zijn toegewezen, kunnen zich problemen in uw gegevens voordoen. Meer informatie: [Algemene optiesets maken en bewerken voor Common Data Service voor Apps (selectielijsten)](create-edit-global-option-sets.md)  
   
-## <a name="automatically-generate-field-mappings"></a>Automatisch veldtoewijzingen genereren  
+## <a name="automatically-generate-field-mappings"></a>Veldtoewijzingen automatisch genereren  
 
-U kunt ook automatisch toewijzingen genereren door **Toewijzingen genereren** te selecteren in het menu **Meer acties**.
+U kunt toewijzingen ook automatisch genereren door **Toewijz. genereren** te selecteren in het menu **Meer acties**.
 
-Wees voorzichtig wanneer u dit doet met systeementiteiten. Gebruik deze instelling als u aangepaste entiteiten wilt maken en hiervoor toewijzingen wilt gebruiken. 
+Ga zorgvuldig te werk wanneer u dit doet met systeementiteiten. Gebruik dit als u aangepaste entiteiten maakt en toewijzingen wilt instellen. 
 
 > [!WARNING]
-> Hiermee verwijdert u alle bestaande toewijzingen en vervangt u deze door voorgestelde toewijzingen die alleen zijn gebaseerd op de velden met vergelijkbare namen en gegevenstypen. Als u dit op een systeementiteit gebruikt, is het mogelijk dat enkele verwachte toewijzingen verloren gaan. Voor aangepaste entiteiten kunt u zo tijd besparen omdat u makkelijker eventuele toewijzingen die u niet wilt kunt verwijderen en andere kunt toevoegen die niet werden gemaakt bij het genereren van de toewijzingen.  
+> Hiermee worden alle bestaande toewijzingen verwijderd en vervangen door voorgestelde toewijzingen die zijn gebaseerd op de velden met vergelijkbare namen en gegevenstypen. Als u dit op een systeementiteit gebruikt, kan het dat een aantal verwachte toewijzingen verloren gaan. Voor aangepaste entiteiten bespaart het tijd omdat u toewijzingen die u niet wilt makkelijker kunt verwijderen en andere kunt toevoegen die de actie Toewijzingen genereren niet heeft gemaakt.  
 
 
 ## <a name="publish-customizations"></a>Aanpassingen publiceren 
 
-Omdat veldtoewijzingen geen metagegevens zijn, moet u ze publiceren voordat wijzigingen van kracht worden. 
+Aangezien veldtoewijzingen geen metagegevens zijn, moet u deze publiceren voordat de wijzigingen van kracht worden. 
 <!-- TODO Need a general topic about publishing to link to in situations like this -->
 
 ### <a name="see-also"></a>Zie ook
-[1:N (een-op-veel)- of N:1 (veel-op-een)-relaties maken of bewerken met behulp van Solution Explorer](create-edit-1n-relationships-solution-explorer.md)<br />
-[Documentatie voor ontwikkelaars: Entiteiten en kenmerktoewijzingen aanpassen](/dynamics365/customer-engagement/developer/customize-entity-attribute-mappings)<br />
-[Documentatie voor ontwikkelaars: Web-API - Een nieuwe entiteit maken op basis van een andere entiteit](/dynamics365/customer-engagement/developer/webapi/create-entity-web-api#create-a-new-entity-from-another-entity)
+[1:N- (één-op-veel) of N:1-entiteitsrelaties (veel-op-één) maken en bewerken met de oplossingenverkenner](create-edit-1n-relationships-solution-explorer.md)<br />
+[Documentatie voor ontwikkelaars: Entiteits- en kenmerktoewijzingen aanpassen](/dynamics365/customer-engagement/developer/customize-entity-attribute-mappings)<br />
+[Documentatie voor ontwikkelaars: Een nieuwe entiteit maken op basis van een andere entiteit](/dynamics365/customer-engagement/developer/webapi/create-entity-web-api#create-a-new-entity-from-another-entity)

@@ -1,6 +1,6 @@
 ---
-title: Oplossingen importeren, bijwerken en exporteren | MicrosoftDocs
-description: Meer informatie over het importeren, bijwerken en exporteren van een oplossing
+title: 'Oplossingen importeren, bijwerken en exporteren | MicrosoftDocs'
+description: 'Lees hoe u een oplossing kunt importeren, bijwerken en exporteren'
 ms.custom: ''
 ms.date: 06/18/2018
 ms.reviewer: ''
@@ -9,157 +9,156 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
-- powerapps
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
+  - powerapps
 author: Mattp123
 ms.assetid: 56363ea3-ea76-4311-9b7a-b71675e446fb
 caps.latest.revision: 57
 ms.author: matp
 manager: kvivek
-ms.openlocfilehash: 89907e80085fe2bfcf3c38972724a0f9b55836c7
-ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39675524"
+search.audienceType:
+  - maker
+search.app:
+  - PowerApps
+  - D365CE
 ---
 # <a name="import-update-and-export-solutions"></a>Oplossingen importeren, bijwerken en exporteren 
 
- U kunt oplossingen handmatig importeren met de onderstaande stappen. Importeer alleen oplossingen die u hebt verkregen van een vertrouwde bron. Aanpassingen kunnen code bevatten die gegevens naar externe bronnen kunnen verzenden. U kunt de standaardoplossing alleen importeren in het bedrijf waaruit u die hebt geëxporteerd, maar niet in een ander bedrijf.  
+ U kunt oplossingen handmatig importeren met behulp van de onderstaande stappen. Importeer alleen oplossingen die zijn verkregen van een vertrouwde bron. Aanpassingen kunnen code bevatten waardoor gegevens naar externe bronnen kunnen worden verzonden. U kunt de standaardoplossing alleen in de organisatie importeren waarvan u deze hebt geëxporteerd, maar niet in een andere organisatie.  
   
 1. Ga naar **[Instellingen](../model-driven-apps/advanced-navigation.md#settings)** > **Oplossingen**.  
   
-2.  Kies **Importeren** in het lijstmenu met oplossingen.  
+2.  Kies in het menu van de oplossingenlijst **Importeren**.  
   
-3.  Navigeer in de stap **Oplossingspakket selecteren** in het dialoogvenster **Oplossing importeren** naar het gecomprimeerde (.zip of .cab) bestand dat de oplossing bevat die u wilt importeren. 
+3.  Blader in het dialoogvenster **Oplossing importeren** en de stap **Oplossingspakket selecteren** naar het gecomprimeerde (ZIP- of CAB-)bestand met de oplossing die u wilt importeren. 
   
 4.  Kies **Volgende**.  
   
-5.  U kunt de informatie over de oplossing bekijken voordat u **Importeren** kiest.  
+5.  U kunt informatie over de oplossing weergeven voordat u op **Importeren** klikt.  
   
-6.  U moet mogelijk even geduld hebben totdat het importeren van de oplossing is voltooid. Als dat is geslaagd, kunt u de resultaten bekijken en **Sluiten** kiezen.  
+6.  U moet misschien een ogenblik wachten totdat de importoplossing is voltooid. Als dit succesvol is, kunt u de resultaten weergeven en klikken op **Sluiten**.  
   
- Als u wijzigingen hebt geïmporteerd die moeten worden gepubliceerd, moet u de aanpassingen publiceren voordat ze beschikbaar zijn. 
+ Als u wijzigingen hebt geïmporteerd die gepubliceerd moeten worden, moet u aanpassingen publiceren voordat ze beschikbaar worden. 
   
- Als het importeren niet is gelukt, ziet u een rapport met mogelijke fouten of waarschuwingen die zijn vastgelegd. U kunt **Logboekbestand downloaden** kiezen voor meer informatie over de oorzaak van het mislukken van het importeren. De meest voorkomende oorzaak dat het importeren van een oplossing mislukt, is dat de oplossing bepaalde vereiste oplossingsonderdelen niet bevat.  
+ Als de import niet is geslaagd, ziet u een rapport dat fouten of waarschuwingen weergeeft die zijn vastgelegd. U kunt op **Logboekbestand downloaden** klikken om gegevens vast te leggen over waardoor het importeren is mislukt. De meest voorkomende oorzaak van het mislukken van een oplossingsimport is dat de oplossing niet de vereiste oplossingsonderdelen bevatte.  
   
- Wanneer u het logboekbestand downloadt, ziet u een XML-bestand dat u kunt openen met Office Excel.  
+ Als u het logboekbestand downloadt, vindt u een XML-bestand dat u kunt openen in Office Excel.  
   
 > [!NOTE]
->  U kunt een actieve regelset voor doorsturen niet bewerken. Als u een oplossing importeert die een actieve regelset voor routering bevat naar een bedrijf waar die regel al bestaat met hetzelfde ID, zal het importeren van de oplossing mislukken. Meer informatie: [Regels maken voor het automatisch verzenden van aanvragen](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/create-rules-automatically-route-cases)  
+>  U kunt geen actieve regelverzameling voor doorsturen bewerken. Dus als u een oplossing importeert met een actieve routeringregel in een organisatie waarin de regel al met dezelfde id bestaat, mislukt de importbewerking. Meer informatie: [Regels maken om aanvragen automatisch te routeren](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/create-rules-automatically-route-cases)  
   
 <a name="BKMK_UpdateSolutions"></a>   
 
 ## <a name="update-solutions"></a>Oplossingen bijwerken  
- Er zijn momenten dat u mogelijk een update wilt installeren voor een bestaande beheerde oplossing. De procedure is vergelijkbaar met het installeren van een nieuwe beheerde oplossing, behalve dat u andere opties krijgt. Als u een oplossing bijwerkt die u van een ander hebt gekregen, zou u hulp moeten krijgen van de uitgever van de oplossing over welke opties u moet kiezen.  
+ Het kan voorkomen dat u misschien een update van een bestaande beheerde oplossing wilt installeren. De procedure is hetzelfde als voor de installatie van een nieuwe beheerde oplossing, maar u krijgt een paar andere opties. Als u een oplossing bijwerkt die u van iemand anders hebt gekregen, moet u richtlijnen van de oplossingsuitgever krijgen over de opties die u moet kiezen.  
   
 1. Ga naar **[Instellingen](../model-driven-apps/advanced-navigation.md#settings)** > **Oplossingen**.   
   
-2.  Kies **Importeren** in het lijstmenu met oplossingen.  
+2.  Kies in het menu van de oplossingenlijst **Importeren**.  
   
-3.  Navigeer in de stap **Oplossingspakket selecteren** in het dialoogvenster **Oplossing importeren** naar het gecomprimeerde (.zip of .cab) bestand dat de oplossing bevat die u wilt bijwerken.  
+3.  Blader in het dialoogvenster **Oplossing importeren** en de stap **Oplossingspakket selecteren** naar het gecomprimeerde (ZIP- of CAB-)bestand met de oplossing die u wilt bijwerken.  
 4.  Kies **Volgende**.  
   
-5.  Voordat u **Volgende** kiest, kunt u informatie bekijken over de oplossing. Deze pagina toont een gele balk met de mededeling **Dit oplossingspakket bevat een update voor een oplossing die al is geïnstalleerd**.  
+5.  U kunt informatie over de oplossing weergeven voordat u op **Volgende** klikt. Op deze pagina wordt een gele balk weergegeven waarin staat **Dit oplossingspakket bevat een update voor een oplossing die al is geïnstalleerd**.  
   
 6.  U hebt de volgende opties:  
   
-    - **Aanpassingen behouden (Aanbevolen)**  
+    - **Aanpassingen behouden (aanbevolen)**  
   
-         Door deze optie te selecteren, behoudt u alle onbeheerde aanpassingen die zijn uitgevoerd aan onderdelen, maar het impliceert ook dat bepaalde updates in deze oplossing mogelijk niet van kracht worden.  
+         Wanneer u deze optie inschakelt, blijven onbeheerde aanpassingen aan onderdelen behouden, maar worden sommige updates in deze oplossing mogelijk niet van kracht.  
   
     - **Aanpassingen overschrijven**  
   
-         Door deze optie te selecteren, overschrijft u alle onbeheerde aanpassingen die eerder zijn uitgevoerd aan onderdelen in deze oplossing. Alle updates in deze oplossing zullen van kracht worden.  
+         Als u deze optie selecteert, worden onbeheerde aanpassingen overschreven die eerder zijn aangebracht in onderdelen die deel uitmaken van deze oplossing. Alle updates die zijn opgenomen in deze oplossing worden van kracht.  
   
-     Kies de juiste optie en kies vervolgens **Volgende**.  
+     Kies de gewenste optie en klik vervolgens op **Volgende**.  
   
-7.  U moet mogelijk even geduld hebben totdat het importeren van de oplossing is voltooid. Als dat is geslaagd, kunt u de resultaten bekijken en **Sluiten** kiezen.  
+7.  U moet misschien een ogenblik wachten totdat de importoplossing is voltooid. Als dit succesvol is, kunt u de resultaten weergeven en klikken op **Sluiten**.  
   
- Als u wijzigingen hebt geïmporteerd die moeten worden gepubliceerd, moet u de aanpassingen publiceren voordat ze beschikbaar zijn. 
+ Als u wijzigingen hebt geïmporteerd die gepubliceerd moeten worden, moet u aanpassingen publiceren voordat ze beschikbaar worden. 
   
- Oplossingsuitgevers kunnen u vragen uw bestaande onbeheerde aanpassingen te exporteren, hun beheerde oplossing bij te werken met de optie aanpassingen te overschrijven en dan uw onbeheerde aanpassingen opnieuw te importeren. Hiermee kunnen zij ervoor zorgen dat de wijzigingen die zij verwachten, worden aangebracht, terwijl uw aanpassingen behouden blijven.  
+ Oplossingsuitgevers kunnen u vragen uw bestaande onbeheerde aanpassingen te exporteren, hun beheerde oplossing bij te werken met behulp van de optie om aanpassingen te overschrijven en vervolgens uw onbeheerde aanpassingen opnieuw te importeren. Dit kan ervoor zorgen dat de wijzigingen die zij verwachten, worden toegepast terwijl uw aanpassingen worden gehandhaafd.  
   
 <a name="BKMK_ExportSolutions"></a>   
 
 ## <a name="export-solutions"></a>Oplossingen exporteren  
- Het is raadzaam dat u uw onbeheerde aanpassingen regelmatig exporteert, zodat u een back-up hebt als er iets gebeurt. U kunt beheerde oplossingen niet exporteren.  
+ We raden u aan uw onbeheerde aanpassingen regelmatig te exporteren zodat u een back-up hebt voor het geval er iets gebeurt. U kunt beheerde oplossingen niet exporteren.  
   
 1. Ga naar **[Instellingen](../model-driven-apps/advanced-navigation.md#settings)** > **Oplossingen**.   
   
-2.  Selecteer de oplossing die u wilt exporteren in de lijst en kies **Exporteren**.  
+2.  Selecteer in de lijst de oplossing die u wilt exporteren en klik op **Exporteren**.  
   
-3.  In de stap **Aanpassingen publiceren** wordt u eraan herinnerd dat alleen gepubliceerde aanpassingen worden geëxporteerd en heeft u de optie **Alle aanpassingen publiceren** voordat u **Volgende** kiest.  
+3.  In de stap **Aanpassingen publiceren** wordt u eraan herinnerd dat alleen gepubliceerde aanpassingen worden geëxporteerd en u de optie **Alle aanpassingen publiceren** hebt voordat u op **Volgende** klikt.  
   
-4.  Als uw oplossing ontbrekende vereiste onderdelen bevat, ziet u de stap **Ontbrekende vereiste onderdelen**. U kunt deze waarschuwing alleen negeren als u van plan bent dit als onbeheerde oplossing in het originele bedrijf te importeren. Volg anders de instructies in het dialoogvenster om de export te annuleren en de vereiste onderdelen toe te voegen.  
+4.  Als uw oplossing eventuele ontbrekende vereiste onderdelen bevat, ziet u de stap **Er ontbreken vereiste onderdelen**. U kunt deze waarschuwing alleen negeren als u van plan bent deze oplossing weer als onbeheerde oplossing te importeren in de oorspronkelijke organisatie. Als dit niet het geval is, volgt u de instructies in het dialoogvenster om de export te annuleren en de vereiste onderdelen toe te voegen.  
   
-5.  In de stap **Systeeminstellingen exporteren (Geavanceerd)** kunt u kiezen bepaalde systeeminstellingen in uw oplossing op te nemen. Als uw oplossing afhankelijk is van een van de groepen met systeeminstellingen, selecteer die dan en kies **Volgende**.  
+5.  In de stap **Systeeminstellingen exporteren (geavanceerd)** kunt u bepaalde systeeminstellingen kiezen om in uw oplossing op te nemen. Als uw oplossing afhankelijk is van de groepen systeeminstellingen, selecteert u ze en klikt u op **Volgende**.  
   
-     Zie **Instellingsopties voor het exporteren van oplossingen** hieronder voor meer informatie over de instellingen die in elke optie zijn opgenomen.  
+     Raadpleeg **Instellingenopties voor oplossing exporteren** hieronder voor meer informatie over de instellingen die bij elke optie zijn opgenomen.  
   
-6.  In de stap **Pakkettype** moet u kiezen of u de oplossing als **Onbeheerde** of **Beheerde** oplossing wilt exporteren.  
+6.  In de stap **Pakkettype** moet u kiezen of de oplossing als **Onbeheerd** of **Beheerd** moet worden geëxporteerd.  
   
-7.  In de volgende stap kunt u een doeloplossing kiezen voor een specifieke Dynamics 365-versie. Deze optie wordt doorgaans gebruikt door ISV’s die een oplossing willen exporteren die compatibel is met een eerdere versie. Accepteer de standaardwaarde, tenzij u van plan bent deze oplossing te importeren in een bedrijf dat niet is bijgewerkt naar dezelfde versie als de bedrijfsversie die u gebruikt.   
+7.  In de volgende stap kunt u een doeloplossing voor een specifieke Dynamics 365-versie kiezen. Deze mogelijkheid wordt meestal gebruikt door ISV's die mogelijk een oplossing willen exporteren die compatibel met een eerdere versie is. Als u van plan bent de oplossing in een organisatie weer te importeren die niet is geüpgrade naar dezelfde versie als de organisatieversie die u gebruikt, accepteert u de standaardwaarde.   
   
-8.  Kies **Exporteren** om het oplossingsbestand te downloaden.  
+8.  Kies **Exporteren** om het oplossingbestand te downloaden.  
   
- Het precieze gedrag voor het downloaden van bestanden verschilt per browser.  
+ Het exacte gedrag voor het downloaden van bestanden varieert tussen browsers.  
 
 <a name="BKMK_SettingsOptionsOnSolutionExport"></a>  
  
-## <a name="settings-options-for-solution-export"></a>Instellingsopties voor oplossingsexpert  
- De volgende tabel toont de beschikbare opties wanneer u een oplossing exporteert:  
+## <a name="settings-options-for-solution-export"></a>Opties voor instellingen voor oplossingsexport  
+ De volgende tabel geeft de opties weer die beschikbaar zijn wanneer u een oplossing exporteert:  
   
 |Groep|Instelling|Beschrijving|  
 |-----------|-------------|-----------------|  
-|Automatische nummering|Campagnevoorvoegsel|Voorvoegsel gebruikt voor nummering van campagne.|  
-|Case-voorvoegsel|Voorvoegsel voor alle cases in de app.|  
-|Contractvoorvoegsel|Voorvoegsel voor alle contracten in de app.|  
-|Factuurvoorvoegsel|Voorvoegsel voor alle factuurnummers in de app.|  
-|Artikelvoorvoegsel|Voorvoegsel voor alle artikelen in de app.|  
-|Bestellingsvoorvoegsel|Voorvoegsel voor alle bestellingen in de app.|  
-|Unieke tekenreekslengte|Aantal tekens toegevoegd aan factuur-, offerte- en bestelnummers.|  
-|Agenda|Agendatype|Agendatype voor het systeem. Standaard ingesteld op Gregoriaans V.S.|  
-|Datumnotatiecode|Informatie over hoe de datum wordt weergegeven in Dynamics 365.|  
-|Datumscheidingsteken|Teken dat wordt gebruikt om de dag, maand en het jaar in datums te scheiden in de app.|  
-|Maximale duur afspraak|Maximaal aantal dagen dat een afspraak kan duren.|  
-|Weeknummer tonen|Informatie die aangeeft of het weeknummer in agendaweergaven wordt weergegeven in de app.|  
-|Tijdnotatiecode|Informatie die aangeeft hoe de tijd wordt weergegeven in de app.|  
-|Code voor begindag week|Aangewezen eerste dag van de week in de app.|  
-|Aanpassing|Is toepassingsmodus ingeschakeld|Geeft aan of het laden van een app in een browservenster dat geen adres, hulpprogramma en menubalken heeft, is ingeschakeld.|  
-|E-mail bijhouden|E-mail met niet-omgezet adres verzenden|Geeft aan of gebruikers een e-mail mogen sturen naar niet-omgezette partijen (partijen moeten nog steeds een e-mailadres hebben).|  
-|Interne e-mail negeren|Geeft aan of inkomende e-mail verzonden door app-gebruikers of -wachtrijen moeten worden gevolgd.|  
-|Maximale traceringsnummer|Maximale traceringsnummer voordat ze worden gerecycled.|  
-|Beveiligd kader voor e-mail genereren|Vlag om de hoofdtekst van een e-mail in het webformulier in een IFRAME weer te geven met het kenmerk beveiliging=’beperkt’ ingeschakeld. Dit is aanvullende beveiliging, maar kan leiden tot een referentieprompt.|  
-|Traceervoorvoegsel|Historische lijst met traceertokenvoorvoegsels.|  
-|Traceertokenbasis|Basisnummer dat wordt gebruikt om verschillende traceertoken-ID’s te bieden aan gebruikers behorend bij verschillende implementaties.|  
-|Traceertokencijfers|Aantal cijfers dat wordt gebruikt voor een traceertoken-id.|  
-|Algemeen|Bijlagen blokkeren|Uploaden of downloaden van bepaalde bijlagetypen die als gevaarlijk worden beschouwd, voorkomen.|  
-|Valutanotatiecode|Informatie over hoe valuta worden geplaatst in de app.|  
+|Automatische nummering|Campagnevoorvoegsel|Het voorvoegsel dat wordt gebruikt voor de nummering van campagnes.|  
+|Aanvraagvoorvoegsel|Het voorvoegsel dat moet worden gebruikt voor alle aanvragen in de app.|  
+|Contractvoorvoegsel|Het voorvoegsel dat moet worden gebruikt voor alle contracten in de app.|  
+|Factuurvoorvoegsel|Het voorvoegsel dat moet worden gebruikt voor alle factuurnummers in de app.|  
+|Artikelvoorvoegsel|Het voorvoegsel dat moet worden gebruikt voor alle artikelen in de app.|  
+|Ordervoorvoegsel|Het voorvoegsel dat moet worden gebruikt voor alle orders in de app.|  
+|Lengte van unieke tekenreeks|Het aantal tekens dat moet worden toegevoegd aan factuur-, prijsopgave- en ordernummers.|  
+|Kalender|Agendatype|Agendatype voor het systeem. Standaard ingesteld op Gregoriaans (VS)|  
+|Datumnotatiecode|Gegevens over hoe de datum wordt weergegeven in Dynamics 365.|  
+|Datumscheidingsteken|Het teken dat in de app wordt gebruikt in datums voor het scheiden van de maand, de dag en het jaar.|  
+|Max. afspraakduur|Het maximumaantal dagen dat een afspraak kan duren.|  
+|Weeknummer weergeven|Gegevens over de vraag of het weeknummer moet worden weergegeven in agendaweergaven in de app.|  
+|Tijdnotatiecode|Gegevens over hoe tijden worden weergegeven in de app.|  
+|Code voor eerste dag van week|De aangewezen eerste dag van de week in de app.|  
+|Aanpassing|Toepassingsmodus is ingeschakeld|Geeft aan of het laden van de app is ingeschakeld in een browservenster dat geen adres-, werk- en menubalk heeft.|  
+|E-mail bijhouden|Verzenden van e-mail met niet-omgezette adressen toestaan|Geeft aan of het gebruikers is toegestaan om e-mail naar niet-omgezette betrokkenen te verzenden (betrokkenen moeten nog steeds een e-mailadres hebben).|  
+|Interne e-mail negeren|Geeft aan of binnenkomende e-mail die is verzonden door app-gebruikers of -wachtrijen moet worden bijgehouden.|  
+|Max. volgnummer|Het volgnummer waarbij recycling plaatsvindt.|  
+|Beveiligd frame genereren voor e-mail|De markering om de hoofdtekst van e-mail in het webformulier in een IFrame te renderen met het kenmerk security='restricted'. Dit is extra beveiliging maar kan wel een referentiesprompt veroorzaken.|  
+|Voorvoegsel voor volgen|Geschiedenisoverzicht van het volgen van voorvoegsels voor tokens.|  
+|Basis volgtoken|De basiswaarde waarmee afzonderlijke token-id's voor het volgen worden geboden aan gebruikers van verschillende installaties.|  
+|Cijfers volgtoken|Het aantal cijfers waarmee een token-id voor volgen wordt weergegeven.|  
+|Algemeen|Bijlagen blokkeren|Uploaden of downloaden voorkomen van bepaalde typen bijlage die gevaarlijk worden geacht.|  
+|Valutanotatiecode|Informatie over hoe valutasymbolen worden gebruikt in de app.|  
 |Valutasymbool|Valutasymbool|  
-|Weergavevolgorde volledige naam|De volgorde waarin namen worden weergegeven in de app.|  
-|Aanwezigheid ingeschakeld|Informatie of de IM-aanwezigheid is ingeschakeld.|  
-|Negatieve indeling|Informatie die aangeeft hoe negatieve getallen worden weergegeven in de app.|  
-|Nummerindeling|Specificatie hoe nummers worden weergegeven in de app.|  
-|Decimale precisie bij prijzen|Aantal decimaalposities dat kan worden gebruikt voor prijzen.|  
-|Delen met vorige eigenaar bij toewijzing|Informatie die aangeeft of moet worden gedeeld met de vorige eigenaar bij toewijzing.|  
-|Marketing|Toestaan Automatisch antwoord maken|Geeft aan of het maken van een automatisch antwoord is toegestaan|  
-|Toestaan Automatisch afmelden|Geeft aan of het automatisch afmelden is toegestaan.|  
-|Toestaan Kennisgeving automatisch afmelden|Geeft aan of een bevestigingse-mail automatisch mag worden verzonden.|  
-|Marketinge-mailuitvoering toestaan|Geeft aan of marketinge-mailuitvoering is toegestaan.|  
-| Outlook-synchronisatie|Adresboeksynchronisatie toestaan|Geeft aan of achtergrondsynchronisatie van het adresboek in Microsoft Office Outlook is toegestaan.|  
-|Geplande offlinesynchronisatie|Geeft aan of offline achtergrondsynchronisatie in Outlook is toegestaan.|  
-|Geplande synchronisatie toestaan|Geeft aan of geplande synchronisaties naar Outlook zijn toegestaan.|  
-|Frequentie navraage-mails|Normale navraagfrequentie die wordt gebruikt voor het verzenden van e-mails in Outlook.|  
-|Minimale frequentie adressynchronisatie|Normale frequentie die wordt gebruikt voor adresboeksynchronisatie in Outlook.|  
-|Minimale frequentie offline synchronisatie|Normale frequentie die wordt gebruikt voor offline achtergrondsynchronisatie in Outlook.|  
-|Minimale synchronisatiefrequentie|Minimale frequentie tussen geplande [!INCLUDEOutlooksynchronizaties.|  
-|Maximale Auto-Tag-cycli|Maximum aantal navraagcycli die worden uitgevoerd voor auto-tagging van e-mail als een nieuwe e-mail is ontvangen.|  
-|Auto-Tag-interval|Normale navraagfrequentie die wordt gebruikt voor auto-tagging van e-mail in Outlook.|  
-|ISV-configuratie|Weergaveconfiguratie serviceagenda|U kunt visuele stijlen definiëren voor serviceagenda’s.
+|Weergavevolgorde van volledige naam|De volgorde waarin de namen worden weergegeven in de app.|  
+|Aanwezigheid is ingeschakeld|Informatie over de inschakeling van de IM-aanwezigheid.|  
+|Negatieve notatie|Geeft aan hoe negatieve bedragen worden weergegeven in de app.|  
+|Getalnotatie|Hiermee wordt opgegeven hoe getallen worden weergegeven in de app.|  
+|Decimale precisie van prijs|Aantal cijfers achter de komma dat kan worden gebruikt voor prijzen.|  
+|Delen met vorige eigenaar bij toewijzen|Gegevens over de vraag of bij toewijzing moet worden gedeeld met de vorige eigenaar.|  
+|Marketing|Automatisch maken van antwoorden toestaan|Geeft aan of automatisch een antwoord mag worden gemaakt|  
+|Automatisch afmelden toestaan|Geeft aan of abonnementen automatisch mogen worden beëindigd.|  
+|Bevestiging van automatisch afmelden toestaan|Geeft aan of er automatisch een e-mailbericht mag worden verzonden om te bevestigen dat een abonnement is beëindigd.|  
+|Uitvoering van marketing-e-mail toestaan|Geeft aan of e-mailberichten voor marketing mogen worden uitgevoerd.|  
+| Outlook-synchronisatie|Adresboeksynchronisatie toestaan|Geeft aan of de synchronisatie van het adresboek in Microsoft Office Outlook op de achtergrond is toegestaan.|  
+|Geplande offlinesynchronisatie toestaan|Geeft aan of offlinesynchronisatie op de achtergrond in Outlook is toegestaan.|  
+|Geplande synchronisatie toestaan|Geeft aan of geplande synchronisaties met Outlook zijn toegestaan.|  
+|Pollingfrequentie voor e-mailverzending|Normale pollingfrequentie voor het verzenden van e-mail in Outlook.|  
+|Min. frequentie voor adressynchronisatie|Normale pollingfrequentie die wordt gebruikt voor adresboeksynchronisatie in Outlook.|  
+|Min. frequentie voor offlinesynchronisatie|Normale pollingfrequentie die wordt gebruikt voor offlinesynchronisatie op de achtergrond in Outlook.|  
+|Min. synchronisatiefrequentie|De minimaal toegestane periode tussen geplande Outlook-synchronisaties.|  
+|Max. cycli voor automatisch labelen|Het maximumaantal agressieve polling-cycli dat voor automatische tags voor e-mail wordt gebruikt als een nieuwe e-mail wordt ontvangen.|  
+|Interval voor automatisch labelen|Normale pollingfrequentie die wordt gebruikt voor automatische tagging van e-mail in Outlook.|  
+|ISV-configuratie|De configuratie van het uiterlijk van de servicekalender|U kunt visuele stijlen voor servicekalenders definiëren.
 
-Meer informatie: [Weergaveconfiguratie serviceagenda](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-dev/service-calendar-appearance-configuration)|
+Meer informatie: [De configuratie van het uiterlijk van de servicekalender](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-dev/service-calendar-appearance-configuration)|
 
   
 ## <a name="next-steps"></a>Volgende stappen

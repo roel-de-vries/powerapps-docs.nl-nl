@@ -82,18 +82,21 @@ U kunt een aangepast uiterlijk (een thema) voor uw app maken door wijzigingen aa
 5. Selecteer **CRM-standaardthema**. 
 
 In de volgende schermafbeelding ziet u een gedeelte van de standaardthema-instelling.  
-  
-![Standaardthema](media/default-theme.png) 
+
+> [!div class="mx-imgBorder"] 
+> ![Standaardthema](media/default-theme.png) 
   
  WIj hebben het standaardthema gekloond en de kleuren gewijzigd. De volgende screenshots tonen de nieuwe kleuren voor navigatie en markering. U kunt ook een nieuw logo voor uw product kiezen.  
   
  De volgende screenshot toont de nieuwe navigatiekleur.  
-  
- ![Zachte groene themakleuren](media/theme-gentle-green.png "Zachte groene themakleuren")  
+ 
+ > [!div class="mx-imgBorder"] 
+ > ![Zachte groene themakleuren](media/theme-gentle-green.png "Zachte groene themakleuren")  
   
  De volgende screenshot toont het raster voor de entiteit account met de nieuwe markeringskleur.  
-  
- ![Accountraster zacht groen thema](media/themes-gentle-green-account-grid.png "Accountraster zacht groen thema")  
+ 
+ > [!div class="mx-imgBorder"] 
+ > ![Accountraster zacht groen thema](media/themes-gentle-green-account-grid.png "Accountraster zacht groen thema")  
   
 <a name="Publish"></a>   
 ## <a name="preview-and-publish-a-theme"></a>Een voorbeeld van een thema bekijken en dit publiceren  

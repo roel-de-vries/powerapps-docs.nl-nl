@@ -854,8 +854,6 @@
           href: ./common-data-service/set-managed-properties-relationships.md
         - name: Hiërarchische gegevens visualiseren
           href: ./common-data-service/visualize-hierarchical-data.md
-        - name: Hiërarchische gegevens opvragen en visualiseren
-          href: ./common-data-service/query-visualize-hierarchical-data.md
         - name: Hiërarchische gegevens definiëren en opvragen
           href: ./common-data-service/define-query-hierarchical-data.md
         - name: Verbindingsrollen configureren
@@ -868,8 +866,6 @@
               href: ./common-data-service/create-edit-nn-relationships-solution-explorer.md
             - name: Beheerde eigenschappen instellen voor relaties
               href: ./common-data-service/set-managed-properties-relationships.md
-            - name: Hiërarchische gegevens visualiseren
-              href: ./common-data-service/visualize-hierarchical-data.md
             - name: Hiërarchische gegevens opvragen en visualiseren
               href: ./common-data-service/query-visualize-hierarchical-data.md
             - name: Hiërarchische gegevens definiëren en opvragen
@@ -917,8 +913,6 @@
     - name: Werken met oplossingen
       href: ./common-data-service/solutions-overview.md
       items:
-        - name: Oplossingsoverzicht
-          href: ./common-data-service/solutions-overview.md
         - name: Oplossingenverkenner gebruiken
           href: ./common-data-service/use-solution-explorer.md
         - name: De standaardoplossing voor Common Data Services gebruiken
@@ -969,6 +963,8 @@
   items:
     - name: 'Systeemvereisten, limieten en configuratie'
       href: ./canvas-apps/limits-and-config.md
+    - name: Tips voor betere prestaties van canvasapps
+      href: ./canvas-apps/performance-tips.md
     - name: Algemene problemen en oplossingen
       href: ./canvas-apps/common-issues-and-resolutions.md
     - name: Een sessie- of app-id ophalen

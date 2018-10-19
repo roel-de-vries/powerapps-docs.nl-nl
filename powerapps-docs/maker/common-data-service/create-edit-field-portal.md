@@ -162,7 +162,7 @@ Met een berekend veld kunt u een formule invoeren om een waarde aan het veld toe
 
 Meer informatie: [Berekende velden definiëren om handmatige berekeningen te automatiseren](define-calculated-fields.md)
 
-### <a name="rollup"></a>Samentellen
+### <a name="rollup"></a>Samengeteld
 
 Met een samengeteld veld kunt u aggregatiefuncties instellen die periodiek worden uitgevoerd om een getalwaarde voor het veld in te stellen. Deze gegevenstypen kunnen op berekende velden worden ingesteld: **Valuta**, **Datum en tijd**, **Alleen datum**, **Decimaal getal**, **Duur**, **Taal**, **Timezone** en **Geheel getal**.
 

@@ -1,6 +1,6 @@
 ---
-title: Eigenschappen instellen voor een modelgestuurde app-grafiek of -lijst in een dashboard in PowerApps | Microsoft Docs
-description: Informatie over hoe u eigenschappen instelt voor grafieken of lijsten in een dashboard
+title: Eigenschappen instellen voor een grafiek of lijst voor modelgestuurde apps in een dashboard in PowerApps | MicrosoftDocs
+description: Lees hoe u eigenschappen kunt instellen voor een grafiek of een lijst in een dashboard
 ms.custom: ''
 ms.date: 06/06/2018
 ms.reviewer: ''
@@ -9,72 +9,72 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
-- powerapps
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
+  - powerapps
 author: Mattp123
 ms.assetid: 50fb2ab0-5c1a-4a5e-8ebc-5603fecc4da0
 caps.latest.revision: 26
 ms.author: matp
 manager: kvivek
-ms.openlocfilehash: c88fef0412060516ef448c89f5ddfdc9cad00e20
-ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39679588"
+search.audienceType:
+  - maker
+search.app:
+  - PowerApps
+  - D365CE
 ---
-# <a name="set-properties-for-a-model-driven-app-chart-or-list-included-in-a-dashboard"></a>Eigenschappen instellen voor een modelgestuurde app-grafiek of -lijst in een dashboard
+# <a name="set-properties-for-a-model-driven-app-chart-or-list-included-in-a-dashboard"></a>Eigenschappen instellen voor een grafiek of lijst voor modelgestuurde apps in een dashboard
 
-Als u een grafiek of lijstonderdeel wilt bewerken in de Dashboard Designer, selecteert u de grafiek of lijst van uw keus en selecteert u Onderdeel bewerken in de Dashboard Designer-werkbalk.   
+Als u een grafiek- of lijstonderdeel in de dashboard-editor wilt bewerken, selecteert u de betreffende grafiek of lijst en selecteert u Onderdeel bewerken op de werkbalk van de dashboard-editor.   
+  > [!div class="mx-imgBorder"] 
+  > ![Grafiekonderdeel bewerken in dashboard-editor](media/dashboard-chart-select.png)
 
-  ![Grafiekonderdeel bewerken in Dashboard Designer](media/dashboard-chart-select.png)
+Het dialoogvenster **Eigenschappen instellen** wordt dan geopend.
 
-Hiermee opent u het dialoogvenster **Eigenschappen instellen**.
-
-  ![Grafiekeigenschappen instellen](media/set-properties-chart.png)  
+  > [!div class="mx-imgBorder"] 
+  > ![Eigenschappen instellen voor grafiek](media/set-properties-chart.png)  
  
-U kunt de volgende grafiekeigenschappen instellen vanuit het dialoogvenster **Eigenschappen instellen**:  
+U kunt de volgende grafiekeigenschappen instellen in het dialoogvenster **Eigenschappen instellen**:  
   
-- **Naam**. Unieke naam voor de grafiek. Het systeem stelt een waarde voor, maar deze kunt u wijzigen.  
+- **Name**. Unieke naam voor het diagram. Het systeem stelt een waarde voor, maar u kunt deze wijzigen.  
   
-- **Label**. Het label dat bovenaan de grafiek verschijnt.  
+- **Label**. Het label dat boven aan de grafiek wordt weergegeven.  
   
-- **Label weergeven op het Dashboard**. Schakel dit selectievakje in of uit als u het grafieklabel wilt weergeven of verbergen.  
+- **Label op het dashboard weergeven**. Selecteer of wis dit selectievakje om het grafieklabel weer te geven of te verbergen.  
   
-- **Entiteit**. Selecteer de entiteit (recordtype) waarop de grafiek wordt gebaseerd. Deze instelling bepaalt de beschikbare waarden voor de eigenschappen Standaardweergave en Standaardgrafiek.  
+- **Entiteit**. Selecteer de entiteit (recordtype) waarop de grafiek moet worden gebaseerd. Deze instelling bepaalt de beschikbare waarden voor de standaardweergave en de eigenschappen van de standaardgrafiek.  
   
-- **Standaardweergave**. Selecteer de weergave die wordt gebruikt om de gegevens voor de grafiek op te halen.  
+- **Standaardweergave**. Selecteer de weergave die wordt gebruikt voor het ophalen van de gegevens voor de grafiek.  
   
-- **Standaardgrafiek**. Selecteer de standaardgrafiek die u wilt weergeven wanneer het dashboard wordt geopend. De beschikbare waarden worden bepaald door de waarde die wordt ingesteld voor de eigenschap Entiteit. Deze eigenschap werkt samen met de eigenschap Grafiekselectie weergeven. Een gebruiker kan het type grafiek wijzigen als de optie **Grafiekselectie weergeven** is ingeschakeld, maar de grafiek wordt bij de volgende keer dat het dashboard wordt geopend weer als de standaardgrafiek weergegeven.  
+- **Standaardgrafiek**. Selecteer de standaardgrafiek die moet worden weergegeven als het dashboard de eerste keer wordt geopend. De beschikbare waarden worden bepaald door de waarde die voor de eigenschap Entiteit is ingesteld. Deze eigenschap werkt samen met de eigenschap Grafiekselectie weergeven. Een gebruiker kan het type grafiek wijzigen als de optie **Grafiekselectie weergeven** is ingeschakeld, maar de grafiek wordt weer de standaardgrafiek wanneer het dashboard de volgende keer wordt geopend.  
   
-- **Alleen grafiek weergeven**. Schakel dit selectievakje in als u alleen de grafiek wilt weergeven. Schakel dit selectievakje uit als u de grafiek en de bijbehorende gegevens wilt weergeven.  
+- **Alleen grafiek weergeven**. Schakel dit selectievakje in als u alleen de grafiek wilt weergeven. Schakel dit selectievakje uit als u de grafiek en de gekoppelde gegevens wilt weergeven.  
   
-- **Grafiekselectie weergeven**. Schakel dit selectievakje in als u wilt dat gebruikers het soort grafiek (kolom, balk, taart enz.) kunnen wijzigen wanneer zij het dashboard gebruiken. Als de gebruiker het soort grafiek wijzigt, worden de instellingen niet opgeslagen. Wanneer het dashboard wordt gesloten, wordt het soort grafiek teruggezet naar de standaardgrafiek.  
+- **Grafiekselectie weergeven**. Schakel dit selectievakje in als u wilt dat gebruikers het type grafiek kunnen wijzigen (kolom, staaf, cirkel, enzovoort) wanneer ze het dashboard gebruiken. Als de gebruiker het type grafiek wijzigt, worden de instellingen niet opgeslagen. Het diagramtype keert terug naar de instelling Standaardgrafiek wanneer het dashboard wordt gesloten.  
   
-U kunt de volgende lijsteigenschappen instellen vanuit het dialoogvenster **Eigenschappen instellen**:  
+U kunt de volgende lijsteigenschappen instellen in het dialoogvenster **Eigenschappen instellen**:  
   
-- **Naam**. Unieke naam voor de lijst. Het systeem stelt een waarde voor, maar deze kunt u wijzigen.  
+- **Name**. Unieke naam voor de lijst. Het systeem stelt een waarde voor, maar u kunt deze wijzigen.  
   
-- **Label**. Het label dat bovenaan de lijst verschijnt.  
+- **Label**. Het label dat boven aan de lijst wordt weergegeven.  
   
-- **Label weergeven op het Dashboard**. Schakel dit selectievakje in of uit als u het lijstlabel wilt weergeven of verbergen.  
+- **Label op het dashboard weergeven**. Selecteer of wis dit selectievakje om het lijstlabel weer te geven of te verbergen.  
   
-- **Entiteit**. Selecteer de entiteit (recordtype) waarop de lijst wordt gebaseerd. Deze instelling bepaalt de beschikbare waarden voor de eigenschap Standaardweergave voor de lijst.  
+- **Entiteit**. Selecteer de entiteit (recordtype) waarop de lijst moet worden gebaseerd. Deze instelling bepaalt de beschikbare waarden voor de standaardweergave en de eigenschappen van de standaardlijst.  
   
-- **Standaardweergave**. Selecteer de weergave die wordt gebruikt om de gegevens in de lijst op te halen. Een gebruiker kan de weergave wijzigen, maar de lijst wordt bij de volgende keer dat het dashboard wordt geopend weer in de Standaardweergave weergegeven.  
+- **Standaardweergave**. Selecteer de weergave die wordt gebruikt om de gegevens in de lijst op te halen. Een gebruiker kan de weergave veranderen maar de lijst keert naar de standaardweergave terug wanneer het dashboard de volgende keer wordt geopend.  
   
-- **Zoekvak weergeven**. Schakel dit selectievakje in als u het zoekvak bovenaan de lijst wilt weergeven. Als het zoekvak is ingeschakeld, kunnen u of andere gebruiker tijdens runtime zoeken naar records in de lijst.  
+- **Zoekvak weergeven**. Schakel dit selectievakje in als u boven aan de lijst een zoekvak wilt weergeven. Als het zoekvak is opgenomen, kunt u of andere gebruikers records in de lijst zoeken tijdens runtime.  
   
-- **Index weergeven**. Schakel dit selectievakje in als u onderaan de lijst de filters A tot Z wilt weergeven. Wanneer de filters A tot Z worden weergegeven, kunnen u of andere gebruikers een letter selecteren om snel naar de records te gaan die met die letter beginnen.  
+- **Index weergeven**. Schakel dit selectievakje in als u onder aan de lijst de A tot Z-filters wilt weergeven. Als de A tot Z-filters worden weergegeven, kunt u of kunnen andere gebruikers een letter selecteren om naar records te gaan die met die letter beginnen.  
   
-- **Weergaveselectie**. Selecteer één van de volgende waarden:  
+- **Weergave selecteren**. Maak een keuze uit de volgende waarden:  
   
-    - **Uit**. De weergaveselectie niet weergeven. U of andere gebruikers kunnen tijdens de runtime geen weergaven wijzigen.  
+    - **Uit**. De weergaveselector niet weergeven. U of andere gebruikers kunt de weergaven niet wijzigen tijdens runtime.  
   
-    - **Alle weergaven weergeven**. Dit biedt een volledige lijst van weergaven die bij de ingestelde waarde in de eigenschap Entiteit horen.  
+    - **Alle weergaven weergeven**. Verschaf een volledige lijst met weergaven die zijn gekoppeld aan de waarde die is ingesteld in de eigenschap Entiteit.  
   
-    - **Geselecteerde weergaven weergeven**. Selecteer deze instelling om de lijst met weergaven tijdens de runtime te beperken. Als u de weer te geven specifieke weergaven wilt selecteren, houdt u de Ctrl-toets ingedrukt en tikt u op of selecteert u elke weergave die u wilt opnemen.  
+    - **Geselecteerde weergaven weergeven**. Selecteer deze instelling om de lijst met weergaven te beperken die tijdens runtime beschikbaar is. Als u de specifieke weer te geven weergaven wilt selecteren, houdt u de toets Ctrl ingedrukt en selecteert u elke weergave die u wilt opnemen.  
  
 ## <a name="next-steps"></a>Volgende stappen  
  [Dashboards maken of aanpassen](create-edit-dashboards.md)

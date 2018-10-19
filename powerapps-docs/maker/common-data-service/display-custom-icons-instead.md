@@ -1,6 +1,6 @@
 ---
-title: Aangepaste pictogrammen in plaats van waarden weergeven in lijstweergaven met PowerApps | Microsoft Docs
-description: Leer hoe u aangepaste pictogramafbeeldingen kunt gebruiken in een weergave
+title: Aangepaste pictogrammen in plaats van waarden weergeven in lijstweergaven met PowerApps | MicrosoftDocs
+description: Leer hoe u aangepaste pictogramafbeeldingen kunt afbeelden in een weergave
 ms.custom: ''
 ms.date: 06/21/2018
 ms.reviewer: ''
@@ -9,95 +9,94 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
-- powerapps
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
+  - powerapps
 author: Mattp123
 ms.assetid: af866aed-2586-4b6f-bb1c-3519baae3645
 caps.latest.revision: 25
 ms.author: matp
 manager: kvivek
-ms.openlocfilehash: 592d2ad73b192d7f03c552563c4f91d52f3d201d
-ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39675143"
+search.audienceType:
+  - maker
+search.app:
+  - PowerApps
+  - D365CE
 ---
-# <a name="display-custom-icons-instead-of-values-in-list-views"></a>Aangepaste pictogrammen in plaats van waarden weergeven in lijstweergaven
+# <a name="display-custom-icons-instead-of-values-in-list-views"></a>Aangepaste pictogrammen weergeven in plaats van waarden in lijstweergaven
 
 <a name="GridIcons"></a>   
 
- Beheerders en klanten in PowerApps-omgevingen kunnen afbeeldingen toevoegen aan een weergave en de logica te bepalen die wordt gebruikt om de afbeelding te selecteren op basis van kolomwaarden met behulp van JavaScript. De mogelijkheid om lijstweergaven weer te geven met pictogrammen in plaats van tekst of numerieke waarden is geïntroduceerd in Relatie-inzichten. 
+ Beheerders en aanpassers van PowerApps-omgevingen kunnen afbeeldingen toevoegen aan een weergave en de logica vaststellen die wordt gebruikt voor het selecteren van de afbeelding op basis van kolomwaarden met behulp van JavaScript. De mogelijkheid om lijstweergaven te tonen waarin pictogrammen worden weergegeven in plaats van tekst of numerieke waarden werd in Relatie-inzichten geïntroduceerd. 
   
 > [!NOTE]
->  Rasterpictogrammen worden alleen weergegeven in de webinterface. Ze worden niet weergegeven in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] of de mobiele app.  
+>  Rasterpictogrammen worden alleen weergegeven in de webinterface. Deze worden niet weergegeven in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] of de mobiele toepassing.  
   
 ### <a name="add-custom-graphics-and-javascript-as-web-resources"></a>Aangepaste afbeeldingen en JavaScript toevoegen als webresources  
   
-1.  Maak de nieuwe afbeeldingsbestanden die nodig zijn voor de aanpassing. We raden u aan een pictogramgrootte te kiezen van 16x16 pixels (grotere afbeeldingen worden omlaag geschaald).  
+1.  Maak de nieuwe grafische bestanden die nodig zijn voor het aanpassen. We raden een pictogramgrootte van 16x16 pixels aan (grotere afbeeldingen worden verkleind).  
   
-2.  Schrijf een of meer JavaScript-functies die bepalen welke pictogrammen moeten worden weergegeven voor welke waarden (gewoonlijk hebt u voor elke kolom die u wilt aanpassen, één functie nodig). Elke functie moet een rijgegevensobject en een taalcode (LCID) accepteren als invoer en een matrix retourneren met een afbeeldingsnaam en knopinfotekst. Zie [Voorbeeldfunctie van JavaScript](#SampleJavascript), verderop in dit onderwerp, voor een voorbeeldfunctie.  
+2.  Schrijf een of meer JavaScript-functies die bepalen welke pictogrammen worden gebruikt voor het weergeven van welke waarden (normaal gesproken voegt u één functie toe voor elke kolom die u wilt aanpassen). Elke functie moet een object met rijgegevens en een taalcode (LCID) als invoer accepteren en een matrix met een afbeeldingsnaam en knopinfo retourneren. Een voorbeeldweergave vindt u in [Voorbeeld van JavaScript-functie](#SampleJavascript) verderop in dit onderwerp.  
   
-3.  Meld u als beheerder aan bij uw omgeving en open [Solution Explorer](../model-driven-apps/advanced-navigation.md#solution-explorer).  
+3.  Meld u aan bij uw omgeving als beheerder en open de [oplossingenverkenner](../model-driven-apps/advanced-navigation.md#solution-explorer).  
   
 4.  Het pop-upvenster **Standaardoplossing** wordt geopend. Navigeer hier naar **Onderdelen** > **Webresources**.  
   
-5.  Nu gaat u de aangepaste afbeeldingen, één voor één, uploaden als webresources. Selecteer in de werkbalk de knop **Nieuw** om een nieuwe webresource te maken. Er wordt nog een pop-upvenster geopend om u te helpen bij het maken van de resource. Voer de volgende handelingen uit:  
+5.  Nu kunt u aangepaste afbeeldingen één voor één uploaden als webresources. Selecteer de knop **Nieuw** op de werkbalk als u een nieuwe webresource wilt maken. Er wordt een pop-upvenster geopend om u te helpen bij het maken van de resource. Ga hiervoor als volgt te werk:  
   
-    1.  Geef de nieuwe resource een duidelijke **Naam**. Dit is de naam die u gebruikt om vanuit de JavaScript-code naar elke afbeelding te verwijzen.  
+    1.  Geef de nieuwe resource een betekenisvolle **Naam**. Dit is de naam die u gebruikt voor het verwijzen naar elke afbeelding vanuit uw JavaScript-code.  
   
-    2.  Stel het **Type** in op de afbeeldingsindeling die u hebt gebruikt om het afbeeldingsbestand op te slaan (PNG, JPEG of GIF).  
+    2.  Stel **Type** in op de grafische indeling die u hebt gebruikt om uw grafische bestand (PNG, JPEG of GIF) op te slaan.  
   
-    3.  Selecteer **Bestand kiezen** om een browservenster voor bestanden te openen. Gebruik dit venster om het afbeeldingsbestand te zoeken en te selecteren.  
+    3.  Selecteer **Bestand kiezen** om een bestandsbrowservenster te openen. Hierin kunt u uw grafische bestand zoeken en selecteren.  
   
-    4.  Voeg, als u wilt, een **Weergavenaam** en/of **Beschrijving** toe.  
+    4.  Voeg desgewenst een **Weergavenaam** en/of een **Beschrijving** toe.  
   
-    5.  Selecteer **Opslaan** en sluit vervolgens het venster **Webresource**.  
+    5.  Selecteer **Opslaan** en sluit het venster **Webresource**.  
   
-6.  Herhaal de vorige stap voor elk afbeeldingsbestand dat u hebt.  
+6.  Herhaal de voorgaande stap voor elk grafisch bestand.  
   
-7.  U voegt nu JavaScript toe als de laatste webresource. Selecteer in de werkbalk de optie **Nieuw** om een nieuwe webresource te maken. Er wordt nog een pop-upvenster geopend om u te helpen bij het maken van de resource. Voer de volgende handelingen uit:  
+7.  Nu voegt u JavaScript toe als de laatste webresource. Selecteer **Nieuw** op de werkbalk als u een nieuwe webresource wilt maken. Er wordt een pop-upvenster geopend om u te helpen bij het maken van de resource. Ga hiervoor als volgt te werk:  
   
-    1.  Geef de nieuwe resource een duidelijke **Naam**.  
+    1.  Geef de nieuwe resource een betekenisvolle **Naam**.  
   
     2.  Stel het **Type** in op **Script (JScript)**.  
   
-    3.  Selecteer **Teksteditor** (naast de instelling **Type**) om een venster voor de teksteditor te openen. Plak hier de JavaScript-code en selecteer **OK** om deze op te slaan.  
+    3.  Selecteer **Teksteditor** (naast de instelling **Type**) om een teksteditorvenster te openen. Plak hier uw JavaScript-code en selecteer **OK** om deze op te slaan.  
   
-    4.  Voeg, als u wilt, een **Weergavenaam** en/of **Beschrijving** toe.  
+    4.  Voeg desgewenst een **Weergavenaam** en/of een **Beschrijving** toe.  
   
-    5.  Selecteer **Opslaan** en sluit vervolgens het venster **Webresource**.  
+    5.  Selecteer **Opslaan** en sluit het venster **Webresource**.  
   
-8.  Laat het pop-upvenster **Standaardoplossing** geopend, vouw de structuur **Onderdelen** > **Entiteiten** uit en zoek de entiteit die u wilt aanpassen.  
+8.  Met het pop-upvenster **Standaardoplossing** geopend, vouwt u de structuur **Onderdelen** > **Entiteiten** uit en gaat u naar de entiteit die u wilt aanpassen.  
   
-9. Vouw de entiteit uit en selecteer het bijbehorende pictogram **Weergaven**.  
+9. Vouw de entiteit uit en selecteer het pictogram **Weergaven**.  
   
-10. U ziet nu een lijst met weergaven voor de geselecteerde entiteit. Selecteer een weergave uit de lijst. Open vervolgens in de werkbalk de vervolgkeuzelijst **Meer acties** en selecteer **Bewerken**.  
+10. U ziet nu een lijst met weergaven voor de geselecteerde entiteit. Selecteer een weergave in de lijst. Open vervolgens de vervolgkeuzelijst **Meer acties** op de werkbalk en selecteer **Bewerken**.  
   
-11. Er wordt een pop-upvenster geopend met besturingselementen om de geselecteerde weergave te bewerken. In het venster wordt elke kolom weergegeven die onderdeel uitmaakt van de weergave. Selecteer de doelkolom en selecteer vervolgens **Eigenschappen wijzigen** in het vak **Algemene taken**. Het dialoogvenster **Kolomeigenschappen wijzigen** wordt geopend. Stel hier de volgende instellingen in:  
+11. Er wordt een pop-upvenster geopend met besturingselementen voor het bewerken van de geselecteerde weergave. Elke kolom die deel uitmaakt van de weergave, wordt getoond. Selecteer de doelkolom en selecteer vervolgens op de optie **Eigenschappen wijzigen** in het vak **Algemene taken**. Het dialoogvenster **Kolomeigenschappen wijzigen** wordt geopend. Kies hier de volgende instellingen:  
   
-    - **Webresource**: geef de naam op van de webresource die u hebt gemaakt voor de JavaScript-functies (selecteer **Bladeren** om te kiezen uit de lijst).  
+    - **Webresource**: geef de naam op van de webresource die u hebt gemaakt voor uw Javascript-functies (selecteer **Bladeren** om uit een lijst te kiezen).  
   
-    - **Functienaam**: typ de naam van de functie die u hebt geschreven, om de geselecteerde kolom en weergave te wijzigen.  
+    - **Functienaam**: typ de naam van de functies die u hebt ingevoerd om de geselecteerde kolom en de weergave aan te passen.  
   
 12. Selecteer **OK** om het dialoogvenster **Kolomeigenschappen wijzigen** te sluiten.  
   
 13. Selecteer **Opslaan en sluiten** om de weergave op te slaan.  
   
-14. Herhaal deze stappen voor elke entiteit, weergave en kolom, indien nodig.  
+14. Herhaal deze stappen naar wens voor elke entiteit, weergave en kolom.  
   
-15. Als u klaar bent, selecteert u **Alle aanpassingen publiceren** om de wijzigingen te publiceren. Sluit vervolgens het venster **Standaardoplossing**.  
+15. Als u gereed bent, selecteert u **Alle aanpassingen publiceren** om uw wijzigingen te publiceren. Vervolgens sluit u het pop-upvenster **Standaardoplossing**.  
   
 <a name="SampleJavascript"></a>   
 
-### <a name="sample-javascript-function"></a>Voorbeeldfunctie van JavaScript  
- Voor de JavaScript-functie voor het weergeven van aangepaste pictogrammen en knopinfo worden deze twee argumenten verwacht: het hele rijobject in layoutxml en de landinstellingen-id (LCID) van de gebruiker die de aanroep heeft uitgevoerd. Met de LCID-parameter kunt u knopinfotekst weergeven in meerdere talen. Zie [Talen inschakelen](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-languages) en [Taalpakketten voor Dynamics 365 installeren of upgraden](https://technet.microsoft.com/library/hh699674.aspx) voor meer informatie over de talen die worden ondersteund in de omgeving. Zie [Landinstellingen-id’s die zijn toegewezen in Microsoft](https://go.microsoft.com/fwlink/?linkid=829588) voor een lijst met landinstellingen-id’s (LCID) die u kunt gebruiken in uw code.
+### <a name="sample-javascript-function"></a>Voorbeeld van JavaScript-functie  
+ De JavaScript-functie voor het weergeven van aangepaste pictogrammen en knopinfo verwacht de volgende twee argumenten: het volledige rijobject, opgegeven in layoutxml, en de landinstelling-id van de aanroepende gebruiker (LCID). Met de LCID-parameter kunt u de knopinfotekst in meerdere talen opgeven. Voor meer informatie over de talen die door de omgeving worden ondersteund, raadpleegt u [Talen inschakelen](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-languages) en [Taalpakketten installeren of bijwerken voor Dynamics 365](https://technet.microsoft.com/library/hh699674.aspx). Een lijst van LCID-waarden die u in uw code kunt gebruiken, vindt u in [Id's voor landinstellingen die door Microsoft worden toegewezen](https://go.microsoft.com/fwlink/?linkid=829588).
 
   
- Ervan uitgaande dat u aangepaste pictogrammen gaat toevoegen voor een kenmerk van het type optieset, dat een beperkte set vooraf gedefinieerde opties heeft, moet u ervoor zorgen dat u het geheel getal van de opties gebruikt in plaats van een label. Dit is om lokalisatieproblemen te voorkomen.  
+ Aannemende dat u waarschijnlijk aangepaste pictogrammen toevoegt voor een kenmerk van het type optieset, dat een beperkte set voorgedefinieerde opties heeft, moet u erop letten dat u de integerwaarde van de opties gebruikt in plaats van het label om lokalisatieproblemen te voorkomen.  
   
- In de volgende voorbeeldcode worden pictogrammen en knopinfo weergegeven op basis van een van drie waarden (1: Heet, 2: Warm, 3: Koud) in het kenmerk opportunityratingcode (classificatie). De voorbeeldcode toont ook hoe gelokaliseerde knopinfotekst moet worden weergegeven. Dit voorbeeld werkt alleen als u drie afbeeldingswebresources maakt met afbeeldingen van 16x16 met de volgende namen: nieuw_Heet, nieuw_Warm en nieuw_Koud.  
+ De volgende voorbeeldcode geeft pictogrammen en knopinfo weer op basis van een van de volgende drie waarden (1: Heet, 2: Warm, 3: Koud) in het kenmerk opportunityratingcode (Kwalificatie). De voorbeeldcode geeft ook aan hoe u gelokaliseerde knopinfotekst kunt weergeven. Om dit voorbeeld te laten functioneren, moet u drie afbeeldingswebresources met 16 x 16 afbeeldingen maken met de volgende namen: new_Hot, new_Warm en new_Cold.  
   
 ```  
 function displayIconTooltip(rowData, userLCID) {      
@@ -149,9 +148,9 @@ function displayIconTooltip(rowData, userLCID) {
 }  
 ```  
   
- Dit resulteert in het weergeven van pictogrammen met knopinfo in de kolom **Classificatie** die afhankelijk is van de waarde in elke rij. Het resultaat kan er als volgt uitzien:  
+ Dit resulteert in de weergave van knopinfo in de kolom **Kwalificatie** die afhangt van de waarde in elke rij. Het resultaat kan er als volgt uitzien:  
   
- ![Voorbeeld van kolom met aangepaste afbeeldingen](media/custom-column-graphics-example.png "Voorbeeld van kolom met aangepaste afbeeldingen")  
+ ![Voorbeeld van aangepaste kolomafbeeldingen](media/custom-column-graphics-example.png "Voorbeeld van aangepaste kolomafbeeldingen")  
  
  ### <a name="see-also"></a>Zie ook
  [Weergaven maken of bewerken](../model-driven-apps/create-edit-views.md)

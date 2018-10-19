@@ -18,8 +18,8 @@ search.app:
 # <a name="complex-entities-and-licensing"></a>Complexe entiteiten en licenties
 Entiteiten die de volgende complexe serverlogica bevatten, vereisen dat gebruikers van een app of een stroom die deze entiteiten gebruiken, om een PowerApps Plan 2- of Microsoft Flow Plan 2-licentie hebben:
 
-* Codeplug-ins. (Meer informatie: [Ontwikkeling van plug-ins](https://docs.microsoft.com/dynamics365/customer-engagement/developer/plugin-development))
-* Realtime-werkstromen. Meer informatie: [Werkstroomprocessen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/workflow-processes))
+* Codeplug-ins. Meer informatie: [Ontwikkeling van plug-ins](https://docs.microsoft.com/dynamics365/customer-engagement/developer/plugin-development)
+* Realtime-werkstromen. Meer informatie: [Werkstroomprocessen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/workflow-processes)
 
     > [!IMPORTANT]
     >  Alleen werkstromen die naar een realtime-werkstroom worden geconverteerd, worden beschouwd als realtime en synchroon. Werkstromen die op de achtergrond worden uitgevoerd, kunnen nog steeds worden gebruikt met het juiste PowerApps-plan en vereisen geen aanvullende licenties.

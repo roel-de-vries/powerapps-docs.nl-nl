@@ -1,6 +1,6 @@
 ---
-title: Navigatie wijzigen binnen een modelgestuurd app-formulier in PowerApps | Microsoft Docs
-description: Informatie over het wijzigen van de navigatie binnen een formulier
+title: Navigatie in een formulier voor modelgestuurde apps wijzigen in PowerApps | MicrosoftDocs
+description: Lees hoe u de navigatie kunt wijzigen binnen een formulier
 ms.custom: ''
 ms.date: 06/06/2018
 ms.reviewer: ''
@@ -9,42 +9,43 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
-- powerapps
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
+  - powerapps
 author: Mattp123
 ms.assetid: 4c379202-9f0e-4003-a49c-efff53e7f79f
 caps.latest.revision: 63
 ms.author: matp
 manager: kvivek
-ms.openlocfilehash: 5a8156875f669854a4ba4649e50a23e340f3ceff
-ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39673871"
+search.audienceType:
+  - maker
+search.app:
+  - PowerApps
+  - D365CE
 ---
-# <a name="change-navigation-within-a-model-driven-app-form"></a>Navigatie wijzigen binnen een modelgestuurd app-formulier
+# <a name="change-navigation-within-a-model-driven-app-form"></a>Navigatie in een formulier voor modelgestuurde apps wijzigen
 
- Navigatie binnen een formulier zorgt ervoor dat app-gebruikers lijsten met gerelateerde records kunnen weergeven. Elke entiteitsrelatie heeft eigenschappen om te bepalen of deze moet worden weergegeven. Meer informatie: [Item op navigatiedeelvenster voor primaire entiteit](../common-data-service/create-edit-1n-relationships-solution-explorer.md#navigation-pane-item-for-primary-entity)  
+ Met navigatie binnen een formulier kunnen gebruikers van apps lijsten met gerelateerde records bekijken. Elke entiteitsrelatie heeft eigenschappen om te beheren of de relatie moet worden weergegeven. Meer informatie: [Navigatiedeelvensteritem voor primaire entiteit](../common-data-service/create-edit-1n-relationships-solution-explorer.md#navigation-pane-item-for-primary-entity)  
   
- Alle entiteitsrelaties die zijn geconfigureerd om te worden weergegeven kunnen worden overschreven in de formulier-editor. U kunt ook navigatiekoppelingen opnemen om webresources of andere websites via formuliernavigatie weer te geven.  
+ Alle entiteitsrelaties die zijn geconfigureerd om te worden weergegeven, kunnen worden genegeerd in de formuliereneditor. U kunt ook navigatiekoppelingen opnemen om webresources of andere websites weer te geven via formuliernavigatie.  
   
- Zie voor stapsgewijze instructies [Entiteitsrelaties maken en bewerken voor Common Data Service for Apps](../common-data-service/create-edit-entity-relationships.md)  
+ Zie voor stapsgewijze instructies [Entiteitsrelaties voor Common Data Service voor Apps maken en bewerken](../common-data-service/create-edit-entity-relationships.md)  
   
- Om het bewerken van navigatie in te schakelen, moet u eerst **Navigatie** selecteren uit de groep **Selecteren** op het tabblad **Start** van de formulierontwerper.  
+ Als u de bewerking van navigatie wilt inschakelen, moet u eerst **Navigatie** selecteren in de groep **Selecteren** van het tabblad **Start** in de formulierontwerper.  
  
- ![Navigatie-opdracht](media/navigation-command.png)
+> [!div class="mx-imgBorder"] 
+> ![Navigatieopdracht](media/navigation-command.png)
  
- In het rechterdeelvenster kunt u vanuit de **Relatieverkenner** filteren op 1:N-relaties (een-op-veel) of N:N-relaties (veel-op-veel) of alle beschikbare relaties weergeven. Het selectievakje **Alleen ongebruikte relaties weergeven** is uitgeschakeld en geselecteerd. U kunt dus elke relatie slechts één keer toevoegen.  
-  
- ![Relatieverkenner](media/relationship-explorer.png)
+ In de rechterdeelvenster kunt u in **Relatieverkenner** filteren op 1:N- (een-op-veel) of N:N-relaties (veel-op-veel) of alle beschikbare relaties bekijken. Het **selectievakje Alleen ongebruikte relaties weergeven** is uitgeschakeld en geselecteerd. U kunt elke relatie dus slechts één keer toevoegen.  
+ 
+ > [!div class="mx-imgBorder"] 
+ > ![Relatieverkenner](media/relationship-explorer.png)
 
- Als u een relatie wilt toevoegen vanuit de **Relatieverkenner**, dubbelklikt u op de relatie. Deze wordt dan toegevoegd onder de momenteel geselecteerde relatie in het navigatiedeelvenster. Dubbelklik op een relatie in het navigatieveld en u kunt het label wijzigen op het tabblad **Weergave**. Op het tabblad **Naam** ziet u meer informatie over de relatie. Gebruik de knop **Bewerken** om de definitie van de entiteit te openen.  
+ Als u een relatie vanuit **Relatieverkenner** wilt toevoegen, dubbelklikt u op die relatie om deze toe te voegen onder de momenteel geselecteerde relatie in het navigatiegebied. Dubbelklik op een relatie in het navigatiegebied en u kunt het label op het tabblad **Weergeven** wijzigen. Op het tabblad **Naam** kunt u informatie over de relatie zien. Gebruik de knop **Bewerken** om de definitie van de entiteit te openen.  
   
- Er zijn vijf groepen in het navigatiedeelvenster. U kunt deze slepen om ze te verplaatsen en erop dubbelklikken als u het label wilt wijzigen, maar u kunt ze niet verwijderen. Deze groepen worden alleen weergegeven wanneer ze niet leeg zijn. Dus als u niet wilt dat een groep wordt weergegeven, moet u deze gewoon leeg laten.  
+ Er zijn vijf groepen in het navigatiegebied. U kunt ze verslepen om ze te verplaatsen en erop dubbelklikken om het label te wijzigen, maar u kunt ze niet verwijderen. Deze groepen worden alleen weergegeven wanneer er iets in zit. Dus als u een groep wilt weergeven, moet er u niets aan toevoegen.  
   
- Gebruik de knop **Navigatiekoppeling** in de groep **Besturing** op het tabblad **Invoegen** om een koppeling naar een webresource of externe URL toe te voegen.  
+ Gebruik de knop **Navigatiekoppeling** in de groep **Besturingselement** van het tabblad **Invoegen** om een koppeling naar een webresource of een externe URL toe te voegen.  
  
  ![Navigatiekoppeling](media/navigation-link.png)
  
@@ -54,10 +55,10 @@ ms.locfileid: "39673871"
   
 |Eigenschap|Beschrijving|  
 |--------------|-----------------|  
-|Naam|**Vereist**: tekst die moet worden weergegeven als een label.|  
-|Pictogram|Gebruik een webresource van 32x32 pixels. We raden aan een PNG-afbeelding met een transparante achtergrond te gebruiken.|  
-|Webresource|Geef een webresource op om weer te geven in het hoofdvenster van het formulier.|  
-|Externe URL|Geef een URL van een pagina op om weer te geven in het hoofdvenster van het formulier.|  
+|Naam|**Vereist**: Tekst om weer te geven als label.|  
+|Pictogram|Gebruik een 32x32-pixelwebresource. U wordt aangeraden een PNG-afbeelding met een transparante achtergrond te gebruiken.|  
+|Webresource|Geef een webresource die wordt weergegeven in het hoofddeelvenster van het formulier.|  
+|Externe URL|Geef de URL van een pagina op die wordt weergegeven in het hoofdvenster van het formulier.|  
 
 <a name="BKMK_PrivacyNotices"></a>   
 
@@ -68,4 +69,4 @@ ms.locfileid: "39673871"
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Overzicht van gebruikersinterface van de formulier-editor](form-editor-user-interface-legacy.md)
+[Overzicht van de gebruikersinterface van de formuliereneditor](form-editor-user-interface-legacy.md)
