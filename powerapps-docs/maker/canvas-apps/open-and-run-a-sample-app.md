@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5d4e88ca0a1e683d2f72e02625e6228d1063352f
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 09d2bc10d465510887b546df8341c8798df136c1
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42831802"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49316810"
 ---
 # <a name="quickstart-create-a-canvas-app-from-a-sample-in-powerapps"></a>Snelstartgids: Een canvas-app maken vanuit een voorbeeld in PowerApps
 In deze snelstartgids maakt u een canvas-app op basis van een voorbeeld, zodat u uw ontwerpmogelijkheden kunt verkennen en concepten kunt ontdekken die u kunt toepassen tijdens het ontwikkelen van uw eigen canvas-apps.
@@ -30,11 +30,9 @@ Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../sig
 ## <a name="open-a-sample-app"></a>Een voorbeeld-app openen
 1. Meld u aan bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
-    ![](./media/open-and-run-a-sample-app/sign-in.png)
-
 1. Beweeg in de lijst van voorbeeld-apps de muisaanwijzer over een voorbeeld-app (zoals **Cost Estimator**).
 
-    ![](./media/open-and-run-a-sample-app/sample-tile.png)
+    ![](./media/open-and-run-a-sample-app/cost-estimator.png)
 
 1. Klik of tik op het telefoonpictogram om een app-versie voor mobiele apparaten te maken (of laat het tabletpictogram geselecteerd) en klik of tik vervolgens op **Deze app maken**.
 
