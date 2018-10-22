@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8e657023956793ab74094100ca2d5649e7c818b6
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: b1531289c55772aaa9ee521c92cc8b5dbfe16ad4
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42850804"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49317017"
 ---
 # <a name="generate-a-canvas-app-from-excel-in-powerapps"></a>In PowerApps een canvas-app genereren vanuit Excel
 
@@ -37,11 +37,9 @@ Download het bestand [Flooring Estimates](https://az787822.vo.msecnd.net/documen
 ## <a name="generate-the-app"></a>De app genereren
 1. Meld u aan bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
-    ![PowerApps-startpagina](./media/get-started-create-from-data/sign-in.png)
+1. Wijs onder **Uw eigen app maken** de optie **Starten vanuit gegevens** aan en selecteer vervolgens **Deze app maken**.
 
-1. Beweeg de muisaanwijzer onder **Apps zoals deze maken** over **Starten vanuit gegevens** en selecteer vervolgens **Deze app maken**.
-
-    ![Optie voor het maken van een app](./media/get-started-create-from-data/make-this-app.png)
+    ![Optie voor het maken van een app](./media/get-started-create-from-data/start-from-data.png)
 
 1. Klik of tik onder **Beginnen met uw gegevens** op **Telefoonindeling** op de tegel voor uw cloudopslagaccount.
 

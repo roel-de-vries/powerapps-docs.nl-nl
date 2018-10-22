@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3a229715d1041ca7d695c5c45f72631f2b4c67e9
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 15aa49787d6b2c3d3981e374aeb43c54a2d7a7ec
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42861541"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49317086"
 ---
 # <a name="generate-a-canvas-app-in-powerapps-from-a-sharepoint-list"></a>In PowerApps een canvas-app genereren vanuit een SharePoint-lijst
 
@@ -44,9 +44,9 @@ De beginselen van het genereren van een app worden niet gewijzigd, zelfs als u e
 
 1. Meld u aan bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
-1. Beweeg de muisaanwijzer onder **Apps zoals deze maken** over **Starten vanuit gegevens** en selecteer vervolgens **Deze app maken**.
+1. Wijs onder **Uw eigen app maken** de optie **Starten vanuit gegevens** aan en selecteer vervolgens **Deze app maken**.
 
-    ![Optie voor het maken van een app](./media/app-from-sharepoint/make-this-app.png)
+    ![Optie voor het maken van een app](./media/app-from-sharepoint/start-from-data.png)
 
 1. Selecteer op de SharePoint-tegel **Telefoonindeling**.
 

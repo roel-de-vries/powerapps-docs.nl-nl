@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a1ee0b02465853306881ca4379182aef42bffd84
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 3128d284d5b03da9a7c8b5798365b60f7092988b
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42833534"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49316902"
 ---
 # <a name="create-an-canvas-app-from-scratch-based-on-excel-data"></a>Een volledig nieuwe canvas-app maken op basis van Excel-gegevens
 
@@ -51,13 +51,11 @@ Als u de onderstaande stappen in deze zelfstudie precies wilt volgen, maakt u ee
 ## <a name="open-a-blank-app"></a>Een lege app openen
 1. Meld u aan bij [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
-    ![PowerApps-startpagina](./media/get-started-create-from-blank/sign-in.png)
-
     U kunt een volledig nieuwe app ontwerpen voor telefoons of voor andere apparaten (zoals tablets). Dit onderwerp richt zich op het ontwerpen van een app voor telefoons.
 
-1. Beweeg onder **Apps zoals deze maken** de muisaanwijzer over de tegel **Beginnen met een lege app**, selecteer het telefoonpictogram en selecteer **Deze app maken**.
+1. Wijs onder **Uw eigen app maken** de tegel **Beginnen met een lege app** voor canvas-apps aan, selecteer het telefoonpictogram en selecteer vervolgens op **Deze app maken**.
 
-    ![Lege-apptegel](./media/get-started-create-from-blank/blank-app.png)
+    ![Lege-apptegel](./media/get-started-create-from-blank/start-from-blank.png)
 
     PowerApps Studio maakt een lege app voor telefoons.
 

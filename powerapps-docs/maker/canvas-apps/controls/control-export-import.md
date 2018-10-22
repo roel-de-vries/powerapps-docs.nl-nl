@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1dde9367fe06b1bd2242fe0ac755f5eeedb71bba
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: b78f88941fce85b9e63427635cb946f944aa120a
+ms.sourcegitcommit: e2a9d1a6090cdd8aa78515b49f38ed2365217ea6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42851835"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "49384266"
 ---
 # <a name="export-control-and-import-control-in-powerapps"></a>Besturingselementen voor exporteren en importeren in PowerApps
 Besturingselementen waarmee u gegevens naar een lokaal bestand exporteert en die gegevens vervolgens in een andere app in PowerApps importeert.
@@ -28,6 +28,9 @@ Als u meerdere apps wilt maken die gebruikmaken van dezelfde gegevens maar die g
 
 ## <a name="warning"></a>Waarschuwing
 Als u deze functionaliteit in uw app inschakelt, kan de app worden blootgesteld aan beveiligingsrisico's en gegevenslekken.  U wordt aangeraden gebruikers te adviseren alleen bekende en vertrouwde bestanden te importeren en alleen gegevens te exporteren die niet vertrouwelijk of gevoelig zijn.
+
+## <a name="limitations"></a>Beperkingen
+De exportfunctionaliteit wordt niet ondersteund in webbrowsers.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
 **Data**: De naam van een verzameling die u naar een lokaal bestand wilt exporteren.

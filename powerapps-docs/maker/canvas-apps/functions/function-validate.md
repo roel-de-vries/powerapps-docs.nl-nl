@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bec00071d1b354872bf3b140e5c879fe8857ffec
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: d92236d630005b4608719efaadef4537984bc3d6
+ms.sourcegitcommit: 5a1864d1531b55b332749437674fd1378e1f55ca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865665"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "49307833"
 ---
 # <a name="validate-function-in-powerapps"></a>De functie Validate in PowerApps
 De functie **Validate** controleert of de waarde van één [kolom](../working-with-tables.md#columns) of een volledige [record](../working-with-tables.md#records) geldig is voor een [gegevensbron](../working-with-data-sources.md).  
@@ -66,6 +66,6 @@ Voor deze voorbeelden moeten de waarden in de kolom **Percentage** van de gegeve
 
 | Formule | Beschrijving | Resultaat |
 | --- | --- | --- |
-| **Validate( Scores, EditRecord, Gallery.Updates )** |Controleert of **10** een geldige waarde is voor de kolom **Percentage** in de gegevensbron **Scores**. |*leeg* |
-| **Validate( Scores, EditRecord, Gallery.Updates )** |Controleert of **120** een geldige waarde is voor de kolom **Percentage** in de gegevensbron **Scores**. |"Waarden moeten tussen 0 en 100 liggen." |
+| **Validate( Scores, EditRecord, Gallery.Updates )** |Hiermee wordt gecontroleerd of de waarden in alle kolommen geldig zijn voor de gegevensbron **Scores**. In dit voorbeeld heeft de kolom **Percentage** de waarde **10**. |*leeg* |
+| **Validate( Scores, EditRecord, Gallery.Updates )** | Hiermee wordt gecontroleerd of de waarden in alle kolommen geldig zijn voor de gegevensbron **Scores**. In dit voorbeeld heeft de kolom **Percentage** de waarde **120**. |"Waarden moeten tussen 0 en 100 liggen." |
 

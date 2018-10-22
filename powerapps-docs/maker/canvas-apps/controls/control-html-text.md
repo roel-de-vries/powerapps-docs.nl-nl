@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 965c779a752d0bfd864a06d5fa886b0187839123
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: d41ef04d3cd070373f6772bdfced029a7d09e244
+ms.sourcegitcommit: ebd39753e2a0b60c1d8c016e38c00dd1accf5d0c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42836888"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49307856"
 ---
 # <a name="html-text-control-in-powerapps"></a>Besturingselement voor HTML-tekst in PowerApps
 Een vak waarin tekst wordt weergegeven en HTML-codes worden geconverteerd naar opmaak.
@@ -80,7 +80,7 @@ Een besturingselement **HTML-tekst** bevat niet alleen gewone tekst en getallen,
 ## <a name="example"></a>Voorbeeld
 1. Voeg een **[Label](control-text-box.md)**-besturingselement met de naam **Bron** toe en stel de eigenschap **[Text](properties-core.md)** in op deze tekenreeks:
 
-\<p> We hebben een \&nbsp; \&quot; letterlijke en figuurlijke \&quot; inhaalslag gemaakt. \<p>
+\<p> We hebben\&nbsp;een \&quot;letterlijke en figuurlijke\&quot; inhaalslag gemaakt.\<>p
 
 Weet u niet hoe u [een besturingselement kunt toevoegen, een naam kunt geven of kunt configureren](../add-configure-controls.md)?
 

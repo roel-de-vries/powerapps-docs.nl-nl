@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 93d29f0a49a70077f975bed659203b4fb7d66489
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: a9f85907da60e836c1a1115f31c6faf9ea05da9b
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42833460"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49317063"
 ---
 # <a name="what-are-canvas-apps-in-powerapps"></a>Wat zijn de canvas-apps in PowerApps?
 Ontwerp en bouw een zakelijke app via een canvas in Microsoft PowerApps, zonder code te schrijven in een traditionele programmeertaal zoals C#. U ontwerpt de app door elementen naar een canvas te slepen, net zoals u een dia ontwerpt in PowerPoint. Maak Excel-achtige expressies voor het opgeven van logica en het werken met gegevens. Bouw apps die zakelijke gegevens uit [een grote verscheidenheid aan bronnen binnen Microsoft en van derden](connections-list.md) integreren. Deel uw app zodat gebruikers deze kunnen uitvoeren in een browser of op een mobiel apparaat en de app kunnen insluiten zodat deze kan worden uitgevoerd in SharePoint, Power BI of Teams.
@@ -33,9 +33,9 @@ Om te beginnen genereert u automatisch een app op basis van een van deze bronnen
 - [SharePoint](app-from-sharepoint.md)
 - [Excel](get-started-create-from-data.md)
 
-Selecteer op de website van PowerApps de optie **Beginnen met uw gegevens** of selecteer een voorbeeld-app, zoals **Servicedesk** of **Budget Tracker**.
+[Meld u aan](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) bij PowerApps en selecteer vervolgens de optie **Starten vanuit uw gegevens** of selecteer een voorbeeld-app, zoals **Servicedesk** of **Budget Tracker**.
 
-![PowerApps-site](./media/getting-started/sample-apps.png)
+![PowerApps-site](./media/getting-started/create-page-samples.png)
 
 Wanneer u automatisch een app hebt gegenereerd, kunt de standaardweergave en - werking ervan aanpassen op basis van de werkstromen van uw gebruikers. Mogelijk wilt u wijzigen welke typen gegevens er worden weergegeven en hoe ze worden gesorteerd. U kunt zelfs aangeven of gebruikers een getal kunnen opgeven door dit te typen of door een schuifregelaar te bedienen. U kunt [schermen](add-screen-context-variables.md), [galerieën](customize-layout-sharepoint.md), [formulieren](customize-forms-sharepoint.md) en andere besturingselementen toevoegen en aanpassen.
 

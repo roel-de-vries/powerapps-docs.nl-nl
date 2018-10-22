@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b668e8ae118bea5f288e1b3806854e4621295984
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 302c2fad419146f03fe47e25b8a7563564ee7e2d
+ms.sourcegitcommit: 5a1864d1531b55b332749437674fd1378e1f55ca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42852131"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "49307810"
 ---
 # <a name="microphone-control-in-powerapps"></a>Besturingselement voor microfoon in PowerApps
 Een bedieningselement waarmee app-gebruikers geluiden uit hun apparaat kunnen opnemen.
@@ -26,7 +26,7 @@ Een bedieningselement waarmee app-gebruikers geluiden uit hun apparaat kunnen op
 ## <a name="description"></a>Beschrijving
 App-gebruikers kunnen audio-opnamen maken als het apparaat waarop de app wordt uitgevoerd, over een microfoon beschikt.
 
-Audio wordt opgeslagen in 3gp-indeling in Android en in AAC-indeling in iOS.
+Audio wordt opgeslagen in 3gp-indeling in Android, in AAC-indeling in iOS en in OGG-indeling in webbrowsers.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
 **Mic**: op een apparaat dat meerdere microfoons heeft, is dit de numerieke id van de microfoon die door de app wordt gebruikt.

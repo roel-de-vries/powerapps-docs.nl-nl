@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3ecf468f8c1b15d20b144aa127fe31c13dba484e
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 02aaaf7fd149ca0d9f3e1325b98e5287c90bebec
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42849744"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49316994"
 ---
 # <a name="sign-in-to-powerapps-for-the-first-time"></a>Voor de eerste keer aanmelden bij PowerApps
 
@@ -62,25 +62,17 @@ U kunt in PowerApps de volgende typen apps maken en uitvoeren:
 - **Canvas-apps** bieden ondersteuning voor het ontwerpen van een aangepaste gebruikersinterface en het verbinden met gegevens van verschillende bronnen.
 - **Modelgestuurde apps** beschikken over een standaardgebruikersinterface en kunnen alleen in Common Data Service (CDS) for Apps met gegevens worden verbonden. U kunt hiermee echter wel eenvoudiger andere elementen maken, zoals weergaven, dashboards en verschillende typen zakelijke logica.
 
-Op de pagina **Start** worden standaard opties gemaakt voor het maken en uitvoeren van canvas-apps. Als u in plaats daarvan modelgestuurde opties wilt weergeven, kiest u een omgeving met een CDS for Apps-database. Open vervolgens het menu in de linkerbenedenhoek.
-
-![Schakelen tussen canvas- en modelgestuurde apps](media/intro-maker-portal/mode-switcher.png)
+Als u een omgeving met een CDS for Apps-database kiest, kunt u canvas- of modelgestuurde apps bouwen vanaf dezelfde pagina **Start**.
 
 ## <a name="play-or-edit-an-app"></a>Een app gebruiken of bewerken
 
-Als u al een app hebt gemaakt (of iemand anders heeft een app gemaakt en deze met u gedeeld), kunt u deze gebruiken of bewerken via de pagina **Apps**.
+Als u een app hebt gemaakt (of als iemand anders heeft een app gemaakt en deze met u heeft gedeeld), kunt u deze gebruiken of bewerken vanaf de pagina **Start** of de pagina **Apps**.
 
-- U kunt canvas-apps zoeken door te filteren op basis van criteria. Zo kunt u bijvoorbeeld apps zoeken die u recent hebt geopend.
+Op de pagina **Apps** kunt u de lijst met apps filteren op basis van criteria. Zo kunt u bijvoorbeeld apps zoeken die u recent hebt geopend.
 
-    ![Lijst met canvas-apps](media/intro-maker-portal/org-apps.png)
+![lijst met apps](./media/intro-maker-portal/find-apps.png)
 
-    U kunt ook zoeken naar een app door een of meer tekens te typen in het zoekvak in de rechterbovenhoek. Wanneer u de gewenste app hebt gevonden, selecteert u het beletselteken om de opties voor het openen en bewerken van de app te tonen.
-
-    ![Beletseltekenmenu](media/intro-maker-portal/ellipsis-menu.png)
-
-- U kunt de lijst modelgestuurde apps niet filteren, maar u kunt wel zoeken naar een app door een of meer tekens te typen in het zoekvak in de rechterbovenhoek. Wanneer u de gewenste app hebt gevonden, selecteert u het beletselteken om de opties voor het openen en bewerken van de app te tonen.
-
-    ![Lijst met modelgestuurde apps, met een geopend beletseltekenmenu](media/intro-maker-portal/model-driven-list.png)
+U kunt ook zoeken naar een app door een of meer tekens te typen in het zoekvak in de rechterbovenhoek. Wanneer u de gewenste app hebt gevonden, selecteert u het bannerpictogram om de app af te spelen of te bewerken.
 
 ## <a name="create-an-app"></a>Een app maken
 

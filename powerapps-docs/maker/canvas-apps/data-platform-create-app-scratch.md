@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b90024e3864420c541b0e0e1ef0ad1d86b900aa0
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 45b5d85998825cdafc2bbea7badaa5d7cde2f092
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42852271"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49317040"
 ---
 # <a name="create-a-canvas-app-from-scratch-using-common-data-service-for-apps"></a>Een volledig nieuwe canvas-app maken met Common Data Service for Apps
 
@@ -35,11 +35,9 @@ Wanneer u een app bouwt op basis van de Common Data Service, hoeft u geen verbin
 
 1. Meld u aan bij [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
-    ![PowerApps-startpagina](./media/data-platform-create-app-scratch/sign-in.png)
+1. Wijs onder **Uw eigen app maken** de tegel **Beginnen met een lege app** voor canvas-apps aan, klik of tik op het telefoonpictogram en klik of tik vervolgens op **Deze app maken**.
 
-1. Beweeg onder **Apps zoals deze maken** de muisaanwijzer over de tegel **Beginnen met een lege app**, klik of tik op het telefoonpictogram en klik of tik op **Deze app maken**.
-
-    ![Lege-apptegel](./media/data-platform-create-app-scratch/blank-app.png)
+    ![Lege-apptegel](./media/data-platform-create-app-scratch/start-from-blank.png)
 
     U kunt een volledig nieuwe app ontwerpen voor telefoons of andere apparaten (zoals tablets). In dit onderwerp wordt de nadruk gelegd op het ontwerpen van een app voor telefoons.
 

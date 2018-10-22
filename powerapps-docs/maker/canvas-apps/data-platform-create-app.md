@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bf19983217afad23b75a0f0dbd1e307e6539d3f5
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: c8b24c9064e5012ff1ddb15d13dc338ed9565bef
+ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42825943"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49316764"
 ---
 # <a name="generate-a-canvas-app-from-common-data-service-for-apps-in-powerapps"></a>In PowerApps een canvas-app genereren in Common Data Service for Apps
 
@@ -34,11 +34,9 @@ Als u deze snelstart wilt volgen, moet u [overschakelen naar een omgeving](worki
 
 1. Meld u aan bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en schakel, indien nodig, over van omgeving zoals eerder in dit onderwerp is aangegeven.
 
-    ![PowerApps-startpagina](./media/data-platform-create-app/sign-in.png)
+1. Wijs onder **Uw eigen app maken** de optie **Starten vanuit gegevens** aan en selecteer vervolgens **Deze app maken**.
 
-1. Beweeg de muisaanwijzer onder **Apps zoals deze maken** over **Starten vanuit gegevens** en selecteer vervolgens **Deze app maken**.
-
-    ![Optie voor het maken van een app](./media/data-platform-create-app/make-this-app.png)
+    ![Optie voor het maken van een app](./media/data-platform-create-app/start-from-data.png)
 
 1. Selecteer op de tegel **Common Data Service** de optie **Telefoonindeling**.
 

@@ -13,30 +13,26 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ad52396eda0c8db46dd38cb7176524df5feb7416
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: da9c8f85844e37d6af8e1063b36496c820fbfa07
+ms.sourcegitcommit: e2a9d1a6090cdd8aa78515b49f38ed2365217ea6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42834653"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "49384243"
 ---
 # <a name="attachments-control-in-powerapps"></a>Besturingselement voor bijlagen in PowerApps
-Een besturingselement waarmee gebruikers bestanden kunnen downloaden op hun apparaat en ook bestanden kunnen uploaden naar en verwijderen van een SharePoint-lijst.
+Een besturingselement waarmee gebruikers bestanden kunnen downloaden op hun apparaat en ook bestanden kunnen uploaden naar en verwijderen uit een SharePoint-lijst of een Common Data Service for Apps-entiteit.
 
 ## <a name="limitations"></a>Beperkingen
-Het besturingselement voor bijlagen heeft de volgende tijdelijke beperkingen:
-1. Het downloaden van bijlagen wordt in Internet Explorer alleen ondersteund in aangepaste formulieren van SharePoint.
+Het besturingselement voor bijlagen heeft de volgende beperkingen:
+1. Bijlagen worden ondersteund met SharePoint-lijsten en CDS for Apps-entiteiten.
 
-1. Uploaden van bijlagen werkt alleen met gegevensbronnen van SharePoint-lijst.  Ondersteuning voor andere gegevensbronnen wordt stapsgewijs geïntroduceerd, beginnend bij CDS.
-
-1. De functies uploaden en verwijderen werken alleen binnen een formulier.  Besturingselement bijlagen lijkt uitgschakeld wanneer het zich bewerkingsmodus bevindt en niet in een formulier.   Merk op dat om het toevoegen en verwijderen van bestanden aan de backend te besparen de eindgebruiker het formulier moet opslaan.
+1. De functies uploaden en verwijderen werken alleen binnen een formulier.  Besturingselement bijlagen lijkt uitgschakeld wanneer het zich bewerkingsmodus bevindt en niet in een formulier. Merk op dat om het toevoegen en verwijderen van bestanden aan de backend te besparen de eindgebruiker het formulier moet opslaan.
 
 1. U kunt alleen bestanden met een maximale grootte van 10 MB uploaden.  
 
-1. Met iOS-apparaten kunnen op dit moment alleen bestanden van documenten en cloud-opslagaccounts worden geüpload. Als u foto's/video's wilt bijvoegen, gebruikt u de webbrowser op uw iOS-apparaat om de app uit te voeren.
-
 ## <a name="description"></a>Beschrijving
-Met een besturingselement **Attachments** kunt u bestanden openen die zijn opgeslagen op een gegevensbron en ook bestanden toevoegen aan en verwijderen van een SharePoint-lijst.
+Met het besturingselement **Attachments** kunt u bestanden openen in, toevoegen aan of verwijderen uit een Share-lijst of een CDS for Apps-entiteit.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
 **[Items](properties-core.md)**: de bron die de bestanden beschrijft die kunnen worden gedownload.
@@ -86,7 +82,7 @@ Met een besturingselement **Attachments** kunt u bestanden openen die zijn opges
 
 
 ## <a name="example"></a>Voorbeeld
-1. Maak een app op basis van gegevens waarbij u een SharePoint-lijst als gegevensbron gebruikt.  U kunt ook een formulier aan uw app toevoegen en een SharePoint-lijst als de gegevensbron van het formulier instellen.
+1. Maak een app op basis van gegevens waarbij u een SharePoint-lijst als gegevensbron gebruikt. U kunt ook een formulier aan uw app toevoegen en een SharePoint-lijst als de gegevensbron van het formulier instellen.
 
 2. Selecteer het besturingselement **Formulier** in de structuurweergave aan de linkerkant.
 
