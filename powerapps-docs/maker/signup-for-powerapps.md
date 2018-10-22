@@ -1,6 +1,6 @@
 ---
-title: Aanmelden voor een gratis proeflicentie | Microsoft Docs
-description: Meld u aan voor een gratis licentie om 30 dagen lang PowerApps uit te proberen als individu.
+title: Aanmelden voor een licentie voor een gratis proefversie | Microsoft Docs
+description: Aanmelden voor een gratis licentie om PowerApps 30 dagen lang te proberen als individu.
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -8,122 +8,128 @@ ms.topic: conceptual
 ms.custom: canvas
 ms.date: 03/12/2018
 ms.author: anneta
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: cfe9dd8d7a1a1342e7db4fb2786f68942bec7784
+ms.sourcegitcommit: 967812754d8e5b1ff72baa35ffbe548f3b9b0085
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45726901"
 ---
-# <a name="sign-up-for-a-free-license-to-try-powerapps"></a>Aanmelden voor een gratis licentie om PowerApps uit te proberen
-Als u een app in PowerApps wilt maken, hebt u een van de verschillende typen licenties nodig die verschillende niveaus van functionaliteit bieden. U hebt al een licentie voor PowerApps als uw organisatie een van de verschillende versies van Office 365 of Dynamics 365 voor u heeft aangeschaft of als uw organisatie licenties voor PowerApps Plan 1 of PowerApps Plan 2 voor u heeft aangeschaft.
+# <a name="sign-up-for-a-free-license-to-try-powerapps"></a>Aanmelden voor een gratis licentie om PowerApps te proberen
+Als u een app wilt maken in PowerApps, hebt u een van de verschillende typen licenties nodig die verschillende functionaliteitniveaus bieden. U hebt al een licentie voor PowerApps als uw organisatie een van verschillende versies van Office 365 of Dynamics 365 voor u heeft gekocht, of als uw organisatie licenties voor PowerApps-abonnement 1 of 2 voor u heeft aangeschaft.
 
 > [!NOTE]
-> Als u een beheerder bent, raadpleegt u [PowerApps aanschaffen voor uw organisatie](../administrator/signup-for-powerapps-admin.md) of [V&A over PowerApps in uw organisatie](../administrator/signup-question-and-answer.md).
+> Raadpleeg, als u beheerder bent, [PowerApps aanschaffen voor uw organisatie](../administrator/signup-for-powerapps-admin.md) of [Veelgestelde vragen over PowerApps in uw organisatie](../administrator/signup-question-and-answer.md).
 
-U kunt uitzoeken [welke licenties PowerApps bevatten](https://powerapps.microsoft.com/pricing/) en wat deze bieden. Als u nog steeds niet zeker bent of u al over een licentie beschikt, opent u de [PowerApps-site](http://powerapps.microsoft.com) en selecteert u vervolgens **Aanmelden**.
+U kunt hier ontdekken [welke licenties over PowerApps beschikken](https://powerapps.microsoft.com/pricing/) en wat deze te bieden hebben. Als u nog steeds niet zeker weet of u al een licentie hebt, opent u de [PowerApps-site](http://powerapps.microsoft.com) en selecteert u vervolgens **Aanmelden**.
 
-![Aanmeldingsoptie voor PowerApps](./media/signup-for-powerapps/sign-in.png)
+![Aanmeldoptie voor PowerApps](./media/signup-for-powerapps/sign-in.png)
 
-Als u geen licentie hebt u meer functies wilt dan uw huidige licentie biedt, kunt u zich aanmelden voor een gratis proefversie van PowerApps Plan 2. Deze licentie biedt alle PowerApps-functionaliteit maar verloopt na 30 dagen.
+Als u geen licentie hebt of u meer functionaliteit wilt dan beschikbaar is in de huidige licentie, kunt u zich aanmelden voor een gratis proefversie van PowerApps-abonnement 2. Deze licentie biedt alle PowerApps-functionaliteit, maar verloopt na 30 dagen.
 
 ## <a name="upgrade-an-existing-license"></a>Een bestaande licentie upgraden 
-U kunt een gratis proefperiode van 30 dagen voor PowerApps Plan 2 starten door zich met een bestaande licentie aan te melden voor PowerApps en vervolgens een van deze functies te proberen:
+U kunt met een gratis 30-daagse proefversie van PowerApps-abonnement 2 beginnen door u bij PowerApps aan te melden met een bestaande licentie en vervolgens een van deze functies te proberen:
 
-* [Een exemplaar maken en beheren](../administrator/signup-for-powerapps-admin.md) van de Common Data Service.
-* [Uw gegevens modelleren](./common-data-service/data-platform-intro.md) met de Common Data Service.
-* [Omgevingen maken en beheren](../administrator/environments-administration.md) vanuit het PowerApps-beheerdercentrum.
+* [Een instantie van Common Data Service](../administrator/signup-for-powerapps-admin.md) maken en beheren.
+* [Uw gegevens modelleren](./common-data-service/data-platform-intro.md) met Common Data Service.
+* [Omgevingen maken en beheren](../administrator/environments-administration.md) vanuit het PowerApps-beheercentrum.
 * [Een on-premises gegevensgateway beheren](./canvas-apps/gateway-management.md) in PowerApps.  
 
-Als u een van deze functies probeert zonder een PowerApps-Plan 2-licentie, wordt u gevraagd om uw gratis proefversie voor 30 dagen te starten. Selecteer simpelweg **Mijn proefversie starten** en ga vervolgens akkoord met de gebruiksvoorwaarden in het dialoogvenster dat wordt weergegeven.
+Als u een van deze functies zonder licentie voor PowerApps-abonnement 2 probeert, wordt u gevraagd om uw gratis 30-daagse proefversie te starten. Selecteer **Mijn proefversie starten** en ga vervolgens akkoord met de gebruiksvoorwaarden in het dialoogvenster dat wordt weergegeven.
 
-![Akkoord gaan met de gebruiksvoorwaarden](./media/signup-for-powerapps/trial-consent.png)
+![Akkoord met de gebruiksvoorwaarden](./media/signup-for-powerapps/trial-consent.png)
 
-## <a name="get-a-license-from-scratch"></a>Een geheel nieuwe licentie aanvragen
-Als u niet over een licentie voor PowerApps beschikt, kunt u zich aanmelden voor een gratis proefversie van 30 dagen voor PowerApps Plan 2. [PowerApps-site](http://powerapps.microsoft.com)
+## <a name="get-a-license-from-scratch"></a>Een volledig nieuwe licentie ophalen
+Als u geen licentie voor PowerApps hebt, kunt u zich aanmelden voor een gratis 30-daagse proefversie van PowerApps-abonnement 2 vanuit de [PowerApps-site](http://powerapps.microsoft.com).
 
-* Als u een browser op een telefoon gebruikt, tikt u op het menupictogram in de rechterbovenhoek en vervolgens op **Gratis aanmelden**.
-* Als u een browser op een ander soort apparaat gebruikt, selecteert u **Gratis aanmelden** in de rechterbovenhoek.
+* Als u een browser gebruikt op een telefoon, tikt u op het menupictogram in de rechterbovenhoek en tikt u daarna op **Gratis aanmelden**.
+* Als u een browser gebruikt op een ander apparaattype, selecteert u **Gratis aanmelden** in de rechterbovenhoek.
 
     ![Gratis aanmelden](./media/signup-for-powerapps/sign-up-browser.png)
 
-Selecteer, dichtbij het midden van het scherm de optie **Prijzen** en selecteer vervolgens **Gratis proefversie starten**.
+Selecteer ongeveer in het midden van het scherm **Prijzen** en selecteer vervolgens **Gratis proefversie starten**.
 
 ![Gratis proefversie starten](./media/signup-for-powerapps/start-free-trial.png)
 
-Typ of plak in het dialoogvenster dat wordt weergegeven uw e-mailadres op het werk of op school en klik of tik vervolgens op **Verzenden**
+Typ of plak in het dialoogvenster dat wordt weergegeven het e-mailadres van uw werk of school, en klik of tik op **Verzenden**.
 
 > [!IMPORTANT]
-> E-mailservices voor consumenten, telecommunicatieproviders, overheids- en militaire adressen worden niet ondersteund, inclusief:  
+> Adressen voor consumenten-e-mailservices, telecomproviders, overheid en leger worden niet ondersteund. Voorbeelden hiervan zijn:  
 > 
-> * outlook.com, hotmail.com, gmail.com enzovoort.  
+> * outlook.com, hotmail.com, gmail.com, enzovoort  
 > * .gov en .mil
 >
-> Als u probeert zich aan te melden met een persoonlijk e-mailadres, geeft een bericht aan dat u een e-mailadres op het werk of op school moet gebruiken.
+> Als u zich probeert aan te melden met een persoonlijk e-mailadres, wordt in een bericht aangegeven dat u een e-mailadres van uw werk of school moet gebruiken.
 
-![Type e-mailadres](./media/signup-for-powerapps/get-started-old.png)
+![Typ e-mailadres](./media/signup-for-powerapps/get-started-old.png)
 
-Als PowerApps uw organisatie herkent, kunt u zich aanmelden met uw referenties voor deze organisatie (en de rest van deze instructies overslaan)
+Als uw organisatie wordt herkend door PowerApps, kunt u zich aanmelden met uw referenties voor deze organisatie (en de rest van deze instructies overslaan).
 
 ![Aanmelden met werkaccount](./media/signup-for-powerapps/we-know-you.png)
 
-Anders wordt u gevraagd om uw e-mail te controleren. 
+Anders wordt u gevraagd uw e-mail te controleren. 
 
-![Bericht om e-mail te controleren](./media/signup-for-powerapps/check-email.png)
+![Bericht over controleren van e-mail](./media/signup-for-powerapps/check-email.png)
 
-Selecteer in het e-mailbericht de koppeling om uw e-mailadres te verifiëren en (indien hierom wordt gevraagd) meer informatie te bieden.
+Selecteer in het e-mailbericht de koppeling om uw e-mailadres te verifiëren en verstrek meer informatie (indien u erom wordt gevraagd).
 
-Wanneer dit dialoogvenster wordt weergegeven, selecteert u **Start** en begint u vervolgens met het gebruiken van [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)!
+Als dit dialoogvenster wordt weergegeven, selecteert u **Start**, waarna u vervolgens kunt [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) kunt gaan gebruiken.
 
 ![Klik op Start](./media/signup-for-powerapps/almost-there.png)
 
 > [!NOTE]
-> Als u meer tijd wilt om PowerApps te evalueren, kunt u ons verzoeken om uw proefperiode met nog eens 30 dagen te verlengen.
+> Als u meer tijd wilt om PowerApps te evalueren, kunt u een aanvraag indienen om de proefperiode met 30 dagen te verlengen.
 
 ## <a name="faq"></a>Veelgestelde vragen
 
-### <a name="what-premium-features-does-the-trial-license-include"></a>Welke premium functies maken deel uit van de proeflicentie?
+### <a name="what-premium-features-does-the-trial-license-include"></a>Welke Premium-functies zijn opgenomen in de proeflicentie?
 
-* **Toegang tot de Common Data Service**. Dit is een veilig platform voor zakelijke gegevens dat is ingebouwd in PowerApps. De [Common Data Service](./common-data-service/data-platform-intro.md) wordt geleverd met honderden standaardbedrijfsentiteiten, dus al uw apps kunnen dezelfde definitie van "klant", "product", "potentiële klant" en meer delen.
-* **Toegang tot premium verbindingen** zoals Salesforce, DB2, Zendesk en de Common Data Service. Met veel Office Dynamics 365- en Dynamics 365-plannen kunt u verbinding maken met gegevensbronnen zoals Office 365, Dynamics 365, Dropbox en Twitter. Met de proefperiode kunt u ook verbinding maken met gegevens via deze premium connectors en vele andere:
+* **Toegang tot de Common Data Service**, een beveiligd platform voor zakelijke gegevens dat is ingebouwd in PowerApps. [Common Data Service](./common-data-service/data-platform-intro.md) omvat honderden standaardbedrijfsentiteiten, waardoor in al uw apps dezelfde definitie voor 'klant', 'product', 'potentiële klant' enzovoort wordt gebruikt.
+* **Toegang tot premium-verbindingen**, zoals Salesforce, DB2, Zendesk en de Common Data Service. Met een groot aantal Office 365- en Dynamics 365-abonnementen kunt u verbinding maken met gegevensbronnen als Office 365, Dynamics 365, Dropbox en Twitter. Met de proeflicentie kunt u ook verbinding maken met de gegevens via deze Premium-connectoren en nog veel meer:
 
     ![](./media/signup-for-powerapps/premium-connectors.png)
 
-    In de [volledige lijst met connectors](./canvas-apps/connections-list.md), worden premium connectors aangeduid met een badge:
+    In de [volledige lijst met connectors](./canvas-apps/connections-list.md), worden de premium-connectors met een badge weergegeven:
 
     ![](./media/signup-for-powerapps/premium-badge.png)
-* **Toegang tot het PowerApps-beheerdercentrum**, waar u uw omgevingen, databases, gebruikersrechten en gegevensbeleid kunt beheren. [Meer informatie](../administrator/admin-guide.md)
-* **Apps maken in modelgestuurde modus**, waar u onderdelen aan een app kunt toevoegen en PowerApps de indeling en andere interface-elementen kunt laten maken. 
+* **Toegang tot het PowerApps-beheercentrum**, waar u uw omgevingen, databases, gebruikersmachtigingen en gegevensbeleid kunt beheren. [Meer informatie](../administrator/admin-guide.md)
+* **Maak apps in de modelgestuurde modus** waarin u onderdelen toevoegt aan een app en PowerApps de indeling en andere interface-elementen ervoor laat maken. 
 
-Voor meer informatie over functies en capaciteit in de proeflicentie, raadpleegt u de [pagina met prijzen](https://powerapps.microsoft.com/pricing/).
+Zie de [pagina met prijzen](https://powerapps.microsoft.com/pricing/) voor meer informatie over de functionaliteit en capaciteit van de proeflicentie.
 
 ### <a name="what-email-address-can-i-use"></a>Welk e-mailadres kan ik gebruiken?
-U kunt een werk- of schooladres gebruiken voor aanmelding voor een proeflicentie. Als u een ander type adres gebruikt, hebt u mogelijk last van een van de volgende symptomen in deze tabel.
+U kunt zich met een werk- of schooladres aanmelden voor een proeflicentie. Als u een ander type adres gebruikt, kunt u een van de symptomen in deze tabel tegenkomen.
 
 
-|                                                                                                                                                                                                                             Symptoom/Foutbericht                                                                                                                                                                                                                             |                                                                                                                                                                                                     Oorzaak en oplossing                                                                                                                                                                                                      |
+|                                                                                                                                                                                                                             Symptoom / Foutbericht                                                                                                                                                                                                                             |                                                                                                                                                                                                     Oorzaak en tijdelijke oplossing                                                                                                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <strong>Persoonlijke e-mailadressen (bijv. nancy@gmail.com)</strong> <br> <br> U ontvangt tijdens de aanmelding een bericht dat lijkt op het volgende: <br> <br> `You entered a personal email address: Please enter your work email address so we can securely store your company's data.` <br> <br> of <br> <br> `That looks like a personal email address. Enter your work address so we can connect you with others in your company. And don’t worry. We won’t share your address with anyone.` |                                                                                                        PowerApps biedt geen ondersteuning voor e-mailadressen die worden geleverd door e-mailservices voor consumenten telecommunicatieproviders. <br> <br> Als u de aanmelding wilt voltooien, probeert u een e-mailadres te gebruiken dat is toegewezen door uw werk of school.                                                                                                        |
-|                             **.gov- of .mil-adressen** <br> <br> U ontvangt tijdens de aanmelding een bericht dat lijkt op het volgende: <br> <br> `PowerApps unavailable: PowerApps is not available for users with .gov or .mil email addresses at this time. Use another work email address or check back later.` <br> <br> of <br> <br> `We can't finish signing you up. It looks like Microsoft PowerApps isn't currently available for your work or school.`                              |                                                                                                                                                                                PowerApps ondersteunt momenteel geen adressen met het achtervoegsel .gov of .mil.                                                                                                                                                                                |
-|                                                                                             **E-mailadres is geen Office 365-id** <br> <br>  U ontvangt tijdens de aanmelding een bericht dat lijkt op het volgende: <br> <br> `We can't find you at contoso.com.  Do you use a different ID at work or school? Try signing in with that, and if it doesn't work, contact your IT department.`                                                                                              | Uw organisatie meldt zich bij Office 365 en andere Microsoft-services aan met andere id's dan e-mailadressen. Zo is uw e-mailadres misschien Nancy.Smith@contoso.com, maar uw id nancys@contoso.com. <br> <br> U kunt de aanmelding voltooien door de id te gebruiken die uw organisatie aan u heeft toegewezen voor aanmelding bij Office 365 of andere Microsoft-services.  Als u deze id niet weet, neemt u contact op met uw IT-beheerder. |
+| <strong>Persoonlijke e-mailadressen (bijvoorbeeld nancy@gmail.com)</strong> <br> <br> U krijgt bij het aanmelden een bericht als het volgende: <br> <br> `You entered a personal email address: Please enter your work email address so we can securely store your company's data.` <br> <br> of <br> <br> `That looks like a personal email address. Enter your work address so we can connect you with others in your company. And don’t worry. We won’t share your address with anyone.` |                                                                                                        PowerApps biedt geen ondersteuning voor e-mailadressen die worden geleverd door consumenten-e-mailservices of telecomproviders. <br> <br> U kunt de aanmelding alsnog proberen te voltooien door gebruik te maken van een e-mailadres dat is toegewezen door uw werk of school.                                                                                                        |
+|                             **.gov- of .mil-adressen** <br> <br> U krijgt bij het aanmelden een bericht als het volgende: <br> <br> `PowerApps unavailable: PowerApps is not available for users with .gov or .mil email addresses at this time. Use another work email address or check back later.` <br> <br> of <br> <br> `We can't finish signing you up. It looks like Microsoft PowerApps isn't currently available for your work or school.`                              |                                                                                                                                                                                PowerApps ondersteunt momenteel geen .gov- of .mil-adressen.                                                                                                                                                                                |
+|                                                                                             **E-mailadres is geen Office 365-id** <br> <br>  U krijgt bij het aanmelden een bericht als het volgende: <br> <br> `We can't find you at contoso.com.  Do you use a different ID at work or school? Try signing in with that, and if it doesn't work, contact your IT department.`                                                                                              | Uw organisatie meldt zich aan bij Office 365 en andere Microsoft-services met andere id's dan e-mailadressen. Bijvoorbeeld: uw e-mailadres is Nancy.Smith@contoso.com, maar uw id is nancys@contoso.com. <br> <br> Om de aanmelding te voltooien, gebruikt u de id die uw organisatie u heeft toegewezen voor aanmelding bij Office 365 of andere Microsoft-services.  Als u die id niet weet, kunt u contact opnemen met uw IT-beheerder. |
 
-### <a name="what-happens-when-my-trial-expires"></a>Wat gebeurt er als mijn proefversie verloopt?
-Na 30 dagen wordt u gevraagd om een verlenging van de proefversie aan te vragen of een plan aan te schaffen. Details over alle plannen kunt u vinden op de [pagina met prijzen](https://powerapps.microsoft.com/pricing/).
+### <a name="what-happens-when-my-trial-expires"></a>Wat gebeurt er als de proefversie afloopt?
+Na 30 dagen wordt u gevraagd om een verlenging voor de proefversie aan te vragen of om een abonnement aan te schaffen. Details over alle abonnementen vindt u op de [pagina met prijzen](https://powerapps.microsoft.com/pricing/).
 
-* Als u toegang tot PowerApps hebt via Office 365, Dynamics 365 of een PowerApps Plan 1-licentie, kunt u PowerApps wel gebruiken, maar raakt u mogelijk de toegang kwijt tot de premium connectors van Common Data Service, het PowerApps-beheercentrum en andere functies van het PowerApps Plan 2. Zo wordt bijvoorbeeld mogelijk dit scherm weergegeven als u probeert een premium verbinding te maken:
+* Als u toegang hebt tot PowerApps via Office 365, Dynamics 365 of een licentie voor PowerApps-abonnement 1, kunt u nog steeds PowerApps gebruiken, maar hebt u mogelijk geen toegang meer tot de Common Data Service, Premium-connectoren, het PowerApps-beheercentrum en andere functies van PowerApps-abonnement 2. U krijgt bijvoorbeeld dit scherm te zien als u een premium-verbinding wilt maken:
 
     ![](./media/signup-for-powerapps/premium-trial-expired.png)
 
-* Als u alleen toegang tot PowerApps hebt via de proeflicentie (waarvoor u zich hebt aangemeld op de [PowerApps-site](http://powerapps.microsoft.com/) of de [pagina met prijzen](http://powerapps.microsoft.com/pricing)), kunt u een verlenging van 30 dagen van de proeflicentie aanvragen om toegang tot PowerApps te behouden.
+* Als u alleen toegang tot PowerApps kunt krijgen via de proefversie (waarvoor u zich hebt geregistreerd op de [PowerApps-site](http://powerapps.microsoft.com/) of de [pagina met prijzen](http://powerapps.microsoft.com/pricing)), kunt u een 30-daagse verlenging van de proeflicentie aanvragen om toegang tot PowerApps te behouden.
 
-### <a name="when-will-my-trial-license-expire"></a>Wanneer verloopt mijn proeflicentie?
-U kunt bepalen wanneer uw proeflicentie periode verloopt door het tandwielpictogram in de rechterbovenhoek van de [PowerApps-site](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) te selecteren en vervolgens **Plan(nen)** te kiezen.
+### <a name="when-will-my-trial-license-expire"></a>Wanneer is mijn proeflicentie is verlopen?
+Als u wilt bepalen wanneer uw proeflicentie verloopt, selecteert u het tandwielpictogram bij de rechterbovenhoek van de [PowerApps-site](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en selecteert u vervolgens **Abonnement(en)**.
 
 ![](./media/signup-for-powerapps/show-duration.png)
 
-### <a name="what-happens-to-my-data-if-my-trial-license-expires"></a>Wat gebeurt er met mijn gegevens als mijn proeflicentie verloopt?
-Als u nog steeds toegang tot PowerApps hebt, kunt u het product blijven gebruiken. Alle gegevens in de Common Data Service blijven ongewijzigd en alle apps of stromen die gebruik hebben gemaakt van de Common Data Service als gegevensbron blijven werken als voorheen. Maar u kunt geen gebruik meer maken van die app of stroom en u wordt verzocht om een verlenging van de proeflicentie met 30 dagen aan te vragen of een plan aan te schaffen als u probeert een schema of entiteiten in de Common Data Service te wijzigen.
+### <a name="what-happens-to-my-data-if-my-trial-license-expires"></a>Wat gebeurt er met mijn gegevens als de proeflicentie verloopt?
+Als u nog steeds toegang het tot PowerApps, kunt u uw gegevens blijven gebruiken. Gegevens in de Common Data Service blijven ongewijzigd en een app of stroom die in de Common Data Service als een gegevensbron worden gebruikt, blijven als zodanig uitgevoerd. U kunt die app of stroom echter niet gebruiken en u wordt gevraagd een 30-daagse verlenging van de proefversie aan te vragen of om een abonnement aan te schaffen als u een schema of entiteiten in de Common Data Service wilt wijzigen.
 
-### <a name="what-should-i-do-next"></a>Wat moet ik hierna doen?
-U kunt toegang tot PowerApps en de bijbehorende functies blijven houden door een van de volgende activiteiten uit te voeren:
+### <a name="what-should-i-do-next"></a>Wat moet ik verder nog doen?
+U kunt de toegang tot PowerApps behouden en de functies ervan door een van de volgende stappen uit te voeren:
 
-* Uw proeflcentie met 30 dagen verlengen als u hierom wordt gevraagd.
-* De beschikbare plannen bekijken op de [pagina met prijzen](https://powerapps.microsoft.com/pricing/) voor PowerApps en vervolgens [een plan aanschaffen](../administrator/signup-for-powerapps-admin.md).
+* Uw proeflicentie met 30 dagen verlengen wanneer u hierom wordt gevraagd.
+* Bekijk de beschikbare abonnementen op de [pagina met prijzen](https://powerapps.microsoft.com/pricing/) voor PowerApps en [schaf er vervolgens één aan](../administrator/signup-for-powerapps-admin.md).
 
-## <a name="more-questions"></a>Meer vragen?
-Probeer de PowerApps [Community](https://community.powerapps.com) uit.
+## <a name="more-questions"></a>Nog vragen?
+Probeer de [PowerApps-community](https://community.powerapps.com).

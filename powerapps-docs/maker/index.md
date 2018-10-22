@@ -1,6 +1,6 @@
 ---
-title: Overzicht van het maken van apps | Microsoft-Docs
-description: Overzicht van het maken van apps in canvas- of modelgestuurde modus en met gebruik van de Common Data Service
+title: Overzicht van het maken van apps | Microsoft Docs
+description: Overzicht van het maken van apps in ofwel canvas- of modelgestuurde modus en Common Data Service opnemen
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -8,38 +8,43 @@ ms.topic: conceptual
 ms.custom: canvas
 ms.date: 03/18/2018
 ms.author: anneta
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: 3d95f017b064f61a539906268ebb73fff1e1d04f
+ms.sourcegitcommit: b9fa569153924af9815db45d52c04e764ddb7fa2
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39094605"
 ---
-
 # <a name="overview-of-creating-apps-in-powerapps"></a>Overzicht van het maken van apps in PowerApps
-PowerApps is een ontwikkelplatform met hoge productiviteit voor zakelijke apps dat uit drie hoofdonderdelen bestaat:
+PowerApps is een zeer productief ontwikkelingsplatform voor zakelijke apps en bestaat uit drie primaire onderdelen:
 
-- [Canvas-apps](canvas-apps/getting-started.md) starten met uw gebruikerservaring, via een in hoge mate aangepaste interface met de kracht van een leeg canvas en met de mogelijkheid om verbinding te maken met 200 gegevensbronnen. U kunt canvas-apps bouwen voor web-, mobiele en tablettoepassingen.
-- [Modelgestuurde apps](model-driven-apps/model-driven-app-overview.md) starten met uw gegevensbouw, waarbij op basis van uw zakelijke kerngegevens en -processen in de Common Data Service formulieren, weergaven en andere onderdelen worden gemodelleerd. Modelgestuurde apps genereren automatisch een fantastisch gebruikersinterface die snel reageert op verschillende apparaten.
-- [Common Data Service](common-data-service/data-platform-intro.md) is het gegevensplatform dat wordt geleverd met PowerApps en dat u in staat stelt bedrijfsgegevens te modelleren. Het is het platform waarop Dynamics 365 toepassingen worden gebouwd; als u een Dynamics-klant bent, bevinden uw gegevens zich al in de Common Data Service.
+- [Canvas-apps](canvas-apps/getting-started.md) beginnen met uw gebruikerservaring waarbij een in hoge mate aangepaste interface wordt samengesteld met de kracht van een leeg canvas en een verbinding met 200 gegevensbronnen naar keuze. U kunt canvas-apps voor web-, mobiele- en tablettoepassingen bouwen.
+- [Modelgestuurde apps](model-driven-apps/model-driven-app-overview.md) beginnen met uw gegevensmodel, waarbij wordt gebouwd op basis van de vorm van uw belangrijkste zakelijke gegevens en processen in Common Data Service om formulieren, weergaven en andere onderdelen vorm te geven. Met modelgestuurde apps wordt automatisch een uitstekende gebruikersinterface gegenereerd die responsief is op alle apparaten.
+- [Common Data Service](common-data-service/data-platform-intro.md) is het gegevensplatform dat bij PowerApps wordt geleverd en waarmee u bedrijfsgegevens kunt opslaan en in een model kunt opnemen. Het is het platform waarop Dynamics 365-toepassingen zijn gebouwd. Als u een Dynamics-klant bent, bevinden uw gegevens zich al in Common Data Service.
 
-Het is eenvoudig en simpel om uw eerste app te bouwen. We bieden een proefversie voor 30 dagen en een gratis communityplan; ontdek welke het meest geschikt voor u is en ga aan de slag.
+Het is gemakkelijk en eenvoudig om uw eerste app te bouwen. We bieden een evaluatieabonnement van 30 dagen en een gratis communityabonnement. Ga na welk abonnement voor u geschikt is en ga aan de slag.
 
 ## <a name="canvas-apps"></a>Canvas-apps
-Canvas-apps bieden u de flexibiliteit om de gebruikerservaring en interface te ordenen zoals u dat wilt. Sta uw creativiteit en zakelijk inzicht toe te bepalen hoe u uw apps eruit wilt laten zien.
+Canvas-apps bieden u de flexibiliteit om de gebruikerservaring en interface op de manier tot stand te brengen die voor u het beste werkt. Gebruik uw creativiteit en zakelijk inzicht om te bepalen hoe uw apps eruit moeten zien.
 
-U kunt beginnen met het bouwen van uw app met Microsoft-hulpmiddelen op de plaats waar uw gegevens zich bevinden, zoals:
+U kunt het bouwen van een app starten vanuit de Microsoft-programma's waar de gegevens zich bevinden, zoals:
 
 - [Vanuit een SharePoint-lijst](canvas-apps/generate-app-from-sharepoint-list-interface.md)
-- [Vanuit Power BI-dashboard](canvas-apps/embed-powerapps-powerbi.md)
+- [Vanuit een Power BI-dashboard](canvas-apps/embed-powerapps-powerbi.md)
 
-Het maken van een canvas-app is eenvoudig; met PowerApps kunt u uw app op verschillende manieren zoeken of maken:
+Het maken van een canvas-app is eenvoudig; u kunt met PowerApps op verschillende manieren apps zoeken of maken:
 
-- [Op basis van gegevens](canvas-apps/app-from-sharepoint.md)
-- [Op basis van een voorbeeld](canvas-apps/open-and-run-a-sample-app.md)
-- [Op basis van een Common Data Service-bron](canvas-apps/data-platform-create-app.md)
-- [Op basis van een leeg canvas](canvas-apps/data-platform-create-app-scratch.md)
+- [Vanuit gegevens](canvas-apps/app-from-sharepoint.md)
+- [Vanuit een voorbeeld](canvas-apps/open-and-run-a-sample-app.md)
+- [Vanuit een Common Data Service-bron](canvas-apps/data-platform-create-app.md)
+- [Vanuit een leeg canvas](canvas-apps/data-platform-create-app-scratch.md)
 - [Via AppSource](../user/app-source.md)
 
 ## <a name="model-driven-apps"></a>Modelgestuurde apps
-Als u een modelgestuurde app maakt, kunt u alle mogelijkheden van de Common Data Service gebruiken om snel uw formulieren, bedrijfsregels en processtromen te configureren. U maakt een modelgestuurde app vanaf de PowerApps-site.
+Wanneer u een modelgestuurde app maakt, kunt u alle kracht van Common Data Service gebruiken om uw formulieren, bedrijfsregels en processtromen snel te configureren. U kunt vanaf de PowerApps-site een modelgestuurde app maken.
 
-Aan de slag gaan met modelgestuurde apps is eenvoudig en u kunt beginnen met deze onderwerpen:
+Het aan de slag gaan met modelgestuurde apps is eenvoudig. Begin met de volgende onderwerpen:
 
 - [Een app maken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-app)
 - [Formulieren maken en ontwerpen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-design-forms)
@@ -49,16 +54,16 @@ Aan de slag gaan met modelgestuurde apps is eenvoudig en u kunt beginnen met dez
 - [Beveiliging toevoegen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/manage-access-apps-security-roles)
 - [Bedrijfslogica toevoegen](https://docs.microsoft.com/dynamics365/customer-engagement/customize/guide-staff-through-common-tasks-processes)
 
-## <a name="common-data-service-for-apps"></a>Common Data Service voor Apps
-Met de Common Data Service kunt u gegevens op veilige wijze opslaan en beheren binnen een verzameling standaard- en aangepaste entiteiten, en kunt u velden aan deze entiteiten toevoegen wanneer u deze nodig hebt.
+## <a name="common-data-service-for-apps"></a>Common Data Service for Apps
+Met Common Data Service kunt u gegevens veilig opslaan en beheren in een set aangepaste en standaardentiteiten. U kunt bovendien zo nodig velden aan de entiteiten toevoegen.
 
-Aan de slag gaan met de Common Data Service is gemakkelijk. Zo kunt u bijvoorbeeld deze starten met items:
+Het aan de slag gaan met Common Data Service is eenvoudig. U kunt bijvoorbeeld starten met de volgende items:
 - [Een aangepaste entiteit maken](common-data-service/data-platform-create-entity.md)
 - [Velden beheren](common-data-service/data-platform-manage-fields.md)
 - [Aangepaste optiesets maken](common-data-service/custom-picklists.md)
 - [Een bedrijfsregel maken](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-business-rules-recommendations-apply-logic-form)
 
-Nadat u uw app hebt gebouwd, kunt u deze [delen](canvas-apps/share-app.md) met uw teamleden.
+Nadat u uw app hebt gebouwd, kunt u [deze delen](canvas-apps/share-app.md) met de leden van uw team.
 
 
 
