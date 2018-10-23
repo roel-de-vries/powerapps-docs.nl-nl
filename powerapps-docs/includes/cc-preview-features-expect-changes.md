@@ -1,1 +1,1 @@
-Wij verwachten veranderingen in deze functies, dus kunt u deze beter niet in productie gebruiken. Gebruik deze alleen in test- en ontwikkelomgevingen.
+We verwachten dat er wijzigingen worden aangebracht in deze functie. Het wordt dus afgeraden deze in productie te nemen. Gebruik deze alleen in test- en ontwikkelomgevingen.

@@ -1,4 +1,4 @@
 > [!WARNING]
-> Als u een optie verwijdert die door een entiteitsrecord is gebruikt, worden de gegevens voor die record ongeldig nadat u uw wijzigingen hebt opgeslagen in de algemene optieset.
+> Als u een optie verwijdert die is gebruikt door een entiteitsrecord, worden de gegevens voor dit record ongeldig nadat u uw wijzigingen opslaat in de algemene optieset.
 >
->Voordat u een optie verwijdert die is gebruikt, moet u de gegevens in entiteitsrecords die deze optie gebruiken, wijzigen in een geldige waarde.
+>Voordat u een optie verwijdert die is gebruikt, moet u de gegevens in elk entiteitsrecord dat gebruikmaakt van deze optie wijzigen in een geldige waarde.

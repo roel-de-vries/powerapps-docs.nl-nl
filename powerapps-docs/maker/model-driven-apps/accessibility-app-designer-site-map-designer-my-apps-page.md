@@ -1,44 +1,44 @@
 ---
-title: 'De toegankelijkheid in de appontwerper, de siteoverzichtontwerper en de pagina Mijn apps in PowerApps begrijpen | Microsoft Docs'
-description: 'Informatie over de toegankelijkheid in de appontwerper, de siteoverzichtontwerper en de pagina Mijn apps in PowerApps'
-keywords: 'Appontwerper, siteoverzichtontwerper, mijn apps, Dynamics 365'
+title: App Designer voor toegankelijkheid, sitemapontwerper en de pagina Mijn apps in PowerApps leren kennen | Microsoft Docs
+description: Informatie over App Designer voor toegankelijkheid, de sitemapontwerper en de pagina Mijn apps in PowerApps
+keywords: App Designer; sitemapontwerper; mijn apps; Dynamics 365
 author: Mattp123
 ms.author: matp
 manager: kvivek
 ms.date: 06/18/2018
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 ms.assetid: 26c79c20-2987-476e-983a-406e0db13034
-search.audienceType:
-  - maker
-search.app:
-  - PowerApps
-  - D365CE
+ms.openlocfilehash: 1af82dd99d50e6982c74555247c9c10f49d19016
+ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39674948"
 ---
+# <a name="accessibility-in-powerapps-app-designer-site-map-designer-and-my-apps-page"></a>Toegankelijkheid in PowerApps-App Designer, sitemapontwerper en de pagina Mijn apps
 
-# <a name="accessibility-in-powerapps-app-designer-site-map-designer-and-my-apps-page"></a>Toegankelijkheid in de appontwerper, de siteoverzichtontwerper en de pagina Mijn apps in PowerApps
-
-Microsoft streeft ernaar producten en services voor iedereen gebruiksvriendelijker te maken. Meer informatie: [Microsoft-toegankelijkheid](http://www.microsoft.com/enable/default.aspx)  
+Microsoft streeft ernaar producten en services voor iedereen gemakkelijker te maken. Meer informatie: [Microsoft-toegankelijkheid](http://www.microsoft.com/enable/default.aspx)  
   
   
-## <a name="keyboard-shortcuts"></a>Sneltoetsen  
-PowerApps biedt hulp in de vorm van sneltoetsen om te trachten de problemen van mensen met een verminderde behendigheid of beperkte bewegingsmogelijkheden te ondervangen.  
+## <a name="keyboard-shortcuts"></a>Toetsencombinaties  
+PowerApps biedt sneltoetsen om problemen van mensen met beperkt zichtvermogen of lichamelijke beperkingen op te lossen.  
   
 |Pagina Mijn apps|||  
 |------------------|-|-|  
 |**Aan**|**Sneltoetsen (Windows)**|**Sneltoetsen (Mac)**|  
-|Een nieuwe app maken.|Alt + N|Opt + N|  
-|Het menu **Meer acties** voor de geselecteerde tegel openen.|Alt + M|Opt + N|  
+|Maak een nieuwe app.|Alt + N|Opt + N|  
+|Open het menu **Meer acties** op de geselecteerde tegel.|Alt + M|Opt + N|  
 
 
-|Appontwerper en siteoverzichtontwerper|||  
+|App Designer en sitemapontwerper|||  
 |----------------------------------------|-|-|  
 |**Aan**|**Sneltoetsen (Windows)**|**Sneltoetsen (Mac)**|  
-|Naar de volgende sectie of het volgende belangrijke onderdeel gaan.|Ctrl + F6|Cmd + F6|  
-|Naar de vorige sectie of het vorige belangrijke onderdeel gaan|Shift + Ctrl + F6|Shift + Cmd + F6|  
+|Ga naar de volgende sectie of het volgende grote onderdeel.|Ctrl + F6|Cmd + F6|  
+|Ga naar de vorige sectie of het vorige grote onderdeel.|Shift + Ctrl + F6|Shift + Cmd + F6|  
 |De opdracht Opslaan.|Ctrl + S|Cmd + S|  
 |De opdracht Opslaan en sluiten.|Ctrl + Alt + S|Cmd + Opt + S|  
 |De opdracht Valideren.|Ctrl + Alt + V|Cmd + Opt + V|  
@@ -47,40 +47,40 @@ PowerApps biedt hulp in de vorm van sneltoetsen om te trachten de problemen van 
 |Toevoegen.|Shift + N|Shift +|  
 |Bewerken.|Shift + E|Shift + E|  
 |Verwijderen.|Shift + R|Shift + R|
-|Canvas doorzoeken.|Ctrl + Shift + F|Cmd + Shift + F|  
+|Zoeken in het canvas.|Ctrl + Shift + F|Cmd + Shift + F|  
 |Onderdelen toevoegen.|Alt + Shift + C|Opt + Shift + C|  
 |Eigenschappen toevoegen.|Alt + Shift + P|Opt + Shift + P|  
-|Naar het tabblad Vereist gaan.|Alt + Shift + R|Opt + Shift + R|  
+|Ga naar het tabblad Vereist.|Alt + Shift + R|Opt + Shift + R|  
 |Het menu Toevoegen.|Ctrl +Alt +N|Cmd + Opt +N|  
-|Een onderdeel van de appontwerper klonen.|Ctrl + C|Cmd + C|  
-|Verwijderen.|Delete-toets|Delete-toets|  
+|Een onderdeel in App Designer klonen.|Ctrl + C|Cmd + C|  
+|Verwijderen.|Sleutel verwijderen|Sleutel verwijderen|  
 |Opslaan.|Ctrl + S|Cmd + S|  
 |Opslaan en sluiten.|Ctrl + Alt + S|Cmd + Opt + S|  
-|Een onderdeel van het siteoverzicht kopiëren naar het klembord.|Ctrl + C|Cmd + C|  
-|Kopieer het onderdeel van het siteoverzich naar het klembord om het ergens anders op het siteoverzicht te plakken.<br /><br /> Als u het onderdeel plakt, wordt het oorspronkelijke exemplaar van het onderdeel verwijderd uit het siteoverzicht.|Ctrl + X|Cmd + X|  
-|Plak de inhoud van het klembord te plakken in het siteoverzicht.|Ctrl + V|Cmd + V|  
-|Vouw uit en verplaats de focus naar het meldingengebied in Appontwerper.|Alt + Shift + N|Opt + Shift + N|  
-|Vouw het uitgevouwen in meldingengebied in Appontwerper samen.|Esc|esc|  
+|Een sitemaponderdeel naar het klembord kopiëren.|Ctrl + C|Cmd + C|  
+|Het sitemaponderdeel naar het klembord kopiëren zodat u deze ergens anders in de sitemap kunt plakken.<br /><br /> Wanneer u het onderdeel plakt, wordt het oorspronkelijke exemplaar van het onderdeel verwijderd van de sitemap.|Ctrl + X|Cmd + X|  
+|De inhoud op het klembord in de sitemap plakken.|Ctrl + V|Cmd + V|  
+|Het meldingsgebied in App Designer uitvouwen en hier naartoe gaan.|Alt + Shift + N|Opt + Shift + N|  
+|Het uitgevouwen meldingengebied in App Designer.|Esc|esc|  
   
 ## <a name="keyboard-navigation"></a>Toetsenbordnavigatie  
- We bieden tevens ondersteuning voor navigatie in de appontwerper, siteoverzichtontwerper en de pagina Mijn apps via het toetsenbord. Gebruikers zonder muis kunnen dus een toetsenbord gebruiken om te navigeren en acties uit te voeren.  
+ We bieden ook ondersteuning voor het verplaatsen binnen App Designer, de sitemapontwerper en de pagina Mijn apps met behulp van het toetsenbord, zodat mensen die geen muis gebruiken, een toetsenbord kunnen gebruiken voor het navigeren en het voltooien van acties.  
   
-|Tot|Toets|  
+|Tot|Druk op|  
 |--------|-----------|  
-|Naar de volgende tabstop in de gedefinieerde tabvolgorde gaan (van links naar rechts voor LTR-talen en van rechts naar links voor RTL-talen).|Tab|  
-|Naar de vorige tabstop in de tabvolgorde gaan.|Shift + Tab|  
-|Naar het volgende item in een lijst of menu, of een gebruikersinterfacefunctie met meerdere opties gaan.<br /><br /> -OF-<br /><br /> Verticaal naar de volgende tegel gaan.|Pijl-omlaag|  
-|Naar het volgende item in een lijst of menu, of een gebruikersinterfacefunctie met meerdere opties gaan.<br /><br /> -OF-<br /><br /> Verticaal naar de vorige tegel gaan.|PIJL-OMHOOG|  
-|Horizontaal naar de volgende tegel gaan.|Pijl-rechts|  
-|Horizontaal naar de vorige tegel gaan.|Pijl-links|  
-|Een samenvouwbaar besturingselement uitvouwen.|Pijl-rechts, Enter of spatiebalk|  
-|Een uitgevouwen samenvouwbaar besturingselement samenvouwen.|Pijl-links, Enter of spatiebalk|  
-|Een actie uitvoeren, zoals het selecteren van een keuzerondje, het klikken op een koppeling of het inschakelen van een selectievakje.|Spatiebalk|  
-|Een opdrachtbalkactie activeren of het toevoegen van een onderdeel bevestigen.|Enter|  
-|Een waarschuwing, dialoogvenster of menu sluiten of annuleren.|Esc|  
+|Ga naar de volgende tabstop in de gedefinieerde tabvolgorde (dit is van links naar rechts voor LTR-talen en van rechts naar links voor RTL-talen).|Tabblad|  
+|Ga naar de vorige tabstop in de tabvolgorde.|Shift + Tab|  
+|Ga naar het volgende item in een lijst of een menu, of een gebruikersinterfacefunctie met meerdere opties.<br /><br /> -OF-<br /><br /> Verplaats de volgende tegel verticaal.|Pijlen-omlaag|  
+|Ga naar het volgende item in een lijst of een menu, of een gebruikersinterfacefunctie met meerdere opties.<br /><br /> -OF-<br /><br /> Verplaats de vorige tegel verticaal.|Pijl-omhoog|  
+|Verplaats de volgende tegel horizontaal.|Pijl-rechts|  
+|Verplaats de vorige tegel horizontaal.|Pijl-links|  
+|Vouw een samenvouwbaar besturingselement uit.|Pijl-rechts, Enter of spatiebalk|  
+|Vouw een uitgevouwen samenvouwbaar besturingselement samen.|Pijl-links, Enter of spatiebalk|  
+|Voer een actie uit, zoals het selecteren van een optie vanuit keuzerondjes, het klikken op een link of het inschakelen van een selectievakje.|Spatiebalk|  
+|Activeer een opdrachtbalkactie of bevestig het toevoegen van een onderdeel.|Enter|  
+|Sluit een waarschuwing, dialoogvenster of menu, of annuleer.|Esc|  
   
-## <a name="screen-reader-support"></a>Ondersteuning voor schermlezer  
- Mensen met een handicap kunnen gebruikmaken van hulptechnologie zoals schermlezers of een groot aantal alternatieve invoerapparaten voor interactie met de appontwerper, siteoverzichtontwerper en pagina Mijn apps.  
+## <a name="screen-reader-support"></a>Ondersteuning voor schermlezers  
+ Personen met beperkingen kunnen gebruikmaken van ondersteunende technologie (AT) zoals schermlezers of diverse alternatieve invoerapparaten om met App Designer, de sitemapontwerper en de pagina Mijn apps te werken.  
   
  Hier vindt u de ondersteuningsmatrix.  
   
@@ -91,8 +91,8 @@ PowerApps biedt hulp in de vorm van sneltoetsen om te trachten de problemen van 
 | Firefox |Ja|Nee|Nee|  
 |Safari|Nee|Nee|Ja|  
   
-## <a name="accessibility-info-for-browsers"></a>Toegankelijkheidsfuncties in browsers  
- Voor toegankelijkheidsinformatie voor specifieke browsers, gaat u naar de volgende websites:  
+## <a name="accessibility-info-for-browsers"></a>Toegankelijkheidsinformatie voor browsers  
+ Voor toegankelijkheidsinformatie over uw browser gaat u naar de volgende websites:  
   
   
 -   [Toegankelijkheidsfuncties in Windows](http://www.microsoft.com/enable/products/ie9/default.aspx)  
@@ -101,8 +101,8 @@ PowerApps biedt hulp in de vorm van sneltoetsen om te trachten de problemen van 
   
 -   [Toegankelijkheidsfuncties in Safari](http://www.apple.com/accessibility/)  
   
--   [Technische documentatie over toegankelijkheid in Google Chrome](https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility)
+-   [Technische documentatie voor toegankelijkheid in Google Chrome](https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility)
 
 ## <a name="see-also"></a>Zie ook
 
-[Sneltoetsen gebruiken voor Dynamics 365 Customer Engagement-toepassingen](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/keyboard-shortcuts)
+[Sneltoetsen gebruiken in Dynamics 365 Customer Engagement-toepassingen](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/keyboard-shortcuts)

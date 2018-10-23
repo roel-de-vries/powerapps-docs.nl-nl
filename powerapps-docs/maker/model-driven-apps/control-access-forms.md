@@ -1,6 +1,6 @@
 ---
-title: Toegang tot formulieren voor modelgestuurde apps beheren in PowerApps | MicrosoftDocs
-description: Informatie over het beheren van de toegang tot hoofdformulieren
+title: Toegang tot formulieren regelen voor modelgestuurde apps in PowerApps | MicrosoftDocs
+description: Leren hoe toegang tot hoofdformulieren wordt beheerd
 ms.custom: ''
 ms.date: 06/27/2018
 ms.reviewer: ''
@@ -9,73 +9,74 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 15d123e0-b604-45dd-ab34-0b37787a04bb
 caps.latest.revision: 33
 ms.author: matp
 manager: kvivek
-tags: null
-search.audienceType:
-  - maker
-search.app:
-  - PowerApps
-  - D365CE
+tags: ''
+ms.openlocfilehash: a895bd9ea0257585f942840924a7044a4dcc23fb
+ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39675031"
 ---
-# <a name="control-access-to-model-driven-app-forms"></a>Toegang tot formulieren voor modelgestuurde apps beheren
+# <a name="control-access-to-model-driven-app-forms"></a>Toegang tot modelgestuurde app-formulieren beheren
 
- Er zijn twee wijzen waarop u de toegang tot hoofdformulieren kunt beheren:  
+ Er zijn twee manieren waarop u toegang tot hoofdformulieren kunt regelen:  
   
 - **Een hoofdformulier inactief maken**  
   
-     U kunt een actieve of inactieve status voor hoofdformulieren instellen. Deze functie is primair opgenomen om nieuwe formulieren te kunnen beheren wanneer Dynamics 365 Customer Engagement-organisaties upgrades uitvoeren, maar u kunt deze gebruiken om te verhinderen dat gebruikers elk hoofdformulier kunnen gebruiken.   
+     U kunt een hoofdformulieren met een actieve of inactieve status instellen. Deze functie is met name ingevoegd voor het beheer van nieuwe formulieren die zijn ingevoegd tijdens de upgrade van Dynamics 365 Customer Engagement-organisaties. U kunt deze functie ook gebruiken om te voorkomen dat gebruikers elk willekeurig hoofdformulier kunnen gebruiken.   
   
 - **Beveiligingsrollen toewijzen aan het hoofdformulier**  
   
-     Gebruik deze optie om een hoofdformulier aan specifieke groepen beschikbaar te maken.  
+     Gebruik deze methode om een hoofdformulier beschikbaar te maken voor specifieke groepen.  
   
- Verschillende gebruikers in uw organisatie kunnen met dezelfde gegevens op verschillende wijzen interacteren. Managers kunnen snel gegevens kunnen willen doorzoeken en servicepersoneel kan een formulier vereisen dat gegevensinvoer stroomlijnt. U kunt aan verschillende vereisten voldoen door formulieren aan de beveiligingsrollen toe te wijzen waartoe de verschillende gebruikersgroepen behoren.  
+ Verschillende gebruikers in uw organisatie kunnen op verschillende manieren met dezelfde gegevens werken. Managers moeten mogelijk snel informatie in een record kunnen scannen en servicemedewerkers hebben mogelijk een formulier nodig om de invoer van gegevens te stroomlijnen. U kunt een oplossing geven voor verschillende vereisten door formulieren toe te wijzen aan de beveiligingsrollen waarvan verschillende groepen gebruikers deel uitmaken.  
   
- Raadpleeg voor stapsgewijze procedures [Beveiligingsrollen toewijzen aan formulieren](https://docs.microsoft.com/dynamics365/customer-engagement/admin/assign-security-roles-form).  
+ Voor stapsgewijze procedures raadpleegt u [Beveiligingsrollen toewijzen aan formulieren](https://docs.microsoft.com/dynamics365/customer-engagement/admin/assign-security-roles-form).  
   
- Als u meer dan één hoofdformulier of mobiel formulier voor een entiteit hebt gedefinieerd, dan kunt u selecteren welke formulieren gebruikers kunnen gebruiken op basis van hun beveiligingsrollen. Doordat elke entiteit een formulier voor elke gebruiker moet kunnen weergeven, moet minstens één formulier als 'reserveformulier' worden aangewezen: een formulier dat zichtbaar is voor gebruikers met beveiligingsrollen waaraan niet expliciet formulieren zijn toegewezen.  
+ Wanneer u meer dan één hoofdformulier of mobiel formulier hebt gedefinieerd voor een entiteit, kunt u selecteren welke formulieren gebruikers mogen gebruiken op basis van hun beveiligingsrollen. Omdat in elke entiteit een formulier voor elke gebruiker moet kunnen worden weergegeven, moet er minimaal één formulier als ‘alternatief’ formulier worden aangewezen: een formulier dat zichtbaar is voor gebruikers aan wiens beveiligingsrollen geen expliciete formulieren zijn toegewezen.  
   
 > [!NOTE]
->  Formulieren voor snelle invoer en snelle-weergaveformulieren kunnen niet aan beveiligingsrollen zijn toegewezen.  
+>  Formulieren van het type Snel maken en Snel weergeven kunnen niet worden toegewezen aan beveiligingsrollen.  
   
- In de formuliereneditor of vanuit het formulierenraster kunt u beveiligingsrollen toewijzen aan een formulier. Als er echter slechts één formulier bestaat voor de entiteit, dan kunt u de optie **Ingeschakeld voor reserve** niet wissen in het dialoogvenster **Beveiligingsrollen toewijzen**. Ondanks dat u beveiligingsrollen aan het formulier hebt toegewezen, kan iedereen die is gekoppeld aan een beveiligingsrol die u niet hebt opgenomen toch het formulier weergeven, omdat het is ingesteld als terugvalformulier.  
+ In de formuliereditor of vanuit het formulierenraster kunt u beveiligingsrollen toewijzen aan een formulier. Als er echter maar één formulier voor de entiteit is, kunt u de optie **Ingeschakeld als alternatief** in het dialoogvenster **Beveiligingsrollen toewijzen** niet wissen. In dit geval kan iedereen die aan een niet-ingevoegde beveiligingsrol is gekoppeld alsnog het formulier zien omdat dit als alternatief is ingeschakeld, zelfs als u beveiligingsrollen aan het formulier hebt toegewezen.  
   
- Nadat u een tweede hoofdformulier of mobiel formulier hebt gemaakt voor de entiteit, kunt u de optie **Ingeschakeld voor reserve** wel uitschakelen voor een van de formulieren. Het systeem zorgt ervoor dat minstens één formulier is ingeschakeld als reserve.  
+ Nadat u een tweede hoofdformulier of mobiel formulier voor de entiteit hebt gemaakt, kunt u de optie **Ingeschakeld als alternatief** voor één van de formulieren wissen. Het systeem zorgt er altijd voor dat ten minste één formulier is ingeschakeld als alternatief.  
   
- Als u meer dan één hoofdformulier hebt, dan kunt u een formuliervolgorde specificeren die zal bepalen welke van de formulieren een gebruiker gewoonlijk zal en mag zien. Als er meer dan één formulier is dat ze kunnen gebruiker, dan kunnen ze formulieren wijzigen en het formulier dat ze kiezen zal hun standaardformulier zijn totdat ze een andere kiezen. Deze voorkeur wordt opgeslagen in de browser. Als ze een andere computer of een andere browser gebruiken, dan zullen het oorspronkelijke standaardformulier zien.  
+ Wanneer u meer dan één hoofdformulier hebt, kunt u een formuliervolgorde opgeven waarmee wordt bepaald welke van de formulieren die een gebruiker mag zien als standaard wordt weergegeven. Als er meer dan één formulier is dat ze mogen gebruiken, kunnen ze formulieren wijzigen; het formulier dat ze kiezen wordt hun standaardformulier totdat ze een ander formulier kiezen. Deze voorkeursinstelling wordt opgeslagen in de browser van de gebruiker. Als de gebruiker een andere computer of browser gebruikt, ziet deze het oorspronkelijke standaardformulier.  
   
-## <a name="strategies-to-manage-the-fallback-form"></a>Strategieën om het terugvalformulier te beheren  
- De strategieën om het terugvalformulier te beheren omvatten de volgende:  
+## <a name="strategies-to-manage-the-fallback-form"></a>Strategieën voor het beheren van het alternatieve formulier  
+ Strategieën voor het beheren van het alternatieve formulier zijn onder andere:  
   
 <a name="BKMK_DoNotUseMultipleForms"></a>   
-### <a name="all-users-view-the-same-form"></a>Alle gebruikers geven hetzelfde formulier weer  
- Als u niet meerdere formulieren nodig hebt voor een entiteit, dan hebt u niet een terugvalformulier nodig.  
+### <a name="all-users-view-the-same-form"></a>Alle gebruikers zien hetzelfde formulier  
+ Als u niet meerdere formulieren voor een entiteit nodig hebt, hebt u geen alternatief formulier nodig.  
   
 <a name="BKMK_Contingecyform"></a>   
-### <a name="create-a-contingency-form"></a>Een contigentieformulier maken  
- Als u op rollen gebaseerde formulieren gebruikt omdat u de informatiepersoon wilt beperken die gebruikers wellicht weergeven of bewerken, overweeg dan een formulier te maken met minimaal weergegeven informatie. Selecteer vervolgens in het dialoogvenster **Beveiligingsrollen toewijzen** de optie **Alleen aan deze geselecteerde beveiligingsrollen weergeven**, maar selecteer geen rollen behalve Systeembeheerder en selecteer **Ingeschakeld voor reserve**. Het resultaat is dat dit formulier door niemand zal worden gezien behalve de systeembeheerder en iedereen met beveiligingsrollen die niet zijn gekoppeld aan een specifiek formulier. U kunt een HTML-webresource in het formulier opnemen met gegevens over waarom weinig gegevens in het formulier zichtbaar zijn en een koppeling naar informatie over hoe toevoeging aan een beveiligingsrol die is gekoppeld aan een formulier kan worden aangevraagd of om een nieuwe beveiligingsrol voor een formulier op te nemen.  
+### <a name="create-a-contingency-form"></a>Een noodformulier maken  
+ Als u op rollen gebaseerde formulieren gebruikt omdat u de informatie wilt beperken die gebruikers kunnen zien of bewerken, kunt u een formulier maken waarop maar minimale informatie wordt weergegeven. Vervolgens selecteert u in het dialoogvenster **Beveiligingsrollen toewijzen** de optie **Alleen deze geselecteerde beveiligingsrollen weergeven** (selecteer, met uitzondering van systeembeheerder, geen andere rollen) en selecteer **Ingeschakeld als alternatief**. Hierdoor is dit formulier nooit zichtbaar voor anderen, behalve voor de systeembeheerder en gebruikers wiens beveiligingsrollen niet aan een specifiek formulier zijn gekoppeld. U kunt een HTML-webresource in het formulier insluiten met informatie over de reden waarom een aantal gegevens zichtbaar is in het formulier en een koppeling naar informatie over de manier waarop u kunt een aanvraag kunt indienen om te worden toegevoegd aan een beveiligingsrol die aan een formulier is gekoppeld of hoe u een nieuwe beveiligingsrol voor een formulier kunt insluiten.  
   
 > [!NOTE]
->  U kunt een webresource niet opnemen in een formulierkoptekst of -voettekst.  
+>  U kunt geen webresource in de voet- of koptekst van een formulier invoegen.  
   
 <a name="BKMK_CreateGenericForm"></a>   
 ## <a name="create-a-generic-form"></a>Een generiek formulier maken  
- Als u op rollen gebaseerde formulieren gebruikt om een aangepaste gebruikerservaring te bieden die is gebaseerd op de rol van een gebruiker, dan kunt u het minst gespecialiseerde formulier instellen als het terugvalformulier en configureren dat het moet worden weergegeven voor iedereen. Vervolgens maakt u aangepaste formulieren aan voor specifieke beveiligingsrollen en configureert deze zodat ze alleen worden weergegeven voor beveiligingsrollen die ze nodig hebben. Schakel deze formulier niet voor reserve in. Ten slotte kunt u in de lijst **Formulieren** het dialoogvenster **Formuliervolgorde** gebruiken om te specificeren welke formulieren u wilt weergeven door ze in te delen van het meest exclusief naar het minst exclusief. Uw terugvalformulier zal onderaan de lijst zijn. Door deze strategie zullen gebruikers het formulier zien dat is aangepast voor hun rol als het standaardformulier, maar ze kunnen nog steeds de formulierselectie gebruiken om het meest gebruikelijke formulier te selecteren indien ze het willen. Het formulier dat ze selecteren zal hun standaardformulier blijven totdat ze een ander formulier selecteren.  
+ Als u op rollen gebaseerde formulieren gebruikt om een aangepaste ervaring te bieden op basis van de rol van een gebruiker, kunt u uw minst specialistische formulier instellen als alternatief formulier en dit zodanig configureren dat dit voor iedereen wordt weergegeven. Maak vervolgens aangepaste formulieren voor specifieke beveiligingsrollen en configureer die formulieren zodat ze alleen worden weergegeven voor beveiligingsrollen die dergelijke formulieren nodig hebben. Schakel deze formulieren niet in als alternatief. Gebruik als laatste in de lijst **Formulieren** het dialoogvenster **Formuliervolgorde** om op te geven welke formulieren moeten worden weergegeven, op volgorde van meest exclusief naar minst exclusief. Uw alternatieve formulier staat onderaan de lijst. Door deze strategie zien gebruikers het formulier dat voor hun rol is aangepast als standaardformulier. Ze kunnen echter nog wel de formulierkiezer gebruiken om desgewenst het meestgebruikte formulier te selecteren. Het formulier dat een gebruiker selecteert, blijft het standaardformulier totdat een ander formulier wordt geselecteerd.  
   
 <a name="BKMK_UseFormScripting"></a>   
 ## <a name="use-form-scripting"></a>Formulierscripts gebruiken  
 
- Ten slotte is het in de webtoepassing mogelijk, maar niet aanbevolen, voor een ontwikkelaar om scripts te gebruiken in de gebeurtenis van het formulier Onload om gebruik te maken van de [verzameling Xrm.Page.ui.formSelector.items](http://go.microsoft.com/fwlink/p/?LinkID=513300) om beschikbare formulieren te doorzoeken en de navigatiemethode te gebruiken om gebruikers naar een specifiek formulier te sturen. Door de [navigatiemethode](http://go.microsoft.com/fwlink/p/?LinkID=513301) zal het formulier opnieuw worden geladen (en de Onload-gebeurtenis zal opnieuw gebeuren). Uw logica in de gebeurtenisverwerker moet in alle gevallen een voorwaarde controleren voordat u de navigatiemethode gebruikt om een eindeloze lus of onnodige restrictie te vermijden om tussen formulieren te navigeren.  
+ Als laatste is het voor ontwikkelaars in de webtoepassing mogelijk (maar niet aanbevolen) om scripts in het formulier Gebeurtenis laden te gebruiken, zodat de [ Xrm.Page.ui.formSelector.items-verzameling](http://go.microsoft.com/fwlink/p/?LinkID=513300) kan worden gebruikt om een query uit te voeren voor beschikbare formulieren en de navigatiemethode te gebruiken om gebruikers naar een specifiek formulier te verwijzen. Vergeet niet dat het formulier door de [navigatiemethode](http://go.microsoft.com/fwlink/p/?LinkID=513301) opnieuw wordt geladen (en de gebeurtenis Laden weer optreedt). Uw logica in de gebeurtenis-handler moet altijd controleren of er sprake is van een bepaalde voorwaarde voordat u de navigatiemethode gebruikt, om een oneindige lus te voorkomen of te voorkomen dat gebruikersopties voor navigeren tussen formulieren onnodig worden beperkt.  
   
- Deze benadering werkt niet voor Dynamics 365 for tablets omdat meerdere formulieren niet beschikbaar zijn voor selectie.  
+ Deze benadering werkt niet voor Dynamics 365 voor tablets omdat meerdere formulieren niet beschikbaar zijn om te selecteren.  
 
 ### <a name="next-steps"></a>Volgende stappen  
 
-[Beveiligingsrollen toewijzen aan formulieren](https://docs.microsoft.com/dynamics365/customer-engagement/admin/assign-security-roles-form)
+[Beveiligingsrollen aan formulieren toewijzen](https://docs.microsoft.com/dynamics365/customer-engagement/admin/assign-security-roles-form)
