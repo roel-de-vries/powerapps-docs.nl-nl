@@ -1,1 +1,0 @@
-Toepassingsblok voor samengestelde gebruikersinterface
