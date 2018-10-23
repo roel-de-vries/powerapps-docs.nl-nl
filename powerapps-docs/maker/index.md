@@ -9,12 +9,12 @@ ms.custom: canvas
 ms.date: 03/18/2018
 ms.author: anneta
 ms.reviewer: ''
-ms.openlocfilehash: bcba4a6142299d253c484c0af46afad091735e80
-ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
+ms.openlocfilehash: c3e40df2d2ecc13e2c466aa91178ccb5d23548fe
+ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49636366"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49806083"
 ---
 # <a name="overview-of-creating-apps-in-powerapps"></a>Overzicht van het maken van apps in PowerApps
 
@@ -32,7 +32,7 @@ Canvas-apps bieden u de flexibiliteit om de gebruikerservaring en interface op d
 
 U kunt het bouwen van een app starten vanuit de Microsoft-programma's waar de gegevens zich bevinden, zoals:
 
-- [Vanuit een SharePoint-lijst](canvas-apps/generate-app-from-sharepoint-list-interface.md)
+- [Vanuit een SharePoint-lijst](canvas-apps/app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online)
 - [Vanuit een Power BI-dashboard](canvas-apps/embed-powerapps-powerbi.md)
 
 Het maken van een canvas-app is eenvoudig; u kunt met PowerApps op verschillende manieren apps zoeken of maken:
