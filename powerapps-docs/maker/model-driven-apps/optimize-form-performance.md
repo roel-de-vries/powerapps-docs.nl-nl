@@ -1,6 +1,6 @@
 ---
-title: Prestaties van formulier voor modelgestuurde apps optimaliseren in PowerApps | MicrosoftDocs
-description: Leer hoe u formulierontwerpen kunt vermijden die ervoor zorgen dat een formulier langzaam wordt geladen
+title: De formulierprestaties in modelgestuurde apps optimaliseren in PowerApps | Microsoft Docs
+description: Ontdek hoe u voorkomt dat formulieren traag worden geladen wegens het formulierontwerp
 ms.custom: ''
 ms.date: 06/27/2018
 ms.reviewer: ''
@@ -9,53 +9,54 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 59cfa5e6-638a-437f-a462-fddfd26fb07d
 caps.latest.revision: 8
 ms.author: matp
 manager: kvivek
-search.audienceType:
-  - maker
-search.app:
-  - PowerApps
-  - D365CE
+ms.openlocfilehash: c9dd764fe565b59e68411dabf453207c4e01a320
+ms.sourcegitcommit: aba996b1773ecdf62758e06b34eaf57bede29e08
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39674492"
 ---
-# <a name="optimize-model-driven-app-form-performance"></a>Prestaties van formulier voor modelgestuurde apps optimaliseren
+# <a name="optimize-model-driven-app-form-performance"></a>De formulierprestaties in modelgestuurde apps optimaliseren
 
-Formulieren die langzaam laden kunnen de productiviteit en het aanvaardingsproces beperken. Volg deze aanbevelingen om het laden van uw formulieren te versnellen. Veel van deze aanbevelingen gaan over hoe een ontwikkelaar formulierscripts kan implementeren voor uw organisatie. Zorg ervoor dat u deze aanbevelingen met ontwikkelaars bespreekt die formulierscripts maken voor uw formulieren.  
+Als formulieren traag worden geladen, kan dit de productiviteit verlagen en zullen minder gebruikers er gebruik van maken. Volg deze aanbevelingen op om ervoor te zorgen dat uw formulieren zo snel mogelijk worden geladen. Veel van deze aanbevelingen hebben betrekking op hoe een ontwikkelaar formulierscripts kan implementeren voor uw organisatie. Zorg ervoor dat u deze aanbevelingen bespreekt met ontwikkelaars die formulierscripts maken voor uw formulieren.  
   
 <a name="BKMK_FormDesign"></a>   
 ## <a name="form-design"></a>Formulierontwerp  
- Denk na over de interactie die de gebruiker zal hebben met het formulier en de hoeveelheid gegevens erin moeten worden weergegeven.  
+ Denk na over hoe de gebruiker het formulier gaat gebruiken en hoeveel gegevens erin moeten worden weergegeven.  
   
- **Beperk het aantal velden tot een minimum**  
- Hoe meer velden u hebt in een formulier, hoe meer gegevens via internet of intranet moeten worden overgebracht om elk record weer te geven.  
+ **Houd het aantal velden beperkt tot een minimum**  
+ Hoe meer velden er in een formulier staan, hoe meer gegevens er via internet of het intranet moeten worden verzonden voor het weergeven van records.  
   
 <a name="BKMK_FormScripts"></a>   
 ## <a name="form-scripts"></a>Formulierscripts  
- Als u aanpassingen hebt met formulierscript, zorg er dan voor dat de ontwikkelaar deze strategieën voor prestatieverbetering begrijpt.  
+ Als u aanpassingen hebt doorgevoerd met gebruik van formulierscripts, zorgt u ervoor dat de ontwikkelaar op de hoogte is van de strategieën om de prestaties te verbeteren.  
   
- **Vermijd het omvatten van overbodige JavaScript-webresourcebibliotheken**  
- Hoe meer scripts u aan het formulier toevoegt, hoe meer tijd het kost om ze te downloaden. Meestal worden de scripts in cache in uw browser bewaard nadat ze voor het eerst zijn geladen, maar de prestaties bij de eerste keer dat een formulier wordt weergegeven, maakt vaak een aanzienlijke indruk.  
+ **Vermijd het gebruik van onnodige JavaScript-webresourcebibliotheken**  
+ Hoe meer scripts u toevoegt aan het formulier, hoe langer het duurt om ze te downloaden. Meestal worden scripts in de cache van uw browser opgeslagen nadat ze voor het eerst zijn geladen, maar de eerste indruk van de prestaties zijn enorm belangrijk.  
   
- **Laad niet alle scripts in de gebeurtenis Onload**  
- Als u code gebruikt dat alleen gebeurtenissen voor `OnChange` velden ondersteunt of de gebeurtenis `OnSave`, zorg er dan voor dat u de scriptbibliotheek instelt met de gebeurtenismanager voor die gebeurtenissen in plaats van de gebeurtenis `OnLoad`. Op deze manier kan het laden van die bibliotheken worden uitgesteld en worden de prestaties tijdens het laden van het formulier vergroot.  
+ **Voorkom dat alle scripts worden geladen tijdens de gebeurtenis OnLoad**  
+ Als u over code beschikt die alleen ondersteuning biedt voor `OnChange`-gebeurtenissen of de gebeurtenis `OnSave`, zorgt u ervoor dat u de scriptbibliotheek koppelt aan de gebeurtenis-handler voor die betreffende gebeurtenissen in plaats van de gebeurtenis `OnLoad`. Op die manier wordt het laden van bibliotheken uitgesteld en zijn de prestaties tijdens het laden van het formulier beter.  
   
- **Gebruik samengevouwen tabbladen om het laden webresources uit te stellen**  
- Wanneer webresources of IFRAMES toegevoegd worden in secties in een samengevouwen tabblad, dan worden ze niet geladen wanneer het tabblad wordt samengevouwen. Ze worden geladen wanneer het tabblad wordt uitgevouwen. Als de tabbladstatus verandert, treedt de gebeurtenis `TabStateChange` op. Code dat vereist is om webresources of IFRAMEs te ondersteunen binnen samengevouwen tabbladen, kunnen gebeurtenismanagers gebruiken voor de gebeurtenis **TabStateChange** en code verminderen dat anders moet optreden in de gebeurtenis `OnLoad`.  
+ **Gebruik samengevouwen tabbladen om het laden van webresources uit te stellen**  
+ Als er webresources of IFRAMES worden gebruikt in bepaalde secties in een samengevouwen tabblad, worden deze niet geladen zo lang het tabblad samengevouwen blijft. Ze worden pas geladen wanneer het tabblad wordt uitgevouwen. Wanneer de status van het tabblad verandert, treedt de gebeurtenis `TabStateChange` op. Bij alle code die nodig is ter ondersteuning van webresources en IFRAMES in samengevouwen tabbladen, kunnen er gebeurtenis-handlers worden gebruikt voor de gebeurtenis **TabStateChange**. De hoeveelheid code die nodig is in de gebeurtenis `OnLoad`, wordt dan beperkt.  
   
- **Standaard zichbaarheidopties instellen**  
- Het gebruik van formulierscripts vermijden in de gebeurtenis `OnLoad` die formulierelementen verbergt. Stel in plaats hiervan de standaard zichbaarheidopties voor formulierelementen die verborgen kunnen zijn in op niet standaard zichtbaar wanneer het formulier wordt geladen. Gebruikt vervolgens scripts in de gebeurtenis `OnLoad` om die formulierelementen weer te geven die u wilt tonen.  
+ **Stel tandaardopties voor zichtbaarheid in**  
+ Vermijd het gebruik van formulierscripts in de gebeurtenis `OnLoad` waarmee formulierelementen worden verborgen. Gebruik in plaats daarvan de standaardopties voor zichtbaarheid voor formulierelementen die u wilt verbergen. De elementen zijn dan standaard niet zichtbaar wanneer het formulier wordt geladen. Gebruik vervolgens scripts in de gebeurtenis `OnLoad` om de formulierelementen weer te geven die u wél wilt tonen.  
   
 <a name="BKMK_CommandBar"></a>   
 ## <a name="command-bar-or-ribbon"></a>Opdrachtbalk of lint  
- Houd deze aanbevelingen in uw achterhoofd wanneer u de opdrachtbalk of het lint bewerkt.  
+ Houd rekening met deze aanbevelingen wanneer u de opdrachtbalk of het lint bewerkt.  
   
- **Beperk het aantal besturingselementen tot een minimum**  
- Controleer in de opdrachtbalk of het lint voor het formulier welke besturingselementen nodig zijn en verberg degene die u niet nodig hebt. Elk besturingselement dat wordt weergegeven, vergroot het aantal resources die naar de browser moeten worden gedownload.  
+ **Houd het aantal besturingselementen beperkt tot een minimum**  
+ Controleer in de opdrachtbalk of het lint van het formulier welke besturingselementen echt nodig zijn. Verberg de elementen die niet nodig zijn. Voor elk besturingselement dat wordt weergegeven, moeten er extra resources naar de browser worden gedownload.  
   
 ## <a name="next-steps"></a>Volgende stappen  
  [Formulieren maken en ontwerpen](create-design-forms.md)    
