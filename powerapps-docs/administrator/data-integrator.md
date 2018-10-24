@@ -5,7 +5,7 @@ author: sabinn-msft
 ms.service: powerapps
 ms.topic: how-to
 ms.component: cds
-ms.date: 09/19/2018
+ms.date: 10/15/2018
 ms.author: sabinn
 search.audienceType:
 - admin
@@ -13,12 +13,12 @@ search.app:
 - D365CE
 - PowerApps
 - Powerplatform
-ms.openlocfilehash: b8cebc6f9db8a1a7c1a060aad461f4f32fcee05b
-ms.sourcegitcommit: 2bcf40aeaa35420dc43f5803f4e57ff0f6afb57b
+ms.openlocfilehash: dfbc420dfb4945cdda635e3cbaadb1acb446753b
+ms.sourcegitcommit: ebd39753e2a0b60c1d8c016e38c00dd1accf5d0c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "46469098"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49328689"
 ---
 # <a name="integrate-data-into-common-data-service-for-apps"></a>Gegevens integreren in Common Data Service voor apps
 
@@ -88,6 +88,9 @@ Voordat u een project voor gegevensintegratie kunt maken, moet u een verbinding 
 
     > [!div class="mx-imgBorder"] 
     > ![Lijst met verbindingen](media/data-integrator/CreateConnection1780.png "Lijst met verbindingen")
+
+> [!NOTE]
+> Zorg dat het account dat u voor elke verbinding opgeeft, toegang heeft tot entiteiten voor de bijbehorende toepassingen. Bovendien kan het account voor elke verbinding zich in een andere tenant bevinden. 
 
 ### <a name="how-to-create-a-connection-set"></a>Een verbindingsset maken
 
@@ -169,8 +172,6 @@ Projecten maken de stroom van gegevens tussen systemen mogelijk. Een project bev
 
 ### <a name="execution-history"></a>Uitvoeringsgeschiedenis
 
-<!--note from editor: Do you think most people reading this will know what "upsert" means?-->
-
 Uitvoeringsgeschiedenis geeft de geschiedenis weer van alle uitvoeringen met de naam van het project, timestamp van wanneer het project was uitgevoerd en de status van de uitvoering, samen met het aantal upsert-bewerking en/of fouten.
 
 -   Voorbeeld van de projectuitvoeringsgeschiedenis.
@@ -228,6 +229,12 @@ Houd er ook rekening mee dat u onder Meldingen kunt kiezen voor op e-mailadres g
 
 > [!div class="mx-imgBorder"] 
 > ![E-mailmelding](media/data-integrator/EmailNotification780.png "E-mailmelding")
+
+> [!NOTE]
+> - Momenteel wordt per betaalde tenant op elk moment ondersteuning geboden voor het plannen van vijftig integratieprojecten. U kunt echter meer projecten maken en deze interactief uitvoeren.
+Voor proefversies van tenants geldt een extra beperking dat een gepland project alleen voor de eerste vijftig uitvoerbewerkingen kan worden uitgevoerd.
+> - Hoewel u projecten kunt plannen om elke minuut te worden uitgevoerd, moet u er rekening mee houden dat dit mogelijk een zware belasting van uw apps betekent die de algehele prestaties negatief beïnvloedt. We raden gebruikers sterk aan de uitvoerbewerkingen voor projecten te testen onder realistische belastingsomstandigheden en te optimaliseren voor prestaties met een lagere vernieuwingsfrequentie.
+In een productieomgeving kunt u het beste per tenant niet meer dan vijf projecten per minuut uitvoeren.
 
 ## <a name="customizing-projects-templates-and-mappings"></a>Projecten, sjablonen en toewijzingen aanpassen 
 
