@@ -1,6 +1,6 @@
 ---
-title: Systeemvereisten, limieten en configuratiewaarden | Microsoft Docs
-description: Systeemvereisten, limieten en configuratiewaarden voor PowerApps
+title: Systeemvereisten, limieten en configuratiewaarden voor canvas-apps | Microsoft Docs
+description: Systeemvereisten, limieten en configuratiewaarden voor canvas-apps gebouwd in PowerApps
 author: AFTOwen
 manager: kvivek
 ms.service: powerapps
@@ -9,17 +9,21 @@ ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/07/2018
 ms.author: anneta
-ms.openlocfilehash: 3c334baf876c64085621520daef9a0f153d54107
-ms.sourcegitcommit: 0f6d7bb9e524202c065b9a7ef92a7f54bdc4bc7c
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: 5ba279e361dfe450de1187cf6aca87bc026178ba
+ms.sourcegitcommit: 60006ce9cb21c59e588c00f2ba5c41ffebbbba09
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39476870"
+ms.lasthandoff: 09/30/2018
+ms.locfileid: "47456293"
 ---
-# <a name="system-requirements-limits-and-configuration-values"></a>Systeemvereisten, limieten en configuratiewaarden
+# <a name="system-requirements-limits-and-configuration-values-for-canvas-apps"></a>Systeemvereisten, limieten en configuratiewaarden voor canvas-apps
 Dit onderwerp bevat vereisten voor apparaatplatformen en webbrowsers, maar ook limieten en configuratiewaarden voor PowerApps.
 
-## <a name="supported-platforms-for-running-apps-using-the-powerapps-app"></a>Ondersteunde platforms voor het uitvoeren van apps met behulp van de PowerApps-app
+## <a name="supported-platforms-for-running-canvas-apps-using-the-powerapps-app"></a>Ondersteunde platforms voor het uitvoeren van canvas-apps met behulp van de PowerApps-app
 
 | **Minimale vereiste** | **Aanbevolen** |
 | --- | --- |
@@ -27,7 +31,7 @@ Dit onderwerp bevat vereisten voor apparaatplatformen en webbrowsers, maar ook l
 | Android 5 of hoger |Android 7 of hoger met ten minste 4 GB RAM-geheugen |
 | Windows 8.1 of hoger (alleen pc) |Windows 10 Fall Creators Update met ten minste 8 GB RAM-geheugen)|
 
-## <a name="supported-browsers-for-running-apps"></a>Ondersteunde browsers voor het uitvoeren van apps
+## <a name="supported-browsers-for-running-canvas-apps"></a>Ondersteunde browsers voor het uitvoeren van canvas-apps
 
 | **Browser** | **Besturingssysteem** |
 | --- | --- |
@@ -64,7 +68,7 @@ Aanroepen die worden gedaan vanaf een API die is verbonden via een app (bijvoorb
 U moet deze adressen gebruiken als u bijvoorbeeld IP-adressen op de goedgekeurde lijst moet plaatsen voor uw Azure SQL-database.
 
 > [!IMPORTANT]
->   Als u bestaande configuraties hebt, moet u deze zo snel mogelijk voor 1 september 2018 bijwerken zodat ze de IP-adressen in deze lijst bevatten en daarmee overeenkomen voor de regio’s waarin uw PowerApps-apps bestaan.
+>   Als u bestaande configuraties hebt, moet u deze zo snel mogelijk voor 30 september 2018 bijwerken zodat ze de IP-adressen in deze lijst bevatten en daarmee overeenkomen voor de regio’s waarin uw PowerApps-apps bestaan.
 
 | Regio | Uitgaande IP |
 | --- | --- |
@@ -95,3 +99,6 @@ Deze lijst bevat alle services die PowerApps Studio aanspreekt en hun gebruik. U
 | *.azureedge.net |https |WebAuth |
 | *.blob.core.windows.net |https |Blob-opslag |
 | vortex.data.microsoft.com |https |Telemetrie |
+
+> [!NOTE]
+> Als u een VPN gebruikt, moet deze zo worden geconfigureerd dat localhost wordt uitgesloten van tunneling voor PowerApps Mobile.

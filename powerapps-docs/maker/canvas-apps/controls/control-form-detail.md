@@ -1,24 +1,24 @@
 ---
 title: 'Besturingselementen Formulier weergeven en Formulier bewerken: naslag | Microsoft Docs'
 description: Informatie, waaronder eigenschappen en voorbeelden, over de besturingselementen Formulier weergeven en Formulier bewerken
-author: gregli-msft
+author: aneesmsft
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 07/06/2017
-ms.author: gregli
+ms.author: aneesa
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 992529f50ba14f3578c4f6ffe0ba7ba27d2d3661
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 91f84ebbec83c5734e910680f4ab3a79077164df
+ms.sourcegitcommit: ce621966a34061dda2f75232403847e21816ffa9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42838127"
+ms.lasthandoff: 09/30/2018
+ms.locfileid: "47459450"
 ---
 # <a name="edit-form-and-display-form-controls-in-powerapps"></a>Besturingselementen Formulier weergeven en Formulier bewerken in PowerApps
 Een record weergeven, bewerken en maken in een gegevensbron.
@@ -32,6 +32,12 @@ Als u een besturingselement **[Galerie](control-gallery.md)** toevoegt, kunt u i
 
 ### <a name="record-selection"></a>Recordselectie
 Voor beide typen formulieren geldt dat u de eigenschap **DataSource** instelt op een tabel met records. De eigenschap **Item** van het formulier stelt u dan in op een specifieke record uit die tabel. U kunt de eigenschap **Item** van een formulier bijvoorbeeld instellen op de eigenschap **SelectedItem** van een besturingselement **[Galerie](control-gallery.md)**. Wanneer de gebruiker een record selecteert in de galerie, wordt dezelfde record weergegeven in het formulier, met het verschil dat het formulier meer velden kan bevatten. Als de gebruiker teruggaat naar de galerie en een andere record selecteert, verandert de waarde van de eigenschap **SelectedItem** van de galerie. Hierdoor wordt de eigenschap **Item** van het formulier bijgewerkt, zodat daar de nieuw geselecteerde record wordt weergegeven.
+
+U kunt de eigenschap **Item** van een formulier ook instellen met behulp van een besturingselement **Vervolgkeuzelijst**, zoals wordt beschreven in [Een record weergeven, bewerken of toevoegen](../add-form.md), of een functie zoals **Opzoeken** of **Eerste**. U kunt de eigenschap **Item** bijvoorbeeld instellen op alle twee deze formules om de Fabrikam-vermelding weer te geven in de entiteit **Accounts** in Common Data Service for Apps:
+
+```First(Accounts)```
+
+```Lookup(Accounts, "Fabrikam" in name)```
 
 Elk formulierbesturingselement bevat een of meer besturingselementen **[Kaart](control-card.md)**. Via de eigenschap **[DataField](control-card.md)** van een kaart kunt u [opgeven welk veld in de kaart wordt weergegeven en andere details](../add-form.md).
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: daaea74ede5f9818453b1d4ff32f3c46ef87b0fb
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: df823f68842ad3c7a7497e6dce9cc3540520527e
+ms.sourcegitcommit: 3dc330d635aaf5bc689efa6bd39826d6e396c832
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42859577"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48875871"
 ---
 # <a name="use-cognitive-services-in-powerapps"></a>Cognitive Services gebruiken in PowerApps
 In dit artikel leert u hoe u een eenvoudige canvas-app kunt maken die de tekstanalyse-API van [Microsoft Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview) gebruikt om tekst te analyseren. We laten u zien hoe u de tekstanalyse-API kunt instellen en hoe u deze aan de [connector voor tekstanalyse](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/) kunt koppelen. Vervolgens laten we u zien hoe u een canvas-app kunt maken die de API oproept.
@@ -88,7 +88,7 @@ U maakt eerst een lege telefoonapp en voegt een verbinding met de **Tekstanalyse
     ![Tekstanalyse-connector](./media/cognitive-services-api/create-connection-ta.png)
 
 ### <a name="add-controls-to-the-app"></a>Besturingselementen toevoegen aan de app
-De volgende stap voor het maken van de app bestaat uit het toevoegen van alle besturingselementen. Normaal gesproken als ik apps bouw, voeg ik gaandeweg formules aan de besturingselementen toe. In dit geval richten we ons eerst op de besturingselementen en voegen we in het volgende deel een paar formules toe. In de volgende afbeelding ziet u de app met alle besturingselementen.
+De volgende stap voor het maken van de app bestaat uit het toevoegen van alle besturingselementen. Normaal gesproken als we apps bouwen, voegen we gaandeweg formules aan de besturingselementen toe. In dit geval richten we ons eerst op de besturingselementen en voegen we in het volgende deel een paar formules toe. In de volgende afbeelding ziet u de app met alle besturingselementen.
 
 ![Voltooide app](./media/cognitive-services-api/finished-app-no-data.png)
 

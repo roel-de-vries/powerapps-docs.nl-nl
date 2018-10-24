@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 37e5a701bb21d6454699b449f34629746d1547d1
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: bad3dcf3b0268a8bb08036fec709281b2cbba253
+ms.sourcegitcommit: e4fe4b27651b62edb67e5995fc5955577d8ac5b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42860152"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "49075352"
 ---
 # <a name="pen-input-control-in-powerapps"></a>Besturingselement voor peninvoer in PowerApps
 Een besturingselement waarin de gebruiker kan tekenen, wissen en gebieden van een afbeelding kan markeren.
@@ -27,6 +27,8 @@ Een besturingselement waarin de gebruiker kan tekenen, wissen en gebieden van ee
 De gebruiker kan dit besturingselement gebruiken als een whiteboard, en om grafieken te tekenen en woorden te schrijven die naar getypte tekst kunnen worden geconverteerd.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
+**Afbeelding**: deze uitvoereigenschap vertegenwoordigt de afbeelding die door de eindgebruiker is getekend.
+
 **[Kleur](properties-color-border.md)**: de kleur van de invoerlijnen.
 
 **Modus**: het besturingselement heeft de modus **Tekenen** of **Wissen**.  De modus Selecteren is afgeschaft.
@@ -46,7 +48,7 @@ De gebruiker kan dit besturingselement gebruiken als een whiteboard, en om grafi
 
 **[Height](properties-size-location.md)** : de afstand tussen de boven- en onderrand van een besturingselement.
 
-**Input**: invoer.
+**Input**: **afgeschaft**. Hiermee wordt aangegeven of muis-, pen- of aanraakinvoer wordt ondersteund.  De standaardwaarde (7) biedt ondersteuning voor alle drie.
 
 **[OnSelect](properties-core.md)**: de manier waarop de app reageert wanneer de gebruiker op een besturingselement tikt of klikt.
 

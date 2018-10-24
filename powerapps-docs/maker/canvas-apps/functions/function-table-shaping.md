@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 11/07/2015
+ms.date: 08/24/2018
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6a7d511143a0b16e04ae31263dec9f6a4e04689e
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 056c5e1142b3a34776e72f788f5b2cef9e3b2a27
+ms.sourcegitcommit: 3dc330d635aaf5bc689efa6bd39826d6e396c832
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42864351"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48875894"
 ---
 # <a name="addcolumns-dropcolumns-renamecolumns-and-showcolumns-functions-in-powerapps"></a>De functies AddColumns, DropColumns RenameColumns en ShowColumns in PowerApps
 Hiermee geeft u een [tabel](../working-with-tables.md) vorm door [kolommen](../working-with-tables.md#columns) op te nemen, uit te sluiten, te selecteren of door de naam ervan te wijzigen.
@@ -42,7 +42,7 @@ De formule wordt geëvalueerd voor elke record in de tabel.
 
 De functie **DropColumns** sluit kolommen uit van een tabel.  Alle andere kolommen blijven ongewijzigd. **DropColumns** sluit kolommen uit en **ShowColumns** neemt kolommen op.
 
-Met de functie **RenameColumns** wijzigt u de namen van kolommen in een tabel. Alle andere kolommen behouden hun originele namen.
+Gebruik de functie **RenameColumns** om één of meer kolommen van een tabel een nieuwe naam te geven door ten minste één argumentpaar op te geven dat de naam van een kolom in de tabel opgeeft (de oude naam die u wilt vervangen) en de naam van een kolom dat niet in de tabel staat (de nieuwe naam die u wilt gebruiken). De oude naam moet bestaan in de tabel, de nieuwe naam juist niet. Elke kolomnaam mag slechts één keer voorkomen in de argumentenlijst, hetzij als oude kolomnaam, hetzij als nieuwe kolomnaam. Als u een kolom de naam wilt geven van een bestaande kolom, moet u eerst de bestaande kolom verwijderen met **DropColumns**, of de bestaande kolom een nieuwe naam geven door de functie **RenameColumns** in te nesten in een andere kolom.
 
 De functie **ShowColumns** neemt kolommen uit een tabel op en sluit alle andere kolommen uit. U kunt de functie **ShowColumns** gebruiken om een tabel met één kolom te maken van een tabel met meerdere kolommen.  **ShowColumns** neemt kolommen op en **DropColumns** sluit kolommen uit.  
 
@@ -62,11 +62,11 @@ Voor al deze functies is het resultaat een nieuwe tabel waarop de transformatie 
 * *Tabel* - vereist.  De tabel waarop de bewerking wordt toegepast.
 * *Kolomnaam* - vereist. Namen van een of meer kolommen die moeten worden verwijderd. Voor dit argument moet u een tekenreeks opgeven (bijvoorbeeld **"Naam"**, inclusief dubbele aanhalingstekens).
 
-**RenameColumns**( *Table*, *OldColumneName*, *NewColumnName* )
+**RenameColumns**( *Tabel*, *OldColumneName1*, *NewColumnName1* [, *OldColumnName2*, *NewColumnName2*, ... ] )
 
 * *Tabel* - vereist.  De tabel waarop de bewerking wordt toegepast.
-* *OldColumnName* - vereist. De naam van de kolom die moet worden gewijzigd. Deze naam moet een tekenreeks zijn (bijvoorbeeld **"Naam"**, inclusief dubbele aanhalingstekens).
-* *NewColumnName* - vereist. Vervangende naam. Voor dit argument moet u een tekenreeks opgeven (bijvoorbeeld **"Klantnaam"**, inclusief dubbele aanhalingstekens).
+* *OldColumnName* - vereist. Naam van een kolom in de originele tabel die een nieuwe naam moet krijgen. Dit element verschijnt als eerst in het argumentpaar (of als eerst in ieder argumentpaar als de formule meer dan één paar bevat). Deze naam moet een tekenreeks zijn (bijvoorbeeld **"Name"**, inclusief de dubbele aanhalingstekens).
+* *NewColumnName* - vereist. Vervangende naam. Dit element verschijnt als laatst in het argumentpaar (of als laatst in ieder argumentpaar als de formule meer dan één paar bevat). Voor dit argument moet u een tekenreeks opgeven (bijvoorbeeld **"Klantnaam"**, inclusief dubbele aanhalingstekens).
 
 **ShowColumns**( *Table*, *ColumnName1* [, *ColumnName2*, ... ] )
 
@@ -86,6 +86,7 @@ Geen van deze voorbeelden wijzigt de gegevensbron **IJsverkoop**. Elke functie t
 | **DropColumns( IJsverkoop, "PrijsPerEenheid" )** |Sluit de kolom **PrijsPerEenheid** uit van het resultaat. Gebruik deze functie om kolommen uit te sluiten en gebruik de functie **ShowColumns** om kolommen op te nemen. |![](media/function-table-shaping/icecream-drop-price.png) |
 | **ShowColumns( IJsverkoop, "Smaak" )** |Neemt alleen de kolom **Smaak** op in het resultaat. Gebruik deze functie om kolommen op te nemen en gebruik de functie **DropColumns** om kolommen uit te sluiten. |![](media/function-table-shaping/icecream-select-flavor.png) |
 | **RenameColumns( IJsverkoop, "PrijsPerEenheid", "Prijs")** |Verandert de naam van de kolom **PrijsPerEenheid** in het resultaat. |![](media/function-table-shaping/icecream-rename-price.png) |
+| **RenameColumns( IJsverkoop, "PrijsPerEenheid", "Prijs", "AantalVerkocht", "Nummer")** |Geeft de kolommen **PrijsPerEenheid** en **AantalVerkocht** in het resultaat een andere naam. |![](media/function-table-shaping/icecream-rename-price-quant.png) |
 | **DropColumns(<br>RenameColumns(<br>AddColumns( IJsverkoop, "Omzet",<br>PrijsPerEenheid * AantalVerkocht),<br>"PrijsPerEenheid", "Prijs" ),<br>"Aantal" )** |Voert de volgende tabeltransformaties op volgorde uit, waarbij de formule van binnen naar buiten wordt verwerkt: <ol><li>Voegt de kolom **Omzet** toe op basis van de berekening per record van **PrijsPerEenheid * Aantal**.<li>Wijzigt de naam van **PrijsPerEenheid** in **Prijs**.<li>Sluit de kolom **Aantal** uit.</ol>  Let erop dat de volgorde belangrijk is. U kunt bijvoorbeeld niet rekenen met de kolom **PrijsPerEenheid** nadat de naam ervan is gewijzigd. |![](media/function-table-shaping/icecream-all-transforms.png) |
 
 ### <a name="step-by-step"></a>Stap voor stap

@@ -1,20 +1,24 @@
 ---
 title: Aangepast visueel PowerApps-element voor Power BI | Microsoft Docs
 description: Procedure en beperkingen voor het insluiten van een canvas-app die gebruikmaakt van dezelfde gegevensbron en kan worden gefilterd zoals andere rapportitems in Power BI
-author: mgblythe
+author: chmoncay
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 03/15/2018
-ms.author: mblythe
-ms.openlocfilehash: 0da480a482415ad174f10204f14f31adbd3607f2
-ms.sourcegitcommit: e3f5a2bef64085d02aec82e62ff94ae8a4d01d24
+ms.author: chmoncay
+search.audienceType:
+- maker
+search.app:
+- PowerApps
+ms.openlocfilehash: f4654c12c860496cd0e2b44bbd33c956b7385460
+ms.sourcegitcommit: 0269766ee598f75a4d2459824128f031f68ca042
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39469989"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "47860605"
 ---
 # <a name="powerapps-custom-visual-for-power-bi"></a>Aangepast visueel PowerApps-element voor Power BI
 
@@ -32,7 +36,9 @@ Bekijk de stappen die nodig zijn om het aangepaste visuele PowerApps-element in 
 
     ![De rapportgegevens selecteren](./media/powerapps-custom-visual/add-visual-set-data.png)
 
-3. U kunt hiervoor een bestaande app kiezen of er een maken. Als u ervoor kiest om een app te maken, kunt u kiezen in welke omgeving u deze wilt maken.
+    U kunt een bestaande app kiezen of een nieuwe maken, maar het rapport moet worden gepubliceerd naar de Power BI-service en worden geopend in Microsoft Edge of Google Chrome.
+
+3.  Als u ervoor kiest om een app te maken, kunt u kiezen in welke omgeving u deze wilt maken.
 
     ![Nieuwe of bestaande app](./media/powerapps-custom-visual/create-new-or-choose-app.png)
 
@@ -66,12 +72,12 @@ Bekijk de stappen die nodig zijn om het aangepaste visuele PowerApps-element in 
 
 Het aangepaste visuele PowerApps-element is beschikbaar in preview en heeft de volgende beperkingen:
 
-- U kunt apps maken of wijzigen wanneer u het aangepaste visuele element PowerApps in Power BI Desktop, Internet Explorer of Mozilla Firefox gebruikt. Het is raadzaam dat u eerst uw rapport naar de Power BI-service publiceert. Maak vervolgens met Microsoft Edge of Google Chrome nieuwe apps en breng hieraan wijzigingen aan.
+- U kunt geen apps maken of wijzigen wanneer u het aangepaste visuele element van PowerApps gebruikt in Power BI Desktop, Internet Explorer of Mozilla Firefox. Het is raadzaam dat u eerst uw rapport naar de Power BI-service publiceert. Gebruik vervolgens Microsoft Edge of Google Chrome om apps te maken en bij te werken.
 - Als u de gegevensvelden wijzigt die zijn gekoppeld aan het visuele element, moet u de app vanuit de Power BI-service bewerken door het beletselteken (...) en vervolgens de optie **Bewerken** te selecteren. Anders worden de wijzigingen niet doorgevoerd in PowerApps, zodat het gedrag van de app onvoorspelbaar wordt.
-- Het aangepaste visuele PowerApps-element kan geen vernieuwing van de Power BI-rapport of de Power BI-gegevensbron activeren. Als u gegevens uit de app naar dezelfde gegevensbron als het rapport terugschrijft, worden uw wijzigingen niet onmiddellijk zichtbaar. Wijzigingen worden zichtbaar bij de volgende geplande vernieuwing.
+- Het aangepaste visuele PowerApps-element kan geen vernieuwing van het Power BI-rapport of de Power BI-gegevensbron activeren. Als u gegevens uit de app naar dezelfde gegevensbron als het rapport terugschrijft, worden uw wijzigingen niet onmiddellijk zichtbaar. Wijzigingen worden zichtbaar bij de volgende geplande vernieuwing.
 - Met het aangepaste visuele PowerApps-element kunnen de gegevens niet worden gefilterd en kunnen geen gegevens worden teruggestuurd naar het rapport.
 - U moet de PowerApps-app afzonderlijk van uw rapport delen. Meer informatie over het [delen van apps in PowerApps](share-app.md).
-- De mobiele app voor Power BI biedt geen ondersteuning voor het aangepaste visuele PowerApps-element.
+- Power BI Report Server en de mobiele app voor Power BI bieden geen ondersteuning voor aangepaste visuele PowerApps-elementen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

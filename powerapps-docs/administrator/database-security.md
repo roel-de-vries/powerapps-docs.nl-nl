@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
-ms.date: 10/03/2018
+ms.date: 10/10/2018
 ms.author: manasma
 search.audienceType:
 - admin
@@ -14,12 +14,12 @@ search.app:
 - D365CE
 - PowerApps
 - Powerplatform
-ms.openlocfilehash: c5199488f3250d131f42665dfc6f9ad1fc1ae221
-ms.sourcegitcommit: 6e2fa2665ded6ac6fd271e1a12f4e3227ebc8865
+ms.openlocfilehash: 3c8bdcb855b1e15cbebeb2a51fedf8aea7684286
+ms.sourcegitcommit: c4369e5f31bb08716f1af1416f3f7510a4b926d5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48246069"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "49072514"
 ---
 # <a name="configure-environment-security"></a>Omgevingsbeveiliging configureren
 Common Data Service (CDS) for Apps gebruikt een op rollen gebaseerd beveiligingsmodel om de toegang tot de database te beveiligen. In dit onderwerp wordt uitgelegd hoe u de beveiligingsartefacten maakt die u nodig hebt om een app te beveiligen. De gebruikersrollen bepalen de runtime-toegang tot gegevens en staan los van de omgevingsrollen voor omgevingsbeheerders en omgevingsmakers. Zie [Environments overview](environments-overview.md) (Overzicht van omgevingen) voor een overzicht van omgevingen.
@@ -76,9 +76,10 @@ De PowerApps-omgeving bevat vooraf gedefinieerde beveiligingsrollen die overeenk
 - Aan gebruikers die apps maken waarmee verbinding met de database wordt gemaakt en aan gebruikers die entiteiten en beveiligingsrollen moeten maken en bijwerken, moet ook de rol Systeemaanpasser worden toegewezen, samen met de rol Omgevingsmaker, omdat de rol Omgevingsmaker geen bevoegdheden voor de database heeft.
 
 ## <a name="create-or-configure-a-custom-security-role"></a>Een aangepaste beveiligingsrol maken of configureren
-Als uw app is gebaseerd op een aangepaste entiteit, moeten de bevoegdheden expliciet worden opgegeven voordat gebruikers met de app kunnen werken. Dit kunt u op een van de volgende manieren doen.
-- U kunt een bestaande vooraf gedefinieerde beveiligingsrol uitbreiden, zodat deze de bevoegdheden voor records bevat op basis van de aangepaste entiteit.
-- U kunt een aangepaste beveiligingsrol maken voor het beheren van de bevoegdheden voor de gebruikers van de app.
+Als uw app gebruikmaakt van een aangepaste entiteit, moeten de bevoegdheden ervan expliciet worden toegewezen in een veiligheidsrol voordat uw app kan worden gebruikt.  U kunt deze bevoegdheden toevoegen aan een bestaande beveiligingsrol of een aangepaste beveiligingsrol maken. Er is een set minimale bevoegdheden die nodig zijn om de nieuwe beveiligingsrol te gebruiken. Raadpleeg [Minimale bevoegdheden om app uit te voeren](#minimum-privileges-to-run-app).
+
+> [!TIP]
+> Als u een aangepaste beveiligingsrol wilt maken met de minimaal vereiste bevoegdheden om een app uit te voeren, raadpleegt u de onderstaande sectie: [Minimale bevoegdheden om een app uit te voeren](#minimum-privileges-to-run-app).
 
 Als de omgeving records bevat die door meerdere apps kunnen worden gebruikt, hebt u misschien meerdere beveiligingsrollen nodig voor toegang tot de gegevens met verschillende bevoegdheden. Bijvoorbeeld:
 - Sommige gebruikers (type A) hebben alleen bevoegdheden nodig voor het lezen, bijwerken en koppelen van andere records. Voor deze gebruikers is een beveiligingsrol nodig met bevoegdheden voor lezen, schrijven en toevoegen.
@@ -114,7 +115,17 @@ Zie [Beveiligingsrollen](https://docs.microsoft.com/dynamics365/customer-engagem
 
 10. Selecteer **Opslaan en sluiten**.
 
+## <a name="minimum-privileges-to-run-app"></a>Minimale bevoegdheden om een app uit te voeren
+Wanneer u een aangepaste beveiligingsrol maakt, moet u een set minimaal vereiste bevoegdheden opnemen in de beveiligingsrol voordat een gebruiker een app kan uitvoeren. We hebben een oplossing gemaakt die u kunt importeren en waarin een beveiligingsrol is opgenomen met de minimaal vereiste bevoegdheden.  
 
+Begin door de oplossing te downloaden uit het Downloadcentrum: [CDS for Apps minimum privilege security role](http://download.microsoft.com/download/6/5/5/6552A30E-05F4-45F0-AEE3-9BB01E13118A/MinprivilegeSecRole_1_0_0_0.zip).
+
+Volg vervolgens de aanwijzingen om de oplossing te importeren: [Oplossingen importeren, bijwerken en exporteren](../maker/common-data-service/import-update-export-solutions.md).
+
+Wanneer u de oplossing importeert, wordt de rol **min prv apps use** gemaakt die u kunt kopiëren (raadpleeg [Een beveiligingsrol maken door Rol kopiëren](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-edit-security-role#create-a-security-role-by-copy-role)). Wanneer Rol kopiëren is voltooid, navigeert u naar elk tabblad (Kernrecords, Business Management, Aanpassing, enz.) en stelt u de juiste bevoegdheden in. 
+
+> [!IMPORTANT]
+> U moet de oplossing in een ontwikkelingsomgeving uitproberen voordat u deze importeert in een productieomgeving. 
 
 <!--Reference links in article-->
 [1]: https://admin.powerapps.com

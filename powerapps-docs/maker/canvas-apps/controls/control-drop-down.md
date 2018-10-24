@@ -13,18 +13,18 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5fc53e4bfc302819a7899395af4f8f269d6754ef
-ms.sourcegitcommit: 5db6e3ac3a622de313a1102417397e126c3f92f2
+ms.openlocfilehash: f5e4e0ad13280783b7b6cd00121b4dc05cca6df8
+ms.sourcegitcommit: e4fe4b27651b62edb67e5995fc5955577d8ac5b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2018
-ms.locfileid: "45640372"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "49075375"
 ---
 # <a name="drop-down-control-in-powerapps"></a>Besturingselement voor vervolgkeuzelijst in PowerApps
 Een lijst waarin alleen het eerste item wordt weergegeven, tenzij de gebruiker de lijst opent.
 
 ## <a name="description"></a>Beschrijving
-Een besturingselement **Vervolgkeuzelijst** bespaart schermruimte, zeker als de lijst een groot aantal opties bevat. Het besturingselement neemt slechts één regel in beslag, tenzij de gebruiker de pijl-omlaag selecteert om andere opties weer te geven.
+Een besturingselement **Vervolgkeuzelijst** bespaart schermruimte, zeker als de lijst een groot aantal opties bevat. Het besturingselement neemt slechts één regel in beslag, tenzij de gebruiker de pijl-omlaag selecteert om andere opties weer te geven.  In het besturingselement worden maximaal 500 items weergegeven.
 
 ## <a name="key-properties"></a>Belangrijkste eigenschappen
 **[Standaard](properties-core.md)**: de beginwaarde van een besturingselement voordat de gebruiker een andere waarde opgeeft.
