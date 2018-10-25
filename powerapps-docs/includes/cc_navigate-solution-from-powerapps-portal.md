@@ -1,10 +1,10 @@
-### <a name="navigate-to-an-unmanaged-solution"></a>Navigeren naar een onbeheerde oplossing
+### <a name="navigate-to-an-unmanaged-solution"></a>Naar een niet-beheerde oplossing navigeren
 
-1. Selecteer in de PowerApps-portal de knop Instellingen ![Knop Instellingen](../administrator/media/settings-button-nav-bar.png) en kies **Geavanceerde aanpassingen**.
+1. Vanaf de PowerApps-portal selecteert u de ![knop Instellingen](../administrator/media/settings-button-nav-bar.png) knop Instellingen en kiest u **Geavanceerde aanpassingen**.
 
     ![Geavanceerde aanpassingen](../maker/common-data-service/media/advanced-customizations-menu.png)
 
-1. Kies in het paneel **Geavanceerde aanpassingen** een van de volgende opties:
+1. Kies in het deelvenster **Geavanceerde aanpassingen** een van de volgende opties:
 
- - Als u in uw **standaardoplossing voor Common Data Service**wilt werken, selecteert u **Oplossingenverkenner openen** onder **Aanpassen**.
- - Als u een andere onbeheerde oplossing wilt selecteren of maken, selecteert u **Alle oplossingen** onder **Oplossingen**. Selecteer vervolgens de onbeheerde oplossing waarin u wilt werken.
+ - Als u in de **Common Data Service-standaardoplossing** wilt werken, selecteert u onder **Aanpassen** de optie **Solution Explorer openen**.
+ - Als u een andere niet-beheerde oplossing wilt selecteren of maken waarin u wilt werken, selecteert u onder **Oplossingen** de optie **Alle oplossingen**. Selecteer vervolgens de niet-beheerde oplossing waarin u wilt werken.
