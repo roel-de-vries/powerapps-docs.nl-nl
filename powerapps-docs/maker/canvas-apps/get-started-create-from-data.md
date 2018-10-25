@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b1531289c55772aaa9ee521c92cc8b5dbfe16ad4
-ms.sourcegitcommit: 02d0234bd84352bf1c43d0fc9225ab60947a0add
+ms.openlocfilehash: 3d29387c907808f90225f1ff67257d289de2b0a9
+ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49317017"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49806128"
 ---
 # <a name="generate-a-canvas-app-from-excel-in-powerapps"></a>In PowerApps een canvas-app genereren vanuit Excel
 
@@ -28,13 +28,15 @@ Het Excel-bestand moet zich in een cloudopslagaccount bevinden, zoals OneDrive, 
 
 Als u geen licentie voor PowerApps hebt, kunt u zich [gratis registreren](../signup-for-powerapps.md).
 
-## <a name="prerequisites"></a>Vereisten ##
+## <a name="prerequisites"></a>Vereisten
+
 Download het bestand [Flooring Estimates](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) in Excel en sla het op in uw [cloud-opslagaccount](connections/cloud-storage-blob-connections.md) om dit onderwerp exact te volgen.
 
 > [!IMPORTANT]
 > U kunt uw eigen Excel-bestand gebruiken maar de gegevens moeten zijn opgemaakt als tabel. Zie voor meer informatie [Een tabel opmaken](how-to-excel-tips.md). 
 
 ## <a name="generate-the-app"></a>De app genereren
+
 1. Meld u aan bij [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
 1. Wijs onder **Uw eigen app maken** de optie **Starten vanuit gegevens** aan en selecteer vervolgens **Deze app maken**.
@@ -54,6 +56,7 @@ Download het bestand [Flooring Estimates](https://az787822.vo.msecnd.net/documen
     ![Optie voor het maken van een app](./media/get-started-create-from-data/choose-table.png)
 
 ## <a name="run-the-app"></a>De app uitvoeren
+
 1. Open Preview door op F5 te drukken (of door op het pictogram voor afspelen in de rechterbovenhoek te klikken of tikken).
 
     ![Preview openen](./media/get-started-create-from-data/open-preview.png)
@@ -73,6 +76,7 @@ Download het bestand [Flooring Estimates](https://az787822.vo.msecnd.net/documen
 1. Klik of tik op de pijl Volgende voor de record dat u hebt toegevoegd en klik of tik vervolgens op het prullenbakpictogram om de record verwijderen.
 
 ## <a name="next-steps"></a>Volgende stappen
+
 Pas het standaardscherm voor bladeren aan uw eigen behoeften aan. U kunt bijvoorbeeld de lijst op productnaam sorteren en filteren, en niet op categorie.
 
 > [!div class="nextstepaction"]

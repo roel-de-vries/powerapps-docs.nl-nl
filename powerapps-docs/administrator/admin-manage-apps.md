@@ -5,7 +5,7 @@ author: jimholtz
 ms.service: powerapps
 ms.component: pa-admin
 ms.topic: conceptual
-ms.date: 03/21/2018
+ms.date: 10/24/2018
 ms.author: jimholtz
 search.audienceType:
 - admin
@@ -13,12 +13,12 @@ search.app:
 - D365CE
 - PowerApps
 - Powerplatform
-ms.openlocfilehash: ac0ae8032ea64734030bf95ff9b473553e462b3b
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: f4dd7ddb4eaaef56b5720287842a2b84cd10d345
+ms.sourcegitcommit: 097ddfb25eb0f09f0229b866668c2b02fa57df55
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42835144"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49991810"
 ---
 # <a name="manage-apps-created-in-your-organization"></a>De apps beheren die in uw organisatie zijn gemaakt 
 Als u een omgevingsbeheerder, globale beheerder van Office 365 of tenantbeheerder van Azure Active Directory bent, kunt u de apps beheren die in uw organisatie zijn gemaakt.
@@ -49,7 +49,6 @@ Beheerders kunnen in het PowerApps-beheercentrum het volgende doen:
 4. Voer een van de volgende bewerkingen uit:
 
     * Klik of tik op het prullenbakpictogram om de app te verwijderen.
-    * Wijzig de eigenaar van de app.
     * Geef gegevensverbindingen, stromen en andere gegevens weer die zijn gekoppeld aan de app.
     * Klik of tik op **Delen** om de gebruikers met wie de app wordt gedeeld weer te geven of te wijzigen.
 

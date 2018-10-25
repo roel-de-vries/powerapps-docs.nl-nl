@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fa2631d065425ab57e47dccbb470f577d6474f23
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: afbb6211ee947abd59e74a0712dd080f6911ec65
+ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42831018"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49806174"
 ---
 # <a name="integrate-powerapps-microsoft-flow-and-power-bi-with-sharepoint-online"></a>PowerApps, Microsoft Flow en Power BI integreren met SharePoint Online
 Hebt u SharePoint Online en wilt u uw bedrijfsprocessen beter automatiseren en stroomlijnen? Hebt u gewerkt met PowerApps, Microsoft Flow of Power BI, maar u weet niet hoe u deze met SharePoint Online kunt gebruiken? Dan bent u hier op de juiste plaats. In deze reeks zelfstudies wordt uitgelegd hoe u een eenvoudige canvas-app voor projectbeheer ontwikkelt op basis van SharePoint-lijsten en drie primaire technologieën die integreren met SharePoint Online: PowerApps, Microsoft Flow en Power BI. Deze technologieën werken met elkaar samen, waardoor u uw bedrijfsresultaten eenvoudig kunt *meten*, op de resultaten *reageren* en uw werkstromen *automatiseren*. Als u deze reeks hebt voltooid, dan beschikt u over een prima scenario. Bijvoorbeeld het volgende:
@@ -31,7 +31,7 @@ In deze reeks zelfstudies heeft het bedrijf Contoso een SharePoint Online-site w
 ## <a name="getting-started-quickly"></a>Snel aan de slag
 Het scenario dat in deze reeks zelfstudies wordt gepresenteerd, is eenvoudig in vergelijking met een app voor een volwaardig projectbeheer en bijbehorende analyse, maar het kost toch nog tijd om alle taken te voltooien. Als u slechts een snelle inleiding zoekt voor het gebruik van PowerApps, Microsoft Flow en Power BI met SharePoint, lees dan de volgende artikelen:
 
-* **PowerApps**: [Een app genereren vanuit SharePoint met behulp van PowerApps](generate-app-from-sharepoint-list-interface.md) en [Een app genereren voor het beheren van gegevens in een SharePoint-lijst](app-from-sharepoint.md)
+* **PowerApps**: [Een app genereren vanuit SharePoint met behulp van PowerApps](app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online) en [Een app genereren voor het beheren van gegevens in een SharePoint-lijst](app-from-sharepoint.md)
 * **Microsoft Flow**: [Wachten op goedkeuring in Microsoft Flow](https://docs.microsoft.com/flow/wait-for-approvals)
 * **Power BI**: [Embed with report web part in SharePoint Online](https://docs.microsoft.com/power-bi/service-embed-report-spo) (Power BI: insluiten met webonderdeel Rapporteren in SharePoint Online)
 

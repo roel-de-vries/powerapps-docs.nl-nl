@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3e17015c05d23f4bd9f8a0906e7b1d9d00e2c38f
-ms.sourcegitcommit: 6e2fa2665ded6ac6fd271e1a12f4e3227ebc8865
+ms.openlocfilehash: c2d72368b36f2de854a0aa575f9ef44f2f966ace
+ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48246046"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49806220"
 ---
 # <a name="transform-your-infopath-form-to-powerapps"></a>Uw InfoPath-formulier transformeren in PowerApps
 
@@ -76,7 +76,7 @@ Volg deze stappen om aan de slag te gaan:
 
 PowerApps bouwt dan een app die u kunt aanpassen.
 
-Begin voor uw eerste app met een eenvoudige aangepaste lijst met een paar verschillende veldtypen. Op deze manier maakt u een solide basis. En geen zorgen, u bent al snel een professional die ook complexe apps zonder moeite aankan. Bekijk de volgende [documentatie](generate-app-from-sharepoint-list-interface.md) of deze [community-video](https://youtu.be/BnYe_7fpZRM) om aan de slag te gaan met uw eerste app. In de voorbeelden hieronder ziet u algemene InfoPath-taken en leert u hoe u deze uitvoert in PowerApps. Er wordt steeds gewerkt met een eenvoudige SharePoint-app met lijsten.
+Begin voor uw eerste app met een eenvoudige aangepaste lijst met een paar verschillende veldtypen. Op deze manier maakt u een solide basis. En geen zorgen, u bent al snel een professional die ook complexe apps zonder moeite aankan. Bekijk de volgende [documentatie](app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online) of deze [community-video](https://youtu.be/BnYe_7fpZRM) om aan de slag te gaan met uw eerste app. In de voorbeelden hieronder ziet u algemene InfoPath-taken en leert u hoe u deze uitvoert in PowerApps. Er wordt steeds gewerkt met een eenvoudige SharePoint-app met lijsten.
 
 ## <a name="how-do-you-do-that-with-powerapps"></a>Hoe u dit doet met PowerApps?
 
