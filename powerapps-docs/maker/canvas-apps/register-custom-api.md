@@ -1,6 +1,6 @@
 ---
-title: Koppelingen naar inhoud over aangepaste connectors | Microsoft Docs
-description: Koppelingen naar inhoud voor het maken, gebruiken, delen en certificeren van aangepaste connectors in PowerApps.
+title: Koppelingen naar inhoud over aangepaste connectors voor canvas-apps | Microsoft Docs
+description: Koppelingen naar inhoud over het maken, gebruiken, delen en certificeren van aangepaste connectors voor canvas-apps in PowerApps.
 author: mgblythe
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: dd07dbc90900e4690e677823d2303b96e57472f5
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 6975c19a973b90de0db7dfbc7ecb8e5e504f39a4
+ms.sourcegitcommit: 097ddfb25eb0f09f0229b866668c2b02fa57df55
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42859318"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49991787"
 ---
-# <a name="custom-connectors-in-powerapps"></a>Aangepaste connectors in PowerApps
+# <a name="custom-connectors-for-canvas-apps"></a>Aangepaste connectors voor canvas-apps
 
 U kunt zonder code te schrijven werkstromen en canvas-apps ontwikkelen met [Azure Logic Apps](https://azure.microsoft.com/services/logic-apps), [Microsoft Flow](https://flow.microsoft.com) en [PowerApps](https://powerapps.microsoft.com). Met deze services die [meer dan 180 connectors](https://docs.microsoft.com/connectors/) bieden voor Microsoft-services en -producten en andere services, zoals GitHub, Salesforce en Twitter, kunt u uw gegevens- en bedrijfsprocessen integreren.
 

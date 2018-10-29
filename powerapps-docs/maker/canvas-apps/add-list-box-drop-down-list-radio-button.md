@@ -1,53 +1,52 @@
 ---
-title: Een keuzelijst, een vervolgkeuzelijst en keuzerondjes toevoegen aan een canvas-app | Microsoft Docs
+title: Een keuzelijst, een vervolgkeuzelijst of keuzerondjes toevoegen aan een canvas-app | Microsoft Docs
 description: In PowerApps opties voor meervoudige selectie in een canvas-app maken of configureren
-author: lonu
+author: fikaradz
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 10/23/2016
-ms.author: lonu
+ms.date: 10/24/2018
+ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 71beefdb0c937d69e621d6b02fa000b96c5a3e73
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 293c850c5af980a480a56cb9fb3b8c7866950580
+ms.sourcegitcommit: 097ddfb25eb0f09f0229b866668c2b02fa57df55
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42861500"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49991741"
 ---
-# <a name="add-a-list-box-a-drop-down-list-or-radio-buttons-to-a-canvas-app-in-powerapps"></a>In PowerApps een keuzelijst, een vervolgkeuzelijst of keuzerondjes toevoegen aan een canvas-app
+# <a name="add-a-list-box-a-drop-down-list-or-radio-buttons-to-a-canvas-app"></a>Een keuzelijst, een vervolgkeuzelijst of keuzerondjes toevoegen aan een canvas-app
 
-PowerApps bevat opties voor meervoudige en enkelvoudige selectie voor canvas-apps, zoals keuzelijsten, vervolgkeuzelijsten en keuzerondjes. In dit onderwerp worden deze besturingselementen toegevoegd en wordt de formule **Table** gebruikt om de lijsten te creëren. Wanneer een item in de lijst wordt geselecteerd, worden de andere besturingselementen bijgewerkt.
+Geef één kolom met gegevens (bijvoorbeeld uit een tabel met meerdere kolommen) weer in een canvas-app, zodat gebruikers een of meer items uit een lijst kunnen selecteren.
+
+- Voeg een keuzelijst toe, zodat gebruikers meer dan één optie kunnen kiezen.
+- Voeg een vervolgkeuzelijst toe die minder ruimte op het scherm inneemt.
+- Voeg een set keuzerondjes toe voor een bepaald ontwerpeffect.
+
+In dit onderwerp worden keuzelijsten en keuzerondjes besproken, maar dezelfde principes zijn van toepassing op vervolgkeuzelijsten.
 
 [!INCLUDE [app-customization-requirements](../../includes/app-customization-requirements.md)]
 
-## <a name="add-a-list-box"></a>Een keuzelijst toevoegen
+## <a name="create-a-simple-list"></a>Een voorbeeldlijst maken
 
-1. Selecteer op het tabblad **Invoegen** de optie **Besturingselementen** en selecteer vervolgens **Keuzelijst**:  
+1. Voeg een besturingselement **Keuzelijst** toe met de naam **MyListBox** en stel de eigenschap **Items** in op deze expressie:
 
-    ![][2]  
-
-2. Wijzig de naam van het besturingselement **Keuzelijst** in **MyListBox**:  
-
-    ![][3]
-
-3. Stel de eigenschap **[Items](controls/properties-core.md)** in op de volgende expressie:  
-   ```["circle","triangle","rectangle"]```  <br/>
+    ```["circle","triangle","rectangle"]```  <br/>
 
     Uw ontwerp ziet er ongeveer als volgt uit:
 
     ![][4]
 
-4. Op het tabblad **Invoegen** selecteert u **Pictogrammen** en vervolgens de cirkel. Verplaats deze naar onder het besturingselement **Keuzelijst**:
+4. Op het tabblad **Invoegen** selecteert u **Pictogrammen** en vervolgens de cirkel. Verplaats deze naar onder **MyListBox**:
 
     ![][5]  
 
-5. Voeg een driehoek en een rechthoek toe en plaats de vormen in een rij onder het besturingselement **Keuzelijst**:
+5. Voeg een driehoek en een rechthoek toe en plaats de vormen in een rij onder **MyListBox**:
 
     ![][6]  
 
@@ -59,12 +58,14 @@ PowerApps bevat opties voor meervoudige en enkelvoudige selectie voor canvas-app
    | driehoek |```If("triangle" in MyListBox.SelectedItems.Value, true)``` |
    | rechthoek |```If("rectangle" in MyListBox.SelectedItems.Value, true)``` |
 
-7. Bekijk een voorbeeld van wat u hebt gemaakt: ![][1]. Selecteer de verschillende vormen in het besturingselement **Keuzelijst**. Alleen de vorm of vormen die u selecteert worden weergegeven. Druk op ESC of selecteer **X** om terug te keren naar uw scherm.
+7. Selecteer een of meer vormen in **MyListBox** terwijl u de Alt-toets ingedrukt houdt.
 
-Tijdens deze stappen hebt u gebruikgemaakt van een expressie om een lijst items te maken in het besturingselement **Keuzelijst**. Afhankelijk van wat u hebt gekozen in het besturingselement **Keuzelijst** worden er verschillende vormen weergegeven. U kunt dit toepassen op andere elementen binnen uw bedrijf. U kunt bijvoorbeeld het besturingselement **Keuzelijst** gebruiken om productafbeeldingen, productbeschrijvingen e.d. weer te geven.
+    Alleen de vorm of vormen die u selecteert worden weergegeven.
+
+Tijdens deze stappen hebt u gebruikgemaakt van een expressie om een lijst met items te maken. U kunt dit toepassen op andere elementen binnen uw bedrijf. U kunt bijvoorbeeld het besturingselement **Vervolgkeuzelijst** gebruiken om productafbeeldingen, productbeschrijvingen e.d. weer te geven.
 
 ## <a name="add-radio-buttons"></a>Keuzerondjes toevoegen
-1. Selecteer op het tabblad **Startpagina** de optie **Nieuw scherm**.
+1. Selecteer op het tabblad **Start** de optie **Nieuw scherm** en selecteer vervolgens **Leeg**.
 
 2. Selecteer op het tabblad **Invoegen** de optie **Besturingselementen** en selecteer vervolgens **Keuzerondje**.
 
@@ -80,7 +81,7 @@ Tijdens deze stappen hebt u gebruikgemaakt van een expressie om een lijst items 
 4. Selecteer op het tabblad **Invoegen** de optie **Pictogrammen** en selecteer de cirkel.
 
 5. Stel de eigenschap **[Fill](controls/properties-color-border.md)** van de cirkel in op de volgende functie:  
-   ```If(Choices.Selected.Value = "red", RGBA(192, 0, 0, 1), Choices.Selected.Value = "green", RGBA(0, 176, 80, 1), Choices.Selected.Value = "blue", RGBA(0, 32, 96, 1))```  
+   ```If(Choices.Selected.Value = "red", Red, Choices.Selected.Value = "green", Green, Choices.Selected.Value = "blue", Blue)```  
 
     Met deze formule verandert de kleur van de cirkel op basis van welk keuzerondje u selecteert.
 
@@ -88,20 +89,7 @@ Tijdens deze stappen hebt u gebruikgemaakt van een expressie om een lijst items 
 
     ![][14]  
 
-7. Bekijk een voorbeeld van wat u hebt gemaakt: ![][1]. Selecteer een ander keuzerondje om de kleur van de cirkel te wijzigen. Druk op ESC of selecteer **X** om terug te keren naar uw scherm.
-
-## <a name="add-a-drop-down-list"></a>Een vervolgkeuzelijst toevoegen
-1. Voeg een scherm toe en voeg dan het besturingselement **Vervolgkeuzelijst** toe.
-
-    ![][15]  
-
-2. Wijzig de naam van het besturingselement naar **DDChoices** en stel de eigenschap **[Items](controls/properties-core.md)** in op deze formule:<br>
-   **["rood","groen","blauw"]**
-
-3. Voeg een cirkel toe, plaats deze onder het besturingselement **Vervolgkeuzelijst** en stel de eigenschap **[Fill](controls/properties-color-border.md)** van de cirkel in op deze formule:  
-   ```If(DDChoices.Selected.Value = "red", RGBA(192, 0, 0, 1), DDChoices.Selected.Value = "green", RGBA(0, 176, 80, 1), DDChoices.Selected.Value = "blue", RGBA(0, 32, 96, 1))```
-
-4. Bekijk een voorbeeld van wat u hebt gemaakt: ![][1]. Selecteer de verschillende opties om de kleur van de cirkel te wijzigen.
+7. Selecteer een ander keuzerondje terwijl u de Alt-toets ingedrukt houdt om de kleur van de cirkel te wijzigen.
 
 [1]: ./media/add-list-box-drop-down-list-radio-button/preview.png
 [2]: ./media/add-list-box-drop-down-list-radio-button/listbox.png

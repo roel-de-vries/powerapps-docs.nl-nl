@@ -1,5 +1,5 @@
 ---
-title: PowerApps integreren in websites en andere services | Microsoft Docs
+title: Canvas-apps integreren in websites en andere services | Microsoft Docs
 description: Sluit canvas-apps in websites en andere services in.
 author: mgblythe
 manager: kvivek
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c9cd4008bcb93e05d696fec082e400ee9661785b
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 254d127237cff58728f208d62c30bf7aeb456a80
+ms.sourcegitcommit: 097ddfb25eb0f09f0229b866668c2b02fa57df55
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42835390"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "49991833"
 ---
-# <a name="integrate-powerapps-into-websites-and-other-services"></a>PowerApps integreren in websites en andere services
+# <a name="integrate-canvas-apps-into-websites-and-other-services"></a>Canvas-apps integreren in websites en andere services
 De apps die u bouwt zijn vaak het best te gebruiken als ze beschikbaar zijn op de plek waar het werk wordt uitgevoerd. Met PowerApps kunt u canvas-apps insluiten in een iframe, zodat u deze apps kunt integreren in websites en andere services, zoals Power BI of SharePoint.
 
 In dit onderwerp leert u hoe u parameters instelt om de app in te kunnen sluiten. Vervolgens gaat u de app Voorraad bestellen in een website insluiten.
@@ -32,7 +32,7 @@ Houd rekening met de volgende beperkingen:
 * Alleen PowerApps-gebruikers in dezelfde tenant hebben toegang tot de ingesloten app.
 * Voor toegang tot PowerApps met behulp van Internet Explorer 11, moet u de Compatibiliteitsweergave uitschakelen.
 
-U kunt ook PowerApps integreren in SharePoint Online (zonder iframe). Zie [Een app genereren vanuit SharePoint met behulp van PowerApps](../canvas-apps/generate-app-from-sharepoint-list-interface.md) voor meer informatie.
+U kunt ook PowerApps integreren in SharePoint Online (zonder iframe). Zie [Een app genereren vanuit SharePoint met behulp van PowerApps](app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online) voor meer informatie.
 
 ## <a name="set-uri-parameters-for-your-app"></a>URI-parameters instellen voor de app
 Als u een app wilt insluiten, stelt u eerst de parameters in voor de URI (Uniform Resource Identifier), zodat het iframe de app kan vinden. De URI heeft de volgende indeling:

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e0bdab9bcd45f456c00f933dfa7f1a8936e3fa85
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
+ms.openlocfilehash: 0ac3f0549e89153d9362d6a8a040833608d4e287
+ms.sourcegitcommit: 2300de0a0486187762f830068c872116d5b04c32
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42865408"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49806197"
 ---
 # <a name="groupby-and-ungroup-functions-in-powerapps"></a>Functies GroupBy en Groep opheffen in PowerApps
 Groepeert [records](../working-with-tables.md#records) van een [tabel](../working-with-tables.md) en heft deze groep op.
@@ -68,7 +68,7 @@ Een tabel is een waarde in PowerApps, net zoals een tekenreeks of getal. U kunt 
 2. Stel de eigenschap **[OnSelect](../controls/properties-core.md)** van de knop **Origineel** in op deze formule:
    
     **ClearCollect(Inwonersaantallen, {Stad:"Londen", Land:"Engeland", Inwonersaantal:8615000}, {Stad:"Berlijn", Land:"Duitsland", Inwonersaantal:3562000}, {Stad:"Madrid", Land:"Spanje", Inwonersaantal:3165000}, {Stad:"Rome", Land:"Italië", Inwonersaantal:2874000}, {Stad:"Parijs", Land:"Frankrijk", Inwonersaantal:2273000}, {Stad:"Hamburg", Land:"Duitsland", Inwonersaantal:1760000}, {Stad:"Barcelona", Land:"Spanje", Inwonersaantal:1602000}, {Stad:"München", Land:"Duitsland", Inwonersaantal:1494000}, {Stad:"Milaan", Land:"Italië", Inwonersaantal:1344000})**
-3. Druk op F5, selecteer de knop **Origineel** en druk vervolgens op Esc.
+3. Selecteer de knop **Origineel** terwijl u de Alt-toets ingedrukt houdt.
    
     U hebt zojuist een [verzameling](../working-with-data-sources.md#collections) met de naam **Inwonersaantallen** gemaakt die deze gegevens bevat:
    
@@ -82,7 +82,7 @@ Een tabel is een waarde in PowerApps, net zoals een tekenreeks of getal. U kunt 
 2. Stel de eigenschap **[OnSelect](../controls/properties-core.md)** van deze knop in op deze formule:
    
     **ClearCollect( StedenPerLand, GroupBy( Inwonersaantallen, "Land", "Steden" ) )**
-3. Druk op F5, selecteer de knop **Group** en druk vervolgens op Esc.
+3. Selecteer de knop **Groep** terwijl u de Alt-toets ingedrukt houdt.
    
     U hebt zojuist een verzameling met de naam **CitiesByCountry** gemaakt, waarin de records van de vorige verzameling zijn gegroepeerd op de kolom **Country**.
    
@@ -99,7 +99,7 @@ Een tabel is een waarde in PowerApps, net zoals een tekenreeks of getal. U kunt 
 2. Stel de eigenschap **[OnSelect](../controls/properties-core.md)** van deze knop in op deze formule:
    
     **ClearCollect( CitiesByCountryFiltered, Filter( CitiesByCountry, "e" in Country ) )**
-3. Druk op F5, selecteer de knop die u hebt toegevoegd en druk vervolgens op Esc.
+3. Selecteer de knop die u hebt toegevoegd terwijl u de Alt-toets ingedrukt houdt.
    
     U hebt zojuist een derde verzameling met de naam **CitiesByCountryFiltered** gemaakt die alleen de landen bevat die een "e" in hun namen hebben (dus niet Duitsland of Frankrijk).
    
@@ -126,13 +126,17 @@ Een van de andere dingen die we met een gegroepeerde tabel kunnen doen, is het s
     ![](media/function-groupby/cities-sum.png)
    
     **[AddColumns](function-table-shaping.md)** start met de basisverzameling **StedenPerLand** en voegt een nieuwe kolom **Totale inwonersaantallen steden** toe.  De waarden van deze kolom worden per rij berekend op basis van de formule **Sum( Cities, Population)**.  **AddColumns** biedt de waarde van de kolom **Steden** (een tabel) voor elke rij en **[Sum](function-aggregates.md)** telt de **Inwonersaantal** voor elke rij van deze subtabel op.
-3. Nu we de som hebben die we willen, kunnen we **[DropColumns](function-table-shaping.md)** gebruiken om de subtabellen te verwijderen.  Wijzig de eigenschap **[OnSelect](../controls/properties-core.md)** om deze formule te gebruiken:
-   
+
+    Nu we de som hebben die we willen, kunnen we **[DropColumns](function-table-shaping.md)** gebruiken om de subtabellen te verwijderen.
+  
+3. Voeg nog een knop toe en stel de eigenschap **[Text](../controls/properties-core.md)** zo in dat de knop **"SumOnly"** weergeeft.
+4. Stel de eigenschap **[OnSelect](../controls/properties-core.md)** van de knop **"SumOnly"** in op deze formule:
+
     **ClearCollect( InwonersaantallenSumOnly, DropColumns( InwonersaantallenSum, "Steden" ) )**
    
     Dit resulteert in:
    
     ![](media/function-groupby/cities-sum-drop-cities.png)
    
-    Merk op dat we de groep in deze tabel niet hoefden op te heffen.
+    Het zal u zijn opgevallen dat we de groep in deze tabel niet hoefden op te heffen.
 
